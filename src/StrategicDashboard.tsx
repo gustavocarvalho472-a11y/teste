@@ -2,12 +2,12 @@ import React, { useState, useMemo } from 'react';
 import { municipalityBudgetData } from './mockData/municipalityData';
 import { ComparisonMode } from './types/municipality';
 import MunicipalityDetailCard from './components/MunicipalityDetailCard';
-import AdvancedFilters from './components/AdvancedFilters';
 import MunicipalityCard from './components/MunicipalityCard';
 import PriorityMunicipalityCard from './components/PriorityMunicipalityCard';
-import MunicipalityComparisonChart from './components/MunicipalityComparisonChart';
+import ComparisonChart from './components/ComparisonChart';
 import { formatCurrency } from './utils';
 import { COPY, formatCopyTemplate } from './constants/copy';
+import { IndicatorType } from './types/budget';
 
 // Paleta roxo e branco elegante
 const COLORS = {
@@ -63,12 +63,15 @@ function StrategicDashboard() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedRegion, setSelectedRegion] = useState('Todos');
   const [sortBy, setSortBy] = useState<'deviation' | 'extra' | 'executed'>('extra');
-  const [chartType, setChartType] = useState<'line' | 'bar'>('line');
-  const [currentPeriod, setCurrentPeriod] = useState<number>(2024);
-  const [comparisonPeriod, setComparisonPeriod] = useState<number>(2020);
-  const [comparisonMetric, setComparisonMetric] = useState<'executed' | 'deviation' | 'extra'>('extra');
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
+
+  // Estados para o gráfico de comparação
+  const [selectedMunicipalityForChart, setSelectedMunicipalityForChart] = useState<string>('São Paulo');
+  const [selectedMonths, setSelectedMonths] = useState<number[]>([1, 2, 3, 4, 5, 6, 7, 8]);
+  const [chartIndicator, setChartIndicator] = useState<IndicatorType>('executed');
+  const [chartCurrentYear, setChartCurrentYear] = useState<number>(2024);
+  const [chartComparisonYear, setChartComparisonYear] = useState<number>(2022);
 
   // Filtragem e ordenação
   const filteredAndSortedMunicipalities = useMemo(() => {
@@ -116,32 +119,58 @@ function StrategicDashboard() {
   // Top 3 para destaque
   const top3 = filteredAndSortedMunicipalities.slice(0, 3);
 
-  // Dados de comparação para o gráfico (Top 10)
-  const comparisonData = useMemo(() => {
-    const getComparison = (m: typeof municipalityBudgetData[0]) => {
-      switch (comparisonMode) {
-        case 'avg-electoral': return m.comparison.avgElectoral;
-        case 'last-electoral': return m.comparison.lastElectoral;
-        case 'avg-all': return m.comparison.avgAll;
-        case 'previous-year': return m.comparison.previousYear;
+  // Município selecionado para o gráfico
+  const selectedMunicipalityData = useMemo(() => {
+    return municipalityBudgetData.find(m => m.name === selectedMunicipalityForChart);
+  }, [selectedMunicipalityForChart]);
+
+  // Converter dados do município para formato mensal para o ComparisonChart
+  const municipalityChartData = useMemo(() => {
+    if (!selectedMunicipalityData || !selectedMunicipalityData.history) {
+      return { current: [], comparison: [] };
+    }
+
+    // Simula dados mensais baseado no total do ano
+    const currentYearData = Array.from({ length: 12 }, (_, i) => {
+      const month = i + 1;
+      const monthData = selectedMunicipalityData.history?.find(h => h.year === chartCurrentYear);
+
+      if (!monthData || !monthData.totalBudget) {
+        return { month, year: chartCurrentYear, planned: 0, executed: 0, available: 0 };
       }
-    };
 
-    return filteredAndSortedMunicipalities.slice(0, 10).map(m => {
-      const comp = getComparison(m);
-
-      // Pegar o valor executado do período de comparação dos dados históricos
-      const comparisonYearData = m.history.find(h => h.year === comparisonPeriod);
-
+      const monthlyPlanned = monthData.totalBudget / 12;
+      const monthlyExecuted = monthData.executed / 12;
       return {
-        name: m.name,
-        executed: comp.executedAmount,
-        reference: comp.referenceAmount,
-        deviation: comp.percentageDeviation,
-        comparisonExecuted: comparisonYearData ? comparisonYearData.executed : undefined
+        month,
+        year: chartCurrentYear,
+        planned: monthlyPlanned,
+        executed: monthlyExecuted,
+        available: monthlyPlanned - monthlyExecuted
       };
     });
-  }, [filteredAndSortedMunicipalities, comparisonMode, comparisonPeriod]);
+
+    const comparisonYearData = Array.from({ length: 12 }, (_, i) => {
+      const month = i + 1;
+      const monthData = selectedMunicipalityData.history?.find(h => h.year === chartComparisonYear);
+
+      if (!monthData || !monthData.totalBudget) {
+        return { month, year: chartComparisonYear, planned: 0, executed: 0, available: 0 };
+      }
+
+      const monthlyPlanned = monthData.totalBudget / 12;
+      const monthlyExecuted = monthData.executed / 12;
+      return {
+        month,
+        year: chartComparisonYear,
+        planned: monthlyPlanned,
+        executed: monthlyExecuted,
+        available: monthlyPlanned - monthlyExecuted
+      };
+    });
+
+    return { current: currentYearData, comparison: comparisonYearData };
+  }, [selectedMunicipalityData, chartCurrentYear, chartComparisonYear]);
 
   // Paginação
   const totalPages = Math.ceil(filteredAndSortedMunicipalities.length / itemsPerPage);
@@ -677,7 +706,7 @@ function StrategicDashboard() {
         )}
       </div>
 
-      {/* Gráfico de Comparação Top 10 */}
+      {/* Gráfico de Comparação Dinâmica */}
       <div style={{ marginBottom: '32px' }}>
         <div style={{
           display: 'flex',
@@ -696,103 +725,70 @@ function StrategicDashboard() {
               alignItems: 'center',
               gap: '12px'
             }}>
-              <span>{COPY.sections.grafico.title}</span>
+              <span className="material-icons" style={{ fontSize: '24px', color: '#6941C6' }}>show_chart</span>
+              <span>Comparação Dinâmica</span>
             </h2>
             <p style={{
               fontSize: '14px',
               color: '#6b7280',
               margin: 0
             }}>
-              {COPY.sections.grafico.subtitle}
+              Selecione um município e compare períodos
             </p>
           </div>
 
-          {/* Seletor de Métrica */}
+          {/* Seletor de Município */}
           <div style={{
             display: 'flex',
-            gap: '8px',
-            backgroundColor: '#ffffff',
-            padding: '6px',
-            borderRadius: '12px',
-            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
-            border: '1px solid #f5edff'
+            alignItems: 'center',
+            gap: '12px'
           }}>
-            <button
-              onClick={() => setComparisonMetric('extra')}
+            <label style={{
+              fontSize: '13px',
+              fontWeight: '600',
+              color: '#6b7280'
+            }}>
+              Município:
+            </label>
+            <select
+              value={selectedMunicipalityForChart}
+              onChange={(e) => setSelectedMunicipalityForChart(e.target.value)}
               style={{
                 padding: '8px 16px',
                 borderRadius: '8px',
-                border: 'none',
-                backgroundColor: comparisonMetric === 'extra' ? '#9755fe' : 'transparent',
-                color: comparisonMetric === 'extra' ? '#ffffff' : '#6b7280',
+                border: '2px solid #e1cdfe',
+                backgroundColor: '#ffffff',
+                color: '#2e3138',
                 fontSize: '13px',
                 fontWeight: '600',
                 cursor: 'pointer',
-                transition: 'all 0.2s'
+                minWidth: '200px'
               }}
             >
-              {COPY.sections.grafico.tabs.extra}
-            </button>
-            <button
-              onClick={() => setComparisonMetric('executed')}
-              style={{
-                padding: '8px 16px',
-                borderRadius: '8px',
-                border: 'none',
-                backgroundColor: comparisonMetric === 'executed' ? '#9755fe' : 'transparent',
-                color: comparisonMetric === 'executed' ? '#ffffff' : '#6b7280',
-                fontSize: '13px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
-              }}
-            >
-              {COPY.sections.grafico.tabs.executed}
-            </button>
-            <button
-              onClick={() => setComparisonMetric('deviation')}
-              style={{
-                padding: '8px 16px',
-                borderRadius: '8px',
-                border: 'none',
-                backgroundColor: comparisonMetric === 'deviation' ? '#9755fe' : 'transparent',
-                color: comparisonMetric === 'deviation' ? '#ffffff' : '#6b7280',
-                fontSize: '13px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                transition: 'all 0.2s'
-              }}
-            >
-              {COPY.sections.grafico.tabs.deviation}
-            </button>
+              {municipalityBudgetData.map(m => (
+                <option key={m.id} value={m.name}>{m.name}</option>
+              ))}
+            </select>
           </div>
         </div>
 
-        <MunicipalityComparisonChart
-          municipalities={comparisonData}
-          metric={comparisonMetric}
-          currentPeriod={currentPeriod}
-          comparisonPeriod={comparisonPeriod}
+        <ComparisonChart
+          currentData={municipalityChartData.current}
+          comparisonData={municipalityChartData.comparison}
+          indicator={chartIndicator}
+          onIndicatorChange={setChartIndicator}
+          selectedMonths={selectedMonths}
+          onMonthToggle={(month) => {
+            setSelectedMonths(prev =>
+              prev.includes(month)
+                ? prev.filter(m => m !== month)
+                : [...prev, month].sort((a, b) => a - b)
+            );
+          }}
+          currentLabel={`${chartCurrentYear}`}
+          comparisonLabel={`${chartComparisonYear} 🗳️`}
         />
       </div>
-
-      {/* Filtros Avançados */}
-      <AdvancedFilters
-        searchTerm={searchTerm}
-        onSearchChange={setSearchTerm}
-        comparisonMode={comparisonMode}
-        onComparisonModeChange={setComparisonMode}
-        selectedRegion={selectedRegion}
-        onRegionChange={setSelectedRegion}
-        sortBy={sortBy}
-        onSortByChange={setSortBy}
-        chartType={chartType}
-        onChartTypeChange={setChartType}
-        currentPeriod={currentPeriod}
-        onCurrentPeriodChange={setCurrentPeriod}
-        comparisonPeriod={comparisonPeriod}
-        onComparisonPeriodChange={setComparisonPeriod}
-      />
 
       {/* Grid de Municípios com Paginação */}
       <div>
@@ -806,16 +802,57 @@ function StrategicDashboard() {
             fontSize: '20px',
             fontWeight: '700',
             color: '#2e3138',
-            margin: 0
+            margin: 0,
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px'
           }}>
-            🏙️ Municípios ({filteredAndSortedMunicipalities.length})
+            <span className="material-icons" style={{ fontSize: '24px', color: '#6941C6' }}>location_city</span>
+            <span>Municípios ({filteredAndSortedMunicipalities.length})</span>
           </h2>
           <div style={{
-            fontSize: '14px',
-            color: '#6b7280',
-            fontWeight: '600'
+            display: 'flex',
+            alignItems: 'center',
+            gap: '16px'
           }}>
-            Página {currentPage} de {totalPages}
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '8px'
+            }}>
+              <label style={{
+                fontSize: '13px',
+                fontWeight: '600',
+                color: '#6b7280'
+              }}>
+                Ordenar:
+              </label>
+              <select
+                value={sortBy}
+                onChange={(e) => setSortBy(e.target.value as 'deviation' | 'extra' | 'executed')}
+                style={{
+                  padding: '8px 16px',
+                  borderRadius: '8px',
+                  border: '2px solid #e1cdfe',
+                  backgroundColor: '#ffffff',
+                  color: '#2e3138',
+                  fontSize: '13px',
+                  fontWeight: '600',
+                  cursor: 'pointer'
+                }}
+              >
+                <option value="extra">Maior verba sobrando</option>
+                <option value="executed">Maior executado</option>
+                <option value="deviation">Maior desvio %</option>
+              </select>
+            </div>
+            <div style={{
+              fontSize: '14px',
+              color: '#6b7280',
+              fontWeight: '600'
+            }}>
+              Página {currentPage} de {totalPages}
+            </div>
           </div>
         </div>
 

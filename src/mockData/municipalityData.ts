@@ -1,7 +1,8 @@
 import { MunicipalityBudget, EntityType } from '../types/municipality';
 
-// Lista de municípios brasileiros para simulação
+// Lista expandida de 100 municípios brasileiros
 const municipalities = [
+  // Capitais e grandes cidades
   { name: 'São Paulo', state: 'SP', region: 'Sudeste', population: 12300000, students: 2200000 },
   { name: 'Rio de Janeiro', state: 'RJ', region: 'Sudeste', population: 6700000, students: 1100000 },
   { name: 'Brasília', state: 'DF', region: 'Centro-Oeste', population: 3000000, students: 550000 },
@@ -12,6 +13,8 @@ const municipalities = [
   { name: 'Curitiba', state: 'PR', region: 'Sul', population: 1900000, students: 350000 },
   { name: 'Recife', state: 'PE', region: 'Nordeste', population: 1600000, students: 310000 },
   { name: 'Porto Alegre', state: 'RS', region: 'Sul', population: 1500000, students: 280000 },
+
+  // Cidades médias e grandes do interior
   { name: 'Goiânia', state: 'GO', region: 'Centro-Oeste', population: 1500000, students: 290000 },
   { name: 'Belém', state: 'PA', region: 'Norte', population: 1500000, students: 300000 },
   { name: 'Guarulhos', state: 'SP', region: 'Sudeste', population: 1400000, students: 270000 },
@@ -21,75 +24,220 @@ const municipalities = [
   { name: 'Maceió', state: 'AL', region: 'Nordeste', population: 1000000, students: 210000 },
   { name: 'Duque de Caxias', state: 'RJ', region: 'Sudeste', population: 920000, students: 180000 },
   { name: 'Natal', state: 'RN', region: 'Nordeste', population: 890000, students: 170000 },
-  { name: 'Teresina', state: 'PI', region: 'Nordeste', population: 860000, students: 180000 }
+  { name: 'Teresina', state: 'PI', region: 'Nordeste', population: 860000, students: 180000 },
+
+  { name: 'Campo Grande', state: 'MS', region: 'Centro-Oeste', population: 900000, students: 175000 },
+  { name: 'João Pessoa', state: 'PB', region: 'Nordeste', population: 820000, students: 160000 },
+  { name: 'Jaboatão', state: 'PE', region: 'Nordeste', population: 710000, students: 145000 },
+  { name: 'Santo André', state: 'SP', region: 'Sudeste', population: 720000, students: 140000 },
+  { name: 'Osasco', state: 'SP', region: 'Sudeste', population: 700000, students: 138000 },
+  { name: 'São Bernardo', state: 'SP', region: 'Sudeste', population: 840000, students: 165000 },
+  { name: 'Uberlândia', state: 'MG', region: 'Sudeste', population: 690000, students: 135000 },
+  { name: 'Contagem', state: 'MG', region: 'Sudeste', population: 670000, students: 132000 },
+  { name: 'Sorocaba', state: 'SP', region: 'Sudeste', population: 680000, students: 133000 },
+  { name: 'Aracaju', state: 'SE', region: 'Nordeste', population: 660000, students: 130000 },
+
+  { name: 'Feira de Santana', state: 'BA', region: 'Nordeste', population: 620000, students: 125000 },
+  { name: 'Joinville', state: 'SC', region: 'Sul', population: 590000, students: 118000 },
+  { name: 'Juiz de Fora', state: 'MG', region: 'Sudeste', population: 570000, students: 115000 },
+  { name: 'Londrina', state: 'PR', region: 'Sul', population: 580000, students: 117000 },
+  { name: 'Aparecida de Goiânia', state: 'GO', region: 'Centro-Oeste', population: 540000, students: 110000 },
+  { name: 'Niterói', state: 'RJ', region: 'Sudeste', population: 510000, students: 105000 },
+  { name: 'Belford Roxo', state: 'RJ', region: 'Sudeste', population: 510000, students: 102000 },
+  { name: 'Caxias do Sul', state: 'RS', region: 'Sul', population: 520000, students: 106000 },
+  { name: 'Campos dos Goytacazes', state: 'RJ', region: 'Sudeste', population: 510000, students: 103000 },
+  { name: 'Macapá', state: 'AP', region: 'Norte', population: 500000, students: 105000 },
+
+  { name: 'São José dos Campos', state: 'SP', region: 'Sudeste', population: 730000, students: 145000 },
+  { name: 'Ribeirão Preto', state: 'SP', region: 'Sudeste', population: 710000, students: 143000 },
+  { name: 'Santos', state: 'SP', region: 'Sudeste', population: 430000, students: 88000 },
+  { name: 'Mauá', state: 'SP', region: 'Sudeste', population: 470000, students: 96000 },
+  { name: 'São José do Rio Preto', state: 'SP', region: 'Sudeste', population: 460000, students: 94000 },
+  { name: 'Mogi das Cruzes', state: 'SP', region: 'Sudeste', population: 450000, students: 92000 },
+  { name: 'Diadema', state: 'SP', region: 'Sudeste', population: 420000, students: 86000 },
+  { name: 'Piracicaba', state: 'SP', region: 'Sudeste', population: 410000, students: 84000 },
+  { name: 'Carapicuíba', state: 'SP', region: 'Sudeste', population: 400000, students: 82000 },
+  { name: 'Bauru', state: 'SP', region: 'Sudeste', population: 380000, students: 78000 },
+
+  { name: 'Montes Claros', state: 'MG', region: 'Sudeste', population: 410000, students: 85000 },
+  { name: 'Vitória', state: 'ES', region: 'Sudeste', population: 370000, students: 76000 },
+  { name: 'Vila Velha', state: 'ES', region: 'Sudeste', population: 500000, students: 102000 },
+  { name: 'Serra', state: 'ES', region: 'Sudeste', population: 520000, students: 106000 },
+  { name: 'Cariacica', state: 'ES', region: 'Sudeste', population: 380000, students: 78000 },
+  { name: 'Vitória da Conquista', state: 'BA', region: 'Nordeste', population: 340000, students: 71000 },
+  { name: 'Caruaru', state: 'PE', region: 'Nordeste', population: 360000, students: 74000 },
+  { name: 'Petrolina', state: 'PE', region: 'Nordeste', population: 350000, students: 73000 },
+  { name: 'Caucaia', state: 'CE', region: 'Nordeste', population: 370000, students: 77000 },
+  { name: 'Juazeiro do Norte', state: 'CE', region: 'Nordeste', population: 280000, students: 59000 },
+
+  { name: 'Maringá', state: 'PR', region: 'Sul', population: 430000, students: 89000 },
+  { name: 'Ponta Grossa', state: 'PR', region: 'Sul', population: 360000, students: 75000 },
+  { name: 'Cascavel', state: 'PR', region: 'Sul', population: 330000, students: 69000 },
+  { name: 'Foz do Iguaçu', state: 'PR', region: 'Sul', population: 260000, students: 55000 },
+  { name: 'Pelotas', state: 'RS', region: 'Sul', population: 340000, students: 71000 },
+  { name: 'Canoas', state: 'RS', region: 'Sul', population: 350000, students: 72000 },
+  { name: 'Santa Maria', state: 'RS', region: 'Sul', population: 280000, students: 59000 },
+  { name: 'Gravataí', state: 'RS', region: 'Sul', population: 280000, students: 58000 },
+  { name: 'Viamão', state: 'RS', region: 'Sul', population: 260000, students: 55000 },
+  { name: 'Novo Hamburgo', state: 'RS', region: 'Sul', population: 250000, students: 52000 },
+
+  { name: 'Blumenau', state: 'SC', region: 'Sul', population: 360000, students: 75000 },
+  { name: 'São José', state: 'SC', region: 'Sul', population: 250000, students: 53000 },
+  { name: 'Chapecó', state: 'SC', region: 'Sul', population: 220000, students: 47000 },
+  { name: 'Florianópolis', state: 'SC', region: 'Sul', population: 510000, students: 105000 },
+  { name: 'Itajaí', state: 'SC', region: 'Sul', population: 220000, students: 46000 },
+  { name: 'Criciúma', state: 'SC', region: 'Sul', population: 210000, students: 45000 },
+  { name: 'Jaraguá do Sul', state: 'SC', region: 'Sul', population: 180000, students: 39000 },
+  { name: 'Lages', state: 'SC', region: 'Sul', population: 160000, students: 35000 },
+  { name: 'Palmas', state: 'TO', region: 'Norte', population: 310000, students: 65000 },
+  { name: 'Porto Velho', state: 'RO', region: 'Norte', population: 540000, students: 112000 },
+
+  { name: 'Rio Branco', state: 'AC', region: 'Norte', population: 410000, students: 86000 },
+  { name: 'Boa Vista', state: 'RR', region: 'Norte', population: 420000, students: 88000 },
+  { name: 'Santarém', state: 'PA', region: 'Norte', population: 310000, students: 66000 },
+  { name: 'Macapá', state: 'AP', region: 'Norte', population: 520000, students: 108000 },
+  { name: 'Ananindeua', state: 'PA', region: 'Norte', population: 530000, students: 110000 },
+  { name: 'Cuiabá', state: 'MT', region: 'Centro-Oeste', population: 620000, students: 128000 },
+  { name: 'Várzea Grande', state: 'MT', region: 'Centro-Oeste', population: 290000, students: 61000 },
+  { name: 'Rondonópolis', state: 'MT', region: 'Centro-Oeste', population: 240000, students: 51000 },
+  { name: 'Anápolis', state: 'GO', region: 'Centro-Oeste', population: 390000, students: 82000 },
+  { name: 'Imperatriz', state: 'MA', region: 'Nordeste', population: 260000, students: 55000 },
+
+  { name: 'Mossoró', state: 'RN', region: 'Nordeste', population: 300000, students: 63000 },
+  { name: 'Parnamirim', state: 'RN', region: 'Nordeste', population: 260000, students: 55000 },
+  { name: 'Campina Grande', state: 'PB', region: 'Nordeste', population: 410000, students: 86000 },
+  { name: 'Olinda', state: 'PE', region: 'Nordeste', population: 390000, students: 82000 },
+  { name: 'Paulista', state: 'PE', region: 'Nordeste', population: 330000, students: 69000 },
+  { name: 'Arapiraca', state: 'AL', region: 'Nordeste', population: 240000, students: 51000 },
+  { name: 'Ilhéus', state: 'BA', region: 'Nordeste', population: 165000, students: 36000 },
+  { name: 'Lauro de Freitas', state: 'BA', region: 'Nordeste', population: 200000, students: 43000 },
+  { name: 'Camaçari', state: 'BA', region: 'Nordeste', population: 300000, students: 63000 }
 ];
 
-// Governos por período
-const getGovernment = (year: number): string => {
-  if (year >= 2023) return 'Lula 3';
-  if (year >= 2019) return 'Bolsonaro';
-  if (year >= 2016) return 'Temer';
-  return 'Dilma';
-};
-
-// Eventos por ano
-const getEvents = (year: number): string[] => {
-  const events: string[] = [];
-  if (year === 2020 || year === 2021) events.push('🦠 Pandemia');
-  if (year % 4 === 0) events.push('🗳️ Eleição Municipal');
-  if (year === 2018 || year === 2022) events.push('🗳️ Eleição Federal');
-  return events;
-};
-
-// Gera dados mock para um município
+// Gera dados mock com SUBEXECUÇÃO garantida
 const generateMunicipalityData = (
   municipality: typeof municipalities[0],
   index: number
 ): MunicipalityBudget => {
-  const years = [2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024];
+  const years = [2020, 2021, 2022, 2023, 2024];
   const currentYear = 2024;
 
-  // Budget base varia por tamanho da cidade
-  const baseBudget = (municipality.population / 1000000) * 1500000000;
+  // Budget base varia por tamanho da cidade (R$ por milhão de habitantes)
+  const baseBudget = (municipality.population / 1000000) * 1200000000;
 
-  // Multipliers específicos para criar anomalias realistas
-  const yearMultipliers: Record<number, number> = {
-    2016: 1.0,
-    2018: 0.92,
-    2019: 1.05,
-    2020: 0.75, // Pandemia - grande corte
-    2021: 0.80, // Pandemia continua
-    2022: 1.10, // Recuperação + eleição
-    2023: 1.08,
-    2024: 0.65 // ANOMALIA: Subexecução severa em ano eleitoral
+  // SUBEXECUÇÃO: Todos gastam menos que deveriam (40% a 85% do orçamento)
+  const executionRates: Record<number, number> = {
+    2020: 0.72, // Pandemia
+    2021: 0.68, // Pandemia continua
+    2022: 0.85, // Eleição - execução maior
+    2023: 0.78, // Pós-eleição
+    2024: 0.55  // SUBEXECUÇÃO FORTE - ano eleitoral com dinheiro sobrando
   };
 
-  // Alguns municípios têm comportamento diferente (para criar ranking diverso)
-  const municipalityVariation = index % 5;
-  let customMultiplier = 1.0;
+  // Cada município tem perfil diferente de subexecução
+  const profile = index % 10;
 
-  if (municipalityVariation === 0) {
-    // Subexecução severa em 2024
-    yearMultipliers[2024] = 0.42;
-  } else if (municipalityVariation === 1) {
-    // Subexecução moderada em 2024
-    yearMultipliers[2024] = 0.58;
-  } else if (municipalityVariation === 2) {
-    // Comportamento normal
-    yearMultipliers[2024] = 0.85;
-  } else if (municipalityVariation === 3) {
-    // Execução acima da média (não prioritário)
-    yearMultipliers[2024] = 0.95;
+  // CARD 1 (index 0): Marcadores BEM PRÓXIMOS - tooltip consolidado (diferença <5%)
+  if (index === 0) {
+    executionRates[2020] = 0.50; // 50%
+    executionRates[2021] = 0.52; // 52% (2% diff)
+    executionRates[2022] = 0.54; // 54% (2% diff)
+    executionRates[2023] = 0.58;
+    executionRates[2024] = 0.45;
+  }
+  // CARD 2 (index 1): Espaçamento OK - tooltips individuais (diferença ~8-10%)
+  else if (index === 1) {
+    executionRates[2020] = 0.35; // 35%
+    executionRates[2021] = 0.44; // 44% (9% diff)
+    executionRates[2022] = 0.54; // 54% (10% diff)
+    executionRates[2023] = 0.60;
+    executionRates[2024] = 0.48;
+  }
+  // CARD 3 (index 2): Espaçamento MAIOR que card 2 - tooltips individuais (diferença ~15-18%)
+  else if (index === 2) {
+    executionRates[2020] = 0.30; // 30%
+    executionRates[2021] = 0.48; // 48% (18% diff)
+    executionRates[2022] = 0.63; // 63% (15% diff)
+    executionRates[2023] = 0.60;
+    executionRates[2024] = 0.48;
+  }
+  else if (profile === 0) {
+    // SUBEXECUÇÃO EXTREMA - marcadores espaçados
+    executionRates[2020] = 0.25;
+    executionRates[2021] = 0.48;
+    executionRates[2022] = 0.70;
+    executionRates[2023] = 0.62;
+    executionRates[2024] = 0.35;
+  } else if (profile === 1) {
+    // SUBEXECUÇÃO SEVERA - marcadores espaçados
+    executionRates[2020] = 0.38;
+    executionRates[2021] = 0.60;
+    executionRates[2022] = 0.78;
+    executionRates[2023] = 0.70;
+    executionRates[2024] = 0.45;
+  } else if (profile === 2) {
+    // SUBEXECUÇÃO ALTA - marcadores espaçados
+    executionRates[2020] = 0.30;
+    executionRates[2021] = 0.55;
+    executionRates[2022] = 0.75;
+    executionRates[2023] = 0.75;
+    executionRates[2024] = 0.55;
+  } else if (profile === 3) {
+    // SUBEXECUÇÃO MODERADA - marcadores espaçados
+    executionRates[2020] = 0.42;
+    executionRates[2021] = 0.65;
+    executionRates[2022] = 0.82;
+    executionRates[2023] = 0.80;
+    executionRates[2024] = 0.65;
+  } else if (profile === 4) {
+    // SUBEXECUÇÃO LEVE - marcadores espaçados
+    executionRates[2020] = 0.50;
+    executionRates[2021] = 0.70;
+    executionRates[2022] = 0.85;
+    executionRates[2023] = 0.85;
+    executionRates[2024] = 0.75;
+  } else if (profile === 5) {
+    // SUBEXECUÇÃO IRREGULAR - marcadores espaçados
+    executionRates[2020] = 0.28;
+    executionRates[2021] = 0.52;
+    executionRates[2022] = 0.78;
+    executionRates[2023] = 0.72;
+    executionRates[2024] = 0.58;
+  } else if (profile === 6) {
+    // SUBEXECUÇÃO CRÍTICA - marcadores espaçados
+    executionRates[2020] = 0.22;
+    executionRates[2021] = 0.45;
+    executionRates[2022] = 0.68;
+    executionRates[2023] = 0.65;
+    executionRates[2024] = 0.38;
+  } else if (profile === 7) {
+    // SUBEXECUÇÃO MÉDIA - marcadores espaçados
+    executionRates[2020] = 0.35;
+    executionRates[2021] = 0.58;
+    executionRates[2022] = 0.80;
+    executionRates[2023] = 0.77;
+    executionRates[2024] = 0.62;
+  } else if (profile === 8) {
+    // SUBEXECUÇÃO VARIÁVEL - marcadores espaçados
+    executionRates[2020] = 0.32;
+    executionRates[2021] = 0.57;
+    executionRates[2022] = 0.73;
+    executionRates[2023] = 0.73;
+    executionRates[2024] = 0.58;
   } else {
-    // Subexecução crítica
-    yearMultipliers[2024] = 0.38;
+    // SUBEXECUÇÃO CONSTANTE - marcadores espaçados
+    executionRates[2020] = 0.40;
+    executionRates[2021] = 0.62;
+    executionRates[2022] = 0.76;
+    executionRates[2023] = 0.68;
+    executionRates[2024] = 0.55;
   }
 
   // Gera histórico
   const history = years.map(year => {
-    const yearBudget = baseBudget * (1 + (year - 2016) * 0.05);
-    const multiplier = yearMultipliers[year] || 1.0;
-    const executed = yearBudget * multiplier;
+    const yearBudget = baseBudget * (1 + (year - 2020) * 0.06); // Crescimento anual
+    const executionRate = executionRates[year] || 0.75;
+    const executed = yearBudget * executionRate;
     const available = yearBudget - executed;
 
     return {
@@ -97,8 +245,8 @@ const generateMunicipalityData = (
       totalBudget: yearBudget,
       executed,
       available,
-      executionRate: (executed / yearBudget) * 100,
-      isElectionYear: year % 4 === 0 || year === 2018 || year === 2022
+      executionRate: executionRate * 100,
+      isElectionYear: year % 4 === 0 || year === 2022
     };
   });
 
@@ -107,76 +255,60 @@ const generateMunicipalityData = (
 
   // Calcula comparações
   const electoralYears = history.filter(h => h.isElectionYear && h.year < currentYear);
-  const avgElectoralExecution = electoralYears.reduce((sum, h) => sum + h.executionRate, 0) / electoralYears.length;
   const avgElectoralValue = electoralYears.reduce((sum, h) => sum + h.executed, 0) / electoralYears.length;
-
   const lastElectoral = electoralYears[electoralYears.length - 1];
-
   const allYears = history.filter(h => h.year < currentYear);
-  const avgAllExecution = allYears.reduce((sum, h) => sum + h.executionRate, 0) / allYears.length;
   const avgAllValue = allYears.reduce((sum, h) => sum + h.executed, 0) / allYears.length;
-
   const previousYear = history.find(h => h.year === currentYear - 1)!;
 
-  // Calcula métricas de comparação
+  // Função para calcular comparação
   const calculateComparison = (referenceValue: number, referencePeriod: string) => {
-    const difference = current.executed - referenceValue;
-    const percentageDiff = (difference / referenceValue) * 100;
+    const percentageDeviation = ((current.executed - referenceValue) / referenceValue) * 100;
 
-    // Dinheiro extra sobrando (valor negativo de difference significa menos gasto)
-    const referenceAvailable = current.totalBudget - referenceValue;
-    const extraAvailable = current.available - referenceAvailable;
-
-    const isAnomaly = Math.abs(percentageDiff) > 15;
-    const severity: 'critical' | 'moderate' | 'normal' =
-      Math.abs(percentageDiff) > 30 ? 'critical' :
-      Math.abs(percentageDiff) > 15 ? 'moderate' : 'normal';
+    // Severidade baseada no desvio negativo (quanto mais negativo, mais crítico)
+    let severity: 'critical' | 'high' | 'moderate' | 'normal' = 'normal';
+    if (percentageDeviation < -50) severity = 'critical';
+    else if (percentageDeviation < -35) severity = 'high';
+    else if (percentageDeviation < -20) severity = 'moderate';
 
     return {
-      referenceValue,
+      referenceAmount: referenceValue,
       referencePeriod,
-      currentValue: current.executed,
-      difference,
-      percentageDiff,
-      extraAvailable,
-      isAnomaly,
+      executedAmount: current.executed,
+      percentageDeviation,
+      isAnomaly: Math.abs(percentageDeviation) > 15,
       severity
     };
   };
 
-  // Calcula severity score (prioriza quem tem mais dinheiro sobrando vs média)
-  const avgElectoralComparison = calculateComparison(avgElectoralValue, 'Média Eleitorais');
-  const severityScore = Math.min(100, Math.max(0,
-    (Math.abs(avgElectoralComparison.percentageDiff) * 2) +
-    (avgElectoralComparison.extraAvailable > 0 ? 20 : 0)
-  ));
+  // Score de severidade (quanto maior, mais prioritário)
+  const avgDeviation = ((current.executed - avgElectoralValue) / avgElectoralValue) * 100;
+  const severityScore = Math.min(100, Math.max(0, Math.abs(avgDeviation)));
 
   return {
     id: `mun-${index}`,
     name: municipality.name,
     state: municipality.state,
     region: municipality.region,
-    type: 'municipality',
+    type: 'municipality' as EntityType,
     currentYear,
     totalBudget: current.totalBudget,
     executed: current.executed,
     available: current.available,
     executionRate: current.executionRate,
-    history,
-    comparison: {
-      avgElectoral: calculateComparison(avgElectoralValue, `Média ${electoralYears[0].year}-${electoralYears[electoralYears.length - 1].year}`),
-      lastElectoral: calculateComparison(lastElectoral.executed, lastElectoral.year.toString()),
-      avgAll: calculateComparison(avgAllValue, 'Média Geral'),
-      previousYear: calculateComparison(previousYear.executed, previousYear.year.toString())
-    },
-    isElectionYear: currentYear % 4 === 0,
-    government: getGovernment(currentYear),
-    events: getEvents(currentYear),
     population: municipality.population,
     students: municipality.students,
-    severityScore
+    history,
+    comparison: {
+      avgElectoral: calculateComparison(avgElectoralValue, 'Média dos Anos Eleitorais'),
+      lastElectoral: calculateComparison(lastElectoral.executed, 'Último Ano Eleitoral (2022)'),
+      avgAll: calculateComparison(avgAllValue, 'Média de Todos os Anos'),
+      previousYear: calculateComparison(previousYear.executed, 'Ano Anterior (2023)')
+    },
+    severityScore,
+    government: 'Lula 3',
+    events: ['🗳️ Eleição Municipal']
   };
 };
 
-// Gera todos os dados
 export const municipalityBudgetData: MunicipalityBudget[] = municipalities.map(generateMunicipalityData);

@@ -139,6 +139,15 @@ const MunicipalityRankingTable: React.FC<MunicipalityRankingTableProps> = ({
           <tbody>
             {municipalities.map((mun, index) => {
               const comparison = getComparison(mun);
+
+              // Garantir valores válidos
+              if (!comparison || comparison.executedAmount === undefined || comparison.referenceAmount === undefined) {
+                return null;
+              }
+
+              const extraAvailable = comparison.referenceAmount - comparison.executedAmount;
+              const percentageDiff = comparison.percentageDeviation;
+
               const isExpanded = expandedRow === mun.id;
               const severityColor = comparison.severity === 'critical' ? '#ef4444' :
                                    comparison.severity === 'moderate' ? '#f59e0b' : '#10b981';
@@ -189,7 +198,7 @@ const MunicipalityRankingTable: React.FC<MunicipalityRankingTableProps> = ({
                       fontWeight: '700',
                       color: '#ef4444'
                     }}>
-                      {formatCurrency(comparison.extraAvailable, true)}
+                      {formatCurrency(extraAvailable, true)}
                     </td>
                     <td style={{
                       padding: '16px 20px',
@@ -205,9 +214,9 @@ const MunicipalityRankingTable: React.FC<MunicipalityRankingTableProps> = ({
                       textAlign: 'right',
                       fontSize: '14px',
                       fontWeight: '700',
-                      color: comparison.difference < 0 ? '#ef4444' : '#10b981'
+                      color: percentageDiff < 0 ? '#10b981' : '#ef4444'
                     }}>
-                      {comparison.percentageDiff.toFixed(1)}%
+                      {percentageDiff.toFixed(1)}%
                     </td>
                     <td style={{
                       padding: '16px 20px',
@@ -333,14 +342,14 @@ const MunicipalityRankingTable: React.FC<MunicipalityRankingTableProps> = ({
                               color: '#5219a1',
                               marginBottom: '6px'
                             }}>
-                              Referência ({comparison.referencePeriod})
+                              Referência
                             </div>
                             <div style={{
                               fontSize: '18px',
                               fontWeight: '700',
                               color: '#2e3138'
                             }}>
-                              {formatCurrency(comparison.referenceValue, true)}
+                              {formatCurrency(comparison.referenceAmount, true)}
                             </div>
                           </div>
                         </div>

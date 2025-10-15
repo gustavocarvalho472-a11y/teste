@@ -54,14 +54,20 @@ export interface YearlyBudget {
 }
 
 export interface ComparisonMetrics {
-  referenceValue: number; // Valor de referência (média/último período)
-  referencePeriod: string; // "2020" ou "Média 2016-2020"
-  currentValue: number;
-  difference: number; // Diferença em R$
-  percentageDiff: number; // Diferença em %
-  extraAvailable: number; // Dinheiro extra sobrando
-  isAnomaly: boolean; // Se está fora do padrão
-  severity: 'critical' | 'moderate' | 'normal'; // Severidade da anomalia
+  // Nova estrutura
+  executedAmount: number; // Valor executado atual
+  referenceAmount: number; // Valor de referência para comparação
+  percentageDeviation: number; // Desvio percentual (negativo = subexecução)
+  severity: 'critical' | 'high' | 'moderate' | 'normal'; // Severidade
+
+  // Propriedades legadas (para compatibilidade)
+  referenceValue?: number;
+  referencePeriod?: string;
+  currentValue?: number;
+  difference?: number;
+  percentageDiff?: number;
+  extraAvailable?: number;
+  isAnomaly?: boolean;
 }
 
 export interface RankingFilters {

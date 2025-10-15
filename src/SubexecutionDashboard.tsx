@@ -56,7 +56,7 @@ function SubexecutionDashboard() {
   // Top 3 para destaque
   const top3 = filteredAndSortedMunicipalities.slice(0, 3);
 
-  // Estatísticas gerais
+  // Estatísticas gerais detalhadas
   const stats = useMemo(() => {
     const getComparison = (mun: typeof filteredAndSortedMunicipalities[0]) => {
       switch (comparisonMode) {
@@ -68,16 +68,54 @@ function SubexecutionDashboard() {
     };
 
     const totalExtra = filteredAndSortedMunicipalities.reduce((sum, m) => {
-      return sum + getComparison(m).extraAvailable;
+      const comp = getComparison(m);
+      return sum + (comp.referenceAmount - comp.executedAmount);
     }, 0);
 
+    const totalBudget = filteredAndSortedMunicipalities.reduce((sum, m) => sum + m.totalBudget, 0);
+    const totalExecuted = filteredAndSortedMunicipalities.reduce((sum, m) => sum + m.executed, 0);
+
     const avgDeviation = filteredAndSortedMunicipalities.reduce((sum, m) => {
-      return sum + Math.abs(getComparison(m).percentageDiff);
-    }, 0) / filteredAndSortedMunicipalities.length;
+      return sum + Math.abs(getComparison(m).percentageDeviation);
+    }, 0) / (filteredAndSortedMunicipalities.length || 1);
+
+    // Contar por severidade
+    const critical = filteredAndSortedMunicipalities.filter(m => getComparison(m).severity === 'critical').length;
+    const high = filteredAndSortedMunicipalities.filter(m => getComparison(m).severity === 'high').length;
+    const moderate = filteredAndSortedMunicipalities.filter(m => getComparison(m).severity === 'moderate').length;
+
+    // Ranking por estado
+    const byState = filteredAndSortedMunicipalities.reduce((acc, m) => {
+      if (!acc[m.state]) {
+        acc[m.state] = { count: 0, totalExtra: 0, totalBudget: 0 };
+      }
+      acc[m.state].count++;
+      acc[m.state].totalExtra += (getComparison(m).referenceAmount - getComparison(m).executedAmount);
+      acc[m.state].totalBudget += m.totalBudget;
+      return acc;
+    }, {} as Record<string, { count: number; totalExtra: number; totalBudget: number }>);
+
+    const stateRanking = Object.entries(byState)
+      .map(([state, data]) => ({
+        state,
+        count: data.count,
+        totalExtra: data.totalExtra,
+        avgExtra: data.totalExtra / data.count,
+        totalBudget: data.totalBudget
+      }))
+      .sort((a, b) => b.totalExtra - a.totalExtra)
+      .slice(0, 5);
 
     return {
       totalExtra,
-      avgDeviation
+      totalBudget,
+      totalExecuted,
+      avgDeviation,
+      critical,
+      high,
+      moderate,
+      stateRanking,
+      executionRate: (totalExecuted / totalBudget) * 100
     };
   }, [filteredAndSortedMunicipalities, comparisonMode]);
 
@@ -127,35 +165,86 @@ function SubexecutionDashboard() {
           </p>
         </div>
 
-        {/* Stats Grid */}
+        {/* Stats Grid - Principal */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-          gap: '20px'
+          gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+          gap: '16px',
+          marginBottom: '16px'
         }}>
           <div style={{
-            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+            backgroundColor: 'rgba(16, 185, 129, 0.15)',
             borderRadius: '12px',
             padding: '20px',
-            border: '1px solid rgba(255, 255, 255, 0.15)',
+            border: '2px solid rgba(16, 185, 129, 0.3)',
             backdropFilter: 'blur(10px)'
           }}>
             <div style={{
-              fontSize: '12px',
-              fontWeight: '600',
-              color: '#d1b3ff',
+              fontSize: '11px',
+              fontWeight: '700',
+              color: '#6ee7b7',
               marginBottom: '8px',
-              textTransform: 'uppercase'
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
             }}>
-              💰 Total Extra Sobrando
+              💰 Total Disponível (Sobra)
             </div>
             <div style={{
-              fontSize: '32px',
+              fontSize: '36px',
               fontWeight: '700',
               color: '#ffffff',
-              lineHeight: '1'
+              lineHeight: '1',
+              marginBottom: '8px'
             }}>
               {formatCurrency(stats.totalExtra, true)}
+            </div>
+            <div style={{
+              fontSize: '12px',
+              color: '#a7f3d0',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <span>📈</span>
+              <span>de {formatCurrency(stats.totalBudget, true)} orçado</span>
+            </div>
+          </div>
+
+          <div style={{
+            backgroundColor: 'rgba(59, 130, 246, 0.15)',
+            borderRadius: '12px',
+            padding: '20px',
+            border: '2px solid rgba(59, 130, 246, 0.3)',
+            backdropFilter: 'blur(10px)'
+          }}>
+            <div style={{
+              fontSize: '11px',
+              fontWeight: '700',
+              color: '#93c5fd',
+              marginBottom: '8px',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
+            }}>
+              📊 Taxa de Execução Média
+            </div>
+            <div style={{
+              fontSize: '36px',
+              fontWeight: '700',
+              color: '#ffffff',
+              lineHeight: '1',
+              marginBottom: '8px'
+            }}>
+              {stats.executionRate.toFixed(1)}%
+            </div>
+            <div style={{
+              fontSize: '12px',
+              color: '#bfdbfe',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <span>💡</span>
+              <span>{formatCurrency(stats.totalExecuted, true)} executado</span>
             </div>
           </div>
 
@@ -163,52 +252,139 @@ function SubexecutionDashboard() {
             backgroundColor: 'rgba(239, 68, 68, 0.15)',
             borderRadius: '12px',
             padding: '20px',
-            border: '1px solid rgba(239, 68, 68, 0.3)',
+            border: '2px solid rgba(239, 68, 68, 0.3)',
             backdropFilter: 'blur(10px)'
           }}>
             <div style={{
-              fontSize: '12px',
-              fontWeight: '600',
+              fontSize: '11px',
+              fontWeight: '700',
               color: '#fca5a5',
               marginBottom: '8px',
-              textTransform: 'uppercase'
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
             }}>
-              🚨 Com Anomalia
+              🚨 Desvio do Padrão
             </div>
             <div style={{
-              fontSize: '32px',
+              fontSize: '36px',
               fontWeight: '700',
               color: '#ffffff',
-              lineHeight: '1'
+              lineHeight: '1',
+              marginBottom: '8px'
             }}>
-              {anomalyCount}
+              {stats.avgDeviation.toFixed(1)}%
+            </div>
+            <div style={{
+              fontSize: '12px',
+              color: '#fecaca',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <span>⚠️</span>
+              <span>{stats.critical} críticos, {stats.high} altos</span>
             </div>
           </div>
 
           <div style={{
-            backgroundColor: 'rgba(151, 85, 254, 0.15)',
+            backgroundColor: 'rgba(168, 85, 247, 0.15)',
             borderRadius: '12px',
             padding: '20px',
-            border: '1px solid rgba(151, 85, 254, 0.3)',
+            border: '2px solid rgba(168, 85, 247, 0.3)',
             backdropFilter: 'blur(10px)'
           }}>
             <div style={{
-              fontSize: '12px',
-              fontWeight: '600',
-              color: '#d1b3ff',
+              fontSize: '11px',
+              fontWeight: '700',
+              color: '#d8b4fe',
               marginBottom: '8px',
-              textTransform: 'uppercase'
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
             }}>
-              📊 Desvio Médio
+              📍 Municípios Analisados
             </div>
             <div style={{
-              fontSize: '32px',
+              fontSize: '36px',
               fontWeight: '700',
               color: '#ffffff',
-              lineHeight: '1'
+              lineHeight: '1',
+              marginBottom: '8px'
             }}>
-              {stats.avgDeviation.toFixed(1)}%
+              {filteredAndSortedMunicipalities.length}
             </div>
+            <div style={{
+              fontSize: '12px',
+              color: '#e9d5ff',
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px'
+            }}>
+              <span>🗺️</span>
+              <span>{stats.stateRanking.length} estados diferentes</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Ranking de Estados */}
+        <div style={{
+          backgroundColor: 'rgba(255, 255, 255, 0.08)',
+          borderRadius: '12px',
+          padding: '20px',
+          border: '1px solid rgba(255, 255, 255, 0.12)',
+          backdropFilter: 'blur(10px)'
+        }}>
+          <div style={{
+            fontSize: '13px',
+            fontWeight: '700',
+            color: '#ffffff',
+            marginBottom: '16px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px'
+          }}>
+            <span>🏆</span>
+            <span>Top 5 Estados com Maior Subexecução</span>
+          </div>
+          <div style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
+            gap: '12px'
+          }}>
+            {stats.stateRanking.map((state, index) => (
+              <div key={state.state} style={{
+                backgroundColor: 'rgba(255, 255, 255, 0.05)',
+                borderRadius: '8px',
+                padding: '12px',
+                border: '1px solid rgba(255, 255, 255, 0.1)'
+              }}>
+                <div style={{
+                  fontSize: '11px',
+                  color: '#d1b3ff',
+                  fontWeight: '600',
+                  marginBottom: '4px',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}>
+                  <span>{index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `${index + 1}º`}</span>
+                  <span>{state.state}</span>
+                </div>
+                <div style={{
+                  fontSize: '18px',
+                  fontWeight: '700',
+                  color: '#ffffff',
+                  marginBottom: '2px'
+                }}>
+                  {formatCurrency(state.totalExtra, true)}
+                </div>
+                <div style={{
+                  fontSize: '10px',
+                  color: '#ba90fc'
+                }}>
+                  {state.count} município{state.count > 1 ? 's' : ''}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>

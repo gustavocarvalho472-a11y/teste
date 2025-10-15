@@ -2,11 +2,15 @@ import React, { useState } from 'react';
 import App from './App';
 import AnomalyDashboard from './AnomalyDashboard';
 import SubexecutionDashboard from './SubexecutionDashboard';
+import AdvancedAnalysisDashboard from './AdvancedAnalysisDashboard';
+import MunicipalityDetailDashboard from './MunicipalityDetailDashboard';
+import StrategicDashboard from './StrategicDashboard';
+import OportunidadesPage from './OportunidadesPage';
 
-type DashboardView = 'main' | 'anomaly' | 'subexecution';
+type DashboardView = 'main' | 'anomaly' | 'subexecution' | 'advanced' | 'detail' | 'strategic' | 'oportunidades';
 
 function MainApp() {
-  const [currentView, setCurrentView] = useState<DashboardView>('subexecution');
+  const [currentView, setCurrentView] = useState<DashboardView>('strategic');
 
   return (
     <div>
@@ -44,23 +48,116 @@ function MainApp() {
           {/* Navigation Buttons */}
           <div style={{
             display: 'flex',
-            gap: '12px'
+            gap: '8px'
           }}>
             <button
-              onClick={() => setCurrentView('subexecution')}
+              onClick={() => setCurrentView('strategic')}
               style={{
-                padding: '10px 20px',
+                padding: '10px 16px',
                 borderRadius: '8px',
                 border: 'none',
-                backgroundColor: currentView === 'subexecution' ? '#9755fe' : 'transparent',
+                backgroundColor: currentView === 'strategic' ? '#9755fe' : 'transparent',
                 color: '#ffffff',
-                fontSize: '14px',
+                fontSize: '13px',
                 fontWeight: '600',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '8px'
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'strategic') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'strategic') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>⚡</span>
+              <span>Painel Estratégico</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentView('detail')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'detail' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'detail') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'detail') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>🏛️</span>
+              <span>Drill-Down</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentView('advanced')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'advanced' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'advanced') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'advanced') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>🧠</span>
+              <span>ML</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentView('subexecution')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'subexecution' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
               }}
               onMouseEnter={(e) => {
                 if (currentView !== 'subexecution') {
@@ -74,24 +171,24 @@ function MainApp() {
               }}
             >
               <span>🎯</span>
-              <span>Ranking Subexecução</span>
+              <span>Ranking</span>
             </button>
 
             <button
               onClick={() => setCurrentView('anomaly')}
               style={{
-                padding: '10px 20px',
+                padding: '10px 16px',
                 borderRadius: '8px',
                 border: 'none',
                 backgroundColor: currentView === 'anomaly' ? '#9755fe' : 'transparent',
                 color: '#ffffff',
-                fontSize: '14px',
+                fontSize: '13px',
                 fontWeight: '600',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '8px'
+                gap: '6px'
               }}
               onMouseEnter={(e) => {
                 if (currentView !== 'anomaly') {
@@ -105,24 +202,55 @@ function MainApp() {
               }}
             >
               <span>🚨</span>
-              <span>Análise de Anomalias</span>
+              <span>Anomalias</span>
             </button>
 
             <button
-              onClick={() => setCurrentView('main')}
+              onClick={() => setCurrentView('oportunidades')}
               style={{
-                padding: '10px 20px',
+                padding: '10px 16px',
                 borderRadius: '8px',
                 border: 'none',
-                backgroundColor: currentView === 'main' ? '#9755fe' : 'transparent',
+                backgroundColor: currentView === 'oportunidades' ? '#9755fe' : 'transparent',
                 color: '#ffffff',
-                fontSize: '14px',
+                fontSize: '13px',
                 fontWeight: '600',
                 cursor: 'pointer',
                 transition: 'all 0.2s',
                 display: 'flex',
                 alignItems: 'center',
-                gap: '8px'
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'oportunidades') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'oportunidades') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>💎</span>
+              <span>Oportunidades</span>
+            </button>
+
+            <button
+              onClick={() => setCurrentView('main')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'main' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
               }}
               onMouseEnter={(e) => {
                 if (currentView !== 'main') {
@@ -136,7 +264,7 @@ function MainApp() {
               }}
             >
               <span>📈</span>
-              <span>Dashboard Principal</span>
+              <span>Principal</span>
             </button>
           </div>
         </div>
@@ -144,8 +272,12 @@ function MainApp() {
 
       {/* Content Area with padding for fixed menu */}
       <div style={{ paddingTop: '72px' }}>
+        {currentView === 'strategic' && <StrategicDashboard />}
+        {currentView === 'detail' && <MunicipalityDetailDashboard />}
+        {currentView === 'advanced' && <AdvancedAnalysisDashboard />}
         {currentView === 'subexecution' && <SubexecutionDashboard />}
         {currentView === 'anomaly' && <AnomalyDashboard />}
+        {currentView === 'oportunidades' && <OportunidadesPage />}
         {currentView === 'main' && <App />}
       </div>
     </div>

@@ -23,6 +23,16 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
   };
 
   const comparison = getComparison();
+
+  // Garantir valores válidos
+  if (!comparison || comparison.executedAmount === undefined || comparison.referenceAmount === undefined) {
+    return null;
+  }
+
+  const extraAvailable = comparison.referenceAmount - comparison.executedAmount;
+  const percentageDiff = comparison.percentageDeviation;
+  const difference = comparison.referenceAmount - comparison.executedAmount;
+
   const severityColor = comparison.severity === 'critical' ? '#ef4444' :
                        comparison.severity === 'moderate' ? '#f59e0b' : '#10b981';
 
@@ -142,13 +152,13 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
             color: '#dc2626',
             marginBottom: '4px'
           }}>
-            {formatCurrency(comparison.extraAvailable, true)}
+            {formatCurrency(extraAvailable, true)}
           </div>
           <div style={{
             fontSize: '11px',
             color: '#991b1b'
           }}>
-            vs {comparison.referencePeriod}
+            vs Referência
           </div>
         </div>
 
@@ -196,7 +206,7 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
           color: '#5219a1',
           marginBottom: '12px'
         }}>
-          Comparação vs {comparison.referencePeriod}
+          Comparação vs Referência
         </div>
         <div style={{
           display: 'flex',
@@ -206,7 +216,7 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
         }}>
           <span style={{ color: '#6b7280' }}>Referência:</span>
           <span style={{ fontWeight: '600', color: '#2e3138' }}>
-            {formatCurrency(comparison.referenceValue, true)}
+            {formatCurrency(comparison.referenceAmount, true)}
           </span>
         </div>
         <div style={{
@@ -215,9 +225,9 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
           marginBottom: '8px',
           fontSize: '13px'
         }}>
-          <span style={{ color: '#6b7280' }}>Atual:</span>
+          <span style={{ color: '#6b7280' }}>Executado:</span>
           <span style={{ fontWeight: '600', color: '#2e3138' }}>
-            {formatCurrency(comparison.currentValue, true)}
+            {formatCurrency(comparison.executedAmount, true)}
           </span>
         </div>
         <div style={{
@@ -227,13 +237,13 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
           paddingTop: '8px',
           borderTop: '1px solid #e1cdfe'
         }}>
-          <span style={{ color: '#6b7280', fontWeight: '600' }}>Variação:</span>
+          <span style={{ color: '#6b7280', fontWeight: '600' }}>Desvio:</span>
           <span style={{
             fontWeight: '700',
-            color: comparison.difference < 0 ? '#ef4444' : '#10b981',
+            color: percentageDiff < 0 ? '#10b981' : '#ef4444',
             fontSize: '14px'
           }}>
-            {comparison.percentageDiff.toFixed(1)}%
+            {percentageDiff.toFixed(1)}%
           </span>
         </div>
       </div>
@@ -267,28 +277,28 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
       {/* Análise */}
       <div style={{
         padding: '12px',
-        backgroundColor: comparison.difference < 0 ? '#fee2e2' : '#d1fae5',
+        backgroundColor: percentageDiff < 0 ? '#fee2e2' : '#d1fae5',
         borderRadius: '6px',
-        border: `1px solid ${comparison.difference < 0 ? '#fca5a5' : '#86efac'}`
+        border: `1px solid ${percentageDiff < 0 ? '#fca5a5' : '#86efac'}`
       }}>
         <div style={{
           fontSize: '11px',
           fontWeight: '600',
-          color: comparison.difference < 0 ? '#991b1b' : '#065f46',
+          color: percentageDiff < 0 ? '#991b1b' : '#065f46',
           marginBottom: '4px'
         }}>
           💡 Análise Rápida
         </div>
         <div style={{
           fontSize: '12px',
-          color: comparison.difference < 0 ? '#991b1b' : '#065f46',
+          color: percentageDiff < 0 ? '#991b1b' : '#065f46',
           lineHeight: '1.5'
         }}>
-          {comparison.severity === 'critical' && comparison.difference < 0 &&
-            `Subexecução crítica de ${Math.abs(comparison.percentageDiff).toFixed(1)}%. Há ${formatCurrency(comparison.extraAvailable, true)} a mais sobrando que o esperado.`
+          {comparison.severity === 'critical' && percentageDiff < 0 &&
+            `Subexecução crítica de ${Math.abs(percentageDiff).toFixed(1)}%. Há ${formatCurrency(extraAvailable, true)} a mais sobrando que o esperado.`
           }
-          {comparison.severity === 'moderate' && comparison.difference < 0 &&
-            `Subexecução moderada de ${Math.abs(comparison.percentageDiff).toFixed(1)}%. Recurso disponível acima do padrão histórico.`
+          {comparison.severity === 'moderate' && percentageDiff < 0 &&
+            `Subexecução moderada de ${Math.abs(percentageDiff).toFixed(1)}%. Recurso disponível acima do padrão histórico.`
           }
           {comparison.severity === 'normal' &&
             `Execução dentro da normalidade esperada para o período.`

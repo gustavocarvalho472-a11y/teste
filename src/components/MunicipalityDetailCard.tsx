@@ -45,14 +45,12 @@ const MunicipalityDetailCard: React.FC<MunicipalityDetailCardProps> = ({
         transition: 'all 0.3s'
       }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.transform = 'translateY(-4px)';
-        e.currentTarget.style.boxShadow = '0 8px 20px rgba(151, 85, 254, 0.2)';
-        e.currentTarget.style.borderColor = '#9755fe';
+        e.currentTarget.style.transform = 'translateY(-2px)';
+        e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.08)';
       }}
       onMouseLeave={(e) => {
         e.currentTarget.style.transform = 'translateY(0)';
         e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.08)';
-        e.currentTarget.style.borderColor = '#f5edff';
       }}
     >
       {/* Header */}
@@ -80,18 +78,6 @@ const MunicipalityDetailCard: React.FC<MunicipalityDetailCardProps> = ({
           }}>
             {municipality.state} · {municipality.region}
           </div>
-        </div>
-        <div style={{
-          padding: '6px 12px',
-          backgroundColor: '#f9f4ff',
-          borderRadius: '6px',
-          fontSize: '12px',
-          fontWeight: '600',
-          color: '#5219a1'
-        }}>
-          {comparison.severity === 'critical' ? '🔴 Crítico' :
-           comparison.severity === 'high' ? '🟠 Alto' :
-           comparison.severity === 'moderate' ? '🟡 Moderado' : '🟢 Leve'}
         </div>
       </div>
 
@@ -186,7 +172,7 @@ const MunicipalityDetailCard: React.FC<MunicipalityDetailCardProps> = ({
           <div style={{
             width: `${Math.min(percentExecuted, 100)}%`,
             height: '100%',
-            backgroundColor: percentExecuted < 80 ? '#10b981' : percentExecuted < 95 ? '#f59e0b' : '#9755fe',
+            background: 'linear-gradient(90deg, #7C3AED 0%, #9E77ED 100%)',
             transition: 'width 0.5s'
           }} />
         </div>

@@ -177,17 +177,8 @@ const PriorityMunicipalityCard: React.FC<PriorityMunicipalityCardProps> = ({
           border: '1px solid #f1f5f9'
         }}>
           <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '8px',
             marginBottom: '12px'
           }}>
-            <div style={{
-              width: '3px',
-              height: '16px',
-              borderRadius: '2px',
-              backgroundColor: '#10b981'
-            }} />
             <div style={{
               fontSize: '11px',
               fontWeight: '600',

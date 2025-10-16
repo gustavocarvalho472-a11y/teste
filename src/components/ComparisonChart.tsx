@@ -21,6 +21,12 @@ ChartJS.register(
   Legend
 );
 
+interface Municipality {
+  id: string;
+  name: string;
+  [key: string]: any;
+}
+
 interface ComparisonChartProps {
   currentData: BudgetData[];
   comparisonData: BudgetData[];
@@ -30,6 +36,13 @@ interface ComparisonChartProps {
   onMonthToggle: (month: number) => void;
   currentLabel: string;
   comparisonLabel: string;
+  currentPeriod: number;
+  comparisonPeriod: string;
+  onCurrentPeriodChange: (period: number) => void;
+  onComparisonPeriodChange: (period: string) => void;
+  selectedMunicipality: string;
+  onMunicipalityChange: (municipality: string) => void;
+  municipalities: Municipality[];
 }
 
 const ComparisonChart: React.FC<ComparisonChartProps> = ({
@@ -40,7 +53,14 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
   onIndicatorChange,
   onMonthToggle,
   currentLabel,
-  comparisonLabel
+  comparisonLabel,
+  currentPeriod,
+  comparisonPeriod,
+  onCurrentPeriodChange,
+  onComparisonPeriodChange,
+  selectedMunicipality,
+  onMunicipalityChange,
+  municipalities
 }) => {
   const getValueByIndicator = (data: BudgetData): number => {
     switch (indicator) {
@@ -74,14 +94,16 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
         {
           label: currentLabel,
           data: currentValues,
-          backgroundColor: '#9755fe',
-          borderRadius: 6,
+          backgroundColor: 'rgba(124, 58, 237, 0.7)',
+          borderRadius: 8,
+          borderWidth: 0,
         },
         {
           label: comparisonLabel,
           data: comparisonValues,
-          backgroundColor: '#d1b3ff',
-          borderRadius: 6,
+          backgroundColor: 'rgba(196, 181, 253, 0.6)',
+          borderRadius: 8,
+          borderWidth: 0,
         }
       ]
     };
@@ -131,7 +153,8 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
           }
         },
         grid: {
-          color: '#f5edff'
+          color: 'rgba(124, 58, 237, 0.08)',
+          lineWidth: 1
         }
       },
       x: {
@@ -162,35 +185,119 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
       borderRadius: '12px',
       padding: '24px',
       boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
-      border: '1px solid #f5edff'
+      border: '1px solid rgba(124, 58, 237, 0.1)'
     }}>
+      {/* Cabeçalho com título e subtítulo */}
+      <div style={{
+        marginBottom: '20px'
+      }}>
+        <h3 style={{
+          fontSize: '24px',
+          fontWeight: '700',
+          color: '#2e3138',
+          margin: 0,
+          marginBottom: '4px',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '12px'
+        }}>
+          <span className="material-icons" style={{ fontSize: '24px', color: '#6941C6' }}>show_chart</span>
+          <span>Comparação Dinâmica</span>
+        </h3>
+        <p style={{
+          fontSize: '14px',
+          color: '#6b7280',
+          margin: 0
+        }}>
+          Selecione um município e compare períodos
+        </p>
+      </div>
+
       {/* Controles */}
       <div style={{
         display: 'flex',
-        justifyContent: 'space-between',
+        justifyContent: 'flex-end',
         alignItems: 'center',
         marginBottom: '24px',
         flexWrap: 'wrap',
-        gap: '16px'
+        gap: '12px'
       }}>
-        <h3 style={{
-          fontSize: '18px',
-          fontWeight: '600',
-          color: '#2e3138',
-          margin: 0
-        }}>
-          Comparação Dinâmica
-        </h3>
 
         <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' }}>
+          {/* Dropdown Município */}
+          <select
+            value={selectedMunicipality}
+            onChange={(e) => onMunicipalityChange(e.target.value)}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '8px',
+              border: '1px solid rgba(124, 58, 237, 0.2)',
+              backgroundColor: '#ffffff',
+              color: '#2e3138',
+              fontSize: '14px',
+              fontWeight: '500',
+              cursor: 'pointer',
+              outline: 'none',
+              minWidth: '180px'
+            }}
+          >
+            {municipalities.map(m => (
+              <option key={m.id} value={m.name}>{m.name}</option>
+            ))}
+          </select>
+
+          {/* Dropdown Período Atual */}
+          <select
+            value={currentPeriod}
+            onChange={(e) => onCurrentPeriodChange(Number(e.target.value))}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '8px',
+              border: '1px solid rgba(124, 58, 237, 0.2)',
+              backgroundColor: '#ffffff',
+              color: '#2e3138',
+              fontSize: '14px',
+              fontWeight: '500',
+              cursor: 'pointer',
+              outline: 'none'
+            }}
+          >
+            <option value={2025}>2025</option>
+            <option value={2024}>2024</option>
+            <option value={2023}>2023</option>
+          </select>
+
+          {/* Dropdown Comparar com */}
+          <select
+            value={comparisonPeriod}
+            onChange={(e) => onComparisonPeriodChange(e.target.value)}
+            style={{
+              padding: '8px 16px',
+              borderRadius: '8px',
+              border: '1px solid rgba(124, 58, 237, 0.2)',
+              backgroundColor: '#ffffff',
+              color: '#2e3138',
+              fontSize: '14px',
+              fontWeight: '500',
+              cursor: 'pointer',
+              outline: 'none'
+            }}
+          >
+            <option value="avg-2022-2024">Média 2022-2024</option>
+            <option value="2024">2024 🗳️</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="avg-election">Média Anos Eleitorais</option>
+          </select>
+
           {/* Dropdown Indicador */}
           <select
             value={indicator}
             onChange={(e) => onIndicatorChange(e.target.value as IndicatorType)}
             style={{
               padding: '8px 16px',
-              borderRadius: '6px',
-              border: '1px solid #d1b3ff',
+              borderRadius: '8px',
+              border: '1px solid rgba(124, 58, 237, 0.2)',
               backgroundColor: '#ffffff',
               color: '#2e3138',
               fontSize: '14px',
@@ -209,9 +316,9 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
           {/* Contador de meses */}
           <span style={{
             padding: '8px 12px',
-            borderRadius: '6px',
-            backgroundColor: '#f5edff',
-            color: '#5219a1',
+            borderRadius: '8px',
+            backgroundColor: 'rgba(124, 58, 237, 0.1)',
+            color: '#7C3AED',
             fontSize: '13px',
             fontWeight: '600'
           }}>
@@ -233,12 +340,12 @@ const ComparisonChart: React.FC<ComparisonChartProps> = ({
             onClick={() => onMonthToggle(month)}
             style={{
               padding: '8px',
-              borderRadius: '6px',
-              border: selectedMonths.includes(month) ? '2px solid #9755fe' : '1px solid #e1cdfe',
-              backgroundColor: selectedMonths.includes(month) ? '#f5edff' : '#ffffff',
-              color: selectedMonths.includes(month) ? '#3f127d' : '#6b7280',
+              borderRadius: '8px',
+              border: selectedMonths.includes(month) ? '1.5px solid rgba(124, 58, 237, 0.5)' : '1px solid rgba(124, 58, 237, 0.15)',
+              backgroundColor: selectedMonths.includes(month) ? 'rgba(124, 58, 237, 0.08)' : '#ffffff',
+              color: selectedMonths.includes(month) ? '#7C3AED' : '#6b7280',
               fontSize: '12px',
-              fontWeight: selectedMonths.includes(month) ? '600' : '400',
+              fontWeight: selectedMonths.includes(month) ? '600' : '500',
               cursor: 'pointer',
               transition: 'all 0.2s'
             }}

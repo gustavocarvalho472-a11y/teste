@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useRef } from 'react';
 import { municipalityBudgetData } from './mockData/municipalityData';
 import { ComparisonMode } from './types/municipality';
 import MunicipalityDetailCard from './components/MunicipalityDetailCard';
@@ -69,12 +69,28 @@ function StrategicDashboard() {
   const itemsPerPage = 12;
   const [activeTab, setActiveTab] = useState<TabType>('comparador');
 
+  // Ref para scroll até a lista de municípios
+  const municipalitiesListRef = useRef<HTMLDivElement>(null);
+
+  // Função para filtrar por estado e rolar até a lista
+  const handleViewStatemunicipalities = (state: string) => {
+    setSelectedRegion(state);
+    setTimeout(() => {
+      municipalitiesListRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 100);
+  };
+
   // Estados para o gráfico de comparação
   const [selectedMunicipalityForChart, setSelectedMunicipalityForChart] = useState<string>('São Paulo');
   const [selectedMonths, setSelectedMonths] = useState<number[]>([1, 2, 3, 4, 5, 6, 7, 8]);
   const [chartIndicator, setChartIndicator] = useState<IndicatorType>('executed');
   const [chartCurrentYear, setChartCurrentYear] = useState<number>(2024);
   const [chartComparisonYear, setChartComparisonYear] = useState<number>(2022);
+
+  // Estados para os filtros de período do ComparisonChart
+  const [currentPeriod, setCurrentPeriod] = useState<number>(2025);
+  const [comparisonPeriod, setComparisonPeriod] = useState<string>('avg-2022-2024');
+
 
   // Filtragem e ordenação
   const filteredAndSortedMunicipalities = useMemo(() => {
@@ -395,14 +411,26 @@ function StrategicDashboard() {
       }}>
         <div style={{ marginBottom: '28px' }}>
           <div style={{
-            fontSize: '11px',
-            fontWeight: '600',
-            color: '#9CA3AF',
-            textTransform: 'uppercase',
-            letterSpacing: '1px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
             marginBottom: '8px'
           }}>
-            INTELIGÊNCIA ORÇAMENTÁRIA
+            <span className="material-icons" style={{
+              fontSize: '16px',
+              color: '#7C3AED'
+            }}>
+              trending_down
+            </span>
+            <div style={{
+              fontSize: '11px',
+              fontWeight: '600',
+              color: '#7C3AED',
+              textTransform: 'uppercase',
+              letterSpacing: '1px'
+            }}>
+              OPORTUNIDADES FORA DO PADRÃO
+            </div>
           </div>
           <h1 style={{
             fontSize: '28px',
@@ -412,7 +440,7 @@ function StrategicDashboard() {
             marginBottom: '8px',
             lineHeight: '1.3'
           }}>
-            Painel Estratégico de Gestão Orçamentária
+            Municípios gastando menos que a média histórica
           </h1>
           <p style={{
             fontSize: '14px',
@@ -420,7 +448,7 @@ function StrategicDashboard() {
             margin: 0,
             lineHeight: '1.6'
           }}>
-            Análise consolidada dos 5.570 municípios brasileiros · Identificação de oportunidades e recursos disponíveis
+            Identificamos municípios com execução orçamentária abaixo do padrão dos anos anteriores (2022-2024) · Isso indica recursos disponíveis acima do esperado
           </p>
         </div>
 
@@ -428,147 +456,155 @@ function StrategicDashboard() {
         <div style={{
           display: 'grid',
           gridTemplateColumns: 'repeat(4, 1fr)',
-          gap: '12px'
+          gap: '14px'
         }}>
-          {/* Card 1: Verde Escuro */}
+          {/* Card 1: Roxo Suave */}
           <div style={{
-            background: '#047857',
-            borderRadius: '12px',
-            padding: '20px',
-            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
+            background: 'linear-gradient(135deg, #F3F0FF 0%, #E9E3FF 100%)',
+            borderRadius: '16px',
+            padding: '24px',
+            boxShadow: '0 2px 8px rgba(124, 58, 237, 0.08), 0 1px 3px rgba(124, 58, 237, 0.06)',
+            border: '1px solid rgba(124, 58, 237, 0.1)',
+            transition: 'all 0.3s ease'
           }}>
             <div style={{
-              fontSize: '10px',
+              fontSize: '11px',
               fontWeight: '600',
-              color: 'rgba(255, 255, 255, 0.7)',
-              marginBottom: '16px',
+              color: '#7C3AED',
+              marginBottom: '20px',
               textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              letterSpacing: '1px'
             }}>
               MUNICÍPIOS IDENTIFICADOS
             </div>
             <div style={{
-              fontSize: '36px',
-              fontWeight: '700',
-              color: '#FFFFFF',
+              fontSize: '48px',
+              fontWeight: '800',
+              color: '#5B21B6',
               lineHeight: '1',
-              marginBottom: '4px'
+              marginBottom: '8px'
             }}>
               {COPY.simulation.withDeviation}
             </div>
             <div style={{
-              fontSize: '13px',
-              color: 'rgba(255, 255, 255, 0.8)',
+              fontSize: '14px',
+              color: '#6B7280',
               fontWeight: '500',
-              lineHeight: '1.4'
+              lineHeight: '1.5'
             }}>
               de {COPY.simulation.totalMunicipalities.toLocaleString('pt-BR')} municípios
             </div>
           </div>
 
-          {/* Card 2: Lilás */}
+          {/* Card 2: Azul Suave */}
           <div style={{
-            background: '#DDD6FE',
-            borderRadius: '12px',
-            padding: '20px',
-            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
+            background: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)',
+            borderRadius: '16px',
+            padding: '24px',
+            boxShadow: '0 2px 8px rgba(14, 165, 233, 0.08), 0 1px 3px rgba(14, 165, 233, 0.06)',
+            border: '1px solid rgba(14, 165, 233, 0.1)',
+            transition: 'all 0.3s ease'
           }}>
             <div style={{
-              fontSize: '10px',
+              fontSize: '11px',
               fontWeight: '600',
-              color: '#6B21A8',
-              marginBottom: '16px',
+              color: '#0EA5E9',
+              marginBottom: '20px',
               textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              letterSpacing: '1px'
             }}>
               ORÇAMENTO DISPONÍVEL
             </div>
             <div style={{
-              fontSize: '36px',
-              fontWeight: '700',
-              color: '#6B21A8',
+              fontSize: '48px',
+              fontWeight: '800',
+              color: '#0369A1',
               lineHeight: '1',
-              marginBottom: '4px'
+              marginBottom: '8px'
             }}>
               {formatCurrency(COPY.simulation.availableTotal, true)}
             </div>
             <div style={{
-              fontSize: '13px',
-              color: '#7C3AED',
+              fontSize: '14px',
+              color: '#6B7280',
               fontWeight: '500',
-              lineHeight: '1.4'
+              lineHeight: '1.5'
             }}>
               não executados até agosto
             </div>
           </div>
 
-          {/* Card 3: Coral/Salmão */}
+          {/* Card 3: Verde Suave */}
           <div style={{
-            background: '#FDA4AF',
-            borderRadius: '12px',
-            padding: '20px',
-            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
+            background: 'linear-gradient(135deg, #ECFDF5 0%, #D1FAE5 100%)',
+            borderRadius: '16px',
+            padding: '24px',
+            boxShadow: '0 2px 8px rgba(5, 150, 105, 0.08), 0 1px 3px rgba(5, 150, 105, 0.06)',
+            border: '1px solid rgba(5, 150, 105, 0.1)',
+            transition: 'all 0.3s ease'
           }}>
             <div style={{
-              fontSize: '10px',
+              fontSize: '11px',
               fontWeight: '600',
-              color: '#9F1239',
-              marginBottom: '16px',
+              color: '#059669',
+              marginBottom: '20px',
               textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              letterSpacing: '1px'
             }}>
               OPORTUNIDADE IDENTIFICADA
             </div>
             <div style={{
-              fontSize: '36px',
-              fontWeight: '700',
-              color: '#9F1239',
+              fontSize: '48px',
+              fontWeight: '800',
+              color: '#047857',
               lineHeight: '1',
-              marginBottom: '4px'
+              marginBottom: '8px'
             }}>
               {formatCurrency(COPY.simulation.opportunityValue, true)}
             </div>
             <div style={{
-              fontSize: '13px',
-              color: '#BE123C',
+              fontSize: '14px',
+              color: '#6B7280',
               fontWeight: '500',
-              lineHeight: '1.4'
+              lineHeight: '1.5'
             }}>
               acima da média histórica
             </div>
           </div>
 
-          {/* Card 4: Roxo Escuro */}
+          {/* Card 4: Laranja Suave */}
           <div style={{
-            background: '#7C3AED',
-            borderRadius: '12px',
-            padding: '20px',
-            boxShadow: '0 1px 3px rgba(0, 0, 0, 0.1)'
+            background: 'linear-gradient(135deg, #FFFBEB 0%, #FEF3C7 100%)',
+            borderRadius: '16px',
+            padding: '24px',
+            boxShadow: '0 2px 8px rgba(245, 158, 11, 0.08), 0 1px 3px rgba(245, 158, 11, 0.06)',
+            border: '1px solid rgba(245, 158, 11, 0.1)',
+            transition: 'all 0.3s ease'
           }}>
             <div style={{
-              fontSize: '10px',
+              fontSize: '11px',
               fontWeight: '600',
-              color: 'rgba(255, 255, 255, 0.7)',
-              marginBottom: '16px',
+              color: '#F59E0B',
+              marginBottom: '20px',
               textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              letterSpacing: '1px'
             }}>
               EXECUÇÃO MÉDIA
             </div>
             <div style={{
-              fontSize: '36px',
-              fontWeight: '700',
-              color: '#FFFFFF',
+              fontSize: '48px',
+              fontWeight: '800',
+              color: '#D97706',
               lineHeight: '1',
-              marginBottom: '4px'
+              marginBottom: '8px'
             }}>
               {COPY.simulation.actualExecutionRateDeviation}%
             </div>
             <div style={{
-              fontSize: '13px',
-              color: 'rgba(255, 255, 255, 0.8)',
+              fontSize: '14px',
+              color: '#6B7280',
               fontWeight: '500',
-              lineHeight: '1.4'
+              lineHeight: '1.5'
             }}>
               executado até agosto/2025
             </div>
@@ -577,17 +613,14 @@ function StrategicDashboard() {
 
         {/* Contexto Adicional */}
         <div style={{
-          backgroundColor: 'rgba(255, 255, 255, 0.15)',
-          borderRadius: '8px',
-          padding: '12px 16px',
-          border: '1px solid rgba(255, 255, 255, 0.25)',
-          backdropFilter: 'blur(10px)'
+          marginTop: '16px'
         }}>
           <div style={{
-            fontSize: '13px',
-            color: COLORS.purple100,
+            fontSize: '14px',
+            color: '#4B5563',
             textAlign: 'center',
-            lineHeight: '1.6'
+            lineHeight: '1.7',
+            fontWeight: '500'
           }}>
             {COPY.header.context}
           </div>
@@ -607,22 +640,31 @@ function StrategicDashboard() {
           marginBottom: '16px'
         }}>
           <div style={{
-            fontSize: '18px',
-            fontWeight: '700',
-            color: COLORS.textPrimary,
-            marginBottom: '4px',
             display: 'flex',
             alignItems: 'center',
-            gap: '8px'
+            gap: '8px',
+            marginBottom: '6px'
           }}>
-            <span>{COPY.sections.topEstados.title}</span>
+            <span className="material-icons" style={{
+              fontSize: '18px',
+              color: '#7C3AED'
+            }}>
+              map
+            </span>
+            <div style={{
+              fontSize: '18px',
+              fontWeight: '700',
+              color: COLORS.textPrimary
+            }}>
+              Estados com maior desvio do padrão histórico
+            </div>
           </div>
           <div style={{
             fontSize: '13px',
             color: COLORS.textSecondary,
             fontWeight: '400'
           }}>
-            {COPY.sections.topEstados.subtitle}
+            Regiões onde mais municípios estão executando abaixo da média 2022-2024
           </div>
         </div>
         <div style={{
@@ -630,41 +672,125 @@ function StrategicDashboard() {
           gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))',
           gap: '12px'
         }}>
-          {stats.stateRanking.map((state, index) => (
-            <div key={state.state} style={{
-              backgroundColor: COLORS.bgPurpleLight,
-              borderRadius: '8px',
-              padding: '12px',
-              border: `2px solid ${COLORS.borderPurple}`
-            }}>
-              <div style={{
-                fontSize: '11px',
-                color: COLORS.purple600,
-                fontWeight: '600',
-                marginBottom: '4px',
+          {stats.stateRanking.map((state, index) => {
+            const stateNames: Record<string, string> = {
+              'AC': 'Acre', 'AL': 'Alagoas', 'AP': 'Amapá', 'AM': 'Amazonas',
+              'BA': 'Bahia', 'CE': 'Ceará', 'DF': 'Distrito Federal', 'ES': 'Espírito Santo',
+              'GO': 'Goiás', 'MA': 'Maranhão', 'MT': 'Mato Grosso', 'MS': 'Mato Grosso do Sul',
+              'MG': 'Minas Gerais', 'PA': 'Pará', 'PB': 'Paraíba', 'PR': 'Paraná',
+              'PE': 'Pernambuco', 'PI': 'Piauí', 'RJ': 'Rio de Janeiro', 'RN': 'Rio Grande do Norte',
+              'RS': 'Rio Grande do Sul', 'RO': 'Rondônia', 'RR': 'Roraima', 'SC': 'Santa Catarina',
+              'SP': 'São Paulo', 'SE': 'Sergipe', 'TO': 'Tocantins'
+            };
+
+            return (
+              <div key={state.state} style={{
+                backgroundColor: '#FFFFFF',
+                borderRadius: '12px',
+                padding: '18px',
+                boxShadow: '0 4px 12px rgba(124, 58, 237, 0.08), 0 2px 4px rgba(124, 58, 237, 0.04)',
+                transition: 'all 0.2s ease',
                 display: 'flex',
-                alignItems: 'center',
-                gap: '6px'
-              }}>
-                <span>{index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `${index + 1}º`}</span>
-                <span>{state.state}</span>
+                flexDirection: 'column'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-2px)';
+                e.currentTarget.style.boxShadow = '0 8px 20px rgba(124, 58, 237, 0.12), 0 4px 8px rgba(124, 58, 237, 0.08)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(124, 58, 237, 0.08), 0 2px 4px rgba(124, 58, 237, 0.04)';
+              }}
+              >
+                <div style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '8px',
+                  marginBottom: '12px'
+                }}>
+                  <span className="material-icons" style={{
+                    fontSize: '20px',
+                    color: '#7C3AED'
+                  }}>
+                    place
+                  </span>
+                  <div style={{ flex: 1 }}>
+                    <div style={{
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: COLORS.textPrimary,
+                      lineHeight: '1.2'
+                    }}>
+                      {stateNames[state.state]}
+                    </div>
+                    <div style={{
+                      fontSize: '11px',
+                      color: COLORS.purple600,
+                      fontWeight: '600',
+                      marginTop: '2px'
+                    }}>
+                      {state.state}
+                    </div>
+                  </div>
+                  <div style={{
+                    fontSize: '18px',
+                    fontWeight: '700',
+                    color: '#7C3AED'
+                  }}>
+                    {index === 0 ? '🥇' : index === 1 ? '🥈' : index === 2 ? '🥉' : `${index + 1}º`}
+                  </div>
+                </div>
+
+                <div style={{
+                  fontSize: '24px',
+                  fontWeight: '800',
+                  color: COLORS.textPrimary,
+                  marginBottom: '8px',
+                  lineHeight: '1'
+                }}>
+                  {formatCurrency(state.totalExtra, true)}
+                </div>
+
+                <div style={{
+                  fontSize: '12px',
+                  color: COLORS.textSecondary,
+                  fontWeight: '500',
+                  marginBottom: '14px',
+                  flex: 1
+                }}>
+                  {state.count} município{state.count > 1 ? 's' : ''} fora do padrão
+                </div>
+
+                <button
+                  onClick={() => handleViewStatemunicipalities(state.state)}
+                  style={{
+                    background: 'none',
+                    border: 'none',
+                    color: '#7C3AED',
+                    fontSize: '12px',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    padding: '0',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '4px',
+                    transition: 'color 0.2s'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = '#5B21B6';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = '#7C3AED';
+                  }}
+                >
+                  Ver municípios
+                  <span className="material-icons" style={{ fontSize: '14px' }}>
+                    arrow_forward
+                  </span>
+                </button>
               </div>
-              <div style={{
-                fontSize: '18px',
-                fontWeight: '700',
-                color: COLORS.textPrimary,
-                marginBottom: '2px'
-              }}>
-                {formatCurrency(state.totalExtra, true)}
-              </div>
-              <div style={{
-                fontSize: '10px',
-                color: COLORS.textSecondary
-              }}>
-                {state.count} município{state.count > 1 ? 's' : ''}
-              </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
 
@@ -813,71 +939,10 @@ function StrategicDashboard() {
 
       {/* Gráfico de Comparação Dinâmica */}
       <div style={{ marginBottom: '32px' }}>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'center',
-          marginBottom: '20px'
-        }}>
-          <div>
-            <h2 style={{
-              fontSize: '24px',
-              fontWeight: '700',
-              color: '#2e3138',
-              margin: 0,
-              marginBottom: '4px',
-              display: 'flex',
-              alignItems: 'center',
-              gap: '12px'
-            }}>
-              <span className="material-icons" style={{ fontSize: '24px', color: '#6941C6' }}>show_chart</span>
-              <span>Comparação Dinâmica</span>
-            </h2>
-            <p style={{
-              fontSize: '14px',
-              color: '#6b7280',
-              margin: 0
-            }}>
-              Selecione um município e compare períodos
-            </p>
-          </div>
-
-          {/* Seletor de Município */}
-          <div style={{
-            display: 'flex',
-            alignItems: 'center',
-            gap: '12px'
-          }}>
-            <label style={{
-              fontSize: '13px',
-              fontWeight: '600',
-              color: '#6b7280'
-            }}>
-              Município:
-            </label>
-            <select
-              value={selectedMunicipalityForChart}
-              onChange={(e) => setSelectedMunicipalityForChart(e.target.value)}
-              style={{
-                padding: '8px 16px',
-                borderRadius: '8px',
-                border: '2px solid #e1cdfe',
-                backgroundColor: '#ffffff',
-                color: '#2e3138',
-                fontSize: '13px',
-                fontWeight: '600',
-                cursor: 'pointer',
-                minWidth: '200px'
-              }}
-            >
-              {municipalityBudgetData.map(m => (
-                <option key={m.id} value={m.name}>{m.name}</option>
-              ))}
-            </select>
-          </div>
-        </div>
-
         <ComparisonChart
+          selectedMunicipality={selectedMunicipalityForChart}
+          onMunicipalityChange={setSelectedMunicipalityForChart}
+          municipalities={municipalityBudgetData}
           currentData={municipalityChartData.current}
           comparisonData={municipalityChartData.comparison}
           indicator={chartIndicator}
@@ -892,11 +957,15 @@ function StrategicDashboard() {
           }}
           currentLabel={`${chartCurrentYear}`}
           comparisonLabel={`${chartComparisonYear} 🗳️`}
+          currentPeriod={currentPeriod}
+          comparisonPeriod={comparisonPeriod}
+          onCurrentPeriodChange={setCurrentPeriod}
+          onComparisonPeriodChange={setComparisonPeriod}
         />
       </div>
 
       {/* Grid de Municípios com Paginação */}
-      <div>
+      <div ref={municipalitiesListRef}>
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
@@ -938,7 +1007,7 @@ function StrategicDashboard() {
                 style={{
                   padding: '8px 16px',
                   borderRadius: '8px',
-                  border: '2px solid #e1cdfe',
+                  border: '1.5px solid rgba(124, 58, 237, 0.25)',
                   backgroundColor: '#ffffff',
                   color: '#2e3138',
                   fontSize: '13px',

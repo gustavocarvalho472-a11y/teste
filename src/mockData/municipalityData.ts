@@ -111,7 +111,239 @@ const municipalities = [
   { name: 'Arapiraca', state: 'AL', region: 'Nordeste', population: 240000, students: 51000 },
   { name: 'Ilhéus', state: 'BA', region: 'Nordeste', population: 165000, students: 36000 },
   { name: 'Lauro de Freitas', state: 'BA', region: 'Nordeste', population: 200000, students: 43000 },
-  { name: 'Camaçari', state: 'BA', region: 'Nordeste', population: 300000, students: 63000 }
+  { name: 'Camaçari', state: 'BA', region: 'Nordeste', population: 300000, students: 63000 },
+
+  // Municípios adicionais para simular os 850 com desvio
+  // São Paulo (estado com mais municípios) - 180 municípios
+  ...Array.from({ length: 180 }, (_, i) => ({
+    name: `Município SP ${i + 1}`,
+    state: 'SP',
+    region: 'Sudeste' as const,
+    population: Math.floor(Math.random() * 200000) + 50000,
+    students: Math.floor(Math.random() * 40000) + 10000
+  })),
+
+  // Minas Gerais - 120 municípios
+  ...Array.from({ length: 120 }, (_, i) => ({
+    name: `Município MG ${i + 1}`,
+    state: 'MG',
+    region: 'Sudeste' as const,
+    population: Math.floor(Math.random() * 150000) + 40000,
+    students: Math.floor(Math.random() * 30000) + 8000
+  })),
+
+  // Bahia - 95 municípios
+  ...Array.from({ length: 95 }, (_, i) => ({
+    name: `Município BA ${i + 1}`,
+    state: 'BA',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 180000) + 45000,
+    students: Math.floor(Math.random() * 35000) + 9000
+  })),
+
+  // Rio Grande do Sul - 70 municípios
+  ...Array.from({ length: 70 }, (_, i) => ({
+    name: `Município RS ${i + 1}`,
+    state: 'RS',
+    region: 'Sul' as const,
+    population: Math.floor(Math.random() * 120000) + 35000,
+    students: Math.floor(Math.random() * 25000) + 7000
+  })),
+
+  // Paraná - 65 municípios
+  ...Array.from({ length: 65 }, (_, i) => ({
+    name: `Município PR ${i + 1}`,
+    state: 'PR',
+    region: 'Sul' as const,
+    population: Math.floor(Math.random() * 130000) + 40000,
+    students: Math.floor(Math.random() * 28000) + 8000
+  })),
+
+  // Goiás - 50 municípios
+  ...Array.from({ length: 50 }, (_, i) => ({
+    name: `Município GO ${i + 1}`,
+    state: 'GO',
+    region: 'Centro-Oeste' as const,
+    population: Math.floor(Math.random() * 100000) + 30000,
+    students: Math.floor(Math.random() * 22000) + 6000
+  })),
+
+  // Ceará - 48 municípios
+  ...Array.from({ length: 48 }, (_, i) => ({
+    name: `Município CE ${i + 1}`,
+    state: 'CE',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 110000) + 35000,
+    students: Math.floor(Math.random() * 24000) + 7000
+  })),
+
+  // Pernambuco - 40 municípios
+  ...Array.from({ length: 40 }, (_, i) => ({
+    name: `Município PE ${i + 1}`,
+    state: 'PE',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 105000) + 32000,
+    students: Math.floor(Math.random() * 23000) + 6500
+  })),
+
+  // Santa Catarina - 38 municípios
+  ...Array.from({ length: 38 }, (_, i) => ({
+    name: `Município SC ${i + 1}`,
+    state: 'SC',
+    region: 'Sul' as const,
+    population: Math.floor(Math.random() * 95000) + 28000,
+    students: Math.floor(Math.random() * 20000) + 5500
+  })),
+
+  // Pará - 35 municípios
+  ...Array.from({ length: 35 }, (_, i) => ({
+    name: `Município PA ${i + 1}`,
+    state: 'PA',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 125000) + 38000,
+    students: Math.floor(Math.random() * 27000) + 7500
+  })),
+
+  // Maranhão - 32 municípios
+  ...Array.from({ length: 32 }, (_, i) => ({
+    name: `Município MA ${i + 1}`,
+    state: 'MA',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 98000) + 30000,
+    students: Math.floor(Math.random() * 21000) + 6000
+  })),
+
+  // Rio de Janeiro - 28 municípios
+  ...Array.from({ length: 28 }, (_, i) => ({
+    name: `Município RJ ${i + 1}`,
+    state: 'RJ',
+    region: 'Sudeste' as const,
+    population: Math.floor(Math.random() * 140000) + 42000,
+    students: Math.floor(Math.random() * 30000) + 8500
+  })),
+
+  // Mato Grosso - 25 municípios
+  ...Array.from({ length: 25 }, (_, i) => ({
+    name: `Município MT ${i + 1}`,
+    state: 'MT',
+    region: 'Centro-Oeste' as const,
+    population: Math.floor(Math.random() * 85000) + 25000,
+    students: Math.floor(Math.random() * 18000) + 5000
+  })),
+
+  // Paraíba - 22 municípios
+  ...Array.from({ length: 22 }, (_, i) => ({
+    name: `Município PB ${i + 1}`,
+    state: 'PB',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 92000) + 28000,
+    students: Math.floor(Math.random() * 20000) + 5500
+  })),
+
+  // Espírito Santo - 18 municípios
+  ...Array.from({ length: 18 }, (_, i) => ({
+    name: `Município ES ${i + 1}`,
+    state: 'ES',
+    region: 'Sudeste' as const,
+    population: Math.floor(Math.random() * 88000) + 27000,
+    students: Math.floor(Math.random() * 19000) + 5300
+  })),
+
+  // Piauí - 15 municípios
+  ...Array.from({ length: 15 }, (_, i) => ({
+    name: `Município PI ${i + 1}`,
+    state: 'PI',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 82000) + 25000,
+    students: Math.floor(Math.random() * 18000) + 5000
+  })),
+
+  // Alagoas - 12 municípios
+  ...Array.from({ length: 12 }, (_, i) => ({
+    name: `Município AL ${i + 1}`,
+    state: 'AL',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 78000) + 24000,
+    students: Math.floor(Math.random() * 17000) + 4800
+  })),
+
+  // Rio Grande do Norte - 10 municípios
+  ...Array.from({ length: 10 }, (_, i) => ({
+    name: `Município RN ${i + 1}`,
+    state: 'RN',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 75000) + 23000,
+    students: Math.floor(Math.random() * 16000) + 4500
+  })),
+
+  // Mato Grosso do Sul - 8 municípios
+  ...Array.from({ length: 8 }, (_, i) => ({
+    name: `Município MS ${i + 1}`,
+    state: 'MS',
+    region: 'Centro-Oeste' as const,
+    population: Math.floor(Math.random() * 72000) + 22000,
+    students: Math.floor(Math.random() * 15000) + 4300
+  })),
+
+  // Sergipe - 6 municípios
+  ...Array.from({ length: 6 }, (_, i) => ({
+    name: `Município SE ${i + 1}`,
+    state: 'SE',
+    region: 'Nordeste' as const,
+    population: Math.floor(Math.random() * 68000) + 21000,
+    students: Math.floor(Math.random() * 14000) + 4100
+  })),
+
+  // Tocantins - 5 municípios
+  ...Array.from({ length: 5 }, (_, i) => ({
+    name: `Município TO ${i + 1}`,
+    state: 'TO',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 65000) + 20000,
+    students: Math.floor(Math.random() * 13500) + 3900
+  })),
+
+  // Rondônia - 4 municípios
+  ...Array.from({ length: 4 }, (_, i) => ({
+    name: `Município RO ${i + 1}`,
+    state: 'RO',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 62000) + 19000,
+    students: Math.floor(Math.random() * 13000) + 3700
+  })),
+
+  // Amazonas - 3 municípios
+  ...Array.from({ length: 3 }, (_, i) => ({
+    name: `Município AM ${i + 1}`,
+    state: 'AM',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 68000) + 21000,
+    students: Math.floor(Math.random() * 14000) + 4100
+  })),
+
+  // Acre - 2 municípios
+  ...Array.from({ length: 2 }, (_, i) => ({
+    name: `Município AC ${i + 1}`,
+    state: 'AC',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 58000) + 18000,
+    students: Math.floor(Math.random() * 12000) + 3500
+  })),
+
+  // Amapá - 2 municípios
+  ...Array.from({ length: 2 }, (_, i) => ({
+    name: `Município AP ${i + 1}`,
+    state: 'AP',
+    region: 'Norte' as const,
+    population: Math.floor(Math.random() * 55000) + 17000,
+    students: Math.floor(Math.random() * 11500) + 3300
+  })),
+
+  // Roraima - 1 município
+  { name: 'Município RR 1', state: 'RR', region: 'Norte' as const, population: 52000, students: 10500 },
+
+  // Distrito Federal - 1 município
+  { name: 'Município DF 1', state: 'DF', region: 'Centro-Oeste' as const, population: 85000, students: 17000 }
 ];
 
 // Gera dados mock com SUBEXECUÇÃO garantida

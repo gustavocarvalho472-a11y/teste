@@ -80,8 +80,8 @@ const MunicipalityComparisonChart: React.FC<MunicipalityComparisonChartProps> = 
       {
         label: currentLabel,
         data: currentValues,
-        backgroundColor: '#10b981',
-        borderRadius: 6,
+        backgroundColor: 'rgba(16, 185, 129, 0.65)',
+        borderRadius: 8,
         borderWidth: 0
       }
     ];
@@ -92,8 +92,8 @@ const MunicipalityComparisonChart: React.FC<MunicipalityComparisonChartProps> = 
       datasets.push({
         label: comparisonLabel,
         data: comparisonValues,
-        backgroundColor: '#3b82f6',
-        borderRadius: 6,
+        backgroundColor: 'rgba(59, 130, 246, 0.55)',
+        borderRadius: 8,
         borderWidth: 0
       });
     }
@@ -166,7 +166,10 @@ const MunicipalityComparisonChart: React.FC<MunicipalityComparisonChartProps> = 
           font: { size: 12 },
           color: '#6b7280'
         },
-        grid: { color: '#f5edff' }
+        grid: {
+          color: 'rgba(124, 58, 237, 0.08)',
+          lineWidth: 1
+        }
       },
       y: {
         ticks: {

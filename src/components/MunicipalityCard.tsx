@@ -33,92 +33,79 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
   const percentageDiff = comparison.percentageDeviation;
   const difference = comparison.referenceAmount - comparison.executedAmount;
 
-  const severityColor = comparison.severity === 'critical' ? '#ef4444' :
-                       comparison.severity === 'moderate' ? '#f59e0b' : '#10b981';
-
   return (
     <div style={{
       backgroundColor: '#ffffff',
-      borderRadius: '12px',
+      borderRadius: '16px',
       padding: '24px',
-      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
-      border: `3px solid ${severityColor}`,
+      boxShadow: '0 1px 3px rgba(0, 0, 0, 0.05)',
+      border: '1px solid #f3f4f6',
       position: 'relative',
-      transition: 'all 0.3s'
+      transition: 'all 0.2s',
+      overflow: 'hidden'
     }}
     onMouseEnter={(e) => {
-      e.currentTarget.style.transform = 'translateY(-6px)';
-      e.currentTarget.style.boxShadow = '0 8px 20px rgba(0, 0, 0, 0.15)';
+      e.currentTarget.style.transform = 'translateY(-4px)';
+      e.currentTarget.style.boxShadow = '0 8px 24px rgba(124, 58, 237, 0.12)';
     }}
     onMouseLeave={(e) => {
       e.currentTarget.style.transform = 'translateY(0)';
-      e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.08)';
+      e.currentTarget.style.boxShadow = '0 1px 3px rgba(0, 0, 0, 0.05)';
     }}
     >
+      {/* Barra superior colorida sutil */}
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        height: '3px',
+        background: 'linear-gradient(90deg, #7C3AED 0%, #A78BFA 100%)'
+      }} />
+
       {/* Badge de Ranking */}
       {rank && (
         <div style={{
           position: 'absolute',
-          top: '-16px',
-          left: '20px',
-          backgroundColor: severityColor,
-          color: '#ffffff',
-          padding: '8px 16px',
-          borderRadius: '20px',
-          fontSize: '16px',
+          top: '16px',
+          right: '16px',
+          backgroundColor: '#F9FAFB',
+          color: '#6B7280',
+          padding: '4px 12px',
+          borderRadius: '12px',
+          fontSize: '12px',
           fontWeight: '700',
-          boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '6px'
+          border: '1px solid #E5E7EB'
         }}>
-          {rank === 1 ? '🥇' : rank === 2 ? '🥈' : rank === 3 ? '🥉' : `#${rank}`}
+          #{rank}
         </div>
       )}
 
       {/* Header */}
       <div style={{
-        marginBottom: '16px',
-        paddingBottom: '16px',
-        borderBottom: '1px solid #f5edff'
+        marginBottom: '20px',
+        paddingTop: '4px'
       }}>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          alignItems: 'flex-start',
-          marginBottom: '8px'
+        <h3 style={{
+          fontSize: '20px',
+          fontWeight: '700',
+          color: '#111827',
+          margin: '0 0 6px 0',
+          letterSpacing: '-0.01em'
         }}>
-          <div>
-            <h3 style={{
-              fontSize: '22px',
-              fontWeight: '700',
-              color: '#2e3138',
-              margin: '0 0 4px 0'
-            }}>
-              {municipality.name}
-            </h3>
-            <div style={{
-              fontSize: '13px',
-              color: '#6b7280',
-              fontWeight: '500'
-            }}>
-              {municipality.state} · {municipality.region}
-            </div>
-          </div>
-          <div style={{
-            padding: '6px 12px',
-            backgroundColor: comparison.severity === 'critical' ? '#fee2e2' :
-                           comparison.severity === 'moderate' ? '#fef3c7' : '#d1fae5',
-            borderRadius: '6px',
-            fontSize: '11px',
-            fontWeight: '700',
-            color: severityColor,
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px'
-          }}>
-            {comparison.severity === 'critical' ? '🔴 Crítico' :
-             comparison.severity === 'moderate' ? '🟡 Moderado' : '🟢 Normal'}
-          </div>
+          {municipality.name}
+        </h3>
+        <div style={{
+          fontSize: '13px',
+          color: '#9CA3AF',
+          fontWeight: '500',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '6px'
+        }}>
+          <span>{municipality.state}</span>
+          <span style={{ color: '#D1D5DB' }}>•</span>
+          <span>{municipality.region}</span>
         </div>
       </div>
 
@@ -126,125 +113,148 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
       <div style={{
         display: 'grid',
         gridTemplateColumns: '1fr 1fr',
-        gap: '16px',
-        marginBottom: '16px'
+        gap: '12px',
+        marginBottom: '18px'
       }}>
         <div style={{
-          padding: '16px',
-          backgroundColor: '#fee2e2',
-          borderRadius: '8px',
-          border: '1px solid #fca5a5'
+          padding: '18px',
+          background: 'linear-gradient(135deg, #FAFBFC 0%, #F9FAFB 100%)',
+          borderRadius: '12px',
+          border: '1px solid #F3F4F6'
         }}>
           <div style={{
-            fontSize: '12px',
-            fontWeight: '600',
-            color: '#991b1b',
-            marginBottom: '6px',
-            display: 'flex',
-            alignItems: 'center',
-            gap: '6px'
+            fontSize: '11px',
+            fontWeight: '700',
+            color: '#9CA3AF',
+            marginBottom: '8px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.8px'
           }}>
-            💰 Dinheiro Sobrando
+            Disponível
           </div>
           <div style={{
-            fontSize: '24px',
-            fontWeight: '700',
-            color: '#dc2626',
-            marginBottom: '4px'
+            fontSize: '22px',
+            fontWeight: '800',
+            color: '#7C3AED',
+            marginBottom: '4px',
+            letterSpacing: '-0.02em'
           }}>
             {formatCurrency(extraAvailable, true)}
           </div>
           <div style={{
             fontSize: '11px',
-            color: '#991b1b'
+            color: '#9CA3AF',
+            fontWeight: '500'
           }}>
             vs Referência
           </div>
         </div>
 
         <div style={{
-          padding: '16px',
-          backgroundColor: '#f9f4ff',
-          borderRadius: '8px',
-          border: '1px solid #d1b3ff'
+          padding: '18px',
+          background: 'linear-gradient(135deg, #FAFBFC 0%, #F9FAFB 100%)',
+          borderRadius: '12px',
+          border: '1px solid #F3F4F6'
         }}>
           <div style={{
-            fontSize: '12px',
-            fontWeight: '600',
-            color: '#5219a1',
-            marginBottom: '6px'
+            fontSize: '11px',
+            fontWeight: '700',
+            color: '#9CA3AF',
+            marginBottom: '8px',
+            textTransform: 'uppercase',
+            letterSpacing: '0.8px'
           }}>
-            📊 % Executado
+            Executado
           </div>
           <div style={{
-            fontSize: '24px',
-            fontWeight: '700',
-            color: '#3f127d',
-            marginBottom: '4px'
+            fontSize: '22px',
+            fontWeight: '800',
+            color: '#111827',
+            marginBottom: '4px',
+            letterSpacing: '-0.02em'
           }}>
             {municipality.executionRate.toFixed(1)}%
           </div>
           <div style={{
             fontSize: '11px',
-            color: '#5219a1'
+            color: '#9CA3AF',
+            fontWeight: '500'
           }}>
             de R$ {(municipality.totalBudget / 1000000000).toFixed(1)}bi
           </div>
         </div>
       </div>
 
-      {/* Comparação Detalhada */}
+      {/* Desvio destacado */}
       <div style={{
         padding: '16px',
-        backgroundColor: '#f9f4ff',
-        borderRadius: '8px',
-        marginBottom: '16px'
+        background: percentageDiff < -10
+          ? 'linear-gradient(135deg, #FEF3F2 0%, #FEE2E2 100%)'
+          : 'linear-gradient(135deg, #F9FAFB 0%, #F3F4F6 100%)',
+        borderRadius: '12px',
+        marginBottom: '16px',
+        border: `1px solid ${percentageDiff < -10 ? '#FEE2E2' : '#E5E7EB'}`
       }}>
         <div style={{
-          fontSize: '12px',
-          fontWeight: '600',
-          color: '#5219a1',
-          marginBottom: '12px'
-        }}>
-          Comparação vs Referência
-        </div>
-        <div style={{
           display: 'flex',
           justifyContent: 'space-between',
-          marginBottom: '8px',
-          fontSize: '13px'
+          alignItems: 'center'
         }}>
-          <span style={{ color: '#6b7280' }}>Referência:</span>
-          <span style={{ fontWeight: '600', color: '#2e3138' }}>
-            {formatCurrency(comparison.referenceAmount, true)}
-          </span>
-        </div>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          marginBottom: '8px',
-          fontSize: '13px'
-        }}>
-          <span style={{ color: '#6b7280' }}>Executado:</span>
-          <span style={{ fontWeight: '600', color: '#2e3138' }}>
-            {formatCurrency(comparison.executedAmount, true)}
-          </span>
-        </div>
-        <div style={{
-          display: 'flex',
-          justifyContent: 'space-between',
-          fontSize: '13px',
-          paddingTop: '8px',
-          borderTop: '1px solid #e1cdfe'
-        }}>
-          <span style={{ color: '#6b7280', fontWeight: '600' }}>Desvio:</span>
-          <span style={{
-            fontWeight: '700',
-            color: percentageDiff < 0 ? '#10b981' : '#ef4444',
-            fontSize: '14px'
+          <div>
+            <div style={{
+              fontSize: '11px',
+              fontWeight: '700',
+              color: '#9CA3AF',
+              marginBottom: '4px',
+              textTransform: 'uppercase',
+              letterSpacing: '0.8px'
+            }}>
+              Desvio do Padrão
+            </div>
+            <div style={{
+              fontSize: '28px',
+              fontWeight: '800',
+              color: percentageDiff < -10 ? '#DC2626' : '#374151',
+              letterSpacing: '-0.02em'
+            }}>
+              {percentageDiff.toFixed(1)}%
+            </div>
+          </div>
+          <div style={{
+            textAlign: 'right'
           }}>
-            {percentageDiff.toFixed(1)}%
-          </span>
+            <div style={{
+              fontSize: '10px',
+              color: '#9CA3AF',
+              marginBottom: '2px',
+              fontWeight: '600'
+            }}>
+              Referência
+            </div>
+            <div style={{
+              fontSize: '13px',
+              fontWeight: '600',
+              color: '#6B7280',
+              marginBottom: '6px'
+            }}>
+              {formatCurrency(comparison.referenceAmount, true)}
+            </div>
+            <div style={{
+              fontSize: '10px',
+              color: '#9CA3AF',
+              marginBottom: '2px',
+              fontWeight: '600'
+            }}>
+              Executado
+            </div>
+            <div style={{
+              fontSize: '13px',
+              fontWeight: '600',
+              color: '#6B7280'
+            }}>
+              {formatCurrency(comparison.executedAmount, true)}
+            </div>
+          </div>
         </div>
       </div>
 
@@ -253,19 +263,21 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
         <div style={{
           display: 'flex',
           gap: '6px',
-          flexWrap: 'wrap',
-          marginBottom: '12px'
+          flexWrap: 'wrap'
         }}>
           {municipality.events.map((event, i) => (
             <span
               key={i}
               style={{
-                fontSize: '11px',
-                padding: '4px 8px',
-                backgroundColor: '#e1cdfe',
-                borderRadius: '4px',
-                color: '#5219a1',
-                fontWeight: '500'
+                fontSize: '10px',
+                padding: '5px 10px',
+                backgroundColor: '#F9FAFB',
+                borderRadius: '6px',
+                color: '#6B7280',
+                fontWeight: '600',
+                border: '1px solid #F3F4F6',
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px'
               }}
             >
               {event}
@@ -273,38 +285,6 @@ const MunicipalityCard: React.FC<MunicipalityCardProps> = ({
           ))}
         </div>
       )}
-
-      {/* Análise */}
-      <div style={{
-        padding: '12px',
-        backgroundColor: percentageDiff < 0 ? '#fee2e2' : '#d1fae5',
-        borderRadius: '6px',
-        border: `1px solid ${percentageDiff < 0 ? '#fca5a5' : '#86efac'}`
-      }}>
-        <div style={{
-          fontSize: '11px',
-          fontWeight: '600',
-          color: percentageDiff < 0 ? '#991b1b' : '#065f46',
-          marginBottom: '4px'
-        }}>
-          💡 Análise Rápida
-        </div>
-        <div style={{
-          fontSize: '12px',
-          color: percentageDiff < 0 ? '#991b1b' : '#065f46',
-          lineHeight: '1.5'
-        }}>
-          {comparison.severity === 'critical' && percentageDiff < 0 &&
-            `Subexecução crítica de ${Math.abs(percentageDiff).toFixed(1)}%. Há ${formatCurrency(extraAvailable, true)} a mais sobrando que o esperado.`
-          }
-          {comparison.severity === 'moderate' && percentageDiff < 0 &&
-            `Subexecução moderada de ${Math.abs(percentageDiff).toFixed(1)}%. Recurso disponível acima do padrão histórico.`
-          }
-          {comparison.severity === 'normal' &&
-            `Execução dentro da normalidade esperada para o período.`
-          }
-        </div>
-      </div>
     </div>
   );
 };

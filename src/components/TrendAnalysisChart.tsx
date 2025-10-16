@@ -70,15 +70,15 @@ const TrendAnalysisChart: React.FC<TrendAnalysisChartProps> = ({
         label: analysisMode === 'per-capita' ? 'Gasto per Capita' :
                analysisMode === 'per-student' ? 'Gasto por Estudante' : 'Gasto Total',
         data: values,
-        borderColor: '#9755fe',
-        backgroundColor: 'rgba(151, 85, 254, 0.1)',
+        borderColor: 'rgba(124, 58, 237, 0.7)',
+        backgroundColor: 'rgba(124, 58, 237, 0.08)',
         pointBackgroundColor: years.map(year =>
-          yearlyData[year].isElection ? '#ef4444' : '#3b82f6'
+          yearlyData[year].isElection ? 'rgba(239, 68, 68, 0.75)' : 'rgba(59, 130, 246, 0.65)'
         ),
         pointBorderColor: '#ffffff',
-        pointBorderWidth: 2,
-        pointRadius: 8,
-        pointHoverRadius: 10,
+        pointBorderWidth: 1.5,
+        pointRadius: 6,
+        pointHoverRadius: 8,
         tension: 0.3,
         fill: true
       }],

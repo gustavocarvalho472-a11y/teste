@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel Estratégico - Eleições & Orçamento | B2G Insights</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header / Hero Section -->
+        <header class="dashboard-header">
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 class="header-title">Painel Estratégico – Períodos Eleitorais (2016–2020)</h1>
+                    <p class="header-subtitle">Análise de padrões de gasto e comportamento orçamentário em educação durante os ciclos eleitorais.</p>
+                </div>
+                
+                <div class="filters-container">
+                    <div class="filter-group">
+                        <label class="filter-label">Período</label>
+                        <select class="filter-select" id="period-filter" multiple>
+                            <option value="2016" selected>2016</option>
+                            <option value="2017" selected>2017</option>
+                            <option value="2018" selected>2018</option>
+                            <option value="2019" selected>2019</option>
+                            <option value="2020" selected>2020</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label class="filter-label">Região</label>
+                        <select class="filter-select" id="region-filter">
+                            <option value="brasil">Brasil</option>
+                            <option value="norte">Norte</option>
+                            <option value="nordeste">Nordeste</option>
+                            <option value="centro-oeste">Centro-Oeste</option>
+                            <option value="sudeste">Sudeste</option>
+                            <option value="sul">Sul</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label class="filter-label">Indicadores</label>
+                        <select class="filter-select" id="indicators-filter" multiple>
+                            <option value="demografico" selected>Demográfico</option>
+                            <option value="educacional" selected>Educacional</option>
+                            <option value="financeiro" selected>Financeiro</option>
+                            <option value="recursos" selected>Fontes de Recursos</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-actions">
+                        <button class="btn btn-primary" id="apply-filters">Aplicar filtros</button>
+                        <button class="btn btn-ghost" id="clear-filters">Limpar</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="dashboard-main">
+            <!-- Timeline with Electoral Highlights -->
+            <section class="timeline-section">
+                <div class="section-header">
+                    <h2 class="section-title">Evolução Orçamentária com Destaque Eleitoral</h2>
+                    <p class="section-subtitle">Anos eleitorais destacados com variações médias de +18% no gasto</p>
+                </div>
+                <div class="chart-container">
+                    <canvas id="timeline-chart"></canvas>
+                </div>
+            </section>
+
+            <!-- Comparison Cards -->
+            <section class="comparison-section">
+                <h2 class="section-title">Comparação: Ano Eleitoral vs Não Eleitoral</h2>
+                <div class="cards-grid">
+                    <div class="comparison-card">
+                        <div class="card-header">
+                            <i data-lucide="trending-up" class="card-icon"></i>
+                            <h3 class="card-title">Elasticidade Eleitoral</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="metric-value">+18.2%</div>
+                            <div class="metric-label">crescimento em ano eleitoral vs média histórica</div>
+                        </div>
+                    </div>
+
+                    <div class="comparison-card">
+                        <div class="card-header">
+                            <i data-lucide="check-circle" class="card-icon"></i>
+                            <h3 class="card-title">Execução Orçamentária</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="metric-value">87.4%</div>
+                            <div class="metric-label">execução em ano eleitoral vs 82.1% não eleitoral</div>
+                        </div>
+                    </div>
+
+                    <div class="comparison-card">
+                        <div class="card-header">
+                            <i data-lucide="graduation-cap" class="card-icon"></i>
+                            <h3 class="card-title">Prioridade da Educação</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="metric-value">28.7%</div>
+                            <div class="metric-label">% do orçamento total em anos eleitorais</div>
+                        </div>
+                    </div>
+
+                    <div class="comparison-card">
+                        <div class="card-header">
+                            <i data-lucide="clock" class="card-icon"></i>
+                            <h3 class="card-title">Velocidade de Liquidação</h3>
+                        </div>
+                        <div class="card-content">
+                            <div class="metric-value">42 dias</div>
+                            <div class="metric-label">tempo médio entre empenho e pagamento</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Automated Insights Block -->
+            <section class="insights-block">
+                <h3 class="insights-title">Interpretações Automáticas</h3>
+                <div class="insights-list">
+                    <div class="insight-item">
+                        <div class="insight-bullet"></div>
+                        <span class="insight-text">Ano eleitoral acelera investimentos em infraestrutura educacional.</span>
+                    </div>
+                    <div class="insight-item">
+                        <div class="insight-bullet"></div>
+                        <span class="insight-text">Execução se concentra no 3º e 4º trimestre do ano de eleição.</span>
+                    </div>
+                    <div class="insight-item">
+                        <div class="insight-bullet"></div>
+                        <span class="insight-text">Municípios menores concentram os maiores picos de gasto.</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Map / Regional Clusters -->
+            <section class="map-section">
+                <div class="section-header">
+                    <h2 class="section-title">Clusters Regionais</h2>
+                    <div class="map-controls">
+                        <div class="toggle-group">
+                            <button class="toggle-btn active" data-view="region">Por Região</button>
+                            <button class="toggle-btn" data-view="municipality">Por Município</button>
+                        </div>
+                        <select class="filter-select" id="metric-filter">
+                            <option value="variation">Variação % orçamento</option>
+                            <option value="execution">Execução</option>
+                            <option value="infrastructure">Infra/Custeio</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="map-container">
+                    <div class="brazil-map" id="brazil-map">
+                        <!-- Simplified Brazil regions -->
+                        <div class="region north" data-region="Norte" data-variation="+12.3%" data-execution="84.2%">
+                            <span class="region-label">Norte</span>
+                        </div>
+                        <div class="region northeast" data-region="Nordeste" data-variation="+15.7%" data-execution="86.1%">
+                            <span class="region-label">Nordeste</span>
+                        </div>
+                        <div class="region center-west" data-region="Centro-Oeste" data-variation="+22.1%" data-execution="89.3%">
+                            <span class="region-label">C. Oeste</span>
+                        </div>
+                        <div class="region southeast" data-region="Sudeste" data-variation="+18.9%" data-execution="87.8%">
+                            <span class="region-label">Sudeste</span>
+                        </div>
+                        <div class="region south" data-region="Sul" data-variation="+16.4%" data-execution="85.6%">
+                            <span class="region-label">Sul</span>
+                        </div>
+                    </div>
+                    
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #22c55e;"></div>
+                            <span>Aumento significativo (>20%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #84cc16;"></div>
+                            <span>Aumento moderado (10-20%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #eab308;"></div>
+                            <span>Estável (0-10%)</span>
+                        </div>
+                        <div class="legend-item">
+                            <div class="legend-color" style="background: #ef4444;"></div>
+                            <span>Redução (< 0%)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Região</th>
+                                <th>Variação %</th>
+                                <th>Execução %</th>
+                                <th>Municípios</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Centro-Oeste</td>
+                                <td class="positive">+22.1%</td>
+                                <td>89.3%</td>
+                                <td>467</td>
+                            </tr>
+                            <tr>
+                                <td>Sudeste</td>
+                                <td class="positive">+18.9%</td>
+                                <td>87.8%</td>
+                                <td>1,668</td>
+                            </tr>
+                            <tr>
+                                <td>Sul</td>
+                                <td class="positive">+16.4%</td>
+                                <td>85.6%</td>
+                                <td>1,191</td>
+                            </tr>
+                            <tr>
+                                <td>Nordeste</td>
+                                <td class="positive">+15.7%</td>
+                                <td>86.1%</td>
+                                <td>1,794</td>
+                            </tr>
+                            <tr>
+                                <td>Norte</td>
+                                <td class="positive">+12.3%</td>
+                                <td>84.2%</td>
+                                <td>450</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Strategic Insights CTA -->
+            <section class="cta-section">
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Aja nos municípios com padrão de elevação em anos eleitorais</h2>
+                        <p class="cta-subtitle">Priorize ofertas em áreas de alta visibilidade (ex.: infraestrutura escolar).</p>
+                        <button class="btn btn-cta" id="explore-municipalities">
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                            Explorar Municípios Prioritários
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Tooltip -->
+    <div class="tooltip" id="tooltip">
+        <div class="tooltip-content"></div>
+    </div>
+
+    <script src="dashboard.js"></script>
+    <script src="test-dashboard.js"></script>
+</body>
+</html>

@@ -6,8 +6,8 @@ export const COPY = {
   header: {
     eyebrow: "INTELIGÊNCIA ORÇAMENTÁRIA · 5.570 MUNICÍPIOS MONITORADOS · AGOSTO/2025",
     title: "Onde está sobrando orçamento público?",
-    subtitle: "Identificamos 850 municípios (15%) que executaram menos que o esperado até agosto/2025 comparado à média 2022-2024. Isso representa R$ 37 bilhões em orçamento disponível acima do padrão histórico.",
-    context: "Estamos em agosto (mês 8/12). Comparando com a média dos últimos 3 anos (2022-2024), o esperado é que 67% do orçamento anual já esteja executado. Municípios que executaram <52% apresentam oportunidade comercial significativa.",
+    subtitle: "Identificamos 836 municípios (15%) que executaram menos que o esperado até agosto/2025 comparado à média 2022-2024. Isso representa R$ 36 milhões em orçamento disponível acima do padrão histórico.",
+    context: "Estamos em agosto (mês 8/12). Comparando com a média dos últimos 3 anos (2022-2024), o esperado é que 67% do orçamento anual já esteja executado. Municípios que executaram <70% apresentam oportunidade comercial significativa.",
     comparisonPeriod: "Média 2022-2024"
   },
 
@@ -25,32 +25,32 @@ export const COPY = {
     totalMunicipalities: 5570,
 
     // Municípios com Desvio
-    withDeviation: 850, // 15% dos municípios com desvio significativo
-    percentWithDeviation: 15.2, // 15.2% do total
+    withDeviation: 836, // 15% dos municípios com desvio significativo
+    percentWithDeviation: 15.0, // 15.0% do total
 
     // Breakdown por Nível
     highOpportunity: 180, // >15% abaixo do esperado (3% do total)
     mediumOpportunity: 320, // 8-15% abaixo (6% do total)
-    lowOpportunity: 350, // 3-8% abaixo (6% do total)
+    lowOpportunity: 336, // 3-8% abaixo (6% do total)
 
     // Orçamento Total (todos os municípios)
     budgetTotal: 245e9, // R$ 245 bilhões anuais
-    executedTotal: 127e9, // R$ 127 bilhões executados até agosto (52% do total)
-    availableTotal: 118e9, // R$ 118 bilhões disponíveis restantes
+    executedTotal: 171.5e9, // R$ 171.5 bilhões executados até agosto (70% do total)
+    availableTotal: 78e9, // R$ 78 bilhões disponíveis restantes
 
-    // Orçamento nos 850 municípios com desvio
-    budgetDeviation: 71e9, // R$ 71 bi de orçamento anual nos 850 municípios
-    executedDeviation: 37e9, // R$ 37 bi executados (52% - abaixo da média)
-    availableDeviation: 34e9, // R$ 34 bi disponíveis nos 850
+    // Orçamento nos 836 municípios com desvio
+    budgetDeviation: 71e9, // R$ 71 bi de orçamento anual nos 836 municípios
+    executedDeviation: 49.7e9, // R$ 49.7 bi executados (70% - abaixo da média)
+    availableDeviation: 21.3e9, // R$ 21.3 bi disponíveis nos 836
 
     // Oportunidade Comercial (sobra acima do padrão)
-    opportunityValue: 37e9, // R$ 37 bilhões acima da média histórica (2022-2024)
+    opportunityValue: 36e6, // R$ 36 milhões acima da média histórica (2022-2024)
 
     // Taxas de Execução
     expectedExecutionRate: 67, // 67% esperado até agosto (média 2022-2024)
-    actualExecutionRateDeviation: 52, // 52% real nos 850 municípios
+    actualExecutionRateDeviation: 70, // 70% real nos 836 municípios
     historicalExecutionRate: 85, // 85% ao final do ano (média histórica)
-    deviationPoints: -15 // -15 pontos percentuais de diferença
+    deviationPoints: 3 // +3 pontos percentuais de diferença
   },
 
   // ========== CARDS DE MÉTRICAS PRINCIPAIS ==========

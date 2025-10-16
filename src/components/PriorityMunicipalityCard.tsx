@@ -79,125 +79,193 @@ const PriorityMunicipalityCard: React.FC<PriorityMunicipalityCardProps> = ({
 
   return (
     <div style={{
-      backgroundColor: COLORS.bgPrimary,
-      borderRadius: '12px',
-      border: `2px solid ${COLORS.borderLight}`,
+      background: 'linear-gradient(135deg, #ffffff 0%, #fafafa 100%)',
+      borderRadius: '20px',
       overflow: 'hidden',
-      boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
-      transition: 'all 0.2s'
+      boxShadow: '0 0 0 1px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.02)',
+      transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+      position: 'relative'
     }}
       onMouseEnter={(e) => {
-        e.currentTarget.style.boxShadow = '0 4px 16px rgba(105, 65, 198, 0.15)';
-        e.currentTarget.style.borderColor = COLORS.purple600;
+        e.currentTarget.style.boxShadow = '0 0 0 1px rgba(124, 58, 237, 0.1), 0 12px 24px rgba(124, 58, 237, 0.08)';
+        e.currentTarget.style.transform = 'translateY(-4px) scale(1.01)';
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.08)';
-        e.currentTarget.style.borderColor = COLORS.borderLight;
+        e.currentTarget.style.boxShadow = '0 0 0 1px rgba(0,0,0,0.04), 0 2px 4px rgba(0,0,0,0.02)';
+        e.currentTarget.style.transform = 'translateY(0) scale(1)';
       }}
     >
+      {/* Gradient overlay sutil */}
+      <div style={{
+        position: 'absolute',
+        top: 0,
+        left: 0,
+        right: 0,
+        height: '140px',
+        background: 'linear-gradient(180deg, rgba(124, 58, 237, 0.02) 0%, transparent 100%)',
+        pointerEvents: 'none'
+      }} />
+
       {/* Header */}
       <div style={{
-        padding: '20px',
-        borderBottom: `1px solid ${COLORS.borderLight}`
+        padding: '28px',
+        position: 'relative'
       }}>
         <div style={{
           display: 'flex',
           justifyContent: 'space-between',
           alignItems: 'flex-start',
-          marginBottom: '12px'
+          marginBottom: '24px'
         }}>
-          <div>
-            <h3 style={{
-              fontSize: '20px',
-              fontWeight: '700',
-              color: COLORS.textPrimary,
-              margin: 0,
-              marginBottom: '4px'
+          <div style={{ flex: 1 }}>
+            <div style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '10px',
+              marginBottom: '8px'
             }}>
-              {municipality.name}
-            </h3>
+              <h3 style={{
+                fontSize: '20px',
+                fontWeight: '700',
+                color: '#0f172a',
+                margin: 0,
+                letterSpacing: '-0.3px'
+              }}>
+                {municipality.name}
+              </h3>
+              {rank && rank <= 3 && (
+                <span className="material-icons" style={{
+                  fontSize: '20px',
+                  color: rank === 1 ? '#FFD700' : rank === 2 ? '#C0C0C0' : '#CD7F32'
+                }}>
+                  {rank === 1 ? 'workspace_premium' : rank === 2 ? 'military_tech' : 'emoji_events'}
+                </span>
+              )}
+            </div>
             <div style={{
               fontSize: '13px',
-              color: COLORS.textSecondary,
-              fontWeight: '600'
+              color: '#64748b',
+              fontWeight: '500',
+              letterSpacing: '0.2px'
             }}>
-              {municipality.state} · {municipality.region}
+              {municipality.state} • {municipality.region}
             </div>
           </div>
           {rank && (
             <div style={{
-              backgroundColor: COLORS.purple50,
-              color: COLORS.purple600,
+              background: rank <= 3
+                ? 'linear-gradient(135deg, #7c3aed 0%, #a78bfa 100%)'
+                : '#f1f5f9',
+              color: rank <= 3 ? '#ffffff' : '#64748b',
               fontSize: '14px',
               fontWeight: '700',
-              padding: '6px 12px',
-              borderRadius: '8px'
+              padding: '8px 14px',
+              borderRadius: '12px',
+              boxShadow: rank <= 3 ? '0 4px 12px rgba(124, 58, 237, 0.2)' : 'none'
             }}>
               #{rank}
             </div>
           )}
         </div>
 
-        {/* Orçamento Disponível */}
+        {/* Orçamento Disponível - Versão Clean */}
         <div style={{
-          backgroundColor: COLORS.greenLight,
-          padding: '16px',
-          borderRadius: '8px',
-          border: `2px solid ${COLORS.green}`
+          background: '#fafafa',
+          padding: '24px',
+          borderRadius: '16px',
+          position: 'relative',
+          border: '1px solid #f1f5f9'
         }}>
           <div style={{
-            fontSize: '11px',
-            fontWeight: '700',
-            color: '#065f46',
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px',
-            marginBottom: '8px'
-          }}>
-            ORÇAMENTO DISPONÍVEL (AGO/2025)
-          </div>
-          <div style={{
-            fontSize: '28px',
-            fontWeight: '700',
-            color: COLORS.green,
-            lineHeight: '1',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '8px',
             marginBottom: '12px'
           }}>
-            {formatCurrency(available, true)}
+            <div style={{
+              width: '3px',
+              height: '16px',
+              borderRadius: '2px',
+              backgroundColor: '#10b981'
+            }} />
+            <div style={{
+              fontSize: '11px',
+              fontWeight: '600',
+              color: '#64748b',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
+            }}>
+              Disponível Agora
+            </div>
           </div>
 
-          {/* Barra de Progresso com Marcos Históricos */}
           <div style={{
-            marginBottom: '8px'
+            display: 'flex',
+            alignItems: 'baseline',
+            gap: '12px',
+            marginBottom: '16px'
+          }}>
+            <div style={{
+              fontSize: '40px',
+              fontWeight: '800',
+              color: '#0f172a',
+              letterSpacing: '-1.5px',
+              lineHeight: '1'
+            }}>
+              {formatCurrency(available, true)}
+            </div>
+            <div style={{
+              background: '#f1f5f9',
+              color: '#64748b',
+              fontSize: '13px',
+              fontWeight: '600',
+              padding: '4px 10px',
+              borderRadius: '6px'
+            }}>
+              {percentAvailable.toFixed(1)}%
+            </div>
+          </div>
+
+          {/* Barra de Progresso - Versão Clean */}
+          <div style={{
+            marginBottom: '14px'
           }}>
             <div style={{
               display: 'flex',
               justifyContent: 'space-between',
-              marginBottom: '6px',
+              marginBottom: '10px',
               fontSize: '11px',
-              fontWeight: '600'
+              fontWeight: '600',
+              color: '#64748b'
             }}>
-              <span style={{ color: '#065f46' }}>Executado em Agosto/2025</span>
-              <span style={{ color: '#065f46' }}>{percentExecuted.toFixed(1)}%</span>
+              <span>Progresso de Execução</span>
+              <span style={{
+                color: '#0f172a',
+                fontSize: '13px',
+                fontWeight: '700'
+              }}>
+                {percentExecuted.toFixed(1)}%
+              </span>
             </div>
 
             {/* Barra com posição relativa para os marcos */}
             <div style={{
               position: 'relative',
-              height: '24px',
-              backgroundColor: '#E5E7EB',
-              borderRadius: '4px',
+              height: '8px',
+              backgroundColor: '#e2e8f0',
+              borderRadius: '100px',
               overflow: 'visible'
             }}>
               {/* Barra de execução atual */}
               <div style={{
                 height: '100%',
                 width: `${percentExecuted}%`,
-                backgroundColor: COLORS.green,
-                borderRadius: '4px',
-                transition: 'width 0.5s ease',
+                background: '#10b981',
+                borderRadius: '100px',
+                transition: 'width 0.8s cubic-bezier(0.4, 0, 0.2, 1)',
                 position: 'relative',
                 zIndex: 1
-              }}></div>
+              }} />
 
               {/* Marcos dos anos anteriores */}
               {historicalData.map((data, index) => {
@@ -369,33 +437,77 @@ const PriorityMunicipalityCard: React.FC<PriorityMunicipalityCardProps> = ({
 
           <div style={{
             display: 'flex',
-            justifyContent: 'space-between',
-            fontSize: '12px',
-            color: '#065f46'
+            gap: '24px',
+            marginTop: '16px',
+            paddingTop: '16px',
+            borderTop: '1px solid #e5e7eb'
           }}>
-            <span>Executado: {formatCurrency(comparison.executedAmount, true)}</span>
-            <span>Total: {formatCurrency(comparison.referenceAmount, true)}</span>
+            <div style={{ flex: 1 }}>
+              <div style={{
+                fontSize: '10px',
+                fontWeight: '600',
+                color: '#94a3b8',
+                marginBottom: '4px',
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px'
+              }}>
+                Executado
+              </div>
+              <div style={{
+                color: '#0f172a',
+                fontWeight: '700',
+                fontSize: '15px',
+                letterSpacing: '-0.3px'
+              }}>
+                {formatCurrency(comparison.executedAmount, true)}
+              </div>
+            </div>
+            <div style={{
+              flex: 1,
+              textAlign: 'right'
+            }}>
+              <div style={{
+                fontSize: '10px',
+                fontWeight: '600',
+                color: '#94a3b8',
+                marginBottom: '4px',
+                textTransform: 'uppercase',
+                letterSpacing: '0.5px'
+              }}>
+                Total
+              </div>
+              <div style={{
+                color: '#0f172a',
+                fontWeight: '700',
+                fontSize: '15px',
+                letterSpacing: '-0.3px'
+              }}>
+                {formatCurrency(comparison.referenceAmount, true)}
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Histórico (Dropdown) */}
-      <div>
+      <div style={{
+        borderTop: '1px solid #f1f5f9'
+      }}>
         <button
           onClick={() => setHistoricoOpen(!historicoOpen)}
           style={{
             width: '100%',
-            padding: '16px 20px',
+            padding: '20px 28px',
             backgroundColor: 'transparent',
             border: 'none',
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
             cursor: 'pointer',
-            transition: 'all 0.2s'
+            transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)'
           }}
           onMouseEnter={(e) => {
-            e.currentTarget.style.backgroundColor = '#F9FAFB';
+            e.currentTarget.style.backgroundColor = '#fafafa';
           }}
           onMouseLeave={(e) => {
             e.currentTarget.style.backgroundColor = 'transparent';
@@ -404,24 +516,45 @@ const PriorityMunicipalityCard: React.FC<PriorityMunicipalityCardProps> = ({
           <div style={{
             display: 'flex',
             alignItems: 'center',
-            gap: '8px'
+            gap: '10px'
           }}>
-            <span style={{ fontSize: '16px' }}>📊</span>
+            <div style={{
+              width: '32px',
+              height: '32px',
+              borderRadius: '10px',
+              background: 'linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%)',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center'
+            }}>
+              <span className="material-icons" style={{
+                fontSize: '18px',
+                color: '#64748b'
+              }}>
+                history
+              </span>
+            </div>
             <span style={{
               fontSize: '13px',
               fontWeight: '700',
-              color: COLORS.textPrimary,
-              textTransform: 'uppercase',
-              letterSpacing: '0.5px'
+              color: '#0f172a',
+              letterSpacing: '-0.2px'
             }}>
-              HISTÓRICO (Agosto - 2020 a 2024)
+              Histórico Agosto (2020-2024)
             </span>
           </div>
           <div style={{
-            fontSize: '16px',
-            color: COLORS.textSecondary,
+            width: '28px',
+            height: '28px',
+            borderRadius: '8px',
+            background: historicoOpen ? '#f1f5f9' : 'transparent',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            fontSize: '12px',
+            color: '#64748b',
             transform: historicoOpen ? 'rotate(180deg)' : 'rotate(0deg)',
-            transition: 'transform 0.3s ease'
+            transition: 'all 0.3s ease'
           }}>
             ▼
           </div>
@@ -429,92 +562,116 @@ const PriorityMunicipalityCard: React.FC<PriorityMunicipalityCardProps> = ({
 
         {/* Conteúdo do Dropdown */}
         <div style={{
-          maxHeight: historicoOpen ? '400px' : '0',
-          transition: 'max-height 0.4s ease-in-out',
+          maxHeight: historicoOpen ? '500px' : '0',
+          transition: 'max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1)',
           overflow: 'hidden'
         }}>
-          <div style={{ padding: '0 20px 20px' }}>
+          <div style={{
+            padding: '0 28px 24px',
+            background: '#fafafa'
+          }}>
             <table style={{
               width: '100%',
-              borderCollapse: 'collapse'
+              borderCollapse: 'separate',
+              borderSpacing: '0 4px'
             }}>
               <thead>
-                <tr style={{
-                  borderBottom: '2px solid #D1D5DB'
-                }}>
+                <tr>
                   <th style={{
                     textAlign: 'left',
-                    padding: '12px 8px',
-                    fontSize: '11px',
-                    fontWeight: '700',
-                    color: COLORS.textSecondary,
+                    padding: '12px 14px',
+                    fontSize: '10px',
+                    fontWeight: '800',
+                    color: '#64748b',
                     textTransform: 'uppercase',
-                    letterSpacing: '0.5px'
+                    letterSpacing: '0.8px'
                   }}>
                     ANO
                   </th>
                   <th style={{
                     textAlign: 'center',
-                    padding: '12px 8px',
-                    fontSize: '11px',
-                    fontWeight: '700',
-                    color: COLORS.textSecondary,
+                    padding: '12px 14px',
+                    fontSize: '10px',
+                    fontWeight: '800',
+                    color: '#64748b',
                     textTransform: 'uppercase',
-                    letterSpacing: '0.5px'
+                    letterSpacing: '0.8px'
                   }}>
                     MÊS
                   </th>
                   <th style={{
                     textAlign: 'right',
-                    padding: '12px 8px',
-                    fontSize: '11px',
-                    fontWeight: '700',
-                    color: COLORS.textSecondary,
+                    padding: '12px 14px',
+                    fontSize: '10px',
+                    fontWeight: '800',
+                    color: '#64748b',
                     textTransform: 'uppercase',
-                    letterSpacing: '0.5px'
+                    letterSpacing: '0.8px'
                   }}>
-                    DISPONÍVEL
+                    EXECUTADO
                   </th>
                 </tr>
               </thead>
               <tbody>
-                {municipality.history.map((item: any) => (
+                {municipality.history.map((item: any, idx: number) => (
                   <tr
                     key={item.year}
                     style={{
-                      borderBottom: '1px solid #E5E7EB',
-                      transition: 'background-color 0.2s'
+                      transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)'
                     }}
                     onMouseEnter={(e) => {
-                      e.currentTarget.style.backgroundColor = '#F9FAFB';
+                      e.currentTarget.style.transform = 'scale(1.01)';
+                      e.currentTarget.style.boxShadow = '0 2px 8px rgba(124, 58, 237, 0.08)';
                     }}
                     onMouseLeave={(e) => {
-                      e.currentTarget.style.backgroundColor = 'transparent';
+                      e.currentTarget.style.transform = 'scale(1)';
+                      e.currentTarget.style.boxShadow = 'none';
                     }}
                   >
                     <td style={{
-                      padding: '12px 8px',
-                      fontSize: '14px',
+                      padding: '14px',
+                      fontSize: '15px',
                       fontWeight: '700',
-                      color: COLORS.textPrimary
+                      color: '#0f172a',
+                      backgroundColor: '#ffffff',
+                      borderTopLeftRadius: '12px',
+                      borderBottomLeftRadius: '12px',
+                      letterSpacing: '-0.3px'
                     }}>
-                      {item.year}
+                      <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '8px'
+                      }}>
+                        <div style={{
+                          width: '4px',
+                          height: '20px',
+                          borderRadius: '2px',
+                          background: idx === 0 ? '#7c3aed' : idx === 1 ? '#a78bfa' : '#d8b4fe'
+                        }} />
+                        {item.year}
+                      </div>
                     </td>
                     <td style={{
-                      padding: '12px 8px',
-                      fontSize: '14px',
+                      padding: '14px',
+                      fontSize: '13px',
                       fontWeight: '600',
-                      color: COLORS.textSecondary,
-                      textAlign: 'center'
+                      color: '#64748b',
+                      textAlign: 'center',
+                      backgroundColor: '#ffffff'
                     }}>
-                      08
+                      AGO
                     </td>
                     <td style={{
-                      padding: '12px 8px',
-                      fontSize: '14px',
-                      fontWeight: '600',
-                      color: COLORS.textPrimary,
-                      textAlign: 'right'
+                      padding: '14px',
+                      fontSize: '15px',
+                      fontWeight: '700',
+                      color: '#0f172a',
+                      textAlign: 'right',
+                      backgroundColor: '#ffffff',
+                      borderTopRightRadius: '12px',
+                      borderBottomRightRadius: '12px',
+                      letterSpacing: '-0.3px'
                     }}>
                       {formatCurrency(item.executed, true)}
                     </td>

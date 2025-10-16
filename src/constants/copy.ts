@@ -56,27 +56,27 @@ export const COPY = {
   // ========== CARDS DE MÉTRICAS PRINCIPAIS ==========
   metrics: {
     totalDisponivel: {
-      icon: "💵",
+      icon: "attach_money",
       label: "RECURSOS DISPONÍVEIS AGORA",
       labelSecondary: "(Sobrou de {total} alocados)",
       extra: "+{valor} acima da média histórica"
     },
     taxaExecucao: {
-      icon: "📊",
+      icon: "bar_chart",
       label: "QUANTO FOI GASTO ATÉ AGORA",
       labelSecondary: "({executado} dos {total})",
       context: "Média histórica: {media}% neste período",
       alert: "↓ Estão gastando menos que o normal"
     },
     desvio: {
-      icon: "🎯",
+      icon: "gps_fixed",
       label: "MUNICÍPIOS FORA DO PADRÃO",
       count: "{count} municípios",
       description: "Gastando significativamente menos que a média",
       percentage: "↓ {percent}% abaixo do padrão de execução"
     },
     municipiosAnalisados: {
-      icon: "🔍",
+      icon: "search",
       label: "TOP OPORTUNIDADES",
       count: "{count} municípios",
       description: "Com mais recursos sobrando",
@@ -115,7 +115,7 @@ export const COPY = {
       itemExtra: "+{valor} acima da média histórica"
     },
     prioritarios: {
-      icon: "🎯",
+      icon: "location_city",
       title: "Municípios Prioritários",
       subtitle: "Selecionados por volume de oportunidade (>R$ 50 mi) e desvio crítico (>-20%) vs média 2022-2024",
       showing: "Mostrando {count} municípios",

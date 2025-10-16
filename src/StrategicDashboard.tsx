@@ -58,6 +58,8 @@ const COLORS = {
   gradientLightEnd: '#FFFFFF'
 };
 
+type TabType = 'visao-rapida' | 'comparador' | 'carometro' | 'clusters' | 'oportunidades';
+
 function StrategicDashboard() {
   const [comparisonMode, setComparisonMode] = useState<ComparisonMode>('avg-electoral');
   const [searchTerm, setSearchTerm] = useState('');
@@ -65,6 +67,7 @@ function StrategicDashboard() {
   const [sortBy, setSortBy] = useState<'deviation' | 'extra' | 'executed'>('extra');
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
+  const [activeTab, setActiveTab] = useState<TabType>('oportunidades');
 
   // Estados para o gráfico de comparação
   const [selectedMunicipalityForChart, setSelectedMunicipalityForChart] = useState<string>('São Paulo');
@@ -240,9 +243,83 @@ function StrategicDashboard() {
     <div style={{
       minHeight: '100vh',
       backgroundColor: COLORS.bgPurpleLightest,
-      padding: '32px',
       fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif'
     }}>
+      {/* Header com navegação */}
+      <header style={{
+        backgroundColor: '#FFFFFF',
+        borderBottom: '1px solid #E5E7EB',
+        padding: '12px 32px'
+      }}>
+        <div style={{
+          display: 'flex',
+          alignItems: 'center',
+          gap: '40px',
+          maxWidth: '1400px',
+          margin: '0 auto'
+        }}>
+          {/* Logo codora */}
+          <div style={{
+            fontSize: '18px',
+            fontWeight: '700',
+            color: '#1F2937',
+            letterSpacing: '-0.5px'
+          }}>
+            codora
+          </div>
+
+          {/* Navigation Tabs */}
+          <nav style={{
+            display: 'flex',
+            gap: '4px',
+            flex: 1
+          }}>
+            {[
+              { id: 'visao-rapida' as TabType, label: 'Visão rápida', icon: 'visibility' },
+              { id: 'comparador' as TabType, label: 'Comparador', icon: 'compare_arrows' },
+              { id: 'carometro' as TabType, label: 'Carômetro', icon: 'group' },
+              { id: 'clusters' as TabType, label: 'Clusters', icon: 'dashboard' },
+              { id: 'oportunidades' as TabType, label: 'Oportunidades', icon: 'stars' }
+            ].map(tab => (
+              <button
+                key={tab.id}
+                onClick={() => setActiveTab(tab.id)}
+                style={{
+                  padding: '10px 16px',
+                  borderRadius: '6px',
+                  border: 'none',
+                  backgroundColor: activeTab === tab.id ? '#7C3AED' : 'transparent',
+                  color: activeTab === tab.id ? '#FFFFFF' : '#6B7280',
+                  fontSize: '14px',
+                  fontWeight: activeTab === tab.id ? '600' : '500',
+                  cursor: 'pointer',
+                  transition: 'all 0.15s',
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '6px'
+                }}
+                onMouseEnter={(e) => {
+                  if (activeTab !== tab.id) {
+                    e.currentTarget.style.backgroundColor = '#F3F4F6';
+                  }
+                }}
+                onMouseLeave={(e) => {
+                  if (activeTab !== tab.id) {
+                    e.currentTarget.style.backgroundColor = 'transparent';
+                  }
+                }}
+              >
+                <span className="material-icons" style={{ fontSize: '18px' }}>
+                  {tab.icon}
+                </span>
+                <span>{tab.label}</span>
+              </button>
+            ))}
+          </nav>
+        </div>
+      </header>
+
+      <div style={{ padding: '32px' }}>
       {/* Hero Section - Resumo Brasil */}
       <div style={{
         borderRadius: '16px',
@@ -314,7 +391,7 @@ function StrategicDashboard() {
               alignItems: 'center',
               gap: '6px'
             }}>
-              <span>🎯</span>
+              <span className="material-icons" style={{ fontSize: '16px' }}>gps_fixed</span>
               <span>MUNICÍPIOS FORA DO PADRÃO</span>
             </div>
             <div style={{
@@ -372,7 +449,7 @@ function StrategicDashboard() {
               alignItems: 'center',
               gap: '6px'
             }}>
-              <span>💰</span>
+              <span className="material-icons" style={{ fontSize: '16px' }}>attach_money</span>
               <span>ORÇAMENTO DISPONÍVEL</span>
             </div>
             <div style={{
@@ -415,7 +492,7 @@ function StrategicDashboard() {
               alignItems: 'center',
               gap: '6px'
             }}>
-              <span>💎</span>
+              <span className="material-icons" style={{ fontSize: '16px' }}>stars</span>
               <span>OPORTUNIDADE IDENTIFICADA</span>
             </div>
             <div style={{
@@ -457,7 +534,7 @@ function StrategicDashboard() {
               alignItems: 'center',
               gap: '6px'
             }}>
-              <span>📊</span>
+              <span className="material-icons" style={{ fontSize: '16px' }}>bar_chart</span>
               <span>EXECUÇÃO ATÉ AGOSTO</span>
             </div>
             <div style={{
@@ -587,71 +664,94 @@ function StrategicDashboard() {
       </div>
 
       {/* Municípios Prioritários */}
-      <div style={{ marginBottom: '32px' }}>
+      <div style={{
+        marginBottom: '32px',
+        backgroundColor: '#FFFFFF',
+        borderRadius: '16px',
+        padding: '32px',
+        boxShadow: '0 1px 3px rgba(0, 0, 0, 0.08)'
+      }}>
         <div style={{
-          marginBottom: '20px',
+          marginBottom: '28px',
           display: 'flex',
           justifyContent: 'space-between',
-          alignItems: 'flex-end'
+          alignItems: 'flex-start'
         }}>
           <div>
             <h2 style={{
-              fontSize: '24px',
+              fontSize: '26px',
               fontWeight: '700',
-              color: COLORS.textPrimary,
+              color: '#1a1a1a',
               margin: 0,
-              marginBottom: '4px',
+              marginBottom: '8px',
               display: 'flex',
               alignItems: 'center',
               gap: '12px'
             }}>
-              <span>{COPY.sections.prioritarios.icon}</span>
+              <span className="material-icons" style={{
+                fontSize: '28px',
+                color: '#6941C6'
+              }}>
+                location_city
+              </span>
               <span>{COPY.sections.prioritarios.title}</span>
             </h2>
             <p style={{
-              fontSize: '14px',
-              color: COLORS.textSecondary,
+              fontSize: '15px',
+              color: '#6b7280',
               margin: 0,
               maxWidth: '700px',
-              lineHeight: '1.5'
+              lineHeight: '1.6'
             }}>
               {COPY.sections.prioritarios.subtitle}
             </p>
           </div>
           <div style={{
-            textAlign: 'right'
+            textAlign: 'right',
+            backgroundColor: '#F9FAFB',
+            padding: '16px 20px',
+            borderRadius: '12px',
+            border: '1px solid #E5E7EB'
           }}>
             <div style={{
               fontSize: '13px',
               fontWeight: '600',
-              color: COLORS.purple600,
-              marginBottom: '4px'
+              color: '#7C3AED',
+              marginBottom: '6px',
+              textTransform: 'uppercase',
+              letterSpacing: '0.5px'
             }}>
               {formatCopyTemplate(COPY.sections.prioritarios.showing, {
                 count: top3.length
               })}
             </div>
             <div style={{
-              fontSize: '12px',
-              color: COLORS.textSecondary
+              fontSize: '24px',
+              fontWeight: '700',
+              color: '#1a1a1a',
+              marginBottom: '4px'
             }}>
-              {formatCopyTemplate(COPY.sections.prioritarios.totalOpportunity, {
-                value: formatCurrency(
-                  top3.reduce((sum, m) => {
-                    const getComparison = (mun: typeof municipalityBudgetData[0]) => {
-                      switch (comparisonMode) {
-                        case 'avg-electoral': return mun.comparison.avgElectoral;
-                        case 'last-electoral': return mun.comparison.lastElectoral;
-                        case 'avg-all': return mun.comparison.avgAll;
-                        case 'previous-year': return mun.comparison.previousYear;
-                      }
-                    };
-                    const comp = getComparison(m);
-                    return sum + (comp.referenceAmount - comp.executedAmount);
-                  }, 0),
-                  true
-                )
-              })}
+              {formatCurrency(
+                top3.reduce((sum, m) => {
+                  const getComparison = (mun: typeof municipalityBudgetData[0]) => {
+                    switch (comparisonMode) {
+                      case 'avg-electoral': return mun.comparison.avgElectoral;
+                      case 'last-electoral': return mun.comparison.lastElectoral;
+                      case 'avg-all': return mun.comparison.avgAll;
+                      case 'previous-year': return mun.comparison.previousYear;
+                    }
+                  };
+                  const comp = getComparison(m);
+                  return sum + (comp.referenceAmount - comp.executedAmount);
+                }, 0),
+                true
+              )}
+            </div>
+            <div style={{
+              fontSize: '12px',
+              color: '#6b7280'
+            }}>
+              Oportunidade Total
             </div>
           </div>
         </div>
@@ -659,8 +759,8 @@ function StrategicDashboard() {
         {/* Grid de Municípios */}
         <div style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(350px, 1fr))',
-          gap: '24px',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))',
+          gap: '20px',
           marginBottom: '16px'
         }}>
           {top3.slice(0, 12).map((mun, index) => (
@@ -969,6 +1069,7 @@ function StrategicDashboard() {
         <p style={{ margin: 0 }}>
           Painel Estratégico de Gestão Orçamentária · Visão Consolidada Nacional
         </p>
+      </div>
       </div>
     </div>
   );

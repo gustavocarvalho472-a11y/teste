@@ -6,11 +6,13 @@ import AdvancedAnalysisDashboard from './AdvancedAnalysisDashboard';
 import MunicipalityDetailDashboard from './MunicipalityDetailDashboard';
 import StrategicDashboard from './StrategicDashboard';
 import OportunidadesPage from './OportunidadesPage';
+import FiltersDashboard from './FiltersDashboard';
+import QuickViewDashboard from './QuickViewDashboard';
 
-type DashboardView = 'main' | 'anomaly' | 'subexecution' | 'advanced' | 'detail' | 'strategic' | 'oportunidades';
+type DashboardView = 'main' | 'anomaly' | 'subexecution' | 'advanced' | 'detail' | 'strategic' | 'oportunidades' | 'filters' | 'quickview';
 
 function MainApp() {
-  const [currentView, setCurrentView] = useState<DashboardView>('strategic');
+  const [currentView, setCurrentView] = useState<DashboardView>('quickview');
 
   return (
     <div>
@@ -50,6 +52,37 @@ function MainApp() {
             display: 'flex',
             gap: '8px'
           }}>
+            <button
+              onClick={() => setCurrentView('quickview')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'quickview' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'quickview') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'quickview') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>👁️</span>
+              <span>Visão rápida</span>
+            </button>
+
             <button
               onClick={() => setCurrentView('strategic')}
               style={{
@@ -237,6 +270,37 @@ function MainApp() {
             </button>
 
             <button
+              onClick={() => setCurrentView('filters')}
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                border: 'none',
+                backgroundColor: currentView === 'filters' ? '#9755fe' : 'transparent',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                transition: 'all 0.2s',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+              onMouseEnter={(e) => {
+                if (currentView !== 'filters') {
+                  e.currentTarget.style.backgroundColor = 'rgba(151, 85, 254, 0.2)';
+                }
+              }}
+              onMouseLeave={(e) => {
+                if (currentView !== 'filters') {
+                  e.currentTarget.style.backgroundColor = 'transparent';
+                }
+              }}
+            >
+              <span>🧽</span>
+              <span>Filtros</span>
+            </button>
+
+            <button
               onClick={() => setCurrentView('main')}
               style={{
                 padding: '10px 16px',
@@ -272,12 +336,14 @@ function MainApp() {
 
       {/* Content Area with padding for fixed menu */}
       <div style={{ paddingTop: '72px' }}>
+        {currentView === 'quickview' && <QuickViewDashboard />}
         {currentView === 'strategic' && <StrategicDashboard />}
         {currentView === 'detail' && <MunicipalityDetailDashboard />}
         {currentView === 'advanced' && <AdvancedAnalysisDashboard />}
         {currentView === 'subexecution' && <SubexecutionDashboard />}
         {currentView === 'anomaly' && <AnomalyDashboard />}
         {currentView === 'oportunidades' && <OportunidadesPage />}
+        {currentView === 'filters' && <FiltersDashboard />}
         {currentView === 'main' && <App />}
       </div>
     </div>

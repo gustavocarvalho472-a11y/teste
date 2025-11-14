@@ -25,3 +25,5 @@ yarn-error.log*
 # cache
 node_modules/.cache
 .cache
+node_modules
+node_modules

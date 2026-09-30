@@ -1,5 +1,7 @@
 # Prompts-mestres por etapa
 
+Substitua "economics"/"economia" por `{NICHO}` ao usar outro nicho.
+
 Use como base ao executar cada etapa (adapte ao contexto da conversa).
 
 ## Etapa 1 — Identidade do canal
@@ -37,6 +39,8 @@ For every scene, give me:
 - Matching video prompt
 - Estimated duration
 - Production type: STATIC or MOTION
+- Source: STOCK_VIDEO | CHART | MAP | TEXT_CARD | AI_IMAGE | AI_VIDEO (prefer real/stock footage and charts where practical)
+- stock_query: 3-6 concrete English search terms (only for STOCK_VIDEO)
 The image prompt and video prompt must describe the exact same scene.
 The IMAGE PROMPT describes the frozen keyframe: subject, environment, composition, camera angle, lighting, graphic style, and any information that needs to be visible.
 The VIDEO PROMPT describes only the movement needed to animate that exact same keyframe: subject movement, camera behavior, pace, and atmosphere.

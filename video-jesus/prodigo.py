@@ -6,6 +6,7 @@ Renderização (via engine.py):
     VIDEO_LANG=en python3 engine.py wide prodigo prodigal_son_en.mp4 trilha_prodigo.wav
 """
 import math
+import os
 import random
 
 import cairo
@@ -811,6 +812,15 @@ for _s in SCENES:
     STARTS.append(_acc)
     _acc += _s[1]
 TOTAL = _acc
+SCALE = [1.0] * len(SCENES)  # fator de desaceleração por cena (ajustado pela narração)
+
+# falas narradas sem legenda (o apelo final já aparece grande na tela)
+NARRATION_EXTRA = {
+    9: [(0.4, "Não importa o quão longe você foi…"),
+        (4.4, "O Pai está na estrada, esperando por você."),
+        (8.4, "Volte para casa. Ele te ama."),
+        (12.4, "Inscreva-se no canal para mais histórias que transformam vidas.")],
+}
 
 VERSES_PT = {
     "I": ("Pai, dá-me a parte dos bens que me pertence.", "Lucas 15:12"),
@@ -863,6 +873,11 @@ EN.update({
     "Não importa o quão *longe*": "No matter how *far*", "você foi…": "you have gone…",
     "O Pai está na estrada,": "The Father is on the road,", "*esperando por você*.": "*waiting for you*.",
     "Volte para casa.": "Come back home.",
+    "Não importa o quão longe você foi…": "No matter how far you have gone…",
+    "O Pai está na estrada, esperando por você.": "The Father is on the road, waiting for you.",
+    "Volte para casa. Ele te ama.": "Come back home. He loves you.",
+    "Inscreva-se no canal para mais histórias que transformam vidas.":
+        "Subscribe for more stories that transform lives.",
 })
 
 
@@ -872,3 +887,8 @@ def tr_(s):
 
 def verses():
     return VERSES_EN if LANG == "en" else VERSES_PT
+
+
+if os.environ.get("VIDEO_NARRATION"):
+    import narracao
+    narracao.apply(globals(), "prodigo")

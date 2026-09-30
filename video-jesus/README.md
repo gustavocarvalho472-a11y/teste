@@ -23,6 +23,8 @@ python3 render.py   # gera jesus_historia.mp4
 | `jesus_history_en.mp4` | Inglês (versículos KJV) | emocional (`audio_emocional.py`) |
 | `short_jesus.mp4` | Short 9:16 (paixão → ressurreição → apelo, 54s) | emocional |
 | `filho_prodigo.mp4` | O Filho Pródigo, estilo ilustração chapada (1min31s) | `prodigo_audio.py` |
+| `prodigal_son_en.mp4` | The Prodigal Son, inglês **narrado** (voz Michael, 1min34s) | `prodigo_audio.py` + narração |
+| `short_prodigal_son_en.mp4` | Short 9:16 em inglês narrado (52s) | idem |
 | `short_filho_prodigo.mp4` | Short 9:16 do Filho Pródigo (despertar → abraço → apelo, 52s) | `prodigo_audio.py` |
 
 ### Filho Pródigo e Shorts (`engine.py`)
@@ -44,3 +46,18 @@ VIDEO_LANG=en VIDEO_AUDIO=trilha_emocional.wav VIDEO_OUT=jesus_history_en.mp4 py
 ```
 
 Para ajustar textos e tempos, edite a lista `SCENES` em `render.py`.
+
+### Narração em inglês (local, sem integrações)
+
+Voz gerada com o [Kokoro](https://github.com/thewh1teagle/kokoro-onnx) (open source, licença Apache 2.0), voz `am_michael`.
+Modelos em `~/tts`: `kokoro-v1.0.onnx` e `voices-v1.0.bin`. `pip install kokoro-onnx soundfile`.
+
+```bash
+export VIDEO_LANG=en
+python3 narracao.py prodigo                         # gera falas + timing.json (cenas desaceleram se a fala não couber)
+export VIDEO_NARRATION=1
+TRILHA_OUT=trilha_prodigo_en.wav python3 prodigo_audio.py
+python3 narracao.py prodigo --mix trilha_prodigo_en.wav trilha_prodigo_en_narrada.wav   # música abaixa ≥8 dB sob a voz
+python3 engine.py wide  prodigo prodigal_son_en.mp4 trilha_prodigo_en_narrada.wav
+python3 engine.py short prodigo 41.52 short_prodigal_son_en.mp4 trilha_prodigo_en_narrada.wav
+```

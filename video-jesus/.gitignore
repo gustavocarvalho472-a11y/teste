@@ -1,5 +1,4 @@
-trilha.wav
-trilha_emocional.wav
-trilha_prodigo.wav
+narr/
+*.wav
 __pycache__/
 frame_*.png

@@ -6,18 +6,21 @@ Arco dramático, sincronizado com as cenas de render.py:
 
 Gera trilha_emocional.wav
 """
+import importlib
 import os
 
 import numpy as np
 
-import render
 import synth
-from render import SCENES0 as SCENES, STARTS0 as STARTS, TOTAL
+
+# projeto com a mesma linha do tempo (render = estilo cinema, jesus_flat = estilo ilustração)
+proj = importlib.import_module(os.environ.get("TRILHA_PROJ", "render"))
+SCENES, STARTS, TOTAL = proj.SCENES0, proj.STARTS0, proj.TOTAL
 
 synth.setup(TOTAL)
-if render.SCALE != [1.0] * len(render.SCALE):
+if proj.SCALE != [1.0] * len(proj.SCALE):
     import narracao
-    synth.WARP = narracao.warp_fn(render)
+    synth.WARP = narracao.warp_fn(proj)
 from synth import *  # noqa: E402,F401,F403
 
 HERE = os.path.dirname(os.path.abspath(__file__))

@@ -30,7 +30,7 @@ def fill(c, col, a=1.0):
 
 
 def paint(c, col):
-    c.set_source_rgb(*hexc(col))
+    c.set_source_rgb(*(hexc(col) if isinstance(col, str) else col))
     c.paint()
 
 

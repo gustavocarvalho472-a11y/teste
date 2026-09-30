@@ -24,6 +24,8 @@ python3 render.py   # gera jesus_historia.mp4
 | `short_jesus.mp4` | Short 9:16 (paixão → ressurreição → apelo, 54s) | emocional |
 | `filho_prodigo.mp4` | O Filho Pródigo, estilo ilustração chapada (1min31s) | `prodigo_audio.py` |
 | `jesus_history_en_narrated.mp4` | The Story of Jesus, inglês **narrado** (voz Michael, 1min59s) | emocional + narração |
+| `historia_de_jesus_narrado.mp4` | A História de Jesus no **novo design**, português narrado (voz Alex, 1min59s) | emocional + narração |
+| `short_historia_de_jesus_narrado.mp4` | Short 9:16 do novo design, narrado (54s) | idem |
 | `filho_prodigo_narrado.mp4` | O Filho Pródigo, português **narrado** (voz Alex, 1min31s) | `prodigo_audio.py` + narração |
 | `short_filho_prodigo_narrado.mp4` | Short 9:16 em português narrado (52s) | idem |
 | `prodigal_son_en_narrated.mp4` | The Prodigal Son, inglês **narrado** (voz Michael, 1min34s) | `prodigo_audio.py` + narração |
@@ -87,4 +89,16 @@ python3 narracao.py prodigo --mix trilha_prodigo_pt.wav trilha_prodigo_pt_narrad
 python3 engine.py wide  prodigo filho_prodigo_narrado.mp4 trilha_prodigo_pt_narrada.wav
 python3 engine.py short prodigo 39.14 short_filho_prodigo_narrado.mp4 trilha_prodigo_pt_narrada.wav
 python3 thumb.py      # thumb_filho_prodigo_pt.png, thumb_prodigal_son_en.png (1280x720)
+```
+
+História de Jesus no novo design (`jesus_flat.py`, mesmo roteiro/tempos de `render.py`):
+
+```bash
+export VIDEO_LANG=pt VIDEO_VOICE_SPEED=1.0
+python3 narracao.py jesus_flat
+export VIDEO_NARRATION=jesus_flat
+TRILHA_PROJ=jesus_flat TRILHA_OUT=trilha_jesus_flat_pt.wav python3 audio_emocional.py
+python3 narracao.py jesus_flat --mix trilha_jesus_flat_pt.wav trilha_jesus_flat_pt_narrada.wav
+python3 engine.py wide  jesus_flat historia_de_jesus_narrado.mp4 trilha_jesus_flat_pt_narrada.wav
+python3 engine.py short jesus_flat 65.03 short_historia_de_jesus_narrado.mp4 trilha_jesus_flat_pt_narrada.wav
 ```

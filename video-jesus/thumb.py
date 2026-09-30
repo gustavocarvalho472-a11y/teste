@@ -1,6 +1,6 @@
 """Thumbnails 1280x720 no estilo ilustração chapada (texto à esquerda, arte à direita).
 
-    python3 thumb.py            # gera thumb_filho_prodigo_pt.png e thumb_prodigal_son_en.png
+    python3 thumb.py            # gera as thumbs do Filho Pródigo e da História de Jesus (PT e EN)
 """
 import math
 import os
@@ -43,9 +43,7 @@ def pill(c, s, x, y, size):
     c.show_text(s)
 
 
-def prodigo_thumb(kicker, line1, line2, badge, out):
-    s = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H)
-    c = cairo.Context(s)
+def _art_prodigo(c):
     paint(c, "#4a2f5c")
     blob(c, W * 0.74, H * 0.6, 640, 4)
     fill(c, "#3a2249")
@@ -66,6 +64,30 @@ def prodigo_thumb(kicker, line1, line2, badge, out):
     fill(c, "#2c1b38")
     # pai abraçando o filho, grande e cortado pela borda inferior
     hug(c, W * 0.75, H * 1.04, 720)
+
+
+def _art_jesus(c):
+    from jesus_flat import geo_rays, halo
+    from prodigo import person
+    paint(c, "#23306a")
+    blob(c, W * 0.74, H * 0.6, 640, 9)
+    fill(c, "#1a2250")
+    cx, cy = W * 0.74, H * 0.6
+    geo_rays(c, cx, cy, 16, 0.1, "#2d3e8a", 1.0)
+    sun(c, cx, cy, 400)
+    c.move_to(W * 0.42, H + 10)
+    c.curve_to(W * 0.5, H * 0.9, W * 0.9, H * 0.86, W + 10, H * 0.9)
+    c.line_to(W + 10, H + 10)
+    fill(c, "#141a3a")
+    fx, fy = W * 0.74, H * 1.08
+    person(c, fx, fy, 640, "raised", sash=GOLD)
+    halo(c, fx, fy, 640)
+
+
+def make_thumb(art, kicker, line1, line2, badge, out):
+    s = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H)
+    c = cairo.Context(s)
+    art(c)
     s.flush()
     buf = np.ndarray((H, W, 4), np.uint8, buffer=s.get_data())
     buf[:, :, :3] = np.clip(buf[:, :, :3].astype(np.int16) + _texture()[0], 0, 255).astype(np.uint8)
@@ -89,7 +111,11 @@ def prodigo_thumb(kicker, line1, line2, badge, out):
 
 
 if __name__ == "__main__":
-    prodigo_thumb("Uma parábola de Jesus", "O Filho", "Pródigo", "Lucas 15",
-                  os.path.join(HERE, "thumb_filho_prodigo_pt.png"))
-    prodigo_thumb("A parable of Jesus", "The Prodigal", "Son", "Luke 15",
-                  os.path.join(HERE, "thumb_prodigal_son_en.png"))
+    make_thumb(_art_prodigo, "Uma parábola de Jesus", "O Filho", "Pródigo", "Lucas 15",
+               os.path.join(HERE, "thumb_filho_prodigo_pt.png"))
+    make_thumb(_art_prodigo, "A parable of Jesus", "The Prodigal", "Son", "Luke 15",
+               os.path.join(HERE, "thumb_prodigal_son_en.png"))
+    make_thumb(_art_jesus, "Do nascimento à ressurreição", "A História", "de Jesus", "em 2 minutos",
+               os.path.join(HERE, "thumb_historia_de_jesus_pt.png"))
+    make_thumb(_art_jesus, "From birth to resurrection", "The Story", "of Jesus", "in 2 minutes",
+               os.path.join(HERE, "thumb_story_of_jesus_en.png"))

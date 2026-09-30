@@ -620,7 +620,7 @@ EN = {
     # legendas
     "Há dois mil anos, uma história mudaria o mundo *para sempre*.":
         "Two thousand years ago, one story changed *everything*.",
-    "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*.":
+    "Um anjo aparece a uma jovem chamada *Maria*.":
         "An angel appears to a young woman named *Mary*.",
     "“Você terá um filho… e o chamará *Jesus*.”": "“You will bear a son… and call him *Jesus*.”",
     "Em *Belém*, sem lugar na hospedaria…": "In *Bethlehem*, with no room at the inn…",
@@ -631,7 +631,7 @@ EN = {
     "“Este é o meu *Filho amado*.”": "“This is my *beloved Son*.”",
     "Ele cura *cegos*. Faz paralíticos *andarem*.": "He heals the *blind*. Makes the paralyzed *walk*.",
     "Caminha sobre as águas… e a *tempestade* se cala.": "He walks on water… and the *storm* falls silent.",
-    "Multidões o seguem. Ele fala de *amor*, *perdão* e *esperança*.":
+    "Multidões o seguem. Ele fala de *amor* e *esperança*.":
         "Crowds follow him. He speaks of *love* and *hope*.",
     "“Eu sou o caminho, a verdade e a *vida*.”": "“I am the way, the truth and the *life*.”",
     "Na última ceia, ele parte o pão com os *doze*.": "At the last supper, he breaks bread with the *twelve*.",
@@ -657,7 +657,7 @@ EN = {
     "é para *Ele*.": "is *Him*.",
     "Ele nos amou.": "He loved us.", "ELE TE AMA": "HE LOVES YOU",
     "Jesus morreu por mim e por você.": "Jesus died for me, and for you.",
-    "Não importa a sua religião: o que devemos olhar é para Ele.":
+    "Não importa a sua religião: olhe para Ele.":
         "No matter your religion, look to Him.",
     "Ele nos amou. Ele te ama.": "He loved us. He loves you.",
     "Inscreva-se no canal.": "Subscribe to our channel.",
@@ -784,7 +784,7 @@ def draw_chapter(c, label, lt, dur, verses=None, wrapw=800):
     g.add_color_stop_rgba(0.5, 0, 0, 0, 0.3 * a)
     g.add_color_stop_rgba(1, 0, 0, 0, 0)
     c.set_source(g)
-    c.rectangle(0, 0, 960, 620)
+    c.rectangle(0, 0, 970, 970)  # cobre todo o raio do degradê (sem borda visível)
     c.fill()
     ln = 70 * eout(lt / 0.6)
     c.set_line_width(3)
@@ -1657,7 +1657,7 @@ def s_final(c, t, d):
 SCENES = [
     ("", 5.0, s_intro, [(0.8, 4.95, "Há dois mil anos, uma história mudaria o mundo *para sempre*.")]),
     ("I · A PROMESSA", 7.5, s_anunciacao, [
-        (0.3, 4.0, "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*."),
+        (0.3, 4.0, "Um anjo aparece a uma jovem chamada *Maria*."),
         (3.8, 7.4, "“Você terá um filho… e o chamará *Jesus*.”")]),
     ("II · O NASCIMENTO", 7.5, s_nascimento, [
         (0.3, 3.6, "Em *Belém*, sem lugar na hospedaria…"),
@@ -1671,7 +1671,7 @@ SCENES = [
         (0.2, 4.6, "Ele cura *cegos*. Faz paralíticos *andarem*."),
         (4.4, 8.9, "Caminha sobre as águas… e a *tempestade* se cala.")]),
     ("VI · A MENSAGEM", 7.5, s_pregacao, [
-        (0.2, 4.0, "Multidões o seguem. Ele fala de *amor*, *perdão* e *esperança*."),
+        (0.2, 4.0, "Multidões o seguem. Ele fala de *amor* e *esperança*."),
         (3.9, 7.4, "“Eu sou o caminho, a verdade e a *vida*.”")]),
     ("VII · A ÚLTIMA CEIA", 7.5, s_ceia, [
         (0.2, 3.8, "Na última ceia, ele parte o pão com os *doze*."),
@@ -1710,7 +1710,7 @@ SCENES0, STARTS0 = SCENES, STARTS
 # falas narradas sem legenda (o apelo final aparece grande na tela)
 NARRATION_EXTRA = {
     13: [(4.8, "Jesus morreu por mim e por você."),
-         (8.1, "Não importa a sua religião: o que devemos olhar é para Ele."),
+         (8.1, "Não importa a sua religião: olhe para Ele."),
          (11.8, "Ele nos amou. Ele te ama."),
          (14.9, "Inscreva-se no canal.")],
 }

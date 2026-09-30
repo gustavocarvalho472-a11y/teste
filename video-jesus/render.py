@@ -674,14 +674,18 @@ VERSES_EN = {  # King James Version (domínio público)
 }
 
 
+def verses():
+    return VERSES_EN if LANG == "en" else VERSES
+
+
 def tr(s):
     return EN.get(s, s) if LANG == "en" else s
 
 
 # ───────────────────────── legendas ─────────────────────────
-def draw_caption(c, text, lt, dur, big=False):
+def draw_caption(c, text, lt, dur, big=False, cx=W / 2, bottom=H - 105, maxw=1600, scale=1.0):
     face = SERIF if big else SANS
-    size = 92 if big else 56
+    size = (92 if big else 56) * scale
     c.select_font_face(face, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
     c.set_font_size(size)
     words = []
@@ -689,7 +693,6 @@ def draw_caption(c, text, lt, dur, big=False):
         emph = "*" in tok
         words.append((tok.replace("*", ""), emph))
     space = c.text_extents(" ").x_advance
-    maxw = 1600
     lines, cur, curw = [], [], 0
     for wd, em in words:
         wdt = c.text_extents(wd).x_advance
@@ -700,11 +703,11 @@ def draw_caption(c, text, lt, dur, big=False):
         cur.append((wd, em, wdt))
     lines.append((cur, curw))
     lh = size * 1.22
-    base = H - 105 - (len(lines) - 1) * lh
+    base = bottom - (len(lines) - 1) * lh
     fade_out = clamp((dur - lt) / 0.22)
     i = 0
     for li, (ln, lw) in enumerate(lines):
-        x = W / 2 - lw / 2
+        x = cx - lw / 2
         y = base + li * lh
         for wd, em, wdt in ln:
             p = eout((lt - i * 0.055) / 0.28)
@@ -762,12 +765,14 @@ def _wrap(c, text, maxw):
     return lines
 
 
-def draw_chapter(c, label, lt, dur):
+def draw_chapter(c, label, lt, dur, verses=None, wrapw=800):
     a = eout(lt / 0.5) * clamp((dur - lt) / 0.3)
     if a <= 0:
         return
     key = label.split(" · ")[0]
-    verse = (VERSES_EN if LANG == "en" else VERSES).get(key)
+    if verses is None:
+        verses = VERSES_EN if LANG == "en" else VERSES
+    verse = verses.get(key)
     label = tr(label)
     g = cairo.RadialGradient(60, 60, 0, 60, 60, 900)
     g.add_color_stop_rgba(0, 0, 0, 0, 0.6 * a)
@@ -798,7 +803,7 @@ def draw_chapter(c, label, lt, dur):
         dy = (1 - eout(seg(lt, 0.5, 1.1))) * 12
         c.select_font_face(SANS, cairo.FONT_SLANT_ITALIC, cairo.FONT_WEIGHT_NORMAL)
         c.set_font_size(32)
-        lines = _wrap(c, "“" + verse[0] + "”", 800)
+        lines = _wrap(c, "“" + verse[0] + "”", wrapw)
         y = 152 + dy
         for l in lines:
             c.move_to(82, y + 2)
@@ -1502,14 +1507,14 @@ APPEAL = [
 ]
 
 
-def appeal_lines(c, lines, lt, dur):
+def appeal_lines(c, lines, lt, dur, cy=H * 0.47):
     fade_out = clamp((dur - lt) / 0.35)
     base = [0.0]
     for k in range(1, len(lines)):
         base.append(base[-1] + lines[k - 1][1] * 0.42 + lines[k][1] * 0.95)
     top = base[0] - lines[0][1] * 0.75
     bot = base[-1] + lines[-1][1] * 0.2
-    off = H * 0.47 - (top + bot) / 2
+    off = cy - (top + bot) / 2
     for k, (txt, sz, face) in enumerate(lines):
         txt = tr(txt)
         y = base[k] + off

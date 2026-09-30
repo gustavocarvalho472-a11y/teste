@@ -24,6 +24,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 TAU = math.tau
 
 SERIF = "Cinzel"
+TITLE = "Italiana"
 SANS = "Montserrat"
 GOLD = "#FFD36B"
 
@@ -545,6 +546,61 @@ def text_center(c, s, x, y, size, face=SERIF, col="#ffffff", a=1.0, spacing=0.0,
     return total
 
 
+def title_text(c, s, x, y, size, spacing=0.0, a=1.0, shine=-1.0, glow_a=0.6, face=TITLE,
+               top="#fff6dc", mid="#ffe3a3", bottom="#e0a84a", outline=True):
+    """Título dourado com degradê, halo e reflexo de luz (shine de 0 a 1 percorre o texto)."""
+    if a <= 0:
+        return
+    c.select_font_face(face, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_NORMAL)
+    c.set_font_size(size)
+    advs = [c.text_extents(ch).x_advance for ch in s]
+    total = sum(advs) + spacing * (len(s) - 1)
+    c.new_path()
+    xx = x - total / 2
+    for ch, adv in zip(s, advs):
+        c.move_to(xx, y)
+        c.text_path(ch)
+        xx += adv + spacing
+    path = c.copy_path()
+    x0, x1 = x - total / 2, x + total / 2
+    for lw, al in ((size * 0.22, 0.05), (size * 0.12, 0.08), (size * 0.05, 0.14)):
+        c.new_path()
+        c.append_path(path)
+        c.set_line_width(lw)
+        c.set_line_join(cairo.LINE_JOIN_ROUND)
+        c.set_source_rgba(1, 0.78, 0.4, al * glow_a * a)
+        c.stroke()
+    g = cairo.LinearGradient(0, y - size * 0.75, 0, y)
+    for pos, col in ((0, top), (0.55, mid), (1, bottom)):
+        cc = hexc(col)
+        g.add_color_stop_rgba(pos, cc[0], cc[1], cc[2], a)
+    c.new_path()
+    c.append_path(path)
+    c.set_source(g)
+    if outline:
+        c.fill_preserve()
+        c.set_line_width(max(1.0, size * 0.008))
+        c.set_source_rgba(1, 0.97, 0.88, 0.6 * a)
+        c.stroke()
+    else:
+        c.fill()
+    if 0 <= shine <= 1:
+        c.save()
+        c.new_path()
+        c.append_path(path)
+        c.clip()
+        sx = lerp(x0 - size, x1 + size, shine)
+        sg = cairo.LinearGradient(sx - size * 0.5, 0, sx + size * 0.5, 0)
+        sg.add_color_stop_rgba(0, 1, 1, 1, 0)
+        sg.add_color_stop_rgba(0.5, 1, 1, 1, 0.95 * a)
+        sg.add_color_stop_rgba(1, 1, 1, 1, 0)
+        c.set_source(sg)
+        c.paint()
+        c.restore()
+    c.new_path()
+    return total
+
+
 # ───────────────────────── legendas ─────────────────────────
 def draw_caption(c, text, lt, dur, big=False):
     face = SERIF if big else SANS
@@ -641,10 +697,12 @@ def s_intro(c, t, d):
     ridge(c, H * 0.86, 40, 1.2, 0, "#0a0512", seed=2)
     # título
     ta = eout(seg(t, 0.3, 1.6))
-    sp = lerp(90, 34, eout(seg(t, 0.3, 2.4)))
+    sp = lerp(110, 46, eout(seg(t, 0.3, 2.6)))
+    zz = lerp(1.12, 1.0, eout(seg(t, 0.3, 2.6)))
     c.save()
-    text_center(c, "JESUS", W / 2 + 4, H * 0.5 + 8, 230, col="#000000", a=0.5 * ta, spacing=sp)
-    text_center(c, "JESUS", W / 2, H * 0.5, 230, col="#fff4d6", a=ta, spacing=sp)
+    c.translate(W / 2, H * 0.47)
+    c.scale(zz, zz)
+    title_text(c, "JESUS", 0, 95, 270, spacing=sp, a=ta, shine=seg(t, 1.6, 3.2))
     c.restore()
     la = eout(seg(t, 1.2, 2.2))
     c.set_line_width(2)
@@ -1253,7 +1311,7 @@ def s_tumulo(c, t, d):
     olive_tree(c, W * 0.12, H * 0.92, 380, "#07080f", seed=5)
     _tomb(c, t)
     vignette(c, 0.4)
-    for k, (a0, lbl) in enumerate(((3.2, "DIA 1"), (5.4, "DIA 2"))):
+    for k, (a0, lbl) in enumerate(((2.9, "DIA 1"), (4.7, "DIA 2"))):
         e = seg(t, a0, a0 + 2.2)
         if 0 < e < 1:
             al = eout(e / 0.25) * clamp((1 - e) / 0.3)
@@ -1296,63 +1354,195 @@ def s_ressurreicao(c, t, d):
     overlay(c, "#ffffff", wf)
 
 
+APPEAL = [
+    # (início, fim, linhas [(texto, tamanho, fonte, cor)])
+    (4.8, 8.1, [("Jesus morreu por *mim*", 84, SANS), ("e por *você*.", 84, SANS)]),
+    (8.1, 11.8, [("Não importa a sua religião:", 62, SANS), ("o que devemos olhar", 62, SANS),
+                 ("é para *Ele*.", 84, SANS)]),
+    (11.8, 14.9, [("Ele nos amou.", 74, SANS), ("ELE TE AMA", 170, TITLE)]),
+]
+
+
+def appeal_lines(c, lines, lt, dur):
+    fade_out = clamp((dur - lt) / 0.35)
+    base = [0.0]
+    for k in range(1, len(lines)):
+        base.append(base[-1] + lines[k - 1][1] * 0.42 + lines[k][1] * 0.95)
+    top = base[0] - lines[0][1] * 0.75
+    bot = base[-1] + lines[-1][1] * 0.2
+    off = H * 0.47 - (top + bot) / 2
+    for k, (txt, sz, face) in enumerate(lines):
+        y = base[k] + off
+        p = eout((lt - k * 0.45) / 0.5)
+        if p > 0:
+            a = p * fade_out
+            yy = y + (1 - p) * 30
+            if face == TITLE:
+                title_text(c, txt, W / 2, yy + sz * 0.1, sz, spacing=lerp(40, 14, p), a=a,
+                           shine=seg(lt, 1.2, 2.4))
+            else:
+                c.select_font_face(face, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+                c.set_font_size(sz)
+                words = [(w.replace("*", ""), "*" in w) for w in txt.split(" ")]
+                sp = c.text_extents(" ").x_advance
+                ws = [c.text_extents(w).x_advance for w, _ in words]
+                xx = W / 2 - (sum(ws) + sp * (len(ws) - 1)) / 2
+                for (w, em), wd in zip(words, ws):
+                    c.move_to(xx + 3, yy + 5)
+                    c.set_source_rgba(0, 0, 0, 0.6 * a)
+                    c.show_text(w)
+                    c.move_to(xx, yy)
+                    rgb(c, GOLD if em else "#ffffff", a)
+                    c.show_text(w)
+                    xx += wd + sp
+
+
+def subscribe(c, lt, dur):
+    a = eout(lt / 0.5) * clamp((dur - lt) / 0.6)
+    if a <= 0:
+        return
+    text_center(c, "Siga nosso canal", W / 2, H * 0.34 + (1 - eout(lt / 0.5)) * 30, 64, face=SANS,
+                col="#ffffff", a=a)
+    text_center(c, "para mais histórias que transformam vidas", W / 2, H * 0.34 + 70, 36, face=SANS,
+                col=GOLD, a=a * eout(seg(lt, 0.3, 0.8)), bold=False)
+    # botão "INSCREVA-SE" com clique animado
+    pop = eback(seg(lt, 0.5, 1.0))
+    click = seg(lt, 1.6, 1.9)
+    done = lt > 1.75
+    press = 1 - 0.08 * math.sin(math.pi * click)
+    bw, bh = 520, 120
+    c.save()
+    c.translate(W / 2 - 50, H * 0.6)
+    c.scale(pop * press, pop * press)
+    r = bh / 2
+    c.new_sub_path()
+    c.arc(-bw / 2 + r, 0, r, math.pi / 2, 3 * math.pi / 2)
+    c.arc(bw / 2 - r, 0, r, -math.pi / 2, math.pi / 2)
+    c.close_path()
+    if done:
+        c.set_source_rgba(0.3, 0.3, 0.33, a)
+    else:
+        c.set_source_rgba(0.86, 0.1, 0.12, a)
+    c.fill()
+    tw = text_center(c, "INSCRITO" if done else "INSCREVA-SE", -22 if done else 0, 18, 48, face=SANS,
+                     col="#ffffff", a=a, spacing=2)
+    if done:
+        c.set_line_width(8)
+        c.set_line_cap(cairo.LINE_CAP_ROUND)
+        c.move_to(tw / 2 - 2, 0)
+        c.line_to(tw / 2 + 12, 14)
+        c.line_to(tw / 2 + 38, -16)
+        c.stroke()
+    c.restore()
+    # sino
+    bell_a = a * eout(seg(lt, 0.8, 1.2))
+    ring = math.sin(lt * 30) * 0.35 * clamp(1 - seg(lt, 2.1, 2.9)) if lt > 2.1 else 0
+    c.save()
+    c.translate(W / 2 + 290, H * 0.6 - 48)
+    c.rotate(ring)
+    c.scale(pop, pop)
+    rgb(c, "#ffffff", bell_a)
+    c.move_to(-34, 60)
+    c.curve_to(-30, 40, -32, 0, -24, -12)
+    c.curve_to(-14, -36, 14, -36, 24, -12)
+    c.curve_to(32, 0, 30, 40, 34, 60)
+    c.close_path()
+    c.fill()
+    c.arc(0, 70, 11, 0, TAU)
+    c.fill()
+    c.arc(0, -36, 6, 0, TAU)
+    c.fill()
+    c.restore()
+    # cursor
+    if lt < 2.3:
+        mx = lerp(W * 0.75, W / 2 + 40, eio(seg(lt, 0.9, 1.6)))
+        my = lerp(H * 0.9, H * 0.6 + 20, eio(seg(lt, 0.9, 1.6)))
+        ca = a * eout(seg(lt, 0.8, 1.0)) * clamp((2.3 - lt) / 0.3)
+        if 0 < click < 1:
+            c.set_line_width(4)
+            c.set_source_rgba(1, 1, 1, ca * (1 - click))
+            c.arc(mx, my, 20 + 60 * click, 0, TAU)
+            c.stroke()
+        c.save()
+        c.translate(mx, my)
+        c.move_to(0, 0)
+        for px, py in ((0, 52), (13, 40), (24, 64), (33, 60), (22, 37), (38, 36)):
+            c.line_to(px, py)
+        c.close_path()
+        c.set_source_rgba(1, 1, 1, ca)
+        c.fill_preserve()
+        c.set_line_width(3)
+        c.set_source_rgba(0, 0, 0, ca)
+        c.stroke()
+        c.restore()
+
+
 def s_final(c, t, d):
-    sky(c, [(0, "#fff5dc"), (0.5, "#ffd98f"), (1, "#f2a55c")])
-    rays(c, W / 2, H * 0.42, 36, 1600, t * 0.05, "#ffffff", 0.45)
-    glow(c, W / 2, H * 0.42, 900, "#ffffff", 0.9)
+    # parte 1 — "ELE VIVE" em luz dourada
+    dark = eio(seg(t, 4.2, 5.2))
+    sky(c, [(0, mix("#fff5dc", "#07040f", dark)), (0.5, mix("#ffd98f", "#1a0d24", dark)),
+            (1, mix("#f2a55c", "#2d1430", dark))])
+    rays(c, W / 2, H * 0.42, 36, 1600, t * 0.05, mix("#ffffff", "#ffd98a", dark), lerp(0.45, 0.12, dark))
+    glow(c, W / 2, H * 0.42, lerp(900, 750, dark), mix("#ffffff", "#ff9f3a", dark), lerp(0.9, 0.35, dark))
     ca = eout(seg(t, 0.2, 1.6))
-    rgb(c, "#ffffff", 0.85 * ca)
+    rgb(c, "#ffffff", ca * lerp(0.85, 0.12, dark))
     c.rectangle(W / 2 - 14, H * 0.42 - 380 * ca, 28, 760 * ca)
     c.rectangle(W / 2 - 250 * ca, H * 0.42 - 230, 500 * ca, 28)
     c.fill()
-    particles(c, t, 120, 141, "#ffffff", 0.9, rise=60)
-    ta = eout(seg(t, 0.8, 2.0))
-    sp = lerp(70, 26, eout(seg(t, 0.8, 3.0)))
-    text_center(c, "ELE VIVE", W / 2 + 4, H * 0.5 + 6, 190, col="#7a4a10", a=0.35 * ta, spacing=sp)
-    text_center(c, "ELE VIVE", W / 2, H * 0.5, 190, col="#5a2d06", a=ta, spacing=sp)
-    overlay(c, "#000000", seg(t, d - 1.3, d))
+    particles(c, t, 120, 141, mix("#ffffff", "#ffd98a", dark), 0.9, rise=60)
+    ta = eout(seg(t, 0.8, 2.0)) * (1 - seg(t, 4.0, 4.6))
+    sp = lerp(70, 30, eout(seg(t, 0.8, 3.0)))
+    title_text(c, "ELE VIVE", W / 2, H * 0.52, 210, spacing=sp, a=ta, shine=seg(t, 2.0, 3.4),
+               top="#9a5a16", mid="#7a3e0a", bottom="#4a2004", glow_a=0.25, outline=False)
+    # parte 2 — apelo
+    for a0, a1, lines in APPEAL:
+        if a0 <= t < a1:
+            appeal_lines(c, lines, t - a0, a1 - a0)
+    if t >= 14.9:
+        subscribe(c, t - 14.9, d - 14.9)
+    overlay(c, "#000000", seg(t, d - 0.8, d))
 
 
 # (label, duração, função, legendas [início, fim, texto, grande?], transição)
 SCENES = [
-    ("", 6.0, s_intro, [(1.6, 5.9, "Há dois mil anos, uma história mudaria o mundo *para sempre*.")]),
-    ("I · A PROMESSA", 8.0, s_anunciacao, [
+    ("", 5.0, s_intro, [(1.3, 4.95, "Há dois mil anos, uma história mudaria o mundo *para sempre*.")]),
+    ("I · A PROMESSA", 7.5, s_anunciacao, [
         (0.3, 4.0, "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*."),
-        (4.0, 7.9, "“Você terá um filho… e o chamará *Jesus*.”")]),
-    ("II · O NASCIMENTO", 8.0, s_nascimento, [
+        (3.8, 7.4, "“Você terá um filho… e o chamará *Jesus*.”")]),
+    ("II · O NASCIMENTO", 7.5, s_nascimento, [
         (0.3, 3.6, "Em *Belém*, sem lugar na hospedaria…"),
-        (3.6, 7.9, "…o Filho de Deus nasce numa simples *manjedoura*.")]),
+        (3.5, 7.4, "…o Filho de Deus nasce numa simples *manjedoura*.")]),
     ("III · A ESTRELA", 6.0, s_magos, [
         (0.2, 5.9, "Uma *estrela* guia magos do Oriente até o Rei recém-nascido.")]),
-    ("IV · O BATISMO", 8.0, s_batismo, [
+    ("IV · O BATISMO", 7.5, s_batismo, [
         (0.2, 3.8, "Aos 30 anos, no rio *Jordão*, os céus se abrem:"),
-        (3.8, 7.9, "“Este é o meu *Filho amado*.”")]),
-    ("V · OS MILAGRES", 10.0, s_milagres, [
+        (3.6, 7.4, "“Este é o meu *Filho amado*.”")]),
+    ("V · OS MILAGRES", 9.0, s_milagres, [
         (0.2, 4.6, "Ele cura *cegos*. Faz paralíticos *andarem*."),
-        (4.6, 9.9, "Caminha sobre as águas… e a *tempestade* se cala.")]),
-    ("VI · A MENSAGEM", 8.0, s_pregacao, [
+        (4.4, 8.9, "Caminha sobre as águas… e a *tempestade* se cala.")]),
+    ("VI · A MENSAGEM", 7.5, s_pregacao, [
         (0.2, 4.0, "Multidões o seguem. Ele fala de *amor*, *perdão* e *esperança*."),
-        (4.0, 7.9, "“Eu sou o caminho, a verdade e a *vida*.”")]),
-    ("VII · A ÚLTIMA CEIA", 8.0, s_ceia, [
+        (3.9, 7.4, "“Eu sou o caminho, a verdade e a *vida*.”")]),
+    ("VII · A ÚLTIMA CEIA", 7.5, s_ceia, [
         (0.2, 3.8, "Na última ceia, ele parte o pão com os *doze*."),
-        (3.8, 7.9, "“Um de vocês vai me *trair*.”")]),
-    ("VIII · GETSÊMANI", 8.0, s_getsemani, [
+        (3.6, 7.4, "“Um de vocês vai me *trair*.”")]),
+    ("VIII · GETSÊMANI", 7.5, s_getsemani, [
         (0.2, 3.8, "No jardim, ele ora em *agonia*."),
-        (3.8, 7.9, "Judas chega com soldados… e o entrega com um *beijo*.")]),
+        (3.6, 7.4, "Judas chega com soldados… e o entrega com um *beijo*.")]),
     ("IX · A PAIXÃO", 8.0, s_paixao, [
         (0.2, 3.7, "Condenado. Açoitado. *Coroado de espinhos*."),
         (3.9, 7.9, "Carrega a própria cruz rumo ao *Calvário*.")]),
     ("X · A CRUZ", 10.0, s_cruz, [
         (0.3, 4.8, "Pregado na cruz, ele clama: “Pai, *perdoa-lhes*.”"),
         (4.8, 9.9, "“Está *consumado*.” E o céu escurece.")]),
-    ("XI · O SILÊNCIO", 8.0, s_tumulo, [
+    ("XI · O SILÊNCIO", 7.0, s_tumulo, [
         (0.3, 3.2, "Seu corpo é selado num *túmulo*."),
-        (3.2, 7.9, "Silêncio. Um dia… dois dias…")]),
+        (3.0, 6.9, "Silêncio. Um dia… dois dias…")]),
     ("XII · A RESSURREIÇÃO", 12.0, s_ressurreicao, [
         (0.4, 3.4, "Mas, no *terceiro dia*…"),
         (3.4, 7.2, "a pedra é removida. O túmulo está *vazio*!"),
         (7.4, 11.9, "*ELE* *RESSUSCITOU!*", True)]),
-    ("", 8.0, s_final, [(2.6, 6.8, "A morte não teve a *última palavra*.")]),
+    ("", 17.5, s_final, [(1.6, 4.4, "A morte não teve a *última palavra*.")]),
 ]
 
 # fades: (entrada, saída) — None = corte seco

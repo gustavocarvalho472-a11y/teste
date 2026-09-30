@@ -115,12 +115,17 @@ for k, (root, q, dd) in enumerate([(D, "M", 3.0), (G, "M", 2.0), (D, "M", 1.6)])
     tt = T12 + 6.3 + sum(x[2] for x in [(D, "M", 3.0), (G, "M", 2.0)][:k])
     s = pad(chord(root, q) + [root + 24], dd + 1.0, 1.0, vib=1)
     add(s * env_ar(len(s), 0.05, 0.9), tt, 1.2)
-# final
+# final: "ELE VIVE" + apelo (progressão emotiva I–IV–vi–IV–I–V–vi–IV–I)
 T13 = STARTS[13]
-for k, (root, q) in enumerate([(D, "M"), (G, "M"), (Bb, "M"), (D, "M")]):
-    dd = 2.0 + (2.0 if k == 3 else 0)
-    s = pad(chord(root, q) + [root + 24], dd + 1.0, 0.9, vib=1)
-    add(s * env_ar(len(s), 0.4, 1.2 if k < 3 else 2.5), T13 + k * 2.0 - 0.2, 0.9)
+B = 47
+FINAL = [(0.0, D, "M"), (2.2, G, "M"), (4.5, B, "m"), (6.3, G, "M"), (8.1, D, "M"), (9.9, A, "M"),
+         (11.8, B, "m"), (13.3, G, "M"), (14.9, D, "M")]
+DUR13 = SCENES[13][1]
+for k, (t0, root, q) in enumerate(FINAL):
+    t1 = FINAL[k + 1][0] if k + 1 < len(FINAL) else DUR13
+    dd = t1 - t0 + 1.0
+    s = pad(chord(root, q) + [root + 24], dd, 0.9, vib=1)
+    add(s * env_ar(len(s), 0.4, 1.0 if k + 1 < len(FINAL) else 2.0), T13 + t0 - 0.2, 0.85)
 
 
 # ───────────── coro ("aah") ─────────────
@@ -146,6 +151,8 @@ s = choir([62, 66, 69, 74, 78], 10.0)
 add(s * env_ar(len(s), 0.4, 3.0), T12 + 6.3, 0.9, pan=-0.2)
 s = choir([62, 67, 71, 74], 8.0)
 add(s * env_ar(len(s), 1.5, 4.0), T13 + 0.5, 0.6, pan=0.2)
+s = choir([62, 66, 69, 74], 6.0)
+add(s * env_ar(len(s), 1.0, 3.0), T13 + 11.8, 0.55, pan=-0.2)
 
 
 # ───────────── percussão ─────────────
@@ -242,6 +249,11 @@ add(crack(3.0), T12 + 6.25, 0.35)
 s = whoosh(1.4)
 add(s, T12 + 4.9, 0.4)
 add(boom(3, 60, 35, 0.3), T13, 0.6)
+for tt in (4.8, 8.1, 11.8):
+    add(boom(2.5, 55, 36, 0.2), T13 + tt, 0.45)
+    add(whoosh(0.7), T13 + tt - 0.6, 0.15)
+for i, m in enumerate([86, 90, 93]):
+    add(bell(m, 2.0), T13 + 14.9 + 1.75 + i * 0.12, 0.12, pan=0.4)
 
 # ───────────── mix + reverb ─────────────
 ir_n = int(2.6 * SR)

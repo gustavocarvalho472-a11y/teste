@@ -17,6 +17,11 @@ SR = 44100
 rng = np.random.default_rng(2024)
 TOTAL = N = 0
 L = R = DUCK = None
+WARP = None  # função opcional: tempo da partitura → tempo do vídeo (cenas desaceleradas pela narração)
+
+
+def warp(t):
+    return WARP(t) if WARP else t
 
 # pitch classes
 C, D, E, F, G, A, Bb, B = 0, 2, 4, 5, 7, 9, 10, 11
@@ -46,6 +51,7 @@ def hp(x, fc, order=2):
 
 
 def add(sig, t0, gain=1.0, pan=0.0):
+    t0 = warp(t0)
     i0 = int(round(t0 * SR))
     if i0 >= N or len(sig) == 0:
         return

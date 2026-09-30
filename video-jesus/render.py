@@ -619,26 +619,26 @@ EN = {
     "XI · O SILÊNCIO": "XI · THE SILENCE", "XII · A RESSURREIÇÃO": "XII · THE RESURRECTION",
     # legendas
     "Há dois mil anos, uma história mudaria o mundo *para sempre*.":
-        "Two thousand years ago, a story would change the world *forever*.",
+        "Two thousand years ago, one story changed *everything*.",
     "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*.":
-        "In Nazareth, an angel appears to a young woman named *Mary*.",
+        "An angel appears to a young woman named *Mary*.",
     "“Você terá um filho… e o chamará *Jesus*.”": "“You will bear a son… and call him *Jesus*.”",
     "Em *Belém*, sem lugar na hospedaria…": "In *Bethlehem*, with no room at the inn…",
     "…o Filho de Deus nasce numa simples *manjedoura*.": "…the Son of God is born in a simple *manger*.",
     "Uma *estrela* guia magos do Oriente até o Rei recém-nascido.":
         "A *star* guides wise men from the East to the newborn King.",
-    "Aos 30 anos, no rio *Jordão*, os céus se abrem:": "At 30, in the *Jordan* River, the heavens open:",
+    "Aos 30 anos, no rio *Jordão*, os céus se abrem:": "At 30, at the *Jordan*, the heavens open:",
     "“Este é o meu *Filho amado*.”": "“This is my *beloved Son*.”",
     "Ele cura *cegos*. Faz paralíticos *andarem*.": "He heals the *blind*. Makes the paralyzed *walk*.",
     "Caminha sobre as águas… e a *tempestade* se cala.": "He walks on water… and the *storm* falls silent.",
     "Multidões o seguem. Ele fala de *amor*, *perdão* e *esperança*.":
-        "Crowds follow him. He speaks of *love*, *forgiveness* and *hope*.",
+        "Crowds follow him. He speaks of *love* and *hope*.",
     "“Eu sou o caminho, a verdade e a *vida*.”": "“I am the way, the truth and the *life*.”",
     "Na última ceia, ele parte o pão com os *doze*.": "At the last supper, he breaks bread with the *twelve*.",
     "“Um de vocês vai me *trair*.”": "“One of you will *betray* me.”",
     "No jardim, ele ora em *agonia*.": "In the garden, he prays in *agony*.",
     "Judas chega com soldados… e o entrega com um *beijo*.":
-        "Judas arrives with soldiers… and betrays him with a *kiss*.",
+        "Judas arrives… and betrays him with a *kiss*.",
     "Condenado. Açoitado. *Coroado de espinhos*.": "Condemned. Scourged. *Crowned with thorns*.",
     "Carrega a própria cruz rumo ao *Calvário*.": "He carries his own cross to *Calvary*.",
     "Pregado na cruz, ele clama: “Pai, *perdoa-lhes*.”":
@@ -656,6 +656,11 @@ EN = {
     "o que devemos olhar": "what we must look to",
     "é para *Ele*.": "is *Him*.",
     "Ele nos amou.": "He loved us.", "ELE TE AMA": "HE LOVES YOU",
+    "Jesus morreu por mim e por você.": "Jesus died for me, and for you.",
+    "Não importa a sua religião: o que devemos olhar é para Ele.":
+        "No matter your religion, look to Him.",
+    "Ele nos amou. Ele te ama.": "He loved us. He loves you.",
+    "Inscreva-se no canal.": "Subscribe to our channel.",
 }
 
 VERSES_EN = {  # King James Version (domínio público)
@@ -1650,7 +1655,7 @@ def s_final(c, t, d):
 
 # (label, duração, função, legendas [início, fim, texto, grande?], transição)
 SCENES = [
-    ("", 5.0, s_intro, [(1.3, 4.95, "Há dois mil anos, uma história mudaria o mundo *para sempre*.")]),
+    ("", 5.0, s_intro, [(0.8, 4.95, "Há dois mil anos, uma história mudaria o mundo *para sempre*.")]),
     ("I · A PROMESSA", 7.5, s_anunciacao, [
         (0.3, 4.0, "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*."),
         (3.8, 7.4, "“Você terá um filho… e o chamará *Jesus*.”")]),
@@ -1699,6 +1704,20 @@ for _s in SCENES:
     STARTS.append(_acc)
     _acc += _s[1]
 TOTAL = _acc
+SCALE = [1.0] * len(SCENES)
+SCENES0, STARTS0 = SCENES, STARTS
+
+# falas narradas sem legenda (o apelo final aparece grande na tela)
+NARRATION_EXTRA = {
+    13: [(4.8, "Jesus morreu por mim e por você."),
+         (8.1, "Não importa a sua religião: o que devemos olhar é para Ele."),
+         (11.8, "Ele nos amou. Ele te ama."),
+         (14.9, "Inscreva-se no canal.")],
+}
+
+if os.environ.get("VIDEO_NARRATION"):
+    import narracao
+    narracao.apply(globals(), "render")
 
 
 def render_frame(i):

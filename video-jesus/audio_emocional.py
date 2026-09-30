@@ -10,10 +10,14 @@ import os
 
 import numpy as np
 
+import render
 import synth
-from render import SCENES, STARTS, TOTAL
+from render import SCENES0 as SCENES, STARTS0 as STARTS, TOTAL
 
 synth.setup(TOTAL)
+if render.SCALE != [1.0] * len(render.SCALE):
+    import narracao
+    synth.WARP = narracao.warp_fn(render)
 from synth import *  # noqa: E402,F401,F403
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -85,7 +89,7 @@ add(choir([50, 57, 62], 6.0) * env_ar(int(6.0 * SR), 1.5, 1.5), T(9) + 1.0, 0.5)
 add(choir([43, 50, 55, 62], 6.0) * env_ar(int(6.0 * SR), 1.5, 2.0), T(10) + 0.3, 0.55)
 add(choir([46, 53, 58, 65, 70], 4.0, 0.5) * env_ar(int(4.0 * SR), 0.3, 1.5), T(10) + 4.8, 0.6)   # "consumado"
 # "consumado": silêncio dramático imediatamente antes
-i0, i1 = int((T(10) + 4.55) * SR), int((T(10) + 4.85) * SR)
+i0, i1 = int(synth.warp(T(10) + 4.55) * SR), int(synth.warp(T(10) + 4.85) * SR)
 DUCK[i0:i1] = np.linspace(1, 0.15, i1 - i0)
 DUCK[i1:i1 + int(0.6 * SR)] = np.linspace(0.15, 1, int(0.6 * SR))
 
@@ -171,4 +175,4 @@ for i, m in enumerate([86, 90, 93, 98]):
     add(bell(m, 2.5), T13 + 14.9 + 1.75 + i * 0.12, 0.10, pan=-0.3 + i * 0.2)
 
 # ───────────────────────── mix ─────────────────────────
-synth.master(os.path.join(HERE, "trilha_emocional.wav"))
+synth.master(os.environ.get("TRILHA_OUT", os.path.join(HERE, "trilha_emocional.wav")))

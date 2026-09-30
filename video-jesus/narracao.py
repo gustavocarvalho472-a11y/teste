@@ -102,6 +102,7 @@ def apply(g, projname):
         new.append((label, dur * s, _stretch(fn, s), caps2))
         scale.append(s)
         acc += dur * s
+    g["SCENES0"], g["STARTS0"] = g["SCENES"], g["STARTS"]
     g["SCENES"] = new
     g["SCALE"] = scale
     g["NARRATION"] = narr
@@ -110,6 +111,16 @@ def apply(g, projname):
         starts.append(acc)
         acc += sc[1]
     g["STARTS"], g["TOTAL"] = starts, acc
+
+
+def warp_fn(proj):
+    """Converte um tempo da linha do tempo original para a linha do tempo narrada."""
+    s0, s1, sc = proj.STARTS0, proj.STARTS, proj.SCALE
+
+    def w(t):
+        k = max([i for i, x in enumerate(s0) if x <= t] or [0])
+        return s1[k] + (t - s0[k]) * sc[k]
+    return w
 
 
 def _stretch(fn, s):

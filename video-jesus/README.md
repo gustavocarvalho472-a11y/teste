@@ -23,6 +23,7 @@ python3 render.py   # gera jesus_historia.mp4
 | `jesus_history_en.mp4` | Inglês (versículos KJV) | emocional (`audio_emocional.py`) |
 | `short_jesus.mp4` | Short 9:16 (paixão → ressurreição → apelo, 54s) | emocional |
 | `filho_prodigo.mp4` | O Filho Pródigo, estilo ilustração chapada (1min31s) | `prodigo_audio.py` |
+| `jesus_history_en_narrated.mp4` | The Story of Jesus, inglês **narrado** (voz Michael, 1min59s) | emocional + narração |
 | `prodigal_son_en.mp4` | The Prodigal Son, inglês **narrado** (voz Michael, 1min34s) | `prodigo_audio.py` + narração |
 | `short_prodigal_son_en.mp4` | Short 9:16 em inglês narrado (52s) | idem |
 | `short_filho_prodigo.mp4` | Short 9:16 do Filho Pródigo (despertar → abraço → apelo, 52s) | `prodigo_audio.py` |
@@ -60,4 +61,15 @@ TRILHA_OUT=trilha_prodigo_en.wav python3 prodigo_audio.py
 python3 narracao.py prodigo --mix trilha_prodigo_en.wav trilha_prodigo_en_narrada.wav   # música abaixa ≥8 dB sob a voz
 python3 engine.py wide  prodigo prodigal_son_en.mp4 trilha_prodigo_en_narrada.wav
 python3 engine.py short prodigo 41.52 short_prodigal_son_en.mp4 trilha_prodigo_en_narrada.wav
+```
+
+Vídeo principal narrado (voz na velocidade 1.0 para caber em 2 minutos):
+
+```bash
+export VIDEO_LANG=en VIDEO_VOICE_SPEED=1.0
+python3 narracao.py render
+export VIDEO_NARRATION=1
+TRILHA_OUT=trilha_emocional_en.wav python3 audio_emocional.py      # partitura original, reposicionada no tempo narrado
+python3 narracao.py render --mix trilha_emocional_en.wav trilha_jesus_en_narrada.wav
+python3 engine.py wide render jesus_history_en_narrated.mp4 trilha_jesus_en_narrada.wav
 ```

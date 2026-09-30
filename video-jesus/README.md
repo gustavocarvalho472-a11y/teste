@@ -14,4 +14,17 @@ python3 audio.py    # gera trilha.wav
 python3 render.py   # gera jesus_historia.mp4
 ```
 
+## Versões
+
+| Arquivo | Idioma | Trilha |
+|---|---|---|
+| `jesus_historia.mp4` | Português | original (`audio.py`) |
+| `jesus_historia_musica_nova.mp4` | Português | emocional (`audio_emocional.py`) |
+| `jesus_history_en.mp4` | Inglês (versículos KJV) | emocional (`audio_emocional.py`) |
+
+```bash
+python3 audio_emocional.py    # gera trilha_emocional.wav
+VIDEO_LANG=en VIDEO_AUDIO=trilha_emocional.wav VIDEO_OUT=jesus_history_en.mp4 python3 render.py
+```
+
 Para ajustar textos e tempos, edite a lista `SCENES` em `render.py`.

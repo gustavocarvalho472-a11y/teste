@@ -600,6 +600,83 @@ def title_text(c, s, x, y, size, spacing=0.0, a=1.0, shine=-1.0, glow_a=0.6, fac
     c.new_path()
     return total
 
+# ───────────────────────── idioma ─────────────────────────
+LANG = os.environ.get("VIDEO_LANG", "pt")
+
+EN = {
+    "DO NASCIMENTO À RESSURREIÇÃO": "FROM BIRTH TO RESURRECTION",
+    "DIA 1": "DAY 1", "DIA 2": "DAY 2", "DIA 3": "DAY 3",
+    "ELE VIVE": "HE LIVES",
+    "Siga nosso canal": "Subscribe to our channel",
+    "para mais histórias que transformam vidas": "for more stories that transform lives",
+    "INSCREVA-SE": "SUBSCRIBE", "INSCRITO": "SUBSCRIBED",
+    # capítulos
+    "I · A PROMESSA": "I · THE PROMISE", "II · O NASCIMENTO": "II · THE BIRTH",
+    "III · A ESTRELA": "III · THE STAR", "IV · O BATISMO": "IV · THE BAPTISM",
+    "V · OS MILAGRES": "V · THE MIRACLES", "VI · A MENSAGEM": "VI · THE MESSAGE",
+    "VII · A ÚLTIMA CEIA": "VII · THE LAST SUPPER", "VIII · GETSÊMANI": "VIII · GETHSEMANE",
+    "IX · A PAIXÃO": "IX · THE PASSION", "X · A CRUZ": "X · THE CROSS",
+    "XI · O SILÊNCIO": "XI · THE SILENCE", "XII · A RESSURREIÇÃO": "XII · THE RESURRECTION",
+    # legendas
+    "Há dois mil anos, uma história mudaria o mundo *para sempre*.":
+        "Two thousand years ago, a story would change the world *forever*.",
+    "Em Nazaré, um anjo aparece a uma jovem chamada *Maria*.":
+        "In Nazareth, an angel appears to a young woman named *Mary*.",
+    "“Você terá um filho… e o chamará *Jesus*.”": "“You will bear a son… and call him *Jesus*.”",
+    "Em *Belém*, sem lugar na hospedaria…": "In *Bethlehem*, with no room at the inn…",
+    "…o Filho de Deus nasce numa simples *manjedoura*.": "…the Son of God is born in a simple *manger*.",
+    "Uma *estrela* guia magos do Oriente até o Rei recém-nascido.":
+        "A *star* guides wise men from the East to the newborn King.",
+    "Aos 30 anos, no rio *Jordão*, os céus se abrem:": "At 30, in the *Jordan* River, the heavens open:",
+    "“Este é o meu *Filho amado*.”": "“This is my *beloved Son*.”",
+    "Ele cura *cegos*. Faz paralíticos *andarem*.": "He heals the *blind*. Makes the paralyzed *walk*.",
+    "Caminha sobre as águas… e a *tempestade* se cala.": "He walks on water… and the *storm* falls silent.",
+    "Multidões o seguem. Ele fala de *amor*, *perdão* e *esperança*.":
+        "Crowds follow him. He speaks of *love*, *forgiveness* and *hope*.",
+    "“Eu sou o caminho, a verdade e a *vida*.”": "“I am the way, the truth and the *life*.”",
+    "Na última ceia, ele parte o pão com os *doze*.": "At the last supper, he breaks bread with the *twelve*.",
+    "“Um de vocês vai me *trair*.”": "“One of you will *betray* me.”",
+    "No jardim, ele ora em *agonia*.": "In the garden, he prays in *agony*.",
+    "Judas chega com soldados… e o entrega com um *beijo*.":
+        "Judas arrives with soldiers… and betrays him with a *kiss*.",
+    "Condenado. Açoitado. *Coroado de espinhos*.": "Condemned. Scourged. *Crowned with thorns*.",
+    "Carrega a própria cruz rumo ao *Calvário*.": "He carries his own cross to *Calvary*.",
+    "Pregado na cruz, ele clama: “Pai, *perdoa-lhes*.”":
+        "Nailed to the cross, he cries: “Father, *forgive them*.”",
+    "“Está *consumado*.” E o céu escurece.": "“It is *finished*.” And the sky grows dark.",
+    "Seu corpo é selado num *túmulo*.": "His body is sealed in a *tomb*.",
+    "Silêncio. Um dia… dois dias…": "Silence. One day… two days…",
+    "Mas, no *terceiro dia*…": "But on the *third day*…",
+    "a pedra é removida. O túmulo está *vazio*!": "the stone is rolled away. The tomb is *empty*!",
+    "*ELE* *RESSUSCITOU!*": "*HE* *IS RISEN!*",
+    "A morte não teve a *última palavra*.": "Death did not have the *last word*.",
+    # apelo
+    "Jesus morreu por *mim*": "Jesus died for *me*", "e por *você*.": "and for *you*.",
+    "Não importa a sua religião:": "No matter your religion:",
+    "o que devemos olhar": "what we must look to",
+    "é para *Ele*.": "is *Him*.",
+    "Ele nos amou.": "He loved us.", "ELE TE AMA": "HE LOVES YOU",
+}
+
+VERSES_EN = {  # King James Version (domínio público)
+    "I": ("Thou shalt conceive in thy womb, and bring forth a son, and shalt call his name Jesus.", "Luke 1:31"),
+    "II": ("She brought forth her firstborn son, wrapped him in swaddling clothes, and laid him in a manger.", "Luke 2:7"),
+    "III": ("Where is he that is born King of the Jews? For we have seen his star in the east.", "Matthew 2:2"),
+    "IV": ("This is my beloved Son, in whom I am well pleased.", "Matthew 3:17"),
+    "V": ("Peace, be still. And the wind ceased, and there was a great calm.", "Mark 4:39"),
+    "VI": ("I am the way, the truth, and the life.", "John 14:6"),
+    "VII": ("This is my body which is given for you: this do in remembrance of me.", "Luke 22:19"),
+    "VIII": ("O my Father, if it be possible, let this cup pass from me: nevertheless not as I will, but as thou wilt.", "Matthew 26:39"),
+    "IX": ("He was wounded for our transgressions… and with his stripes we are healed.", "Isaiah 53:5"),
+    "X": ("Father, forgive them; for they know not what they do.", "Luke 23:34"),
+    "XI": ("He rolled a great stone to the door of the sepulchre, and departed.", "Matthew 27:60"),
+    "XII": ("He is not here: for he is risen, as he said.", "Matthew 28:6"),
+}
+
+
+def tr(s):
+    return EN.get(s, s) if LANG == "en" else s
+
 
 # ───────────────────────── legendas ─────────────────────────
 def draw_caption(c, text, lt, dur, big=False):
@@ -608,7 +685,7 @@ def draw_caption(c, text, lt, dur, big=False):
     c.select_font_face(face, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
     c.set_font_size(size)
     words = []
-    for tok in text.split(" "):
+    for tok in tr(text).split(" "):
         emph = "*" in tok
         words.append((tok.replace("*", ""), emph))
     space = c.text_extents(" ").x_advance
@@ -690,7 +767,8 @@ def draw_chapter(c, label, lt, dur):
     if a <= 0:
         return
     key = label.split(" · ")[0]
-    verse = VERSES.get(key)
+    verse = (VERSES_EN if LANG == "en" else VERSES).get(key)
+    label = tr(label)
     g = cairo.RadialGradient(60, 60, 0, 60, 60, 900)
     g.add_color_stop_rgba(0, 0, 0, 0, 0.6 * a)
     g.add_color_stop_rgba(0.5, 0, 0, 0, 0.3 * a)
@@ -771,7 +849,7 @@ def s_intro(c, t, d):
     c.move_to(W / 2 - 360 * la, H * 0.58)
     c.line_to(W / 2 + 360 * la, H * 0.58)
     c.stroke()
-    text_center(c, "DO NASCIMENTO À RESSURREIÇÃO", W / 2, H * 0.58 + 58, 32, face=SANS,
+    text_center(c, tr("DO NASCIMENTO À RESSURREIÇÃO"), W / 2, H * 0.58 + 58, 32, face=SANS,
                 col=GOLD, a=eout(seg(t, 1.5, 2.5)), spacing=8)
 
 
@@ -1372,7 +1450,7 @@ def s_tumulo(c, t, d):
     olive_tree(c, W * 0.12, H * 0.92, 380, "#07080f", seed=5)
     _tomb(c, t)
     vignette(c, 0.4)
-    for k, (a0, lbl) in enumerate(((2.9, "DIA 1"), (4.7, "DIA 2"))):
+    for k, (a0, lbl) in enumerate(((2.9, tr("DIA 1")), (4.7, tr("DIA 2")))):
         e = seg(t, a0, a0 + 2.2)
         if 0 < e < 1:
             al = eout(e / 0.25) * clamp((1 - e) / 0.3)
@@ -1410,7 +1488,7 @@ def s_ressurreicao(c, t, d):
     e = seg(t, 0, 2.6)
     if e < 1:
         al = eout(e / 0.2) * clamp((1 - e) / 0.3)
-        text_center(c, "DIA 3", W / 2, H * 0.32, lerp(140, 175, e), col="#ffe7b0", a=al, spacing=24)
+        text_center(c, tr("DIA 3"), W / 2, H * 0.32, lerp(140, 175, e), col="#ffe7b0", a=al, spacing=24)
     wf = seg(t, 6.2, 6.4) - seg(t, 6.4, 7.4)
     overlay(c, "#ffffff", wf)
 
@@ -1433,6 +1511,7 @@ def appeal_lines(c, lines, lt, dur):
     bot = base[-1] + lines[-1][1] * 0.2
     off = H * 0.47 - (top + bot) / 2
     for k, (txt, sz, face) in enumerate(lines):
+        txt = tr(txt)
         y = base[k] + off
         p = eout((lt - k * 0.45) / 0.5)
         if p > 0:
@@ -1462,9 +1541,9 @@ def subscribe(c, lt, dur):
     a = eout(lt / 0.5) * clamp((dur - lt) / 0.6)
     if a <= 0:
         return
-    text_center(c, "Siga nosso canal", W / 2, H * 0.34 + (1 - eout(lt / 0.5)) * 30, 64, face=SANS,
+    text_center(c, tr("Siga nosso canal"), W / 2, H * 0.34 + (1 - eout(lt / 0.5)) * 30, 64, face=SANS,
                 col="#ffffff", a=a)
-    text_center(c, "para mais histórias que transformam vidas", W / 2, H * 0.34 + 70, 36, face=SANS,
+    text_center(c, tr("para mais histórias que transformam vidas"), W / 2, H * 0.34 + 70, 36, face=SANS,
                 col=GOLD, a=a * eout(seg(lt, 0.3, 0.8)), bold=False)
     # botão "INSCREVA-SE" com clique animado
     pop = eback(seg(lt, 0.5, 1.0))
@@ -1485,7 +1564,7 @@ def subscribe(c, lt, dur):
     else:
         c.set_source_rgba(0.86, 0.1, 0.12, a)
     c.fill()
-    tw = text_center(c, "INSCRITO" if done else "INSCREVA-SE", -22 if done else 0, 18, 48, face=SANS,
+    tw = text_center(c, tr("INSCRITO" if done else "INSCREVA-SE"), -22 if done else 0, 18, 48, face=SANS,
                      col="#ffffff", a=a, spacing=2)
     if done:
         c.set_line_width(8)
@@ -1553,7 +1632,7 @@ def s_final(c, t, d):
     particles(c, t, 120, 141, mix("#ffffff", "#ffd98a", dark), 0.9, rise=60)
     ta = eout(seg(t, 0.8, 2.0)) * (1 - seg(t, 4.0, 4.6))
     sp = lerp(70, 30, eout(seg(t, 0.8, 3.0)))
-    title_text(c, "ELE VIVE", W / 2, H * 0.52, 210, spacing=sp, a=ta, shine=seg(t, 2.0, 3.4),
+    title_text(c, tr("ELE VIVE"), W / 2, H * 0.52, 210, spacing=sp, a=ta, shine=seg(t, 2.0, 3.4),
                top="#9a5a16", mid="#7a3e0a", bottom="#4a2004", glow_a=0.25, outline=False)
     # parte 2 — apelo
     for a0, a1, lines in APPEAL:
@@ -1664,8 +1743,8 @@ def main():
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     n = int(round(TOTAL * FPS))
-    audio = os.path.join(HERE, "trilha.wav")
-    out = os.path.join(HERE, "jesus_historia.mp4")
+    audio = os.environ.get("VIDEO_AUDIO", os.path.join(HERE, "trilha.wav"))
+    out = os.environ.get("VIDEO_OUT", os.path.join(HERE, "jesus_historia.mp4"))
     cmd = [ff, "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr0", "-s", f"{W}x{H}",
            "-r", str(FPS), "-i", "-"]
     if os.path.exists(audio):

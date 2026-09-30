@@ -656,10 +656,48 @@ def draw_caption(c, text, lt, dur, big=False):
             i += 1
 
 
+VERSES = {
+    "I": ("Eis que conceberás e darás à luz um filho, e pôr-lhe-ás o nome de Jesus.", "Lucas 1:31"),
+    "II": ("Deu à luz o seu filho primogênito, envolveu-o em panos e o deitou numa manjedoura.", "Lucas 2:7"),
+    "III": ("Onde está o rei dos judeus, que é nascido? Vimos a sua estrela no Oriente.", "Mateus 2:2"),
+    "IV": ("Este é o meu Filho amado, em quem me comprazo.", "Mateus 3:17"),
+    "V": ("Cala-te, aquieta-te. E o vento cessou, e fez-se grande bonança.", "Marcos 4:39"),
+    "VI": ("Eu sou o caminho, e a verdade, e a vida.", "João 14:6"),
+    "VII": ("Isto é o meu corpo, que por vós é dado; fazei isto em memória de mim.", "Lucas 22:19"),
+    "VIII": ("Meu Pai, não seja como eu quero, mas como tu queres.", "Mateus 26:39"),
+    "IX": ("Foi ferido por causa das nossas transgressões; pelas suas pisaduras fomos sarados.", "Isaías 53:5"),
+    "X": ("Pai, perdoa-lhes, porque não sabem o que fazem.", "Lucas 23:34"),
+    "XI": ("Rolou uma grande pedra para a porta do sepulcro.", "Mateus 27:60"),
+    "XII": ("Não está aqui, ressuscitou, como tinha dito.", "Mateus 28:6"),
+}
+
+
+def _wrap(c, text, maxw):
+    lines, cur = [], ""
+    for w in text.split(" "):
+        t = (cur + " " + w).strip()
+        if cur and c.text_extents(t).x_advance > maxw:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = t
+    lines.append(cur)
+    return lines
+
+
 def draw_chapter(c, label, lt, dur):
     a = eout(lt / 0.5) * clamp((dur - lt) / 0.3)
     if a <= 0:
         return
+    key = label.split(" · ")[0]
+    verse = VERSES.get(key)
+    g = cairo.RadialGradient(60, 60, 0, 60, 60, 900)
+    g.add_color_stop_rgba(0, 0, 0, 0, 0.6 * a)
+    g.add_color_stop_rgba(0.5, 0, 0, 0, 0.3 * a)
+    g.add_color_stop_rgba(1, 0, 0, 0, 0)
+    c.set_source(g)
+    c.rectangle(0, 0, 960, 620)
+    c.fill()
     ln = 70 * eout(lt / 0.6)
     c.set_line_width(3)
     rgb(c, GOLD, a)
@@ -677,6 +715,29 @@ def draw_chapter(c, label, lt, dur):
         rgb(c, "#fff4d6", a)
         c.show_text(ch)
         x += c.text_extents(ch).x_advance + 4
+    if verse:
+        va = eout(seg(lt, 0.5, 1.1)) * clamp((dur - lt) / 0.3)
+        dy = (1 - eout(seg(lt, 0.5, 1.1))) * 12
+        c.select_font_face(SANS, cairo.FONT_SLANT_ITALIC, cairo.FONT_WEIGHT_NORMAL)
+        c.set_font_size(32)
+        lines = _wrap(c, "“" + verse[0] + "”", 800)
+        y = 152 + dy
+        for l in lines:
+            c.move_to(82, y + 2)
+            c.set_source_rgba(0, 0, 0, 0.7 * va)
+            c.show_text(l)
+            c.move_to(80, y)
+            rgb(c, "#ffffff", 0.95 * va)
+            c.show_text(l)
+            y += 44
+        c.select_font_face(SANS, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
+        c.set_font_size(27)
+        c.move_to(82, y + 6)
+        c.set_source_rgba(0, 0, 0, 0.7 * va)
+        c.show_text("— " + verse[1])
+        c.move_to(80, y + 4)
+        rgb(c, GOLD, va)
+        c.show_text("— " + verse[1])
 
 
 # ───────────────────────── cenas ─────────────────────────

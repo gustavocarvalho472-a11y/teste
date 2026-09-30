@@ -889,6 +889,6 @@ def verses():
     return VERSES_EN if LANG == "en" else VERSES_PT
 
 
-if os.environ.get("VIDEO_NARRATION"):
+if os.environ.get("VIDEO_NARRATION") == "prodigo":
     import narracao
     narracao.apply(globals(), "prodigo")

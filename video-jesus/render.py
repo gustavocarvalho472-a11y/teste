@@ -1715,7 +1715,7 @@ NARRATION_EXTRA = {
          (14.9, "Inscreva-se no canal.")],
 }
 
-if os.environ.get("VIDEO_NARRATION"):
+if os.environ.get("VIDEO_NARRATION") == "render":
     import narracao
     narracao.apply(globals(), "render")
 

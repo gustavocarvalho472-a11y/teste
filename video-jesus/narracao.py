@@ -3,7 +3,7 @@
 1) Gera as falas (uma vez) e calcula quanto cada cena precisa ser desacelerada para caber a voz:
        VIDEO_LANG=en python3 narracao.py prodigo
    → narr/prodigo_en_am_michael/*.wav + timing.json
-2) Com VIDEO_NARRATION=1, o projeto lê timing.json e ajusta durações/legendas (apply()).
+2) Com VIDEO_NARRATION=<projeto>, o projeto lê timing.json e ajusta durações/legendas (apply()).
 3) Mixa voz + trilha (música abaixa sob a voz):
        VIDEO_LANG=en python3 narracao.py prodigo --mix trilha_prodigo_en.wav trilha_prodigo_en_narrada.wav
 
@@ -19,7 +19,9 @@ import wave
 import numpy as np
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-VOICE = os.environ.get("VIDEO_VOICE", "am_michael")
+DEFAULT_VOICE = {"en": "am_michael", "pt": "pm_alex"}
+VOICE = os.environ.get("VIDEO_VOICE", DEFAULT_VOICE.get(os.environ.get("VIDEO_LANG", "pt"), "am_michael"))
+TTS_LANG = {"a": "en-us", "b": "en-gb", "p": "pt-br"}[VOICE[0]]
 SPEED = float(os.environ.get("VIDEO_VOICE_SPEED", "0.92"))
 MODEL_DIR = os.environ.get("KOKORO_DIR", os.path.expanduser("~/tts"))
 GAP = 0.35    # respiro mínimo entre falas
@@ -58,7 +60,7 @@ def generate(projname):
         dur0 = proj.SCENES[k][1]
         items = []
         for start, text, cap in lines:
-            audio, sr = tts.create(text, voice=VOICE, speed=SPEED, lang="en-us" if VOICE[0] == "a" else "en-gb")
+            audio, sr = tts.create(text, voice=VOICE, speed=SPEED, lang=TTS_LANG)
             path = os.path.join(d, f"{n:03d}.wav")
             sf.write(path, audio, sr)
             items.append({"start": start, "dur": len(audio) / sr, "wav": os.path.relpath(path, HERE),
@@ -142,7 +144,7 @@ def _read_float(path):
 
 
 def mix(projname, music_path, out_path):
-    os.environ["VIDEO_NARRATION"] = "1"
+    os.environ["VIDEO_NARRATION"] = projname
     proj = importlib.import_module(projname)
     music, sr = _read(music_path)
     voice = np.zeros(len(music))

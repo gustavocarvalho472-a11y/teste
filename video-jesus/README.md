@@ -24,6 +24,8 @@ python3 render.py   # gera jesus_historia.mp4
 | `short_jesus.mp4` | Short 9:16 (paixão → ressurreição → apelo, 54s) | emocional |
 | `filho_prodigo.mp4` | O Filho Pródigo, estilo ilustração chapada (1min31s) | `prodigo_audio.py` |
 | `jesus_history_en_narrated.mp4` | The Story of Jesus, inglês **narrado** (voz Michael, 1min59s) | emocional + narração |
+| `filho_prodigo_narrado.mp4` | O Filho Pródigo, português **narrado** (voz Alex, 1min31s) | `prodigo_audio.py` + narração |
+| `short_filho_prodigo_narrado.mp4` | Short 9:16 em português narrado (52s) | idem |
 | `prodigal_son_en_narrated.mp4` | The Prodigal Son, inglês **narrado** (voz Michael, 1min34s) | `prodigo_audio.py` + narração |
 | `short_prodigal_son_en_narrated.mp4` | Short 9:16 em inglês narrado (52s) | idem |
 | `short_filho_prodigo.mp4` | Short 9:16 do Filho Pródigo (despertar → abraço → apelo, 52s) | `prodigo_audio.py` |
@@ -56,7 +58,7 @@ Modelos em `~/tts`: `kokoro-v1.0.onnx` e `voices-v1.0.bin`. `pip install kokoro-
 ```bash
 export VIDEO_LANG=en
 python3 narracao.py prodigo                         # gera falas + timing.json (cenas desaceleram se a fala não couber)
-export VIDEO_NARRATION=1
+export VIDEO_NARRATION=prodigo
 TRILHA_OUT=trilha_prodigo_en.wav python3 prodigo_audio.py
 python3 narracao.py prodigo --mix trilha_prodigo_en.wav trilha_prodigo_en_narrada.wav   # música abaixa ≥8 dB sob a voz
 python3 engine.py wide  prodigo prodigal_son_en_narrated.mp4 trilha_prodigo_en_narrada.wav
@@ -68,8 +70,21 @@ Vídeo principal narrado (voz na velocidade 1.0 para caber em 2 minutos):
 ```bash
 export VIDEO_LANG=en VIDEO_VOICE_SPEED=1.0
 python3 narracao.py render
-export VIDEO_NARRATION=1
+export VIDEO_NARRATION=render
 TRILHA_OUT=trilha_emocional_en.wav python3 audio_emocional.py      # partitura original, reposicionada no tempo narrado
 python3 narracao.py render --mix trilha_emocional_en.wav trilha_jesus_en_narrada.wav
 python3 engine.py wide render jesus_history_en_narrated.mp4 trilha_jesus_en_narrada.wav
+```
+
+Português narrado (voz `pm_alex`) e thumbnails:
+
+```bash
+export VIDEO_LANG=pt VIDEO_VOICE_SPEED=1.0
+python3 narracao.py prodigo
+export VIDEO_NARRATION=prodigo
+TRILHA_OUT=trilha_prodigo_pt.wav python3 prodigo_audio.py
+python3 narracao.py prodigo --mix trilha_prodigo_pt.wav trilha_prodigo_pt_narrada.wav
+python3 engine.py wide  prodigo filho_prodigo_narrado.mp4 trilha_prodigo_pt_narrada.wav
+python3 engine.py short prodigo 39.14 short_filho_prodigo_narrado.mp4 trilha_prodigo_pt_narrada.wav
+python3 thumb.py      # thumb_filho_prodigo_pt.png, thumb_prodigal_son_en.png (1280x720)
 ```

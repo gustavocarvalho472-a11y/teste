@@ -140,3 +140,11 @@ VIDEO_LANG=en VIDEO_NARRATION=tela python3 engine.py short tela 0:68.6 short_scr
 
 ### Kit de postagem
 `postar/`: vídeos finais, thumbs, legendas `.srt` (`srt.py`) e `LEIA_E_POSTE.md` (títulos, descrições, tags, comentário fixado e prompt de thumb). Thumbs: `python3 thumb.py tela`.
+
+### Publicar no YouTube (`youtube_upload.py`)
+Lê `postar/publicar.json` e envia vídeo, thumb, legenda .srt e comentário. Credenciais nas variáveis de
+ambiente `YT_CLIENT_ID`, `YT_CLIENT_SECRET`, `YT_REFRESH_TOKEN` (escopos `youtube.upload` + `youtube.force-ssl`).
+```
+python3 youtube_upload.py postar/publicar.json --dry-run
+python3 youtube_upload.py postar/publicar.json --agendar 2026-10-03T21:00:00-03:00
+```

@@ -78,14 +78,17 @@ def frame_wide(projname, i):
     surf, c = _art(proj, fn, t, dur, i)
     active = [cp for cp in caps if cp[0] <= t < cp[1]]
     if active:
-        g = cairo.LinearGradient(0, H - 330, 0, H)
+        k = getattr(proj, "CAPTION_SCALE", 1.0)
+        band = 330 * k
+        g = cairo.LinearGradient(0, H - band, 0, H)
         g.add_color_stop_rgba(0, 0, 0, 0, 0)
-        g.add_color_stop_rgba(1, 0, 0, 0, 0.6)
+        g.add_color_stop_rgba(1, 0, 0, 0, 0.6 * k)
         c.set_source(g)
-        c.rectangle(0, H - 330, W, 330)
+        c.rectangle(0, H - band, W, band)
         c.fill()
         for cp in active:
-            draw_caption(c, cp[2], t - cp[0], cp[1] - cp[0], big=len(cp) > 3 and cp[3])
+            draw_caption(c, cp[2], t - cp[0], cp[1] - cp[0], big=len(cp) > 3 and cp[3], scale=k,
+                         bottom=H - 105 * k, maxw=1600 * k)
     if label:
         draw_chapter(c, label, t, dur, verses=proj.verses())
     _fades(proj, c, idx, t, dur)

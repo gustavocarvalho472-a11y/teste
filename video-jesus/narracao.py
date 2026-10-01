@@ -56,6 +56,7 @@ def generate(projname):
     os.makedirs(d, exist_ok=True)
     scenes = []
     n = 0
+    gap = getattr(proj, "NARR_GAP", GAP)
     for k, lines in enumerate(_lines(proj, render.tr)):
         dur0 = proj.SCENES[k][1]
         items = []
@@ -69,7 +70,7 @@ def generate(projname):
         # menor fator s tal que cada fala caiba antes da próxima e antes do fim da cena
         s = 1.0
         for a, b in zip(items, items[1:]):
-            s = max(s, (a["dur"] + GAP + LEAD) / max(0.1, b["start"] - a["start"]))
+            s = max(s, (a["dur"] + gap + LEAD) / max(0.1, b["start"] - a["start"]))
         if items:
             last = items[-1]
             s = max(s, (last["dur"] + TAIL + LEAD) / max(0.1, dur0 - last["start"]))

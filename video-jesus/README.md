@@ -105,7 +105,7 @@ python3 engine.py short jesus_flat 65.03 short_historia_de_jesus_narrado.mp4 tri
 
 ## Tempo de Tela (vídeo de ~4 min)
 
-`tempo_de_tela.mp4` — 3min48s, narrado (Alex), passagem central João 4:13-14.
+`tempo_de_tela.mp4` — 3min53s, narrado (Alex), passagem central João 4:13-14. Ato I em câmera contínua (quarto → mergulho na tela → caça-níquel → estrada do feed → montagem → multidão → silêncio → notificação), legendas reduzidas (`CAPTION_SCALE`), fios de marionete cortados no Ato IV.
 Atos: gancho (o aplicativo que te prende) → por que não conseguimos parar (caça-níquel, feed infinito,
 comparação, ansiedade, solidão, insônia) → a sede (mulher no poço) → o preço (a cruz) → o que muda
 (paz, descanso, identidade, presença) → desafio dos 7 dias ("ACEITO").
@@ -116,5 +116,6 @@ python3 narracao.py tela
 export VIDEO_NARRATION=tela
 TRILHA_OUT=trilha_tela.wav python3 tela_audio.py        # sound design + trilha
 python3 narracao.py tela --mix trilha_tela.wav trilha_tela_narrada.wav
-python3 engine.py wide tela tempo_de_tela.mp4 trilha_tela_narrada.wav
+python3 engine.py wide tela tempo_de_tela_hq.mp4 trilha_tela_narrada.wav
+# < 30 MB: ffmpeg -i tempo_de_tela_hq.mp4 -crf 27 -preset slow -c:a aac -b:a 128k tempo_de_tela.mp4
 ```

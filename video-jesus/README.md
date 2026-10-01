@@ -119,3 +119,13 @@ python3 narracao.py tela --mix trilha_tela.wav trilha_tela_narrada.wav
 python3 engine.py wide tela tempo_de_tela_hq.mp4 trilha_tela_narrada.wav
 # < 30 MB: ffmpeg -i tempo_de_tela_hq.mp4 -crf 27 -preset slow -c:a aac -b:a 128k tempo_de_tela.mp4
 ```
+
+### Tempo de Tela — versão em inglês (Michael)
+`screen_time_en_narrated.mp4` — legendas, palavras na tela e versículos (KJV) em inglês.
+```
+export VIDEO_LANG=en VIDEO_VOICE_SPEED=1.0
+python3 narracao.py tela
+export VIDEO_NARRATION=tela
+python3 narracao.py tela --mix trilha_tela.wav trilha_tela_en_narrada.wav   # mesma trilha do PT
+python3 engine.py wide tela screen_time_hq.mp4 trilha_tela_en_narrada.wav
+```

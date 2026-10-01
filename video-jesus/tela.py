@@ -13,7 +13,7 @@ import random
 import cairo
 
 from prodigo import CREAM, INK, TEAL, bands, blob, cloud, fill, paint, person, sitting, sun, tree
-from render import (EN, GOLD, SANS, TAU, TITLE, H, W, clamp, draw_chapter, eback, eio, eout, glow, hexc, lerp,
+from render import (EN, GOLD, LANG, tr, SANS, TAU, TITLE, H, W, clamp, draw_chapter, eback, eio, eout, glow, hexc, lerp,
                     mix, overlay, particles, seg, subscribe, text_center, title_text, town)
 
 TEXTURE = True
@@ -219,6 +219,7 @@ def kinetic(c, word, lt, size=190, col="#ffffff", dur=1.2, y=H * 0.46):
     sh = (1 - p) * 10
     c.select_font_face(SANS, cairo.FONT_SLANT_NORMAL, cairo.FONT_WEIGHT_BOLD)
     c.set_font_size(size)
+    word = tr(word)
     tw = c.text_extents(word).x_advance + 4 * len(word)
     if tw > W * 0.86:   # cabe sempre na tela
         size *= W * 0.86 / tw
@@ -351,7 +352,7 @@ def _slot(c, t):
         on = (int(t * 8) + k) % 2
         c.arc(lx, my + 26, 9, 0, TAU)
         fill(c, "#ffd25a" if on else "#7a0f1a")
-    text_center(c, "FEED", mx + mw / 2, my + 120, 70, face=SANS, col="#ffd25a")
+    text_center(c, tr("FEED"), mx + mw / 2, my + 120, 70, face=SANS, col="#ffd25a")
     rx, ry, rw, rh = mx + 50, my + 170, mw - 100, mh * 0.42
     rrect(c, rx - 14, ry - 14, rw + 28, rh + 28, 24)
     fill(c, "#7a0f1a")
@@ -457,7 +458,7 @@ def draw_palco(c, lt, lose=0.0):
     rrect(c, W * 0.03, H * 0.06, 300, 70, 35)
     fill(c, "#ffffff", 0.9)
     heart(c, W * 0.03 + 50, H * 0.06 + 38, 34, RED)
-    text_center(c, f"{12.4 + lt * 0.3:.1f} mil", W * 0.03 + 175, H * 0.06 + 50, 36, face=SANS, col="#2a2a3a")
+    text_center(c, f"{12.4 + lt * 0.3:.1f}" + (" mil" if LANG != "en" else "K"), W * 0.03 + 175, H * 0.06 + 50, 36, face=SANS, col="#2a2a3a")
     c.restore()
     c.save()
     c.rectangle(W / 2, 0, W / 2, H)
@@ -490,9 +491,9 @@ def draw_palco(c, lt, lose=0.0):
     if lose < 1:
         c.rectangle(W / 2 - 4 - W * 0.5 * eio(lose), 0, 8, H)
         fill(c, "#ffffff")
-        text_center(c, "PALCO", W * 0.25 - W * 0.5 * eio(lose), H * 0.12 + 160, 44, face=SANS, col="#ffffff",
+        text_center(c, tr("PALCO"), W * 0.25 - W * 0.5 * eio(lose), H * 0.12 + 160, 44, face=SANS, col="#ffffff",
                     spacing=6)
-    text_center(c, "BASTIDORES", W * 0.75, H * 0.12 + 160, 44, face=SANS, col="#ffffff", spacing=6)
+    text_center(c, tr("BASTIDORES"), W * 0.75, H * 0.12 + 160, 44, face=SANS, col="#ffffff", spacing=6)
 
 
 def _card(c, kind, lt):
@@ -501,7 +502,7 @@ def _card(c, kind, lt):
         paint(c, "#16162a")
         c.rectangle(0, 0, W, H * 0.16)
         fill(c, "#d62828")
-        text_center(c, "URGENTE", W * 0.18, H * 0.11, 70, face=SANS, col="#ffffff", spacing=6)
+        text_center(c, tr("URGENTE"), W * 0.18, H * 0.11, 70, face=SANS, col="#ffffff", spacing=6)
         rrect(c, W * 0.08, H * 0.24, W * 0.84, H * 0.42, 20)
         fill(c, "#3a0f1a")
         c.set_line_width(14)
@@ -523,13 +524,13 @@ def _card(c, kind, lt):
         for i in range(7):
             rrect(c, -W * 0.25, -H * 0.3 + i * H * 0.07, W * (0.3 + 0.15 * (i % 2)), H * 0.022, 6)
             fill(c, "#b8b0a2")
-        text_center(c, "R$ 1.248,90", W * 0.12, H * 0.28, 70, face=SANS, col="#2a2a3a")
+        text_center(c, tr("R$ 1.248,90"), W * 0.12, H * 0.28, 70, face=SANS, col="#2a2a3a")
         c.rotate(-0.25)
         c.set_line_width(12)
         rrect(c, -W * 0.2, -H * 0.1, W * 0.4, H * 0.18, 16)
         c.set_source_rgba(0.85, 0.15, 0.2, 0.9)
         c.stroke()
-        text_center(c, "ATRASADA", 0, H * 0.035, 96, face=SANS, col="#d62839", spacing=6)
+        text_center(c, tr("ATRASADA"), 0, H * 0.035, 96, face=SANS, col="#d62839", spacing=6)
         c.restore()
     elif kind == "perfect":
         bands(c, ["#4cc9f0", "#7fdcf5", "#bdeefa"], 0, H * 0.6)
@@ -644,6 +645,10 @@ def draw_insonia(c, lt, drop_at=2.0):
         fill(c, CREAM)
 
 
+NOTIF_PT = ("“Vinde a mim, todos os que estais cansados", "e sobrecarregados, e eu vos aliviarei.”")
+NOTIF_EN = ("“Come unto me, all ye that labour and", "are heavy laden, and I will give you rest.”")
+
+
 def _notif(c, t):
     lt = t - T_NOTIF
     draw_insonia(c, 6.0)
@@ -673,16 +678,16 @@ def _notif(c, t):
         c.set_font_size(30)
         c.move_to(bx + 140, by + 72)
         c.set_source_rgb(0.15, 0.15, 0.2)
-        c.show_text("agora")
+        c.show_text(tr("agora"))
         c.set_font_size(44)
-        for i, line in enumerate(("“Vinde a mim, todos os que estais cansados", "e sobrecarregados, e eu vos aliviarei.”")):
+        for i, line in enumerate(NOTIF_EN if LANG == "en" else NOTIF_PT):
             c.move_to(bx + 60, by + 160 + i * 58)
             c.set_source_rgb(0.1, 0.1, 0.15)
             c.show_text(line)
         c.set_font_size(32)
         c.move_to(bx + 60, by + 272)
         c.set_source_rgb(*hexc("#b8860b"))
-        c.show_text("Mateus 11:28")
+        c.show_text(tr("Mateus 11:28"))
 
 
 def s_ato1(c, t, d):
@@ -1081,7 +1086,7 @@ def s_desafio(c, t, d):
             on = seg(t, 6.0 + k * 1.3, 6.4 + k * 1.3)
             rrect(c, bx - 55, by - 55, 110, 110, 18)
             fill(c, mix("#4a2f5c", "#5fe0cf", on))
-            text_center(c, f"DIA {k + 1}", bx, by - 18, 22, face=SANS, col="#ffffff")
+            text_center(c, f"{tr('DIA')} {k + 1}", bx, by - 18, 22, face=SANS, col="#ffffff")
             if on > 0:
                 c.set_line_width(12)
                 c.set_line_cap(cairo.LINE_CAP_ROUND)
@@ -1110,7 +1115,7 @@ def s_desafio(c, t, d):
             c.restore()
     else:
         e = eout(seg(t, 22.8, 23.8))
-        title_text(c, "ACEITO?", W / 2, H * 0.5, 230, spacing=lerp(60, 20, e), a=e * (1 - seg(t, 27.3, 27.8)),
+        title_text(c, tr("ACEITO?"), W / 2, H * 0.5, 160 if LANG == "en" else 230, spacing=lerp(60, 20, e), a=e * (1 - seg(t, 27.3, 27.8)),
                    shine=seg(t, 24, 25.5), face=SANS)
         if t > 27.8:
             subscribe(c, t - 27.8, d - 27.8)
@@ -1171,16 +1176,88 @@ for _s in SCENES:
 TOTAL = _acc
 SCALE = [1.0] * len(SCENES)
 SCENES0, STARTS0 = SCENES, STARTS
-NARRATION_EXTRA = {0: [(tb, w.capitalize() + ("" if w.endswith("…") else ".")) for tb, _, w in BEATS if w]}
 NARR_GAP = 0.12      # montagem rápida: falas curtas encostadas
 CAPTION_SCALE = 0.78  # legendas mais discretas
 
-EN.update({})
+VERSES_EN = {  # King James Version (domínio público)
+    "II": ("Whosoever drinketh of this water shall thirst again: but whosoever drinketh of the water that I shall "
+           "give him shall never thirst.", "John 4:13-14"),
+    "III": ("God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.",
+            "Romans 5:8"),
+    "IV": ("And the peace of God, which passeth all understanding, shall keep your hearts.", "Philippians 4:7"),
+}
+EN.update({
+    # títulos e palavras na tela
+    "I · POR QUE A GENTE NÃO CONSEGUE PARAR": "I · WHY WE CAN'T STOP",
+    "II · A SEDE": "II · THE THIRST", "III · O PREÇO": "III · THE PRICE", "IV · O QUE MUDA": "IV · WHAT CHANGES",
+    "APOSTA": "BET", "NADA": "NOTHING", "SEM FIM": "ENDLESS", "SEDE": "THIRST", "A VIDA": "HIS LIFE",
+    "PAZ": "PEACE", "DESCANSO": "REST", "IDENTIDADE": "IDENTITY", "PRESENÇA": "PRESENCE", "7 DIAS": "7 DAYS",
+    "ACEITO?": "ARE YOU IN?", "DIA": "DAY", "agora": "now", "Mateus 11:28": "Matthew 11:28",
+    "PALCO": "SPOTLIGHT", "BASTIDORES": "BACKSTAGE", "URGENTE": "BREAKING", "R$ 1.248,90": "$1,248.90",
+    "ATRASADA": "OVERDUE",
+    "NOTÍCIA RUIM": "BAD NEWS", "CONTA ATRASADA": "OVERDUE BILL", "A VIDA PERFEITA DELA": "HER PERFECT LIFE",
+    "MAIS UM LIKE": "ONE MORE LIKE", "MAIS UM": "ONE MORE", "MAIS UM…": "ONE MORE…",
+    # Ato I
+    "O aplicativo que você mais usa *não foi feito* pra te fazer feliz.":
+        "The app you use the most *wasn't built* to make you happy.",
+    "Foi feito pra te *manter aqui*.": "It was built to *keep you here*.",
+    "Fica até o fim: tem um *desafio* que pode mudar os seus próximos 7 dias.":
+        "Stay till the end: there's a *challenge* that could change your next 7 days.",
+    "Toda vez que você desliza o dedo, seu cérebro faz uma *aposta*: e se o próximo for melhor?":
+        "Every time you swipe, your brain places a *bet*: what if the next one is better?",
+    "Às vezes vem um *like*. Às vezes, nada. E é isso que te *prende*.":
+        "Sometimes you get a *like*. Sometimes, nothing. And that's what *hooks* you.",
+    "O feed *não tem fim*. Por isso você nunca se sente *satisfeito*.":
+        "The feed *never ends*. That's why you never feel *satisfied*.",
+    "Você compara os seus *bastidores* com o *palco* dos outros.":
+        "You compare your *backstage* to their *spotlight*.",
+    "E *perde*.": "And you *lose*.",
+    "Cercado de gente… e *ninguém* está ali.": "Surrounded by people… and *no one* is there.",
+    "E quando você finalmente larga o celular…": "And when you finally put the phone down…",
+    "o *silêncio grita*.": "the *silence screams*.",
+    # Ato II
+    "O problema não é o celular. É a *sede*.": "The problem isn't the phone. It's the *thirst*.",
+    "Há dois mil anos, uma mulher foi buscar água ao meio-dia, *sozinha*, pra não cruzar com ninguém.":
+        "Two thousand years ago, a woman went to draw water at noon, *alone*, so she wouldn't run into anyone.",
+    "No poço, estava Jesus. E Ele disse:": "At the well, there was Jesus. And He said:",
+    "“Qualquer que beber desta água tornará a ter sede; mas aquele que beber da água que eu lhe "
+    "der *nunca terá sede*.”":
+        "“Whosoever drinketh of this water shall thirst again: but whosoever drinketh of the water that I shall "
+        "give him shall *never thirst*.”",
+    "Ele não estava falando de poço. Estava falando de *você*.":
+        "He wasn't talking about a well. He was talking about *you*.",
+    # Ato III
+    "Você dá horas pro feed. Ele deu a *vida* por você.": "You give the feed hours. He gave His *life* for you.",
+    "“Deus prova o seu amor para conosco em que Cristo morreu por nós, sendo nós ainda *pecadores*.”":
+        "“God commendeth his love toward us, in that, while we were yet *sinners*, Christ died for us.”",
+    "Não quando você estava bem. Quando você estava rolando a tela às *três da manhã*.":
+        "Not when you had it all together. When you were scrolling at *three in the morning*.",
+    # Ato IV
+    "No lugar da ansiedade: *paz*. “A paz de Deus, que excede todo o entendimento.”":
+        "Instead of anxiety: *peace*. “The peace of God, which passeth all understanding.”",
+    "No lugar do cansaço: *descanso*. “Vinde a mim… e eu vos aliviarei.”":
+        "Instead of exhaustion: *rest*. “Come unto me… and I will give you rest.”",
+    "No lugar da comparação: *identidade*. Você é filho. Você é filha de Deus.":
+        "Instead of comparison: *identity*. You are a son. You are a daughter of God.",
+    "No lugar da solidão: *presença*. “Nunca te deixarei, nem te desampararei.”":
+        "Instead of loneliness: *presence*. “I will never leave thee, nor forsake thee.”",
+    # desafio
+    "Então eu te faço um *desafio*.": "So here's my *challenge* to you.",
+    "Por sete dias, os primeiros *dez minutos* da sua manhã, antes do celular, são para Ele.":
+        "For seven days, the first *ten minutes* of your morning, before your phone, belong to Him.",
+    "Abra a Bíblia. Ore. Ou só fique em silêncio com Ele.": "Open the Bible. Pray. Or just sit in silence with Him.",
+    "Comenta *ACEITO* se você topa. E manda pra alguém que precisa largar o celular hoje.":
+        "Comment *“I'm in”* if you're up for it. And send this to someone who needs to put the phone down today.",
+})
+
+NARRATION_EXTRA = {0: [(tb, tr(w).capitalize() + ("" if w.endswith("…") else ".")) for tb, _, w in BEATS if w]}
+if LANG == "en":   # em inglês, "One more." não cabe sozinho: junta com o like anterior
+    NARRATION_EXTRA[0] = [(tb, "One more like. One more. One more…" if k == "like" else tr(w).capitalize() +
+                           ("" if w.endswith("…") else ".")) for tb, k, w in BEATS if w and k not in ("like2", "like3")]
 
 
 def verses():
-    return VERSES
-
+    return VERSES_EN if LANG == "en" else VERSES
 
 if os.environ.get("VIDEO_NARRATION") == "tela":
     import narracao

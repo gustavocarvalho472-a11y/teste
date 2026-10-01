@@ -104,6 +104,7 @@ ART_H = H * ART_S
 def frame_vertical(projname, t0, i):
     """Short 9:16: fundo desfocado da própria cena + arte ampliada no meio, título/versículo no topo, legenda embaixo."""
     proj = importlib.import_module(projname)
+    proj.SHORT = True   # avisa o projeto que só ~71% da largura da arte aparece
     idx, label, dur, fn, caps, t = _scene_at(proj, t0 + i / FPS)
     art, _ = _art(proj, fn, t, dur, i)
     out = cairo.ImageSurface(cairo.FORMAT_RGB24, VW, VH)
@@ -159,11 +160,14 @@ def frame_vertical(projname, t0, i):
             draw_caption(c, cp[2], t - cp[0], cp[1] - cp[0], big=len(cp) > 3 and cp[3],
                          cx=VW / 2, bottom=ART_Y + ART_H + 200, maxw=960, scale=1.15)
     _fades(proj, c, idx, t, dur)
+    extra = getattr(proj, "SHORT_OVERLAY", None)   # texto extra só do Short (gancho / CTA)
+    if extra:
+        extra(c, t0 + i / FPS, VW, VH)
     out.flush()
     return bytes(out.get_data())
 
 
-def encode(frame_fn, n, out, audio=None, size=(W, H), audio_ss=0.0, crf=21):
+def encode(frame_fn, n, out, audio=None, size=(W, H), audio_ss=0.0, crf=21, fade_out=0.0):
     import imageio_ffmpeg
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     cmd = [ff, "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr0", "-s", f"{size[0]}x{size[1]}",
@@ -171,8 +175,11 @@ def encode(frame_fn, n, out, audio=None, size=(W, H), audio_ss=0.0, crf=21):
     if audio and os.path.exists(audio):
         cmd += ["-ss", f"{audio_ss:.3f}", "-i", audio, "-map", "0:v", "-map", "1:a", "-c:a", "aac", "-b:a", "192k",
                 "-shortest"]
-        if audio_ss > 0:
-            cmd += ["-af", "afade=t=in:d=0.8"]
+        af = ["afade=t=in:d=0.8"] if audio_ss > 0 else []
+        if fade_out:
+            af.append(f"afade=t=out:st={n / FPS - fade_out:.3f}:d={fade_out}")
+        if af:
+            cmd += ["-af", ",".join(af)]
     cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", str(crf), "-pix_fmt", "yuv420p",
             "-profile:v", "high", "-movflags", "+faststart", out]
     proc = subprocess.Popen(cmd, stdin=subprocess.PIPE)
@@ -195,7 +202,7 @@ def render_vertical(projname, t0, out, audio=None, t1=None):
     proj = importlib.import_module(projname)
     t1 = proj.TOTAL if t1 is None else t1
     encode(partial(frame_vertical, projname, t0), int(round((t1 - t0) * FPS)), out, audio, size=(VW, VH),
-           audio_ss=t0)
+           audio_ss=t0, fade_out=1.2 if t1 < proj.TOTAL else 0.0)
 
 
 def snapshot(frame_fn, times, prefix, size=(W, H)):
@@ -212,14 +219,16 @@ def snapshot(frame_fn, times, prefix, size=(W, H)):
 
 if __name__ == "__main__":
     import sys
-    # python3 engine.py short <projeto> <t0> <saida.mp4> [audio.wav]
+    # python3 engine.py short <projeto> <t0>[:<t1>] <saida.mp4> [audio.wav]
     # python3 engine.py wide  <projeto> <saida.mp4> [audio.wav]
     # python3 engine.py snap  <projeto> wide|short:<t0> <prefixo> t1 t2 ...
     cmd, proj = sys.argv[1], sys.argv[2]
     if cmd == "wide":
         render_wide(proj, sys.argv[3], sys.argv[4] if len(sys.argv) > 4 else None)
     elif cmd == "short":
-        render_vertical(proj, float(sys.argv[3]), sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else None)
+        a, _, b = sys.argv[3].partition(":")   # <t0> ou <t0>:<t1>
+        render_vertical(proj, float(a), sys.argv[4], sys.argv[5] if len(sys.argv) > 5 else None,
+                        float(b) if b else None)
     elif cmd == "snap":
         mode = sys.argv[3]
         if mode == "wide":

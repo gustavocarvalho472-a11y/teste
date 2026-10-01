@@ -17,6 +17,7 @@ from render import (EN, GOLD, LANG, tr, SANS, TAU, TITLE, H, W, clamp, draw_chap
                     mix, overlay, particles, seg, subscribe, text_center, title_text, town)
 
 TEXTURE = True
+SHORT = False   # engine.frame_vertical liga
 VIGNETTE = 0.45
 RED = "#e63946"
 CARD_COLS = ["#ff5d8f", "#5fe0cf", "#ffd25a", "#f28c1e", "#8a7cff", "#4cc9f0"]
@@ -221,8 +222,9 @@ def kinetic(c, word, lt, size=190, col="#ffffff", dur=1.2, y=H * 0.46):
     c.set_font_size(size)
     word = tr(word)
     tw = c.text_extents(word).x_advance + 4 * len(word)
-    if tw > W * 0.86:   # cabe sempre na tela
-        size *= W * 0.86 / tw
+    lim = W * (0.64 if SHORT else 0.86)   # cabe sempre na tela (no Short, só o miolo aparece)
+    if tw > lim:
+        size *= lim / tw
     c.save()
     c.translate(W / 2 + rnd.uniform(-sh, sh), y + rnd.uniform(-sh, sh))
     sc = lerp(1.45, 1.0, p)
@@ -744,7 +746,8 @@ def s_ato1(c, t, d):
         _notif(c, t)
         overlay(c, "#fff4dc", eio(seg(t, T_FLASH, d - 0.1)))
     if T_SLOT <= t < T_SLOT + 12:
-        draw_chapter(c, "I · POR QUE A GENTE NÃO CONSEGUE PARAR", t - T_SLOT, 12.0, verses={})
+        if not SHORT:
+            draw_chapter(c, "I · POR QUE A GENTE NÃO CONSEGUE PARAR", t - T_SLOT, 12.0, verses={})
 
 
 def lying(c, x, y, h, col=INK):
@@ -1192,7 +1195,8 @@ EN.update({
     "II · A SEDE": "II · THE THIRST", "III · O PREÇO": "III · THE PRICE", "IV · O QUE MUDA": "IV · WHAT CHANGES",
     "APOSTA": "BET", "NADA": "NOTHING", "SEM FIM": "ENDLESS", "SEDE": "THIRST", "A VIDA": "HIS LIFE",
     "PAZ": "PEACE", "DESCANSO": "REST", "IDENTIDADE": "IDENTITY", "PRESENÇA": "PRESENCE", "7 DIAS": "7 DAYS",
-    "ACEITO?": "ARE YOU IN?", "DIA": "DAY", "agora": "now", "Mateus 11:28": "Matthew 11:28",
+    "ACEITO?": "ARE YOU IN?", "TEMPO DE TELA": "SCREEN TIME", "O DESAFIO DE 7 DIAS": "THE 7-DAY CHALLENGE",
+    "está no vídeo completo ↓": "is in the full video ↓", "DIA": "DAY", "agora": "now", "Mateus 11:28": "Matthew 11:28",
     "PALCO": "SPOTLIGHT", "BASTIDORES": "BACKSTAGE", "URGENTE": "BREAKING", "R$ 1.248,90": "$1,248.90",
     "ATRASADA": "OVERDUE",
     "NOTÍCIA RUIM": "BAD NEWS", "CONTA ATRASADA": "OVERDUE BILL", "A VIDA PERFEITA DELA": "HER PERFECT LIFE",
@@ -1254,6 +1258,18 @@ NARRATION_EXTRA = {0: [(tb, tr(w).capitalize() + ("" if w.endswith("…") else "
 if LANG == "en":   # em inglês, "One more." não cabe sozinho: junta com o like anterior
     NARRATION_EXTRA[0] = [(tb, "One more like. One more. One more…" if k == "like" else tr(w).capitalize() +
                            ("" if w.endswith("…") else ".")) for tb, k, w in BEATS if w and k not in ("like2", "like3")]
+
+
+def SHORT_OVERLAY(c, ta, vw, vh):
+    """Short = Ato I inteiro. Selo no topo e, no fim, o convite para o vídeo completo (onde está o desafio)."""
+    a = clamp(ta / 0.4) * (1 - seg(ta, T_BLACK - 0.6, T_BLACK))
+    if a > 0:
+        text_center(c, tr("TEMPO DE TELA"), vw / 2, 230, 44, face=SANS, col=GOLD, a=0.9 * a, spacing=14)
+    e = eout(seg(ta, T_NOTIF + 1.6, T_NOTIF + 2.4))
+    if e > 0:
+        y = 300 + (1 - e) * 40
+        text_center(c, tr("O DESAFIO DE 7 DIAS"), vw / 2, y, 64, face=SANS, col="#ffffff", a=e, spacing=6)
+        text_center(c, tr("está no vídeo completo ↓"), vw / 2, y + 80, 48, face=SANS, col=GOLD, a=e)
 
 
 def verses():

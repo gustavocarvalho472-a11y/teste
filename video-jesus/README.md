@@ -129,3 +129,11 @@ export VIDEO_NARRATION=tela
 python3 narracao.py tela --mix trilha_tela.wav trilha_tela_en_narrada.wav   # mesma trilha do PT
 python3 engine.py wide tela screen_time_hq.mp4 trilha_tela_en_narrada.wav
 ```
+
+### Shorts do Tempo de Tela (Ato I inteiro, 68,6s)
+`short_tempo_de_tela_narrado.mp4` (PT) e `short_screen_time_en_narrated.mp4` (EN). Selo no topo e CTA
+"o desafio de 7 dias está no vídeo completo ↓" no fim (`tela.SHORT_OVERLAY`); `engine.py short` aceita `<t0>:<t1>`.
+```
+VIDEO_LANG=pt VIDEO_NARRATION=tela python3 engine.py short tela 0:68.6 short_tempo_de_tela_narrado.mp4 trilha_tela_narrada.wav
+VIDEO_LANG=en VIDEO_NARRATION=tela python3 engine.py short tela 0:68.6 short_screen_time_en_narrated.mp4 trilha_tela_en_narrada.wav
+```

@@ -102,3 +102,19 @@ python3 narracao.py jesus_flat --mix trilha_jesus_flat_pt.wav trilha_jesus_flat_
 python3 engine.py wide  jesus_flat historia_de_jesus_narrado.mp4 trilha_jesus_flat_pt_narrada.wav
 python3 engine.py short jesus_flat 65.03 short_historia_de_jesus_narrado.mp4 trilha_jesus_flat_pt_narrada.wav
 ```
+
+## Tempo de Tela (vídeo de ~4 min)
+
+`tempo_de_tela.mp4` — 3min48s, narrado (Alex), passagem central João 4:13-14.
+Atos: gancho (o aplicativo que te prende) → por que não conseguimos parar (caça-níquel, feed infinito,
+comparação, ansiedade, solidão, insônia) → a sede (mulher no poço) → o preço (a cruz) → o que muda
+(paz, descanso, identidade, presença) → desafio dos 7 dias ("ACEITO").
+
+```bash
+export VIDEO_LANG=pt VIDEO_VOICE_SPEED=1.0
+python3 narracao.py tela
+export VIDEO_NARRATION=tela
+TRILHA_OUT=trilha_tela.wav python3 tela_audio.py        # sound design + trilha
+python3 narracao.py tela --mix trilha_tela.wav trilha_tela_narrada.wav
+python3 engine.py wide tela tempo_de_tela.mp4 trilha_tela_narrada.wav
+```

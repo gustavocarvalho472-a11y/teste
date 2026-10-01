@@ -137,3 +137,6 @@ python3 engine.py wide tela screen_time_hq.mp4 trilha_tela_en_narrada.wav
 VIDEO_LANG=pt VIDEO_NARRATION=tela python3 engine.py short tela 0:68.6 short_tempo_de_tela_narrado.mp4 trilha_tela_narrada.wav
 VIDEO_LANG=en VIDEO_NARRATION=tela python3 engine.py short tela 0:68.6 short_screen_time_en_narrated.mp4 trilha_tela_en_narrada.wav
 ```
+
+### Kit de postagem
+`postar/`: vídeos finais, thumbs, legendas `.srt` (`srt.py`) e `LEIA_E_POSTE.md` (títulos, descrições, tags, comentário fixado e prompt de thumb). Thumbs: `python3 thumb.py tela`.

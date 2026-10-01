@@ -29,6 +29,44 @@ TAIL = 0.7    # respiro após a última fala da cena
 LEAD = 0.12   # a voz entra logo depois da legenda começar a aparecer
 
 
+# ── pronúncia em PT-BR ──────────────────────────────────────────────────────────────────────────────
+# O espeak entrega o português com vogais "americanas" (a final → æ, e final → y, schwa inserido, nasais
+# como "eɪŋ"). Corrigimos os fonemas antes do Kokoro, e palavras em inglês são fonetizadas em inglês.
+EN_WORDS = {"like", "likes", "feed", "feeds", "app", "apps", "reels", "stories", "story", "scroll", "online",
+            "post", "posts", "story", "ok", "playlist", "notification", "notifications"}
+
+
+def _fix_pt(ph):
+    # Testado com transcrição: corrigir as vogais ajuda; reescrever as nasais (eɪŋ → ẽ) piora,
+    # porque o Kokoro aprendeu o português com a grafia nasal do espeak, então as nasais ficam como estão.
+    ph = ph.replace("ə", "").replace("æ", "ɐ").replace("y", "i")
+    return ph.replace("aɪ", "aj").replace("eɪ", "ej").replace("oɪ", "oj")
+
+
+def phonemes_pt(tts, text):
+    """Texto PT → fonemas PT-BR corrigidos, com palavras inglesas (EN_WORDS) pronunciadas em inglês.
+    A frase é fonetizada inteira (mantém a prosódia); cada palavra inglesa vira um marcador "bababa"
+    que depois é trocado pelos fonemas em inglês."""
+    import re
+    en, toks = [], []
+    for tok in text.split(" "):
+        core = re.sub(r"[^\w']", "", tok)
+        if core.lower() in EN_WORDS:
+            en.append(tts.tokenizer.phonemize(core, "en-us").strip(" .,"))
+            tok = tok.replace(core, "bababa")
+        toks.append(tok)
+    ph = _fix_pt(tts.tokenizer.phonemize(" ".join(toks), "pt-br"))
+    for e in en:
+        ph = re.sub(r"[ˈˌ]?b[ˈˌ]?[aɐ]b[ˈˌ]?[aɐ]b[ˈˌ]?[aɐ]", lambda m: e, ph, count=1)
+    return ph
+
+
+def speak(tts, text):
+    if TTS_LANG == "pt-br":
+        return tts.create(phonemes_pt(tts, text), voice=VOICE, speed=SPEED, is_phonemes=True)
+    return tts.create(text, voice=VOICE, speed=SPEED, lang=TTS_LANG)
+
+
 def _dir(projname, lang):
     return os.path.join(HERE, "narr", f"{projname}_{lang}_{VOICE}")
 
@@ -61,7 +99,7 @@ def generate(projname):
         dur0 = proj.SCENES[k][1]
         items = []
         for start, text, cap in lines:
-            audio, sr = tts.create(text, voice=VOICE, speed=SPEED, lang=TTS_LANG)
+            audio, sr = speak(tts, text)
             path = os.path.join(d, f"{n:03d}.wav")
             sf.write(path, audio, sr)
             items.append({"start": start, "dur": len(audio) / sr, "wav": os.path.relpath(path, HERE),

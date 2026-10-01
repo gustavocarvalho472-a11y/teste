@@ -1179,7 +1179,7 @@ for _s in SCENES:
 TOTAL = _acc
 SCALE = [1.0] * len(SCENES)
 SCENES0, STARTS0 = SCENES, STARTS
-NARR_GAP = 0.12      # montagem rápida: falas curtas encostadas
+NARR_GAP = 0.06      # montagem rápida: falas curtas encostadas
 CAPTION_SCALE = 0.78  # legendas mais discretas
 
 VERSES_EN = {  # King James Version (domínio público)

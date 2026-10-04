@@ -2,3 +2,4 @@ build/
 output/
 assets/audio/
 assets/clips/
+__pycache__/

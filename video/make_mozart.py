@@ -4,17 +4,19 @@ Vídeo "Mozart for Deep Focus" (40 min).
 
 Estrutura:
   0:00  intro: 2 clipes de vídeo + texto sobre o Efeito Mozart
-  0:17  título + ciclo de imagens (60s cada, crossfade de 3s), repetido até o fim
+  0:17  título + zoom in/out marcado, trocando a cada ~12s (até 5:00)
+  5:00  ciclo calmo de imagens (60s cada, crossfade de 3s), repetido até o fim
   39:54 fade para preto
 
 Visual: zoom/pan lento diferente por imagem, chuva animada no pavilhão, poeira
 dourada flutuando, flicker de vela, tom quente e vinheta.
-Áudio: mp3 repetido com crossfade + chuva suave de fundo + swell/impacto no título.
+Áudio: 0-15 min sunlit_manuscript, depois mozart_relaxante (loops com crossfade) + chuva suave de fundo + swell/impacto no título.
 
 Para ser rápido, renderiza só UM ciclo (4 min) e repete com cópia de stream.
 """
 import math
 import subprocess
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -211,16 +213,78 @@ def render_intro(dust):
     return out, total
 
 
-def render_titled(cycle):
+# zoom in / zoom out marcado nos primeiros minutos: alvo (dx, dy) a partir do centro.
+# |dx|,|dy| <= 0.11 mantém o enquadramento válido com zoom de 30% (sem travar na borda).
+DYN_END = 5 * 60          # a seção dinâmica vai até 5:00
+DYN_SLOT, DYN_FADE, DYN_ZOOM = 12, 2, 0.30
+TARGETS = {
+    "01-pavilhao-chuva.webp": (-0.03, 0.10),   # pianista na janela
+    "02-teatro.webp": (0.045, 0.05),           # palco
+    "03-close.webp": (-0.11, -0.10),           # rosto
+    "05-corredor.webp": (-0.11, 0.0),          # personagem com a partitura
+}
+
+
+def title_filter():
     al = "if(lt(t,1.5),0,if(lt(t,3.5),(t-1.5)/2,if(lt(t,9),1,if(lt(t,11),(11-t)/2,0))))"
     al2 = al.replace("1.5", "2.3").replace("3.5", "4.3")
-    vf = ("fade=in:d=2.5,"
-          f"drawtext=fontfile='{CINZEL}':textfile='{textfile(TITLE, 'title')}':fontsize=100:fontcolor=white"
-          f":x=(w-tw)/2:y=(h-th)/2-40:alpha='{al}':shadowcolor=black@0.6:shadowy=4,"
-          f"drawtext=fontfile='{CINZEL}':textfile='{textfile(SUBTITLE, 'subtitle')}':fontsize=38:fontcolor=0xF3E3C0"
-          f":x=(w-tw)/2:y=h/2+50:alpha='{al2}':shadowcolor=black@0.6:shadowy=3")
-    out = BUILD / "titled.mp4"
-    run(["ffmpeg", "-y", "-v", "error", "-i", cycle, "-vf", vf, *ENC, out])
+    return (f"drawtext=fontfile='{CINZEL}':textfile='{textfile(TITLE, 'title')}':fontsize=100:fontcolor=white"
+            f":x=(w-tw)/2:y=(h-th)/2-40:alpha='{al}':shadowcolor=black@0.6:shadowy=4,"
+            f"drawtext=fontfile='{CINZEL}':textfile='{textfile(SUBTITLE, 'subtitle')}':fontsize=38:fontcolor=0xF3E3C0"
+            f":x=(w-tw)/2:y=h/2+50:alpha='{al2}':shadowcolor=black@0.6:shadowy=3")
+
+
+def render_dynamic(dust, rain, start):
+    """Título + trocas a cada ~12s com zoom in/out suavizado (ease in-out) até DYN_END."""
+    length = DYN_END - start
+    n = int((length - DYN_FADE) // DYN_SLOT)
+    S = (length - DYN_FADE) / n                       # ajusta o slot para fechar exato
+    C = S + DYN_FADE
+    F = round(C * FPS)
+    imgs = {name: prep(name, f"d{k}") for k, (name, _) in enumerate(SCENES)}
+    cmd = ["ffmpeg", "-y", "-v", "error", "-stats"]
+    seq = []
+    for k in range(n):
+        name = SCENES[k % len(SCENES)][0]
+        zoom_in = (k + k // len(SCENES)) % 2 == 0      # alterna in/out a cada volta
+        seq.append((name, zoom_in))
+        cmd += ["-loop", "1", "-framerate", FPS, "-t", f"{C:.3f}", "-i", imgs[name]]
+    cmd += ["-stream_loop", "-1", "-i", dust, "-stream_loop", "-1", "-i", rain]
+    f = []
+    ease = f"(on/{F})*(on/{F})*(3-2*on/{F})"
+    for k, (name, zin) in enumerate(seq):
+        e = ease if zin else f"(1-{ease})"
+        dx, dy = TARGETS[name]
+        f.append(f"[{k}:v]zoompan=z='1+{DYN_ZOOM}*{e}'"
+                 f":x='iw*(0.5+{dx}*{e})-iw/zoom/2':y='ih*(0.5+{dy}*{e})-ih/zoom/2'"
+                 f":d=1:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p,settb=1/{FPS}[z{k}]")
+    rain_ids = [k for k, (name, _) in enumerate(seq) if "chuva" in name]
+    f.append(f"[{n + 1}:v]scale={W}:{H},gblur=sigma=0.8,format=yuv420p,split={len(rain_ids)}"
+             + "".join(f"[r{k}]" for k in rain_ids))
+    for k in rain_ids:
+        f.append(f"[z{k}]format=gbrp[zb{k}];[r{k}]format=gbrp,trim=duration={C:.3f}[rb{k}];"
+                 f"[zb{k}][rb{k}]blend=all_mode=screen:all_opacity=0.35,format=yuv420p,settb=1/{FPS}[z{k}r]")
+    lbl = [f"z{k}r" if k in rain_ids else f"z{k}" for k in range(n)]
+    prev = lbl[0]
+    for k in range(1, n):
+        f.append(f"[{prev}][{lbl[k]}]xfade=transition=fade:duration={DYN_FADE}:offset={k * S:.3f}[x{k}]")
+        prev = f"x{k}"
+    flick = "0.010*sin(2*PI*t*0.4)+0.006*sin(2*PI*t*0.63)"
+    f.append(f"[{prev}]colorbalance=rs=-0.02:bs=0.03:rh=0.05:bh=-0.05,"
+             f"eq=contrast=1.05:saturation=1.06:brightness='{flick}':eval=frame,format=gbrp[base]")
+    f.append(f"[{n}:v]scale={W}:{H},gblur=sigma=1.2,format=rgb24,"
+             "colorchannelmixer=rr=1:gg=0.8:bb=0.52,format=gbrp[dust]")
+    f.append("[base][dust]blend=all_mode=screen,format=yuv420p,vignette=PI/4.5,"
+             f"fade=in:d=2.5,{title_filter()},fade=out:st={length - 0.8:.3f}:d=0.8[v]")
+    out = BUILD / "dynamic.mp4"
+    run(cmd + ["-filter_complex", ";".join(f), "-map", "[v]", "-t", f"{length:.3f}", *ENC, out])
+    return out, length
+
+
+def render_fadein(cycle):
+    """1º ciclo calmo com fade de entrada (emenda com a seção dinâmica)."""
+    out = BUILD / "cycle_in.mp4"
+    run(["ffmpeg", "-y", "-v", "error", "-i", cycle, "-vf", "fade=in:d=0.8", *ENC, out])
     return out
 
 
@@ -232,20 +296,42 @@ def render_outro(cycle, length):
 
 
 # ------------------------------------------------------------------ áudio
+AUDIO_PARTS = [  # (arquivo, início útil, fim útil, até quando toca no vídeo)
+    ("sunlit_manuscript.mp3", 1.0, 176.0, 15 * 60),
+    ("mozart_relaxante.mp3", 0.0, 437.0, TOTAL),   # corta o silêncio do final
+]
+
+
 def render_audio(intro_len):
-    mp3 = A / "audio" / "mozart_relaxante.mp3"
-    music_len = 437.0                     # corta o silêncio do final do mp3
     xf = 4
-    reps = math.ceil(TOTAL / (music_len - xf)) + 1
-    # cada repetição é uma entrada separada (asplit + acrossfade encerra cedo)
-    f = [f"[{i}:a]atrim=0:{music_len},afade=t=out:st={music_len - 1}:d=1,aresample=48000[m{i}]"
-         for i in range(reps)]
-    prev = "m0"
-    for i in range(1, reps):
-        f.append(f"[{prev}][m{i}]acrossfade=d={xf}[mx{i}]")
-        prev = f"mx{i}"
-    f.append(f"[{prev}]atrim=0:{TOTAL},afade=t=in:d=4,afade=t=out:st={TOTAL - 8}:d=8,"
-             "aformat=channel_layouts=stereo[music]")
+    inputs, f, parts = [], [], []
+    t = 0.0
+    for pi_, (name, a0, a1, until) in enumerate(AUDIO_PARTS):
+        seg = a1 - a0
+        need = until - t + 8                       # + sobra para o crossfade entre músicas
+        reps = math.ceil(need / (seg - xf)) + 1
+        labels = []
+        for r in range(reps):                      # cada repetição é uma entrada separada
+            idx = len(inputs) // 2
+            inputs += ["-i", A / "audio" / name]
+            f.append(f"[{idx}:a]atrim={a0}:{a1},asetpts=PTS-STARTPTS,afade=t=out:st={seg - 1}:d=1,"
+                     f"aresample=48000,aformat=channel_layouts=stereo[p{pi_}r{r}]")
+            labels.append(f"p{pi_}r{r}")
+        prev = labels[0]
+        for r, lb in enumerate(labels[1:], 1):
+            f.append(f"[{prev}][{lb}]acrossfade=d={xf}[p{pi_}x{r}]")
+            prev = f"p{pi_}x{r}"
+        # normaliza cada música separadamente (volumes originais diferentes)
+        f.append(f"[{prev}]atrim=0:{need:.3f},loudnorm=I=-16:TP=-2:LRA=11,aresample=48000[part{pi_}]")
+        parts.append(f"part{pi_}")
+        t = until
+    # troca de música em 15:00 com crossfade longo
+    prev = parts[0]
+    for k, lb in enumerate(parts[1:], 1):
+        f.append(f"[{prev}]atrim=0:{AUDIO_PARTS[k - 1][3] + 3}[pre{k}];"
+                 f"[pre{k}][{lb}]acrossfade=d=6[mix{k}]")
+        prev = f"mix{k}"
+    f.append(f"[{prev}]atrim=0:{TOTAL},afade=t=in:d=4,afade=t=out:st={TOTAL - 8}:d=8[music]")
     # chuva suave: ruído rosa filtrado + leve oscilação
     f.append(f"anoisesrc=color=pink:r=48000:a=0.5:d={TOTAL},highpass=f=500,lowpass=f=6500,"
              "tremolo=f=0.15:d=0.3,volume=0.05,"
@@ -262,7 +348,7 @@ def render_audio(intro_len):
     f.append("[music][rain][swell][boom]amix=inputs=4:normalize=0:duration=first,"
              "loudnorm=I=-14:TP=-1.5:LRA=11,aresample=48000[a]")
     out = BUILD / "audio.m4a"
-    run(["ffmpeg", "-y", "-v", "error", "-stats", *(["-i", mp3] * reps), "-filter_complex", ";".join(f),
+    run(["ffmpeg", "-y", "-v", "error", "-stats", *inputs, "-filter_complex", ";".join(f),
          "-map", "[a]", "-t", TOTAL, "-c:a", "aac", "-b:a", "192k", out])
     return out
 
@@ -274,14 +360,21 @@ def main():
     print("1/6 overlays (poeira, chuva)")
     write_gray(dust, dust_frames(), (W // 2, H // 2))
     write_gray(rain, rain_frames(), (W // 2, H // 2))
-    print("2/6 intro")
-    intro, il = render_intro(dust)
-    print("3/6 ciclo de imagens")
-    cycle, L = render_cycle(dust, rain)
-    print("4/6 título + final")
-    titled = render_titled(cycle)
-    n = int((TOTAL - il - L) // L)        # ciclos inteiros depois do título
-    rest = TOTAL - il - L - n * L
+    reuse = "--reuse" in sys.argv          # reaproveita intro/ciclo já renderizados
+    intro, cycle = BUILD / "intro.mp4", BUILD / "cycle.mp4"
+    if reuse and intro.exists() and cycle.exists():
+        print("2-3/6 reaproveitando intro e ciclo")
+        il, L = dur(intro), len(SCENES) * SLOT
+    else:
+        print("2/6 intro")
+        intro, il = render_intro(dust)
+        print("3/6 ciclo de imagens")
+        cycle, L = render_cycle(dust, rain)
+    print("4/6 primeiros 5 min: título + zoom in/out marcado")
+    dynamic, dl = render_dynamic(dust, rain, il)
+    cycle_in = render_fadein(cycle)
+    n = int((TOTAL - il - dl) // L)        # ciclos calmos inteiros depois da seção dinâmica
+    rest = TOTAL - il - dl - n * L
     if rest < 30:
         n -= 1; rest += L
     outro = render_outro(cycle, rest)
@@ -289,7 +382,7 @@ def main():
     audio = render_audio(il)
     print("6/6 montagem")
     lst = BUILD / "list.txt"
-    lst.write_text("".join(f"file '{p}'\n" for p in [intro, titled] + [cycle] * n + [outro]))
+    lst.write_text("".join(f"file '{p}'\n" for p in [intro, dynamic, cycle_in] + [cycle] * (n - 1) + [outro]))
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst, "-i", audio,
          "-map", "0:v", "-map", "1:a", "-c", "copy", "-t", TOTAL, "-movflags", "+faststart", OUT])
     print(f"pronto: {OUT} ({dur(OUT) / 60:.2f} min)")

@@ -234,51 +234,80 @@ def title_filter():
             f":x=(w-tw)/2:y=h/2+50:alpha='{al2}':shadowcolor=black@0.6:shadowy=3")
 
 
+MID = ["-c:v", "libx264", "-preset", "veryfast", "-crf", "14", "-pix_fmt", "yuv420p",
+       "-r", str(FPS), "-g", str(FPS), "-an"]          # intermediários (alta qualidade)
+
+
 def render_dynamic(dust, rain, start):
-    """Título + trocas a cada ~12s com zoom in/out suavizado (ease in-out) até DYN_END."""
+    """Título + trocas a cada ~12s com zoom in/out suavizado (ease in-out) até DYN_END.
+
+    Renderiza por partes para não estourar a memória: cada imagem vira um clipe,
+    cada transição é um clipe de 2s, tudo é emendado e os efeitos globais
+    (poeira, flicker, vinheta, título) entram numa passada final.
+    """
     length = DYN_END - start
     n = int((length - DYN_FADE) // DYN_SLOT)
-    S = (length - DYN_FADE) / n                       # ajusta o slot para fechar exato
-    C = S + DYN_FADE
-    F = round(C * FPS)
+    SF = round((length - DYN_FADE) / n * FPS)          # slot em quadros
+    DF = DYN_FADE * FPS
+    CF = SF + DF                                       # quadros por clipe
+    ease = f"(on/{CF})*(on/{CF})*(3-2*on/{CF})"
     imgs = {name: prep(name, f"d{k}") for k, (name, _) in enumerate(SCENES)}
-    cmd = ["ffmpeg", "-y", "-v", "error", "-stats"]
-    seq = []
+    tmp = BUILD / "dyn"
+    tmp.mkdir(exist_ok=True)
+
+    clips = []
     for k in range(n):
         name = SCENES[k % len(SCENES)][0]
-        zoom_in = (k + k // len(SCENES)) % 2 == 0      # alterna in/out a cada volta
-        seq.append((name, zoom_in))
-        cmd += ["-loop", "1", "-framerate", FPS, "-t", f"{C:.3f}", "-i", imgs[name]]
-    cmd += ["-stream_loop", "-1", "-i", dust, "-stream_loop", "-1", "-i", rain]
-    f = []
-    ease = f"(on/{F})*(on/{F})*(3-2*on/{F})"
-    for k, (name, zin) in enumerate(seq):
+        zin = (k + k // len(SCENES)) % 2 == 0          # alterna in/out a cada volta
         e = ease if zin else f"(1-{ease})"
         dx, dy = TARGETS[name]
-        f.append(f"[{k}:v]zoompan=z='1+{DYN_ZOOM}*{e}'"
-                 f":x='iw*(0.5+{dx}*{e})-iw/zoom/2':y='ih*(0.5+{dy}*{e})-ih/zoom/2'"
-                 f":d=1:s={W}x{H}:fps={FPS},setsar=1,format=yuv420p,settb=1/{FPS}[z{k}]")
-    rain_ids = [k for k, (name, _) in enumerate(seq) if "chuva" in name]
-    f.append(f"[{n + 1}:v]scale={W}:{H},gblur=sigma=0.8,format=yuv420p,split={len(rain_ids)}"
-             + "".join(f"[r{k}]" for k in rain_ids))
-    for k in rain_ids:
-        f.append(f"[z{k}]format=gbrp[zb{k}];[r{k}]format=gbrp,trim=duration={C:.3f}[rb{k}];"
-                 f"[zb{k}][rb{k}]blend=all_mode=screen:all_opacity=0.35,format=yuv420p,settb=1/{FPS}[z{k}r]")
-    lbl = [f"z{k}r" if k in rain_ids else f"z{k}" for k in range(n)]
-    prev = lbl[0]
-    for k in range(1, n):
-        f.append(f"[{prev}][{lbl[k]}]xfade=transition=fade:duration={DYN_FADE}:offset={k * S:.3f}[x{k}]")
-        prev = f"x{k}"
+        zp = (f"zoompan=z='1+{DYN_ZOOM}*{e}':x='iw*(0.5+{dx}*{e})-iw/zoom/2'"
+              f":y='ih*(0.5+{dy}*{e})-ih/zoom/2':d=1:s={W}x{H}:fps={FPS},setsar=1")
+        cmd = ["ffmpeg", "-y", "-v", "error", "-loop", "1", "-framerate", FPS, "-i", imgs[name]]
+        if "chuva" in name:
+            cmd += ["-stream_loop", "-1", "-i", rain, "-filter_complex",
+                    f"[0:v]{zp},format=gbrp[a];[1:v]scale={W}:{H},gblur=sigma=0.8,format=gbrp[r];"
+                    "[a][r]blend=all_mode=screen:all_opacity=0.35,format=yuv420p[v]", "-map", "[v]"]
+        else:
+            cmd += ["-vf", f"{zp},format=yuv420p"]
+        out = tmp / f"clip{k:02d}.mp4"
+        run(cmd + ["-frames:v", CF, *MID, out])
+        clips.append(out)
+
+    # corpo de cada clipe (sem as pontas que viram transição) + transições de 2s
+    pieces = []
+    for k, c in enumerate(clips):
+        a = 0 if k == 0 else DF
+        b = CF if k == n - 1 else SF
+        body = tmp / f"body{k:02d}.mp4"
+        run(["ffmpeg", "-y", "-v", "error", "-i", c, "-vf",
+             f"trim=start_frame={a}:end_frame={b},setpts=PTS-STARTPTS", *MID, body])
+        pieces.append(body)
+        if k < n - 1:
+            tr = tmp / f"trans{k:02d}.mp4"
+            run(["ffmpeg", "-y", "-v", "error", "-i", c, "-i", clips[k + 1], "-filter_complex",
+                 f"[0:v]trim=start_frame={SF}:end_frame={CF},setpts=PTS-STARTPTS[a];"
+                 f"[1:v]trim=end_frame={DF},setpts=PTS-STARTPTS[b];"
+                 f"[a][b]xfade=transition=fade:duration={DYN_FADE}:offset=0[v]",
+                 "-map", "[v]", *MID, tr])
+            pieces.append(tr)
+    lst = tmp / "seq.txt"
+    lst.write_text("".join(f"file '{p}'\n" for p in pieces))
+    seq = tmp / "seq.mp4"
+    run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", seq])
+
+    length = (n * SF + DF) / FPS
     flick = "0.010*sin(2*PI*t*0.4)+0.006*sin(2*PI*t*0.63)"
-    f.append(f"[{prev}]colorbalance=rs=-0.02:bs=0.03:rh=0.05:bh=-0.05,"
-             f"eq=contrast=1.05:saturation=1.06:brightness='{flick}':eval=frame,format=gbrp[base]")
-    f.append(f"[{n}:v]scale={W}:{H},gblur=sigma=1.2,format=rgb24,"
-             "colorchannelmixer=rr=1:gg=0.8:bb=0.52,format=gbrp[dust]")
-    f.append("[base][dust]blend=all_mode=screen,format=yuv420p,vignette=PI/4.5,"
-             f"fade=in:d=2.5,{title_filter()},fade=out:st={length - 0.8:.3f}:d=0.8[v]")
+    f = [f"[0:v]colorbalance=rs=-0.02:bs=0.03:rh=0.05:bh=-0.05,"
+         f"eq=contrast=1.05:saturation=1.06:brightness='{flick}':eval=frame,format=gbrp[base]",
+         f"[1:v]scale={W}:{H},gblur=sigma=1.2,format=rgb24,"
+         "colorchannelmixer=rr=1:gg=0.8:bb=0.52,format=gbrp[dust]",
+         "[base][dust]blend=all_mode=screen:shortest=1,format=yuv420p,vignette=PI/4.5,"
+         f"fade=in:d=2.5,{title_filter()},fade=out:st={length - 0.8:.3f}:d=0.8[v]"]
     out = BUILD / "dynamic.mp4"
-    run(cmd + ["-filter_complex", ";".join(f), "-map", "[v]", "-t", f"{length:.3f}", *ENC, out])
-    return out, length
+    run(["ffmpeg", "-y", "-v", "error", "-stats", "-i", seq, "-stream_loop", "-1", "-i", dust,
+         "-filter_complex", ";".join(f), "-map", "[v]", "-t", f"{length:.3f}", *ENC, out])
+    return out, dur(out)
 
 
 def render_fadein(cycle):

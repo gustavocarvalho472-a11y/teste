@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Prepara o ambiente da skill /video-cristao (idempotente). Imprime a pasta de trabalho (toolkit) no fim.
+# Prepara o ambiente da skill /video-ilustracao (idempotente). Imprime a pasta de trabalho (toolkit) no fim.
 set -e
 HERE="$(cd "$(dirname "$0")" && pwd)"
 TK="$(python3 "$HERE/_toolkit.py")"

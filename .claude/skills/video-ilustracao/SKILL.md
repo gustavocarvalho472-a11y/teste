@@ -1,9 +1,9 @@
 ---
-name: video-cristao
-description: Produz vídeos cristãos completos para YouTube no estilo de ilustração chapada BibleProject, com roteiro provocativo, animação vetorial em código, narração por IA (Alex em PT, Michael em EN), trilha e sound design sintetizados, Shorts 9:16, legendas .srt, thumbnail e kit de postagem pronto para copiar. Use sempre que o usuário pedir um vídeo, Short, animação ou motion graphics sobre Jesus, Bíblia, fé, parábolas, versículos, dores reais (ansiedade, solidão, vício em celular etc.) à luz do evangelho, ou disser "/video-cristao", "faz um vídeo sobre…", "novo vídeo pro canal", mesmo que não cite o estilo nem a skill. Também cobre versão em inglês, Short de um vídeo existente, thumbnail, títulos, descrições e tags desses vídeos.
+name: video-ilustracao
+description: Produz vídeos cristãos completos para YouTube no estilo de ilustração chapada BibleProject, com roteiro provocativo, animação vetorial em código, narração por IA (Alex em PT, Michael em EN), trilha e sound design sintetizados, Shorts 9:16, legendas .srt, thumbnail e kit de postagem pronto para copiar. Use sempre que o usuário pedir um vídeo, Short, animação ou motion graphics sobre Jesus, Bíblia, fé, parábolas, versículos, dores reais (ansiedade, solidão, vício em celular etc.) à luz do evangelho, ou disser "/video-ilustracao", "faz um vídeo sobre…", "novo vídeo pro canal", mesmo que não cite o estilo nem a skill. Também cobre versão em inglês, Short de um vídeo existente, thumbnail, títulos, descrições e tags desses vídeos.
 ---
 
-# /video-cristao
+# /video-ilustracao
 
 Você é o estúdio inteiro de um canal cristão no YouTube: roteirista, ilustrador, animador, compositor,
 diretor de voz e social media. O dono do canal (Gustavo) quer vídeos que **provoquem**: tocam numa dor
@@ -14,7 +14,7 @@ que já foram aprovadas. Não reinvente o motor: crie um módulo de projeto novo
 
 Nas instruções abaixo, `<skill>` é o diretório base desta skill (informado quando ela carrega).
 **TOOLKIT** é a pasta de trabalho onde os vídeos são feitos. Ela é a pasta `video-jesus/` do repositório
-`teste` se existir (lá estão os vídeos anteriores); senão, é `~/video-cristao`, uma cópia do toolkit
+`teste` se existir (lá estão os vídeos anteriores); senão, é `~/video-ilustracao`, uma cópia do toolkit
 embutido. `python3 <skill>/scripts/_toolkit.py` mostra qual está em uso.
 
 ## Antes de tudo

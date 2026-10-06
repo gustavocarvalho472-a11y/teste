@@ -1,12 +1,12 @@
 """Descobre a pasta de trabalho do motor (toolkit) — usada por todos os scripts da skill.
 
-Ordem: $TOOLKIT → uma pasta video-jesus/ (com engine.py) no diretório atual ou acima → ~/video-cristao
+Ordem: $TOOLKIT → uma pasta video-jesus/ (com engine.py) no diretório atual ou acima → ~/video-ilustracao
 (cópia do toolkit embutido na skill, criada pelo setup.sh).
 """
 import os
 
 SKILL = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-HOME_TK = os.path.expanduser("~/video-cristao")
+HOME_TK = os.path.expanduser("~/video-ilustracao")
 
 
 def find():

@@ -1,4 +1,4 @@
-"""__TITULO__ — projeto gerado pela skill /video-cristao (ilustração chapada estilo BibleProject).
+"""__TITULO__ — projeto gerado pela skill /video-ilustracao (ilustração chapada estilo BibleProject).
 
     VIDEO_LANG=pt python3 narracao.py __NOME__
     export VIDEO_LANG=pt VIDEO_NARRATION=__NOME__

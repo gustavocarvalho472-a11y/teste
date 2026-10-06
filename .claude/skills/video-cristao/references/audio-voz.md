@@ -1,6 +1,6 @@
 # Trilha, sound design e narração
 
-## Trilha (`video-jesus/<nome>_audio.py`, sintetizador `synth.py`)
+## Trilha (`TOOLKIT/<nome>_audio.py`, sintetizador `synth.py`)
 Tudo é sintetizado, então não há direito autoral. Escreva a partitura no **tempo original**
 (`STARTS0`): o `synth.WARP` reposiciona tudo se a narração esticar alguma cena. Use `T(k)` (início da
 cena k) e `Dur(k)` (duração dela).
@@ -64,7 +64,7 @@ Armadilhas de texto:
 - Números saem bem ("7 dias").
 
 ### Verificar (obrigatório)
-`python3 .claude/skills/video-cristao/scripts/checar.py voz <arquivo> pt`
+`python3 <skill>/scripts/checar.py voz <arquivo> pt`
 
 O Whisper às vezes erra o que está certo. Antes de mexer no texto, gere a frase isolada e transcreva de
 novo. Exemplos de falso alarme: ouviu "light" onde a voz disse "like"; ouviu "lique" quando o "like" ainda

@@ -14,13 +14,12 @@ ASSETS = os.path.join(HERE, "..", "assets")
 
 
 def find_toolkit():
-    d = HERE
-    while d != "/":
-        cand = os.path.join(d, "video-jesus")
-        if os.path.exists(os.path.join(cand, "engine.py")):
-            return cand
-        d = os.path.dirname(d)
-    sys.exit("Toolkit não encontrado (pasta video-jesus/ com engine.py). Use --toolkit.")
+    sys.path.insert(0, HERE)
+    import _toolkit
+    tk = _toolkit.find()
+    if not os.path.exists(os.path.join(tk, "engine.py")):
+        sys.exit(f"Toolkit não encontrado em {tk}: rode scripts/setup.sh antes.")
+    return tk
 
 
 ap = argparse.ArgumentParser()

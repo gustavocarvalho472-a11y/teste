@@ -4,7 +4,7 @@ Todo o desenho usa **pycairo** em 1920×1080, quadro a quadro. Uma cena é `fn(c
 **tudo** em função de `t`, sem guardar estado entre quadros, porque os quadros são renderizados em
 paralelo e fora de ordem.
 
-## Contrato do módulo `video-jesus/<nome>.py`
+## Contrato do módulo `TOOLKIT/<nome>.py`
 | Nome | Obrigatório | O que é |
 |---|---|---|
 | `SCENES` | sim | `[(rótulo, duração, fn, [(início, fim, "legenda *destaque*"), …]), …]` |
@@ -23,7 +23,7 @@ Duas regras práticas:
 - O rótulo `""` mostra a cena sem título de capítulo. Um rótulo `"III · O PREÇO"` mostra o título e o versículo `III`.
 - Todo texto desenhado na tela passa por `tr("…")` e ganha uma tradução em `EN.update`.
 
-## CLI do motor (rode dentro de `video-jesus/`)
+## CLI do motor (rode dentro de `TOOLKIT/`)
 ```
 python3 engine.py wide  <nome> <saida.mp4> [audio.wav]          # 16:9
 python3 engine.py short <nome> <t0>[:<t1>] <saida.mp4> [audio]  # 9:16 com fundo desfocado
@@ -84,7 +84,7 @@ Variáveis de ambiente:
 - `well(…)`: poço
 - `_fit(c, bw, bh, draw, …)`: desenha uma cena inteira dentro de um retângulo, útil para zoom contínuo
 
-Antes de desenhar algo do zero, faça `grep -n "^def " video-jesus/*.py` e reaproveite.
+Antes de desenhar algo do zero, faça `grep -n "^def " TOOLKIT/*.py` e reaproveite.
 
 ## Padrões que deram certo
 - **Câmera contínua (mergulho):** desenhe o mundo A, aplique `c.translate/scale` crescente centrado num objeto (a tela do celular), e dentro do objeto desenhe o mundo B com `_fit`. Quando o objeto cobrir a tela, troque para desenhar B direto. Veja `tela._gancho` e `tela._slot`.

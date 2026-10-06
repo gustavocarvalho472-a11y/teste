@@ -5,7 +5,7 @@
 # Rode em segundo plano (nohup … &): um vídeo de 4 min leva ~10–15 min.
 set -e
 NOME=$1; LANG_=$2; OUT=$3; SHORT=${4:-}
-TK="${TOOLKIT:-$(cd "$(dirname "$0")/../../../.." && pwd)/video-jesus}"
+TK="$(python3 "$(dirname "$0")/_toolkit.py")"
 cd "$TK"
 export VIDEO_LANG=$LANG_ VIDEO_VOICE_SPEED=${VIDEO_VOICE_SPEED:-1.0}
 FF=$(python3 -c "import imageio_ffmpeg as i;print(i.get_ffmpeg_exe())")

@@ -1,10 +1,10 @@
 # Publicação: kit "só pegar e postar"
 
-Tudo vai para `video-jesus/postar/`:
+Tudo vai para `TOOLKIT/postar/`:
 - os vídeos (`<saida>.mp4`, `short_<saida>.mp4`);
 - as thumbs PNG;
 - as `.srt`;
-- `LEIA_E_POSTE.md` (use o kit de "Tempo de Tela" como modelo; ele já está nessa pasta);
+- `LEIA_E_POSTE.md` (modelo pronto: `<skill>/assets/modelo_LEIA_E_POSTE.md`, do vídeo "Tempo de Tela");
 - `publicar.json` (manifesto para a API).
 
 ## Textos: um bloco de código por item (o usuário copia direto)
@@ -31,7 +31,7 @@ Lembre o usuário do que só se faz no app:
 - thumb personalizada exige o canal verificado por telefone.
 
 ## Thumbnail
-- **Gerada aqui:** em `video-jesus/thumb.py`, crie uma função `_art_<nome>(c)` que desenha a cena mais
+- **Gerada aqui:** em `TOOLKIT/thumb.py`, crie uma função `_art_<nome>(c)` que desenha a cena mais
   forte, com a figura à direita, e chame `make_thumb(arte, kicker, linha1, linha2, selo, saída)`.
   O texto fica à esquerda em Montserrat; o selo é o versículo. O título deve ter 2–4 palavras e terminar
   em pergunta ou tensão. Exemplos: "PRESO NA TELA?" / "HOOKED ON YOUR PHONE?".
@@ -54,7 +54,7 @@ O `produzir.sh` já gera os arquivos. Para gerar à mão: `VIDEO_LANG=pt VIDEO_N
 No YouTube: Legendas → Adicionar idioma → Enviar arquivo → Com sincronização.
 
 ## Publicar pela API (opcional)
-`video-jesus/youtube_upload.py` lê o `postar/publicar.json` (siga o formato do de "Tempo de Tela").
+`TOOLKIT/youtube_upload.py` lê o `postar/publicar.json` (modelo: `<skill>/assets/modelo_publicar.json`).
 
 - **Credenciais:** `YT_CLIENT_ID`, `YT_CLIENT_SECRET` e `YT_REFRESH_TOKEN` no ambiente, com os escopos `youtube.upload` + `youtube.force-ssl`.
   - O token vale para um canal só.

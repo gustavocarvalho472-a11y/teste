@@ -13,13 +13,20 @@ import subprocess
 import sys
 import tempfile
 
-TK = os.environ.get("TOOLKIT") or os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../../video-jesus"))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import _toolkit  # noqa: E402
+
+TK = _toolkit.find()
 
 
 def quadros(nome, lang, out, times, short=None):
     from PIL import Image
     tmp = tempfile.mkdtemp()
-    env = dict(os.environ, VIDEO_LANG=lang, VIDEO_NARRATION=nome)
+    env = dict(os.environ, VIDEO_LANG=lang)
+    if glob.glob(os.path.join(TK, "narr", f"{nome}_{lang}_*", "timing.json")):   # usa o tempo da narração se já existe
+        env["VIDEO_NARRATION"] = nome
+    else:
+        env.pop("VIDEO_NARRATION", None)
     mode = f"short:{short.split(':')[0]}" if short else "wide"
     subprocess.run([sys.executable, "engine.py", "snap", nome, mode, f"{tmp}/q", *times], cwd=TK, env=env,
                    check=True, stdout=subprocess.DEVNULL)

@@ -1,0 +1,91 @@
+{
+  "title": "Mozart for Deep Focus",
+  "subtitle": "Classical Music for Study & Concentration",
+  "total_min": 40,
+  "intro": {
+    "clips": [
+      "assets_projeto/clips/01-camera-zoom.mp4",
+      "assets_projeto/clips/02-pianista.mp4"
+    ],
+    "captions": [
+      [
+        0.8,
+        5.8,
+        "In 1993, researchers noticed something remarkable."
+      ],
+      [
+        6.3,
+        11.3,
+        "A few minutes of Mozart seemed to sharpen the mind."
+      ],
+      [
+        11.8,
+        16.0,
+        "They called it the Mozart Effect."
+      ]
+    ]
+  },
+  "scenes": [
+    {
+      "image": "assets_projeto/images/01-pavilhao-chuva.webp",
+      "motion": "zoom_out",
+      "target": [
+        -0.03,
+        0.1
+      ],
+      "rain": true
+    },
+    {
+      "image": "assets_projeto/images/02-teatro.webp",
+      "motion": "zoom_in",
+      "target": [
+        0.045,
+        0.05
+      ]
+    },
+    {
+      "image": "assets_projeto/images/03-close.webp",
+      "motion": "pan",
+      "target": [
+        -0.11,
+        -0.1
+      ]
+    },
+    {
+      "image": "assets_projeto/images/05-corredor.webp",
+      "motion": "zoom_in",
+      "target": [
+        -0.11,
+        0.0
+      ]
+    }
+  ],
+  "dynamic": {
+    "until_min": 5,
+    "slot": 12,
+    "fade": 2,
+    "zoom": 0.3
+  },
+  "cycle": {
+    "slot": 60,
+    "fade": 3,
+    "zoom": 0.14
+  },
+  "audio": [
+    {
+      "file": "assets_projeto/audio/sunlit_manuscript.mp3",
+      "start": 1.0,
+      "end": 176.0,
+      "until_min": 15
+    },
+    {
+      "file": "assets_projeto/audio/mozart_relaxante.mp3",
+      "end": 437.0
+    }
+  ],
+  "sound_design": {
+    "rain": true,
+    "title_hit": true
+  },
+  "output": "output/video.mp4"
+}

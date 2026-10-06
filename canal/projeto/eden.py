@@ -10,25 +10,29 @@ import random
 
 import cairo
 
+from jesus_flat import geo_rays
 from prodigo import CREAM, blob, fill, paint
 from render import (EN, GOLD, LANG, SANS, SERIF, TAU, H, W, eio, eout, glow, lerp, mix, overlay,
                     particles, seg, text_center, title_text, tr)
 
 TEXTURE = True
-VIGNETTE = 0.35
+VIGNETTE = 0.18
 CAPTION_SCALE = 0.78
 NARR_GAP = 0.12
 SHORT = False
 
 # paleta BibleProject: papel, tinta marrom, petróleo, ocre, oliva, dourado
-PAPER = "#f1e2c2"
-PAPER2 = "#e6d1a6"
-LINE = "#5a4330"
-SEA = "#cfdccb"
-TEALD = "#2f6f73"
+PAPER = "#fbf0d6"
+PAPER2 = "#f7d98b"
+LINE = "#4a3b2f"
+SEA = "#8fd6cf"
+GRASS = "#a8d672"
+CORAL = "#ef6f53"
+RIVER = "#2a9fc0"
+TEALD = "#1f8a96"
 OCHRE = "#c98a3a"
 OLIVE = "#6f8a3c"
-NAVY = "#18263a"
+NAVY = "#176d75"
 
 
 def stroke(c, col, w, a=1.0):
@@ -55,7 +59,7 @@ PIN_T = [0.6, 2.4, 3.4, 4.2, 4.9, 5.5, 6.0]   # quando cada alfinete pousa (cena
 def draw_map(c):
     paint(c, PAPER)
     c.rectangle(0, 0, W, H)
-    fill(c, SEA, 0.55)
+    fill(c, SEA, 0.8)
     c.save()
     c.set_dash([6, 10])
     for k in range(1, 8):
@@ -74,7 +78,7 @@ def draw_map(c):
         for j in range(2):
             c.move_to(wx - 22, wy + j * 10)
             c.curve_to(wx - 11, wy - 8 + j * 10, wx, wy + 8 + j * 10, wx + 11, wy + j * 10)
-        stroke(c, TEALD, 2, 0.35)
+        stroke(c, "#ffffff", 2.5, 0.7)
     for x, y, r, s in LANDS:
         c.save()
         c.translate(x, y)
@@ -85,6 +89,10 @@ def draw_map(c):
         stroke(c, TEALD, 1.6, 0.3)
         blob(c, x, y, r, s, n=11)
         fill(c, PAPER2)
+        blob(c, x - r * 0.12, y + r * 0.08, r * 0.55, s + 40, n=9)
+        fill(c, GRASS, 0.9)
+        blob(c, x + r * 0.25, y - r * 0.2, r * 0.3, s + 80, n=8)
+        fill(c, "#7fc25a", 0.8)
         blob(c, x, y, r, s, n=11)
         stroke(c, LINE, 3.2, 0.8)
         rnd = random.Random(s)
@@ -100,7 +108,7 @@ def draw_map(c):
             mx, my = (pts[i][0] + pts[i + 1][0]) / 2, (pts[i][1] + pts[i + 1][1]) / 2
             c.curve_to(pts[i][0], pts[i][1], pts[i][0], pts[i][1], mx, my)
         c.line_to(*pts[-1])
-        stroke(c, TEALD, 4.5, 0.85)
+        stroke(c, RIVER, 6, 0.95)
     # rosa dos ventos
     cx, cy, r = W * 0.9, H * 0.2, 70
     for k in range(8):
@@ -110,14 +118,14 @@ def draw_map(c):
         c.line_to(cx + math.cos(a - 0.18) * rr * 0.3, cy + math.sin(a - 0.18) * rr * 0.3)
         c.line_to(cx + math.cos(a) * rr, cy + math.sin(a) * rr)
         c.close_path()
-        fill(c, OCHRE if k % 2 == 0 else LINE, 0.85)
+        fill(c, CORAL if k % 2 == 0 else TEALD, 0.95)
     c.arc(cx, cy, r * 1.15, 0, TAU)
     stroke(c, LINE, 2, 0.6)
     text_center(c, "N", cx - 10, cy - r * 1.3, 30, face=SERIF, col=LINE, a=0.8)
     # bordas queimadas do pergaminho
     g = cairo.RadialGradient(W / 2, H / 2, H * 0.45, W / 2, H / 2, W * 0.62)
-    g.add_color_stop_rgba(0, 0.35, 0.22, 0.1, 0)
-    g.add_color_stop_rgba(1, 0.35, 0.22, 0.1, 0.45)
+    g.add_color_stop_rgba(0, 0.95, 0.6, 0.25, 0)
+    g.add_color_stop_rgba(1, 0.95, 0.6, 0.25, 0.22)
     c.set_source(g)
     c.paint()
 
@@ -150,10 +158,10 @@ def hole(c, x, y, a=1.0, red=0.0):
         r = rnd.uniform(9, 17)
         c.line_to(x + math.cos(ang) * r, y + math.sin(ang) * r * 0.7)
     c.close_path()
-    fill(c, mix("#2a1c12", "#c0392b", red), a)
+    fill(c, mix("#3a2a1e", "#e94f37", red), a)
     if red > 0:
         c.arc(x, y, 34, 0, TAU)
-        stroke(c, "#c0392b", 5, red)
+        stroke(c, "#e94f37", 6, red)
 
 
 def pin_drop(c, x, y, lt, x0=None, y0=None):
@@ -183,7 +191,7 @@ def bible(c, x, y, s, glow_word=0.0, page_col=CREAM, t=0.0):
     c.save()
     c.translate(x, y)
     c.rectangle(-s * 1.04, -s * 0.72, s * 2.08, s * 1.44)
-    fill(c, "#6b2f22")
+    fill(c, "#d94b3d")
     for side in (-1, 1):
         c.save()
         c.scale(side, 1)
@@ -264,12 +272,16 @@ def garden(c, x, y, s, p, t, city=False):
     c.translate(x, y)
     c.scale(e, e)
     c.arc(0, 0, s, 0, TAU)
-    fill(c, "#e9dcb8")
+    fill(c, "#fff6e0")
     c.save()
     c.arc(0, 0, s - 2, 0, TAU)
     c.clip()
+    c.rectangle(-s, -s, 2 * s, s * 1.25)
+    fill(c, "#bfe8f2")
+    c.arc(-s * 0.45, -s * 0.45, s * 0.2, 0, TAU)
+    fill(c, "#ffd25a")
     c.rectangle(-s, s * 0.25, 2 * s, s)
-    fill(c, "#b9c98e")
+    fill(c, "#9ad16f")
     if city:
         glow(c, 0, -s * 0.1, s * 0.9, GOLD, 0.45)
         c.rectangle(-s * 0.42, -s * 0.5, s * 0.84, s * 0.8)
@@ -300,18 +312,21 @@ def garden(c, x, y, s, p, t, city=False):
 def tomb_garden(c, t):
     """Jardim ao amanhecer com o túmulo vazio."""
     g = cairo.LinearGradient(0, 0, 0, H * 0.8)
-    for col, off in (("#1b2440", 0), ("#3a3a5e", 0.35), ("#a8607a", 0.62), ("#f0a46a", 0.85)):
+    for col, off in (("#6cc3e0", 0), ("#a9dcea", 0.35), ("#ffe0a8", 0.65), ("#ffbf7f", 0.85)):
         r, gg, b = (int(col[i:i + 2], 16) / 255 for i in (1, 3, 5))
         g.add_color_stop_rgb(off, r, gg, b)
     c.set_source(g)
     c.paint()
-    glow(c, W * 0.5, H * 0.72, 520, "#ffd08a", 0.45)
+    glow(c, W * 0.5, H * 0.6, 700, "#fff1b8", 0.7)
+    c.arc(W * 0.33, H * 0.5, 90, 0, TAU)
+    fill(c, "#ffd25a")
+    glow(c, W * 0.33, H * 0.5, 260, "#ffe9a0", 0.6)
     c.move_to(0, H)
     c.curve_to(W * 0.2, H * 0.62, W * 0.42, H * 0.42, W * 0.62, H * 0.46)
     c.curve_to(W * 0.8, H * 0.5, W * 0.92, H * 0.62, W, H * 0.7)
     c.line_to(W, H)
     c.close_path()
-    fill(c, "#2a2234")
+    fill(c, "#5aa469")
     ox, oy, r = W * 0.6, H * 0.66, 110
     glow(c, ox, oy, 300, "#fff1c8", 0.5 + 0.1 * math.sin(t * 2))
     c.arc(ox, oy, r, math.pi, TAU)
@@ -320,11 +335,11 @@ def tomb_garden(c, t):
     c.close_path()
     fill(c, "#ffe6b0")
     c.arc(ox + r * 2.0, H * 0.72, r * 0.95, 0, TAU)
-    fill(c, "#3a3046")
+    fill(c, "#c9b79c")
     c.arc(ox + r * 2.0, H * 0.72, r * 0.95, 0, TAU)
-    stroke(c, "#1a1422", 4, 0.6)
+    stroke(c, "#8a7760", 4, 0.8)
     c.rectangle(0, H * 0.8, W, H * 0.2)
-    fill(c, "#1d1a28")
+    fill(c, "#4f9a5c")
     rnd = random.Random(2)
     for k in range(26):
         fx = rnd.uniform(0, W)
@@ -333,12 +348,12 @@ def tomb_garden(c, t):
         sw = math.sin(t + k) * 4
         c.move_to(fx, fy)
         c.line_to(fx + sw, fy - h)
-        stroke(c, "#3b5a3a", 4)
+        stroke(c, "#2f7a45", 4)
         c.arc(fx + sw, fy - h, rnd.uniform(7, 12), 0, TAU)
-        fill(c, rnd.choice(["#f2c14e", "#f7f3e3", "#e88a6a"]))
+        fill(c, rnd.choice(["#ffd25a", "#ffffff", "#ef6f53", "#f59ac0", "#8a7cff"]))
     leaf_tree(c, W * 0.13, H * 0.84, 460, sway=math.sin(t * 0.8))
     leaf_tree(c, W * 0.92, H * 0.86, 360, sway=math.sin(t * 0.8 + 1))
-    particles(c, t, 26, 5, "#ffe9b0", a=0.6, rise=25)
+    particles(c, t, 26, 5, "#fff6c8", a=0.8, rise=25)
 
 
 # ───────────────────────── cenas ─────────────────────────
@@ -364,10 +379,11 @@ def s_mapa(c, t, d):
 
 def s_biblia(c, t, d):
     """1 · Recuo: o mapa furado vai para a mesa, ao lado da Bíblia; zoom até a palavra que brilha."""
-    paint(c, "#3a2a20")
+    paint(c, "#e3ac6f")
     for k in range(9):
-        c.rectangle(0, k * H / 9, W, 3)
-        fill(c, "#2c1f17", 0.6)
+        c.rectangle(0, k * H / 9, W, 4)
+        fill(c, "#c98d55", 0.7)
+    glow(c, W * 0.7, H * 0.1, 900, "#fff3c4", 0.45)
     p = eio(seg(t, 0, 2.0))
     zp = eio(seg(t, 2.6, d - 0.1))
     s0, by = 380, H * 0.5
@@ -389,7 +405,7 @@ def s_biblia(c, t, d):
         hole(c, x, y, red=1 - p)
     c.restore()
     c.rectangle(bx - s0 * 1.0, by - s0 * 0.66 + 18, s0 * 2.1, s0 * 1.4)
-    fill(c, "#000000", 0.3)
+    fill(c, "#7a4a22", 0.25)
     gw = seg(t, 2.4, 3.2) * (0.85 + 0.15 * math.sin(t * 7))
     bible(c, bx, by, s0, glow_word=gw, t=t)
     c.restore()
@@ -398,6 +414,7 @@ def s_biblia(c, t, d):
 def s_linha(c, t, d):
     """2 · A linha do tempo: um fio dourado liga o jardim do início ao jardim do fim."""
     paint(c, PAPER)
+    glow(c, W / 2, -H * 0.1, 1100, "#ffe08a", 0.5)
     y = H * 0.42
     p = eio(seg(t, 0.6, 3.4))
     x0, x1 = W * 0.2, W * 0.8
@@ -412,7 +429,7 @@ def s_linha(c, t, d):
         if u > p or abs(lerp(x0, x1, u) - x0) < 175 or abs(lerp(x0, x1, u) - x1) < 175:
             continue
         c.arc(lerp(x0, x1, u), y, 8 if big else 5, 0, TAU)
-        fill(c, LINE, 0.55)
+        fill(c, [TEALD, CORAL, "#e6a92e"][k % 3], 0.85)
     garden(c, x0, y, 170, seg(t, 0.2, 1.2), t)
     garden(c, x1, y, 170, seg(t, 3.4, 4.4), t, city=True)
     text_center(c, tr("GÊNESIS"), x0, y + 235, 34, face=SANS, col=LINE, a=seg(t, 1.0, 1.6), spacing=6)
@@ -445,12 +462,13 @@ def s_titulo(c, t, d):
     """4 · Cartão de título."""
     paint(c, NAVY)
     e = eout(seg(t, 0.1, 0.7))
-    glow(c, W / 2, H * 0.47, 700, "#2f6f73", 0.5 * e)
+    geo_rays(c, W / 2, H * 0.5, 20, t * 0.05, "#ffd25a", 0.10 * e)
+    glow(c, W / 2, H * 0.47, 700, "#3fb7a8", 0.55 * e)
     c.move_to(W * 0.5 - W * 0.33 * e, H * 0.6)
     c.line_to(W * 0.5 + W * 0.33 * e, H * 0.6)
     stroke(c, GOLD, 4, 0.8)
     a = e * (1 - seg(t, d - 0.5, d))
-    text_center(c, tr("O ÉDEN"), W / 2, H * 0.40, 64, face=SANS, col="#e9dcb8", a=a, spacing=18)
+    text_center(c, tr("O ÉDEN"), W / 2, H * 0.40, 64, face=SANS, col="#fff6e0", a=a, spacing=18)
     title_text(c, tr("NÃO ERA O JARDIM"), W / 2, H * 0.54, 128, a=a, shine=seg(t, 0.5, 2.0), face=SERIF)
 
 

@@ -32,3 +32,6 @@ davi/audio.wav
 davi/preview.png
 __pycache__/
 davi/master.mp4
+motor/frames/
+motor/audio.wav
+motor/preview.png

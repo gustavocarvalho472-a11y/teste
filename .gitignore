@@ -30,3 +30,5 @@ audio.wav
 davi/frames/
 davi/audio.wav
 davi/preview.png
+__pycache__/
+davi/master.mp4

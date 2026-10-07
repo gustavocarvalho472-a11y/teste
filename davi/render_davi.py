@@ -23,7 +23,7 @@ NARR = json.load(open(os.path.join(HERE, "narr", "timing.json")))
 LEAD, TAIL = 0.25, 0.35
 S, D, acc = [], [], 0.0
 for i, x in enumerate(NARR):
-    d = LEAD + x["dur"] + TAIL + (1.3 if i == len(NARR) - 1 else 0)
+    d = LEAD + x["dur"] + TAIL + (1.6 if i == len(NARR) - 1 else 0)
     S.append(acc); D.append(d); acc += d
 TOTAL = acc
 NF = int(TOTAL * FPS)
@@ -37,10 +37,11 @@ def from_mask(draw_fn, grid=13, n=N, var=True):
 
 def sample(a, grid, n=N, var=True):
     ys, xs = np.mgrid[0:H:grid, 0:W:grid]
-    m = a[ys, xs] > 128
+    m = a[ys, xs] > 100
     pts = np.stack([xs[m], ys[m]], 1).astype(float)
     idx = rng.choice(len(pts), n, replace=len(pts) < n)
     s = rng.uniform(0.75, 1.1, n) if var else np.ones(n)
+    if var == "shade": s = 0.45 + 0.6 * (a[ys, xs][m][idx] / 255)
     return pts[idx] + rng.normal(0, 1.3, (n, 2)), s
 
 def giant_draw(d, img=None):
@@ -61,19 +62,44 @@ def giant_fallen():
     img = img.rotate(-84, center=(540, 840), translate=(0, 330), resample=Image.BILINEAR)
     return sample(np.array(img), 13)
 
-def lion_draw(d, img=None):
-    d.ellipse([300, 800, 770, 1020], fill=255)                       # corpo
-    for x0 in (340, 430, 640, 705):
-        d.rounded_rectangle([x0, 960, x0 + 52, 1190], 18, fill=255)  # patas
-    d.line([(760, 870), (800, 820), (850, 790)], fill=255, width=16)  # cauda
-    d.ellipse([835, 755, 885, 805], fill=255)
-    ang = np.linspace(0, 2 * np.pi, 37)[:-1]
-    r = np.where(np.arange(36) % 2 == 0, 175, 140)
-    d.polygon([(310 + rr * np.cos(a), 790 + rr * np.sin(a)) for a, rr in zip(ang, r)], fill=255)  # juba
-    d.ellipse([310 - 95, 790 - 95, 310 + 95, 790 + 95], fill=0)
-    d.ellipse([310 - 80, 790 - 80, 310 + 80, 790 + 80], fill=255)     # rosto
-    d.ellipse([240, 820, 330, 900], fill=255)                        # focinho
-    d.ellipse([270, 760, 290, 780], fill=0); d.ellipse([340, 760, 360, 780], fill=0)  # olhos
+def lion_draw(d, img=None, cx=540, cy=820):
+    lr = np.random.default_rng(5)
+    for r0, r1, n, w, off, fill in [(150, 330, 22, 0.17, 0.0, 185), (130, 265, 22, 0.15, np.pi / 22, 215)]:
+        for kk in range(n):
+            a = 2 * np.pi * kk / n + off + lr.uniform(-.05, .05); rr1 = r1 * lr.uniform(.85, 1.12)
+            sw = lr.uniform(.18, .38); L, R = [], []
+            for t in np.linspace(0, 1, 14):
+                r = r0 + (rr1 - r0) * t; half = w * (1 - t) ** 0.8 + 0.01
+                for side, lst in ((-1, L), (1, R)):
+                    aa = a + sw * t ** 1.5 + side * half
+                    lst.append((cx + r * np.cos(aa), cy + r * 1.08 * np.sin(aa) + 30))
+            d.polygon(L + R[::-1], fill=fill)
+    d.ellipse([cx - 245, cy - 225, cx + 245, cy + 285], fill=225)
+    face = [(-135, -150), (-60, -185), (0, -190), (60, -185), (135, -150), (165, -60), (150, 40), (110, 130),
+            (60, 190), (0, 210), (-60, 190), (-110, 130), (-150, 40), (-165, -60)]
+    d.polygon([(cx + x * 1.17, cy + y * 1.14 + 12) for x, y in face], fill=0)
+    d.polygon([(cx + x, cy + y) for x, y in face], fill=255)
+    for sd in (-1, 1):
+        d.ellipse([cx + sd * 150 - 44, cy - 212, cx + sd * 150 + 44, cy - 124], fill=0)
+        d.ellipse([cx + sd * 150 - 26, cy - 193, cx + sd * 150 + 26, cy - 142], fill=255)
+        ex = cx + sd * 68
+        d.polygon([(ex - sd * 46, cy - 38), (ex, cy - 64), (ex + sd * 44, cy - 44), (ex, cy - 18)], fill=0)
+        d.line([(ex - sd * 45, cy - 78), (ex + sd * 40, cy - 92)], fill=0, width=15)
+        d.line([(cx + sd * 22, cy - 50), (cx + sd * 30, cy + 40)], fill=0, width=13)
+    d.polygon([(cx - 58, cy + 40), (cx + 58, cy + 40), (cx + 26, cy + 90), (cx - 26, cy + 90)], fill=0)
+    d.line([(cx, cy + 85), (cx, cy + 115)], fill=0, width=14)
+    d.arc([cx - 75, cy + 70, cx + 2, cy + 140], 20, 140, fill=0, width=14)
+    d.arc([cx - 2, cy + 70, cx + 75, cy + 140], 40, 160, fill=0, width=14)
+
+def king_draw(d, img=None):
+    d.ellipse([480, 520, 600, 640], fill=255)                                        # cabeça
+    d.polygon([(470, 530), (470, 450), (505, 490), (540, 430), (575, 490), (610, 450), (610, 530)], fill=255)  # coroa
+    d.rectangle([470, 515, 610, 532], fill=0)
+    d.rectangle([520, 630, 560, 670], fill=255)
+    d.polygon([(450, 670), (630, 670), (720, 1240), (360, 1240)], fill=255)          # manto
+    d.line([(540, 690), (540, 1240)], fill=0, width=14)
+    d.polygon([(450, 670), (400, 700), (370, 900), (410, 905)], fill=255)            # braços
+    d.polygon([(630, 670), (680, 700), (710, 900), (670, 905)], fill=255)
 
 def harp_draw(d, img=None):
     d.line([(370, 1200), (370, 560)], fill=255, width=34)
@@ -144,9 +170,10 @@ DUST0 = np.stack([rng.uniform(60, 1020, N), rng.uniform(380, 1380, N)], 1)
 DV = rng.normal(0, 1, (N, 2)) * [14, 8] + [0, 18]
 def dust(t): return DUST0 + DV * np.sin(t * 0.4) * 2.5, np.full(N, 0.45)
 
-static = {n: from_mask(fn) for n, fn in [("giant", giant_draw), ("lion", lion_draw), ("crown", crown_draw),
+static = {n: from_mask(fn) for n, fn in [("giant", giant_draw), ("king", king_draw), ("crown", crown_draw),
           ("flock", flock_draw), ("30", text_draw("30", 600)), ("phones", phones_draw), ("heart", heart_draw),
-          ("bars", bars_draw)]}
+          ("bars", bars_draw), ("2", text_draw("2", 820))]}
+static["lion"] = from_mask(lion_draw, grid=9, var="shade")
 static["harp"] = from_mask(harp_draw, grid=10)
 static["fallen"] = giant_fallen()
 def shape(name, t):
@@ -157,7 +184,7 @@ def shape(name, t):
 KEYS = [(-1.0, "dust"), (0.0, "giant"), (S[1], "dust"), (S[2], "flock"), (S[3], "lion"), (at(3, .5), "harp"),
         (S[4], "crown"), (at(4, .42), "dust"), (at(4, .72), "flock"), (S[5], "30"), (S[6], "phones"),
         (S[7], "sphere"), (S[8], "heart"), (S[9], "bars"), (S[10], "giant"), (at(10, .2), "fallen"),
-        (at(10, .55), "lion"), (TOTAL - 1.4, "dust")]
+        (at(10, .45), "lion"), (S[11], "giant"), (at(11, .52), "king"), (at(11, .74), "2")]
 MD = 0.85
 delay = rng.uniform(0, 0.3, N)
 burst = rng.normal(0, 1, (N, 2)) * 150
@@ -197,7 +224,8 @@ SPLIT = ["Davi derrubou um gigante|de quase três metros|com uma única pedra.",
          "Mas Deus não escolheu Davi|pelo que as pessoas viam.",
          "“O homem vê o exterior,|mas o Senhor vê o coração.”",
          "Talvez o seu tempo escondido|não seja atraso.|Seja treino.",
-         "Quem vence o gigante em público|já venceu o leão|em secreto."]
+         "Quem vence o gigante em público|já venceu o leão|em secreto.",
+         "Só que o maior gigante|da vida de Davi|não foi Golias.|Foi ele mesmo.|Isso fica pra parte dois."]
 def chunks(i):
     parts = SPLIT[i].split("|")
     tot = sum(len(p) for p in parts); out, c = [], 0
@@ -218,9 +246,10 @@ LBL = [(0.3, at(0, .55), "GOLIAS"), (at(0, .55), S[1], "1 PEDRA"),
        (S[5] + .2, S[6], "REI AOS 30"),
        (S[6] + .2, S[7], "VISTO"), (S[7] + .2, S[8], "O QUE AS PESSOAS VIAM"),
        (S[8] + .2, S[9], "O CORAÇÃO"), (S[9] + .2, at(9, .55), "ATRASO"), (at(9, .55), S[10], "TREINO"),
-       (S[10] + .2, at(10, .55), "EM PÚBLICO"), (at(10, .55), TOTAL - .6, "EM SECRETO")]
+       (S[10] + .2, at(10, .55), "EM PÚBLICO"), (at(10, .55), S[11], "EM SECRETO"),
+       (S[11] + .2, at(11, .56), "O MAIOR GIGANTE"), (at(11, .52), at(11, .74), "ELE MESMO"), (at(11, .74), TOTAL + 1, "PARTE 2")]
 REFS = ["1 SM 17:4", "1 SM 17", "1 SM 16:11", "1 SM 17:34", "1 SM 16:13", "2 SM 5:4", "HOJE", "1 SM 16:7",
-        "1 SM 16:7", "1 SM 17:37", "1 SM 17:50"]
+        "1 SM 16:7", "1 SM 17:37", "1 SM 17:50", "2 SM 11"]
 
 def fade(t, a, b, f=0.18): return float(np.clip(min((t - a) / f, (b - t) / f), 0, 1))
 
@@ -264,6 +293,9 @@ def overlays(img, t):
         x0 = CX - (5 * 120 + 4 * 46) / 2
         for i in range(5):
             d.text((x0 + i * 166 + 60, 1200), f"0{i+1}", font=f_ui, fill=int(200 * al), anchor="mm")
+    al = fade(t, at(11, .9), TOTAL + 1, .3)
+    if al > 0:
+        d.text((CX, 1345), "SEGUE PRA NÃO PERDER  →", font=f_lbl, fill=int(235 * al), anchor="mm")
     for a, b, s in CAPS:
         al = fade(t, a, b, 0.07)
         if al > 0:
@@ -276,7 +308,7 @@ HIT = at(0, .85)
 
 def render(fi):
     t = fi / FPS
-    master = float(np.clip((TOTAL - t) / 1.2, 0, 1)) if t > TOTAL - 1.2 else 1.0
+    master = float(np.clip((TOTAL - t) / 0.35, 0, 1)) if t > TOTAL - 0.35 else 1.0
     big = Image.new("L", (W * SS, H * SS), 0); d = ImageDraw.Draw(big)
     terrain(d, t, 1.0)
     p, s = state(t)
@@ -311,12 +343,12 @@ def audio():
     # Ré menor até a virada (cena 7), depois Sib → Fá → Ré maior
     prog = [(0, [50, 57, 62, 65]), (S[3], [46, 53, 58, 62]), (S[5], [48, 55, 60, 64]), (S[6], [50, 57, 62, 65]),
             (S[7], [46, 53, 58, 62, 65]), (S[8], [41, 48, 57, 60, 65]), (S[9], [43, 50, 58, 62]),
-            (S[10], [50, 57, 62, 66, 69])]
+            (S[10], [50, 57, 62, 66, 69]), (S[11], [38, 45, 50, 53]), (at(11, .52), [38, 50, 51, 53])]
     for j, (t0, notes) in enumerate(prog):
         t1 = prog[j + 1][0] if j + 1 < len(prog) else TOTAL
         for m in notes: tone(hz(m), t0, t1 - t0, 0.018, rel=1.2)
     beat = 60 / 76
-    for bt in np.arange(0.0, TOTAL - 1, beat):
+    for bt in [b for b in np.arange(0.0, TOTAL, beat) if not (at(11, .5) < b < at(11, .62))]:
         for off, g in ((0, .3), (.18, .18)):
             m = ts >= bt + off; tt = ts[m] - bt - off
             mu[m] += g * np.sin(2 * np.pi * 52 * tt) * np.exp(-tt * 11)
@@ -325,7 +357,7 @@ def audio():
         env = np.exp(-((ts - tk - MD / 2) / 0.3) ** 2); mu += 0.25 * wh * env
     for a, b, s in LBL:
         m = (ts >= a) & (ts < a + .025); mu[m] += .08 * np.sign(np.sin(2 * np.pi * 2600 * ts[m]))
-    for tk, g in ((HIT, 1.0), (at(10, .2) + .6, .8)):
+    for tk, g in ((HIT, 1.0), (at(10, .2) + .6, .8), (at(11, .52), 1.0), (at(11, .74), .9)):
         m = ts >= tk; tt = ts[m] - tk
         mu[m] += g * (.9 * np.sin(2 * np.pi * (60 * np.exp(-tt * 3) + 38) * tt) * np.exp(-tt * 4)
                       + .3 * lp(n[m], .2) * np.exp(-tt * 18))
@@ -339,7 +371,7 @@ def audio():
     venv = lp(np.abs(voice) > 0.01, 0.0005)
     duck = 1 - 0.55 * np.clip(venv * 3, 0, 1)
     out = voice + mu * 0.22 * duck
-    out *= np.clip((TOTAL - ts) / 1.2, 0, 1)
+    out *= np.clip((TOTAL - ts) / 0.35, 0, 1)
     out = out / np.abs(out).max() * 0.9
     with wave.open(os.path.join(HERE, "audio.wav"), "w") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767).astype(np.int16).tobytes())

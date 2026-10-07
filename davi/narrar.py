@@ -15,6 +15,7 @@ LINES = [
  "O homem vê o exterior, mas o Senhor vê o coração.",
  "Talvez o seu tempo escondido não seja atraso. Seja treino.",
  "Quem vence o gigante em público já venceu o leão em secreto.",
+ "Só que o maior gigante da vida de Davi não foi Golias. Foi ele mesmo. Isso fica pra parte dois.",
 ]
 d = os.path.join(os.path.dirname(os.path.abspath(__file__)), "narr")
 tts = Kokoro(os.path.expanduser("~/tts/kokoro-v1.0.onnx"), os.path.expanduser("~/tts/voices-v1.0.bin"))

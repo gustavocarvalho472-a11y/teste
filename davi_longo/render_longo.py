@@ -141,6 +141,36 @@ def dust(t):
              (40 + 80 * DUST[:, 2] * (.6 + .4 * np.sin(t * 2 + DUST[:, 0]))).astype(np.float32), buf)
     return gaussian_filter(buf, 2.2) * 12
 
+# ---------- vida na imagem: brasas que se soltam da imagem, bokeh e raios de luz ----------
+NE = 1400
+EK = np.arange(NE); EPH = np.random.default_rng(11).random(NE) * 5.0
+def h01(x): return (np.sin(x) * 43758.5453) % 1.0
+def level(t): return 1.0 if t < 100 else .55                              # mais vida nos primeiros minutos
+def embers(a, t):
+    """Pontos claros da própria imagem se soltam e sobem devagar (assinatura das partículas)."""
+    life = 5.0; c = np.floor((t + EPH) / life); u = (t + EPH) / life - c
+    x0 = h01(EK * 12.99 + c * 78.23) * W; y0 = h01(EK * 39.35 + c * 11.13) * H
+    lum = a[y0.astype(int).clip(0, H - 1), x0.astype(int).clip(0, W - 1)] / 255
+    keep = lum > .3
+    x = x0 + 18 * np.sin(u * 4 + EK) + u * life * 6; y = y0 - u * life * (14 + 22 * h01(EK * 3.7))
+    wgt = (np.sin(np.pi * u) ** 2 * lum * 2200 * keep).astype(np.float32)
+    buf = np.zeros((H, W), np.float32); pt.splat(x.astype(np.float32), y.astype(np.float32), wgt, buf)
+    return gaussian_filter(buf, .9) * 2.2 + gaussian_filter(buf, 5) * 5
+RA = np.arctan2(GY + 300, GX + 200); RD = np.hypot(GX + 200, GY + 300)
+def rays(t):
+    """Raios de luz suaves entrando do canto superior esquerdo."""
+    r = (.5 + .5 * np.sin(RA * 23 + t * .25)) * (.5 + .5 * np.sin(RA * 41 - t * .17 + 1.3))
+    return r ** 2 * np.exp(-RD / 1300) * (.6 + .4 * np.sin(t * .4))
+BOK = np.random.default_rng(12).random((14, 4))
+def bokeh(t):
+    buf = np.zeros((H, W), np.float32)
+    x = (BOK[:, 0] * W + t * (6 + 10 * BOK[:, 2])) % W; y = (BOK[:, 1] * H - t * (4 + 6 * BOK[:, 3])) % H
+    pt.splat(x.astype(np.float32), y.astype(np.float32), (7000 * (.5 + .5 * np.sin(t * .7 + BOK[:, 3] * 6))).astype(np.float32), buf)
+    return gaussian_filter(buf, 14) * 9
+def life(a, t):
+    lv = level(t)
+    return a * (1 + .18 * lv * rays(t)) + lv * (embers(a, t) + bokeh(t)) + 40 * lv * rays(t)
+
 # ---------- nuvens ----------
 N = 120000
 @functools.lru_cache(maxsize=6)
@@ -303,7 +333,7 @@ def render(fi):
         if (j and KIND[j] == "dissolve" and t - ST[j] < .6 and SEC[SHOTS[j][0]] == SEC[SHOTS[j - 1][0]]
                 and SHOTS[j][2] != SHOTS[j - 1][2]):                              # mesma imagem: corte seco
             q = ease((t - ST[j]) / .6); a = a * q + alive(view(*params(j - 1, t)), t, j - 1) * (1 - q)
-        a = a + dust(t)
+        a = life(a, t) + dust(t)
     master = min(1, (TOTAL - t) / 1.2)
     img = Image.fromarray(pt.finish(a * master, t, grain=5, vignette=.5)); overlays(img, t)
     img.save(f"{FR}/f{fi:05d}.png")

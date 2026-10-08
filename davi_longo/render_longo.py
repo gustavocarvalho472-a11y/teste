@@ -450,7 +450,7 @@ if __name__ == "__main__":
     with Pool(4) as pl: pl.map(render, range(nf), chunksize=4)
     audio(T)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR}/f%05d.png",
-                    "-i", os.path.join(HERE, "audio.wav"), "-frames:v", str(nf), "-c:v", "libx264", "-b:v", "4.5M",
+                    "-i", os.path.join(HERE, "audio.wav"), "-frames:v", str(nf), "-c:v", "libx264", "-b:v", os.environ.get("VBR", "4.5M"),
                     "-maxrate", "5.5M", "-bufsize", "9M", "-preset", "slow", "-pix_fmt", "yuv420p", "-c:a", "aac",
                     "-b:a", "192k", "-movflags", "+faststart", "-shortest", out], check=True)
     print("ok", out)

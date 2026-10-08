@@ -47,7 +47,7 @@ for i, x in enumerate(NARR):
     t += PAUSE.get(i, 0)
     if x["sec"] not in sec_first: sec_first[x["sec"]] = i
     S.append(t); SEC.append(x["sec"]); t += x["dur"] + GAP
-TOTAL = t + 2.5
+TOTAL = t + 4.0
 def at(i, f):
     if isinstance(f, str): f = max(0, NARR[i]["text"].find(f)) / len(NARR[i]["text"])
     return S[i] + f * NARR[i]["dur"]
@@ -57,13 +57,14 @@ TR = [S[sec_first[s]] - TRANS for s in SECS[1:]]
 TITLE = {"1.": ("CAPÍTULO 1", "O FILHO QUE NINGUÉM CHAMOU"), "2.": ("CAPÍTULO 2", "UNGIDO… E DE VOLTA AO PASTO"),
          "3.": ("CAPÍTULO 3", "O MÚSICO DO REI"), "4.": ("CAPÍTULO 4", "QUARENTA DIAS DE MEDO"),
          "5.": ("CAPÍTULO 5", "O ENTREGADOR"), "6.": ("CAPÍTULO 6", "A ARMADURA QUE NÃO SERVIU"),
-         "7.": ("CAPÍTULO 7", "UMA PEDRA"), "FE": ("", "")}
+         "7.": ("CAPÍTULO 7", "UMA PEDRA"), "FE": ("", "O PASTO VEM ANTES DO VALE")}
 REF = {"GA": "1 SM 16:11", "1.": "1 SM 16:1–11", "2.": "1 SM 16:12–13", "3.": "1 SM 16:14–23", "4.": "1 SM 17:1–16",
        "5.": "1 SM 17:15–30", "6.": "1 SM 17:31–40", "7.": "1 SM 17:41–58", "FE": "1 SM 16:7"}
 
 # ---------- planos ----------
 # (fala, fração ou palavra-âncora, imagem, (cx, cy, zoom) inicial, final, tipo, efeito sonoro extra)
 SHOTS = [
+    # GANCHO
     (0, 0, "19_davi_sozinho", (.60, .40, 1.75), (.60, .42, 1.55), "open", ""),
     (1, 0, "07_samuel_filhos", (.30, .50, 1.25), (.25, .48, 1.45), "dissolve", ""),
     (2, 0, "07_samuel_filhos", (.68, .52, 1.55), (.62, .52, 1.35), "dissolve", ""),
@@ -73,9 +74,73 @@ SHOTS = [
     (5, 0, "03_confronto", (.50, .50, 1.0), (.45, .45, 1.2), "dissolve", ""),
     (5, "derrubou", "18_golias_caido", (.55, .55, 1.15), (.62, .50, 1.35), "morph", "boom"),
     (5, "um detalhe", "26_saul_pergunta", (.5, .5, 1.0), (.5, .5, 1.0), "cloud", "mystery"),
-    (6, 0, "07_samuel_filhos", (.17, .45, 1.9), (.19, .46, 1.65), "dissolve", ""),
-    (7, 0, "07_samuel_filhos", (.50, .50, 1.05), (.52, .50, 1.2), "dissolve", ""),
-    (8, "Eliabe", "08_eliabe", (.56, .38, 1.5), (.55, .45, 1.15), "morph", ""),
+    # 1. O filho que ninguém chamou
+    (7, 0, "07_samuel_filhos", (.17, .45, 1.9), (.19, .46, 1.65), "dissolve", ""),
+    (8, 0, "07_samuel_filhos", (.50, .50, 1.05), (.52, .50, 1.2), "dissolve", ""),
+    (9, "Eliabe", "08_eliabe", (.56, .38, 1.5), (.55, .45, 1.15), "morph", ""),
+    (10, 0, "08_eliabe", (.58, .30, 2.0), (.58, .30, 2.3), "dissolve", ""),
+    (10, "O homem", "08_eliabe", (.40, .55, 1.1), (.45, .50, 1.3), "dissolve", ""),
+    (11, 0, "07_samuel_filhos", (.68, .50, 1.35), (.60, .50, 1.5), "dissolve", ""),
+    (12, 0, "07_samuel_filhos", (.18, .42, 2.0), (.18, .42, 2.2), "dissolve", ""),
+    (13, "Falta", "19_davi_sozinho", (.60, .40, 1.6), (.58, .42, 1.35), "morph", "hit"),
+    (14, 0, "08_eliabe", (.55, .45, 1.1), (.56, .38, 1.35), "dissolve", ""),
+    # 2. Ungido… e de volta ao pasto
+    (15, 0, "15_davi_chega", (.30, .50, 1.35), (.25, .52, 1.6), "dissolve", ""),
+    (16, 0, "09_uncao", (.45, .50, 1.15), (.42, .48, 1.35), "morph", "hit"),
+    (17, 0, "09_uncao", (.42, .35, 1.7), (.42, .30, 2.0), "dissolve", ""),
+    (18, 0, "05_pasto", (.50, .50, 1.3), (.50, .50, 1.1), "morph", ""),
+    (19, 0, "19_davi_sozinho", (.60, .40, 1.7), (.58, .42, 1.5), "dissolve", ""),
+    (20, 0, "05_pasto", (.45, .50, 1.05), (.55, .50, 1.25), "dissolve", ""),
+    # 3. O músico do rei
+    (21, 0, "20_saul_atormentado", (.45, .45, 1.15), (.45, .40, 1.35), "dissolve", ""),
+    (22, 0, "20_saul_atormentado", (.42, .32, 1.9), (.42, .30, 2.2), "dissolve", ""),
+    (23, "alguém", "21_davi_palacio", (.50, .50, 1.1), (.48, .55, 1.3), "morph", ""),
+    (24, 0, "21_davi_palacio", (.47, .52, 1.8), (.47, .50, 2.1), "dissolve", ""),
+    (25, 0, "10_harpa_saul", (.50, .50, 1.05), (.45, .55, 1.25), "dissolve", ""),
+    (26, 0, "10_harpa_saul", (.70, .40, 1.7), (.70, .38, 1.95), "dissolve", ""),
+    # 4. Quarenta dias de medo
+    (27, 0, "11_exercito_medo", (.40, .50, 1.1), (.50, .50, 1.0), "dissolve", ""),
+    (27, "No meio", "16_golias_desafio", (.45, .45, 1.2), (.45, .40, 1.4), "morph", "boom"),
+    (28, 0, "02_golias", (.50, .40, 1.5), (.50, .50, 1.05), "dissolve", ""),
+    (29, 0, "02_golias", (.48, .50, 2.2), (.48, .45, 2.0), "dissolve", ""),
+    (30, 0, "16_golias_desafio", (.45, .35, 1.7), (.45, .33, 2.0), "dissolve", ""),
+    (31, 0, "24_golias_entardecer", (.50, .50, 1.05), (.60, .50, 1.25), "dissolve", ""),
+    (32, 0, "25_soldados_olhando", (.40, .50, 1.1), (.35, .50, 1.3), "dissolve", ""),
+    (33, 0, "11_exercito_medo", (.25, .40, 1.9), (.25, .38, 2.2), "dissolve", ""),
+    # 5. O entregador
+    (34, 0, "12_pao_queijo", (.50, .50, 1.1), (.55, .45, 1.3), "dissolve", ""),
+    (35, 0, "12_pao_queijo", (.58, .62, 1.9), (.58, .58, 2.2), "dissolve", ""),
+    (36, 0, "22_davi_soldados", (.45, .50, 1.1), (.45, .48, 1.3), "dissolve", ""),
+    (37, 0, "23_eliabe_furioso", (.50, .45, 1.15), (.52, .40, 1.4), "morph", "hit"),
+    (38, 0, "23_eliabe_furioso", (.38, .35, 2.0), (.38, .33, 2.3), "dissolve", ""),
+    (39, 0, "12_pao_queijo", (.45, .50, 1.0), (.45, .50, 1.15), "dissolve", ""),
+    # 6. Leão, urso e a armadura
+    (40, 0, "13_armadura_saul", (.60, .30, 1.8), (.55, .40, 1.3), "dissolve", ""),
+    (41, 0, "06_leao", (.50, .45, 1.1), (.50, .40, 1.3), "morph", "boom"),
+    (42, "E quando", "06_leao", (.52, .30, 1.8), (.52, .28, 2.1), "dissolve", ""),
+    (43, 0, "13_armadura_saul", (.50, .50, 1.1), (.48, .45, 1.3), "dissolve", ""),
+    (44, 0, "13_armadura_saul", (.40, .45, 1.8), (.40, .40, 2.1), "dissolve", ""),
+    (45, 0, "14_pedras_riacho", (.45, .55, 1.15), (.40, .62, 1.5), "morph", ""),
+    (46, "Há quem", "02_golias", (.50, .45, 1.2), (.50, .45, 1.4), "dissolve", ""),
+    (46, "O que o texto", "05_pasto", (.50, .50, 1.1), (.50, .50, 1.25), "dissolve", ""),
+    (46, "Venceu com", "19_davi_sozinho", (.60, .40, 1.6), (.58, .42, 1.35), "morph", ""),
+    # 7. Uma pedra
+    (47, 0, "03_confronto", (.55, .40, 1.3), (.50, .45, 1.05), "dissolve", ""),
+    (48, 0, "01_davi", (.50, .40, 1.2), (.50, .36, 1.6), "morph", ""),
+    (49, 0, "17_davi_correndo", (.45, .50, 1.1), (.40, .50, 1.35), "morph", ""),
+    (50, 0, "04_pedra", (.50, .50, 1.1), (.50, .50, 1.4), "dissolve", ""),
+    (50, "E o gigante", "18_golias_caido", (.50, .55, 1.1), (.55, .50, 1.3), "morph", "boom"),
+    (51, 0, "18_golias_caido", (.62, .55, 1.7), (.62, .50, 2.0), "dissolve", ""),
+    (52, 0, "26_saul_pergunta", (.45, .45, 1.05), (.40, .45, 1.25), "morph", "braam"),
+    (53, 0, "26_saul_pergunta", (.27, .38, 1.8), (.27, .36, 2.1), "dissolve", ""),
+    (54, 0, "10_harpa_saul", (.50, .50, 1.1), (.50, .50, 1.3), "dissolve", ""),
+    (54, "Talvez os relatos", "26_saul_pergunta", (.50, .50, 1.0), (.55, .48, 1.15), "dissolve", ""),
+    (55, 0, "26_saul_pergunta", (.78, .45, 1.8), (.78, .42, 2.4), "dissolve", ""),
+    # FECHAMENTO
+    (56, 0, "05_pasto", (.50, .50, 1.05), (.50, .50, 1.25), "dissolve", ""),
+    (57, 0, "06_leao", (.50, .45, 1.2), (.50, .45, 1.4), "dissolve", ""),
+    (58, 0, "19_davi_sozinho", (.55, .45, 1.2), (.60, .42, 1.5), "dissolve", ""),
+    (59, 0, "TXT_versiculo", (.5, .5, 1.0), (.5, .5, 1.0), "cloud", "braam"),
 ]
 KIND = [s[5] for s in SHOTS]
 
@@ -109,7 +174,16 @@ def params(j, t):
     u = np.clip((t - t0) / max(1e-3, EN[j] - t0), -.1, 1.15); k = u * u * (3 - 2 * u) * .5 + u * .5
     return name, [a + (b - a) * k for a, b in zip(p0, p1)]
 
+def verse_img():
+    img = Image.new("L", (W, H), 0); d = ImageDraw.Draw(img)
+    fb = ImageFont.truetype(FONT + "Inter-SemiBold.otf", 64); fr = ImageFont.truetype(FONT + "Inter-Medium.otf", 34)
+    d.text((W / 2, H / 2 - 70), "“O homem vê o exterior,", font=fb, fill=255, anchor="mm")
+    d.text((W / 2, H / 2 + 10), "mas o Senhor vê o coração.”", font=fb, fill=255, anchor="mm")
+    d.text((W / 2, H / 2 + 110), "1 SAMUEL 16:7", font=fr, fill=190, anchor="mm")
+    return np.asarray(img, np.float32)
+
 def view(name, p):
+    if name.startswith("TXT"): return verse_img()
     im = load(name); cx, cy, z = p
     cw = im.width / z; ch = cw * H / W
     if ch > im.height / z: ch = im.height / z; cw = ch * W / H
@@ -234,6 +308,7 @@ def opening(t):
 def morph(j, t):
     w0, w1 = MORPH[j]; u = t - w0; cloud_b = KIND[j] == "cloud"
     PA, IA = img_cloud(*key(j - 1, w0)); PB, IB = img_cloud(*key(j, w1))
+    if SHOTS[j][2].startswith("TXT"): IB = IB * .4
     zA = ease((u - .2) / .5); zB = 1 - ease((u - 1.6) / .4) if not cloud_b else ease((u - 1.2) / .8)
     m = ease((u - .55 - PH * .4) / .85)[:, None]
     QA = PA.copy(); QA[:, 2] *= zA; QB = PB.copy(); QB[:, 2] *= zB if not cloud_b else 0
@@ -253,9 +328,12 @@ def cloud_shot(j, t):
     t0 = ST[j] + MW / 2; t1 = EN[j]; u = np.clip((t - t0) / max(.1, t1 - t0), 0, 1)
     PB, IB = img_cloud(*key(j, t0))
     zf = ease(u / .3) * (1 - ease((u - .85) / .15))
+    env = np.sin(np.pi * u); txt = SHOTS[j][2].startswith("TXT")
+    if txt:                                                                    # versículo: quase plano, legível
+        Q = PB.copy(); Q[:, 2] *= .25 * zf
+        return draw_particles(Q, IB * .4, t, yaw=np.radians(5) * np.sin(np.pi * u), dolly=60 * env)
     Q = PB.copy(); Q[:, 2] *= zf * 1.4
-    env = np.sin(np.pi * u)
-    return draw_particles(Q, IB * (.85 + .25 * env), t, yaw=np.radians(22) * np.sin(np.pi * u) * zf,
+    return draw_particles(Q, IB * (.6 + .15 * env), t, yaw=np.radians(22) * np.sin(np.pi * u) * zf,
                           pitch=np.radians(-6) * zf, dolly=140 * env)
 
 def transition(k, u, t):
@@ -301,7 +379,43 @@ for i, x in enumerate(NARR):
 for j in range(len(CAPS) - 1):
     if CAPS[j + 1][0] - CAPS[j][1] < .4: CAPS[j][1] = CAPS[j + 1][0]
 
+SUB_T = S[sec_first[SECS[4]]] + 5.0                                          # meio do vídeo (capítulo 4)
+f_sub = ImageFont.truetype(FONT + "Inter-Bold.otf", 30)
+def bell(d, x, y, s, fill, ang=0):
+    pts = [(-.5, .35), (-.42, -.05), (-.3, -.35), (0, -.48), (.3, -.35), (.42, -.05), (.5, .35)]
+    ca, sa = np.cos(ang), np.sin(ang)
+    P = [(x + s * (px * ca - py * sa), y + s * (px * sa + py * ca)) for px, py in pts]
+    d.polygon(P, fill=fill); d.ellipse([x - s * .1, y + s * .36, x + s * .1, y + s * .56], fill=fill)
+def subscribe(img, t):
+    """Botão de inscrição: sobe, o cursor clica, vira INSCRITO e o sino balança."""
+    u = t - SUB_T
+    if not 0 <= u < 5.0: return
+    al = min(1, u / .35, (5.0 - u) / .4); rise = (1 - ease(u / .45)) * 40
+    x0, y0 = 60, H - 150 + rise; bw, bh = 290, 64
+    clicked = u > 2.1
+    lay = Image.new("L", img.size, 0); m = Image.new("L", img.size, 0)
+    dl, dm = ImageDraw.Draw(lay), ImageDraw.Draw(m)
+    box = [x0, y0, x0 + bw, y0 + bh]
+    dm.rounded_rectangle([x0 - 6, y0 - 6, x0 + bw + 96, y0 + bh + 6], 14, fill=200)            # fundo escuro
+    if clicked: dl.rounded_rectangle(box, 12, fill=40); dl.text((x0 + bw / 2, y0 + bh / 2), "INSCRITO ✓", font=f_sub, fill=230, anchor="mm")
+    else: dl.rounded_rectangle(box, 12, fill=255); dl.text((x0 + bw / 2, y0 + bh / 2), "INSCREVA-SE", font=f_sub, fill=0, anchor="mm")
+    if not clicked: dl.rounded_rectangle(box, 12, outline=255, width=2)
+    sw = np.sin((u - 2.4) * 22) * np.exp(-(u - 2.4) * 2.5) * .5 if u > 2.4 else 0
+    bell(dl, x0 + bw + 46, y0 + bh / 2, 40, 255, sw)
+    if 1.0 < u < 3.0:                                                                        # cursor
+        k = ease((u - 1.0) / 1.0); cx = x0 + bw * .6 + 160 * (1 - k); cy = y0 + bh * .6 + 90 * (1 - k)
+        pr = .85 if 2.0 < u < 2.2 else 1
+        cur = [(cx, cy), (cx, cy + 34 * pr), (cx + 9 * pr, cy + 26 * pr), (cx + 16 * pr, cy + 40 * pr),
+               (cx + 22 * pr, cy + 37 * pr), (cx + 15 * pr, cy + 24 * pr), (cx + 26 * pr, cy + 24 * pr)]
+        dm.polygon(cur, fill=255); dl.polygon(cur, fill=255)
+    if 2.1 < u < 2.6:                                                                        # onda do clique
+        r = 20 + (u - 2.1) * 160; dl.ellipse([x0 + bw * .6 - r, y0 + bh * .6 - r, x0 + bw * .6 + r, y0 + bh * .6 + r], outline=int(200 * (1 - (u - 2.1) / .5)), width=3)
+    base = np.asarray(img, np.float32); L = np.asarray(lay, np.float32); M = np.asarray(m, np.float32) / 255
+    out = base * (1 - .7 * al * M); out = np.maximum(out, L * al) if not clicked else out * (1 - al * (L > 0)) + L * al
+    img.paste(Image.fromarray(np.clip(out, 0, 255).astype(np.uint8)))
+
 def overlays(img, t):
+    subscribe(img, t)
     d = ImageDraw.Draw(img)
     hdr = np.clip((t - 2.6) / .8, 0, 1)                                        # cabeçalho entra depois da abertura
     sec = SEC[max(0, np.searchsorted(S, t, "right") - 1)]
@@ -441,6 +555,11 @@ def audio(T):
         if sfx == "braam": add(S[4] - .9, riser(.9, .25)); add(ST[j] + .35, braam(.30)); add(ST[j] + .35, boom(.6))
         if sfx == "boom": add(ST[j] + .4, boom(1.0))
         if sfx == "mystery": add(ST[j] + .3, sparkle(3.0, .3, 25))
+    if SUB_T + 3 < T:                                                          # som do botão de inscrição
+        add(SUB_T, whoosh(.6, .35))
+        tt = np.arange(int(.05 * SR)) / SR; add(SUB_T + 2.1, .5 * np.sin(2 * np.pi * 1800 * tt) * np.exp(-tt * 120))
+        tt = np.arange(int(1.6 * SR)) / SR
+        add(SUB_T + 2.4, .25 * sum(np.sin(2 * np.pi * f * tt) * np.exp(-tt * d_) for f, d_ in ((1318, 3), (1975, 4), (2637, 6))))
     for t0 in TR:
         if t0 > T: break
         add(t0, whoosh(1.6, 1.0)); add(t0 + .4, sparkle(2.5, .25)); add(t0 + .5, riser(1.9, .35))
@@ -474,10 +593,19 @@ if __name__ == "__main__":
         cols = min(3, len(ims)); g = Image.new("L", (640 * cols, 360 * ((len(ims) + cols - 1) // cols)))
         for j, im in enumerate(ims): g.paste(im, ((j % cols) * 640, (j // cols) * 360))
         g.save(os.path.join(HERE, "preview.png")); sys.exit()
+    if len(sys.argv) > 1 and sys.argv[1] == "quadros":                       # renderiza um trecho de quadros
+        a, b = int(sys.argv[2]), min(int(sys.argv[3]), int(TOTAL * FPS))
+        todo = [i for i in range(a, b) if not os.path.exists(f"{FR}/f{i:05d}.png")]
+        with Pool(4) as pl: pl.map(render, todo, chunksize=4)
+        print("quadros ok", a, b); sys.exit()
+    if len(sys.argv) > 1 and sys.argv[1] == "montar":                        # áudio + codificação, quadros já prontos
+        sys.argv = [sys.argv[0]]; SKIP = True
+    else: SKIP = False
     T = float(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[1] == "teste" else TOTAL
     out = os.path.join(ROOT, "davi_longo_teste.mp4" if T < TOTAL else "davi_longo.mp4")
     nf = int(T * FPS)
-    with Pool(4) as pl: pl.map(render, range(nf), chunksize=4)
+    if not SKIP:
+        with Pool(4) as pl: pl.map(render, range(nf), chunksize=4)
     audio(T)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR}/f%05d.png",
                     "-i", os.path.join(HERE, "audio.wav"), "-frames:v", str(nf), "-c:v", "libx264", "-b:v", os.environ.get("VBR", "4.5M"),

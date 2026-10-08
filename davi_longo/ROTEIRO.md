@@ -18,6 +18,7 @@ Roteiro v2, revisado com o que aprendemos: gancho em role-play, uma recompensa n
 > Você ficou lá fora, cuidando das ovelhas. Ninguém lembrou de você.
 > Esse menino era Davi.
 > Nos próximos minutos, você vai ver como o garoto que ninguém chamou derrubou um gigante. E, no fim, um detalhe do texto que quase ninguém percebe.
+> Antes de começar: se inscreva e manda este vídeo pra alguém que anda se sentindo esquecido.
 
 *Fontes:* 1 Sm 16:10–11 (sete filhos passam; falta o mais novo). Observação: 1 Cr 2:13–15 lista Davi como o sétimo filho; a narração segue 1 Samuel.
 

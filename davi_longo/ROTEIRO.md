@@ -45,10 +45,10 @@ Roteiro v2, revisado com o que aprendemos: gancho em role-play, uma recompensa n
 `[img 09_uncao]` → `[gráfico: coroa]` → `[img 05_pasto]` → `[gráfico: "30"]`
 
 > Mandam buscar o menino. Ele entra ruivo, de olhos bonitos, cheirando a campo.
-> E Deus diz: "É este. Unja-o."
+> E Deus diz: "Levante-se e unja o menino. É este."
 > Samuel derrama o óleo na frente dos irmãos. E daquele dia em diante, o Espírito do Senhor veio sobre Davi.
-> E agora a parte que quase ninguém conta: não teve coroa, nem palácio.
-> Quando o rei manda chamá-lo, o recado é: "Mande-me Davi, que está com as ovelhas."
+> E agora a parte que quase ninguém conta: não teve coroa. Não teve palácio.
+> Quando o rei manda chamá-lo, o recado é: "Envie o seu filho Davi, que está com as ovelhas."
 
 **Recompensa:**
 > O menino ungido rei voltou para o pasto. E só subiu ao trono aos trinta anos.
@@ -112,7 +112,7 @@ Roteiro v2, revisado com o que aprendemos: gancho em role-play, uma recompensa n
 > Levam Davi até Saul. E Saul diz o óbvio: "Você é só um rapaz. Ele é guerreiro desde a juventude."
 > Davi responde com o currículo que ninguém viu:
 > "Quando um leão ou um urso levava uma ovelha, eu ia atrás e a arrancava da boca dele. E quando ele vinha contra mim, eu o pegava pela juba e o matava."
-> Saul veste Davi com a própria armadura. Capacete de bronze, couraça, espada.
+> Saul coloca em Davi a própria armadura. Capacete de bronze, couraça, espada.
 > Davi dá alguns passos e tira tudo: "Não consigo andar com isto. Não estou acostumado."
 > Ele desce ao riacho e escolhe cinco pedras lisas.
 

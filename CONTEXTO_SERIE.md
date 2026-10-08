@@ -73,6 +73,14 @@ Criar conteúdo de **curiosidades bíblicas** com identidade visual própria:
 - **Cortes rápidos brigam com as partículas:** usar imagens nítidas com cortes de 2 a 3 segundos e partículas só em 1 ou 2 viradas por vídeo.
 - **Formato proposto:** fato curioso no início → lição + versículo no fim. É uma hipótese, e deve ser testada com dados.
 
+## ORDEM ESCOLHIDA PELO USUÁRIO
+1. **Primeiro: o vídeo longo do Davi (5 min, 16:9).** É o item 5 abaixo.
+   - Revisar o roteiro de 7 capítulos com o que aprendemos: gancho em pergunta ou role-play, recompensa clara em cada capítulo e versículo no fim.
+   - Mandar ao usuário os 8 prompts de imagem que faltam.
+   - Gerar a narração.
+   - Adaptar o motor para 16:9 e montar o vídeo com a transição imagem → partículas.
+2. **Depois: o short** (Gideão em role-play, item 1).
+
 ## Próximos passos
 1. **Short do Gideão (Jz 7), em role-play,** como piloto do formato novo:
    > Você é um general… 32 mil homens… "é gente demais"… 22 mil vão embora, sobram 10 mil… o teste da água, sobram 300… trombetas, jarros e tochas… o inimigo luta entre si… "Esse general era Gideão." Fecha com Jz 7:2.

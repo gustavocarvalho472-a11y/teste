@@ -41,3 +41,4 @@ davi_v2/preview.png
 motor/frames_rev/
 motor/audio_rev.wav
 motor/preview_rev.png
+**/__pycache__/

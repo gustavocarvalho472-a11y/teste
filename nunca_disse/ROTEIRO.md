@@ -8,6 +8,12 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
   2. O que Jesus disse de fato, com a cena bíblica.
   3. A recompensa: um detalhe do texto que pouca gente percebe.
 - **Na tela:** a frase falsa aparece riscada (partículas se desfazem) e a frase de Jesus se forma com os pontos, junto com a referência.
+- **Ganchos para inscritos:**
+  1. **No gancho:** inscrição pedida logo depois da promessa, ligada ao valor do vídeo.
+  2. **No cap. 1:** pergunta para os comentários.
+  3. **No meio (depois do cap. 2):** chamada com o botão de inscrição animado e o sino.
+  4. **Antes do cap. 6:** chamada para quem assistiu até ali.
+  5. **No fim:** tela final de 20s para os elementos do YouTube. O fechamento falado continua sem chamada para ação.
 - **Partículas:** na virada de cada capítulo (6 vezes), mais o coração-labirinto (cap. 1) e a tempestade que se acalma (cap. 2).
 - `[img]` indica a imagem da cena. A lista com os prompts está em `PROMPTS.md`.
 - **Tradução:** ARA, salvo quando indicado.
@@ -23,7 +29,8 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 > Mas nenhuma delas saiu da boca de Jesus. Algumas, Ele disse exatamente o contrário.
 > Neste vídeo, são seis frases que Jesus nunca disse, e o que Ele disse no lugar.
 > E, no fim, você vai descobrir que o próprio Jesus fez um vídeo como este. Seis vezes, no mesmo sermão.
-> Se esse tema te serve, se inscreve. E manda pra alguém que precisa ouvir.
+> E a última frase é a mais perigosa, porque quase todo mundo acredita nela.
+> Se você quer ouvir a voz de Jesus, e não a do mundo, se inscreve agora. É de graça, e ajuda essa mensagem a chegar em mais gente.
 
 ---
 
@@ -40,6 +47,7 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 
 **Recompensa:**
 > Repare: Jesus não manda você odiar o seu coração. Manda você parar de obedecer a ele, e entregá-lo a quem pode fazer um novo.
+> Escreve aqui nos comentários: quantas vezes você já ouviu "siga o seu coração"? Eu leio todos.
 
 *Fontes:* Mt 15:1–20 (a discussão sobre lavar as mãos; a lista dos vv. 19 foi abreviada na narração). Jr 17:9. A promessa do "coração novo" está em Ez 36:26. A última frase da recompensa é interpretação.
 
@@ -61,6 +69,9 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 **Recompensa:**
 > E tem um detalhe no Sermão do Monte. Algumas traduções começam as bem-aventuranças assim: "Felizes as pessoas que choram."
 > Jesus não era contra a felicidade. Ele só mudou o lugar onde ela se encontra.
+
+**Chamada do meio (botão de inscrição animado na tela):**
+> Se pelo menos uma dessas frases já mandou na sua vida, você não está sozinho. Aqui no canal, toda semana tem um vídeo assim: o que o mundo diz, e o que a Bíblia diz de verdade. Se inscreve e ativa o sininho, pra não perder o próximo.
 
 *Fontes:* Jo 16:33 (ARC), dito na noite antes da cruz (Jo 13–17). Mt 5:4 na NTLH: "Felizes as pessoas que choram, pois Deus as consolará" (na ARA: "Bem-aventurados os que choram"). A frase do barco é imagem do roteiro, não citação.
 
@@ -118,6 +129,10 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 
 *Fontes:* Mc 1:14–15 (início do ministério na Galileia); Mt 4:17 diz o mesmo. Lc 9:23. Jo 7:53–8:11; alguns manuscritos antigos não trazem essa passagem, o que costuma ser indicado nas Bíblias de estudo. A última frase é interpretação.
 
+
+**Chamada antes do último capítulo:**
+> Se você chegou até aqui, você faz parte de poucos que assistem até o fim. E a última frase é justamente a mais perigosa. Se ainda não se inscreveu, esse é o momento.
+
 ---
 
 ## 6. "Você consegue sozinho" (Jo 15:5; Mt 26:33–35; Jo 21:15–17)
@@ -151,5 +166,7 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 > O mundo vai continuar repetindo essas frases. A pergunta é sobre qual palavra você está construindo.
 
 **Quadro final:** "Eu, porém, vos digo…" — Mateus 5
+
+**Tela final (20s, sem narração, só a trilha):** fundo de partículas com dois espaços livres para os elementos de tela final do YouTube (vídeo recomendado e botão de inscrição). Configure os elementos no YouTube Studio ao publicar.
 
 *Fontes:* as seis antíteses estão em Mt 5:21, 27, 31, 33, 38 e 43. Mt 7:24–25.

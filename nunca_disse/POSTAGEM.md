@@ -86,3 +86,52 @@ Full video, with the 6 things Jesus never said: [link to the long video]
 
 ## Tags
 jesus never said, follow your heart, follow your heart bible, the heart is deceitful, jeremiah 17 9, matthew 15 19, what jesus said, christian shorts, bible shorts, faith
+
+---
+
+# Long video in English (8:08, 16:9): `nunca_disse_en.mp4`
+
+## Title
+6 Things Jesus NEVER Said (But You Believe Them)
+
+Alternatives:
+- "Follow Your Heart" Is NOT in the Bible
+- Jesus Never Said That. He Said the Opposite.
+- The Most Dangerous Lie Almost Every Christian Believes
+
+## Description
+"Follow your heart." "Just be happy." "You don't need to change." You've heard these words your whole life, and a lot of people swear they're in the Bible. But not one of them came from the mouth of Jesus. Some of them, He said the exact opposite.
+
+In this video: six things Jesus never said, what He said instead, and a detail in the Sermon on the Mount that changes how you read all of it.
+
+📖 Chapters
+0:00 Words everyone repeats
+0:52 1. "Follow your heart" (Matt 15:18–19; Jer 17:9)
+1:57 2. "Just be happy" (John 16:33)
+3:04 3. "Only love those who love you" (Matt 5:43–46)
+4:05 4. "You have to be in control" (Matt 6:25–34)
+5:07 5. "You don't need to change" (Mark 1:15; Luke 9:23; John 8:11)
+6:09 6. "You can do it on your own" (John 15:5; John 21:15–17)
+7:04 But I say unto you
+
+📚 References
+Matthew 5–7 (Sermon on the Mount; the six antitheses in Matt 5:21, 27, 31, 33, 38, 43); Matthew 15:1–20; Jeremiah 17:9; John 13–17 (Upper Room Discourse); John 16:33; Matthew 5:4 (GNT: "Happy are those who mourn"); Leviticus 19:18; Luke 23:34; Matthew 6:11, 25–34; Mark 1:14–15; Luke 9:23; John 7:53–8:11 (some early manuscripts do not include this passage); John 15:1–5; Matthew 26:33–35, 69–75; John 21:15–17; Acts 2:41; Matthew 7:24–27.
+Quotes from the KJV. Points marked as interpretation in the script (e.g., "one question for each denial") are common readings, not claims of the text.
+
+"Whosoever heareth these sayings of mine, and doeth them, I will liken him unto a wise man, which built his house upon a rock." (Matthew 7:24)
+
+Which of these have you heard the most? Tell me in the comments.
+
+#Jesus #Bible #ChristianFaith
+
+## Tags
+things jesus never said, jesus never said, follow your heart, follow your heart bible, what jesus said, sermon on the mount, but i say unto you, jeremiah 17 9, the heart is deceitful, john 16 33, in the world ye shall have tribulation, love your enemies, do not worry about tomorrow, behold the fowls of the air, deny yourself, i am the vine, peter denied jesus, lovest thou me, house on the rock, lies of the world, christianity, bible study, bible explained, devotional, christian video
+
+## End screen (last 20s)
+In YouTube Studio → End screen: add 1 video and the subscribe button.
+
+## Thumbnail prompt (ChatGPT)
+Create a YouTube thumbnail, 16:9, 1280x720. 19th-century wood engraving in the style of Gustave Doré, black and white only, fine cross-hatching, dramatic chiaroscuro, deep black background. Right side: Jesus, a man in his thirties with long dark wavy hair and full beard, simple woven robe, looking straight at the viewer with a calm but serious expression, one hand raised slightly as if saying "no", strong rim light. Left side: large bold white text, clean sans-serif, three lines: "JESUS" / "NEVER" / "SAID THIS". Below it, smaller text in quotes with a thick red diagonal line crossing it out: "FOLLOW YOUR HEART". The red strike is the only color in the image. High contrast, readable at small size, no other text, no frame, no watermark.
+
+Variation (heart labyrinth):
+Create a YouTube thumbnail, 16:9, 1280x720. 19th-century wood engraving in the style of Gustave Doré, black and white only, fine cross-hatching. An anatomical human heart engraved as an intricate stone labyrinth, glowing edges, a tiny lost figure inside, on a deep black background, placed on the right. Large bold white text on the left, clean sans-serif, two lines: "DON'T FOLLOW" / "YOUR HEART". High contrast, readable at small size, no other text, no frame, no watermark.

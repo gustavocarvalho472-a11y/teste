@@ -28,7 +28,7 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 > E muita gente jura que elas estão na Bíblia.
 > Mas nenhuma delas saiu da boca de Jesus. Algumas, Ele disse exatamente o contrário.
 > Neste vídeo, são seis frases que Jesus nunca disse, e o que Ele disse no lugar.
-> E, no fim, você vai descobrir que o próprio Jesus fez um vídeo como este. Seis vezes, no mesmo sermão.
+> E, no fim, você vai descobrir que o próprio Jesus já fazia isso: desmontar o que todo mundo repetia. Seis vezes, no mesmo sermão.
 > E a última frase é a mais perigosa, porque quase todo mundo acredita nela.
 > Se você quer ouvir a voz de Jesus, e não a do mundo, se inscreve agora. É de graça, e ajuda essa mensagem a chegar em mais gente.
 
@@ -157,7 +157,7 @@ Tema inspirado no carrossel do @renunciaf ("Coisas que Jesus nunca disse"). O ro
 ## FECHAMENTO (sem chamada para ação)
 `[img 11_monte]` → `[img 26_casa_rocha ★]` → `[img 10_maos]`
 
-> Lembra do que eu disse no começo? Que Jesus fez um vídeo como este?
+> Lembra do que eu disse no começo? Que o próprio Jesus já desmontava o que todo mundo repetia?
 > No Sermão do Monte, Ele repetiu seis vezes: "Ouvistes que foi dito… Eu, porém, vos digo."
 > Seis vezes, Ele pegou o que todo mundo repetia e colocou a Sua palavra no lugar.
 > E terminou o sermão com uma casa.

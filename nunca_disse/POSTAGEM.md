@@ -15,13 +15,13 @@ Neste vídeo: seis frases que Jesus nunca disse, o que Ele disse no lugar, e um 
 
 📖 Capítulos
 0:00 Frases que todo mundo repete
-0:55 1. "Siga o seu coração" (Mt 15:18–19; Jr 17:9)
-2:04 2. "O mais importante é ser feliz" (Jo 16:33)
-3:16 3. "Ame só quem te ama" (Mt 5:43–46)
-4:18 4. "Você precisa ter tudo sob controle" (Mt 6:25–34)
-5:24 5. "Você não precisa mudar" (Mc 1:15; Lc 9:23; Jo 8:11)
-6:34 6. "Você consegue sozinho" (Jo 15:5; Jo 21:15–17)
-7:38 Eu, porém, vos digo
+0:57 1. "Siga o seu coração" (Mt 15:18–19; Jr 17:9)
+2:06 2. "O mais importante é ser feliz" (Jo 16:33)
+3:18 3. "Ame só quem te ama" (Mt 5:43–46)
+4:20 4. "Você precisa ter tudo sob controle" (Mt 6:25–34)
+5:25 5. "Você não precisa mudar" (Mc 1:15; Lc 9:23; Jo 8:11)
+6:36 6. "Você consegue sozinho" (Jo 15:5; Jo 21:15–17)
+7:40 Eu, porém, vos digo
 
 📚 Referências
 Mateus 5–7 (Sermão do Monte; as seis antíteses em Mt 5:21, 27, 31, 33, 38 e 43); Mateus 15:1–20; Jeremias 17:9; João 13–17 (discurso no cenáculo); João 16:33; Mateus 5:4 (NTLH: "Felizes as pessoas que choram"); Levítico 19:18; Lucas 23:34; Mateus 6:11, 25–34; Marcos 1:14–15; Lucas 9:23; João 7:53–8:11 (alguns manuscritos antigos não trazem essa passagem); João 15:1–5; Mateus 26:33–35, 69–75; João 21:15–17; Atos 2:41; Mateus 7:24–27.

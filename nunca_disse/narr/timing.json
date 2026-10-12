@@ -36,10 +36,11 @@
  },
  {
   "sec": "GANCHO (0:00–0:35)",
-  "text": "E, no fim, você vai descobrir que o próprio Jesus fez um vídeo como este. Seis vezes, no mesmo sermão.",
+  "text": "E, no fim, você vai descobrir que o próprio Jesus pegou o que todo mundo repetia e colocou a Sua palavra no lugar. Seis vezes, no mesmo sermão.",
   "wav": "005.wav",
   "voice": "pt-BR-AntonioNeural-14Hz",
-  "dur": 8.147625
+  "dur": 9.895583333333333,
+  "montada": "trechos de 005 e 063"
  },
  {
   "sec": "GANCHO (0:00–0:35)",
@@ -428,10 +429,11 @@
  },
  {
   "sec": "FECHAMENTO (sem chamada para ação)",
-  "text": "Lembra do que eu disse no começo? Que Jesus fez um vídeo como este?",
+  "text": "Lembra do que eu disse no começo?",
   "wav": "061.wav",
   "voice": "pt-BR-AntonioNeural-14Hz",
-  "dur": 5.0252083333333335
+  "dur": 2.0609166666666665,
+  "montada": "corte de 061"
  },
  {
   "sec": "FECHAMENTO (sem chamada para ação)",

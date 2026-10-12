@@ -11,7 +11,7 @@ English version of `ROTEIRO.md`: same 68 lines in the same order (the edit reuse
 > And a lot of people swear they're in the Bible.
 > But not one of them came from the mouth of Jesus. Some of them, He said the exact opposite.
 > In this video: six things Jesus never said, and what He said instead.
-> And at the end, you'll find out that Jesus Himself was already doing this: taking apart what everyone was repeating. Six times, in the same sermon.
+> And at the end, you'll find out that Jesus Himself took what everyone was repeating, and put His word in its place. Six times, in the same sermon.
 > And the last one is the most dangerous, because almost everyone believes it.
 > If you want to hear the voice of Jesus, and not the voice of the world, subscribe right now. It's free, and it helps this message reach more people.
 
@@ -107,7 +107,7 @@ English version of `ROTEIRO.md`: same 68 lines in the same order (the edit reuse
 
 ## CLOSING
 
-> Remember what I said at the beginning? That Jesus Himself was already taking apart what everyone was repeating?
+> Remember what I said at the beginning?
 > In the Sermon on the Mount, He said it six times: "Ye have heard that it was said… But I say unto you."
 > Six times, He took what everyone was repeating, and put His word in its place.
 > And He ended the sermon with a house.

@@ -60,3 +60,7 @@ nunca_disse_en_teste.mp4
 nunca_disse/narr/*.mp3
 nunca_disse/narr_en/*.mp3
 nunca_disse_parte*.mp4
+nunca_disse/frames_short*/
+nunca_disse/preview_short*.png
+nunca_disse/audio_short*.wav
+nunca_disse/narr_en/*.tmp.wav

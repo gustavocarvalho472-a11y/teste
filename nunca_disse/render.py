@@ -8,9 +8,11 @@ silêncio antes de "mas tende bom ânimo" e tela final de 20s para os elementos 
   python3 render.py teste 95            -> renderiza só os primeiros 95s
   python3 render.py                     -> vídeo inteiro
   VLANG=en python3 render.py ...        -> versão em inglês (ROTEIRO_EN.md, narr_en/)
+  SHORT=1 python3 render.py ...         -> Short 9:16 de até 1 min (falas SHORT_LINES do vídeo longo)
 """
 import os, sys, json, wave, subprocess, functools
-os.environ["MOTOR_FMT"] = "16x9"
+SHORT = os.environ.get("SHORT") == "1"
+os.environ["MOTOR_FMT"] = "9x16" if SHORT else "16x9"
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.dirname(HERE)
 sys.path.insert(0, os.path.join(ROOT, "motor"))
 import numpy as np, soundfile as sf
@@ -23,28 +25,31 @@ import particulas as pt
 W, H, FPS = pt.W, pt.H, 30
 IMG = os.path.join(ROOT, "motor/img/nunca_disse")
 ENG = os.environ.get("VLANG") == "en"
-FR = os.path.join(HERE, "frames_en" if ENG else "frames"); os.makedirs(FR, exist_ok=True)
+FR = os.path.join(HERE, ("frames_short" if SHORT else "frames") + ("_en" if ENG else "")); os.makedirs(FR, exist_ok=True)
 NARRDIR = os.path.join(HERE, "narr_en" if ENG else "narr")
 NARR = json.load(open(os.path.join(NARRDIR, "timing.json")))
+SHORT_LINES = [0, 3, 9, 12, 14, 15]                                 # gancho + capítulo 1 ("siga o seu coração")
+if SHORT: NARR = [NARR[i] for i in SHORT_LINES]
 FONT = "/usr/share/fonts/opentype/inter/"
-f_cap = ImageFont.truetype(FONT + "Inter-SemiBold.otf", 50)
+f_cap = ImageFont.truetype(FONT + "Inter-SemiBold.otf", 66 if SHORT else 50)
+CAP_Y = H * .70 if SHORT else H - 140
 f_ui = ImageFont.truetype(FONT + "Inter-Medium.otf", 22)
 
-GAP, LEAD, TRANS = 0.35, 0.1, 5.0        # respiro entre falas, atraso da voz, virada de capítulo
+GAP, LEAD, TRANS = (0.25 if SHORT else 0.35), 0.1, 5.0        # respiro entre falas, atraso da voz, virada de capítulo
 OPEN = 3.4                               # abertura em partículas
 MW = 2.4                                 # duração de um morph imagem -> imagem
-PAUSE = {21: 1.0, 3: .4}                 # silêncio antes de "mas tende bom ânimo"
+PAUSE = {} if SHORT else {21: 1.0, 3: .4}                 # silêncio antes de "mas tende bom ânimo"
 
 # ---------- linha do tempo a partir da narração ----------
 S, SEC, sec_first = [], [], {}
-t = 2.0
+t = 1.6 if SHORT else 2.0
 for i, x in enumerate(NARR):
     if i and x["sec"] != NARR[i - 1]["sec"]:
         t += 0.4 + TRANS
     t += PAUSE.get(i, 0)
     if x["sec"] not in sec_first: sec_first[x["sec"]] = i
     S.append(t); SEC.append(x["sec"]); t += x["dur"] + GAP
-END = 20.0                               # tela final (elementos do YouTube)
+END = 2.6 if SHORT else 20.0                               # tela final (elementos do YouTube)
 TOTAL = t + 2.5 + END
 def at(i, f):
     if isinstance(f, str): f = max(0, NARR[i]["text"].find(f)) / len(NARR[i]["text"])
@@ -67,9 +72,9 @@ if ENG:
     REF = {"HO": "MATTHEW 5–7", "1.": "MATT 15:18–19 · JER 17:9", "2.": "JOHN 16:33", "3.": "MATT 5:43–46 · LUKE 23:34",
            "4.": "MATT 6:25–34", "5.": "MARK 1:15 · LUKE 9:23 · JOHN 8:11", "6.": "JOHN 15:5 · JOHN 21:15–17", "CL": "MATT 7:24–25"}
 TXT = dict(header="SIX THINGS JESUS NEVER SAID", v1="“Ye have heard that it was said…", v2="But I say unto you.”", vref="MATTHEW 5",
-           sub="SUBSCRIBE", subd="SUBSCRIBED ✓") if ENG else \
+           sub="SUBSCRIBE", subd="SUBSCRIBED ✓", end1="6 THINGS JESUS NEVER SAID", end2="full video on the channel") if ENG else \
       dict(header="SEIS FRASES QUE JESUS NUNCA DISSE", v1="“Ouvistes que foi dito…", v2="Eu, porém, vos digo.”", vref="MATEUS 5",
-           sub="INSCREVA-SE", subd="INSCRITO ✓")
+           sub="INSCREVA-SE", subd="INSCRITO ✓", end1="6 FRASES QUE JESUS NUNCA DISSE", end2="vídeo completo no canal")
 # palavras-âncora da versão em inglês (mesmas falas, mesma ordem)
 ANCHOR_EN = {"Em filme": "In movies", "Seis vezes": "Six times", "O problema": "The problem", "Para eles": "To them",
              "Enganoso": "The heart is deceitful", "Ele sabia": "He knew", "Aqui no canal": "On this channel",
@@ -171,6 +176,20 @@ SHOTS = [
     (67, 0, "10_maos", (.50, .50, 1.05), (.50, .45, 1.25), "morph", ""),
     (67, "A pergunta", "TXT_versiculo", (.5, .5, 1.0), (.5, .5, 1.0), "cloud", "braam"),
 ]
+if SHORT:
+    SHOTS = [
+        (0, 0, "01_encruzilhada", (.48, .50, 1.0), (.48, .47, 1.15), "open", ""),
+        (0, "O importante", "22_cafe", (.50, .50, 1.0), (.50, .50, 1.12), "dissolve", ""),
+        (0, "Você não", "19_banco", (.55, .50, 1.0), (.55, .48, 1.12), "dissolve", ""),
+        (1, 0, "11_monte", (.25, .45, 1.0), (.25, .42, 1.15), "morph", "hit"),
+        (2, 0, "02_reflexo", (.58, .50, 1.0), (.58, .45, 1.15), "dissolve", ""),
+        (2, "O problema", "02_reflexo", (.45, .60, 1.05), (.45, .62, 1.2), "dissolve", ""),
+        (3, 0, "12_fariseus", (.32, .50, 1.0), (.32, .45, 1.15), "morph", ""),
+        (3, "homicídios", "05_labirinto", (.50, .50, 1.0), (.50, .50, 1.15), "morph", "boom"),
+        (4, "Enganoso", "05_labirinto", (.5, .5, 1.0), (.5, .5, 1.0), "cloud", "mystery"),
+        (5, 0, "10_maos", (.57, .50, 1.0), (.57, .45, 1.15), "morph", ""),
+    ]
+    ANCHOR_EN.update({"O importante": "Just be happy", "Você não": "You don't need", "homicídios": "murders"})
 SHOTS = [(li, A(fr), *r) for li, fr, *r in SHOTS]
 KIND = [s[5] for s in SHOTS]
 
@@ -415,7 +434,7 @@ for i, x in enumerate(NARR):
 for j in range(len(CAPS) - 1):
     if CAPS[j + 1][0] - CAPS[j][1] < .4: CAPS[j][1] = CAPS[j + 1][0]
 
-SUBS = [at(7, A("se inscreve")), at(26, A("Se inscreve")) - 1.5, at(51, A("Se ainda")) - 1.5]   # gancho, meio e antes do cap. 6
+SUBS = [] if SHORT else [at(7, A("se inscreve")), at(26, A("Se inscreve")) - 1.5, at(51, A("Se ainda")) - 1.5]   # gancho, meio e antes do cap. 6
 f_sub = ImageFont.truetype(FONT + "Inter-Bold.otf", 30)
 def bell(d, x, y, s, fill, ang=0):
     pts = [(-.5, .35), (-.42, -.05), (-.3, -.35), (0, -.48), (.3, -.35), (.42, -.05), (.5, .35)]
@@ -462,14 +481,21 @@ def overlays(img, t):
     d.line([(60, 84), (60 + (W - 120) * hdr, 84)], fill=70, width=1)
     d.line([(60, H - 34), (W - 60, H - 34)], fill=int(45 * hdr), width=2)
     d.line([(60, H - 34), (60 + (W - 120) * t / TOTAL, H - 34)], fill=int(200 * hdr), width=2)
+    if SHORT and t > TOTAL - END - .3:                                     # cartão final: leva para o vídeo longo
+        al = int(255 * min(1, (t - (TOTAL - END - .3)) / .5, (TOTAL - t) / .4))
+        fb = ImageFont.truetype(FONT + "Inter-Bold.otf", 58); fm = ImageFont.truetype(FONT + "Inter-Medium.otf", 40)
+        dark = np.asarray(img, np.float32) * (1 - .72 * al / 255 * np.exp(-((GY - H * .46) / (H * .09)) ** 2))
+        img.paste(Image.fromarray(dark.astype(np.uint8))); d = ImageDraw.Draw(img)
+        d.text((W / 2, H * .44), TXT["end1"], font=fb, fill=al, anchor="mm")
+        d.text((W / 2, H * .44 + 90), TXT["end2"], font=fm, fill=int(al * .75), anchor="mm")
     for a, b, c in CAPS:
         if a <= t < b:
             al = min(1, (t - a) / .12, (b - t) / .12)
-            sh = Image.new("L", img.size, 0); ImageDraw.Draw(sh).text((W / 2, H - 140), c, font=f_cap, fill=255, anchor="mm")
+            sh = Image.new("L", img.size, 0); ImageDraw.Draw(sh).text((W / 2, CAP_Y), c, font=f_cap, fill=255, anchor="mm")
             sh = np.asarray(sh.filter(ImageFilter.MaxFilter(9)).filter(ImageFilter.GaussianBlur(10)), np.float32) / 255
             base = np.asarray(img, np.float32) * (1 - .8 * al * np.clip(sh * 1.6, 0, 1))
             img.paste(Image.fromarray(base.astype(np.uint8)))
-            ImageDraw.Draw(img).text((W / 2, H - 140), c, font=f_cap, fill=int(255 * al), anchor="mm")
+            ImageDraw.Draw(img).text((W / 2, CAP_Y), c, font=f_cap, fill=int(255 * al), anchor="mm")
 
 def render(fi):
     t = fi / FPS
@@ -492,6 +518,7 @@ def render(fi):
 
 # ---------- áudio ----------
 SR = 44100
+AUDIO = ("audio_short" if SHORT else "audio") + ("_en" if ENG else "") + ".wav"
 def audio(T):
     n_ = int(SR * T); ts = np.arange(n_) / SR; R2 = np.random.default_rng(1); nz = R2.normal(0, 1, n_)
     lp = lambda x, a: lfilter([a], [1, a - 1], x)
@@ -501,7 +528,8 @@ def audio(T):
     def env_pts(pts):                                                     # automação de volume por pontos (t, g)
         x, y = zip(*pts); return np.interp(ts, x, y)
     # ----- marcos -----
-    REV = S[3]; SIL = S[21] - PAUSE[21]; T1 = TR[0] if TR else T
+    REV = S[1] if SHORT else S[3]; SIL = (S[5] + 99) if SHORT else S[21] - PAUSE[21]; T1 = TR[0] if TR else T
+    S21, S23 = (SIL + .1, SIL + 1) if SHORT else (S[21], S[23])
     # ----- piano -----
     piano = np.zeros(n_)
     def pnote(f, t0, g):
@@ -534,11 +562,11 @@ def audio(T):
     low = np.zeros(n_)                                                    # drone grave
     low += .05 * np.sin(2 * np.pi * hz(38) * ts) + .03 * np.sin(2 * np.pi * hz(45) * ts)
     # dinâmica: abre íntimo, cai para quase nada antes da revelação, cresce até o título
-    pg = env_pts([(0, 0), (2, .55), (REV - .3, .55), (REV, .85), (SIL - .8, .9), (SIL - .1, 0), (S[21] + .2, 1.0),
+    pg = env_pts([(0, 0), (2, .55), (REV - .3, .55), (REV, .85), (SIL - .8, .9), (SIL - .1, 0), (S21 + .2, 1.0),
                   (T + 99, .8)])
-    sg = env_pts([(0, 0), (REV - .2, 0), (REV + .4, .8), (T1, 1.0), (SIL - .8, 1.1), (SIL - .1, 0), (S[21] + .2, 1.25),
-                  (S[23], .6), (T + 99, .6)])
-    lg = env_pts([(0, .6), (3, 1), (SIL - .2, 1), (SIL - .1, 0), (S[21] + .3, 1), (T + 99, .7)])
+    sg = env_pts([(0, 0), (REV - .2, 0), (REV + .4, .8), (T1, 1.0), (SIL - .8, 1.1), (SIL - .1, 0), (S21 + .2, 1.25),
+                  (S23, .6), (T + 99, .6)])
+    lg = env_pts([(0, .6), (3, 1), (SIL - .2, 1), (SIL - .1, 0), (S21 + .3, 1), (T + 99, .7)])
     music = piano * pg + strings * sg + low * lg
     # ----- sound design -----
     fx = np.zeros(n_)
@@ -584,7 +612,8 @@ def audio(T):
                 add(b + off, g * gg * np.sin(2 * np.pi * (48 + 20 * np.exp(-tt * 30)) * tt) * np.exp(-tt * 14))
     # abertura: brilho das partículas + riser até a imagem nítida
     add(0, sparkle(OPEN, .25, 60)); add(.2, whoosh(2.4, 1.0)); add(OPEN - 2.0, riser(2.0, .35)); add(OPEN - .05, hit(.6))
-    heart(S[12], S[14], .9); heart(TOTAL - END, TOTAL - END + 8, .5)
+    if SHORT: heart(S[3], S[5], .9); heart(0, S[1], .5)
+    else: heart(S[12], S[14], .9); heart(TOTAL - END, TOTAL - END + 8, .5)
     for j, (w0, w1) in MORPH.items():
         if w0 > T: continue
         add(w0, whoosh(1.4, 1.1)); add(w0 + .5, sparkle(1.5, .22)); add(w0 + 1.3, whoosh(1.0, .6, up=False))
@@ -618,7 +647,7 @@ def audio(T):
     duck = 1 - .45 * np.clip(lp((np.abs(voice) > .01).astype(float), .0005) * 3, 0, 1)
     out = voice + .26 * music / np.abs(music).max() * duck + .30 * fx / np.abs(fx).max() * (1 - .3 * (1 - duck))
     out *= np.clip((T - ts) / 1.0, 0, 1); out = np.tanh(out / np.abs(out).max() * 1.3) / np.tanh(1.3) * .92
-    with wave.open(os.path.join(HERE, "audio_en.wav" if ENG else "audio.wav"), "w") as w:
+    with wave.open(os.path.join(HERE, AUDIO), "w") as w:
         w.setnchannels(1); w.setsampwidth(2); w.setframerate(SR); w.writeframes((out * 32767).astype(np.int16).tobytes())
 
 if __name__ == "__main__":
@@ -631,7 +660,7 @@ if __name__ == "__main__":
         ims = [Image.open(f"{FR}/f{i:05d}.png").resize((640, 360)) for i in fis]
         cols = min(3, len(ims)); g = Image.new("L", (640 * cols, 360 * ((len(ims) + cols - 1) // cols)))
         for j, im in enumerate(ims): g.paste(im, ((j % cols) * 640, (j // cols) * 360))
-        g.save(os.path.join(HERE, "preview_en.png" if ENG else "preview.png")); sys.exit()
+        g.save(os.path.join(HERE, "preview" + ("_short" if SHORT else "") + ("_en" if ENG else "") + ".png")); sys.exit()
     if len(sys.argv) > 1 and sys.argv[1] == "quadros":                       # renderiza um trecho de quadros
         a, b = int(sys.argv[2]), min(int(sys.argv[3]), int(TOTAL * FPS))
         todo = [i for i in range(a, b) if not os.path.exists(f"{FR}/f{i:05d}.png")]
@@ -641,13 +670,13 @@ if __name__ == "__main__":
         sys.argv = [sys.argv[0]]; SKIP = True
     else: SKIP = False
     T = float(sys.argv[2]) if len(sys.argv) > 2 and sys.argv[1] == "teste" else TOTAL
-    out = os.path.join(ROOT, ("nunca_disse_en" if ENG else "nunca_disse") + ("_teste.mp4" if T < TOTAL else ".mp4"))
+    out = os.path.join(ROOT, "nunca_disse" + ("_short" if SHORT else "") + ("_en" if ENG else "") + ("_teste.mp4" if T < TOTAL else ".mp4"))
     nf = int(T * FPS)
     if not SKIP:
         with Pool(4) as pl: pl.map(render, range(nf), chunksize=4)
     audio(T)
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-framerate", str(FPS), "-i", f"{FR}/f%05d.png",
-                    "-i", os.path.join(HERE, "audio_en.wav" if ENG else "audio.wav"), "-frames:v", str(nf), "-c:v", "libx264", "-b:v", os.environ.get("VBR", "4.5M"),
+                    "-i", os.path.join(HERE, AUDIO), "-frames:v", str(nf), "-c:v", "libx264", "-b:v", os.environ.get("VBR", "4.5M"),
                     "-maxrate", "5.5M", "-bufsize", "9M", "-preset", "slow", "-pix_fmt", "yuv420p", "-c:a", "aac",
                     "-b:a", "192k", "-movflags", "+faststart", "-shortest", out], check=True)
     print("ok", out)

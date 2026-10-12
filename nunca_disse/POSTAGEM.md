@@ -44,3 +44,45 @@ Create a YouTube thumbnail, 16:9, 1280x720. 19th-century wood engraving in the s
 
 Variação (o coração-labirinto):
 Create a YouTube thumbnail, 16:9, 1280x720. 19th-century wood engraving in the style of Gustave Doré, black and white only, fine cross-hatching. An anatomical human heart engraved as an intricate stone labyrinth, glowing edges, a tiny lost figure inside, on a deep black background, placed on the right. Large bold white text on the left, clean sans-serif, two lines: "NÃO SIGA" / "SEU CORAÇÃO". High contrast, readable at small size, no other text, no frame, no watermark.
+
+---
+
+# Short (56s, 9:16): `nunca_disse_short.mp4`
+
+## Título
+"Siga o seu coração" não está na Bíblia #shorts
+
+Alternativas:
+- Jesus nunca disse "siga o seu coração"
+- O que Jesus disse sobre o coração (não é o que te ensinaram)
+
+## Descrição
+"Siga o seu coração." Parece bonito, mas Jesus disse que é do coração que procedem os maus desígnios (Mateus 15:19). E Jeremias já tinha escrito: "Enganoso é o coração, mais do que todas as coisas" (Jeremias 17:9).
+
+Vídeo completo, com as 6 frases que Jesus nunca disse: [link do vídeo longo]
+
+#Jesus #Bíblia #shorts
+
+## Ao publicar
+No YouTube, em "Vídeo relacionado", escolha o vídeo longo. O link aparece embaixo do Short e leva para o vídeo completo.
+
+---
+
+# Short in English (50s, 9:16): `nunca_disse_short_en.mp4`
+
+## Title
+"Follow your heart" is NOT in the Bible #shorts
+
+Alternatives:
+- Jesus never said "follow your heart"
+- What Jesus actually said about your heart
+
+## Description
+"Follow your heart." It sounds beautiful, but Jesus said that out of the heart proceed evil thoughts (Matthew 15:19). And Jeremiah had already written: "The heart is deceitful above all things" (Jeremiah 17:9).
+
+Full video, with the 6 things Jesus never said: [link to the long video]
+
+#Jesus #Bible #shorts
+
+## Tags
+jesus never said, follow your heart, follow your heart bible, the heart is deceitful, jeremiah 17 9, matthew 15 19, what jesus said, christian shorts, bible shorts, faith

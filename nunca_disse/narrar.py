@@ -15,7 +15,20 @@ only = set(int(x) for x in sys.argv[1:])
 VOICE, RATE, PITCH = ("en-US-AndrewNeural", "-8%", "-6Hz") if EN else ("pt-BR-AntonioNeural", "-8%", "-14Hz")             # Antonio, um pouco mais grave e calmo
 import asyncio, ssl, subprocess, edge_tts, edge_tts.communicate as ec
 ec._SSL_CTX = ssl.create_default_context(cafile="/root/.ccr/ca-bundle.crt")  # proxy do ambiente
+KOKORO = os.environ.get("TTS") == "kokoro"                             # TTS=kokoro: voz offline (Michael), quando a Microsoft bloqueia
+if KOKORO: VOICE, RATE, PITCH = ("am_michael", "0.92", "") if EN else ("pm_alex", "0.85", "")
+_kk = None
 def speak(text, wav):
+    global _kk
+    if KOKORO:
+        from kokoro_onnx import Kokoro
+        _kk = _kk or Kokoro(os.path.expanduser("~/tts/kokoro-v1.0.onnx"), os.path.expanduser("~/tts/voices-v1.0.bin"))
+        a, sr = _kk.create(text.replace("…", "..."), voice=VOICE, speed=float(RATE), lang="en-us" if EN else "pt-br")
+        tmp = wav[:-4] + ".tmp.wav"; sf.write(tmp, a, sr)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", tmp, "-af",
+                        "silenceremove=start_periods=1:start_threshold=-50dB,areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
+                        "-ar", "24000", "-ac", "1", wav], check=True)
+        os.remove(tmp); a, sr = sf.read(wav); return len(a) / sr
     mp3 = wav[:-4] + ".mp3"
     import time
     for k in range(16):                                                   # o serviço limita requisições: espera e tenta de novo

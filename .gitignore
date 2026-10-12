@@ -42,3 +42,6 @@ motor/frames_rev/
 motor/audio_rev.wav
 motor/preview_rev.png
 **/__pycache__/
+davi_longo/frames/
+davi_longo/audio.wav
+davi_longo/preview.png

@@ -1,10 +1,12 @@
 """Motor de partículas v2: imagem -> nuvem 3D de pontos finos, câmera em órbita, profundidade de campo, brilho."""
+import os
 import numpy as np
 from PIL import Image
 from scipy.ndimage import gaussian_filter
 
-W, H = 1080, 1920
-CX, CY = W / 2, H / 2 - 100
+WIDE = os.environ.get("MOTOR_FMT") == "16x9"          # vídeo longo: 1920x1080
+W, H = (1920, 1080) if WIDE else (1080, 1920)
+CX, CY = W / 2, H / 2 - (0 if WIDE else 100)
 FOCAL = 1700.0
 CAM_D = 1700.0
 

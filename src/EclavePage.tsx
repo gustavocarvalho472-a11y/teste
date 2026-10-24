@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './eclave.css';
 
 // Página de oferta ECLAVE — implementada a partir do Figma "PÁGINA ECLAVE" (node 46:6)
@@ -109,13 +109,69 @@ const scrollToBuy = () => {
   document.getElementById('comprar')?.scrollIntoView({ behavior: 'smooth' });
 };
 
-function Cta({ label = 'EU QUERO MEU ECLAVE', full, onClick = scrollToBuy }: { label?: string; full?: boolean; onClick?: () => void }) {
+function Cta({ label = 'EU QUERO MEU ECLAVE', full, glow, onClick = scrollToBuy }: { label?: string; full?: boolean; glow?: boolean; onClick?: () => void }) {
   return (
-    <button type="button" className={`ec-cta${full ? ' ec-cta--full' : ''}`} onClick={onClick}>
+    <button
+      type="button"
+      className={`ec-cta${full ? ' ec-cta--full' : ''}${glow ? ' ec-cta--glow' : ''}`}
+      onClick={onClick}
+    >
       <span className="ec-cta__label">{label}</span>
-      <span>→</span>
+      <span className="ec-cta__arrow" aria-hidden="true">→</span>
     </button>
   );
+}
+
+// Elementos que sobem suavemente ao entrar na tela. Só recebem o estado inicial
+// os que ainda estão abaixo da dobra, então nada visível no carregamento fica escondido.
+const REVEAL_SELECTOR = [
+  '.ec-split > *',
+  '.ec-center-head > :not(.ec-grid-3):not(.ec-grid-4):not(.ec-insta-grid)',
+  '.ec-grid-3 > *',
+  '.ec-grid-4 > *',
+  '.ec-insta-grid > *',
+  '.ec-mini-grid > *',
+  '.ec-results-grid > *',
+  '.ec-quality > *',
+  '.ec-reviews__summary',
+  '.ec-footer__cols > *',
+].join(',');
+
+function useScrollReveal(root: React.RefObject<HTMLElement>) {
+  useEffect(() => {
+    const container = root.current;
+    if (!container || !('IntersectionObserver' in window)) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    const targets = Array.from(container.querySelectorAll<HTMLElement>(REVEAL_SELECTOR)).filter(
+      el => el.getBoundingClientRect().top > window.innerHeight
+    );
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (!entry.isIntersecting) return;
+          const el = entry.target as HTMLElement;
+          el.classList.add('ec-in');
+          observer.unobserve(el);
+          window.setTimeout(() => {
+            el.classList.remove('ec-reveal', 'ec-in');
+            el.style.removeProperty('--ec-delay');
+          }, 1500);
+        });
+      },
+      { rootMargin: '0px 0px -8% 0px' }
+    );
+
+    targets.forEach(el => {
+      const index = el.parentElement ? Array.from(el.parentElement.children).indexOf(el) : 0;
+      el.style.setProperty('--ec-delay', `${Math.min(index, 7) * 70}ms`);
+      el.classList.add('ec-reveal');
+      observer.observe(el);
+    });
+
+    return () => observer.disconnect();
+  }, [root]);
 }
 
 function Bullet({ icon, size, light, children }: { icon: string; size: number; light?: boolean; children: React.ReactNode }) {
@@ -135,12 +191,42 @@ function EclavePage() {
   const [shippingMessage, setShippingMessage] = useState('');
   const [reviewFilter, setReviewFilter] = useState(reviewFilters[0]);
   const [openFaq, setOpenFaq] = useState<number | null>(0);
+  const [toast, setToast] = useState<{ id: number; text: string } | null>(null);
+  const [scrolled, setScrolled] = useState(false);
+  const [showBuyBar, setShowBuyBar] = useState(false);
+  const pageRef = useRef<HTMLDivElement>(null);
+  const productRef = useRef<HTMLElement>(null);
+
+  useScrollReveal(pageRef);
+
+  useEffect(() => {
+    const onScroll = () => {
+      setScrolled(window.scrollY > 60);
+      const product = productRef.current;
+      if (product) {
+        const pastProduct = product.getBoundingClientRect().bottom < 0;
+        const nearEnd = window.innerHeight + window.scrollY > document.documentElement.scrollHeight - 520;
+        setShowBuyBar(pastProduct && !nearEnd);
+      }
+    };
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
+  useEffect(() => {
+    if (!toast) return;
+    const timer = window.setTimeout(() => setToast(null), 2600);
+    return () => window.clearTimeout(timer);
+  }, [toast]);
 
   const kit = kits.find(k => k.id === selectedKit) ?? kits[1];
 
   const addToCart = (kitId: number) => {
+    const added = kits.find(k => k.id === kitId) ?? kit;
     setSelectedKit(kitId);
     setCartCount(count => count + 1);
+    setToast({ id: Date.now(), text: `Kit com ${added.name} adicionado ao carrinho` });
   };
 
   const handleCep = (value: string) => {
@@ -168,7 +254,7 @@ function EclavePage() {
   });
 
   return (
-    <div className="ec">
+    <div className="ec" ref={pageRef}>
       {/* 00 · Barra de oferta */}
       <div className="ec-topbar">
         <span>HOJE: ATÉ 32% OFF</span>
@@ -179,7 +265,7 @@ function EclavePage() {
       </div>
 
       {/* 01 · Header */}
-      <header className="ec-header">
+      <header className={`ec-header${scrolled ? ' ec-header--scrolled' : ''}`}>
         <div className="ec-container">
           <nav className="ec-menu">
             <a href="#inicio">Início</a>
@@ -198,20 +284,25 @@ function EclavePage() {
             </label>
             <button type="button" className="ec-cart" aria-label={`Carrinho com ${cartCount} itens`}>
               <img src={asset('icon-cart.svg')} alt="" width={28} height={28} />
-              <span className="ec-cart__count">{cartCount}</span>
+              <span className={`ec-cart__count${cartCount > 0 ? ' ec-bump' : ''}`} key={cartCount}>{cartCount}</span>
             </button>
           </div>
         </div>
       </header>
 
       {/* 02 · Produto (área de compra) */}
-      <section className="ec-product" id="comprar">
+      <section className="ec-product" id="comprar" ref={productRef}>
         <div className="ec-container">
           <p className="ec-breadcrumb">{'Início  ›  Loja  ›  Sérum Clareador Noturno ECLAVE 30 ml'}</p>
           <div className="ec-product__cols">
             <div className="ec-gallery">
               <div className="ec-gallery__main">
-                <img src={galleryPhotos[activePhoto]} alt="Sérum Clareador Noturno ECLAVE" />
+                <img
+                  key={activePhoto}
+                  className="ec-gallery__img"
+                  src={galleryPhotos[activePhoto]}
+                  alt="Sérum Clareador Noturno ECLAVE"
+                />
                 <span className="ec-badge">-32% OFF</span>
                 <span className="ec-badge ec-badge--peach">FRETE GRÁTIS</span>
               </div>
@@ -277,13 +368,13 @@ function EclavePage() {
                 })}
               </div>
               <div className="ec-summary">
-                <span className="ec-summary__price">{formatBRL(kit.price)}</span>
-                <span className="ec-summary__parcelas">
+                <span className="ec-summary__price ec-swap" key={`p${kit.id}`}>{formatBRL(kit.price)}</span>
+                <span className="ec-summary__parcelas ec-swap" key={`i${kit.id}`}>
                   <span>ou 12x de {formatBRL(installment(kit.price))} sem juros</span>
                   <span>Você economiza {formatBRL(kit.oldPrice - kit.price)}</span>
                 </span>
               </div>
-              <Cta label="COMPRAR AGORA" full onClick={() => addToCart(selectedKit)} />
+              <Cta label="COMPRAR AGORA" full glow onClick={() => addToCart(selectedKit)} />
               <div className="ec-trust">
                 <div className="ec-trust__item">
                   <img src={asset('icon-shield.svg')} alt="" width={24} height={24} />
@@ -688,7 +779,7 @@ function EclavePage() {
               </div>
               <div className="ec-review-grid">
                 {visibleReviews.map((review, index) => (
-                  <div className="ec-review" key={index}>
+                  <div className="ec-review" key={`${reviewFilter}-${index}`} style={{ animationDelay: `${index * 70}ms` }}>
                     <div className="ec-review__head">
                       <span className="ec-avatar">NC</span>
                       <div className="ec-review__who">
@@ -752,9 +843,13 @@ function EclavePage() {
                     onClick={() => setOpenFaq(open ? null : index)}
                   >
                     <span>{faq.q}</span>
-                    <span aria-hidden="true">{open ? '−' : '+'}</span>
+                    <span className="ec-faq__icon" aria-hidden="true" />
                   </button>
-                  {open && <p className="ec-faq__a">{faq.a}</p>}
+                  <div className="ec-faq__panel" aria-hidden={!open}>
+                    <div>
+                      <p className="ec-faq__a">{faq.a}</p>
+                    </div>
+                  </div>
                 </div>
               );
             })}
@@ -811,6 +906,29 @@ function EclavePage() {
           </p>
         </div>
       </footer>
+
+      {/* Barra de compra flutuante: aparece depois que a área de compra sai da tela */}
+      <div className={`ec-buybar${showBuyBar ? ' ec-buybar--visible' : ''}`} aria-hidden={!showBuyBar}>
+        <div className="ec-buybar__inner">
+          <img src={photos.principal} alt="" width={52} height={52} />
+          <div className="ec-buybar__info">
+            <strong>Sérum ECLAVE · {kit.name}</strong>
+            <span>
+              {formatBRL(kit.price)} <em>ou 12x de {formatBRL(installment(kit.price))}</em>
+            </span>
+          </div>
+          <Cta label="COMPRAR" onClick={() => addToCart(selectedKit)} />
+        </div>
+      </div>
+
+      <div className="ec-toast-area" role="status" aria-live="polite">
+        {toast && (
+          <div className="ec-toast" key={toast.id}>
+            <img src={asset('icon-check-gold.svg')} alt="" width={20} height={20} />
+            {toast.text}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

@@ -6,11 +6,19 @@ import AdvancedAnalysisDashboard from './AdvancedAnalysisDashboard';
 import MunicipalityDetailDashboard from './MunicipalityDetailDashboard';
 import StrategicDashboard from './StrategicDashboard';
 import OportunidadesPage from './OportunidadesPage';
+import EclavePage from './EclavePage';
 
 type DashboardView = 'main' | 'anomaly' | 'subexecution' | 'advanced' | 'detail' | 'strategic' | 'oportunidades';
 
+// A página ECLAVE é uma landing page independente: abre com ?pagina=eclave, sem o menu do dashboard
+const isEclavePage = new URLSearchParams(window.location.search).get('pagina') === 'eclave';
+
 function MainApp() {
   const [currentView, setCurrentView] = useState<DashboardView>('strategic');
+
+  if (isEclavePage) {
+    return <EclavePage />;
+  }
 
   return (
     <div>
@@ -266,6 +274,23 @@ function MainApp() {
               <span>📈</span>
               <span>Principal</span>
             </button>
+            <a
+              href="?pagina=eclave"
+              style={{
+                padding: '10px 16px',
+                borderRadius: '8px',
+                color: '#ffffff',
+                fontSize: '13px',
+                fontWeight: '600',
+                textDecoration: 'none',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              <span>🗝️</span>
+              <span>ECLAVE</span>
+            </a>
           </div>
         </div>
       </div>

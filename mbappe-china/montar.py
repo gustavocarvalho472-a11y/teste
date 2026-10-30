@@ -644,7 +644,7 @@ def frame(t, fi, shots):
         c = kenburns(still(a, o.get("frame", 0.1)), u, sh["sub"], "in")
     else:
         c = kenburns(still(a), u, sh["sub"], o.get("kb"))
-        if kind == "IA":
+        if kind == "IA" and find(a) is None:          # a imagem do Flow já vem no tom vermelho/preto
             c = grade_red(c)
     if o.get("bw"):
         c = bw(c)

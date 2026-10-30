@@ -39,7 +39,8 @@ DESC = {
     "FOT_03": "Mbappé sério em coletiva", "FOT_04": "Chineses segurando retrato de Mao",
     "FOT_05": "Mao proclamando a República, 1949", "FOT_06": "Garrafas de água com o rosto do Mbappé",
     "FOT_07": "Anúncio da água com Mbappé", "FOT_08": "Mbappé com a camisa 10 do Real",
-    "FOT_09": "Javier Tebas",
+    "FOT_09": "Javier Tebas", "FOT_10": "Mbappé no The Bridge (recorte do print do Madrid Zone)",
+    "PRT_16": "Tweet @theMadridZone com a frase, visto pela interface chinesa do X",
     "PRT_01": "Tweet @MadridZone 'China State TV SUSPENDS La Liga coverage'",
     "PRT_02": "Conta do Mbappé no Weibo com aviso de silenciada",
     "PRT_03": "Tweet Polymarket Español 'SERÁ REMOVIDO DE JOGOS'",
@@ -171,6 +172,11 @@ def still(aid, frac=0.1):
             subprocess.run(["ffmpeg", "-y", "-v", "error", "-ss", str(dur * frac), "-i", p, "-frames:v", "1", out],
                            check=True)
         im = Image.open(out).convert("RGB")
+        if im.width < im.height:                     # vídeo vertical: centraliza sobre fundo desfocado
+            bg = cover(im).filter(ImageFilter.GaussianBlur(40)).point(lambda v: v * 0.7)
+            fg = im.resize((int(im.width * H / im.height), H), Image.LANCZOS)
+            bg.paste(fg, ((W - fg.width) // 2, 0))
+            im = bg
     else:
         im = Image.open(p).convert("RGBA")
         if aid.startswith(("PRT", "LOG")):
@@ -194,8 +200,11 @@ class Clip:
             if self.p:
                 self.p.kill()
             self.p = subprocess.Popen(
-                ["ffmpeg", "-v", "error", "-ss", f"{t:.3f}", "-stream_loop", "-1", "-i", path, "-vf",
-                 f"fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H}",
+                ["ffmpeg", "-v", "quiet", "-ss", f"{t:.3f}", "-stream_loop", "-1", "-i", path, "-filter_complex",
+                 # vídeo vertical (repost de rede social): centralizado sobre o próprio quadro desfocado
+                 f"[0:v]fps={FPS},split[a][b];[a]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},"
+                 f"boxblur=30:2,eq=brightness=-0.25[bg];[b]scale={W}:{H}:force_original_aspect_ratio=decrease[fg];"
+                 f"[bg][fg]overlay=(W-w)/2:(H-h)/2",
                  "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], stdout=subprocess.PIPE)
             self.key = path
         buf = self.p.stdout.read(W * H * 3)
@@ -486,7 +495,10 @@ def overlay_text(c, spec, tl, dur):
         k = 0.7 + 0.3 * ease(tl / 0.2)
         fill = YEL if any(ch.isdigit() for ch in text) else WHITE
         words = text.split()
-        f = F("anton", int(170 * k))
+        cjk = any("\u4e00" <= ch <= "\u9fff" for ch in text)       # Anton não tem ideogramas
+        f = F("cjk" if cjk else "anton", int(170 * k))
+        if cjk:
+            fill = YEL
         if len(words) > 1 and fill == WHITE:      # palavra-chave (a última) em vermelho
             head = " ".join(words[:-1]) + " "
             tw = d.textlength(head + words[-1], font=f)
@@ -636,7 +648,10 @@ def frame(t, fi, shots):
     if kind == "PRT":
         if b.get("hl") and b["hl"] != "bloco em chinês":
             highlight(c, b["hl"], tl)
-        if b.get("fonte"):
+        f = find(a) or ""
+        if "_manchete_" in f:                         # print provisório de manchete: crédito = site da matéria
+            source(c, os.path.splitext(f.split("_manchete_")[1])[0])
+        elif b.get("fonte"):
             source(c, b["fonte"])
     if b.get("pun"):
         counter(c, b["pun"])

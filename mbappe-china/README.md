@@ -37,6 +37,19 @@ assets/ia/IA_01_….png
 O arquivo é encontrado pelo **id no começo do nome**. A tabela completa (o que é cada id e onde achar) está
 na seção 3 do handoff, e os prompts das imagens IA na seção 4.
 
+## Buscar assets
+
+```bash
+python3 capturar_prints.py   # prints de manchete (Playwright) → assets/prints/PRT_xx_manchete_<site>.png + FONTES.md
+python3 baixar_commons.py    # fotos/logos livres do Wikimedia Commons + assets/CREDITOS_COMMONS.md
+python3 storyboard.py        # saida/storyboard.pdf: um painel por cena, ✓/✗ em cada asset
+```
+
+- **Prints de manchete:** são provisórios e mostram o mesmo fato do tweet do handoff. Para a versão final,
+  salve o print do tweet (você logado no X) com o mesmo id e apague o `*_manchete_*`.
+- **`baixar_commons.py`:** o servidor de imagens do Wikimedia bloqueia o IP dos containers de nuvem (erro
+  429). Rode o script na sua máquina.
+
 ## Como funciona
 
 | Arquivo | Papel |

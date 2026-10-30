@@ -24,16 +24,16 @@ B = [
          shots=["CLP_01"], mus="off"),
     dict(id="S02", fala="E semana passada, ele chamou o fundador da China de ditador.",
          shots=["MEME_01"], txt=("DITADOR", "stamp"), sfx="boom"),
-    dict(id="S03", fala="Rindo.", shots=[("CLP_01", {"bw": True, "frame": 0.6})], sfx="scratch"),
+    dict(id="S03", fala="Rindo.", shots=[("CLP_01", {"bw": True, "frame": 0.07})], sfx="scratch"),
     dict(id="S04", fala="Esse homem está no dinheiro da China. Está na porta da Cidade Proibida.",
          shots=["FOT_02", "FOT_01"], mus="in"),
     dict(id="S05", fala="Pra 1,4 bilhão de pessoas, o Mbappé não fez uma piada. Ele ofendeu o pai do país.",
          shots=["IA_02"], txt=("1,4 BILHÃO", "big")),
     dict(id="S06", fala="E a China não perdoou.", shots=["black"], sfx="boom", pausa=0.5),
     dict(id="S07a", fala="Em 48 horas, a TV estatal tirou ele do ar.", shots=["PRT_01"],
-         hl="SUSPENDS La Liga coverage", fonte="X / @MadridZone", sfx="whoosh"),
+         hl="Suspends La Liga Broadcasts", fonte="X / @MadridZone", sfx="whoosh"),
     dict(id="S07b", fala="Três marcas rasgaram os contratos.", shots=["IA_04"], sfx="paper_rip"),
-    dict(id="S07c", fala="As contas dele foram silenciadas.", shots=["PRT_02"], fonte="Weibo", sfx="whoosh"),
+    dict(id="S07c", fala="As contas dele foram silenciadas.", shots=["PRT_02"], fonte="Weibo", hl="bloquean su cuenta", sfx="whoosh"),
     dict(id="S07d", fala="Os games começaram a apagar ele.", shots=["PRT_03"], fonte="X / Polymarket Español",
          sfx="whoosh"),
     dict(id="S07e", fala="A La Liga saiu da TV estatal chinesa.", shots=["PRT_04"], fonte="X / @KalshiFC",
@@ -94,7 +94,7 @@ B = [
     dict(id="S26", fala="Repara: ele nem sabia quem era. E pra China, isso foi pior. O maior símbolo do país era, "
                         "pra ele, 'um cara qualquer'.", shots=["FOT_01"], txt=("“UM CARA QUALQUER”", "stamp")),
     dict(id="S27", fala="O clipe vazou pras redes chinesas. Em horas, virou um dos assuntos mais falados do Weibo.",
-         shots=["IA_05"], sfx="notifs"),
+         shots=["IA_05", "PRT_16"], fonte="X / @theMadridZone (interface em chinês)", sfx="notifs"),
 
     # ── ATO 5 — A VINGANÇA ──────────────────────────────────────────────────────────────────────────
     dict(id="S28a", ato="A vingança", pun=1, fala="Punição número um. 26 de outubro, à noite.",
@@ -120,7 +120,7 @@ B = [
          shots=["IA_06"], sfx="glitch"),
     dict(id="S33a", pun=5, fala="Punição cinco. E essa atravessa o oceano. Um mês antes, a On — a marca suíça "
                                 "pela qual ele trocou a Nike — tinha feito dele embaixador global.",
-         shots=["FOT_08", "PRT_10"], fonte="X / Kalshi", hl="DROPPED"),
+         shots=["FOT_08", "PRT_10"], fonte="X / Kalshi"),
     dict(id="S33b", pun=5, fala="Na terça, as ações da On chegaram a cair quase 6% em Wall Street. E a marca "
                                 "apagou tudo do Mbappé nas redes chinesas.", shots=["IA_07", "PRT_10"],
          txt=("−6% NO DIA", "big"), fonte="X / Kalshi", sfx="cash_drop"),

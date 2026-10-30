@@ -1,0 +1,6 @@
+build/
+saida/
+__pycache__/
+*.log
+audio/
+assets/

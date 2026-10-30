@@ -2,6 +2,7 @@
 
     python3 montar.py                      # render completo → saida/mbappe_china.mp4 + capitulos.txt
     python3 montar.py --quadros 5 12 40    # grade de quadros soltos em build/quadros.png (checagem rápida)
+    python3 montar.py --so-audio           # só refaz o áudio/mux (depois de mexer em trilha.py)
     python3 montar.py --assets             # lista o que já existe e o que ainda é placeholder
 
 Asset ausente vira placeholder com o id e a descrição. Basta salvar o arquivo real em assets/<pasta>/ com o
@@ -682,15 +683,18 @@ def main():
     k = int(os.environ.get("JOBS", os.cpu_count() or 4))
     edges = [n * j // k for j in range(k + 1)]
     parts = [(edges[j], edges[j + 1], os.path.join(BUILD, "parts", f"p{j:02d}.mp4")) for j in range(k)]
-    with Pool(k) as pool:
-        outs = pool.map(render_part, parts)
+    if "--so-audio" in sys.argv:          # remux: reaproveita os pedaços de vídeo já renderizados
+        outs = [p[2] for p in parts]
+    else:
+        with Pool(k) as pool:
+            outs = pool.map(render_part, parts)
     lst = os.path.join(BUILD, "parts", "list.txt")
     open(lst, "w").write("".join(f"file '{os.path.basename(o)}'\n" for o in outs))
     os.makedirs(os.path.join(HERE, "saida"), exist_ok=True)
     out = os.path.join(HERE, "saida", "mbappe_china.mp4")
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst,
                     "-i", os.path.join(BUILD, "mix.wav"), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
-                    "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)
+                    "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)
     open(os.path.join(HERE, "saida", "capitulos.txt"), "w").write("\n".join(timeline.chapters(blocks)) + "\n")
     print("OK", out)
 

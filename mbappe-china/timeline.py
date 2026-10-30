@@ -2,10 +2,10 @@
 import json
 import os
 
-from roteiro import B
+from roteiro import B, FALL_WORD, LANG
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BUILD = os.path.join(HERE, "build")
+BUILD = os.path.join(HERE, "build", LANG)
 MAX_STATIC = 4.0     # regra do handoff: nada fica mais de 4 s parado
 
 
@@ -52,7 +52,7 @@ def events(blocks, shots):
     return sorted(ev)
 
 
-def fall_times(bt, word="rompe", n=3):
+def fall_times(bt, word=FALL_WORD, n=3):
     """Tempos (relativos ao bloco) em que a palavra é dita; reserva: divide o bloco em n partes."""
     ts = [t - bt["start"] for w, t in bt.get("words", []) if w.lower().startswith(word)]
     if len(ts) >= n:

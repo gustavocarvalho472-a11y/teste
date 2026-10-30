@@ -49,7 +49,7 @@ B = [
     dict(id="S10b", fala="E por que pedir desculpas não salvou ele?", shots=[("MEME_01", {"kb": "in", "dark": True})]),
     dict(id="S10c", fala="Fica até o final — porque o maior prejuízo dessa história não é do Mbappé.",
          shots=[("MEME_01", {"kb": "in", "dark": True})]),
-    dict(id="TITULO", fala="", shots=["title:O MEME QUE A CHINA NÃO PERDOOU"], dur=1.6, sfx="glitch"),
+    dict(id="TITULO", fala="", shots=["title:{TITLE}"], dur=1.6, sfx="glitch"),
 
     # ── ATO 2 — O APELIDO ───────────────────────────────────────────────────────────────────────────
     dict(id="S11", ato="O apelido", fala="Tudo começa com um apelido. No futebol, o Mbappé é chamado de 'o ditador'.",
@@ -204,3 +204,25 @@ def fala_tts(txt):
     for k, v in PRON.items():
         txt = txt.replace(k, v)
     return txt.replace("'", "").replace("—", ",").replace("…", ",")
+
+
+# ── idioma ──────────────────────────────────────────────────────────────────────────────────────────
+# O vídeo publicado é em inglês (VIDEO_LANG=en, padrão). O português serve só para validar o conteúdo
+# ouvindo o áudio (VIDEO_LANG=pt → saida/validacao_pt.mp3, sem vídeo).
+import os
+
+LANG = os.environ.get("VIDEO_LANG", "en")
+TITLE = "O MEME QUE A CHINA NÃO PERDOOU"
+FALL_WORD = "rompe"
+if LANG == "en":
+    from roteiro_en import EN, FALL_WORD, PRON_EN, TITLE
+    for _b in B:
+        _b.update(EN.get(_b["id"], {}))
+for _b in B:
+    _b["shots"] = [s.replace("{TITLE}", TITLE) if isinstance(s, str) else s for s in _b["shots"]]
+
+
+def fala_tts(txt):
+    for k, v in (PRON_EN if LANG == "en" else PRON).items():
+        txt = txt.replace(k, v)
+    return txt.replace("'", "" if LANG == "pt" else "'").replace("—", ",").replace("…", ",")

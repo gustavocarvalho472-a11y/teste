@@ -1,7 +1,7 @@
 """Narração + alinhamento → build/timing.json
 
 Dois modos:
-  1. Existe audio/narracao.mp3 (voz gravada/TTS final): transcreve com Whisper (palavra a palavra) e acha o
+  1. Existe audio/narracao_<idioma>.mp3 (voz gravada/TTS final): transcreve com Whisper (palavra a palavra) e acha o
      início de cada bloco do roteiro pelo alinhamento do texto (difflib sobre as palavras).
   2. Não existe: gera a narração provisória com Kokoro (voz pm_alex, motor da skill video-ilustracao),
      bloco a bloco, e grava build/narracao_tts.wav. Os inícios de bloco saem exatos.
@@ -20,10 +20,10 @@ import unicodedata
 import numpy as np
 import soundfile as sf
 
-from roteiro import B, fala_tts
+from roteiro import B, LANG, fala_tts
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-BUILD = os.path.join(HERE, "build")
+BUILD = os.path.join(HERE, "build", LANG)
 SR = 24000
 GAP = 0.32          # respiro entre blocos de fala
 TOOLKIT = os.path.expanduser("~/video-ilustracao")
@@ -43,6 +43,7 @@ def tts():
         print("narração em cache (roteiro igual)")
         return path, json.load(open(cache))["blocks"]
     sys.path.insert(0, TOOLKIT)
+    os.environ["VIDEO_LANG"] = LANG                 # define a voz do motor: am_michael (en) / pm_alex (pt)
     import narracao
     from kokoro_onnx import Kokoro
     narracao.EN_WORDS |= {"bridge", "online", "street"}
@@ -81,7 +82,7 @@ def whisper_words(path):
     import subprocess
     raw = subprocess.check_output(["ffmpeg", "-v", "error", "-i", path, "-ac", "1", "-ar", "16000", "-f", "f32le", "-"])
     audio = np.frombuffer(raw, np.float32)        # passa o áudio já decodificado (evita a API do PyAV)
-    segs, _ = model.transcribe(audio, language="pt", word_timestamps=True, vad_filter=False)
+    segs, _ = model.transcribe(audio, language=LANG, word_timestamps=True, vad_filter=False)
     words = []
     for s in segs:
         for w in s.words:
@@ -139,12 +140,12 @@ def align(blocks_known, words):
 
 
 def main():
-    mp3 = os.path.join(HERE, "audio", "narracao.mp3")
+    mp3 = os.path.join(HERE, "audio", f"narracao_{LANG}.mp3")
     if os.path.exists(mp3) and "--tts" not in sys.argv:
         path, blocks = mp3, None
         print("modo: narração gravada", mp3)
     else:
-        print("modo: narração provisória Kokoro (pm_alex)")
+        print("modo: narração provisória Kokoro", "am_michael" if LANG == "en" else "pm_alex")
         path, blocks = tts()
     words = whisper_words(path)
     blocks = align(blocks, words)

@@ -19,7 +19,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont, ImageOps
 
 import timeline
-from roteiro import B
+from roteiro import B, LANG
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 BUILD = timeline.BUILD
@@ -59,6 +59,11 @@ DESC = {
     "IA_09": "Mesa de assinatura, skyline de Pequim", "IA_10": "Cofre vazio com selo vermelho",
     "IA_11": "Bandeiras EUA × China, silhueta no meio", "IA_12": "TV de tubo desligando",
 }
+
+
+def L(pt, en):
+    """Texto desenhado na tela no idioma do vídeo."""
+    return en if LANG == "en" else pt
 
 
 def font(name, size):
@@ -390,25 +395,25 @@ def gfx(name, tl, u, d):
         p = ease(tl / 2.2)
         dr.line([(x0, y), (x1, y)], fill=(90, 30, 30), width=10)
         dr.line([(x0, y), (x0 + (x1 - x0) * p, y)], fill=YEL, width=14)
-        for k, (yr, lab) in enumerate([(1949, "REPÚBLICA POPULAR"), (1966, "REVOLUÇÃO CULTURAL"), (1976, "MORTE DE MAO")]):
+        for k, (yr, lab) in enumerate([(1949, L("REPÚBLICA POPULAR", "PEOPLE'S REPUBLIC")), (1966, L("REVOLUÇÃO CULTURAL", "CULTURAL REVOLUTION")), (1976, L("MORTE DE MAO", "MAO DIES"))]):
             x = x0 + (x1 - x0) * (yr - 1949) / 27
             if p * 27 + 1949 >= yr - 0.01:
                 dr.ellipse([x - 22, y - 22, x + 22, y + 22], fill=YEL, outline=BLACK, width=4)
                 txt(dr, (x, y - 90), str(yr), F("anton", 96))
                 txt(dr, (x, y + 75), lab, F("bebas", 54), stroke=4)
-        txt(dr, (W / 2, 220), "27 ANOS NO PODER", F("anton", 110), fill=YEL)
+        txt(dr, (W / 2, 220), L("27 ANOS NO PODER", "27 YEARS IN POWER"), F("anton", 110), fill=YEL)
     elif name == "contadores":
         for k, lab in enumerate(["WEIBO", "XIAOHONGSHU"]):
             x = W / 2 + (k - 0.5) * 760
             v = int(1_000_000 * ease((tl - 0.3 - 1.4 * k) / 1.6))
             txt(dr, (x, 330), lab, F("anton", 90))
-            txt(dr, (x, 520), "~" + f"{v:,}".replace(",", "."), F("anton", 150), fill=YEL)
-            txt(dr, (x, 650), "SEGUIDORES", F("bebas", 60), stroke=4)
+            txt(dr, (x, 520), "~" + (f"{v:,}" if LANG == "en" else f"{v:,}".replace(",", ".")), F("anton", 150), fill=YEL)
+            txt(dr, (x, 650), L("SEGUIDORES", "FOLLOWERS"), F("bebas", 60), stroke=4)
     elif name == "valor_migu":
         k = 0.7 + 0.3 * ease(tl / 0.4)
-        txt(dr, (W / 2, 260), "MIGU · CHINA MOBILE · ATÉ 2030", F("bebas", 70), stroke=4)
-        txt(dr, (W / 2, 500), "US$ 400–465 MI", F("anton", int(230 * k)), fill=YEL, stroke=10)
-        txt(dr, (W / 2, 690), "VALOR NÃO DIVULGADO · ESTIMATIVA DE MERCADO", F("bebas", 52), stroke=3)
+        txt(dr, (W / 2, 260), L("MIGU · CHINA MOBILE · ATÉ 2030", "MIGU · CHINA MOBILE · UNTIL 2030"), F("bebas", 70), stroke=4)
+        txt(dr, (W / 2, 500), L("US$ 400–465 MI", "$400–465M"), F("anton", int(230 * k)), fill=YEL, stroke=10)
+        txt(dr, (W / 2, 690), L("VALOR NÃO DIVULGADO · ESTIMATIVA DE MERCADO", "UNDISCLOSED · MARKET ESTIMATE"), F("bebas", 52), stroke=3)
     elif name == "pizza":
         cx, cy, r = W / 2 - 330, H / 2 - 40, 280
         dr.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(70, 20, 22), outline=BLACK, width=6)
@@ -418,31 +423,31 @@ def gfx(name, tl, u, d):
                     outline=BLACK, width=4)
         dr.ellipse([cx - r * 0.5, cy - r * 0.5, cx + r * 0.5, cy + r * 0.5], fill=(40, 12, 14))
         txt(dr, (W / 2 + 330, cy - 70), "10–15%", F("anton", 200), fill=YEL, stroke=8)
-        txt(dr, (W / 2 + 330, cy + 90), "DO MERCHANDISING", F("bebas", 66), stroke=4)
-        txt(dr, (W / 2 + 330, cy + 150), "INTERNACIONAL VEM DA CHINA", F("bebas", 66), stroke=4)
+        txt(dr, (W / 2 + 330, cy + 90), L("DO MERCHANDISING", "OF INTERNATIONAL MERCH"), F("bebas", 66), stroke=4)
+        txt(dr, (W / 2 + 330, cy + 150), L("INTERNACIONAL VEM DA CHINA", "SALES COMES FROM CHINA"), F("bebas", 66), stroke=4)
     elif name == "mito":
-        txt(dr, (W / 2, 380), "“LA LIGA PERDEU", F("anton", 120))
-        txt(dr, (W / 2, 520), "900 MILHÕES SÓ NA CHINA”", F("anton", 120))
+        txt(dr, (W / 2, 380), L("“LA LIGA PERDEU", "“LA LIGA LOST"), F("anton", 120))
+        txt(dr, (W / 2, 520), L("900 MILHÕES SÓ NA CHINA”", "900 MILLION IN CHINA ALONE”"), F("anton", 120))
         if tl > 1.2:
-            dr.text((W / 2, 760), "€900 mi = direitos internacionais no MUNDO TODO", font=F("interb", 46),
+            dr.text((W / 2, 760), L("€900 mi = direitos internacionais no MUNDO TODO", "€900M = international rights WORLDWIDE"), font=F("interb", 46),
                     fill=WHITE, anchor="mm", stroke_width=4, stroke_fill=BLACK)
-            stamp(c, "MITO", (W / 2, 450), tl - 1.2, size=260)
+            stamp(c, L("MITO", "MYTH"), (W / 2, 450), tl - 1.2, size=260)
     elif name == "nao_perdoado":
         s = "不接受，不原谅"
         n = min(len(s), int(tl / 0.18) + 1)
         txt(dr, (W / 2, 420), s[:n], F("cjk", 190), stroke=8)
         if n == len(s):
-            txt(dr, (W / 2, 640), "“NÃO ACEITO, NÃO PERDOADO”", F("anton", 100), fill=YEL)
-            dr.text((W / 2, 750), "— comentário viral de usuários nas redes chinesas", font=F("inter", 40),
+            txt(dr, (W / 2, 640), L("“NÃO ACEITO, NÃO PERDOADO”", "“NOT ACCEPTED, NOT FORGIVEN”"), F("anton", 100), fill=YEL)
+            dr.text((W / 2, 750), L("— comentário viral de usuários nas redes chinesas", "— viral comment by users on Chinese social media"), font=F("inter", 40),
                     fill=(230, 230, 230), anchor="mm")
     elif name == "endscreen":
         dr.rounded_rectangle([140, 220, 140 + 960, 220 + 540], 18, fill=(25, 25, 28), outline=YEL, width=6)
-        txt(dr, (620, 440), "VÍDEO: NIKE → ON", F("anton", 90), fill=YEL)
-        dr.text((620, 540), "(elemento de tela final do YouTube)", font=F("inter", 34), fill=(200, 200, 200),
+        txt(dr, (620, 440), L("VÍDEO: NIKE → ON", "VIDEO: NIKE → ON"), F("anton", 90), fill=YEL)
+        dr.text((620, 540), L("(elemento de tela final do YouTube)", "(YouTube end screen element)"), font=F("inter", 34), fill=(200, 200, 200),
                 anchor="mm")
         dr.ellipse([1300, 300, 1700, 700], fill=(25, 25, 28), outline=RED, width=10)
-        txt(dr, (1500, 500), "INSCREVA-SE", F("anton", 70))
-        txt(dr, (W / 2, 120), "COMENTA AÍ: ELE DEVIA TER PEDIDO DESCULPAS?", F("anton", 74))
+        txt(dr, (1500, 500), L("INSCREVA-SE", "SUBSCRIBE"), F("anton", 70))
+        txt(dr, (W / 2, 120), L("COMENTA AÍ: ELE DEVIA TER PEDIDO DESCULPAS?", "COMMENT: SHOULD HE HAVE APOLOGIZED?"), F("anton", 74))
     return c
 
 
@@ -519,8 +524,10 @@ def overlay_text(c, spec, tl, dur):
 
 def counter(c, n):
     d = ImageDraw.Draw(c)
-    d.rectangle([40, 40, 470, 130], fill=RED)
-    d.text((255, 85), f"PUNIÇÃO {n}/5", font=F("anton", 64), fill=WHITE, anchor="mm")
+    lab = f"{L('PUNIÇÃO', 'PUNISHMENT')} {n}/5"
+    w = d.textlength(lab, font=F("anton", 64)) + 60
+    d.rectangle([40, 40, 40 + w, 130], fill=RED)
+    d.text((40 + w / 2, 85), lab, font=F("anton", 64), fill=WHITE, anchor="mm")
 
 
 def highlight(c, text, tl):
@@ -538,7 +545,7 @@ def highlight(c, text, tl):
 
 def source(c, text):
     d = ImageDraw.Draw(c)
-    d.text((40, H - 40), "Fonte: " + text, font=F("inter", 28), fill=(210, 210, 210), anchor="ls",
+    d.text((40, H - 40), L("Fonte: ", "Source: ") + text, font=F("inter", 28), fill=(210, 210, 210), anchor="ls",
            stroke_width=2, stroke_fill=BLACK)
 
 
@@ -715,12 +722,29 @@ def main():
     lst = os.path.join(BUILD, "parts", "list.txt")
     open(lst, "w").write("".join(f"file '{os.path.basename(o)}'\n" for o in outs))
     os.makedirs(os.path.join(HERE, "saida"), exist_ok=True)
-    out = os.path.join(HERE, "saida", "mbappe_china.mp4")
+    out = os.path.join(HERE, "saida", f"mbappe_china_{LANG}.mp4")
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst,
                     "-i", os.path.join(BUILD, "mix.wav"), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
                     "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out], check=True)
-    open(os.path.join(HERE, "saida", "capitulos.txt"), "w").write("\n".join(timeline.chapters(blocks)) + "\n")
+    write_srt(blocks, os.path.join(HERE, "saida", f"legendas_{LANG}.srt"))
+    open(os.path.join(HERE, "saida", f"capitulos_{LANG}.txt"), "w").write("\n".join(timeline.chapters(blocks)) + "\n")
     print("OK", out)
+
+
+def write_srt(blocks, path):
+    """Legendas .srt com os mesmos grupos de palavras da legenda queimada."""
+    def ts(t):
+        ms = int(round(t * 1000))
+        return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d},{ms % 1000:03d}"
+    out, n = [], 0
+    for bt in blocks:
+        groups = chunks(bt.get("words") or [])
+        for k, g in enumerate(groups):
+            a = g[0][1]
+            z = groups[k + 1][0][1] if k + 1 < len(groups) else bt["end"] + 0.3
+            n += 1
+            out.append(f"{n}\n{ts(a)} --> {ts(max(z, a + 0.5))}\n{' '.join(w for w, _ in g)}\n")
+    open(path, "w").write("\n".join(out))
 
 
 def t_fmt(t):

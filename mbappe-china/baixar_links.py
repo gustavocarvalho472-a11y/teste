@@ -22,6 +22,17 @@ UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit
 CHROME = "/opt/pw-browsers/chromium-1243/chrome-linux64/chrome"
 
 
+def wikimedia_thumb(url):
+    """O Wikimedia bloqueia (429) o download do arquivo original a partir de IPs de nuvem, mas libera as
+    miniaturas de tamanho padrão. Converte o link do original no da miniatura de 1280 px."""
+    m = re.match(r"https://upload\.wikimedia\.org/wikipedia/commons/(\w)/(\w\w)/([^/?]+)$", url)
+    if m:
+        a, ab, name = m.groups()
+        ext = ".png" if name.lower().endswith(".svg") else ""
+        return f"https://upload.wikimedia.org/wikipedia/commons/thumb/{a}/{ab}/{name}/1280px-{name}{ext}"
+    return url
+
+
 def fetch(url):
     with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
         return r.read(), r.headers.get("Content-Type", "")
@@ -105,7 +116,7 @@ def main():
                     out = ", ".join(os.path.basename(o) for o in outs)
                 log.append(f"| {aid} | @{who} | {url} |")
             else:
-                data, _ = fetch(url)
+                data, _ = fetch(wikimedia_thumb(url))
                 out = save_image(data, base + "_" + url.split("/")[2].replace("www.", "").split(".")[0])
                 log.append(f"| {aid} | {url.split('/')[2]} | {url} |")
             print(f"OK    {aid}  {os.path.basename(str(out))}")

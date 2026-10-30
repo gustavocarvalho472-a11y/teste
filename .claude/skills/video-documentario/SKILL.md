@@ -35,8 +35,9 @@ O motor está em `mbappe-china/` (primeiro vídeo feito assim). Para um vídeo n
        `PRT_*` vira print do embed oficial (`platform.twitter.com/embed/Tweet.html?id=`);
      - URL direta: baixa; SVG renderizado pelo Chromium.
    - provisórios: `capturar_prints.py` (manchetes públicas) quando ainda não houver tweet.
-   - O **Wikimedia (upload.wikimedia.org) bloqueia o IP do container** (429). Peça outro link ao usuário
-     ou use foto de um tweet que ele já mandou. Não use mirrors do X (nitter etc.).
+   - **Wikimedia:** o download do arquivo original (`upload.wikimedia.org/.../arquivo.jpg`) dá 429 a partir
+     do IP do container, mas a miniatura padrão de 1280 px passa. `baixar_links.py` já converte o link
+     sozinho (`wikimedia_thumb`). Não use mirrors do X (nitter etc.).
    - Confira tudo numa grade antes de encaixar: link errado acontece (ex.: post sem a imagem descrita).
 4. **Produção**: `bash mbappe-china/produzir.sh pt` (áudio de validação) e
    `nohup bash mbappe-china/produzir.sh en > produzir.log 2>&1 &` (vídeo; ~20 min, sempre em segundo plano).

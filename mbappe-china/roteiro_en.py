@@ -95,8 +95,8 @@ EN = {
     "S42": dict(ato="The apologies that didn't work",
                 fala="Mbappé posted an apology in three languages. He said his comment was ill-judged."),
     "S43": dict(fala="Real Madrid apologized. And Tebas did something rare: he met the Chinese ambassador and sent "
-                     "a letter to state TV calling his own league's player's behavior unacceptable.",
-                txt=("UNACCEPTABLE", "stamp")),
+                     "a letter to state TV condemning the behavior of his own league's player.",
+                txt=("20 CLUBS AT RISK", "stamp")),
     "S44": dict(fala="The response? State TV said it will judge by actions. And demanded public, written apologies "
                      "from La Liga, Real Madrid and Mbappé."),
     "S45": dict(fala="On Chinese social media, the comment that went viral was: not accepted, not forgiven."),

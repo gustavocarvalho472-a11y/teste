@@ -155,8 +155,8 @@ B = [
          fala="O Mbappé publicou um pedido de desculpas em três línguas. Disse que o comentário foi infeliz.",
          shots=["PRT_06"], hl="ill-judged", fonte="X / @KMbappe"),
     dict(id="S43", fala="O Real Madrid pediu desculpas. E o Tebas fez algo raro: se reuniu com o embaixador "
-                        "chinês e mandou uma carta à TV estatal chamando a atitude do próprio jogador da liga "
-                        "de inaceitável.", shots=["PRT_05", "PRT_12"], txt=("INACEITÁVEL", "stamp"),
+                        "chinês e mandou uma carta à TV estatal condenando a atitude do próprio jogador da liga.",
+         shots=["PRT_05", "PRT_12"], txt=("20 CLUBES EM RISCO", "stamp"),
          fonte="X / @Tebasjavier · Kalshi"),
     dict(id="S44", fala="A resposta? A TV estatal disse que vai julgar pelas ações. E exigiu desculpas públicas "
                         "e por escrito da La Liga, do Real e do Mbappé.", shots=["PRT_07"],

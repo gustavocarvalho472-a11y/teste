@@ -85,7 +85,8 @@ def find(aid):
     folder = FOLDERS.get(aid.split("_")[0])
     if not folder:
         return None
-    hits = sorted(glob.glob(os.path.join(HERE, "assets", folder, aid + "*")))
+    hits = sorted(glob.glob(os.path.join(HERE, "assets", folder, aid + "_*")),
+                  key=lambda h: ("_manchete_" in h, h))       # tweet/link original antes da manchete provisória
     hits = [h for h in hits if os.path.splitext(h)[1].lower() in
             (".png", ".jpg", ".jpeg", ".webp", ".mp4", ".mov", ".mkv", ".webm")]
     return hits[0] if hits else None
@@ -173,10 +174,7 @@ def still(aid, frac=0.1):
                            check=True)
         im = Image.open(out).convert("RGB")
         if im.width < im.height:                     # vídeo vertical: centraliza sobre fundo desfocado
-            bg = cover(im).filter(ImageFilter.GaussianBlur(40)).point(lambda v: v * 0.7)
-            fg = im.resize((int(im.width * H / im.height), H), Image.LANCZOS)
-            bg.paste(fg, ((W - fg.width) // 2, 0))
-            im = bg
+            im = fit_blur(im)
     else:
         im = Image.open(p).convert("RGBA")
         if aid.startswith(("PRT", "LOG")):
@@ -185,8 +183,17 @@ def still(aid, frac=0.1):
             im = bg
         else:
             im = im.convert("RGB")
+            if im.width / im.height < 1.4:              # quadrada/vertical: inteira sobre fundo desfocado
+                im = fit_blur(im)
     _IMG[key] = im
     return im
+
+
+def fit_blur(im):
+    bg = cover(im).filter(ImageFilter.GaussianBlur(40)).point(lambda v: v * 0.6)
+    fg = im.resize((int(im.width * H / im.height), H), Image.LANCZOS)
+    bg.paste(fg, ((W - fg.width) // 2, 0))
+    return bg
 
 
 class Clip:
@@ -286,7 +293,7 @@ def shadow_paste(canvas, im, cx, cy, angle=0.0):
 def print_shot(aid, tl, sub, shot):
     c = texture()
     im = still(aid)
-    s = min(W * 0.70 / im.width, H * 0.70 / im.height)
+    s = min(W * 0.70 / im.width, H * (0.84 if im.height > im.width else 0.70) / im.height)   # tweet alto: usa a altura
     s *= 0.92 + 0.08 * ease(tl / 0.25) if not sub else 1.0
     s *= 1 + 0.03 * (tl / 4)                                  # deriva lenta
     pim = im.resize((max(1, int(im.width * s)), max(1, int(im.height * s))), Image.BILINEAR)
@@ -651,6 +658,8 @@ def frame(t, fi, shots):
         f = find(a) or ""
         if "_manchete_" in f:                         # print provisório de manchete: crédito = site da matéria
             source(c, os.path.splitext(f.split("_manchete_")[1])[0])
+        elif "_x_" in f:                              # print de tweet: crédito = @ do autor
+            source(c, "X / @" + os.path.splitext(f.split("_x_")[1])[0])
         elif b.get("fonte"):
             source(c, b["fonte"])
     if b.get("pun"):

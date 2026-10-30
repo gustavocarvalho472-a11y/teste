@@ -31,7 +31,7 @@ B = [
          shots=["IA_02"], txt=("1,4 BILHÃO", "big")),
     dict(id="S06", fala="E a China não perdoou.", shots=["black"], sfx="boom", pausa=0.5),
     dict(id="S07a", fala="Em 48 horas, a TV estatal tirou ele do ar.", shots=["PRT_01"],
-         hl="Suspends La Liga Broadcasts", fonte="X / @MadridZone", sfx="whoosh"),
+         hl="SUSPENDS La Liga coverage", fonte="X / @MadridZone", sfx="whoosh"),
     dict(id="S07b", fala="Três marcas rasgaram os contratos.", shots=["IA_04"], sfx="paper_rip"),
     dict(id="S07c", fala="As contas dele foram silenciadas.", shots=["PRT_02"], fonte="Weibo", hl="bloquean su cuenta", sfx="whoosh"),
     dict(id="S07d", fala="Os games começaram a apagar ele.", shots=["PRT_03"], fonte="X / Polymarket Español",
@@ -120,7 +120,7 @@ B = [
          shots=["IA_06"], sfx="glitch"),
     dict(id="S33a", pun=5, fala="Punição cinco. E essa atravessa o oceano. Um mês antes, a On — a marca suíça "
                                 "pela qual ele trocou a Nike — tinha feito dele embaixador global.",
-         shots=["FOT_08", "PRT_10"], fonte="X / Kalshi"),
+         shots=["FOT_08", "PRT_10"], fonte="X / Kalshi", hl="On’s stock has DROPPED"),
     dict(id="S33b", pun=5, fala="Na terça, as ações da On chegaram a cair quase 6% em Wall Street. E a marca "
                                 "apagou tudo do Mbappé nas redes chinesas.", shots=["IA_07", "PRT_10"],
          txt=("−6% NO DIA", "big"), fonte="X / Kalshi", sfx="cash_drop"),
@@ -160,7 +160,7 @@ B = [
          fonte="X / @Tebasjavier · Kalshi"),
     dict(id="S44", fala="A resposta? A TV estatal disse que vai julgar pelas ações. E exigiu desculpas públicas "
                         "e por escrito da La Liga, do Real e do Mbappé.", shots=["PRT_07"],
-         fonte="X / Madrid Sports"),
+         hl="we pay even closer attention to his ACTIONS", fonte="X / Madrid Sports"),
     dict(id="S45", fala="Nas redes chinesas, o comentário que viralizou foi: não aceito, não perdoado.",
          shots=["gfx:nao_perdoado"], sfx="boom"),
     dict(id="S46", fala="E pra piorar: um comitê do Congresso americano dedicado à China disse publicamente que "

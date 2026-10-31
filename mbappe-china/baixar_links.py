@@ -11,7 +11,9 @@ Registra autor/link de cada asset em assets/FONTES_LINKS.md.
 import json
 import os
 import re
+import time
 import sys
+import urllib.error
 import urllib.request
 
 from PIL import Image
@@ -33,8 +35,14 @@ def wikimedia_thumb(url):
     return url
 
 
+WIKI_UA = {"User-Agent": "mbappe-china-video/1.0 (https://github.com/gustavocarvalho472-a11y/teste)"}
+
+
 def fetch(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
+    wiki = "wikimedia.org" in url                    # política de robôs do Wikimedia: UA identificado e ritmo lento
+    if wiki:
+        time.sleep(4)
+    with urllib.request.urlopen(urllib.request.Request(url, headers=WIKI_UA if wiki else UA), timeout=60) as r:
         return r.read(), r.headers.get("Content-Type", "")
 
 
@@ -116,7 +124,18 @@ def main():
                     out = ", ".join(os.path.basename(o) for o in outs)
                 log.append(f"| {aid} | @{who} | {url} |")
             else:
-                data, _ = fetch(wikimedia_thumb(url))
+                if "upload.wikimedia.org" in url:        # limite irregular: várias tentativas, 1280 → 960 px
+                    for tent in range(6):
+                        try:
+                            u = wikimedia_thumb(url)
+                            data, _ = fetch(u if tent % 2 == 0 else u.replace("/1280px-", "/960px-"))
+                            break
+                        except urllib.error.HTTPError as e:
+                            if e.code != 429 or tent == 5:
+                                raise
+                            time.sleep(12)
+                else:
+                    data, _ = fetch(url)
                 out = save_image(data, base + "_" + url.split("/")[2].replace("www.", "").split(".")[0])
                 log.append(f"| {aid} | {url.split('/')[2]} | {url} |")
             print(f"OK    {aid}  {os.path.basename(str(out))}")

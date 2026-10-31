@@ -28,8 +28,8 @@ B = [
     dict(id="S04", fala="Esse homem está no dinheiro da China. Está na porta da Cidade Proibida.",
          shots=["FOT_02", "FOT_01"], mus="in"),
     dict(id="S05", fala="Pra 1,4 bilhão de pessoas, o Mbappé não fez uma piada. Ele ofendeu o pai do país.",
-         shots=["IA_02"], txt=("1,4 BILHÃO", "big")),
-    dict(id="S06", fala="E a China não perdoou.", shots=["black"], sfx="boom", pausa=0.5),
+         shots=[("FOT_15", {"tr": "whip", "grade": "serio"}), ("IA_02", {"tr": "zoom"}), ("FOT_16", {"tr": "glitch", "grade": "serio"}), ("FOT_11", {"tr": "whip", "grade": "serio"})], txt=("1,4 BILHÃO", "big")),
+    dict(id="S06", fala="E a China não perdoou.", shots=[("FOT_13", {"tr": "flash", "grade": "serio"}), ("FOT_18", {"tr": "whip", "grade": "serio"}), ("FOT_14", {"tr": "zoom", "grade": "serio"})], sfx="boom", pausa=0.5),
     dict(id="S07a", fala="Em 48 horas, a TV estatal tirou ele do ar.", shots=["PRT_01"],
          hl="SUSPENDS La Liga coverage", fonte="X / @MadridZone", sfx="whoosh"),
     dict(id="S07b", fala="Três marcas rasgaram os contratos.", shots=["IA_04"], sfx="paper_rip"),
@@ -148,7 +148,7 @@ B = [
                         "verdade. Isso é o que ela ganha com direitos internacionais no mundo inteiro. E o "
                         "contrato com a Migu, até agora, continua de pé.", shots=["gfx:mito"]),
     dict(id="S41", fala="O que é pior. Porque significa que a China ainda não usou a arma grande. Só mostrou que tem.",
-         shots=[("IA_02", {"kb": "in"})], mus="up"),
+         shots=[("FOT_19", {"tr": "whip", "grade": "serio"}), ("FOT_17", {"tr": "zoom", "grade": "serio"}), ("IA_02", {"kb": "in", "tr": "glitch"})], mus="up"),
 
     # ── ATO 7 — AS DESCULPAS ────────────────────────────────────────────────────────────────────────
     dict(id="S42", ato="As desculpas que não funcionaram",

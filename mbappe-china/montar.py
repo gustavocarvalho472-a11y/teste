@@ -264,6 +264,19 @@ def grade_red(im):
     return Image.fromarray(np.clip(out, 0, 255).astype(np.uint8))
 
 
+def grade_serio(im):
+    """Foto real → tom dramático: pouca saturação, contraste alto, pretos fundos, sombras avermelhadas."""
+    a = np.asarray(im).astype(np.float32) / 255
+    lum = (a @ np.array([0.3, 0.59, 0.11], np.float32))[..., None]
+    a = lum + (a - lum) * 0.45                                   # 45% da saturação original
+    a = np.clip((a - 0.5) * 1.35 + 0.42, 0, 1) ** 1.25            # contraste + pretos mais fundos
+    shadow = (1 - lum) ** 2
+    a[..., 0] += 0.10 * shadow[..., 0]
+    a[..., 1] -= 0.04 * shadow[..., 0]
+    a[..., 2] -= 0.05 * shadow[..., 0]
+    return Image.fromarray((np.clip(a * 0.92, 0, 1) * 255).astype(np.uint8))
+
+
 def bw(im):
     return ImageOps.grayscale(im).convert("RGB")
 
@@ -615,9 +628,12 @@ def finish(c, fi, grain=False):
 
 
 # ── frame ───────────────────────────────────────────────────────────────────────────────────────────
-def frame(t, fi, shots):
-    sh = next((s for s in shots if s["t0"] <= t < s["t1"]), shots[-1])
-    a, o, b = sh["asset"], sh["opts"], sh["b"]
+TR = 0.32          # duração das transições dinâmicas (s)
+
+
+def base(sh, t):
+    """Quadro do shot no tempo t, antes de legendas, textos e transição."""
+    a, o = sh["asset"], sh["opts"]
     tl, d = t - sh["t0"], sh["t1"] - sh["t0"]
     u = tl / max(d, 1e-6)
     kind = a.split("_")[0]
@@ -655,6 +671,68 @@ def frame(t, fi, shots):
             c = grade_red(c)
     if o.get("bw"):
         c = bw(c)
+    if o.get("grade") == "serio":                     # foto real colorida → tom escuro/avermelhado do vídeo
+        c = grade_serio(c)
+    return c
+
+
+def zoom_crop(c, k):
+    w, h = int(W / k), int(H / k)
+    return c.resize((W, H), Image.BILINEAR, box=((W - w) / 2, (H - h) / 2, (W + w) / 2, (H + h) / 2))
+
+
+def hblur(c, amount):
+    """Borrão de movimento horizontal barato (encolhe na horizontal e volta)."""
+    if amount < 0.05:
+        return c
+    f = max(2, int(48 * amount))
+    return c.resize((W // f, H), Image.BILINEAR).resize((W, H), Image.BILINEAR)
+
+
+def transition(kind, prev, cur, p):
+    """p: 0→1 ao longo da transição. prev = último quadro do shot anterior."""
+    e = ease(p)
+    if kind == "whip":                                # whip pan: anterior sai pela esquerda, novo entra pela direita
+        canvas = Image.new("RGB", (W, H))
+        x = int(W * e)
+        canvas.paste(prev, (-x, 0))
+        canvas.paste(cur, (W - x, 0))
+        return hblur(canvas, math.sin(math.pi * p))
+    if kind == "zoom":                                # zoom punch: anterior mergulha, novo chega de perto, flash no corte
+        if p < 0.45:
+            q = p / 0.45
+            c = zoom_crop(prev, 1 + 0.5 * q * q).filter(ImageFilter.GaussianBlur(10 * q))
+        else:
+            q = (p - 0.45) / 0.55
+            c = zoom_crop(cur, 1.35 - 0.35 * ease(q)).filter(ImageFilter.GaussianBlur(10 * (1 - q)))
+        f = max(0.0, 1 - abs(p - 0.45) / 0.12)
+        return Image.blend(c, Image.new("RGB", (W, H), WHITE), 0.7 * f) if f > 0 else c
+    if kind == "glitch":                              # glitch: fatias deslocadas + RGB separado
+        src = prev if p < 0.35 else cur
+        a = np.asarray(src).copy()
+        rng = np.random.default_rng(int(p * 1000))
+        for _ in range(8):
+            y, hgt = int(rng.integers(0, H - 60)), int(rng.integers(10, 60))
+            a[y:y + hgt] = np.roll(a[y:y + hgt], int(rng.integers(-160, 160)), 1)
+        off = int(36 * (1 - p))
+        a[..., 0] = np.roll(a[..., 0], off, 1)
+        a[..., 2] = np.roll(a[..., 2], -off, 1)
+        return Image.fromarray(a)
+    if kind == "flash":
+        return Image.blend(cur, Image.new("RGB", (W, H), WHITE), 0.85 * (1 - e))
+    return cur
+
+
+def frame(t, fi, shots):
+    i = next((k for k, s in enumerate(shots) if s["t0"] <= t < s["t1"]), len(shots) - 1)
+    sh = shots[i]
+    a, o, b = sh["asset"], sh["opts"], sh["b"]
+    tl = t - sh["t0"]
+    kind = a.split("_")[0]
+    c = base(sh, t)
+    if o.get("tr") and tl < TR and i > 0 and not sh["sub"]:
+        prev = base(shots[i - 1], shots[i - 1]["t1"] - 1 / FPS)
+        c = transition(o["tr"], prev, c, tl / TR)
     bt = sh["bt"]
     tb = t - bt["start"]
     if b.get("txt"):

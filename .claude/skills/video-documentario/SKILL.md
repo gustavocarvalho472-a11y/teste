@@ -54,3 +54,12 @@ O motor está em `mbappe-china/` (primeiro vídeo feito assim). Para um vídeo n
 - Grão de filme em todo quadro estoura o bitrate (2 GB). Só em FOTO/IA, com poucas texturas reaproveitadas.
 - Texto com ideograma chinês precisa de fonte CJK (`wqy-zenhei`); Anton não tem os glifos.
 - `np.convolve` com janela longa em 20 M amostras trava: use média móvel por soma acumulada.
+
+## Ritmo visual (feedback do usuário)
+
+- **Nada de tela preta parada.** Pausa dramática também é imagem: use montagem de fotos reais.
+- Quando a fala trata do país/povo/poder (ex.: "1,4 bilhão", "a China não perdoou"), faça **montagem rápida
+  de fotos reais** (multidões, desfile militar, guarda de honra, líderes, congresso, bandeira), ~1–2 s cada,
+  com **transições dinâmicas** (`"tr": "whip" | "zoom" | "glitch" | "flash"` no shot) e `"grade": "serio"`
+  para foto colorida ficar dramática. Cada transição já dispara o SFX dela.
+- Uma única imagem (mesmo IA) por mais de ~4 s em trecho de impacto cansa: troque por 3–5 fotos.

@@ -39,6 +39,11 @@ def events(blocks, shots):
             ev.append((max(0.0, bt["start"] - 0.1), b["sfx"]))
     explicit = {round(t, 1) for t, _ in ev}
     for s in shots:
+        tr = s["opts"].get("tr")
+        if tr and not s["sub"]:                # transição dinâmica: som casado com o movimento
+            ev.append((s["t0"] - 0.05, {"whip": "whoosh", "zoom": "impact", "glitch": "glitch",
+                                        "flash": "impact"}[tr]))
+            continue
         if s["sub"] or round(max(0.0, s["bt"]["start"] - 0.1), 1) in explicit and s["first"]:
             continue
         a = s["asset"]

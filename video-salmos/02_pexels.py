@@ -34,7 +34,7 @@ RELACIONADAS = {
  "floresta": ["luz_divina", "rio"], "chuva_janela": ["vela", "ceu_noturno"], "cruz": ["luz_divina", "nascer_sol"],
  "aguia": ["montanha", "luz_divina"], "fogo_lareira": ["vela"],
 }
-BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|drone-shot-of-a-city|timelapse-of-a-city)\b"
+BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|hike|hiker|hikers|hiking|walking|walk|runner|silhouette-of-a|traveler|climber|backpacker|fisherman|surfer|boat|kayak|drone-shot-of-a-city|timelapse-of-a-city)\b"
 BANIDAS_MAOS = r"\b(face|portrait|smiling|selfie|crowd|city|street|text|logo|child|kid|couple)\b"
 JANELA_SEM_REPETIR = 600  # s
 POOL_MAX, DUR_MIN = 25, 8

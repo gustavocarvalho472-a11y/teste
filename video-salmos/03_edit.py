@@ -58,6 +58,95 @@ def png_texto(frase, ref):
     img.save(path)
     return path
 
+# ---------- legenda sincronizada (ASS, karaokê palavra a palavra) ----------
+# Hierarquia: referência do versículo como rótulo pequeno acima (caixa alta, espaçada, 70%);
+# frase em Inter Bold 64px, no máximo 2 linhas; palavras ainda não ditas em branco 45%,
+# preenchem para branco 100% no tempo exato da fala. Sombra em 3 camadas: halo difuso
+# largo e fraco + sombra curta suave + texto nítido (sem contorno duro).
+ASS_HEAD = """[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main,Inter Legenda,64,&H00FFFFFF,&H66FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,-0.5,0,1,0,0,5,0,0,0,1
+Style: Ref,Inter Legenda Ref,27,&H26FFFFFF,&H26FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,0,0,5,0,0,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+"""
+CX, CY = 960, 560
+
+def ass_t(s):
+    s = max(0, s); cs = int(round(s * 100)); h, cs = divmod(cs, 360000); m, cs = divmod(cs, 6000); ss, cs = divmod(cs, 100)
+    return f"{h}:{m:02d}:{ss:02d}.{cs:02d}"
+
+FUNCIONAIS = set("a o as os e de do da dos das no na nos nas em à ao aos que se me te um uma por para com sem mas nem quando como desta deste nesta neste dessa desse essa esse esta este minha meu minhas meus tua teu tuas teus sua seu suas seus nossa nosso vossa vosso".split())
+def norm_w(w): return w.lower().strip(",;:.!?")
+
+def chunks_da_frase(pal):
+    """Quebra a frase em trechos curtos (até 7 palavras / ~34 caracteres), preferindo pontuação."""
+    out, cur = [], []
+    for k, p in enumerate(pal):
+        cur.append(p)
+        txt = " ".join(x["w"] for x in cur)
+        resto = len(pal) - k - 1
+        pont = p["w"][-1] in ",;:.!?"
+        if resto and ((pont and len(cur) >= 3 and resto >= 2) or len(cur) >= 7 or len(txt) >= 34):
+            if resto == 1 and len(cur) < 7: continue  # evita sobrar 1 palavra sozinha
+            prox = []
+            while not pont and len(cur) > 2 and norm_w(cur[-1]["w"]) in FUNCIONAIS:
+                prox.insert(0, cur.pop())  # não termina o trecho em "do", "que", "a"...
+            out.append(cur); cur = prox
+    if cur: out.append(cur)
+    return out
+
+def duas_linhas(ws):
+    txt = " ".join(ws)
+    if len(txt) <= 24: return [ws]
+    best, bi = 1e9, 1
+    for i in range(1, len(ws)):
+        d = abs(len(" ".join(ws[:i])) - len(" ".join(ws[i:])))
+        if d < best: best, bi = d, i
+    return [ws[:bi], ws[bi:]]
+
+def gerar_ass(frases, t0, t1, path):
+    ev = []
+    for f in frases:
+        if f["fim"] < t0 or f["inicio"] > t1: continue
+        grupos = chunks_da_frase(f["palavras"])
+        for gi, g in enumerate(grupos):
+            ini = (f["inicio"] - 0.12) if gi == 0 else g[0]["ini"] - 0.04
+            fim = grupos[gi + 1][0]["ini"] - 0.04 if gi + 1 < len(grupos) else f["fim"] + 0.45
+            fad = f"\\fad({180 if gi == 0 else 0},{220 if gi + 1 == len(grupos) else 0})"
+            linhas = duas_linhas([p["w"] for p in g])
+            # karaokê: {\kf} com duração até o início da palavra seguinte
+            kar, cursor, idx = [], ini, 0
+            for li, ln in enumerate(linhas):
+                parts = []
+                for w in ln:
+                    p = g[idx]; nxt = g[idx + 1]["ini"] if idx + 1 < len(g) else p["fim"]
+                    lead = max(0, p["ini"] - cursor); dur = max(0.05, nxt - p["ini"])
+                    parts.append((f"{{\\k{int(round(lead*100))}}}" if lead >= 0.01 else "") + f"{{\\kf{int(round(dur*100))}}}{w}")
+                    cursor = p["ini"] + dur; idx += 1
+                kar.append(" ".join(parts))
+            limpo = "\\N".join(" ".join(ln) for ln in linhas)
+            a, b = ass_t(ini - t0), ass_t(fim - t0)
+            pos = f"\\an5\\pos({CX},{CY})"
+            ev.append(f"Dialogue: 0,{a},{b},Main,,0,0,0,,{{{pos}{fad}\\1a&HFF&\\3c&H000000&\\3a&H80&\\bord8\\blur18}}{limpo}")
+            ev.append(f"Dialogue: 1,{a},{b},Main,,0,0,0,,{{\\an5\\pos({CX + 2},{CY + 3}){fad}\\1c&H000000&\\1a&H70&\\blur3}}{limpo}")
+            ev.append(f"Dialogue: 2,{a},{b},Main,,0,0,0,,{{{pos}{fad}}}" + "\\N".join(kar))
+        if f["mostrar_texto"] and f["referencia"]:
+            a, b = ass_t(f["inicio"] - 0.12 - t0), ass_t(f["fim"] + 0.45 - t0)
+            ref = f["referencia"].upper()
+            ev.append(f"Dialogue: 0,{a},{b},Ref,,0,0,0,,{{\\an5\\pos({CX},{CY - 118})\\fad(250,250)\\1a&HFF&\\3a&H70&\\bord6\\blur12}}{ref}")
+            ev.append(f"Dialogue: 1,{a},{b},Ref,,0,0,0,,{{\\an5\\pos({CX},{CY - 118})\\fad(250,250)}}{ref}")
+    open(path, "w", encoding="utf-8").write(ASS_HEAD + "\n".join(ev) + "\n")
+    return path
+
 # ---------- 1. segmentos ----------
 def render_segmento(job):
     c, L, fade_in, fade_out, textos, path = job
@@ -86,7 +175,7 @@ def render_segmento(job):
     return path
 
 # ---------- 2. blocos ----------
-def render_bloco(segs, slots, path):
+def render_bloco(segs, slots, path, ass=None):
     if os.path.exists(path): return path
     dur = sum(slots)
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error"]
@@ -96,7 +185,8 @@ def render_bloco(segs, slots, path):
         off += slots[k - 1]
         fc.append(f"[{last}][{k}:v]xfade=transition=fade:duration={XF}:offset={off - 0 :.3f}[x{k}]")
         last = f"x{k}"
-    fc.append(f"[{last}]{LOOK}[out]")
+    sub = f",subtitles={ass}:fontsdir=fonts" if ass else ""  # legenda depois do look: nítida, sem grão
+    fc.append(f"[{last}]{LOOK}{sub}[out]")
     cmd += ["-filter_complex", ";".join(fc), "-map", "[out]", "-t", f"{dur:.3f}", "-an",
             "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", "-r", str(FPS),
             "-g", "60", path + ".tmp.mp4"]
@@ -155,6 +245,47 @@ def gerar_musica(dur, path, sr=44100):
     os.remove(tmp)
     return path
 
+def gerar_chuva(path, dur=150.0, sr=44100):
+    """Chuva leve sintetizada: chiado filtrado + gotículas aleatórias + leve ronco grave.
+    Gera 150 s e faz o fim emendar no começo (crossfade), para tocar em loop sem costura."""
+    if os.path.exists(path): return path
+    print("sintetizando chuva...", flush=True)
+    rng = np.random.default_rng(11)
+    n, xf = int(dur * sr), int(6 * sr)
+    freqs = np.fft.rfftfreq(n + xf, 1 / sr)
+    def ruido_filtrado(shape_fn):
+        out = []
+        for _ in range(2):
+            X = np.fft.rfft(rng.standard_normal(n + xf)) * shape_fn(freqs)
+            out.append(np.fft.irfft(X, n + xf))
+        return np.stack(out, 1)
+    # chiado: banda 600 Hz-7 kHz, suave
+    chiado = ruido_filtrado(lambda f: (f / 600) ** 2 / (1 + (f / 600) ** 2) / (1 + (f / 7000) ** 2) / np.sqrt(np.maximum(f, 20) / 1000))
+    t = np.arange(n + xf) / sr
+    chiado *= (1 + 0.12 * np.sin(2 * np.pi * 0.05 * t) + 0.06 * np.sin(2 * np.pi * 0.13 * t + 1))[:, None]
+    ronco = ruido_filtrado(lambda f: 1 / (1 + (f / 180) ** 4) / np.maximum(f, 20) * 60)
+    # gotículas: impulsos de Poisson (~60/s) com decaimento curto e brilho variável
+    gotas = np.zeros((n + xf, 2))
+    k = rng.poisson(60 * (dur + 6))
+    pos = rng.integers(0, n + xf - 2000, k)
+    amp = rng.lognormal(-2.2, 0.8, k)
+    pan = rng.uniform(0.15, 0.85, k)
+    gotas[pos, 0] += amp * (1 - pan); gotas[pos, 1] += amp * pan
+    ker_t = np.arange(int(0.012 * sr)) / sr
+    ker = rng.standard_normal(len(ker_t)) * np.exp(-ker_t / 0.0025)
+    G = np.fft.rfft(np.r_[ker, np.zeros(n + xf - len(ker))])
+    hp = (freqs / 2500) ** 2 / (1 + (freqs / 2500) ** 2) / (1 + (freqs / 9000) ** 2)
+    for ch in range(2):
+        gotas[:, ch] = np.fft.irfft(np.fft.rfft(gotas[:, ch]) * G * hp, n + xf)
+    x = chiado / np.abs(chiado).std() * 0.10 + ronco / np.abs(ronco).std() * 0.035 + gotas / gotas.std() * 0.035
+    # emenda sem costura: o fim (xf) faz crossfade com o começo
+    w = np.linspace(0, 1, xf)[:, None]
+    x[:xf] = x[:xf] * w + x[n:n + xf] * (1 - w)
+    x = x[:n]
+    x /= np.abs(x).max() / 0.9
+    sf.write(path, x.astype(np.float32), sr, subtype="PCM_16")
+    return path
+
 def mixar_audio(limite, total_video, path):
     """voz + trilha com ducking; nos últimos 3 min a trilha sobe e a voz fica baixinha; -14 LUFS."""
     musica = gerar_musica(math.ceil(total_video) + 2, f"{WORK}/musica.wav")
@@ -164,9 +295,12 @@ def mixar_audio(limite, total_video, path):
           f"volume='1-0.6*{rampa}':eval=frame,asplit=2[voz][sc];"
           f"[1:a]aresample=48000,atrim=0:{limite:.3f},volume=-22dB,volume='1+1.5*{rampa}':eval=frame[mus];"
           f"[mus][sc]sidechaincompress=threshold=0.015:ratio=5:attack=120:release=1200:makeup=1[duck];"
-          f"[voz][duck]amix=inputs=2:normalize=0:duration=first[mix]")
+          f"[2:a]aresample=48000,atrim=0:{limite:.3f},volume=-18dB,afade=t=in:d=4[chuva];"
+          f"[voz][duck][chuva]amix=inputs=3:normalize=0:duration=first[mix]")
+    chuva = gerar_chuva(f"{WORK}/chuva.wav")
     mix = f"{WORK}/mix_{int(limite)}.wav"
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", "audio/narracao.wav", "-i", musica,
+         "-stream_loop", "-1", "-i", chuva,
          "-filter_complex", fc, "-map", "[mix]", "-c:a", "pcm_f32le", mix])
     r = subprocess.run(["ffmpeg", "-hide_banner", "-i", mix, "-af",
                         "loudnorm=I=-14:TP=-1.5:LRA=11:print_format=json", "-f", "null", "-"],
@@ -196,19 +330,13 @@ def planejar(limite):
             c = cenas[i]; slot = c["fim"] - c["inicio"]
             ultimo = n == len(b["cenas"]) - 1
             L = slot + (0 if ultimo else XF)
-            textos = []
-            for fi in sorted({f for cc in cenas for f in cc["frases"]}):
-                f = frases[fi]  # legenda central em todas as frases; versículos levam a referência
-                a, bb = f["inicio"] + 0.05, f["fim"] + 0.3
-                if bb <= c["inicio"] or a >= c["inicio"] + L: continue
-                ra, rb = max(0, a - c["inicio"]), min(L, bb - c["inicio"])
-                textos.append((png_texto(f["frase"], f["referencia"]), ra, rb,
-                               a >= c["inicio"], bb <= c["inicio"] + slot))
+            textos = []  # o texto agora é a legenda ASS sincronizada, queimada por bloco
             key = h([c["clip"]["id"], round(L, 3), n == 0, ultimo, [t[1:] + (os.path.basename(t[0]),) for t in textos]])
             path = f"{WORK}/seg/{i:04d}_{key}.mp4"
             jobs.append((c, L, n == 0, ultimo, textos, path))
             segs.append(path); slots.append(slot)
-        plano.append((b["id"], segs, slots))
+        t0 = cenas[b["cenas"][0]]["inicio"]
+        plano.append((b["id"], segs, slots, t0))
     return plano, jobs, total, len(cenas)
 
 def main():
@@ -225,9 +353,12 @@ def main():
     with ThreadPoolExecutor(a.jobs) as ex: list(ex.map(seg, jobs))
     print("segmentos ok", flush=True)
     blocos = []
-    for bid, segs, slots in plano:
-        p = f"{WORK}/blocos/{bid}_{h([segs, slots])}.mp4"
-        render_bloco(segs, slots, p); blocos.append(p)
+    frases = json.load(open("timeline.json"))["frases"]
+    os.makedirs(f"{WORK}/ass", exist_ok=True)
+    for bid, segs, slots, t0 in plano:
+        ass = gerar_ass(frases, t0, t0 + sum(slots), f"{WORK}/ass/{bid}_{int(limite)}.ass")
+        p = f"{WORK}/blocos/{bid}_{h([segs, slots, open(ass).read()])}.mp4"
+        render_bloco(segs, slots, p, ass); blocos.append(p)
         print(f"  bloco {bid} ok ({sum(slots)/60:.2f} min)", flush=True)
     lista = f"{WORK}/concat_{int(limite)}.txt"
     open(lista, "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in blocos))

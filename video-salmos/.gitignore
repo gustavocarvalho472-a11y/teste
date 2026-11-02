@@ -1,0 +1,11 @@
+# arquivos pesados / regeneráveis
+models/
+clips/*.mp4
+clips/*.part
+clips/thumbs/
+audio/
+work/
+out/*.mp4
+__pycache__/
+clips/*.log
+clips/pools_v1.json

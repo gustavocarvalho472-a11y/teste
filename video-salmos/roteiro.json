@@ -1,0 +1,3370 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Se o seu coração está pesado esta noite, fique comigo até o fim desta oração.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Não importa o que aconteceu hoje, Deus continua acordado e cuidando de você.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Nos próximos minutos, vamos orar juntos com os Salmos, palavra por palavra, sem nenhuma pressa.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Você pode deitar, apagar as luzes e simplesmente deixar que a Palavra fale ao seu coração.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Antes de começarmos, escreva amém nos comentários, como sinal de que você entrega esta noite a Deus.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Deixe também o seu pedido de oração, porque eu quero orar por você e pela sua casa.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Se alguém que você ama está passando por um momento difícil, escreva o nome dessa pessoa também.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Agora respire fundo, bem devagar, e solte o ar como quem solta um peso carregado o dia inteiro.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Mais uma vez, respire fundo, e perceba que você não está sozinho neste quarto.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "O mesmo Deus que acalmou o mar está aqui, pertinho de você, nesta noite.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Então, com o coração aberto e as mãos entregues, vamos começar a nossa oração.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Salmo quatro. Uma oração de Davi para a hora de deitar, quando a alma pede descanso.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Ouve-me quando eu clamo, ó Deus da minha justiça.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:1"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Na angústia me deste largueza; tem misericórdia de mim e ouve a minha oração.",
+  "tag_visual": "vela",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:1"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Sabei, pois, que o Senhor separou para si aquele que é piedoso.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:3"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "O Senhor ouvirá quando eu clamar a ele.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:3"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Perturbai-vos e não pequeis; falai com o vosso coração sobre a vossa cama, e calai-vos.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:4"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Oferecei sacrifícios de justiça e confiai no Senhor.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:5"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Muitos dizem: Quem nos mostrará o bem?",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:6"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Senhor, levanta sobre nós a luz do teu rosto.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:6"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Puseste alegria no meu coração, mais do que no tempo da fartura do trigo e do vinho.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:7"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:8"
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Senhor, nesta noite eu venho diante de Ti exatamente como estou, sem máscaras e sem pressa.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Foi um dia longo, e Tu conheces cada momento dele, até aqueles que eu não contei a ninguém.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Assim como Davi, eu também clamo, e creio que o Senhor inclina os ouvidos para me ouvir.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Quando a angústia apertou meu peito hoje, Tu estavas ali, abrindo espaço onde eu só via paredes.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Obrigado porque a Tua misericórdia não depende do meu desempenho, nem do quanto eu acertei hoje.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Tu me separaste para Ti, e isso me lembra que eu tenho um lugar seguro no Teu coração.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Agora, deitado aqui, eu faço o que a Tua Palavra ensina: falo com o meu coração e me aquieto.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Coração, você pode descansar, porque quem governa o amanhã não é você, é o Senhor.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Eu não preciso carregar o mundo nas costas; ele já está seguro nas Tuas mãos desde o princípio.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Calai-vos, diz o salmo, e eu aceito esse convite para silenciar diante de Ti.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "No silêncio desta noite, eu percebo que a Tua presença fala mais alto do que os meus medos.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Pai, eu confesso que muitas vezes o meu corpo se deita, mas a minha mente continua de pé.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Os pensamentos correm, as contas aparecem, as conversas do dia se repetem dentro de mim.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Mas nesta noite eu escolho confiar, e entrego cada pensamento nas Tuas mãos.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Levanta sobre mim a luz do Teu rosto, Senhor, porque só ela dissipa as sombras que me assustam.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Muitos procuram o bem em tantos lugares, mas eu sei que o meu bem está em Ti.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Põe alegria no meu coração, uma alegria que não depende de fartura, nem de boas notícias.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Uma alegria tranquila, de quem sabe que é amado, mesmo com tantas coisas ainda por resolver.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Senhor, eu peço pelo meu sono nesta noite: que ele seja profundo, contínuo e restaurador.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Afasta de mim a insônia, os sobressaltos, os pesadelos e o medo do escuro.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Se eu acordar no meio da noite, que o meu primeiro pensamento seja o Teu nome.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Guarda também a minha casa, as portas, as janelas e cada pessoa que dorme debaixo deste teto.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Eu Te entrego os meus filhos, os meus pais, quem divide a vida comigo e quem eu amo de longe.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Que a Tua paz atravesse as paredes e alcance cada quarto, como um rio silencioso.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Só Tu me fazes habitar em segurança, não o alarme, não a fechadura, não o dinheiro guardado.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Só Tu, Senhor, e isso basta para que eu feche os olhos sem medo.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Eu me lembro de quantas noites o Senhor já me guardou, mesmo quando eu nem percebi.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Se Tu foste fiel ontem, e em todos os meus dias, serás fiel também nesta noite.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Por isso eu me deito em paz, não porque tudo está resolvido, mas porque Tu estás comigo.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Em paz eu me deito, em paz eu adormeço, e em paz eu vou acordar amanhã.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo4",
+  "titulo_bloco": "Salmo 4 · Em paz me deito",
+  "frase": "Recebe esta oração, Pai, como quem recebe um filho que encosta a cabeça no Teu colo.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Agora vamos para o Salmo vinte e três, talvez o salmo mais amado de todos os tempos.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Ouça cada palavra como se o próprio Pastor estivesse sentado ao lado da sua cama.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "O Senhor é o meu pastor; nada me faltará.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:1"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:2"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Refrigera a minha alma; guia-me pelas veredas da justiça, por amor do seu nome.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:3"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:4"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "A tua vara e o teu cajado me consolam.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:4"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Preparas uma mesa perante mim na presença dos meus inimigos.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:5"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Unges a minha cabeça com óleo, e o meu cálice transborda.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:5"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:6"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "E habitarei na casa do Senhor por longos dias.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:6"
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Senhor, Tu és o meu pastor, e eu sou uma ovelha cansada que volta para o Teu cuidado.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Eu não preciso fingir que sou forte, porque o Pastor conhece a fraqueza das suas ovelhas.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Nada me faltará, e eu digo isso pela fé, mesmo quando a minha conta e a minha casa dizem outra coisa.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Tu sabes do que eu preciso antes mesmo que eu peça, e cuidas de mim nos detalhes.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Às vezes eu me sinto perdido, como uma ovelha que se afastou do rebanho sem perceber.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Mas Tu deixas as noventa e nove e vens me buscar, chamando o meu nome com paciência.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Deitar-me faz em verdes pastos: é isso que eu Te peço agora, um lugar verde para a minha alma deitar.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Leva-me para perto das águas tranquilas, longe do barulho, das cobranças e das comparações.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Ensina-me a parar, Senhor, porque às vezes eu corro tanto que esqueço de onde vem o meu sustento.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "A ovelha não se preocupa com o pasto de amanhã; ela confia no pastor que caminha à frente.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Quero aprender essa confiança simples, a de quem sabe que o próximo passo já foi preparado.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Eu tenho bebido de águas agitadas, Senhor, notícias, preocupações e vozes que me deixam inquieto.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Nesta noite eu quero beber da Tua calma, e deixar que ela desça devagar até o fundo do meu peito.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Refrigera a minha alma, Pai, como a brisa da noite que refresca depois de um dia quente.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Guia-me pelas veredas certas, e quando eu não souber qual caminho tomar, segura a minha mão.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Eu Te entrego também os meus vales, aqueles lugares escuros que eu atravesso em silêncio.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "O vale do luto, o vale da doença, o vale da solidão e o vale das perguntas sem resposta.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Mesmo ali, Senhor, eu não preciso temer mal algum, porque o salmo não diz que estou sozinho.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Ele diz: Tu estás comigo, e essa é a frase que eu quero levar para o meu travesseiro hoje.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "A Tua vara me protege dos lobos, e o Teu cajado me puxa de volta quando eu me desvio.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Obrigado pela correção que me salvou de caminhos que eu nem sabia que eram perigosos.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Tu preparas uma mesa para mim, mesmo quando há pessoas contra mim ou situações que me ameaçam.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Eu não preciso me defender de tudo sozinho, porque o Senhor já arrumou a mesa e me convidou a sentar.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Unge a minha cabeça com o Teu óleo, cura as feridas que o dia deixou e as que eu carrego há anos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Faz o meu cálice transbordar, não de coisas, mas de gratidão, de paz e de presença.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Se o meu cálice parece vazio hoje, enche-o com aquilo que só Tu podes derramar.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Enche-o de fé para os dias difíceis e de esperança para as orações que ainda não foram respondidas.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Eu agradeço pelas pequenas bênçãos de hoje, pelo pão, pelo abrigo e pelo ar que eu respiro.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Agradeço pelas pessoas que me fizeram bem, e entrego a Ti as que me feriram.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "A bondade e a misericórdia vão me seguir amanhã, como dois amigos que caminham atrás de mim.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Quando eu olhar para trás, vou ver as marcas da Tua bondade em cada passo da minha história.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Vou lembrar dos vales que atravessei e perceber que em nenhum deles eu estive sozinho.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Vou lembrar das portas que se fecharam e entender que algumas delas foram o Teu cuidado me protegendo.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "E vou agradecer, porque a Tua bondade me alcançou até quando eu não merecia.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "E no fim de tudo, Senhor, eu sei onde vou morar: na Tua casa, para sempre.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Essa certeza acalma o meu coração mais do que qualquer garantia que este mundo possa oferecer.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Por isso, nesta noite, eu me deito como uma ovelha deitada na relva, sem medo do escuro.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "O Pastor está acordado, vigiando o rebanho, e eu posso fechar os olhos.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Obrigado, Bom Pastor, porque Tu deste a Tua vida pelas ovelhas, e eu sou uma delas.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo23",
+  "titulo_bloco": "Salmo 23 · O Senhor é meu pastor",
+  "frase": "Em nome de Jesus, o Pastor que me conhece pelo nome, eu descanso.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Agora chegamos ao Salmo noventa e um, o salmo da proteção, o abrigo de tantas gerações.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Se existe algum medo dentro de você esta noite, deixe que estas palavras o envolvam como um cobertor.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:1"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Direi do Senhor: Ele é o meu Deus, o meu refúgio, a minha fortaleza, e nele confiarei.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:2"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Porque ele te livrará do laço do passarinheiro e da peste perniciosa.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:3"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Ele te cobrirá com as suas penas, e debaixo das suas asas estarás seguro.",
+  "tag_visual": "aguia",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:4"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "A sua verdade é escudo e proteção.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:4"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Não temerás espanto noturno, nem seta que voe de dia,",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:5"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "nem peste que ande na escuridão, nem mortandade que assole ao meio-dia.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:6"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Mil cairão ao teu lado, e dez mil à tua direita, mas tu não serás atingido.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:7"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Somente com os teus olhos contemplarás, e verás a recompensa dos ímpios.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:8"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Porque tu, ó Senhor, és o meu refúgio; no Altíssimo fizeste a tua habitação.",
+  "tag_visual": "vela",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:9"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Nenhum mal te sucederá, nem praga alguma chegará à tua tenda.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:10"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:11"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eles te sustentarão nas suas mãos, para que não tropeces com o teu pé em pedra.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:12"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Pisarás o leão e a áspide; calcarás aos pés o filho do leão e a serpente.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:13"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Porque tão encarecidamente me amou, também eu o livrarei; eu o porei num alto retiro, porque conheceu o meu nome.",
+  "tag_visual": "cruz",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:14"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Ele me invocará, e eu lhe responderei; estarei com ele na angústia.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:15"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu o livrarei e o glorificarei.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:15"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu o fartarei com longos dias e lhe mostrarei a minha salvação.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:16"
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Senhor Altíssimo, nesta noite eu escolho habitar no Teu esconderijo.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Não quero apenas visitar a Tua presença quando o medo aperta, eu quero morar nela.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Cobre esta noite com a Tua sombra, como uma nuvem que protege do calor e do perigo.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Tu és o meu refúgio, a minha fortaleza, o lugar alto onde nenhum inimigo me alcança.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu declaro com a minha boca, aqui deitado: o Senhor é o meu Deus, e nele eu confio.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Livra-me dos laços escondidos, das armadilhas que eu não vejo, das conversas armadas contra mim.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Cobre-me com as Tuas penas, Senhor, como a ave que abriga os filhotes debaixo das asas.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Debaixo das Tuas asas está quente, está seguro, e o barulho do mundo fica do lado de fora.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu não vou temer o espanto noturno, os barulhos da casa, os pensamentos que crescem no escuro.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Se o medo bater à porta nesta madrugada, que ele encontre a Tua presença já sentada na sala.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Nenhuma seta, nenhuma notícia ruim, nenhuma palavra lançada contra mim terá a última palavra.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "A última palavra sobre a minha vida é Tua, e ela foi dita na cruz: está consumado.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu me escondo no Teu nome como uma criança se esconde no abraço do pai durante a tempestade.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Lá fora pode chover, pode trovejar, pode ventar forte, mas no Teu abrigo a chama continua acesa.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Pai, eu Te peço proteção para o meu corpo, para que nenhuma doença encontre lugar em mim.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Protege a minha mente da ansiedade, da depressão, dos pensamentos que me acusam e me diminuem.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Protege as minhas emoções, para que eu não seja governado pelo medo, mas pela fé.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Guarda a minha família, cada nome que eu carrego no coração, onde quer que estejam nesta noite.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Os que estão viajando, guarda nas estradas; os que estão no hospital, cobre com a Tua mão.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Os que estão longe de Ti, Senhor, alcança com o Teu amor antes que amanheça.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Mil podem cair ao meu lado, mas eu não vou viver com medo, porque a minha vida está escondida em Ti.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Envia os Teus anjos para acamparem ao redor desta casa, dos portões e de cada janela.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Que eles me guardem em todos os meus caminhos, inclusive nos caminhos que eu vou percorrer amanhã.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Sustenta os meus pés, para que eu não tropece nas pedras que aparecerem na estrada.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Que os Teus anjos estejam comigo na estrada, no trabalho, nas conversas e nas decisões.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "E que eles guardem também os meus sonhos, para que eu não perca a esperança no que Tu prometeste.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Leva-me para o alto, Senhor, acima das preocupações, onde o ar é limpo e a visão é clara.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Em nome de Jesus, eu piso sobre todo medo, sobre toda maldição e sobre todo engano.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Não pela minha força, mas porque o Senhor já venceu, e eu caminho na Tua vitória.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Tu disseste: porque ele me amou, eu o livrarei. Senhor, eu Te amo, mesmo com tantas falhas.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu conheço o Teu nome, e o Teu nome é torre forte; o justo corre para ela e fica seguro.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Quando eu Te chamar, Tu vais responder, e isso me basta para dormir em paz.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Tu prometeste estar comigo na angústia, não apenas depois dela, mas no meio dela.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Então, se hoje foi um dia de angústia, eu sei que o Senhor esteve sentado ao meu lado o tempo todo.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu Te entrego o medo da morte, o medo da perda, o medo do que pode acontecer amanhã.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Os meus dias estão nas Tuas mãos, cada um deles contado e cuidado por Ti.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Dá-me longos dias para Te servir, e mostra a mim e à minha casa a Tua salvação.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Assim como a águia descansa no vento, eu quero descansar em Ti, sem bater as asas o tempo todo.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu me escondo no Altíssimo, e lá do alto o problema parece muito menor do que parecia aqui embaixo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Repita comigo, bem baixinho: eu habito no esconderijo do Altíssimo.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu descanso à sombra do Onipotente. Ele é o meu refúgio, e nele eu confio.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Obrigado, Senhor, porque esta casa está coberta, esta noite está guardada e o meu sono está protegido.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo91",
+  "titulo_bloco": "Salmo 91 · Proteção",
+  "frase": "Eu recebo a Tua proteção agora, em nome de Jesus.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Agora vamos levantar os olhos com o Salmo cento e vinte e um.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "É um cântico dos peregrinos, das pessoas cansadas da estrada que olhavam para os montes e lembravam de Deus.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Elevo os meus olhos para os montes; de onde me virá o socorro?",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:1"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O meu socorro vem do Senhor, que fez o céu e a terra.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:2"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Não deixará vacilar o teu pé; aquele que te guarda não cochilará.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:3"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Eis que não cochila nem dorme o guarda de Israel.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:4"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O Senhor é quem te guarda; o Senhor é a tua sombra à tua mão direita.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:5"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O sol não te molestará de dia, nem a lua de noite.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:6"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O Senhor te guardará de todo mal; ele guardará a tua alma.",
+  "tag_visual": "vela",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:7"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:8"
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Senhor, eu levanto os meus olhos, que hoje estiveram tão baixos, presos no chão dos problemas.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Eu procurei socorro em muitos lugares, em pessoas, em telas, em distrações que não me encheram.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Mas agora eu confesso: o meu socorro vem de Ti, o Criador do céu e da terra.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Olho para o céu desta noite e lembro que Tu sustentas cada estrela pelo nome.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Se Tu cuidas das estrelas, certamente cuidas também de mim e de tudo o que me preocupa.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "As estrelas não se preocupam em brilhar; elas apenas ocupam o lugar que Tu lhes deste.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Ajuda-me a descansar no meu lugar, sem querer controlar o que pertence somente a Ti.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Os montes são altos, Senhor, mas Tu és mais alto que todos eles, e é para Ti que eu olho.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Firma os meus pés, Senhor, porque eu tenho andado em terreno escorregadio.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Não me deixes vacilar nas decisões, na fé, nem nas promessas que eu fiz diante de Ti.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Que alívio saber que Tu não dormes, que enquanto eu durmo Tu continuas de guarda.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Eu posso desligar, porque o Senhor não desliga; posso descansar, porque o Senhor não se cansa.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Eu não preciso vigiar a noite inteira com medo, contando as horas e imaginando o pior.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Esse trabalho não é meu, é Teu, e Tu o fazes com perfeição.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Enquanto a cidade dorme e as luzes se apagam, os Teus olhos continuam abertos sobre mim.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Tu vês o quarto do hospital, a casa vazia, a cama de quem chora e o berço de quem acabou de nascer.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Nenhuma noite é longa demais para a Tua vigilância, nenhum problema é pesado demais para o Teu braço.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Sê a minha sombra à mão direita, perto o suficiente para eu sentir, firme o suficiente para eu confiar.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda-me do calor das pressões do dia e dos medos frios da madrugada.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda-me de todo mal, Senhor, e guarda principalmente a minha alma.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Que eu não perca a fé, que eu não perca a esperança, que eu não perca a ternura no meio das lutas.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda a minha saída amanhã cedo, quando eu abrir a porta para enfrentar o dia.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda a minha entrada quando eu voltar, cansado, e encontrar a minha casa em paz.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda as entradas e saídas dos meus filhos, da escola, do trabalho, das amizades e dos caminhos.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda quem está começando um caminho novo e quem está terminando uma fase difícil.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Guarda quem saiu de casa magoado e ainda não encontrou o caminho de volta.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Traz de volta, Senhor, os que se perderam, e acende de novo a luz na janela de cada lar.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Desde agora e para sempre, diz o salmo, e eu gosto desse para sempre, Senhor.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Não é uma proteção de um dia só, é um cuidado que me acompanha a vida inteira.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Quando eu era criança, Tu já me guardavas; e quando eu for idoso, Tu ainda vais me guardar.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Por isso eu entrego esta noite com confiança, como quem entrega a chave da casa a um amigo fiel.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "O guarda de Israel está de plantão, e eu posso fechar os olhos agora.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo121",
+  "titulo_bloco": "Salmo 121 · O socorro vem do Senhor",
+  "frase": "Obrigado, Senhor, o meu socorro vem de Ti.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Agora vamos para o Salmo vinte e sete, um salmo de coragem para as noites mais escuras.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "O Senhor é a minha luz e a minha salvação; a quem temerei?",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:1"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "O Senhor é a força da minha vida; de quem me recearei?",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:1"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Ainda que um exército me cercasse, o meu coração não temeria.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:3"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Uma coisa pedi ao Senhor, e a buscarei: que possa morar na casa do Senhor todos os dias da minha vida,",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:4"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "para contemplar a formosura do Senhor e aprender no seu templo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:4"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Porque no dia da adversidade me esconderá no seu pavilhão;",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:5"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "no oculto do seu tabernáculo me esconderá, e me porá sobre uma rocha.",
+  "tag_visual": "cruz",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:5"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Quando tu disseste: Buscai o meu rosto, o meu coração te disse: O teu rosto, Senhor, buscarei.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:8"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Porque, quando meu pai e minha mãe me desampararem, o Senhor me recolherá.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:10"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Pereceria sem dúvida, se não cresse que veria a bondade do Senhor na terra dos viventes.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:13"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:14"
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Senhor, Tu és a minha luz, e eu preciso tanto de luz nesta noite.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Há coisas dentro de mim que ficaram escuras, e eu nem sei mais como acendê-las.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Acende em mim a esperança que se apagou, a fé que esfriou e a alegria que ficou pelo caminho.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Uma pequena chama basta para vencer a escuridão de um quarto inteiro.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Então acende em mim a Tua chama, Senhor, e que ela não se apague com o vento das dificuldades.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "A quem eu vou temer, se o próprio Deus é a minha salvação?",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Tu és a força da minha vida, quando o meu corpo está cansado e a minha coragem acabou.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Mesmo que muitos problemas me cerquem como um exército, o meu coração pode ficar firme.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu Te peço, Senhor, a mesma coisa que Davi pediu: estar perto de Ti, todos os dias.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Mais do que respostas, mais do que milagres, eu quero a Tua presença.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Porque na Tua presença há plenitude de alegria, e à Tua direita há delícias para sempre.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu quero ser como quem se senta aos Teus pés, sem pressa de ir embora.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu quero contemplar a Tua beleza, e deixar que ela coloque cada coisa no seu tamanho certo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Quando vier o dia mau, esconde-me no Teu abrigo, no lugar secreto que só os Teus filhos conhecem.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Põe os meus pés sobre a rocha, que é Cristo, firme quando tudo ao redor se move.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Quando a areia se mover debaixo de mim, que eu esteja firmado sobre aquilo que não muda.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "As circunstâncias passam como água, mas a Tua Palavra permanece para sempre.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu ouço o Teu convite: buscai o meu rosto. E o meu coração responde: eu vou buscar, Senhor.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Talvez alguém que está ouvindo esta oração tenha sido abandonado por quem deveria cuidar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Pai, recolhe essa pessoa agora, abraça a criança ferida que ainda vive dentro dela.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Tu nunca abandonas, nunca te cansas de nós, nunca fechas a porta da Tua casa.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Ainda que pessoas tenham ido embora, Tu ficaste, e o Teu amor nunca mudou de endereço.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu Te agradeço pelas pessoas que colocaste no meu caminho para cuidar de mim nos dias difíceis.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu creio que vou ver a Tua bondade, não só no céu, mas aqui, na terra dos viventes.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Vou ver a Tua bondade na minha saúde, na minha família, no meu trabalho e no meu coração.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Ensina-me a esperar, Senhor, sem desespero, sem pressa e sem amargura.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Fortalece o meu coração enquanto eu espero, porque a espera também é lugar de milagre.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "O agricultor espera a chuva, a noite espera a manhã, e eu espero em Ti com paciência.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Cada dia de espera está sendo usado para fortalecer raízes que ninguém consegue ver.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo27",
+  "titulo_bloco": "Salmo 27 · O Senhor é minha luz",
+  "frase": "Eu espero no Senhor, e a minha alma se acalma ao saber que o Teu tempo é perfeito.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Agora, o Salmo quarenta e seis. Deixe o seu corpo ficar pesado sobre a cama e apenas escute.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:1"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Pelo que não temeremos, ainda que a terra se mude,",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:2"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "e ainda que os montes se transportem para o meio dos mares.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:2"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Ainda que as águas rujam e se perturbem, ainda que os montes se abalem pela sua braveza.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:3"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Há um rio cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:4"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Deus está no meio dela; não será abalada. Deus a ajudará ao romper da manhã.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:5"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:7"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquietai-vos e sabei que eu sou Deus.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46:10"
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Senhor, o meu mundo às vezes parece um mar agitado, com ondas que não param de chegar.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Mudanças, perdas, notícias e incertezas, coisas que eu achava firmes e que se moveram de repente.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Mas Tu és refúgio e fortaleza, e não um refúgio distante, um socorro bem presente.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Presente agora, neste quarto, nesta respiração, neste minuto.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Eu não preciso subir ao céu para Te encontrar, porque Tu desceste para me encontrar aqui.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Tu estás na minha respiração, no meu travesseiro, no silêncio que agora começa a crescer.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Há um rio de paz que nasce em Ti e corre para dentro de mim, mesmo quando lá fora há tempestade.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Deixa esse rio correr, Senhor, e acalmar cada parte agitada da minha alma.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Tu estás no meio da minha casa, e por isso ela não será abalada.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Tu me ajudarás ao romper da manhã, quando a luz chegar e eu precisar de força para recomeçar.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "A noite não dura para sempre, Senhor; a manhã sempre vem, e com ela as Tuas misericórdias.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "As Tuas misericórdias se renovam a cada manhã, e grande é a Tua fidelidade.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Agora eu ouço o Teu convite mais lindo: aquietai-vos e sabei que eu sou Deus.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Eu me aquieto, Senhor. Paro de lutar, paro de calcular, paro de tentar controlar tudo.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquietar não é desistir, é confiar que Tu estás agindo enquanto eu descanso.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquieta as minhas mãos, que hoje fizeram tanto, e às vezes fizeram demais.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquieta os meus pensamentos, que correm como água, e faz deles um lago sereno.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquieta as vozes que me cobram, as que vêm de fora e as que nascem dentro de mim.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Aquieta o meu coração, que bate apressado, e ensina a ele o ritmo da Tua paz.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Assim como as ondas ficam mansas quando o vento para, deixa a minha alma ficar mansa.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Que a minha mente seja como um rio calmo, refletindo o céu, sem pressa de chegar a lugar nenhum.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Eu desisto de ter todas as respostas antes de dormir, e escolho descansar na Tua presença.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Eu desisto de carregar sozinho aquilo que Tu já prometeste carregar comigo.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Tu és Deus, e eu não sou. Que alívio, Senhor, que alívio saber disso.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Tu és Deus sobre a minha saúde, sobre as minhas finanças, sobre o meu passado e o meu futuro.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "O Senhor dos Exércitos está comigo, e mesmo assim fala comigo com a voz mansa de um Pai.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "O Deus de Jacó, que cuidou de um homem cheio de falhas, também cuida de mim.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Jacó lutou a noite inteira e saiu abençoado; eu também saio desta noite abençoado por Ti.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Mesmo que eu saia mancando como ele, sei que saio marcado pela Tua graça.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Fica comigo agora, enquanto o silêncio enche este quarto.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Não preciso dizer mais nada, Senhor; o silêncio também é oração quando o coração está voltado para Ti.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Respire devagar mais uma vez, e deixe que a quietude de Deus ocupe todo o espaço.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo46",
+  "titulo_bloco": "Salmo 46 · Aquietai-vos",
+  "frase": "Na quietude, eu sei que Tu és Deus. Na quietude, eu sei que estou seguro.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Agora vamos orar com o Salmo cento e trinta e nove, o salmo de quem é conhecido e amado por inteiro.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Senhor, tu me sondaste e me conheces.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:1"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Tu conheces o meu assentar e o meu levantar; de longe entendes o meu pensamento.",
+  "tag_visual": "vela",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:2"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Sem que haja uma palavra na minha língua, eis que, ó Senhor, tudo conheces.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:4"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Tu me cercaste em volta e puseste sobre mim a tua mão.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:5"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Para onde me irei do teu espírito, ou para onde fugirei da tua face?",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:7"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Se tomar as asas da alva, se habitar nas extremidades do mar,",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:9"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "até ali a tua mão me guiará e a tua destra me susterá.",
+  "tag_visual": "aguia",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:10"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Se disser: Decerto que as trevas me encobrirão, então a noite será luz à roda de mim.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:11"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Nem ainda as trevas me encobrem de ti; mas a noite resplandece como o dia.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:12"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Pois possuíste o meu interior; cobriste-me no ventre de minha mãe.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:13"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Eu te louvarei, porque de um modo tão maravilhoso fui formado.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:14"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "E quão preciosos me são, ó Deus, os teus pensamentos! Quão grande é a soma deles!",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:17"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Sonda-me, ó Deus, e conhece o meu coração; prova-me e conhece os meus pensamentos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:23"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "E vê se há em mim algum caminho mau, e guia-me pelo caminho eterno.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 139:24"
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Senhor, Tu me conheces melhor do que eu mesmo me conheço.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Conheces os meus segredos, os meus cansaços, os meus sonhos e as minhas vergonhas.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Conheces as orações que eu não consegui terminar e os suspiros que eu não soube transformar em palavras.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Conheces as lágrimas que caíram no travesseiro e as que eu engoli para parecer forte.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "E mesmo conhecendo tudo, Tu não foste embora. Tu continuas aqui, me chamando de filho.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Às vezes eu me sinto invisível, como se ninguém percebesse o que acontece dentro de mim.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Mas Tu percebes. Tu sabes quando eu me sento, quando me levanto e quando eu choro escondido.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Antes que eu consiga explicar o que sinto, Tu já entendeste, e isso me consola.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Não há lugar para onde eu possa ir que fique longe de Ti, nem o mais alto, nem o mais fundo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Se eu for até o fim do mar, a Tua mão estará lá, me segurando.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "E a escuridão desta noite não é escura para Ti; para Ti a noite brilha como o dia.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Então eu não tenho medo do escuro, porque o escuro não esconde nada dos Teus olhos.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Se a noite da minha alma parece longa, lembra-me de que para Ti ela já é dia.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Tu já enxergas a saída do túnel que eu ainda estou atravessando.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Tu me formaste com cuidado, no ventre da minha mãe, e não cometeste nenhum erro ao me criar.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Perdoa-me pelas vezes em que eu me desprezei, me comparei ou desejei ser outra pessoa.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Eu Te louvo, porque fui feito de modo maravilhoso, e quero olhar para mim com os Teus olhos.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Cura a imagem distorcida que eu tenho de mim mesmo, construída por críticas e comparações.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Que eu me veja como Tu me vês: amado, desejado e criado com propósito.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Os Teus pensamentos sobre mim são muitos, como a areia da praia, e são pensamentos de paz.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Sonda o meu coração agora, Senhor, com a Tua luz suave, sem pressa e sem condenação.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Se houver mágoa, arranca; se houver orgulho, quebra; se houver culpa, lava com o Teu perdão.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Eu recebo o perdão que Jesus conquistou na cruz, e deixo aos Teus pés o que eu não consigo carregar.",
+  "tag_visual": "cruz",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Guia-me pelo caminho eterno, um passo de cada vez, uma noite de cada vez.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Quando eu não souber para onde ir, que a Tua mão me conduza como conduziu o salmista.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Quando eu me afastar, que o Teu amor me alcance e me traga de volta para casa.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Seja nas alturas ou nas profundezas, a Tua destra me sustenta e não me deixa cair.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "salmo139",
+  "titulo_bloco": "Salmo 139 · Deus me conhece",
+  "frase": "Eu adormeço sabendo que sou conhecido, cercado e amado pelo Deus que nunca me perde de vista.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Agora eu quero orar especialmente por você que está com o coração ansioso.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Talvez a sua respiração esteja curta, o peito apertado e a mente cheia de cenários difíceis.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Vamos entregar tudo isso a Deus, uma coisa de cada vez, com calma.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Lança o teu cuidado sobre o Senhor, e ele te susterá.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 55:22"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Não estejais inquietos por coisa alguma; antes, as vossas petições sejam em tudo conhecidas diante de Deus,",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:6"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "pela oração e súplica, com ação de graças.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:6"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:7"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "1 Pedro 5:7"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Mateus 11:28"
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Senhor Jesus, eu venho cansado, como Tu convidaste, e Te peço o alívio que só Tu podes dar.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego agora a preocupação com o dinheiro, com as contas e com o que vai faltar.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Tu alimentas as aves do céu, e eu valho muito mais do que elas para Ti.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego a preocupação com a saúde, com os exames, com os sintomas que me assustam.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Tu és o médico dos médicos, e eu descanso o meu corpo nas Tuas mãos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego a preocupação com a minha família, com os filhos, com os pais e com quem eu amo.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eles foram Teus antes de serem meus, e Tu cuidas deles melhor do que eu poderia cuidar.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego a solidão, as noites em que eu me senti esquecido, mesmo cercado de pessoas.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Tu és o amigo que nunca dorme, e Tu estás aqui comigo agora.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego o medo do futuro, as perguntas sobre o trabalho e as decisões que ainda não tomei.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "O amanhã já tem o Teu nome escrito, e Tu já estás lá, esperando por mim.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu não preciso viver o amanhã hoje; basta a cada dia o seu próprio cuidado.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Olhai os lírios do campo, disse Jesus; eles não se cansam e ainda assim são vestidos de beleza.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu Te entrego também as conversas que machucaram, as palavras que eu disse e as que ouvi.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu não vou repetir cada frase na minha cabeça esta noite; eu solto tudo isso agora.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Respire fundo comigo. Inspire devagar, sentindo o ar entrar, e diga no coração: Senhor, eu confio.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Agora solte o ar devagar, e diga no coração: eu entrego.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Mais uma vez. Inspire a paz de Deus, sem pressa, e expire o medo, bem devagar.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Sinta os seus ombros descendo, a mandíbula soltando e as mãos ficando leves sobre o lençol.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Não há nada que você precise fazer agora; o seu único trabalho é receber o cuidado de Deus.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Pai, que a Tua paz, que excede todo entendimento, guarde a minha mente como uma sentinela.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Quando um pensamento ansioso voltar, que eu o entregue de novo, quantas vezes forem necessárias.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Tu não Te cansas de receber as minhas preocupações; Tu me convidas a lançá-las sobre Ti.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Eu troco o meu cansaço pelo Teu alívio, o meu medo pela Tua presença, a minha pressa pelo Teu tempo.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Obrigado porque eu não preciso resolver nada esta noite; preciso apenas descansar.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "O meu corpo está pesado, a minha respiração está mais lenta, e a minha alma está entregue.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Se a ansiedade é uma luta antiga para você, eu oro para que o Senhor traga cura completa, de dentro para fora.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Que a paz não seja só um momento desta oração, mas um rio que continua correndo amanhã.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Que amanhã, quando a ansiedade tentar voltar, você se lembre desta noite e desta entrega.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "E que você descubra que Deus continua o mesmo, tão perto quanto está agora.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ansiedade",
+  "titulo_bloco": "Entrega da ansiedade",
+  "frase": "Em nome de Jesus, a ansiedade não governa esta casa; quem governa é o Príncipe da Paz.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Agora receba a bênção, aquela que Deus mandou pronunciar sobre o seu povo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor te abençoe e te guarde.",
+  "tag_visual": "vela",
+  "mostrar_texto": true,
+  "referencia": "Números 6:24"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor faça resplandecer o seu rosto sobre ti, e tenha misericórdia de ti.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Números 6:25"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor sobre ti levante o seu rosto, e te dê a paz.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Números 6:26"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Recebo essa bênção agora sobre a minha vida, sobre o meu sono e sobre a minha casa.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Que o rosto do Senhor brilhe sobre você, que está ouvindo, e sobre cada pessoa que você ama.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Que esta noite seja leve, que o sono venha manso, e que amanhã você acorde protegido.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Que amanhã você acorde com forças renovadas, como a águia que sobe nas alturas.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Que a sua casa seja um lugar de paz, e que nela haja riso, perdão e descanso.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Agora vamos orar juntos a oração que Jesus nos ensinou, bem devagar.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Pai nosso, que estás nos céus, santificado seja o teu nome.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:9"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Venha o teu reino, seja feita a tua vontade, assim na terra como no céu.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:10"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O pão nosso de cada dia nos dá hoje.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:11"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:12"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "E não nos deixes cair em tentação, mas livra-nos do mal.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:13"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Porque teu é o reino, e o poder, e a glória, para sempre. Amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:13"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Senhor, obrigado por esta noite, por cada salmo e por cada palavra que acalmou o nosso coração.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Guarda quem já está dormindo, e guarda também quem ainda está acordado, lutando contra o medo.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro por cada pedido deixado nos comentários, por cada nome e por cada lágrima.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Tu conheces cada história, e nenhuma delas é pequena demais para o Teu cuidado.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro pelos doentes, para que recebam cura e alívio nesta madrugada.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro pelos que estão de luto, para que o Teu consolo seja mais forte do que a saudade.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro pelos que estão desempregados, endividados ou sem saber como vão pagar as contas.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro pelos que estão longe de Ti, para que encontrem o caminho de casa.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Eu oro pelos casamentos feridos, pelos filhos distantes e pelas famílias que precisam de reconciliação.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "E eu oro por você, que ficou até aqui, para que saiba que é profundamente amado por Deus.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Agora, deixe o corpo afundar no colchão, e deixe os ombros soltarem.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Solte o rosto, solte as mãos, solte o peso que ainda está preso no peito.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Deixe a respiração encontrar o seu próprio ritmo, lento e tranquilo, como as ondas na areia.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Não lute contra o sono; deixe que ele venha devagar, como a noite que cobre a terra.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Você está seguro. Você é amado. Você pode dormir.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Deus está cuidando de tudo o que ficou por fazer, e amanhã Ele estará lá primeiro.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor é o seu pastor, e nada lhe faltará.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor é a sua luz, e a escuridão não tem poder sobre você.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor está acordado, guardando a sua entrada e a sua saída.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor cobre você com as suas penas, e debaixo das suas asas você está seguro.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "O Senhor é o seu refúgio e a sua fortaleza, agora e por todas as noites da sua vida.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Aquiete o coração, e saiba que Ele é Deus.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Ele conhece você por inteiro, e mesmo assim chama você de filho amado.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "E a bondade e a misericórdia vão seguir você todos os dias da sua vida.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Descanse agora. A noite está guardada, e você está nas mãos do Pai.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Em paz você se deita, e em paz você vai adormecer.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Durma bem, debaixo das asas do Altíssimo.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Pai-Nosso",
+  "frase": "Em nome de Jesus. Amém.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

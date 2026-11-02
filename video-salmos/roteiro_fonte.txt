@@ -1,0 +1,440 @@
+# abertura | Abertura
+ceu_noturno||Se o seu coração está pesado esta noite, fique comigo até o fim desta oração.
+vela||Não importa o que aconteceu hoje, Deus continua acordado e cuidando de você.
+lua||Nos próximos minutos, vamos orar juntos com os Salmos, palavra por palavra, sem nenhuma pressa.
+chuva_janela||Você pode deitar, apagar as luzes e simplesmente deixar que a Palavra fale ao seu coração.
+luz_divina||Antes de começarmos, escreva amém nos comentários, como sinal de que você entrega esta noite a Deus.
+campo||Deixe também o seu pedido de oração, porque eu quero orar por você e pela sua casa.
+lua||Se alguém que você ama está passando por um momento difícil, escreva o nome dessa pessoa também.
+ceu_noturno||Agora respire fundo, bem devagar, e solte o ar como quem solta um peso carregado o dia inteiro.
+lua||Mais uma vez, respire fundo, e perceba que você não está sozinho neste quarto.
+luz_divina||O mesmo Deus que acalmou o mar está aqui, pertinho de você, nesta noite.
+montanha||Então, com o coração aberto e as mãos entregues, vamos começar a nossa oração.
+
+# salmo4 | Salmo 4 · Em paz me deito
+lua||Salmo quatro. Uma oração de Davi para a hora de deitar, quando a alma pede descanso.
+montanha|Salmo 4:1|Ouve-me quando eu clamo, ó Deus da minha justiça.
+vela|Salmo 4:1|Na angústia me deste largueza; tem misericórdia de mim e ouve a minha oração.
+ceu_noturno|Salmo 4:3|Sabei, pois, que o Senhor separou para si aquele que é piedoso.
+nascer_sol|Salmo 4:3|O Senhor ouvirá quando eu clamar a ele.
+chuva_janela|Salmo 4:4|Perturbai-vos e não pequeis; falai com o vosso coração sobre a vossa cama, e calai-vos.
+mar_calmo|Salmo 4:5|Oferecei sacrifícios de justiça e confiai no Senhor.
+nascer_sol|Salmo 4:6|Muitos dizem: Quem nos mostrará o bem?
+luz_divina|Salmo 4:6|Senhor, levanta sobre nós a luz do teu rosto.
+campo|Salmo 4:7|Puseste alegria no meu coração, mais do que no tempo da fartura do trigo e do vinho.
+lua|Salmo 4:8|Em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.
+ceu_noturno||Senhor, nesta noite eu venho diante de Ti exatamente como estou, sem máscaras e sem pressa.
+chuva_janela||Foi um dia longo, e Tu conheces cada momento dele, até aqueles que eu não contei a ninguém.
+floresta||Assim como Davi, eu também clamo, e creio que o Senhor inclina os ouvidos para me ouvir.
+ceu_noturno||Quando a angústia apertou meu peito hoje, Tu estavas ali, abrindo espaço onde eu só via paredes.
+rio||Obrigado porque a Tua misericórdia não depende do meu desempenho, nem do quanto eu acertei hoje.
+luz_divina||Tu me separaste para Ti, e isso me lembra que eu tenho um lugar seguro no Teu coração.
+lua||Agora, deitado aqui, eu faço o que a Tua Palavra ensina: falo com o meu coração e me aquieto.
+rio||Coração, você pode descansar, porque quem governa o amanhã não é você, é o Senhor.
+campo||Eu não preciso carregar o mundo nas costas; ele já está seguro nas Tuas mãos desde o princípio.
+vela||Calai-vos, diz o salmo, e eu aceito esse convite para silenciar diante de Ti.
+ceu_noturno||No silêncio desta noite, eu percebo que a Tua presença fala mais alto do que os meus medos.
+mar_calmo||Pai, eu confesso que muitas vezes o meu corpo se deita, mas a minha mente continua de pé.
+chuva_janela||Os pensamentos correm, as contas aparecem, as conversas do dia se repetem dentro de mim.
+campo||Mas nesta noite eu escolho confiar, e entrego cada pensamento nas Tuas mãos.
+luz_divina||Levanta sobre mim a luz do Teu rosto, Senhor, porque só ela dissipa as sombras que me assustam.
+ceu_noturno||Muitos procuram o bem em tantos lugares, mas eu sei que o meu bem está em Ti.
+campo||Põe alegria no meu coração, uma alegria que não depende de fartura, nem de boas notícias.
+nascer_sol||Uma alegria tranquila, de quem sabe que é amado, mesmo com tantas coisas ainda por resolver.
+lua||Senhor, eu peço pelo meu sono nesta noite: que ele seja profundo, contínuo e restaurador.
+vela||Afasta de mim a insônia, os sobressaltos, os pesadelos e o medo do escuro.
+chuva_janela||Se eu acordar no meio da noite, que o meu primeiro pensamento seja o Teu nome.
+ceu_noturno||Guarda também a minha casa, as portas, as janelas e cada pessoa que dorme debaixo deste teto.
+rio||Eu Te entrego os meus filhos, os meus pais, quem divide a vida comigo e quem eu amo de longe.
+rio||Que a Tua paz atravesse as paredes e alcance cada quarto, como um rio silencioso.
+lua||Só Tu me fazes habitar em segurança, não o alarme, não a fechadura, não o dinheiro guardado.
+vela||Só Tu, Senhor, e isso basta para que eu feche os olhos sem medo.
+floresta||Eu me lembro de quantas noites o Senhor já me guardou, mesmo quando eu nem percebi.
+ceu_noturno||Se Tu foste fiel ontem, e em todos os meus dias, serás fiel também nesta noite.
+ceu_noturno||Por isso eu me deito em paz, não porque tudo está resolvido, mas porque Tu estás comigo.
+luz_divina||Em paz eu me deito, em paz eu adormeço, e em paz eu vou acordar amanhã.
+mar_calmo||Recebe esta oração, Pai, como quem recebe um filho que encosta a cabeça no Teu colo.
+
+# salmo23 | Salmo 23 · O Senhor é meu pastor
+pastor_ovelhas||Agora vamos para o Salmo vinte e três, talvez o salmo mais amado de todos os tempos.
+campo||Ouça cada palavra como se o próprio Pastor estivesse sentado ao lado da sua cama.
+pastor_ovelhas|Salmo 23:1|O Senhor é o meu pastor; nada me faltará.
+campo|Salmo 23:2|Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas.
+rio|Salmo 23:3|Refrigera a minha alma; guia-me pelas veredas da justiça, por amor do seu nome.
+montanha|Salmo 23:4|Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo.
+pastor_ovelhas|Salmo 23:4|A tua vara e o teu cajado me consolam.
+ceu_noturno|Salmo 23:5|Preparas uma mesa perante mim na presença dos meus inimigos.
+luz_divina|Salmo 23:5|Unges a minha cabeça com óleo, e o meu cálice transborda.
+nascer_sol|Salmo 23:6|Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida.
+campo|Salmo 23:6|E habitarei na casa do Senhor por longos dias.
+pastor_ovelhas||Senhor, Tu és o meu pastor, e eu sou uma ovelha cansada que volta para o Teu cuidado.
+campo||Eu não preciso fingir que sou forte, porque o Pastor conhece a fraqueza das suas ovelhas.
+luz_divina||Nada me faltará, e eu digo isso pela fé, mesmo quando a minha conta e a minha casa dizem outra coisa.
+floresta||Tu sabes do que eu preciso antes mesmo que eu peça, e cuidas de mim nos detalhes.
+pastor_ovelhas||Às vezes eu me sinto perdido, como uma ovelha que se afastou do rebanho sem perceber.
+montanha||Mas Tu deixas as noventa e nove e vens me buscar, chamando o meu nome com paciência.
+campo||Deitar-me faz em verdes pastos: é isso que eu Te peço agora, um lugar verde para a minha alma deitar.
+rio||Leva-me para perto das águas tranquilas, longe do barulho, das cobranças e das comparações.
+campo||Ensina-me a parar, Senhor, porque às vezes eu corro tanto que esqueço de onde vem o meu sustento.
+pastor_ovelhas||A ovelha não se preocupa com o pasto de amanhã; ela confia no pastor que caminha à frente.
+rio||Quero aprender essa confiança simples, a de quem sabe que o próximo passo já foi preparado.
+ceu_noturno||Eu tenho bebido de águas agitadas, Senhor, notícias, preocupações e vozes que me deixam inquieto.
+rio||Nesta noite eu quero beber da Tua calma, e deixar que ela desça devagar até o fundo do meu peito.
+luz_divina||Refrigera a minha alma, Pai, como a brisa da noite que refresca depois de um dia quente.
+floresta||Guia-me pelas veredas certas, e quando eu não souber qual caminho tomar, segura a minha mão.
+montanha||Eu Te entrego também os meus vales, aqueles lugares escuros que eu atravesso em silêncio.
+chuva_janela||O vale do luto, o vale da doença, o vale da solidão e o vale das perguntas sem resposta.
+vela||Mesmo ali, Senhor, eu não preciso temer mal algum, porque o salmo não diz que estou sozinho.
+montanha||Ele diz: Tu estás comigo, e essa é a frase que eu quero levar para o meu travesseiro hoje.
+pastor_ovelhas||A Tua vara me protege dos lobos, e o Teu cajado me puxa de volta quando eu me desvio.
+lua||Obrigado pela correção que me salvou de caminhos que eu nem sabia que eram perigosos.
+mar_calmo||Tu preparas uma mesa para mim, mesmo quando há pessoas contra mim ou situações que me ameaçam.
+campo||Eu não preciso me defender de tudo sozinho, porque o Senhor já arrumou a mesa e me convidou a sentar.
+luz_divina||Unge a minha cabeça com o Teu óleo, cura as feridas que o dia deixou e as que eu carrego há anos.
+nascer_sol||Faz o meu cálice transbordar, não de coisas, mas de gratidão, de paz e de presença.
+floresta||Se o meu cálice parece vazio hoje, enche-o com aquilo que só Tu podes derramar.
+luz_divina||Enche-o de fé para os dias difíceis e de esperança para as orações que ainda não foram respondidas.
+campo||Eu agradeço pelas pequenas bênçãos de hoje, pelo pão, pelo abrigo e pelo ar que eu respiro.
+mar_calmo||Agradeço pelas pessoas que me fizeram bem, e entrego a Ti as que me feriram.
+nascer_sol||A bondade e a misericórdia vão me seguir amanhã, como dois amigos que caminham atrás de mim.
+pastor_ovelhas||Quando eu olhar para trás, vou ver as marcas da Tua bondade em cada passo da minha história.
+montanha||Vou lembrar dos vales que atravessei e perceber que em nenhum deles eu estive sozinho.
+floresta||Vou lembrar das portas que se fecharam e entender que algumas delas foram o Teu cuidado me protegendo.
+campo||E vou agradecer, porque a Tua bondade me alcançou até quando eu não merecia.
+lua||E no fim de tudo, Senhor, eu sei onde vou morar: na Tua casa, para sempre.
+ceu_noturno||Essa certeza acalma o meu coração mais do que qualquer garantia que este mundo possa oferecer.
+campo||Por isso, nesta noite, eu me deito como uma ovelha deitada na relva, sem medo do escuro.
+pastor_ovelhas||O Pastor está acordado, vigiando o rebanho, e eu posso fechar os olhos.
+campo||Obrigado, Bom Pastor, porque Tu deste a Tua vida pelas ovelhas, e eu sou uma delas.
+vela||Em nome de Jesus, o Pastor que me conhece pelo nome, eu descanso.
+
+# salmo91 | Salmo 91 · Proteção
+cruz||Agora chegamos ao Salmo noventa e um, o salmo da proteção, o abrigo de tantas gerações.
+lua||Se existe algum medo dentro de você esta noite, deixe que estas palavras o envolvam como um cobertor.
+ceu_noturno|Salmo 91:1|Aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.
+montanha|Salmo 91:2|Direi do Senhor: Ele é o meu Deus, o meu refúgio, a minha fortaleza, e nele confiarei.
+floresta|Salmo 91:3|Porque ele te livrará do laço do passarinheiro e da peste perniciosa.
+aguia|Salmo 91:4|Ele te cobrirá com as suas penas, e debaixo das suas asas estarás seguro.
+luz_divina|Salmo 91:4|A sua verdade é escudo e proteção.
+lua|Salmo 91:5|Não temerás espanto noturno, nem seta que voe de dia,
+ceu_noturno|Salmo 91:6|nem peste que ande na escuridão, nem mortandade que assole ao meio-dia.
+montanha|Salmo 91:7|Mil cairão ao teu lado, e dez mil à tua direita, mas tu não serás atingido.
+nascer_sol|Salmo 91:8|Somente com os teus olhos contemplarás, e verás a recompensa dos ímpios.
+vela|Salmo 91:9|Porque tu, ó Senhor, és o meu refúgio; no Altíssimo fizeste a tua habitação.
+rio|Salmo 91:10|Nenhum mal te sucederá, nem praga alguma chegará à tua tenda.
+luz_divina|Salmo 91:11|Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.
+floresta|Salmo 91:12|Eles te sustentarão nas suas mãos, para que não tropeces com o teu pé em pedra.
+montanha|Salmo 91:13|Pisarás o leão e a áspide; calcarás aos pés o filho do leão e a serpente.
+cruz|Salmo 91:14|Porque tão encarecidamente me amou, também eu o livrarei; eu o porei num alto retiro, porque conheceu o meu nome.
+rio|Salmo 91:15|Ele me invocará, e eu lhe responderei; estarei com ele na angústia.
+luz_divina|Salmo 91:15|Eu o livrarei e o glorificarei.
+nascer_sol|Salmo 91:16|Eu o fartarei com longos dias e lhe mostrarei a minha salvação.
+ceu_noturno||Senhor Altíssimo, nesta noite eu escolho habitar no Teu esconderijo.
+ceu_noturno||Não quero apenas visitar a Tua presença quando o medo aperta, eu quero morar nela.
+lua||Cobre esta noite com a Tua sombra, como uma nuvem que protege do calor e do perigo.
+montanha||Tu és o meu refúgio, a minha fortaleza, o lugar alto onde nenhum inimigo me alcança.
+mar_calmo||Eu declaro com a minha boca, aqui deitado: o Senhor é o meu Deus, e nele eu confio.
+floresta||Livra-me dos laços escondidos, das armadilhas que eu não vejo, das conversas armadas contra mim.
+aguia||Cobre-me com as Tuas penas, Senhor, como a ave que abriga os filhotes debaixo das asas.
+vela||Debaixo das Tuas asas está quente, está seguro, e o barulho do mundo fica do lado de fora.
+lua||Eu não vou temer o espanto noturno, os barulhos da casa, os pensamentos que crescem no escuro.
+chuva_janela||Se o medo bater à porta nesta madrugada, que ele encontre a Tua presença já sentada na sala.
+ceu_noturno||Nenhuma seta, nenhuma notícia ruim, nenhuma palavra lançada contra mim terá a última palavra.
+cruz||A última palavra sobre a minha vida é Tua, e ela foi dita na cruz: está consumado.
+mar_calmo||Eu me escondo no Teu nome como uma criança se esconde no abraço do pai durante a tempestade.
+chuva_janela||Lá fora pode chover, pode trovejar, pode ventar forte, mas no Teu abrigo a chama continua acesa.
+luz_divina||Pai, eu Te peço proteção para o meu corpo, para que nenhuma doença encontre lugar em mim.
+nascer_sol||Protege a minha mente da ansiedade, da depressão, dos pensamentos que me acusam e me diminuem.
+vela||Protege as minhas emoções, para que eu não seja governado pelo medo, mas pela fé.
+luz_divina||Guarda a minha família, cada nome que eu carrego no coração, onde quer que estejam nesta noite.
+chuva_janela||Os que estão viajando, guarda nas estradas; os que estão no hospital, cobre com a Tua mão.
+rio||Os que estão longe de Ti, Senhor, alcança com o Teu amor antes que amanheça.
+montanha||Mil podem cair ao meu lado, mas eu não vou viver com medo, porque a minha vida está escondida em Ti.
+floresta||Envia os Teus anjos para acamparem ao redor desta casa, dos portões e de cada janela.
+luz_divina||Que eles me guardem em todos os meus caminhos, inclusive nos caminhos que eu vou percorrer amanhã.
+nascer_sol||Sustenta os meus pés, para que eu não tropece nas pedras que aparecerem na estrada.
+floresta||Que os Teus anjos estejam comigo na estrada, no trabalho, nas conversas e nas decisões.
+luz_divina||E que eles guardem também os meus sonhos, para que eu não perca a esperança no que Tu prometeste.
+aguia||Leva-me para o alto, Senhor, acima das preocupações, onde o ar é limpo e a visão é clara.
+cruz||Em nome de Jesus, eu piso sobre todo medo, sobre toda maldição e sobre todo engano.
+montanha||Não pela minha força, mas porque o Senhor já venceu, e eu caminho na Tua vitória.
+nascer_sol||Tu disseste: porque ele me amou, eu o livrarei. Senhor, eu Te amo, mesmo com tantas falhas.
+montanha||Eu conheço o Teu nome, e o Teu nome é torre forte; o justo corre para ela e fica seguro.
+lua||Quando eu Te chamar, Tu vais responder, e isso me basta para dormir em paz.
+chuva_janela||Tu prometeste estar comigo na angústia, não apenas depois dela, mas no meio dela.
+ceu_noturno||Então, se hoje foi um dia de angústia, eu sei que o Senhor esteve sentado ao meu lado o tempo todo.
+lua||Eu Te entrego o medo da morte, o medo da perda, o medo do que pode acontecer amanhã.
+ceu_noturno||Os meus dias estão nas Tuas mãos, cada um deles contado e cuidado por Ti.
+nascer_sol||Dá-me longos dias para Te servir, e mostra a mim e à minha casa a Tua salvação.
+aguia||Assim como a águia descansa no vento, eu quero descansar em Ti, sem bater as asas o tempo todo.
+montanha||Eu me escondo no Altíssimo, e lá do alto o problema parece muito menor do que parecia aqui embaixo.
+vela||Repita comigo, bem baixinho: eu habito no esconderijo do Altíssimo.
+ceu_noturno||Eu descanso à sombra do Onipotente. Ele é o meu refúgio, e nele eu confio.
+luz_divina||Obrigado, Senhor, porque esta casa está coberta, esta noite está guardada e o meu sono está protegido.
+floresta||Eu recebo a Tua proteção agora, em nome de Jesus.
+
+# salmo121 | Salmo 121 · O socorro vem do Senhor
+montanha||Agora vamos levantar os olhos com o Salmo cento e vinte e um.
+nascer_sol||É um cântico dos peregrinos, das pessoas cansadas da estrada que olhavam para os montes e lembravam de Deus.
+montanha|Salmo 121:1|Elevo os meus olhos para os montes; de onde me virá o socorro?
+luz_divina|Salmo 121:2|O meu socorro vem do Senhor, que fez o céu e a terra.
+floresta|Salmo 121:3|Não deixará vacilar o teu pé; aquele que te guarda não cochilará.
+lua|Salmo 121:4|Eis que não cochila nem dorme o guarda de Israel.
+nascer_sol|Salmo 121:5|O Senhor é quem te guarda; o Senhor é a tua sombra à tua mão direita.
+ceu_noturno|Salmo 121:6|O sol não te molestará de dia, nem a lua de noite.
+vela|Salmo 121:7|O Senhor te guardará de todo mal; ele guardará a tua alma.
+campo|Salmo 121:8|O Senhor guardará a tua entrada e a tua saída, desde agora e para sempre.
+montanha||Senhor, eu levanto os meus olhos, que hoje estiveram tão baixos, presos no chão dos problemas.
+chuva_janela||Eu procurei socorro em muitos lugares, em pessoas, em telas, em distrações que não me encheram.
+luz_divina||Mas agora eu confesso: o meu socorro vem de Ti, o Criador do céu e da terra.
+ceu_noturno||Olho para o céu desta noite e lembro que Tu sustentas cada estrela pelo nome.
+lua||Se Tu cuidas das estrelas, certamente cuidas também de mim e de tudo o que me preocupa.
+ceu_noturno||As estrelas não se preocupam em brilhar; elas apenas ocupam o lugar que Tu lhes deste.
+montanha||Ajuda-me a descansar no meu lugar, sem querer controlar o que pertence somente a Ti.
+nascer_sol||Os montes são altos, Senhor, mas Tu és mais alto que todos eles, e é para Ti que eu olho.
+floresta||Firma os meus pés, Senhor, porque eu tenho andado em terreno escorregadio.
+rio||Não me deixes vacilar nas decisões, na fé, nem nas promessas que eu fiz diante de Ti.
+lua||Que alívio saber que Tu não dormes, que enquanto eu durmo Tu continuas de guarda.
+mar_calmo||Eu posso desligar, porque o Senhor não desliga; posso descansar, porque o Senhor não se cansa.
+chuva_janela||Eu não preciso vigiar a noite inteira com medo, contando as horas e imaginando o pior.
+floresta||Esse trabalho não é meu, é Teu, e Tu o fazes com perfeição.
+lua||Enquanto a cidade dorme e as luzes se apagam, os Teus olhos continuam abertos sobre mim.
+vela||Tu vês o quarto do hospital, a casa vazia, a cama de quem chora e o berço de quem acabou de nascer.
+chuva_janela||Nenhuma noite é longa demais para a Tua vigilância, nenhum problema é pesado demais para o Teu braço.
+nascer_sol||Sê a minha sombra à mão direita, perto o suficiente para eu sentir, firme o suficiente para eu confiar.
+campo||Guarda-me do calor das pressões do dia e dos medos frios da madrugada.
+rio||Guarda-me de todo mal, Senhor, e guarda principalmente a minha alma.
+luz_divina||Que eu não perca a fé, que eu não perca a esperança, que eu não perca a ternura no meio das lutas.
+floresta||Guarda a minha saída amanhã cedo, quando eu abrir a porta para enfrentar o dia.
+lua||Guarda a minha entrada quando eu voltar, cansado, e encontrar a minha casa em paz.
+rio||Guarda as entradas e saídas dos meus filhos, da escola, do trabalho, das amizades e dos caminhos.
+campo||Guarda quem está começando um caminho novo e quem está terminando uma fase difícil.
+floresta||Guarda quem saiu de casa magoado e ainda não encontrou o caminho de volta.
+mar_calmo||Traz de volta, Senhor, os que se perderam, e acende de novo a luz na janela de cada lar.
+montanha||Desde agora e para sempre, diz o salmo, e eu gosto desse para sempre, Senhor.
+ceu_noturno||Não é uma proteção de um dia só, é um cuidado que me acompanha a vida inteira.
+nascer_sol||Quando eu era criança, Tu já me guardavas; e quando eu for idoso, Tu ainda vais me guardar.
+luz_divina||Por isso eu entrego esta noite com confiança, como quem entrega a chave da casa a um amigo fiel.
+lua||O guarda de Israel está de plantão, e eu posso fechar os olhos agora.
+mar_calmo||Obrigado, Senhor, o meu socorro vem de Ti.
+
+# salmo27 | Salmo 27 · O Senhor é minha luz
+nascer_sol||Agora vamos para o Salmo vinte e sete, um salmo de coragem para as noites mais escuras.
+luz_divina|Salmo 27:1|O Senhor é a minha luz e a minha salvação; a quem temerei?
+montanha|Salmo 27:1|O Senhor é a força da minha vida; de quem me recearei?
+floresta|Salmo 27:3|Ainda que um exército me cercasse, o meu coração não temeria.
+lua|Salmo 27:4|Uma coisa pedi ao Senhor, e a buscarei: que possa morar na casa do Senhor todos os dias da minha vida,
+luz_divina|Salmo 27:4|para contemplar a formosura do Senhor e aprender no seu templo.
+montanha|Salmo 27:5|Porque no dia da adversidade me esconderá no seu pavilhão;
+cruz|Salmo 27:5|no oculto do seu tabernáculo me esconderá, e me porá sobre uma rocha.
+luz_divina|Salmo 27:8|Quando tu disseste: Buscai o meu rosto, o meu coração te disse: O teu rosto, Senhor, buscarei.
+rio|Salmo 27:10|Porque, quando meu pai e minha mãe me desampararem, o Senhor me recolherá.
+campo|Salmo 27:13|Pereceria sem dúvida, se não cresse que veria a bondade do Senhor na terra dos viventes.
+nascer_sol|Salmo 27:14|Espera no Senhor, anima-te, e ele fortalecerá o teu coração; espera, pois, no Senhor.
+luz_divina||Senhor, Tu és a minha luz, e eu preciso tanto de luz nesta noite.
+vela||Há coisas dentro de mim que ficaram escuras, e eu nem sei mais como acendê-las.
+nascer_sol||Acende em mim a esperança que se apagou, a fé que esfriou e a alegria que ficou pelo caminho.
+ceu_noturno||Uma pequena chama basta para vencer a escuridão de um quarto inteiro.
+luz_divina||Então acende em mim a Tua chama, Senhor, e que ela não se apague com o vento das dificuldades.
+ceu_noturno||A quem eu vou temer, se o próprio Deus é a minha salvação?
+montanha||Tu és a força da minha vida, quando o meu corpo está cansado e a minha coragem acabou.
+floresta||Mesmo que muitos problemas me cerquem como um exército, o meu coração pode ficar firme.
+montanha||Eu Te peço, Senhor, a mesma coisa que Davi pediu: estar perto de Ti, todos os dias.
+floresta||Mais do que respostas, mais do que milagres, eu quero a Tua presença.
+nascer_sol||Porque na Tua presença há plenitude de alegria, e à Tua direita há delícias para sempre.
+floresta||Eu quero ser como quem se senta aos Teus pés, sem pressa de ir embora.
+luz_divina||Eu quero contemplar a Tua beleza, e deixar que ela coloque cada coisa no seu tamanho certo.
+chuva_janela||Quando vier o dia mau, esconde-me no Teu abrigo, no lugar secreto que só os Teus filhos conhecem.
+cruz||Põe os meus pés sobre a rocha, que é Cristo, firme quando tudo ao redor se move.
+montanha||Quando a areia se mover debaixo de mim, que eu esteja firmado sobre aquilo que não muda.
+rio||As circunstâncias passam como água, mas a Tua Palavra permanece para sempre.
+vela||Eu ouço o Teu convite: buscai o meu rosto. E o meu coração responde: eu vou buscar, Senhor.
+ceu_noturno||Talvez alguém que está ouvindo esta oração tenha sido abandonado por quem deveria cuidar.
+campo||Pai, recolhe essa pessoa agora, abraça a criança ferida que ainda vive dentro dela.
+lua||Tu nunca abandonas, nunca te cansas de nós, nunca fechas a porta da Tua casa.
+campo||Ainda que pessoas tenham ido embora, Tu ficaste, e o Teu amor nunca mudou de endereço.
+ceu_noturno||Eu Te agradeço pelas pessoas que colocaste no meu caminho para cuidar de mim nos dias difíceis.
+campo||Eu creio que vou ver a Tua bondade, não só no céu, mas aqui, na terra dos viventes.
+nascer_sol||Vou ver a Tua bondade na minha saúde, na minha família, no meu trabalho e no meu coração.
+rio||Ensina-me a esperar, Senhor, sem desespero, sem pressa e sem amargura.
+montanha||Fortalece o meu coração enquanto eu espero, porque a espera também é lugar de milagre.
+nascer_sol||O agricultor espera a chuva, a noite espera a manhã, e eu espero em Ti com paciência.
+floresta||Cada dia de espera está sendo usado para fortalecer raízes que ninguém consegue ver.
+ceu_noturno||Eu espero no Senhor, e a minha alma se acalma ao saber que o Teu tempo é perfeito.
+
+# salmo46 | Salmo 46 · Aquietai-vos
+mar_calmo||Agora, o Salmo quarenta e seis. Deixe o seu corpo ficar pesado sobre a cama e apenas escute.
+montanha|Salmo 46:1|Deus é o nosso refúgio e fortaleza, socorro bem presente na angústia.
+mar_calmo|Salmo 46:2|Pelo que não temeremos, ainda que a terra se mude,
+montanha|Salmo 46:2|e ainda que os montes se transportem para o meio dos mares.
+mar_calmo|Salmo 46:3|Ainda que as águas rujam e se perturbem, ainda que os montes se abalem pela sua braveza.
+rio|Salmo 46:4|Há um rio cujas correntes alegram a cidade de Deus, o santuário das moradas do Altíssimo.
+nascer_sol|Salmo 46:5|Deus está no meio dela; não será abalada. Deus a ajudará ao romper da manhã.
+luz_divina|Salmo 46:7|O Senhor dos Exércitos está conosco; o Deus de Jacó é o nosso refúgio.
+ceu_noturno|Salmo 46:10|Aquietai-vos e sabei que eu sou Deus.
+mar_calmo||Senhor, o meu mundo às vezes parece um mar agitado, com ondas que não param de chegar.
+chuva_janela||Mudanças, perdas, notícias e incertezas, coisas que eu achava firmes e que se moveram de repente.
+montanha||Mas Tu és refúgio e fortaleza, e não um refúgio distante, um socorro bem presente.
+mar_calmo||Presente agora, neste quarto, nesta respiração, neste minuto.
+rio||Eu não preciso subir ao céu para Te encontrar, porque Tu desceste para me encontrar aqui.
+lua||Tu estás na minha respiração, no meu travesseiro, no silêncio que agora começa a crescer.
+rio||Há um rio de paz que nasce em Ti e corre para dentro de mim, mesmo quando lá fora há tempestade.
+mar_calmo||Deixa esse rio correr, Senhor, e acalmar cada parte agitada da minha alma.
+nascer_sol||Tu estás no meio da minha casa, e por isso ela não será abalada.
+luz_divina||Tu me ajudarás ao romper da manhã, quando a luz chegar e eu precisar de força para recomeçar.
+nascer_sol||A noite não dura para sempre, Senhor; a manhã sempre vem, e com ela as Tuas misericórdias.
+campo||As Tuas misericórdias se renovam a cada manhã, e grande é a Tua fidelidade.
+ceu_noturno||Agora eu ouço o Teu convite mais lindo: aquietai-vos e sabei que eu sou Deus.
+lua||Eu me aquieto, Senhor. Paro de lutar, paro de calcular, paro de tentar controlar tudo.
+mar_calmo||Aquietar não é desistir, é confiar que Tu estás agindo enquanto eu descanso.
+vela||Aquieta as minhas mãos, que hoje fizeram tanto, e às vezes fizeram demais.
+rio||Aquieta os meus pensamentos, que correm como água, e faz deles um lago sereno.
+floresta||Aquieta as vozes que me cobram, as que vêm de fora e as que nascem dentro de mim.
+lua||Aquieta o meu coração, que bate apressado, e ensina a ele o ritmo da Tua paz.
+mar_calmo||Assim como as ondas ficam mansas quando o vento para, deixa a minha alma ficar mansa.
+rio||Que a minha mente seja como um rio calmo, refletindo o céu, sem pressa de chegar a lugar nenhum.
+lua||Eu desisto de ter todas as respostas antes de dormir, e escolho descansar na Tua presença.
+floresta||Eu desisto de carregar sozinho aquilo que Tu já prometeste carregar comigo.
+ceu_noturno||Tu és Deus, e eu não sou. Que alívio, Senhor, que alívio saber disso.
+luz_divina||Tu és Deus sobre a minha saúde, sobre as minhas finanças, sobre o meu passado e o meu futuro.
+mar_calmo||O Senhor dos Exércitos está comigo, e mesmo assim fala comigo com a voz mansa de um Pai.
+montanha||O Deus de Jacó, que cuidou de um homem cheio de falhas, também cuida de mim.
+cruz||Jacó lutou a noite inteira e saiu abençoado; eu também saio desta noite abençoado por Ti.
+nascer_sol||Mesmo que eu saia mancando como ele, sei que saio marcado pela Tua graça.
+lua||Fica comigo agora, enquanto o silêncio enche este quarto.
+ceu_noturno||Não preciso dizer mais nada, Senhor; o silêncio também é oração quando o coração está voltado para Ti.
+mar_calmo||Respire devagar mais uma vez, e deixe que a quietude de Deus ocupe todo o espaço.
+rio||Na quietude, eu sei que Tu és Deus. Na quietude, eu sei que estou seguro.
+
+# salmo139 | Salmo 139 · Deus me conhece
+ceu_noturno||Agora vamos orar com o Salmo cento e trinta e nove, o salmo de quem é conhecido e amado por inteiro.
+campo|Salmo 139:1|Senhor, tu me sondaste e me conheces.
+vela|Salmo 139:2|Tu conheces o meu assentar e o meu levantar; de longe entendes o meu pensamento.
+mar_calmo|Salmo 139:4|Sem que haja uma palavra na minha língua, eis que, ó Senhor, tudo conheces.
+luz_divina|Salmo 139:5|Tu me cercaste em volta e puseste sobre mim a tua mão.
+montanha|Salmo 139:7|Para onde me irei do teu espírito, ou para onde fugirei da tua face?
+mar_calmo|Salmo 139:9|Se tomar as asas da alva, se habitar nas extremidades do mar,
+aguia|Salmo 139:10|até ali a tua mão me guiará e a tua destra me susterá.
+lua|Salmo 139:11|Se disser: Decerto que as trevas me encobrirão, então a noite será luz à roda de mim.
+ceu_noturno|Salmo 139:12|Nem ainda as trevas me encobrem de ti; mas a noite resplandece como o dia.
+mar_calmo|Salmo 139:13|Pois possuíste o meu interior; cobriste-me no ventre de minha mãe.
+nascer_sol|Salmo 139:14|Eu te louvarei, porque de um modo tão maravilhoso fui formado.
+campo|Salmo 139:17|E quão preciosos me são, ó Deus, os teus pensamentos! Quão grande é a soma deles!
+luz_divina|Salmo 139:23|Sonda-me, ó Deus, e conhece o meu coração; prova-me e conhece os meus pensamentos.
+floresta|Salmo 139:24|E vê se há em mim algum caminho mau, e guia-me pelo caminho eterno.
+ceu_noturno||Senhor, Tu me conheces melhor do que eu mesmo me conheço.
+montanha||Conheces os meus segredos, os meus cansaços, os meus sonhos e as minhas vergonhas.
+nascer_sol||Conheces as orações que eu não consegui terminar e os suspiros que eu não soube transformar em palavras.
+chuva_janela||Conheces as lágrimas que caíram no travesseiro e as que eu engoli para parecer forte.
+rio||E mesmo conhecendo tudo, Tu não foste embora. Tu continuas aqui, me chamando de filho.
+chuva_janela||Às vezes eu me sinto invisível, como se ninguém percebesse o que acontece dentro de mim.
+luz_divina||Mas Tu percebes. Tu sabes quando eu me sento, quando me levanto e quando eu choro escondido.
+floresta||Antes que eu consiga explicar o que sinto, Tu já entendeste, e isso me consola.
+montanha||Não há lugar para onde eu possa ir que fique longe de Ti, nem o mais alto, nem o mais fundo.
+mar_calmo||Se eu for até o fim do mar, a Tua mão estará lá, me segurando.
+lua||E a escuridão desta noite não é escura para Ti; para Ti a noite brilha como o dia.
+ceu_noturno||Então eu não tenho medo do escuro, porque o escuro não esconde nada dos Teus olhos.
+vela||Se a noite da minha alma parece longa, lembra-me de que para Ti ela já é dia.
+luz_divina||Tu já enxergas a saída do túnel que eu ainda estou atravessando.
+nascer_sol||Tu me formaste com cuidado, no ventre da minha mãe, e não cometeste nenhum erro ao me criar.
+nascer_sol||Perdoa-me pelas vezes em que eu me desprezei, me comparei ou desejei ser outra pessoa.
+campo||Eu Te louvo, porque fui feito de modo maravilhoso, e quero olhar para mim com os Teus olhos.
+nascer_sol||Cura a imagem distorcida que eu tenho de mim mesmo, construída por críticas e comparações.
+ceu_noturno||Que eu me veja como Tu me vês: amado, desejado e criado com propósito.
+rio||Os Teus pensamentos sobre mim são muitos, como a areia da praia, e são pensamentos de paz.
+mar_calmo||Sonda o meu coração agora, Senhor, com a Tua luz suave, sem pressa e sem condenação.
+campo||Se houver mágoa, arranca; se houver orgulho, quebra; se houver culpa, lava com o Teu perdão.
+cruz||Eu recebo o perdão que Jesus conquistou na cruz, e deixo aos Teus pés o que eu não consigo carregar.
+floresta||Guia-me pelo caminho eterno, um passo de cada vez, uma noite de cada vez.
+montanha||Quando eu não souber para onde ir, que a Tua mão me conduza como conduziu o salmista.
+rio||Quando eu me afastar, que o Teu amor me alcance e me traga de volta para casa.
+aguia||Seja nas alturas ou nas profundezas, a Tua destra me sustenta e não me deixa cair.
+lua||Eu adormeço sabendo que sou conhecido, cercado e amado pelo Deus que nunca me perde de vista.
+
+# ansiedade | Entrega da ansiedade
+vela||Agora eu quero orar especialmente por você que está com o coração ansioso.
+chuva_janela||Talvez a sua respiração esteja curta, o peito apertado e a mente cheia de cenários difíceis.
+rio||Vamos entregar tudo isso a Deus, uma coisa de cada vez, com calma.
+luz_divina|Salmo 55:22|Lança o teu cuidado sobre o Senhor, e ele te susterá.
+luz_divina|Filipenses 4:6|Não estejais inquietos por coisa alguma; antes, as vossas petições sejam em tudo conhecidas diante de Deus,
+nascer_sol|Filipenses 4:6|pela oração e súplica, com ação de graças.
+rio|Filipenses 4:7|E a paz de Deus, que excede todo o entendimento, guardará os vossos corações e os vossos sentimentos em Cristo Jesus.
+floresta|1 Pedro 5:7|Lançando sobre ele toda a vossa ansiedade, porque ele tem cuidado de vós.
+campo|Mateus 11:28|Vinde a mim, todos os que estais cansados e oprimidos, e eu vos aliviarei.
+mar_calmo||Senhor Jesus, eu venho cansado, como Tu convidaste, e Te peço o alívio que só Tu podes dar.
+lua||Eu Te entrego agora a preocupação com o dinheiro, com as contas e com o que vai faltar.
+ceu_noturno||Tu alimentas as aves do céu, e eu valho muito mais do que elas para Ti.
+chuva_janela||Eu Te entrego a preocupação com a saúde, com os exames, com os sintomas que me assustam.
+luz_divina||Tu és o médico dos médicos, e eu descanso o meu corpo nas Tuas mãos.
+lua||Eu Te entrego a preocupação com a minha família, com os filhos, com os pais e com quem eu amo.
+luz_divina||Eles foram Teus antes de serem meus, e Tu cuidas deles melhor do que eu poderia cuidar.
+vela||Eu Te entrego a solidão, as noites em que eu me senti esquecido, mesmo cercado de pessoas.
+ceu_noturno||Tu és o amigo que nunca dorme, e Tu estás aqui comigo agora.
+floresta||Eu Te entrego o medo do futuro, as perguntas sobre o trabalho e as decisões que ainda não tomei.
+montanha||O amanhã já tem o Teu nome escrito, e Tu já estás lá, esperando por mim.
+nascer_sol||Eu não preciso viver o amanhã hoje; basta a cada dia o seu próprio cuidado.
+campo||Olhai os lírios do campo, disse Jesus; eles não se cansam e ainda assim são vestidos de beleza.
+rio||Eu Te entrego também as conversas que machucaram, as palavras que eu disse e as que ouvi.
+lua||Eu não vou repetir cada frase na minha cabeça esta noite; eu solto tudo isso agora.
+ceu_noturno||Respire fundo comigo. Inspire devagar, sentindo o ar entrar, e diga no coração: Senhor, eu confio.
+ceu_noturno||Agora solte o ar devagar, e diga no coração: eu entrego.
+mar_calmo||Mais uma vez. Inspire a paz de Deus, sem pressa, e expire o medo, bem devagar.
+vela||Sinta os seus ombros descendo, a mandíbula soltando e as mãos ficando leves sobre o lençol.
+lua||Não há nada que você precise fazer agora; o seu único trabalho é receber o cuidado de Deus.
+campo||Pai, que a Tua paz, que excede todo entendimento, guarde a minha mente como uma sentinela.
+luz_divina||Quando um pensamento ansioso voltar, que eu o entregue de novo, quantas vezes forem necessárias.
+mar_calmo||Tu não Te cansas de receber as minhas preocupações; Tu me convidas a lançá-las sobre Ti.
+nascer_sol||Eu troco o meu cansaço pelo Teu alívio, o meu medo pela Tua presença, a minha pressa pelo Teu tempo.
+montanha||Obrigado porque eu não preciso resolver nada esta noite; preciso apenas descansar.
+lua||O meu corpo está pesado, a minha respiração está mais lenta, e a minha alma está entregue.
+mar_calmo||Se a ansiedade é uma luta antiga para você, eu oro para que o Senhor traga cura completa, de dentro para fora.
+rio||Que a paz não seja só um momento desta oração, mas um rio que continua correndo amanhã.
+nascer_sol||Que amanhã, quando a ansiedade tentar voltar, você se lembre desta noite e desta entrega.
+luz_divina||E que você descubra que Deus continua o mesmo, tão perto quanto está agora.
+ceu_noturno||Em nome de Jesus, a ansiedade não governa esta casa; quem governa é o Príncipe da Paz.
+
+# bencao | Bênção final e Pai-Nosso
+luz_divina||Agora receba a bênção, aquela que Deus mandou pronunciar sobre o seu povo.
+vela|Números 6:24|O Senhor te abençoe e te guarde.
+nascer_sol|Números 6:25|O Senhor faça resplandecer o seu rosto sobre ti, e tenha misericórdia de ti.
+ceu_noturno|Números 6:26|O Senhor sobre ti levante o seu rosto, e te dê a paz.
+floresta||Recebo essa bênção agora sobre a minha vida, sobre o meu sono e sobre a minha casa.
+rio||Que o rosto do Senhor brilhe sobre você, que está ouvindo, e sobre cada pessoa que você ama.
+lua||Que esta noite seja leve, que o sono venha manso, e que amanhã você acorde protegido.
+nascer_sol||Que amanhã você acorde com forças renovadas, como a águia que sobe nas alturas.
+campo||Que a sua casa seja um lugar de paz, e que nela haja riso, perdão e descanso.
+floresta||Agora vamos orar juntos a oração que Jesus nos ensinou, bem devagar.
+lua|Mateus 6:9|Pai nosso, que estás nos céus, santificado seja o teu nome.
+luz_divina|Mateus 6:10|Venha o teu reino, seja feita a tua vontade, assim na terra como no céu.
+campo|Mateus 6:11|O pão nosso de cada dia nos dá hoje.
+rio|Mateus 6:12|Perdoa-nos as nossas dívidas, assim como nós perdoamos aos nossos devedores.
+floresta|Mateus 6:13|E não nos deixes cair em tentação, mas livra-nos do mal.
+nascer_sol|Mateus 6:13|Porque teu é o reino, e o poder, e a glória, para sempre. Amém.
+ceu_noturno||Senhor, obrigado por esta noite, por cada salmo e por cada palavra que acalmou o nosso coração.
+vela||Guarda quem já está dormindo, e guarda também quem ainda está acordado, lutando contra o medo.
+campo||Eu oro por cada pedido deixado nos comentários, por cada nome e por cada lágrima.
+nascer_sol||Tu conheces cada história, e nenhuma delas é pequena demais para o Teu cuidado.
+rio||Eu oro pelos doentes, para que recebam cura e alívio nesta madrugada.
+chuva_janela||Eu oro pelos que estão de luto, para que o Teu consolo seja mais forte do que a saudade.
+ceu_noturno||Eu oro pelos que estão desempregados, endividados ou sem saber como vão pagar as contas.
+floresta||Eu oro pelos que estão longe de Ti, para que encontrem o caminho de casa.
+rio||Eu oro pelos casamentos feridos, pelos filhos distantes e pelas famílias que precisam de reconciliação.
+luz_divina||E eu oro por você, que ficou até aqui, para que saiba que é profundamente amado por Deus.
+lua||Agora, deixe o corpo afundar no colchão, e deixe os ombros soltarem.
+mar_calmo||Solte o rosto, solte as mãos, solte o peso que ainda está preso no peito.
+lua||Deixe a respiração encontrar o seu próprio ritmo, lento e tranquilo, como as ondas na areia.
+ceu_noturno||Não lute contra o sono; deixe que ele venha devagar, como a noite que cobre a terra.
+ceu_noturno||Você está seguro. Você é amado. Você pode dormir.
+campo||Deus está cuidando de tudo o que ficou por fazer, e amanhã Ele estará lá primeiro.
+vela||O Senhor é o seu pastor, e nada lhe faltará.
+lua||O Senhor é a sua luz, e a escuridão não tem poder sobre você.
+rio||O Senhor está acordado, guardando a sua entrada e a sua saída.
+aguia||O Senhor cobre você com as suas penas, e debaixo das suas asas você está seguro.
+montanha||O Senhor é o seu refúgio e a sua fortaleza, agora e por todas as noites da sua vida.
+mar_calmo||Aquiete o coração, e saiba que Ele é Deus.
+floresta||Ele conhece você por inteiro, e mesmo assim chama você de filho amado.
+nascer_sol||E a bondade e a misericórdia vão seguir você todos os dias da sua vida.
+mar_calmo||Descanse agora. A noite está guardada, e você está nas mãos do Pai.
+ceu_noturno||Em paz você se deita, e em paz você vai adormecer.
+vela||Durma bem, debaixo das asas do Altíssimo.
+lua||Em nome de Jesus. Amém.

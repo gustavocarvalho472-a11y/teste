@@ -153,9 +153,11 @@ def render_segmento(job):
     if os.path.exists(path): return path
     cmd = ["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-ss", "0.3", "-stream_loop", "-1",
            "-i", c["clip"]["arquivo_local"]]
-    fc = [f"[0:v]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},setsar=1,"
-          f"setpts=1.25*PTS,fps={FPS},trim=duration={L:.3f},setpts=PTS-STARTPTS,"
-          f"scale=w='trunc({W}*(1+0.06*t/{L:.3f})/2)*2':h=-2:eval=frame:flags=bicubic,crop={W}:{H}"]
+    # câmera lenta + Ken Burns 1,00 -> 1,06 numa única escala por frame (cobre 16:9 e já aplica o zoom)
+    z = f"(1+0.06*t/{L:.3f})"
+    fc = [f"[0:v]setpts=1.25*PTS,fps={FPS},trim=duration={L:.3f},setpts=PTS-STARTPTS,"
+          f"scale=w='trunc({W}*{z}/2)*2':h='trunc({H}*{z}/2)*2':force_original_aspect_ratio=increase:"
+          f"eval=frame:flags=bicubic,crop={W}:{H},setsar=1"]
     if fade_in: fc[0] += ",fade=t=in:st=0:d=1.2"
     if fade_out: fc[0] += f",fade=t=out:st={max(0, L - 1.6):.3f}:d=1.5"
     fc[0] += "[v0]"
@@ -169,7 +171,8 @@ def render_segmento(job):
         fc.append(f"[{last}][t{k}]overlay=0:0:enable='between(t,{a:.3f},{b:.3f})'[v{k}]")
         last = f"v{k}"
     cmd += ["-filter_complex", ";".join(fc), "-map", f"[{last}]", "-t", f"{L:.3f}", "-an",
-            "-c:v", "libx264", "-preset", "veryfast", "-crf", "17", "-pix_fmt", "yuv420p", "-r", str(FPS),
+            # intermediário: ultrafast é ~2x mais rápido; a qualidade final vem da codificação do bloco
+            "-c:v", "libx264", "-preset", "ultrafast", "-crf", "18", "-tune", "fastdecode", "-pix_fmt", "yuv420p", "-r", str(FPS),
             path + ".tmp.mp4"]
     run(cmd); os.replace(path + ".tmp.mp4", path)
     return path
@@ -346,25 +349,39 @@ def main():
     limite = a.previa or tl_total
     plano, jobs, total, ncenas = planejar(limite)
     print(f"{ncenas} cenas em {len(plano)} blocos, {limite/60:.1f} min", flush=True)
-    feitos = [0]
-    def seg(j):
-        render_segmento(j); feitos[0] += 1
-        if feitos[0] % 20 == 0: print(f"  segmentos {feitos[0]}/{len(jobs)}", flush=True)
-    with ThreadPoolExecutor(a.jobs) as ex: list(ex.map(seg, jobs))
-    print("segmentos ok", flush=True)
+    import threading, time as _time
+    t_ini = _time.time()
+    # o áudio (trilha + chuva + mix + loudnorm) roda em paralelo ao vídeo
+    audio_path = f"{WORK}/audio_{int(limite)}.wav"
+    erro_audio = []
+    def fazer_audio():
+        try: mixar_audio(limite, tl_total if not a.previa else limite + 180 + 60, audio_path)
+        except Exception as e: erro_audio.append(e)
+    th = threading.Thread(target=fazer_audio); th.start()
+    por_seg = {j[5]: j for j in jobs}
     blocos = []
     frases = json.load(open("timeline.json"))["frases"]
     os.makedirs(f"{WORK}/ass", exist_ok=True)
+    feitos = [0]
     for bid, segs, slots, t0 in plano:
         ass = gerar_ass(frases, t0, t0 + sum(slots), f"{WORK}/ass/{bid}_{int(limite)}.ass")
         p = f"{WORK}/blocos/{bid}_{h([segs, slots, open(ass).read()])}.mp4"
-        render_bloco(segs, slots, p, ass); blocos.append(p)
-        print(f"  bloco {bid} ok ({sum(slots)/60:.2f} min)", flush=True)
+        if not os.path.exists(p):
+            # bloco a bloco: segmentos em paralelo -> bloco -> apaga segmentos (economiza disco e permite retomar)
+            with ThreadPoolExecutor(a.jobs) as ex: list(ex.map(lambda s: render_segmento(por_seg[s]), segs))
+            render_bloco(segs, slots, p, ass)
+            if not a.previa:
+                for s in segs:
+                    if os.path.exists(s): os.remove(s)
+        blocos.append(p); feitos[0] += len(segs)
+        print(f"  bloco {bid} ok ({sum(slots)/60:.2f} min) | {feitos[0]}/{len(jobs)} cenas | {(_time.time()-t_ini)/60:.1f} min decorridos", flush=True)
+    th.join()
+    if erro_audio: raise erro_audio[0]
     lista = f"{WORK}/concat_{int(limite)}.txt"
     open(lista, "w").write("".join(f"file '{os.path.abspath(p)}'\n" for p in blocos))
     video = f"{WORK}/video_{int(limite)}.mp4"
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", video])
-    audio = mixar_audio(limite, tl_total if not a.previa else limite + 180 + 60, f"{WORK}/audio_{int(limite)}.wav")
+    audio = audio_path
     saida = "out/previa_2min.mp4" if a.previa else "out/oracao_da_noite_salmos.mp4"
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", video, "-i", audio, "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{limite:.3f}",

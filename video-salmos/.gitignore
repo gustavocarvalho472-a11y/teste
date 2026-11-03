@@ -9,3 +9,5 @@ out/*.mp4
 __pycache__/
 clips/*.log
 clips/pools_v1.json
+out/amostras_voz/
+out/*.mp3

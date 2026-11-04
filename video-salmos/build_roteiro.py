@@ -17,7 +17,7 @@ for n, line in enumerate(open(src, encoding="utf-8"), 1):
                 "mostrar_texto": bool(ref), "referencia": ref or None})
 dups = [f for f, c in collections.Counter(o["frase"] for o in out).items() if c > 1]
 if dups: erros.append(f"frases duplicadas: {dups}")
-json.dump(out, open("roteiro.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+json.dump(out, open(sys.argv[2] if len(sys.argv) > 2 else "roteiro.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
 words = sum(len(o["frase"].split()) for o in out)
 print(f"{len(out)} frases, {words} palavras")
 for b in titulos:

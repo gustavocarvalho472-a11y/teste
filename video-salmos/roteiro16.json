@@ -1,0 +1,826 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa nesta noite.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje eu quero orar por você que está deitado, mas não consegue descansar, porque a cabeça não para e o coração está apertado.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Talvez seja o medo das contas que estão chegando, do dinheiro que não fecha no fim do mês, e você não sabe de onde vai sair.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Talvez seja uma situação dentro de casa, um filho que te preocupa, um casamento ferido, uma família que já não conversa como antes.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Ou pode ser o trabalho, a pressão, o medo de perder o emprego, ou a angústia de estar procurando há meses e a porta não abrir.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "E tem gente que está sofrendo por causa de pessoas, amizades que se afastaram, palavras que machucaram, gente que fala mal e que persegue.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Às vezes é tudo isso junto, e você passa o dia inteiro sendo forte para todo mundo, mas quando deita, tudo aquilo que você segurou volta de uma vez.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Seja qual for o peso que você trouxe até aqui, eu quero que você saiba que não vai carregar isso sozinho esta noite.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Nós vamos orar por cada uma dessas áreas, uma por uma, com a Palavra de Deus nos Salmos, e você pode acompanhar deitado, do jeito que estiver.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Antes de começar, escreva aqui nos comentários o seu pedido de oração, ou simplesmente escreva amém, para eu saber que você está orando comigo.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Agora respira fundo, solta o ar devagar, e vamos entregar essa noite nas mãos do Senhor.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Eu quero começar orando por você que sente medo, aquele medo que não tem nome, que aperta o peito quando a casa fica em silêncio e a noite chega.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "É o medo de receber uma notícia ruim, de que alguém que você ama adoeça, de que o futuro dê errado, de que tudo que você construiu desmorone de repente.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "E o pior é que de noite tudo parece maior, um problema pequeno vira uma montanha, e a mente vai imaginando cenários que talvez nunca aconteçam.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "O Salmo noventa e um diz assim: aquele que habita no esconderijo do Altíssimo, à sombra do Onipotente descansará.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:1-2"
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Direi do Senhor: Ele é o meu refúgio e a minha fortaleza, o meu Deus, em quem confio.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:1-2"
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Repare que o salmista não diz que nunca vai ter problema, ele diz onde vai descansar, debaixo da sombra de Deus, perto o bastante para estar coberto.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Sombra só existe quando a gente está perto, ninguém fica na sombra de alguém que está longe, e é exatamente esse o convite desta noite, chegar perto.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "E mais adiante o mesmo salmo promete: não temerás espanto noturno, nem seta que voe de dia.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:5"
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Então ore comigo agora, com as suas palavras ou com as minhas.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Senhor, o Senhor conhece o medo que eu carrego, até aquele que eu não tenho coragem de contar para ninguém.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Eu não quero passar mais uma noite acordado imaginando o pior, por isso eu venho me esconder debaixo da tua sombra.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Sê o meu refúgio esta noite, sê a minha fortaleza, porque eu sozinho não consigo segurar tudo isso.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Tira do meu peito esse aperto, tira da minha mente esses pensamentos que me roubam a paz, e coloca no lugar a certeza de que o Senhor está cuidando de mim.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Quando o medo não deixa dormir",
+  "frase": "Acalma os meus pensamentos, desacelera o meu coração, e me ensina a confiar em ti mesmo antes de ver a resposta. Em nome de Jesus, amém.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Agora eu quero orar por você que está preocupado com dinheiro, que abriu o aplicativo do banco hoje e sentiu um frio na barriga.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Talvez tenha uma dívida que só cresce, um aluguel atrasado, ou você está fazendo conta para saber se vai dar para comprar comida até o fim do mês.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "E tem a vergonha também, de pedir ajuda, de dizer não para os filhos, de sentir que trabalhou tanto e mesmo assim não foi suficiente.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "O Salmo vinte e três começa com uma frase que vale para hoje: o Senhor é o meu pastor, nada me faltará.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:1-2"
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Deitar-me faz em verdes pastos, guia-me mansamente a águas tranquilas.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:1-2"
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Um pastor não deixa a ovelha procurar comida sozinha, ele vai na frente, conhece o caminho e sabe onde tem pasto, mesmo quando a ovelha não enxerga nada.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "A ovelha não precisa saber de onde vem o pasto de amanhã, ela só precisa ficar perto do pastor, e isso vale para você também nesta noite.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "O salmista Davi ainda escreveu no Salmo trinta e sete: fui moço e agora sou velho, mas nunca vi desamparado o justo, nem a sua descendência a mendigar o pão.",
+  "tag_visual": "campo",
+  "mostrar_texto": true,
+  "referencia": "Salmo 37:25"
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Vamos orar.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Pai, o Senhor conhece cada conta que está em cima da minha mesa, cada número que tira o meu sono.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Eu te peço provisão, Senhor, abre portas de trabalho, traz oportunidades, me dá sabedoria para administrar o pouco que eu tenho.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Quebra a vergonha e o peso da dívida, e me mostra uma saída que eu ainda não consegui enxergar.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Me livra do desespero que me faz tomar decisões erradas, e me lembra que o Senhor é o meu pastor, e que nada vai me faltar.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "financas",
+  "titulo_bloco": "As contas e o sustento",
+  "frase": "Eu entrego as minhas finanças nas tuas mãos esta noite, e escolho dormir confiando que amanhã o Senhor vai na minha frente. Amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Agora eu quero orar pela sua família, por você que deitou hoje preocupado com alguém de dentro de casa.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Pode ser um filho que se afastou, um pai doente, uma briga que ainda não foi resolvida, ou um silêncio pesado entre pessoas que deveriam se amar.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Talvez você seja a pessoa que segura a família inteira, que resolve tudo, que escuta todo mundo, e não tem ninguém para te ouvir quando você precisa.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "A Palavra diz no Salmo noventa e um: nenhum mal te sucederá, nem praga alguma chegará à tua tenda.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:10-11"
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Porque aos seus anjos dará ordem a teu respeito, para te guardarem em todos os teus caminhos.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 91:10-11"
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Tenda era a casa, era onde a família dormia, e Deus fala diretamente sobre ela, como quem diz que a sua casa também está debaixo do cuidado dele.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Isso não quer dizer que nunca vai ter dificuldade dentro de casa, mas quer dizer que o mal não tem a palavra final sobre a sua família.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Ore comigo pela sua casa.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Senhor, eu coloco diante de ti cada pessoa da minha família, até aquelas com quem eu estou magoado agora.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Guarda a minha casa esta noite, manda os teus anjos para cada quarto, para cada pessoa que dorme debaixo deste teto.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Onde tem briga, coloca paz, onde tem mágoa, coloca perdão, e onde tem alguém longe de ti, traz de volta, Senhor.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "Cuida dos que estão doentes, protege os que estão na rua agora, e alcança aquele filho que eu não consigo mais alcançar com as minhas palavras.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A sua casa e a sua família",
+  "frase": "E me dá paciência e amor para ser parte da cura da minha família, e não parte da ferida. Em nome de Jesus, amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Agora eu quero orar por você que está cansado do trabalho, ou angustiado porque não tem trabalho.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Talvez você esteja sendo humilhado por um chefe, sobrecarregado, com medo de ser mandado embora, ou mandando currículo todo dia sem resposta.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Ou talvez você tenha um negócio, e está vendo o movimento cair, e não sabe se vai conseguir pagar quem depende de você.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "O Salmo cento e vinte e um diz: elevo os meus olhos para os montes, de onde me vem o socorro?",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:1-2"
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "O meu socorro vem do Senhor, que fez o céu e a terra.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:1-2"
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Não deixará vacilar o teu pé, aquele que te guarda não tosquenejará, nem dormirá o guarda de Israel.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:3-4"
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "E termina assim: o Senhor guardará a tua saída e a tua entrada, desde agora e para sempre.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 121:8"
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "A saída de manhã para trabalhar e a volta para casa à noite, Deus cuida das duas, e cuida também do caminho entre elas.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Vamos orar pelo seu trabalho.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Senhor, o meu socorro vem de ti, não vem do meu chefe, não vem da empresa, não vem da minha própria força.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Abençoa o trabalho das minhas mãos, me dá favor diante das pessoas certas, e onde eu estiver sendo injustiçado, defende a minha causa.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Se eu estou procurando, abre a porta certa, e se eu preciso sair de onde estou, me mostra o caminho com clareza.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Me dá ânimo para levantar amanhã, e me ajuda a fazer o meu melhor mesmo quando ninguém reconhece.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho e o futuro",
+  "frase": "Guarda a minha saída amanhã e a minha volta para casa, e me dá descanso de verdade esta noite. Amém.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Agora eu quero orar por você que está ferido por causa de pessoas.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Pode ser um amigo que te traiu, alguém que você ajudou e virou as costas, ou aquela sensação de que ninguém realmente se importa com você.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "E tem gente que está sendo perseguida, falada pelas costas, humilhada, gente que sente que tem alguém torcendo para dar errado.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Essa dor é diferente, porque não é uma conta nem uma doença, é o coração ferido por alguém, e às vezes por alguém em quem você confiava.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "O Salmo vinte e três diz: ainda que eu ande pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:4-5"
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 23:4-5"
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Deus não promete tirar todas as pessoas difíceis do caminho, mas promete estar com você no meio delas, e te honrar na frente de quem tentou te diminuir.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "E para quem se sente sozinho, o Salmo vinte e sete diz: porque, quando meu pai e minha mãe me desampararem, o Senhor me recolherá.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:10"
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Ore comigo.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Senhor, o Senhor viu cada palavra que me feriu e cada vez que eu me senti sozinho, mesmo cercado de gente.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Cura essas feridas, Pai, e não deixa que a mágoa endureça o meu coração nem me faça desconfiar de todo mundo.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "Me protege de quem quer o meu mal, e me ajuda a não devolver o mal com mal, porque a minha defesa está nas tuas mãos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "E se for preciso perdoar, Senhor, me dá força para perdoar, não porque a pessoa mereça, mas porque eu não quero mais carregar esse peso.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoas",
+  "titulo_bloco": "Amizades, solidão e quem te persegue",
+  "frase": "E se eu me sinto sozinho, me lembra que o Senhor está comigo, e coloca perto de mim pessoas que me amem de verdade. Em nome de Jesus, amém.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Agora eu quero orar por você que está doente, ou cuidando de alguém doente, e passou o dia entre exames, remédios e esperas.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Talvez você esteja esperando um resultado, ou já recebeu um diagnóstico difícil, e desde então não consegue pensar em outra coisa.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "E tem a doença que não aparece em exame, a ansiedade que acelera o coração, a tristeza que tira a vontade de levantar da cama.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "O Salmo cento e três diz: bendize, ó minha alma, ao Senhor, e não te esqueças de nenhum de seus benefícios.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 103:2-3"
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "É ele que perdoa todas as tuas iniquidades, que sara todas as tuas enfermidades.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 103:2-3"
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Deus não é indiferente ao seu corpo nem à sua mente, ele se importa com a dor que você sente, e ele pode agir através dos médicos, dos tratamentos e também de formas que ninguém explica.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Vamos orar pela sua saúde.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Senhor, eu coloco diante de ti o meu corpo e a minha mente, com tudo que está doendo e tudo que eu ainda nem entendo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Toca naquilo que os remédios não alcançam, dá sabedoria aos médicos, e dá força para quem está cuidando de alguém e já está esgotado.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Onde tem ansiedade, coloca calma, onde tem tristeza, coloca esperança, e onde tem enfermidade, manifesta a tua cura, Senhor.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saude",
+  "titulo_bloco": "Saúde do corpo e da mente",
+  "frase": "Eu não sei o que amanhã vai trazer, mas eu sei que estou nas tuas mãos, e isso basta para eu descansar esta noite. Amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Agora que nós oramos por cada área, eu quero que você entregue a noite inteira para Deus.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "O Salmo quatro termina com uma frase perfeita para este momento: em paz também me deitarei e dormirei, porque só tu, Senhor, me fazes habitar em segurança.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 4:8"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "O problema pode ainda estar lá amanhã, mas você não precisa ficar acordado vigiando, porque quem guarda você não dorme.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Senhor, eu solto agora as contas, a minha família, o meu trabalho e as pessoas que me feriram, tudo está nas tuas mãos.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Que a tua paz desça sobre o meu quarto, sobre a minha mente e sobre o meu corpo cansado, e que eu durma em segurança esta noite.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Vamos terminar orando juntos a oração que Jesus nos ensinou, devagar, sem pressa.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Pai nosso, que estás nos céus, santificado seja o teu nome, venha o teu reino, seja feita a tua vontade, assim na terra como no céu.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "O pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, assim como nós perdoamos aos nossos devedores.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "E não nos deixes cair em tentação, mas livra-nos do mal, porque teu é o reino, o poder e a glória para sempre. Amém.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Se essa oração tocou o seu coração, escreva amém nos comentários e deixe o seu pedido, que amanhã nós continuamos orando por você.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "E se você conhece alguém que está passando por isso, envie esta oração para essa pessoa, pode ser exatamente o que ela precisa ouvir hoje.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Em paz me deito",
+  "frase": "Agora descanse, meu irmão, minha irmã, que o Senhor te abençoe e te guarde nesta noite. Boa noite, e fique em paz.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

@@ -343,7 +343,7 @@ def planejar(limite):
     return plano, jobs, total, len(cenas)
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4)
+    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--saida", default="out/oracao_da_noite_salmos.mp4")
     a = ap.parse_args()
     tl_total = json.load(open("timeline.json"))["duracao_total"]
     limite = a.previa or tl_total
@@ -382,7 +382,7 @@ def main():
     video = f"{WORK}/video_{int(limite)}.mp4"
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", lista, "-c", "copy", video])
     audio = audio_path
-    saida = "out/previa_2min.mp4" if a.previa else "out/oracao_da_noite_salmos.mp4"
+    saida = "out/previa_2min.mp4" if a.previa else a.saida
     run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", "-i", video, "-i", audio, "-map", "0:v", "-map", "1:a",
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-t", f"{limite:.3f}",
          "-movflags", "+faststart", saida])

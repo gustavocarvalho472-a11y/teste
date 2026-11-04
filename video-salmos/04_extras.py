@@ -61,8 +61,7 @@ CAPÍTULOS
 
 Leituras bíblicas em paráfrase própria baseada na tradução de João Ferreira de Almeida.
 
-CRÉDITOS DE IMAGEM
-{creditos.replace('Vídeos de stock: Pexels (pexels.com)', 'Vídeos de stock gratuitos do Pexels (pexels.com):')}
+Imagens: vídeos gratuitos do Pexels (pexels.com). Lista completa de autores no arquivo creditos.txt.
 
 #oraçãodanoite #oraçãoparadormir #salmo91
 """

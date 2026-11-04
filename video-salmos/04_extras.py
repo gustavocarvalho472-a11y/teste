@@ -16,7 +16,7 @@ def mmss(s):
     s = int(s); return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
 
 # ---------- legenda ----------
-with open("out/legenda_v2.srt" if os.environ.get("VIDEO") == "v2" else "out/legenda.srt", "w", encoding="utf-8") as f:
+with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
     for n, fr in enumerate(frases, 1):
         linhas = textwrap.wrap(fr["frase"], 42)
         if len(linhas) > 2:  # reequilibra em 2 linhas
@@ -35,8 +35,39 @@ for fr in frases:
 # ---------- créditos ----------
 creditos = open("out/creditos.txt", encoding="utf-8").read().strip() if os.path.exists("out/creditos.txt") else ""
 
-V2 = os.environ.get("VIDEO") == "v2"
-if V2:
+VID = os.environ.get("VIDEO", "")
+V2 = VID == "v2"
+ESP = VID == "esperanca"
+if ESP:
+    TITULO = "ORAÇÃO PELA PROSPERIDADE | Deus Tem Planos Para Você (Jeremias 29:11) e a Esperança Que Não Falha"
+    ALTERNATIVAS = [
+        "ORAÇÃO PARA FALTA DE DINHEIRO | A Prosperidade Vem do Senhor | Jeremias 29:11 e Hebreus 6:19",
+        "Oração Poderosa Pela Vida Financeira | Deus Não Se Esqueceu de Você",
+    ]
+    TAGS = ["oração pela prosperidade", "oração para falta de dinheiro", "oração financeira", "oração pela vida financeira",
+            "jeremias 29 11", "hebreus 6 19", "deus tem planos para você", "oração para sair das dívidas",
+            "oração para conseguir emprego", "oração de esperança", "a prosperidade vem do senhor", "oração poderosa",
+            "provérbios 10 22", "filipenses 4 19", "oração pelo sustento", "oração de hoje", "pai nosso", "oração de fé"]
+    desc = f"""{TITULO}
+
+Você está passando aperto financeiro, com contas atrasadas, dívidas ou sem emprego? Esta oração é para você. Vamos orar juntos com a promessa de Jeremias 29:11, Deus tem planos de paz e não de mal para você, e com Hebreus 6:19, a esperança que é âncora da alma, firme e segura. Também oramos com Deuteronômio 8:18, Provérbios 10:22, Filipenses 4:19, Romanos 15:13, Lamentações 3:22-23 e Isaías 40:31, e terminamos com o Pai-Nosso.
+
+🙏 Escreva AMÉM nos comentários e deixe o seu pedido de oração pela sua vida financeira.
+
+📲 Conhece alguém passando aperto? Envie esta oração para essa pessoa.
+
+🔔 Inscreva-se e ative o sininho para receber uma nova oração todos os dias.
+
+CAPÍTULOS
+{chr(10).join(caps)}
+
+Leituras bíblicas em paráfrase própria baseada na tradução de João Ferreira de Almeida.
+
+Imagens: vídeos gratuitos do Pexels (pexels.com).
+
+#oraçãopelaprosperidade #jeremias2911 #oraçãofinanceira
+"""
+elif V2:
     TITULO = "ORAÇÃO DA NOITE para Dormir em Paz | Entregue a Deus o Medo, as Contas e a Ansiedade"
     ALTERNATIVAS = [
         "Oração Poderosa Antes de Dormir com os SALMOS 91, 23 e 121 | Durma em Paz Hoje",
@@ -93,7 +124,7 @@ else:
 
     {' '.join('#' + t.replace(' ', '') for t in ['oraçãodanoite', 'salmo91', 'oraçãoparadormir'])}
     """
-SUF = "_v2" if V2 else ""
+SUF = "_v2" if V2 else "_esperanca" if ESP else ""
 with open(f"out/descricao{SUF}.txt", "w", encoding="utf-8") as f:
     f.write("TÍTULO\n" + TITULO + "\n\nTÍTULOS ALTERNATIVOS\n" + "\n".join("- " + a for a in ALTERNATIVAS))
     f.write("\n\nTAGS (" + str(len(TAGS)) + ")\n" + ", ".join(TAGS) + "\n\n")
@@ -147,7 +178,30 @@ def clip_da_tag(tag, n=0):
     return ids[n % len(ids)]["arquivo_local"]
 
 OURO, CREME = (246, 206, 120, 255), (255, 246, 228, 255)
-if V2:
+if ESP:
+    INTER = "fonts/Inter[opsz,wght].ttf"
+    def inter(size, var="Black"):
+        f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f
+    AMAR, BRANCO = (255, 214, 64, 255), (255, 255, 255, 255)
+    def linhas(img, itens, y0, gap=14):
+        d = ImageDraw.Draw(img); y = y0
+        for txt, size, cor in itens:
+            f = inter(size); texto_sombra(img, (640, y), txt, f, cor, anchor="mt", sombra=10, stroke=0)
+            y += d.textbbox((0, 0), txt, font=f)[3] + gap
+    # A: nascer do sol, 4 linhas alternadas (estilo dos outliers em inglês)
+    img = vinheta(base(frame(clip_da_tag("nascer_sol", 0), 3, "work/thumb/esp_a.png"), 0.42), 0.7).convert("RGBA")
+    linhas(img, [("DEUS TEM PLANOS", 104, BRANCO), ("PARA A SUA VIDA", 104, AMAR),
+                 ("ORE ISSO E ENTREGUE", 70, BRANCO), ("SUAS FINANÇAS A ELE", 70, AMAR)], 120)
+    
+    img.convert("RGB").save("out/thumb_A_esperanca.jpg", quality=92)
+    # B: mar calmo, âncora da alma
+    img = vinheta(base(frame(clip_da_tag("mar_calmo", 0), 3, "work/thumb/esp_b.png"), 0.45), 0.7).convert("RGBA")
+    linhas(img, [("ORAÇÃO PELA", 92, BRANCO), ("PROSPERIDADE", 138, AMAR),
+                 ("A PROSPERIDADE VEM DO SENHOR", 54, BRANCO)], 150, gap=22)
+    d = ImageDraw.Draw(img); d.line((470, 560, 810, 560), fill=(255, 214, 64, 200), width=3)
+    texto_sombra(img, (640, 610), "Jeremias 29:11  ·  Hebreus 6:19", inter(40, "SemiBold"), BRANCO, anchor="mm", sombra=6)
+    img.convert("RGB").save("out/thumb_B_esperanca.jpg", quality=92)
+elif V2:
     img = vinheta(base(frame(clip_da_tag("luz_divina", 0), 3, "work/thumb/a_v2.png"), 0.62)).convert("RGBA")
     grad = Image.new("L", (1280, 720)); gd = ImageDraw.Draw(grad)
     for x in range(1280): gd.line((x, 0, x, 720), fill=int(max(0, 210 - x * 0.27)))

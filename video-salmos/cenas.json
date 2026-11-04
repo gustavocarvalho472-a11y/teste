@@ -4,303 +4,9 @@
    0
   ],
   "bloco": "abertura",
-  "tag": "ceu_noturno",
-  "inicio": 0.0,
-  "fim": 5.71,
-  "clip": {
-   "id": 10719866,
-   "tag": "ceu_noturno",
-   "duracao": 35,
-   "autor": "Roy S.",
-   "autor_url": "https://www.pexels.com/@roy-s-12656046",
-   "url": "https://www.pexels.com/video/time-lapse-of-night-sky-with-stars-and-clouds-10719866/",
-   "arquivo": "https://videos.pexels.com/video-files/10719866/10719866-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10719866.mp4"
-  }
- },
- {
-  "frases": [
-   1
-  ],
-  "bloco": "abertura",
-  "tag": "lua",
-  "inicio": 5.71,
-  "fim": 12.774,
-  "clip": {
-   "id": 36110654,
-   "tag": "lua",
-   "duracao": 107,
-   "autor": "Sajal Niraula",
-   "autor_url": "https://www.pexels.com/@hailsajal",
-   "url": "https://www.pexels.com/video/dramatic-night-sky-with-crescent-moon-timelapse-36110654/",
-   "arquivo": "https://videos.pexels.com/video-files/36110654/15314189_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/36110654.mp4"
-  }
- },
- {
-  "frases": [
-   2
-  ],
-  "bloco": "abertura",
-  "tag": "chuva_janela",
-  "inicio": 12.774,
-  "fim": 19.826,
-  "clip": {
-   "id": 5930874,
-   "tag": "chuva_janela",
-   "duracao": 25,
-   "autor": "Brett Sayles",
-   "autor_url": "https://www.pexels.com/@brett-sayles",
-   "url": "https://www.pexels.com/video/close-up-view-of-raindrops-and-lightning-on-a-glass-window-5930874/",
-   "arquivo": "https://videos.pexels.com/video-files/5930874/5930874-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5930874.mp4"
-  }
- },
- {
-  "frases": [
-   3
-  ],
-  "bloco": "abertura",
-  "tag": "vela",
-  "inicio": 19.826,
-  "fim": 23.595,
-  "clip": {
-   "id": 14090582,
-   "tag": "vela",
-   "duracao": 50,
-   "autor": "Orsys _tography",
-   "autor_url": "https://www.pexels.com/@orsys-_tography-2490237",
-   "url": "https://www.pexels.com/video/flames-in-darkness-14090582/",
-   "arquivo": "https://videos.pexels.com/video-files/14090582/14090582-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14090582.mp4"
-  }
- },
- {
-  "frases": [
-   3
-  ],
-  "bloco": "abertura",
-  "tag": "vela",
-  "inicio": 23.595,
-  "fim": 27.364,
-  "clip": {
-   "id": 8677058,
-   "tag": "vela",
-   "duracao": 13,
-   "autor": "Nothing Ahead",
-   "autor_url": "https://www.pexels.com/@ian-panelo",
-   "url": "https://www.pexels.com/video/blowing-lighted-candles-8677058/",
-   "arquivo": "https://videos.pexels.com/video-files/8677058/8677058-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/8677058.mp4"
-  }
- },
- {
-  "frases": [
-   4
-  ],
-  "bloco": "abertura",
-  "tag": "ceu_noturno",
-  "inicio": 27.364,
-  "fim": 31.142,
-  "clip": {
-   "id": 5884322,
-   "tag": "ceu_noturno",
-   "duracao": 30,
-   "autor": "Postcard Pictures",
-   "autor_url": "https://www.pexels.com/@elouai",
-   "url": "https://www.pexels.com/video/starry-night-time-lapse-5884322/",
-   "arquivo": "https://videos.pexels.com/video-files/5884322/5884322-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5884322.mp4"
-  }
- },
- {
-  "frases": [
-   4
-  ],
-  "bloco": "abertura",
-  "tag": "ceu_noturno",
-  "inicio": 31.142,
-  "fim": 34.919,
-  "clip": {
-   "id": 28295445,
-   "tag": "ceu_noturno",
-   "duracao": 8,
-   "autor": "Polat Eyy\u00fcp Albayrak",
-   "autor_url": "https://www.pexels.com/@pealdesign",
-   "url": "https://www.pexels.com/video/interstellar-28295445/",
-   "arquivo": "https://videos.pexels.com/video-files/28295445/12353433_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28295445.mp4"
-  }
- },
- {
-  "frases": [
-   5
-  ],
-  "bloco": "abertura",
-  "tag": "lua",
-  "inicio": 34.919,
-  "fim": 39.389,
-  "clip": {
-   "id": 5251546,
-   "tag": "lua",
-   "duracao": 21,
-   "autor": "Connor kane",
-   "autor_url": "https://www.pexels.com/@connor-kane-3369264",
-   "url": "https://www.pexels.com/video/video-of-a-bright-moon-5251546/",
-   "arquivo": "https://videos.pexels.com/video-files/5251546/5251546-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5251546.mp4"
-  }
- },
- {
-  "frases": [
-   5
-  ],
-  "bloco": "abertura",
-  "tag": "lua",
-  "inicio": 39.389,
-  "fim": 43.859,
-  "clip": {
-   "id": 6960054,
-   "tag": "lua",
-   "duracao": 41,
-   "autor": "moomoo-dad.com",
-   "autor_url": "https://www.pexels.com/@moomoo-dad-com-1635213",
-   "url": "https://www.pexels.com/video/video-of-a-full-moon-6960054/",
-   "arquivo": "https://videos.pexels.com/video-files/6960054/6960054-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6960054.mp4"
-  }
- },
- {
-  "frases": [
-   6
-  ],
-  "bloco": "abertura",
-  "tag": "chuva_janela",
-  "inicio": 43.859,
-  "fim": 48.078,
-  "clip": {
-   "id": 9945249,
-   "tag": "chuva_janela",
-   "duracao": 49,
-   "autor": "Neil Yonamine",
-   "autor_url": "https://www.pexels.com/@neilyonamine",
-   "url": "https://www.pexels.com/video/raindrops-falling-on-glass-9945249/",
-   "arquivo": "https://videos.pexels.com/video-files/9945249/9945249-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9945249.mp4"
-  }
- },
- {
-  "frases": [
-   6
-  ],
-  "bloco": "abertura",
-  "tag": "chuva_janela",
-  "inicio": 48.078,
-  "fim": 52.297,
-  "clip": {
-   "id": 29992735,
-   "tag": "chuva_janela",
-   "duracao": 14,
-   "autor": "emirkhan bal",
-   "autor_url": "https://www.pexels.com/@mootlak",
-   "url": "https://www.pexels.com/video/rainy-night-window-bokeh-effect-video-29992735/",
-   "arquivo": "https://videos.pexels.com/video-files/29992735/12869061_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/29992735.mp4"
-  }
- },
- {
-  "frases": [
-   7
-  ],
-  "bloco": "abertura",
-  "tag": "vela",
-  "inicio": 52.297,
-  "fim": 58.823,
-  "clip": {
-   "id": 19726028,
-   "tag": "vela",
-   "duracao": 15,
-   "autor": "Milos Jevtic",
-   "autor_url": "https://www.pexels.com/@jevtajevtic7",
-   "url": "https://www.pexels.com/video/two-candles-in-the-dark-4k-timelapse-19726028/",
-   "arquivo": "https://videos.pexels.com/video-files/19726028/19726028-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19726028.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "abertura",
-  "tag": "luz_divina",
-  "inicio": 58.823,
-  "fim": 62.959,
-  "clip": {
-   "id": 33824905,
-   "tag": "luz_divina",
-   "duracao": 19,
-   "autor": "Dhruv Pulipaka",
-   "autor_url": "https://www.pexels.com/@dhruv-pulipaka-2153070585",
-   "url": "https://www.pexels.com/video/dramatic-sky-timelapse-with-sunlit-clouds-33824905/",
-   "arquivo": "https://videos.pexels.com/video-files/33824905/14355989_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33824905.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "abertura",
-  "tag": "luz_divina",
-  "inicio": 62.959,
-  "fim": 67.095,
-  "clip": {
-   "id": 9362165,
-   "tag": "luz_divina",
-   "duracao": 15,
-   "autor": "Kmeel.com Videos",
-   "autor_url": "https://www.pexels.com/@kmeel",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-9362165/",
-   "arquivo": "https://videos.pexels.com/video-files/9362165/9362165-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9362165.mp4"
-  }
- },
- {
-  "frases": [
-   9
-  ],
-  "bloco": "abertura",
   "tag": "campo",
-  "inicio": 67.095,
-  "fim": 74.371,
+  "inicio": 0.0,
+  "fim": 6.048,
   "clip": {
    "id": 38610210,
    "tag": "campo",
@@ -316,2461 +22,33 @@
  },
  {
   "frases": [
-   10
+   1
   ],
   "bloco": "abertura",
-  "tag": "ceu_noturno",
-  "inicio": 74.371,
-  "fim": 80.847,
+  "tag": "chuva_janela",
+  "inicio": 6.048,
+  "fim": 13.179,
   "clip": {
-   "id": 19929809,
-   "tag": "ceu_noturno",
-   "duracao": 8,
-   "autor": "Tahamie Farooqui",
-   "autor_url": "https://www.pexels.com/@tami",
-   "url": "https://www.pexels.com/video/stellar-circles-timelapse-of-star-trails-in-the-night-sky-19929809/",
-   "arquivo": "https://videos.pexels.com/video-files/19929809/19929809-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19929809.mp4"
-  }
- },
- {
-  "frases": [
-   11
-  ],
-  "bloco": "medo",
-  "tag": "lua",
-  "inicio": 80.847,
-  "fim": 84.927,
-  "clip": {
-   "id": 854739,
-   "tag": "lua",
+   "id": 5930874,
+   "tag": "chuva_janela",
    "duracao": 25,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/beautiful-moon-rises-through-night-clouds-854739/",
-   "arquivo": "https://videos.pexels.com/video-files/854739/854739-hd_1920_1080_30fps.mp4",
+   "autor": "Brett Sayles",
+   "autor_url": "https://www.pexels.com/@brett-sayles",
+   "url": "https://www.pexels.com/video/close-up-view-of-raindrops-and-lightning-on-a-glass-window-5930874/",
+   "arquivo": "https://videos.pexels.com/video-files/5930874/5930874-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/854739.mp4"
+   "arquivo_local": "clips/5930874.mp4"
   }
  },
  {
   "frases": [
-   11
+   2
   ],
-  "bloco": "medo",
-  "tag": "lua",
-  "inicio": 84.927,
-  "fim": 89.006,
-  "clip": {
-   "id": 11319504,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Claudio AFC",
-   "autor_url": "https://www.pexels.com/@superclaudio",
-   "url": "https://www.pexels.com/video/moonlight-shining-through-moving-clouds-11319504/",
-   "arquivo": "https://videos.pexels.com/video-files/11319504/11319504-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11319504.mp4"
-  }
- },
- {
-  "frases": [
-   12
-  ],
-  "bloco": "medo",
-  "tag": "chuva_janela",
-  "inicio": 89.006,
-  "fim": 93.55,
-  "clip": {
-   "id": 28911881,
-   "tag": "chuva_janela",
-   "duracao": 14,
-   "autor": "Diana \u2728",
-   "autor_url": "https://www.pexels.com/@didsss",
-   "url": "https://www.pexels.com/video/abstract-raindrop-patterns-on-a-window-pane-28911881/",
-   "arquivo": "https://videos.pexels.com/video-files/28911881/12513535_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28911881.mp4"
-  }
- },
- {
-  "frases": [
-   12
-  ],
-  "bloco": "medo",
-  "tag": "chuva_janela",
-  "inicio": 93.55,
-  "fim": 98.094,
-  "clip": {
-   "id": 31060088,
-   "tag": "chuva_janela",
-   "duracao": 17,
-   "autor": "emirkhan bal",
-   "autor_url": "https://www.pexels.com/@mootlak",
-   "url": "https://www.pexels.com/video/rainy-night-window-with-bokeh-lights-31060088/",
-   "arquivo": "https://videos.pexels.com/video-files/31060088/13273796_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31060088.mp4"
-  }
- },
- {
-  "frases": [
-   13
-  ],
-  "bloco": "medo",
+  "bloco": "abertura",
   "tag": "vela",
-  "inicio": 98.094,
-  "fim": 102.066,
-  "clip": {
-   "id": 12550702,
-   "tag": "vela",
-   "duracao": 19,
-   "autor": "Florencio Rojas",
-   "autor_url": "https://www.pexels.com/@frojas",
-   "url": "https://www.pexels.com/video/burning-candle-in-darkness-12550702/",
-   "arquivo": "https://videos.pexels.com/video-files/12550702/12550702-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/12550702.mp4"
-  }
- },
- {
-  "frases": [
-   13
-  ],
-  "bloco": "medo",
-  "tag": "vela",
-  "inicio": 102.066,
-  "fim": 106.037,
-  "clip": {
-   "id": 7033615,
-   "tag": "vela",
-   "duracao": 25,
-   "autor": "Tima Miroshnichenko",
-   "autor_url": "https://www.pexels.com/@tima-miroshnichenko",
-   "url": "https://www.pexels.com/video/video-of-a-candle-wick-burning-7033615/",
-   "arquivo": "https://videos.pexels.com/video-files/7033615/7033615-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/7033615.mp4"
-  }
- },
- {
-  "frases": [
-   14
-  ],
-  "bloco": "medo",
-  "tag": "ceu_noturno",
-  "inicio": 106.037,
-  "fim": 112.688,
-  "clip": {
-   "id": 19314287,
-   "tag": "ceu_noturno",
-   "duracao": 15,
-   "autor": "Fatih Din\u00e7",
-   "autor_url": "https://www.pexels.com/@fatih-dinc-366536882",
-   "url": "https://www.pexels.com/video/yildizli-gok-19314287/",
-   "arquivo": "https://videos.pexels.com/video-files/19314287/19314287-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19314287.mp4"
-  }
- },
- {
-  "frases": [
-   15
-  ],
-  "bloco": "medo",
-  "tag": "luz_divina",
-  "inicio": 112.688,
-  "fim": 118.063,
-  "clip": {
-   "id": 4787839,
-   "tag": "luz_divina",
-   "duracao": 21,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-4787839/",
-   "arquivo": "https://videos.pexels.com/video-files/4787839/4787839-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4787839.mp4"
-  }
- },
- {
-  "frases": [
-   16
-  ],
-  "bloco": "medo",
-  "tag": "montanha",
-  "inicio": 118.063,
-  "fim": 125.517,
-  "clip": {
-   "id": 26583632,
-   "tag": "montanha",
-   "duracao": 8,
-   "autor": "Orhan Pergel",
-   "autor_url": "https://www.pexels.com/@skylake",
-   "url": "https://www.pexels.com/video/aerial-view-of-the-fog-and-clouds-over-the-mountains-at-sunset-26583632/",
-   "arquivo": "https://videos.pexels.com/video-files/26583632/11964893_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/26583632.mp4"
-  }
- },
- {
-  "frases": [
-   17
-  ],
-  "bloco": "medo",
-  "tag": "aguia",
-  "inicio": 125.517,
-  "fim": 129.572,
-  "clip": {
-   "id": 27258952,
-   "tag": "aguia",
-   "duracao": 14,
-   "autor": "Dean Diemert",
-   "autor_url": "https://www.pexels.com/@dean-diemert-36424310",
-   "url": "https://www.pexels.com/video/a-bird-flying-over-the-sand-dunes-27258952/",
-   "arquivo": "https://videos.pexels.com/video-files/27258952/12104809_2048_1080_30fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/27258952.mp4"
-  }
- },
- {
-  "frases": [
-   17
-  ],
-  "bloco": "medo",
-  "tag": "aguia",
-  "inicio": 129.572,
-  "fim": 133.627,
-  "clip": {
-   "id": 4438485,
-   "tag": "aguia",
-   "duracao": 23,
-   "autor": "Ton Souza",
-   "autor_url": "https://www.pexels.com/@ton-souza",
-   "url": "https://www.pexels.com/video/bird-flying-freely-4438485/",
-   "arquivo": "https://videos.pexels.com/video-files/4438485/4438485-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4438485.mp4"
-  }
- },
- {
-  "frases": [
-   18
-  ],
-  "bloco": "medo",
-  "tag": "lua",
-  "inicio": 133.627,
-  "fim": 139.418,
-  "clip": {
-   "id": 39750684,
-   "tag": "lua",
-   "duracao": 20,
-   "autor": "Jelena Kazak",
-   "autor_url": "https://www.pexels.com/@selena1965",
-   "url": "https://www.pexels.com/video/mystical-full-moon-behind-dramatic-clouds-39750684/",
-   "arquivo": "https://videos.pexels.com/video-files/39750684/16953275_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39750684.mp4"
-  }
- },
- {
-  "frases": [
-   19,
-   20
-  ],
-  "bloco": "medo",
-  "tag": "vela",
-  "inicio": 139.418,
-  "fim": 144.385,
-  "clip": {
-   "id": 3344057,
-   "tag": "vela",
-   "duracao": 78,
-   "autor": "Sumon Error",
-   "autor_url": "https://www.pexels.com/@sumonerror",
-   "url": "https://www.pexels.com/video/candle-burning-3344057/",
-   "arquivo": "https://videos.pexels.com/video-files/3344057/3344057-hd_1890_1080_30fps.mp4",
-   "w": 1890,
-   "h": 1080,
-   "arquivo_local": "clips/3344057.mp4"
-  }
- },
- {
-  "frases": [
-   19,
-   20
-  ],
-  "bloco": "medo",
-  "tag": "vela",
-  "inicio": 144.385,
-  "fim": 149.352,
-  "clip": {
-   "id": 5767251,
-   "tag": "vela",
-   "duracao": 31,
-   "autor": "Dmitry Marchenkov",
-   "autor_url": "https://www.pexels.com/@electrotrack",
-   "url": "https://www.pexels.com/video/candle-in-the-dark-5767251/",
-   "arquivo": "https://videos.pexels.com/video-files/5767251/5767251-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5767251.mp4"
-  }
- },
- {
-  "frases": [
-   21
-  ],
-  "bloco": "medo",
-  "tag": "lua",
-  "inicio": 149.352,
-  "fim": 155.097,
-  "clip": {
-   "id": 34207595,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Ahmet G\u00fcr\u00fcn",
-   "autor_url": "https://www.pexels.com/@ahmetgurun",
-   "url": "https://www.pexels.com/video/moonlit-cloudy-night-sky-with-dramatic-clouds-34207595/",
-   "arquivo": "https://videos.pexels.com/video-files/34207595/14498435_1620_1080_30fps.mp4",
-   "w": 1620,
-   "h": 1080,
-   "arquivo_local": "clips/34207595.mp4"
-  }
- },
- {
-  "frases": [
-   22
-  ],
-  "bloco": "medo",
-  "tag": "luz_divina",
-  "inicio": 155.097,
-  "fim": 160.78,
-  "clip": {
-   "id": 29840809,
-   "tag": "luz_divina",
-   "duracao": 16,
-   "autor": "Altaf Shah",
-   "autor_url": "https://www.pexels.com/@altaf-shah-3143825",
-   "url": "https://www.pexels.com/video/dramatic-cloudscape-with-sunlight-breaking-through-29840809/",
-   "arquivo": "https://videos.pexels.com/video-files/29840809/12814598_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/29840809.mp4"
-  }
- },
- {
-  "frases": [
-   23
-  ],
-  "bloco": "medo",
-  "tag": "chuva_janela",
-  "inicio": 160.78,
-  "fim": 164.767,
-  "clip": {
-   "id": 39949398,
-   "tag": "chuva_janela",
-   "duracao": 15,
-   "autor": "Pew Nguyen",
-   "autor_url": "https://www.pexels.com/@nguyendesigner",
-   "url": "https://www.pexels.com/video/rain-droplets-on-glass-in-dark-mood-39949398/",
-   "arquivo": "https://videos.pexels.com/video-files/39949398/17046871_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39949398.mp4"
-  }
- },
- {
-  "frases": [
-   23
-  ],
-  "bloco": "medo",
-  "tag": "chuva_janela",
-  "inicio": 164.767,
-  "fim": 168.753,
-  "clip": {
-   "id": 31060090,
-   "tag": "chuva_janela",
-   "duracao": 16,
-   "autor": "emirkhan bal",
-   "autor_url": "https://www.pexels.com/@mootlak",
-   "url": "https://www.pexels.com/video/rainy-night-bokeh-through-window-pane-31060090/",
-   "arquivo": "https://videos.pexels.com/video-files/31060090/13273778_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31060090.mp4"
-  }
- },
- {
-  "frases": [
-   24
-  ],
-  "bloco": "medo",
-  "tag": "vela",
-  "inicio": 168.753,
-  "fim": 174.104,
-  "clip": {
-   "id": 12123574,
-   "tag": "vela",
-   "duracao": 15,
-   "autor": "Andreas",
-   "autor_url": "https://www.pexels.com/@andreas-220481738",
-   "url": "https://www.pexels.com/video/flames-in-candles-in-darkness-12123574/",
-   "arquivo": "https://videos.pexels.com/video-files/12123574/12123574-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/12123574.mp4"
-  }
- },
- {
-  "frases": [
-   24
-  ],
-  "bloco": "medo",
-  "tag": "vela",
-  "inicio": 174.104,
-  "fim": 179.455,
-  "clip": {
-   "id": 17795659,
-   "tag": "vela",
-   "duracao": 43,
-   "autor": "Ravi Kiran",
-   "autor_url": "https://www.pexels.com/@ravi-kiran-608220113",
-   "url": "https://www.pexels.com/video/candle-burning-17795659/",
-   "arquivo": "https://videos.pexels.com/video-files/17795659/17795659-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/17795659.mp4"
-  }
- },
- {
-  "frases": [
-   25
-  ],
-  "bloco": "financas",
-  "tag": "chuva_janela",
-  "inicio": 179.455,
-  "fim": 183.349,
-  "clip": {
-   "id": 4381690,
-   "tag": "chuva_janela",
-   "duracao": 26,
-   "autor": "Adham Xushmurodov",
-   "autor_url": "https://www.pexels.com/@adham-xushmurodov-2791762",
-   "url": "https://www.pexels.com/video/water-droplets-on-the-window-4381690/",
-   "arquivo": "https://videos.pexels.com/video-files/4381690/4381690-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4381690.mp4"
-  }
- },
- {
-  "frases": [
-   25
-  ],
-  "bloco": "financas",
-  "tag": "chuva_janela",
-  "inicio": 183.349,
-  "fim": 187.243,
-  "clip": {
-   "id": 31060087,
-   "tag": "chuva_janela",
-   "duracao": 15,
-   "autor": "emirkhan bal",
-   "autor_url": "https://www.pexels.com/@mootlak",
-   "url": "https://www.pexels.com/video/rainy-window-with-bokeh-effect-31060087/",
-   "arquivo": "https://videos.pexels.com/video-files/31060087/13273784_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31060087.mp4"
-  }
- },
- {
-  "frases": [
-   26
-  ],
-  "bloco": "financas",
-  "tag": "vela",
-  "inicio": 187.243,
-  "fim": 191.578,
-  "clip": {
-   "id": 6802671,
-   "tag": "vela",
-   "duracao": 60,
-   "autor": "Engin Akyurt",
-   "autor_url": "https://www.pexels.com/@enginakyurt",
-   "url": "https://www.pexels.com/video/burning-candles-6802671/",
-   "arquivo": "https://videos.pexels.com/video-files/6802671/6802671-hd_2048_1080_30fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/6802671.mp4"
-  }
- },
- {
-  "frases": [
-   26
-  ],
-  "bloco": "financas",
-  "tag": "vela",
-  "inicio": 191.578,
-  "fim": 195.913,
-  "clip": {
-   "id": 39778106,
-   "tag": "vela",
-   "duracao": 20,
-   "autor": "Khanh Nguyen",
-   "autor_url": "https://www.pexels.com/@khanhnguyen",
-   "url": "https://www.pexels.com/video/colorful-candle-flames-in-darkness-39778106/",
-   "arquivo": "https://videos.pexels.com/video-files/39778106/16963267_1920_1080_49fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39778106.mp4"
-  }
- },
- {
-  "frases": [
-   27
-  ],
-  "bloco": "financas",
-  "tag": "lua",
-  "inicio": 195.913,
-  "fim": 202.642,
-  "clip": {
-   "id": 2895754,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Lay-Z Owl",
-   "autor_url": "https://www.pexels.com/@lay-z-owl-801145",
-   "url": "https://www.pexels.com/video/the-moon-and-clouds-in-the-night-sky-2895754/",
-   "arquivo": "https://videos.pexels.com/video-files/2895754/2895754-hd_2048_1080_25fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/2895754.mp4"
-  }
- },
- {
-  "frases": [
-   28
-  ],
-  "bloco": "financas",
-  "tag": "pastor_ovelhas",
-  "inicio": 202.642,
-  "fim": 210.104,
-  "clip": {
-   "id": 13563078,
-   "tag": "pastor_ovelhas",
-   "duracao": 16,
-   "autor": "Hasan \u0130NCE",
-   "autor_url": "https://www.pexels.com/@hix52",
-   "url": "https://www.pexels.com/video/sheep-on-pasture-13563078/",
-   "arquivo": "https://videos.pexels.com/video-files/13563078/13563078-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13563078.mp4"
-  }
- },
- {
-  "frases": [
-   29
-  ],
-  "bloco": "financas",
-  "tag": "campo",
-  "inicio": 210.104,
-  "fim": 215.059,
-  "clip": {
-   "id": 8893049,
-   "tag": "campo",
-   "duracao": 26,
-   "autor": "\ub300\uc815 \uae40",
-   "autor_url": "https://www.pexels.com/@daejeung",
-   "url": "https://www.pexels.com/video/a-growing-grass-in-a-grass-field-8893049/",
-   "arquivo": "https://videos.pexels.com/video-files/8893049/8893049-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/8893049.mp4"
-  }
- },
- {
-  "frases": [
-   30
-  ],
-  "bloco": "financas",
-  "tag": "rio",
-  "inicio": 215.059,
-  "fim": 219.427,
-  "clip": {
-   "id": 11888677,
-   "tag": "rio",
-   "duracao": 63,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/river-and-trees-11888677/",
-   "arquivo": "https://videos.pexels.com/video-files/11888677/11888677-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11888677.mp4"
-  }
- },
- {
-  "frases": [
-   30
-  ],
-  "bloco": "financas",
-  "tag": "rio",
-  "inicio": 219.427,
-  "fim": 223.795,
-  "clip": {
-   "id": 3644111,
-   "tag": "rio",
-   "duracao": 9,
-   "autor": "Artem Anosov",
-   "autor_url": "https://www.pexels.com/@artem-anosov-1933761",
-   "url": "https://www.pexels.com/video/footage-of-a-calm-water-in-the-river-3644111/",
-   "arquivo": "https://videos.pexels.com/video-files/3644111/3644111-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/3644111.mp4"
-  }
- },
- {
-  "frases": [
-   31
-  ],
-  "bloco": "financas",
-  "tag": "pastor_ovelhas",
-  "inicio": 223.795,
-  "fim": 227.739,
-  "clip": {
-   "id": 39033973,
-   "tag": "pastor_ovelhas",
-   "duracao": 15,
-   "autor": "Kiwi and Camera",
-   "autor_url": "https://www.pexels.com/@kiwi-and-camera-2158354883",
-   "url": "https://www.pexels.com/video/sheep-grazing-on-lush-new-zealand-hillside-39033973/",
-   "arquivo": "https://videos.pexels.com/video-files/39033973/16609703_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39033973.mp4"
-  }
- },
- {
-  "frases": [
-   31
-  ],
-  "bloco": "financas",
-  "tag": "pastor_ovelhas",
-  "inicio": 227.739,
-  "fim": 231.683,
-  "clip": {
-   "id": 11968431,
-   "tag": "pastor_ovelhas",
-   "duracao": 17,
-   "autor": "Nikolay Sobolev",
-   "autor_url": "https://www.pexels.com/@nikolay-sobolev-221711571",
-   "url": "https://www.pexels.com/video/sheep-herd-on-road-11968431/",
-   "arquivo": "https://videos.pexels.com/video-files/11968431/11968431-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11968431.mp4"
-  }
- },
- {
-  "frases": [
-   32
-  ],
-  "bloco": "financas",
-  "tag": "campo",
-  "inicio": 231.683,
-  "fim": 236.25,
-  "clip": {
-   "id": 32046436,
-   "tag": "campo",
-   "duracao": 8,
-   "autor": "Ebahir",
-   "autor_url": "https://www.pexels.com/@ebahir",
-   "url": "https://www.pexels.com/video/serene-green-field-under-moody-sky-32046436/",
-   "arquivo": "https://videos.pexels.com/video-files/32046436/13660605_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/32046436.mp4"
-  }
- },
- {
-  "frases": [
-   32
-  ],
-  "bloco": "financas",
-  "tag": "campo",
-  "inicio": 236.25,
-  "fim": 240.816,
-  "clip": {
-   "id": 855258,
-   "tag": "campo",
-   "duracao": 58,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/bird-on-green-grass-855258/",
-   "arquivo": "https://videos.pexels.com/video-files/855258/855258-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/855258.mp4"
-  }
- },
- {
-  "frases": [
-   33,
-   34
-  ],
-  "bloco": "financas",
-  "tag": "vela",
-  "inicio": 240.816,
-  "fim": 247.318,
-  "clip": {
-   "id": 11053853,
-   "tag": "vela",
-   "duracao": 42,
-   "autor": "Engin Akyurt",
-   "autor_url": "https://www.pexels.com/@enginakyurt",
-   "url": "https://www.pexels.com/video/a-heart-shaped-burning-candle-in-a-dark-room-11053853/",
-   "arquivo": "https://videos.pexels.com/video-files/11053853/11053853-hd_2048_1080_30fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/11053853.mp4"
-  }
- },
- {
-  "frases": [
-   35
-  ],
-  "bloco": "financas",
-  "tag": "rio",
-  "inicio": 247.318,
-  "fim": 251.264,
-  "clip": {
-   "id": 30082491,
-   "tag": "rio",
-   "duracao": 23,
-   "autor": "Tom Jurman",
-   "autor_url": "https://www.pexels.com/@kibo",
-   "url": "https://www.pexels.com/video/peaceful-kayaking-adventure-on-a-serene-river-30082491/",
-   "arquivo": "https://videos.pexels.com/video-files/30082491/12902215_1920_1080_50fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/30082491.mp4"
-  }
- },
- {
-  "frases": [
-   35
-  ],
-  "bloco": "financas",
-  "tag": "rio",
-  "inicio": 251.264,
-  "fim": 255.21,
-  "clip": {
-   "id": 14514588,
-   "tag": "rio",
-   "duracao": 16,
-   "autor": "Natia Ker",
-   "autor_url": "https://www.pexels.com/@natiaker",
-   "url": "https://www.pexels.com/video/river-in-autumn-14514588/",
-   "arquivo": "https://videos.pexels.com/video-files/14514588/14514588-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14514588.mp4"
-  }
- },
- {
-  "frases": [
-   36
-  ],
-  "bloco": "financas",
-  "tag": "lua",
-  "inicio": 255.21,
-  "fim": 260.756,
-  "clip": {
-   "id": 854287,
-   "tag": "lua",
-   "duracao": 23,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/full-moon-slowly-being-covered-by-clouds-854287/",
-   "arquivo": "https://videos.pexels.com/video-files/854287/854287-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/854287.mp4"
-  }
- },
- {
-  "frases": [
-   37
-  ],
-  "bloco": "financas",
-  "tag": "pastor_ovelhas",
-  "inicio": 260.756,
-  "fim": 267.726,
-  "clip": {
-   "id": 18667094,
-   "tag": "pastor_ovelhas",
-   "duracao": 13,
-   "autor": "Radd",
-   "autor_url": "https://www.pexels.com/@radd-255081049",
-   "url": "https://www.pexels.com/video/romanian-sheeps-18667094/",
-   "arquivo": "https://videos.pexels.com/video-files/18667094/18667094-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/18667094.mp4"
-  }
- },
- {
-  "frases": [
-   38
-  ],
-  "bloco": "financas",
-  "tag": "nascer_sol",
-  "inicio": 267.726,
-  "fim": 271.623,
-  "clip": {
-   "id": 4501953,
-   "tag": "nascer_sol",
-   "duracao": 10,
-   "autor": "Wayne Speedy",
-   "autor_url": "https://www.pexels.com/@wayne-speedy-777933",
-   "url": "https://www.pexels.com/video/timelapse-footage-of-sunset-4501953/",
-   "arquivo": "https://videos.pexels.com/video-files/4501953/4501953-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4501953.mp4"
-  }
- },
- {
-  "frases": [
-   38
-  ],
-  "bloco": "financas",
-  "tag": "nascer_sol",
-  "inicio": 271.623,
-  "fim": 275.519,
-  "clip": {
-   "id": 5881045,
-   "tag": "nascer_sol",
-   "duracao": 11,
-   "autor": "Jyoti  Pur",
-   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-the-sky-5881045/",
-   "arquivo": "https://videos.pexels.com/video-files/5881045/5881045-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5881045.mp4"
-  }
- },
- {
-  "frases": [
-   39
-  ],
-  "bloco": "familia",
-  "tag": "vela",
-  "inicio": 275.519,
-  "fim": 281.588,
-  "clip": {
-   "id": 5120399,
-   "tag": "vela",
-   "duracao": 120,
-   "autor": "Mike Stranks",
-   "autor_url": "https://www.pexels.com/@mike-stranks-3430922",
-   "url": "https://www.pexels.com/video/three-lighted-candles-5120399/",
-   "arquivo": "https://videos.pexels.com/video-files/5120399/5120399-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5120399.mp4"
-  }
- },
- {
-  "frases": [
-   40
-  ],
-  "bloco": "familia",
-  "tag": "chuva_janela",
-  "inicio": 281.588,
-  "fim": 285.621,
-  "clip": {
-   "id": 33938639,
-   "tag": "chuva_janela",
-   "duracao": 14,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/rain-drops-on-window-creating-tranquil-ambiance-33938639/",
-   "arquivo": "https://videos.pexels.com/video-files/33938639/14401940_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33938639.mp4"
-  }
- },
- {
-  "frases": [
-   40
-  ],
-  "bloco": "familia",
-  "tag": "chuva_janela",
-  "inicio": 285.621,
-  "fim": 289.654,
-  "clip": {
-   "id": 33938712,
-   "tag": "chuva_janela",
-   "duracao": 12,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/raindrops-on-window-with-blurred-lights-33938712/",
-   "arquivo": "https://videos.pexels.com/video-files/33938712/14401946_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33938712.mp4"
-  }
- },
- {
-  "frases": [
-   41
-  ],
-  "bloco": "familia",
-  "tag": "lua",
-  "inicio": 289.654,
-  "fim": 293.726,
-  "clip": {
-   "id": 30343257,
-   "tag": "lua",
-   "duracao": 21,
-   "autor": "Nikolaus Bohuslaw",
-   "autor_url": "https://www.pexels.com/@nikolaus-bohuslaw-2148126177",
-   "url": "https://www.pexels.com/video/full-moon-shrouded-by-dramatic-clouds-30343257/",
-   "arquivo": "https://videos.pexels.com/video-files/30343257/13006982_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/30343257.mp4"
-  }
- },
- {
-  "frases": [
-   41
-  ],
-  "bloco": "familia",
-  "tag": "lua",
-  "inicio": 293.726,
-  "fim": 297.797,
-  "clip": {
-   "id": 9997825,
-   "tag": "lua",
-   "duracao": 35,
-   "autor": "Martina Tom\u0161i\u010d",
-   "autor_url": "https://www.pexels.com/@martina-tomsic-1656378",
-   "url": "https://www.pexels.com/video/time-lapse-of-sky-at-night-9997825/",
-   "arquivo": "https://videos.pexels.com/video-files/9997825/9997825-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9997825.mp4"
-  }
- },
- {
-  "frases": [
-   42
-  ],
-  "bloco": "familia",
-  "tag": "luz_divina",
-  "inicio": 297.797,
-  "fim": 304.02,
-  "clip": {
-   "id": 33737918,
-   "tag": "luz_divina",
-   "duracao": 20,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/dramatic-clouds-with-sunbeams-breaking-through-33737918/",
-   "arquivo": "https://videos.pexels.com/video-files/33737918/14324333_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33737918.mp4"
-  }
- },
- {
-  "frases": [
-   43
-  ],
-  "bloco": "familia",
-  "tag": "ceu_noturno",
-  "inicio": 304.02,
-  "fim": 309.857,
-  "clip": {
-   "id": 31609259,
-   "tag": "ceu_noturno",
-   "duracao": 19,
-   "autor": "Ndumiso Mvelase",
-   "autor_url": "https://www.pexels.com/@ndumisomvelase",
-   "url": "https://www.pexels.com/video/stunning-night-sky-with-cloud-movement-timelapse-31609259/",
-   "arquivo": "https://videos.pexels.com/video-files/31609259/13468000_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31609259.mp4"
-  }
- },
- {
-  "frases": [
-   44
-  ],
-  "bloco": "familia",
-  "tag": "floresta",
-  "inicio": 309.857,
-  "fim": 313.904,
-  "clip": {
-   "id": 856912,
-   "tag": "floresta",
-   "duracao": 9,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/ray-of-light-856912/",
-   "arquivo": "https://videos.pexels.com/video-files/856912/856912-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/856912.mp4"
-  }
- },
- {
-  "frases": [
-   44
-  ],
-  "bloco": "familia",
-  "tag": "floresta",
-  "inicio": 313.904,
-  "fim": 317.951,
-  "clip": {
-   "id": 14057037,
-   "tag": "floresta",
-   "duracao": 50,
-   "autor": "Carsten Link",
-   "autor_url": "https://www.pexels.com/@carsten-link-2966887",
-   "url": "https://www.pexels.com/video/forest-with-sunlight-filtering-through-trees-14057037/",
-   "arquivo": "https://videos.pexels.com/video-files/14057037/14057037-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14057037.mp4"
-  }
- },
- {
-  "frases": [
-   45
-  ],
-  "bloco": "familia",
-  "tag": "montanha",
-  "inicio": 317.951,
-  "fim": 324.92,
-  "clip": {
-   "id": 36026712,
-   "tag": "montanha",
-   "duracao": 8,
-   "autor": "Ivan Cuadra",
-   "autor_url": "https://www.pexels.com/@ivan-cuadra-664879540",
-   "url": "https://www.pexels.com/video/majestic-foggy-mountain-aerial-view-at-dawn-36026712/",
-   "arquivo": "https://videos.pexels.com/video-files/36026712/15277923_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/36026712.mp4"
-  }
- },
- {
-  "frases": [
-   46,
-   47
-  ],
-  "bloco": "familia",
-  "tag": "vela",
-  "inicio": 324.92,
-  "fim": 329.052,
-  "clip": {
-   "id": 17795658,
-   "tag": "vela",
-   "duracao": 57,
-   "autor": "Ravi Kiran",
-   "autor_url": "https://www.pexels.com/@ravi-kiran-608220113",
-   "url": "https://www.pexels.com/video/candle-burning-17795658/",
-   "arquivo": "https://videos.pexels.com/video-files/17795658/17795658-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/17795658.mp4"
-  }
- },
- {
-  "frases": [
-   46,
-   47
-  ],
-  "bloco": "familia",
-  "tag": "vela",
-  "inicio": 329.052,
-  "fim": 333.183,
-  "clip": {
-   "id": 19204923,
-   "tag": "vela",
-   "duracao": 20,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/a-lit-candle-in-the-dark-with-a-black-background-19204923/",
-   "arquivo": "https://videos.pexels.com/video-files/19204923/19204923-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19204923.mp4"
-  }
- },
- {
-  "frases": [
-   48
-  ],
-  "bloco": "familia",
-  "tag": "luz_divina",
-  "inicio": 333.183,
-  "fim": 337.0,
-  "clip": {
-   "id": 4787381,
-   "tag": "luz_divina",
-   "duracao": 21,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/sun-rays-over-the-mountain-in-a-black-and-white-video-4787381/",
-   "arquivo": "https://videos.pexels.com/video-files/4787381/4787381-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4787381.mp4"
-  }
- },
- {
-  "frases": [
-   48
-  ],
-  "bloco": "familia",
-  "tag": "luz_divina",
-  "inicio": 337.0,
-  "fim": 340.816,
-  "clip": {
-   "id": 13069522,
-   "tag": "luz_divina",
-   "duracao": 14,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/dense-clouds-on-sky-13069522/",
-   "arquivo": "https://videos.pexels.com/video-files/13069522/13069522-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13069522.mp4"
-  }
- },
- {
-  "frases": [
-   49
-  ],
-  "bloco": "familia",
-  "tag": "vela",
-  "inicio": 340.816,
-  "fim": 347.711,
-  "clip": {
-   "id": 17912869,
-   "tag": "vela",
-   "duracao": 20,
-   "autor": "Milos Jevtic",
-   "autor_url": "https://www.pexels.com/@jevtajevtic7",
-   "url": "https://www.pexels.com/video/candle-17912869/",
-   "arquivo": "https://videos.pexels.com/video-files/17912869/17912869-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/17912869.mp4"
-  }
- },
- {
-  "frases": [
-   50
-  ],
-  "bloco": "familia",
-  "tag": "ceu_noturno",
-  "inicio": 347.711,
-  "fim": 351.834,
-  "clip": {
-   "id": 31204099,
-   "tag": "ceu_noturno",
-   "duracao": 30,
-   "autor": "Ollie Craig",
-   "autor_url": "https://www.pexels.com/@olliecraig1",
-   "url": "https://www.pexels.com/video/beautiful-night-sky-with-starry-view-31204099/",
-   "arquivo": "https://videos.pexels.com/video-files/31204099/13328567_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31204099.mp4"
-  }
- },
- {
-  "frases": [
-   50
-  ],
-  "bloco": "familia",
-  "tag": "ceu_noturno",
-  "inicio": 351.834,
-  "fim": 355.956,
-  "clip": {
-   "id": 37767639,
-   "tag": "ceu_noturno",
-   "duracao": 12,
-   "autor": "Jueon Kim \uae40\uc8fc\uc5b8",
-   "autor_url": "https://www.pexels.com/@jueonkim",
-   "url": "https://www.pexels.com/video/starry-night-sky-with-rotating-stars-timelapse-37767639/",
-   "arquivo": "https://videos.pexels.com/video-files/37767639/16019424_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/37767639.mp4"
-  }
- },
- {
-  "frases": [
-   51
-  ],
-  "bloco": "familia",
-  "tag": "nascer_sol",
-  "inicio": 355.956,
-  "fim": 360.172,
-  "clip": {
-   "id": 10221670,
-   "tag": "nascer_sol",
-   "duracao": 74,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/cloudy-sky-at-sunset-10221670/",
-   "arquivo": "https://videos.pexels.com/video-files/10221670/10221670-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10221670.mp4"
-  }
- },
- {
-  "frases": [
-   51
-  ],
-  "bloco": "familia",
-  "tag": "nascer_sol",
-  "inicio": 360.172,
-  "fim": 364.388,
-  "clip": {
-   "id": 6101001,
-   "tag": "nascer_sol",
-   "duracao": 14,
-   "autor": "Jyoti  Pur",
-   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
-   "url": "https://www.pexels.com/video/time-lapse-sunrise-6101001/",
-   "arquivo": "https://videos.pexels.com/video-files/6101001/6101001-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6101001.mp4"
-  }
- },
- {
-  "frases": [
-   52
-  ],
-  "bloco": "trabalho",
-  "tag": "montanha",
-  "inicio": 364.388,
-  "fim": 369.735,
-  "clip": {
-   "id": 34067541,
-   "tag": "montanha",
-   "duracao": 21,
-   "autor": "\u5c0f\u5c0f \u5175",
-   "autor_url": "https://www.pexels.com/@1516822895",
-   "url": "https://www.pexels.com/video/aerial-sunrise-over-majestic-mountain-range-34067541/",
-   "arquivo": "https://videos.pexels.com/video-files/34067541/14448760_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34067541.mp4"
-  }
- },
- {
-  "frases": [
-   53
-  ],
-  "bloco": "trabalho",
-  "tag": "chuva_janela",
-  "inicio": 369.735,
-  "fim": 373.918,
-  "clip": {
-   "id": 28911884,
-   "tag": "chuva_janela",
-   "duracao": 17,
-   "autor": "Diana \u2728",
-   "autor_url": "https://www.pexels.com/@didsss",
-   "url": "https://www.pexels.com/video/rainy-window-with-night-lights-passing-28911884/",
-   "arquivo": "https://videos.pexels.com/video-files/28911884/12513529_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28911884.mp4"
-  }
- },
- {
-  "frases": [
-   53
-  ],
-  "bloco": "trabalho",
-  "tag": "chuva_janela",
-  "inicio": 373.918,
-  "fim": 378.102,
-  "clip": {
-   "id": 16954669,
-   "tag": "chuva_janela",
-   "duracao": 10,
-   "autor": "Ben Garves",
-   "autor_url": "https://www.pexels.com/@bengarves",
-   "url": "https://www.pexels.com/video/as-thunder-and-lightning-rumble-through-the-skies-a-torrential-downpour-engulfs-a-gate-at-newark-airport-causing-airplanes-including-a-united-airlines-boeing-737-max-to-patiently-await-16954669/",
-   "arquivo": "https://videos.pexels.com/video-files/16954669/16954669-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/16954669.mp4"
-  }
- },
- {
-  "frases": [
-   54
-  ],
-  "bloco": "trabalho",
-  "tag": "lua",
-  "inicio": 378.102,
-  "fim": 385.24,
-  "clip": {
-   "id": 3579494,
-   "tag": "lua",
-   "duracao": 32,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/a-dark-clouds-over-shadowing-the-full-moon-3579494/",
-   "arquivo": "https://videos.pexels.com/video-files/3579494/3579494-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/3579494.mp4"
-  }
- },
- {
-  "frases": [
-   55
-  ],
-  "bloco": "trabalho",
-  "tag": "montanha",
-  "inicio": 385.24,
-  "fim": 390.748,
-  "clip": {
-   "id": 6062828,
-   "tag": "montanha",
-   "duracao": 31,
-   "autor": "Grzegorz Stalmach",
-   "autor_url": "https://www.pexels.com/@grzegorz-stalmach-3857124",
-   "url": "https://www.pexels.com/video/aerial-view-of-the-mountain-and-the-trees-in-a-foggy-day-6062828/",
-   "arquivo": "https://videos.pexels.com/video-files/6062828/6062828-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6062828.mp4"
-  }
- },
- {
-  "frases": [
-   56,
-   57
-  ],
-  "bloco": "trabalho",
-  "tag": "nascer_sol",
-  "inicio": 390.748,
-  "fim": 396.024,
-  "clip": {
-   "id": 5965869,
-   "tag": "nascer_sol",
-   "duracao": 10,
-   "autor": "Jyoti  Pur",
-   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
-   "url": "https://www.pexels.com/video/beautiful-morning-sky-5965869/",
-   "arquivo": "https://videos.pexels.com/video-files/5965869/5965869-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5965869.mp4"
-  }
- },
- {
-  "frases": [
-   56,
-   57
-  ],
-  "bloco": "trabalho",
-  "tag": "nascer_sol",
-  "inicio": 396.024,
-  "fim": 401.3,
-  "clip": {
-   "id": 35473059,
-   "tag": "nascer_sol",
-   "duracao": 12,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/serene-sunset-over-clouds-with-a-golden-glow-35473059/",
-   "arquivo": "https://videos.pexels.com/video-files/35473059/15028267_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/35473059.mp4"
-  }
- },
- {
-  "frases": [
-   58
-  ],
-  "bloco": "trabalho",
-  "tag": "nascer_sol",
-  "inicio": 401.3,
-  "fim": 407.713,
-  "clip": {
-   "id": 26555448,
-   "tag": "nascer_sol",
-   "duracao": 22,
-   "autor": "Orhan Pergel",
-   "autor_url": "https://www.pexels.com/@skylake",
-   "url": "https://www.pexels.com/video/aerial-view-of-the-sun-rising-over-the-clouds-26555448/",
-   "arquivo": "https://videos.pexels.com/video-files/26555448/11958699_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/26555448.mp4"
-  }
- },
- {
-  "frases": [
-   59
-  ],
-  "bloco": "trabalho",
-  "tag": "rio",
-  "inicio": 407.713,
-  "fim": 411.7,
-  "clip": {
-   "id": 1051028,
-   "tag": "rio",
-   "duracao": 44,
-   "autor": "Kim L.",
-   "autor_url": "https://www.pexels.com/@kim-l-395290",
-   "url": "https://www.pexels.com/video/video-of-an-airplane-1051028/",
-   "arquivo": "https://videos.pexels.com/video-files/1051028/1051028-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/1051028.mp4"
-  }
- },
- {
-  "frases": [
-   59
-  ],
-  "bloco": "trabalho",
-  "tag": "rio",
-  "inicio": 411.7,
-  "fim": 415.687,
-  "clip": {
-   "id": 18637356,
-   "tag": "rio",
-   "duracao": 12,
-   "autor": "Matias Luge",
-   "autor_url": "https://www.pexels.com/@matiasluge",
-   "url": "https://www.pexels.com/video/a-river-running-through-a-forest-with-trees-18637356/",
-   "arquivo": "https://videos.pexels.com/video-files/18637356/18637356-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/18637356.mp4"
-  }
- },
- {
-  "frases": [
-   60,
-   61
-  ],
-  "bloco": "trabalho",
-  "tag": "vela",
-  "inicio": 415.687,
-  "fim": 419.807,
-  "clip": {
-   "id": 5092038,
-   "tag": "vela",
-   "duracao": 18,
-   "autor": "Gilmer Diaz Estela",
-   "autor_url": "https://www.pexels.com/@gilmerdiaz",
-   "url": "https://www.pexels.com/video/video-of-a-burning-candle-5092038/",
-   "arquivo": "https://videos.pexels.com/video-files/5092038/5092038-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5092038.mp4"
-  }
- },
- {
-  "frases": [
-   60,
-   61
-  ],
-  "bloco": "trabalho",
-  "tag": "vela",
-  "inicio": 419.807,
-  "fim": 423.926,
-  "clip": {
-   "id": 5555355,
-   "tag": "vela",
-   "duracao": 20,
-   "autor": "Miguel \u00c1. Padri\u00f1\u00e1n",
-   "autor_url": "https://www.pexels.com/@padrinan",
-   "url": "https://www.pexels.com/video/close-up-video-of-a-lighted-candle-5555355/",
-   "arquivo": "https://videos.pexels.com/video-files/5555355/5555355-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5555355.mp4"
-  }
- },
- {
-  "frases": [
-   62
-  ],
-  "bloco": "trabalho",
-  "tag": "luz_divina",
-  "inicio": 423.926,
-  "fim": 427.727,
-  "clip": {
-   "id": 5362419,
-   "tag": "luz_divina",
-   "duracao": 10,
-   "autor": "Jyoti  Pur",
-   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-moving-clouds-over-a-farmland-5362419/",
-   "arquivo": "https://videos.pexels.com/video-files/5362419/5362419-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5362419.mp4"
-  }
- },
- {
-  "frases": [
-   62
-  ],
-  "bloco": "trabalho",
-  "tag": "luz_divina",
-  "inicio": 427.727,
-  "fim": 431.528,
-  "clip": {
-   "id": 16349050,
-   "tag": "luz_divina",
-   "duracao": 50,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/videos-naturaleza-paisajes-nubes-montanas-colombia-16349050/",
-   "arquivo": "https://videos.pexels.com/video-files/16349050/16349050-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/16349050.mp4"
-  }
- },
- {
-  "frases": [
-   63
-  ],
-  "bloco": "trabalho",
-  "tag": "nascer_sol",
-  "inicio": 431.528,
-  "fim": 438.488,
-  "clip": {
-   "id": 6201173,
-   "tag": "nascer_sol",
-   "duracao": 22,
-   "autor": "Jyoti  Pur",
-   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-a-beautiful-sunrise-6201173/",
-   "arquivo": "https://videos.pexels.com/video-files/6201173/6201173-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6201173.mp4"
-  }
- },
- {
-  "frases": [
-   64
-  ],
-  "bloco": "trabalho",
-  "tag": "rio",
-  "inicio": 438.488,
-  "fim": 444.205,
-  "clip": {
-   "id": 36495339,
-   "tag": "rio",
-   "duracao": 14,
-   "autor": "\u041b\u0430\u043d\u0430 \u0411\u043e\u043d\u0434\u0430\u0440\u0435\u043d\u043a\u043e",
-   "autor_url": "https://www.pexels.com/@2149199626",
-   "url": "https://www.pexels.com/video/peaceful-riverbank-and-cloudy-sky-reflection-36495339/",
-   "arquivo": "https://videos.pexels.com/video-files/36495339/15475353_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/36495339.mp4"
-  }
- },
- {
-  "frases": [
-   65
-  ],
-  "bloco": "trabalho",
-  "tag": "campo",
-  "inicio": 444.205,
-  "fim": 448.302,
-  "clip": {
-   "id": 8744661,
-   "tag": "campo",
-   "duracao": 22,
-   "autor": "ROMAN ODINTSOV",
-   "autor_url": "https://www.pexels.com/@roman-odintsov",
-   "url": "https://www.pexels.com/video/ground-level-shot-of-grass-field-8744661/",
-   "arquivo": "https://videos.pexels.com/video-files/8744661/8744661-hd_2048_1080_30fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/8744661.mp4"
-  }
- },
- {
-  "frases": [
-   65
-  ],
-  "bloco": "trabalho",
-  "tag": "campo",
-  "inicio": 448.302,
-  "fim": 452.399,
-  "clip": {
-   "id": 10470716,
-   "tag": "campo",
-   "duracao": 91,
-   "autor": "Videas Cl",
-   "autor_url": "https://www.pexels.com/@videas-cl-2693388",
-   "url": "https://www.pexels.com/video/flowers-among-green-grass-10470716/",
-   "arquivo": "https://videos.pexels.com/video-files/10470716/10470716-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10470716.mp4"
-  }
- },
- {
-  "frases": [
-   66
-  ],
-  "bloco": "pessoas",
-  "tag": "lua",
-  "inicio": 452.399,
-  "fim": 456.471,
-  "clip": {
-   "id": 5984164,
-   "tag": "lua",
-   "duracao": 60,
-   "autor": "Ubaid Khan",
-   "autor_url": "https://www.pexels.com/@obaidkhanspot",
-   "url": "https://www.pexels.com/video/low-angle-view-of-the-night-sky-with-a-full-moon-5984164/",
-   "arquivo": "https://videos.pexels.com/video-files/5984164/5984164-hd_2048_948_30fps.mp4",
-   "w": 2048,
-   "h": 948,
-   "arquivo_local": "clips/5984164.mp4"
-  }
- },
- {
-  "frases": [
-   67
-  ],
-  "bloco": "pessoas",
-  "tag": "ceu_noturno",
-  "inicio": 456.471,
-  "fim": 460.342,
-  "clip": {
-   "id": 9647121,
-   "tag": "ceu_noturno",
-   "duracao": 15,
-   "autor": "Lay-Z Owl",
-   "autor_url": "https://www.pexels.com/@lay-z-owl-801145",
-   "url": "https://www.pexels.com/video/time-lapse-of-stars-moving-in-sky-at-night-9647121/",
-   "arquivo": "https://videos.pexels.com/video-files/9647121/9647121-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9647121.mp4"
-  }
- },
- {
-  "frases": [
-   67
-  ],
-  "bloco": "pessoas",
-  "tag": "ceu_noturno",
-  "inicio": 460.342,
-  "fim": 464.213,
-  "clip": {
-   "id": 39785380,
-   "tag": "ceu_noturno",
-   "duracao": 9,
-   "autor": "Meryem \u015eahin",
-   "autor_url": "https://www.pexels.com/@bigparadox",
-   "url": "https://www.pexels.com/video/night-sky-timelapse-with-milky-way-39785380/",
-   "arquivo": "https://videos.pexels.com/video-files/39785380/16965710_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39785380.mp4"
-  }
- },
- {
-  "frases": [
-   68
-  ],
-  "bloco": "pessoas",
-  "tag": "vela",
-  "inicio": 464.213,
-  "fim": 468.193,
-  "clip": {
-   "id": 855262,
-   "tag": "vela",
-   "duracao": 10,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/lighted-candle-855262/",
-   "arquivo": "https://videos.pexels.com/video-files/855262/855262-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/855262.mp4"
-  }
- },
- {
-  "frases": [
-   68
-  ],
-  "bloco": "pessoas",
-  "tag": "vela",
-  "inicio": 468.193,
-  "fim": 472.174,
-  "clip": {
-   "id": 5675905,
-   "tag": "vela",
-   "duracao": 12,
-   "autor": "Zuzanna Musial",
-   "autor_url": "https://www.pexels.com/@042896ec25",
-   "url": "https://www.pexels.com/video/a-close-up-video-of-a-burning-candle-5675905/",
-   "arquivo": "https://videos.pexels.com/video-files/5675905/5675905-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5675905.mp4"
-  }
- },
- {
-  "frases": [
-   69
-  ],
-  "bloco": "pessoas",
-  "tag": "chuva_janela",
-  "inicio": 472.174,
-  "fim": 475.986,
-  "clip": {
-   "id": 5197762,
-   "tag": "chuva_janela",
-   "duracao": 51,
-   "autor": "Aleks BM",
-   "autor_url": "https://www.pexels.com/@aleks-bm-3474052",
-   "url": "https://www.pexels.com/video/rain-water-sliding-down-the-glass-window-surface-5197762/",
-   "arquivo": "https://videos.pexels.com/video-files/5197762/5197762-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5197762.mp4"
-  }
- },
- {
-  "frases": [
-   69
-  ],
-  "bloco": "pessoas",
-  "tag": "chuva_janela",
-  "inicio": 475.986,
-  "fim": 479.797,
-  "clip": {
-   "id": 36408448,
-   "tag": "chuva_janela",
-   "duracao": 12,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/abstract-water-drops-on-glass-window-36408448/",
-   "arquivo": "https://videos.pexels.com/video-files/36408448/15438812_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/36408448.mp4"
-  }
- },
- {
-  "frases": [
-   70
-  ],
-  "bloco": "pessoas",
-  "tag": "pastor_ovelhas",
-  "inicio": 479.797,
-  "fim": 483.783,
-  "clip": {
-   "id": 5768298,
-   "tag": "pastor_ovelhas",
-   "duracao": 13,
-   "autor": "Marian Croitoru",
-   "autor_url": "https://www.pexels.com/@marian-croitoru-2984359",
-   "url": "https://www.pexels.com/video/herd-of-sheep-5768298/",
-   "arquivo": "https://videos.pexels.com/video-files/5768298/5768298-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5768298.mp4"
-  }
- },
- {
-  "frases": [
-   70
-  ],
-  "bloco": "pessoas",
-  "tag": "pastor_ovelhas",
-  "inicio": 483.783,
-  "fim": 487.768,
-  "clip": {
-   "id": 11968435,
-   "tag": "pastor_ovelhas",
-   "duracao": 15,
-   "autor": "Nikolay Sobolev",
-   "autor_url": "https://www.pexels.com/@nikolay-sobolev-221711571",
-   "url": "https://www.pexels.com/video/sheep-on-pasture-11968435/",
-   "arquivo": "https://videos.pexels.com/video-files/11968435/11968435-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11968435.mp4"
-  }
- },
- {
-  "frases": [
-   71
-  ],
-  "bloco": "pessoas",
-  "tag": "luz_divina",
-  "inicio": 487.768,
-  "fim": 494.56,
-  "clip": {
-   "id": 13309966,
-   "tag": "luz_divina",
-   "duracao": 15,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/dark-clouds-over-hill-13309966/",
-   "arquivo": "https://videos.pexels.com/video-files/13309966/13309966-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13309966.mp4"
-  }
- },
- {
-  "frases": [
-   72
-  ],
-  "bloco": "pessoas",
-  "tag": "campo",
-  "inicio": 494.56,
-  "fim": 499.096,
-  "clip": {
-   "id": 10470703,
-   "tag": "campo",
-   "duracao": 54,
-   "autor": "Videas Cl",
-   "autor_url": "https://www.pexels.com/@videas-cl-2693388",
-   "url": "https://www.pexels.com/video/green-grass-waving-on-wind-10470703/",
-   "arquivo": "https://videos.pexels.com/video-files/10470703/10470703-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10470703.mp4"
-  }
- },
- {
-  "frases": [
-   72
-  ],
-  "bloco": "pessoas",
-  "tag": "campo",
-  "inicio": 499.096,
-  "fim": 503.631,
-  "clip": {
-   "id": 37301242,
-   "tag": "campo",
-   "duracao": 9,
-   "autor": "Tom Jurman",
-   "autor_url": "https://www.pexels.com/@kibo",
-   "url": "https://www.pexels.com/video/sunny-day-on-a-peaceful-green-hill-37301242/",
-   "arquivo": "https://videos.pexels.com/video-files/37301242/15800855_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/37301242.mp4"
-  }
- },
- {
-  "frases": [
-   73
-  ],
-  "bloco": "pessoas",
-  "tag": "lua",
-  "inicio": 503.631,
-  "fim": 507.618,
-  "clip": {
-   "id": 5571755,
-   "tag": "lua",
-   "duracao": 20,
-   "autor": "Monsieur  Sylvain",
-   "autor_url": "https://www.pexels.com/@monsieursylvain",
-   "url": "https://www.pexels.com/video/video-of-a-full-moon-5571755/",
-   "arquivo": "https://videos.pexels.com/video-files/5571755/5571755-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5571755.mp4"
-  }
- },
- {
-  "frases": [
-   73
-  ],
-  "bloco": "pessoas",
-  "tag": "lua",
-  "inicio": 507.618,
-  "fim": 511.605,
-  "clip": {
-   "id": 5571753,
-   "tag": "lua",
-   "duracao": 15,
-   "autor": "Monsieur  Sylvain",
-   "autor_url": "https://www.pexels.com/@monsieursylvain",
-   "url": "https://www.pexels.com/video/view-of-the-moon-through-dark-clouds-5571753/",
-   "arquivo": "https://videos.pexels.com/video-files/5571753/5571753-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5571753.mp4"
-  }
- },
- {
-  "frases": [
-   74,
-   75
-  ],
-  "bloco": "pessoas",
-  "tag": "vela",
-  "inicio": 511.605,
-  "fim": 515.385,
-  "clip": {
-   "id": 26583810,
-   "tag": "fogo_lareira",
-   "duracao": 66,
-   "autor": "IslandHopper X",
-   "autor_url": "https://www.pexels.com/@iwashere",
-   "url": "https://www.pexels.com/video/a-fire-is-burning-in-a-fireplace-with-a-black-background-26583810/",
-   "arquivo": "https://videos.pexels.com/video-files/26583810/11964987_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/26583810.mp4"
-  }
- },
- {
-  "frases": [
-   74,
-   75
-  ],
-  "bloco": "pessoas",
-  "tag": "vela",
-  "inicio": 515.385,
-  "fim": 519.165,
-  "clip": {
-   "id": 11751758,
-   "tag": "fogo_lareira",
-   "duracao": 306,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/fire-in-fireplace-11751758/",
-   "arquivo": "https://videos.pexels.com/video-files/11751758/11751758-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11751758.mp4"
-  }
- },
- {
-  "frases": [
-   76
-  ],
-  "bloco": "pessoas",
-  "tag": "ceu_noturno",
-  "inicio": 519.165,
-  "fim": 526.004,
-  "clip": {
-   "id": 13423306,
-   "tag": "ceu_noturno",
-   "duracao": 21,
-   "autor": "Dmitry Varennikov",
-   "autor_url": "https://www.pexels.com/@dmitry-varennikov-1414666",
-   "url": "https://www.pexels.com/video/stars-in-night-sky-over-mountain-lake-13423306/",
-   "arquivo": "https://videos.pexels.com/video-files/13423306/13423306-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13423306.mp4"
-  }
- },
- {
-  "frases": [
-   77
-  ],
-  "bloco": "pessoas",
-  "tag": "luz_divina",
-  "inicio": 526.004,
-  "fim": 532.414,
-  "clip": {
-   "id": 6546062,
-   "tag": "luz_divina",
-   "duracao": 21,
-   "autor": "MissDeena Travels",
-   "autor_url": "https://www.pexels.com/@missdeena-travels-3748297",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-sunrise-and-clouds-6546062/",
-   "arquivo": "https://videos.pexels.com/video-files/6546062/6546062-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6546062.mp4"
-  }
- },
- {
-  "frases": [
-   78
-  ],
-  "bloco": "pessoas",
-  "tag": "chuva_janela",
-  "inicio": 532.414,
-  "fim": 538.994,
-  "clip": {
-   "id": 6252535,
-   "tag": "chuva_janela",
-   "duracao": 47,
-   "autor": "ROCCO STOPPOLONI",
-   "autor_url": "https://www.pexels.com/@sstoppo",
-   "url": "https://www.pexels.com/video/candle-burning-by-a-window-6252535/",
-   "arquivo": "https://videos.pexels.com/video-files/6252535/6252535-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6252535.mp4"
-  }
- },
- {
-  "frases": [
-   79
-  ],
-  "bloco": "pessoas",
-  "tag": "campo",
-  "inicio": 538.994,
-  "fim": 543.904,
-  "clip": {
-   "id": 32157424,
-   "tag": "campo",
-   "duracao": 30,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/serene-green-field-with-gentle-breeze-32157424/",
-   "arquivo": "https://videos.pexels.com/video-files/32157424/13711320_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/32157424.mp4"
-  }
- },
- {
-  "frases": [
-   79
-  ],
-  "bloco": "pessoas",
-  "tag": "campo",
-  "inicio": 543.904,
-  "fim": 548.813,
-  "clip": {
-   "id": 38767013,
-   "tag": "campo",
-   "duracao": 22,
-   "autor": "Siarhei Dalivelia",
-   "autor_url": "https://www.pexels.com/@siarheidalivelia",
-   "url": "https://www.pexels.com/video/scenic-aerial-view-of-vast-green-plains-38767013/",
-   "arquivo": "https://videos.pexels.com/video-files/38767013/16471848_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/38767013.mp4"
-  }
- },
- {
-  "frases": [
-   80
-  ],
-  "bloco": "saude",
-  "tag": "vela",
-  "inicio": 548.813,
-  "fim": 556.276,
-  "clip": {
-   "id": 2034100,
-   "tag": "fogo_lareira",
-   "duracao": 30,
-   "autor": "Rafael Visentainer",
-   "autor_url": "https://www.pexels.com/@rafael-visentainer-1054680",
-   "url": "https://www.pexels.com/video/a-burning-firewood-2034100/",
-   "arquivo": "https://videos.pexels.com/video-files/2034100/2034100-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/2034100.mp4"
-  }
- },
- {
-  "frases": [
-   81
-  ],
-  "bloco": "saude",
-  "tag": "chuva_janela",
-  "inicio": 556.276,
-  "fim": 563.367,
-  "clip": {
-   "id": 5366344,
-   "tag": "chuva_janela",
-   "duracao": 12,
-   "autor": "Zuzanna Musial",
-   "autor_url": "https://www.pexels.com/@042896ec25",
-   "url": "https://www.pexels.com/video/raindrops-on-window-glass-close-up-5366344/",
-   "arquivo": "https://videos.pexels.com/video-files/5366344/5366344-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5366344.mp4"
-  }
- },
- {
-  "frases": [
-   82
-  ],
-  "bloco": "saude",
-  "tag": "lua",
-  "inicio": 563.367,
-  "fim": 570.225,
-  "clip": {
-   "id": 34206506,
-   "tag": "lua",
-   "duracao": 8,
-   "autor": "Ahmet G\u00fcr\u00fcn",
-   "autor_url": "https://www.pexels.com/@ahmetgurun",
-   "url": "https://www.pexels.com/video/4k-timelapse-of-moon-and-clouds-at-night-34206506/",
-   "arquivo": "https://videos.pexels.com/video-files/34206506/14498132_1620_1080_24fps.mp4",
-   "w": 1620,
-   "h": 1080,
-   "arquivo_local": "clips/34206506.mp4"
-  }
- },
- {
-  "frases": [
-   83
-  ],
-  "bloco": "saude",
-  "tag": "luz_divina",
-  "inicio": 570.225,
-  "fim": 577.084,
-  "clip": {
-   "id": 4767606,
-   "tag": "luz_divina",
-   "duracao": 20,
-   "autor": "Viktoria B.",
-   "autor_url": "https://www.pexels.com/@viktoriab",
-   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-formation-in-the-sky-at-sunset-4767606/",
-   "arquivo": "https://videos.pexels.com/video-files/4767606/4767606-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4767606.mp4"
-  }
- },
- {
-  "frases": [
-   84
-  ],
-  "bloco": "saude",
-  "tag": "nascer_sol",
-  "inicio": 577.084,
-  "fim": 583.846,
-  "clip": {
-   "id": 13237016,
-   "tag": "nascer_sol",
-   "duracao": 30,
-   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
-   "autor_url": "https://www.pexels.com/@traphitho",
-   "url": "https://www.pexels.com/video/cloud-over-hill-13237016/",
-   "arquivo": "https://videos.pexels.com/video-files/13237016/13237016-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13237016.mp4"
-  }
- },
- {
-  "frases": [
-   85
-  ],
-  "bloco": "saude",
-  "tag": "rio",
-  "inicio": 583.846,
-  "fim": 589.132,
-  "clip": {
-   "id": 31814604,
-   "tag": "rio",
-   "duracao": 34,
-   "autor": "Tom Sch\u00f6nmann",
-   "autor_url": "https://www.pexels.com/@tom-schonmann-3315378",
-   "url": "https://www.pexels.com/video/peaceful-river-scene-at-sunset-scenic-nature-video-31814604/",
-   "arquivo": "https://videos.pexels.com/video-files/31814604/13554956_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31814604.mp4"
-  }
- },
- {
-  "frases": [
-   85
-  ],
-  "bloco": "saude",
-  "tag": "rio",
-  "inicio": 589.132,
-  "fim": 594.419,
-  "clip": {
-   "id": 40434219,
-   "tag": "rio",
-   "duracao": 12,
-   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
-   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
-   "url": "https://www.pexels.com/video/gentle-breeze-blowing-through-river-reeds-40434219/",
-   "arquivo": "https://videos.pexels.com/video-files/40434219/17276825_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/40434219.mp4"
-  }
- },
- {
-  "frases": [
-   86,
-   87
-  ],
-  "bloco": "saude",
-  "tag": "vela",
-  "inicio": 594.419,
-  "fim": 598.588,
-  "clip": {
-   "id": 9314602,
-   "tag": "fogo_lareira",
-   "duracao": 10,
-   "autor": "Matthew  Twin",
-   "autor_url": "https://www.pexels.com/@amadeo",
-   "url": "https://www.pexels.com/video/close-up-of-a-burning-firewood-9314602/",
-   "arquivo": "https://videos.pexels.com/video-files/9314602/9314602-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9314602.mp4"
-  }
- },
- {
-  "frases": [
-   86,
-   87
-  ],
-  "bloco": "saude",
-  "tag": "vela",
-  "inicio": 598.588,
-  "fim": 602.757,
-  "clip": {
-   "id": 6232461,
-   "tag": "fogo_lareira",
-   "duracao": 8,
-   "autor": "Anastasia  Shuraeva",
-   "autor_url": "https://www.pexels.com/@anastasia-shuraeva",
-   "url": "https://www.pexels.com/video/a-video-of-a-wood-burning-6232461/",
-   "arquivo": "https://videos.pexels.com/video-files/6232461/6232461-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6232461.mp4"
-  }
- },
- {
-  "frases": [
-   88
-  ],
-  "bloco": "saude",
-  "tag": "lua",
-  "inicio": 602.757,
-  "fim": 606.65,
-  "clip": {
-   "id": 8847398,
-   "tag": "lua",
-   "duracao": 11,
-   "autor": "Anoop Kc",
-   "autor_url": "https://www.pexels.com/@anoop-kc-2680115",
-   "url": "https://www.pexels.com/video/time-lapse-of-moving-clouds-8847398/",
-   "arquivo": "https://videos.pexels.com/video-files/8847398/8847398-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/8847398.mp4"
-  }
- },
- {
-  "frases": [
-   88
-  ],
-  "bloco": "saude",
-  "tag": "lua",
-  "inicio": 606.65,
-  "fim": 610.544,
-  "clip": {
-   "id": 6960047,
-   "tag": "lua",
-   "duracao": 44,
-   "autor": "moomoo-dad.com",
-   "autor_url": "https://www.pexels.com/@moomoo-dad-com-1635213",
-   "url": "https://www.pexels.com/video/full-moon-6960047/",
-   "arquivo": "https://videos.pexels.com/video-files/6960047/6960047-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6960047.mp4"
-  }
- },
- {
-  "frases": [
-   89
-  ],
-  "bloco": "saude",
-  "tag": "ceu_noturno",
-  "inicio": 610.544,
-  "fim": 617.96,
-  "clip": {
-   "id": 10650641,
-   "tag": "ceu_noturno",
-   "duracao": 14,
-   "autor": "Kostas Exarhos",
-   "autor_url": "https://www.pexels.com/@kostas-exarhos-144474017",
-   "url": "https://www.pexels.com/video/silhouette-of-tree-branches-under-a-starry-sky-10650641/",
-   "arquivo": "https://videos.pexels.com/video-files/10650641/10650641-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10650641.mp4"
-  }
- },
- {
-  "frases": [
-   90
-  ],
-  "bloco": "saude",
-  "tag": "nascer_sol",
-  "inicio": 617.96,
-  "fim": 621.987,
-  "clip": {
-   "id": 33648676,
-   "tag": "nascer_sol",
-   "duracao": 19,
-   "autor": "Ray Raimundo",
-   "autor_url": "https://www.pexels.com/@rayraimundo",
-   "url": "https://www.pexels.com/video/dramatic-sunset-over-mountain-silhouette-33648676/",
-   "arquivo": "https://videos.pexels.com/video-files/33648676/14298927_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33648676.mp4"
-  }
- },
- {
-  "frases": [
-   90
-  ],
-  "bloco": "saude",
-  "tag": "nascer_sol",
-  "inicio": 621.987,
-  "fim": 626.015,
-  "clip": {
-   "id": 29032225,
-   "tag": "nascer_sol",
-   "duracao": 8,
-   "autor": "Kevin Kr\u00e4mer",
-   "autor_url": "https://www.pexels.com/@thedog777",
-   "url": "https://www.pexels.com/video/breathtaking-sunrise-over-sea-of-clouds-29032225/",
-   "arquivo": "https://videos.pexels.com/video-files/29032225/12551785_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/29032225.mp4"
-  }
- },
- {
-  "frases": [
-   91
-  ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 626.015,
-  "fim": 631.063,
-  "clip": {
-   "id": 29628759,
-   "tag": "ceu_noturno",
-   "duracao": 11,
-   "autor": "Dubang chang",
-   "autor_url": "https://www.pexels.com/@dudubangbang",
-   "url": "https://www.pexels.com/video/starlit-night-sky-with-star-trails-29628759/",
-   "arquivo": "https://videos.pexels.com/video-files/29628759/12749513_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/29628759.mp4"
-  }
- },
- {
-  "frases": [
-   92
-  ],
-  "bloco": "bencao",
-  "tag": "lua",
-  "inicio": 631.063,
-  "fim": 635.885,
-  "clip": {
-   "id": 11599944,
-   "tag": "lua",
-   "duracao": 61,
-   "autor": "Sarowar Hussain",
-   "autor_url": "https://www.pexels.com/@sarowar-hussain-3111579",
-   "url": "https://www.pexels.com/video/a-full-moon-and-moving-clouds-11599944/",
-   "arquivo": "https://videos.pexels.com/video-files/11599944/11599944-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11599944.mp4"
-  }
- },
- {
-  "frases": [
-   92
-  ],
-  "bloco": "bencao",
-  "tag": "lua",
-  "inicio": 635.885,
-  "fim": 640.706,
-  "clip": {
-   "id": 34199611,
-   "tag": "lua",
-   "duracao": 30,
-   "autor": "Nikola Toma\u0161i\u0107",
-   "autor_url": "https://www.pexels.com/@nikola-tomasic-58494762",
-   "url": "https://www.pexels.com/video/serene-full-moon-partially-obscured-by-cloud-34199611/",
-   "arquivo": "https://videos.pexels.com/video-files/34199611/14495338_1920_1080_50fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34199611.mp4"
-  }
- },
- {
-  "frases": [
-   93
-  ],
-  "bloco": "bencao",
-  "tag": "vela",
-  "inicio": 640.706,
-  "fim": 646.589,
+  "inicio": 13.179,
+  "fim": 17.442,
   "clip": {
    "id": 14090582,
    "tag": "vela",
@@ -2786,159 +64,12 @@
  },
  {
   "frases": [
-   94
+   2
   ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 646.589,
-  "fim": 650.504,
-  "clip": {
-   "id": 27782839,
-   "tag": "ceu_noturno",
-   "duracao": 10,
-   "autor": "\u00dcnal Karabiber",
-   "autor_url": "https://www.pexels.com/@unalkrabbr",
-   "url": "https://www.pexels.com/video/the-night-sky-with-stars-and-a-tree-27782839/",
-   "arquivo": "https://videos.pexels.com/video-files/27782839/12223368_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/27782839.mp4"
-  }
- },
- {
-  "frases": [
-   94
-  ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 650.504,
-  "fim": 654.418,
-  "clip": {
-   "id": 39429663,
-   "tag": "ceu_noturno",
-   "duracao": 14,
-   "autor": "Gavin Fregona",
-   "autor_url": "https://www.pexels.com/@gavin",
-   "url": "https://www.pexels.com/video/star-trails-over-forest-night-sky-39429663/",
-   "arquivo": "https://videos.pexels.com/video-files/39429663/16790955_1778_1080_15fps.mp4",
-   "w": 1778,
-   "h": 1080,
-   "arquivo_local": "clips/39429663.mp4"
-  }
- },
- {
-  "frases": [
-   95
-  ],
-  "bloco": "bencao",
-  "tag": "lua",
-  "inicio": 654.418,
-  "fim": 661.239,
-  "clip": {
-   "id": 19917968,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/the-moon-is-seen-through-clouds-in-a-dark-sky-19917968/",
-   "arquivo": "https://videos.pexels.com/video-files/19917968/19917968-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19917968.mp4"
-  }
- },
- {
-  "frases": [
-   96
-  ],
-  "bloco": "bencao",
-  "tag": "luz_divina",
-  "inicio": 661.239,
-  "fim": 666.221,
-  "clip": {
-   "id": 16412730,
-   "tag": "luz_divina",
-   "duracao": 39,
-   "autor": "Vinay",
-   "autor_url": "https://www.pexels.com/@vinay-192438842",
-   "url": "https://www.pexels.com/video/clouds-16412730/",
-   "arquivo": "https://videos.pexels.com/video-files/16412730/16412730-hd_1920_1080_50fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/16412730.mp4"
-  }
- },
- {
-  "frases": [
-   97
-  ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 666.221,
-  "fim": 670.07,
-  "clip": {
-   "id": 11431384,
-   "tag": "ceu_noturno",
-   "duracao": 8,
-   "autor": "Luz Calor Som",
-   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
-   "url": "https://www.pexels.com/video/timelapse-of-stars-in-night-11431384/",
-   "arquivo": "https://videos.pexels.com/video-files/11431384/11431384-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11431384.mp4"
-  }
- },
- {
-  "frases": [
-   97
-  ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 670.07,
-  "fim": 673.918,
-  "clip": {
-   "id": 14164051,
-   "tag": "ceu_noturno",
-   "duracao": 23,
-   "autor": "Roy S.",
-   "autor_url": "https://www.pexels.com/@roy-s-12656046",
-   "url": "https://www.pexels.com/video/clouds-and-stars-on-night-sky-14164051/",
-   "arquivo": "https://videos.pexels.com/video-files/14164051/14164051-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14164051.mp4"
-  }
- },
- {
-  "frases": [
-   98
-  ],
-  "bloco": "bencao",
-  "tag": "lua",
-  "inicio": 673.918,
-  "fim": 681.393,
-  "clip": {
-   "id": 39880699,
-   "tag": "lua",
-   "duracao": 11,
-   "autor": "Nishant Vyas",
-   "autor_url": "https://www.pexels.com/@nishantvy",
-   "url": "https://www.pexels.com/video/ethereal-moonlit-clouds-time-lapse-39880699/",
-   "arquivo": "https://videos.pexels.com/video-files/39880699/17008147_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39880699.mp4"
-  }
- },
- {
-  "frases": [
-   99
-  ],
-  "bloco": "bencao",
+  "bloco": "abertura",
   "tag": "vela",
-  "inicio": 681.393,
-  "fim": 685.948,
+  "inicio": 17.442,
+  "fim": 21.706,
   "clip": {
    "id": 8677058,
    "tag": "vela",
@@ -2954,12 +85,349 @@
  },
  {
   "frases": [
-   99
+   3
   ],
-  "bloco": "bencao",
+  "bloco": "abertura",
+  "tag": "lua",
+  "inicio": 21.706,
+  "fim": 26.217,
+  "clip": {
+   "id": 36110654,
+   "tag": "lua",
+   "duracao": 107,
+   "autor": "Sajal Niraula",
+   "autor_url": "https://www.pexels.com/@hailsajal",
+   "url": "https://www.pexels.com/video/dramatic-night-sky-with-crescent-moon-timelapse-36110654/",
+   "arquivo": "https://videos.pexels.com/video-files/36110654/15314189_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36110654.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "abertura",
+  "tag": "lua",
+  "inicio": 26.217,
+  "fim": 30.728,
+  "clip": {
+   "id": 5251546,
+   "tag": "lua",
+   "duracao": 21,
+   "autor": "Connor kane",
+   "autor_url": "https://www.pexels.com/@connor-kane-3369264",
+   "url": "https://www.pexels.com/video/video-of-a-bright-moon-5251546/",
+   "arquivo": "https://videos.pexels.com/video-files/5251546/5251546-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5251546.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "abertura",
+  "tag": "nascer_sol",
+  "inicio": 30.728,
+  "fim": 35.002,
+  "clip": {
+   "id": 4501953,
+   "tag": "nascer_sol",
+   "duracao": 10,
+   "autor": "Wayne Speedy",
+   "autor_url": "https://www.pexels.com/@wayne-speedy-777933",
+   "url": "https://www.pexels.com/video/timelapse-footage-of-sunset-4501953/",
+   "arquivo": "https://videos.pexels.com/video-files/4501953/4501953-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4501953.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "abertura",
+  "tag": "nascer_sol",
+  "inicio": 35.002,
+  "fim": 39.277,
+  "clip": {
+   "id": 5881045,
+   "tag": "nascer_sol",
+   "duracao": 11,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-the-sky-5881045/",
+   "arquivo": "https://videos.pexels.com/video-files/5881045/5881045-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5881045.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "abertura",
+  "tag": "luz_divina",
+  "inicio": 39.277,
+  "fim": 44.076,
+  "clip": {
+   "id": 33824905,
+   "tag": "luz_divina",
+   "duracao": 19,
+   "autor": "Dhruv Pulipaka",
+   "autor_url": "https://www.pexels.com/@dhruv-pulipaka-2153070585",
+   "url": "https://www.pexels.com/video/dramatic-sky-timelapse-with-sunlit-clouds-33824905/",
+   "arquivo": "https://videos.pexels.com/video-files/33824905/14355989_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33824905.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "abertura",
+  "tag": "luz_divina",
+  "inicio": 44.076,
+  "fim": 48.875,
+  "clip": {
+   "id": 9362165,
+   "tag": "luz_divina",
+   "duracao": 15,
+   "autor": "Kmeel.com Videos",
+   "autor_url": "https://www.pexels.com/@kmeel",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-9362165/",
+   "arquivo": "https://videos.pexels.com/video-files/9362165/9362165-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9362165.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "abertura",
+  "tag": "campo",
+  "inicio": 48.875,
+  "fim": 53.904,
+  "clip": {
+   "id": 8893049,
+   "tag": "campo",
+   "duracao": 26,
+   "autor": "\ub300\uc815 \uae40",
+   "autor_url": "https://www.pexels.com/@daejeung",
+   "url": "https://www.pexels.com/video/a-growing-grass-in-a-grass-field-8893049/",
+   "arquivo": "https://videos.pexels.com/video-files/8893049/8893049-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8893049.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "abertura",
+  "tag": "campo",
+  "inicio": 53.904,
+  "fim": 58.932,
+  "clip": {
+   "id": 32046436,
+   "tag": "campo",
+   "duracao": 8,
+   "autor": "Ebahir",
+   "autor_url": "https://www.pexels.com/@ebahir",
+   "url": "https://www.pexels.com/video/serene-green-field-under-moody-sky-32046436/",
+   "arquivo": "https://videos.pexels.com/video-files/32046436/13660605_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32046436.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "planos",
+  "tag": "montanha",
+  "inicio": 58.932,
+  "fim": 65.766,
+  "clip": {
+   "id": 26583632,
+   "tag": "montanha",
+   "duracao": 8,
+   "autor": "Orhan Pergel",
+   "autor_url": "https://www.pexels.com/@skylake",
+   "url": "https://www.pexels.com/video/aerial-view-of-the-fog-and-clouds-over-the-mountains-at-sunset-26583632/",
+   "arquivo": "https://videos.pexels.com/video-files/26583632/11964893_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/26583632.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "planos",
+  "tag": "chuva_janela",
+  "inicio": 65.766,
+  "fim": 72.392,
+  "clip": {
+   "id": 9945249,
+   "tag": "chuva_janela",
+   "duracao": 49,
+   "autor": "Neil Yonamine",
+   "autor_url": "https://www.pexels.com/@neilyonamine",
+   "url": "https://www.pexels.com/video/raindrops-falling-on-glass-9945249/",
+   "arquivo": "https://videos.pexels.com/video-files/9945249/9945249-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9945249.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "planos",
+  "tag": "nascer_sol",
+  "inicio": 72.392,
+  "fim": 77.441,
+  "clip": {
+   "id": 10221670,
+   "tag": "nascer_sol",
+   "duracao": 74,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/cloudy-sky-at-sunset-10221670/",
+   "arquivo": "https://videos.pexels.com/video-files/10221670/10221670-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10221670.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "planos",
+  "tag": "nascer_sol",
+  "inicio": 77.441,
+  "fim": 82.49,
+  "clip": {
+   "id": 6101001,
+   "tag": "nascer_sol",
+   "duracao": 14,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/time-lapse-sunrise-6101001/",
+   "arquivo": "https://videos.pexels.com/video-files/6101001/6101001-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6101001.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "planos",
+  "tag": "rio",
+  "inicio": 82.49,
+  "fim": 89.349,
+  "clip": {
+   "id": 11888677,
+   "tag": "rio",
+   "duracao": 63,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/river-and-trees-11888677/",
+   "arquivo": "https://videos.pexels.com/video-files/11888677/11888677-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11888677.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "planos",
+  "tag": "montanha",
+  "inicio": 89.349,
+  "fim": 93.475,
+  "clip": {
+   "id": 36026712,
+   "tag": "montanha",
+   "duracao": 8,
+   "autor": "Ivan Cuadra",
+   "autor_url": "https://www.pexels.com/@ivan-cuadra-664879540",
+   "url": "https://www.pexels.com/video/majestic-foggy-mountain-aerial-view-at-dawn-36026712/",
+   "arquivo": "https://videos.pexels.com/video-files/36026712/15277923_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36026712.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "planos",
+  "tag": "montanha",
+  "inicio": 93.475,
+  "fim": 97.6,
+  "clip": {
+   "id": 34067541,
+   "tag": "montanha",
+   "duracao": 21,
+   "autor": "\u5c0f\u5c0f \u5175",
+   "autor_url": "https://www.pexels.com/@1516822895",
+   "url": "https://www.pexels.com/video/aerial-sunrise-over-majestic-mountain-range-34067541/",
+   "arquivo": "https://videos.pexels.com/video-files/34067541/14448760_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34067541.mp4"
+  }
+ },
+ {
+  "frases": [
+   12
+  ],
+  "bloco": "planos",
+  "tag": "campo",
+  "inicio": 97.6,
+  "fim": 103.233,
+  "clip": {
+   "id": 855258,
+   "tag": "campo",
+   "duracao": 58,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/bird-on-green-grass-855258/",
+   "arquivo": "https://videos.pexels.com/video-files/855258/855258-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/855258.mp4"
+  }
+ },
+ {
+  "frases": [
+   13,
+   14
+  ],
+  "bloco": "planos",
   "tag": "vela",
-  "inicio": 685.948,
-  "fim": 690.504,
+  "inicio": 103.233,
+  "fim": 107.645,
   "clip": {
    "id": 19726028,
    "tag": "vela",
@@ -2975,12 +443,880 @@
  },
  {
   "frases": [
-   100
+   13,
+   14
   ],
-  "bloco": "bencao",
+  "bloco": "planos",
+  "tag": "vela",
+  "inicio": 107.645,
+  "fim": 112.057,
+  "clip": {
+   "id": 12550702,
+   "tag": "vela",
+   "duracao": 19,
+   "autor": "Florencio Rojas",
+   "autor_url": "https://www.pexels.com/@frojas",
+   "url": "https://www.pexels.com/video/burning-candle-in-darkness-12550702/",
+   "arquivo": "https://videos.pexels.com/video-files/12550702/12550702-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12550702.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "planos",
   "tag": "nascer_sol",
-  "inicio": 690.504,
-  "fim": 697.849,
+  "inicio": 112.057,
+  "fim": 119.473,
+  "clip": {
+   "id": 5965869,
+   "tag": "nascer_sol",
+   "duracao": 10,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/beautiful-morning-sky-5965869/",
+   "arquivo": "https://videos.pexels.com/video-files/5965869/5965869-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5965869.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "planos",
+  "tag": "campo",
+  "inicio": 119.473,
+  "fim": 124.261,
+  "clip": {
+   "id": 8744661,
+   "tag": "campo",
+   "duracao": 22,
+   "autor": "ROMAN ODINTSOV",
+   "autor_url": "https://www.pexels.com/@roman-odintsov",
+   "url": "https://www.pexels.com/video/ground-level-shot-of-grass-field-8744661/",
+   "arquivo": "https://videos.pexels.com/video-files/8744661/8744661-hd_2048_1080_30fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/8744661.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "planos",
+  "tag": "campo",
+  "inicio": 124.261,
+  "fim": 129.048,
+  "clip": {
+   "id": 10470716,
+   "tag": "campo",
+   "duracao": 91,
+   "autor": "Videas Cl",
+   "autor_url": "https://www.pexels.com/@videas-cl-2693388",
+   "url": "https://www.pexels.com/video/flowers-among-green-grass-10470716/",
+   "arquivo": "https://videos.pexels.com/video-files/10470716/10470716-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10470716.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "provisao",
+  "tag": "campo",
+  "inicio": 129.048,
+  "fim": 135.46,
+  "clip": {
+   "id": 10470703,
+   "tag": "campo",
+   "duracao": 54,
+   "autor": "Videas Cl",
+   "autor_url": "https://www.pexels.com/@videas-cl-2693388",
+   "url": "https://www.pexels.com/video/green-grass-waving-on-wind-10470703/",
+   "arquivo": "https://videos.pexels.com/video-files/10470703/10470703-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10470703.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "provisao",
+  "tag": "montanha",
+  "inicio": 135.46,
+  "fim": 139.679,
+  "clip": {
+   "id": 6062828,
+   "tag": "montanha",
+   "duracao": 31,
+   "autor": "Grzegorz Stalmach",
+   "autor_url": "https://www.pexels.com/@grzegorz-stalmach-3857124",
+   "url": "https://www.pexels.com/video/aerial-view-of-the-mountain-and-the-trees-in-a-foggy-day-6062828/",
+   "arquivo": "https://videos.pexels.com/video-files/6062828/6062828-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6062828.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "provisao",
+  "tag": "montanha",
+  "inicio": 139.679,
+  "fim": 143.898,
+  "clip": {
+   "id": 6942637,
+   "tag": "montanha",
+   "duracao": 11,
+   "autor": "Mikhail Nilov",
+   "autor_url": "https://www.pexels.com/@mikhail-nilov",
+   "url": "https://www.pexels.com/video/drone-footage-cloudy-montain-6942637/",
+   "arquivo": "https://videos.pexels.com/video-files/6942637/6942637-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6942637.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "provisao",
+  "tag": "rio",
+  "inicio": 143.898,
+  "fim": 149.967,
+  "clip": {
+   "id": 3644111,
+   "tag": "rio",
+   "duracao": 9,
+   "autor": "Artem Anosov",
+   "autor_url": "https://www.pexels.com/@artem-anosov-1933761",
+   "url": "https://www.pexels.com/video/footage-of-a-calm-water-in-the-river-3644111/",
+   "arquivo": "https://videos.pexels.com/video-files/3644111/3644111-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3644111.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "provisao",
+  "tag": "nascer_sol",
+  "inicio": 149.967,
+  "fim": 154.372,
+  "clip": {
+   "id": 35473059,
+   "tag": "nascer_sol",
+   "duracao": 12,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/serene-sunset-over-clouds-with-a-golden-glow-35473059/",
+   "arquivo": "https://videos.pexels.com/video-files/35473059/15028267_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35473059.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "provisao",
+  "tag": "nascer_sol",
+  "inicio": 154.372,
+  "fim": 158.776,
+  "clip": {
+   "id": 26555448,
+   "tag": "nascer_sol",
+   "duracao": 22,
+   "autor": "Orhan Pergel",
+   "autor_url": "https://www.pexels.com/@skylake",
+   "url": "https://www.pexels.com/video/aerial-view-of-the-sun-rising-over-the-clouds-26555448/",
+   "arquivo": "https://videos.pexels.com/video-files/26555448/11958699_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/26555448.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "provisao",
+  "tag": "pastor_ovelhas",
+  "inicio": 158.776,
+  "fim": 162.949,
+  "clip": {
+   "id": 13563078,
+   "tag": "pastor_ovelhas",
+   "duracao": 16,
+   "autor": "Hasan \u0130NCE",
+   "autor_url": "https://www.pexels.com/@hix52",
+   "url": "https://www.pexels.com/video/sheep-on-pasture-13563078/",
+   "arquivo": "https://videos.pexels.com/video-files/13563078/13563078-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13563078.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "provisao",
+  "tag": "pastor_ovelhas",
+  "inicio": 162.949,
+  "fim": 167.121,
+  "clip": {
+   "id": 39033973,
+   "tag": "pastor_ovelhas",
+   "duracao": 15,
+   "autor": "Kiwi and Camera",
+   "autor_url": "https://www.pexels.com/@kiwi-and-camera-2158354883",
+   "url": "https://www.pexels.com/video/sheep-grazing-on-lush-new-zealand-hillside-39033973/",
+   "arquivo": "https://videos.pexels.com/video-files/39033973/16609703_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39033973.mp4"
+  }
+ },
+ {
+  "frases": [
+   22,
+   23
+  ],
+  "bloco": "provisao",
+  "tag": "vela",
+  "inicio": 167.121,
+  "fim": 171.789,
+  "clip": {
+   "id": 7033615,
+   "tag": "vela",
+   "duracao": 25,
+   "autor": "Tima Miroshnichenko",
+   "autor_url": "https://www.pexels.com/@tima-miroshnichenko",
+   "url": "https://www.pexels.com/video/video-of-a-candle-wick-burning-7033615/",
+   "arquivo": "https://videos.pexels.com/video-files/7033615/7033615-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7033615.mp4"
+  }
+ },
+ {
+  "frases": [
+   22,
+   23
+  ],
+  "bloco": "provisao",
+  "tag": "vela",
+  "inicio": 171.789,
+  "fim": 176.457,
+  "clip": {
+   "id": 3344057,
+   "tag": "vela",
+   "duracao": 78,
+   "autor": "Sumon Error",
+   "autor_url": "https://www.pexels.com/@sumonerror",
+   "url": "https://www.pexels.com/video/candle-burning-3344057/",
+   "arquivo": "https://videos.pexels.com/video-files/3344057/3344057-hd_1890_1080_30fps.mp4",
+   "w": 1890,
+   "h": 1080,
+   "arquivo_local": "clips/3344057.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "provisao",
+  "tag": "campo",
+  "inicio": 176.457,
+  "fim": 181.007,
+  "clip": {
+   "id": 37301242,
+   "tag": "campo",
+   "duracao": 9,
+   "autor": "Tom Jurman",
+   "autor_url": "https://www.pexels.com/@kibo",
+   "url": "https://www.pexels.com/video/sunny-day-on-a-peaceful-green-hill-37301242/",
+   "arquivo": "https://videos.pexels.com/video-files/37301242/15800855_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37301242.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "provisao",
+  "tag": "campo",
+  "inicio": 181.007,
+  "fim": 185.557,
+  "clip": {
+   "id": 32157424,
+   "tag": "campo",
+   "duracao": 30,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/serene-green-field-with-gentle-breeze-32157424/",
+   "arquivo": "https://videos.pexels.com/video-files/32157424/13711320_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32157424.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "provisao",
+  "tag": "rio",
+  "inicio": 185.557,
+  "fim": 189.96,
+  "clip": {
+   "id": 30082491,
+   "tag": "rio",
+   "duracao": 23,
+   "autor": "Tom Jurman",
+   "autor_url": "https://www.pexels.com/@kibo",
+   "url": "https://www.pexels.com/video/peaceful-kayaking-adventure-on-a-serene-river-30082491/",
+   "arquivo": "https://videos.pexels.com/video-files/30082491/12902215_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30082491.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "provisao",
+  "tag": "rio",
+  "inicio": 189.96,
+  "fim": 194.363,
+  "clip": {
+   "id": 14514588,
+   "tag": "rio",
+   "duracao": 16,
+   "autor": "Natia Ker",
+   "autor_url": "https://www.pexels.com/@natiaker",
+   "url": "https://www.pexels.com/video/river-in-autumn-14514588/",
+   "arquivo": "https://videos.pexels.com/video-files/14514588/14514588-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/14514588.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "ancora",
+  "tag": "mar_calmo",
+  "inicio": 194.363,
+  "fim": 200.583,
+  "clip": {
+   "id": 36323806,
+   "tag": "mar_calmo",
+   "duracao": 39,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/serene-ocean-waves-at-golden-sunset-36323806/",
+   "arquivo": "https://videos.pexels.com/video-files/36323806/15404564_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36323806.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "ancora",
+  "tag": "chuva_janela",
+  "inicio": 200.583,
+  "fim": 204.802,
+  "clip": {
+   "id": 29992735,
+   "tag": "chuva_janela",
+   "duracao": 14,
+   "autor": "emirkhan bal",
+   "autor_url": "https://www.pexels.com/@mootlak",
+   "url": "https://www.pexels.com/video/rainy-night-window-bokeh-effect-video-29992735/",
+   "arquivo": "https://videos.pexels.com/video-files/29992735/12869061_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29992735.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "ancora",
+  "tag": "chuva_janela",
+  "inicio": 204.802,
+  "fim": 209.021,
+  "clip": {
+   "id": 28911881,
+   "tag": "chuva_janela",
+   "duracao": 14,
+   "autor": "Diana \u2728",
+   "autor_url": "https://www.pexels.com/@didsss",
+   "url": "https://www.pexels.com/video/abstract-raindrop-patterns-on-a-window-pane-28911881/",
+   "arquivo": "https://videos.pexels.com/video-files/28911881/12513535_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28911881.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "ancora",
+  "tag": "mar_calmo",
+  "inicio": 209.021,
+  "fim": 214.765,
+  "clip": {
+   "id": 5976555,
+   "tag": "mar_calmo",
+   "duracao": 28,
+   "autor": "Yaroslav Shuraev",
+   "autor_url": "https://www.pexels.com/@yaroslav-shuraev",
+   "url": "https://www.pexels.com/video/waves-crashing-over-a-dark-horizon-5976555/",
+   "arquivo": "https://videos.pexels.com/video-files/5976555/5976555-hd_2048_1080_24fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/5976555.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "ancora",
+  "tag": "rio",
+  "inicio": 214.765,
+  "fim": 220.845,
+  "clip": {
+   "id": 1051028,
+   "tag": "rio",
+   "duracao": 44,
+   "autor": "Kim L.",
+   "autor_url": "https://www.pexels.com/@kim-l-395290",
+   "url": "https://www.pexels.com/video/video-of-an-airplane-1051028/",
+   "arquivo": "https://videos.pexels.com/video-files/1051028/1051028-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/1051028.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "ancora",
+  "tag": "montanha",
+  "inicio": 220.845,
+  "fim": 224.915,
+  "clip": {
+   "id": 27818318,
+   "tag": "montanha",
+   "duracao": 10,
+   "autor": "ABHISHEK A",
+   "autor_url": "https://www.pexels.com/@abhishek-a-1675351269",
+   "url": "https://www.pexels.com/video/a-view-of-the-sky-above-a-mountain-range-27818318/",
+   "arquivo": "https://videos.pexels.com/video-files/27818318/12233034_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27818318.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "ancora",
+  "tag": "montanha",
+  "inicio": 224.915,
+  "fim": 228.984,
+  "clip": {
+   "id": 16587649,
+   "tag": "montanha",
+   "duracao": 99,
+   "autor": "Geun Goh",
+   "autor_url": "https://www.pexels.com/@teneye",
+   "url": "https://www.pexels.com/video/a-mountain-landscape-at-dawn-16587649/",
+   "arquivo": "https://videos.pexels.com/video-files/16587649/16587649-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16587649.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "ancora",
+  "tag": "luz_divina",
+  "inicio": 228.984,
+  "fim": 233.644,
+  "clip": {
+   "id": 4787839,
+   "tag": "luz_divina",
+   "duracao": 21,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-4787839/",
+   "arquivo": "https://videos.pexels.com/video-files/4787839/4787839-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4787839.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "ancora",
+  "tag": "luz_divina",
+  "inicio": 233.644,
+  "fim": 238.304,
+  "clip": {
+   "id": 29840809,
+   "tag": "luz_divina",
+   "duracao": 16,
+   "autor": "Altaf Shah",
+   "autor_url": "https://www.pexels.com/@altaf-shah-3143825",
+   "url": "https://www.pexels.com/video/dramatic-cloudscape-with-sunlight-breaking-through-29840809/",
+   "arquivo": "https://videos.pexels.com/video-files/29840809/12814598_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29840809.mp4"
+  }
+ },
+ {
+  "frases": [
+   32,
+   33
+  ],
+  "bloco": "ancora",
+  "tag": "vela",
+  "inicio": 238.304,
+  "fim": 242.499,
+  "clip": {
+   "id": 5767251,
+   "tag": "vela",
+   "duracao": 31,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/candle-in-the-dark-5767251/",
+   "arquivo": "https://videos.pexels.com/video-files/5767251/5767251-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5767251.mp4"
+  }
+ },
+ {
+  "frases": [
+   32,
+   33
+  ],
+  "bloco": "ancora",
+  "tag": "vela",
+  "inicio": 242.499,
+  "fim": 246.694,
+  "clip": {
+   "id": 12123574,
+   "tag": "vela",
+   "duracao": 15,
+   "autor": "Andreas",
+   "autor_url": "https://www.pexels.com/@andreas-220481738",
+   "url": "https://www.pexels.com/video/flames-in-candles-in-darkness-12123574/",
+   "arquivo": "https://videos.pexels.com/video-files/12123574/12123574-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12123574.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "ancora",
+  "tag": "luz_divina",
+  "inicio": 246.694,
+  "fim": 253.512,
+  "clip": {
+   "id": 33737918,
+   "tag": "luz_divina",
+   "duracao": 20,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/dramatic-clouds-with-sunbeams-breaking-through-33737918/",
+   "arquivo": "https://videos.pexels.com/video-files/33737918/14324333_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33737918.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "ancora",
+  "tag": "nascer_sol",
+  "inicio": 253.512,
+  "fim": 258.445,
+  "clip": {
+   "id": 6201173,
+   "tag": "nascer_sol",
+   "duracao": 22,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-a-beautiful-sunrise-6201173/",
+   "arquivo": "https://videos.pexels.com/video-files/6201173/6201173-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6201173.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "ancora",
+  "tag": "nascer_sol",
+  "inicio": 258.445,
+  "fim": 263.378,
+  "clip": {
+   "id": 13237016,
+   "tag": "nascer_sol",
+   "duracao": 30,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/cloud-over-hill-13237016/",
+   "arquivo": "https://videos.pexels.com/video-files/13237016/13237016-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13237016.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "renovo",
+  "tag": "nascer_sol",
+  "inicio": 263.378,
+  "fim": 270.284,
+  "clip": {
+   "id": 33648676,
+   "tag": "nascer_sol",
+   "duracao": 19,
+   "autor": "Ray Raimundo",
+   "autor_url": "https://www.pexels.com/@rayraimundo",
+   "url": "https://www.pexels.com/video/dramatic-sunset-over-mountain-silhouette-33648676/",
+   "arquivo": "https://videos.pexels.com/video-files/33648676/14298927_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33648676.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "renovo",
+  "tag": "montanha",
+  "inicio": 270.284,
+  "fim": 274.275,
+  "clip": {
+   "id": 11362099,
+   "tag": "montanha",
+   "duracao": 15,
+   "autor": "Levi Vaagenes",
+   "autor_url": "https://www.pexels.com/@levi-vaagenes-189556332",
+   "url": "https://www.pexels.com/video/moving-clouds-over-the-mountains-at-sunrise-11362099/",
+   "arquivo": "https://videos.pexels.com/video-files/11362099/11362099-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11362099.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "renovo",
+  "tag": "montanha",
+  "inicio": 274.275,
+  "fim": 278.266,
+  "clip": {
+   "id": 4288029,
+   "tag": "montanha",
+   "duracao": 22,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/drone-shot-of-the-mountain-peak-during-sunset-4288029/",
+   "arquivo": "https://videos.pexels.com/video-files/4288029/4288029-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288029.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "renovo",
+  "tag": "nascer_sol",
+  "inicio": 278.266,
+  "fim": 285.45,
+  "clip": {
+   "id": 29032225,
+   "tag": "nascer_sol",
+   "duracao": 8,
+   "autor": "Kevin Kr\u00e4mer",
+   "autor_url": "https://www.pexels.com/@thedog777",
+   "url": "https://www.pexels.com/video/breathtaking-sunrise-over-sea-of-clouds-29032225/",
+   "arquivo": "https://videos.pexels.com/video-files/29032225/12551785_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29032225.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "renovo",
+  "tag": "aguia",
+  "inicio": 285.45,
+  "fim": 289.33,
+  "clip": {
+   "id": 27258952,
+   "tag": "aguia",
+   "duracao": 14,
+   "autor": "Dean Diemert",
+   "autor_url": "https://www.pexels.com/@dean-diemert-36424310",
+   "url": "https://www.pexels.com/video/a-bird-flying-over-the-sand-dunes-27258952/",
+   "arquivo": "https://videos.pexels.com/video-files/27258952/12104809_2048_1080_30fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/27258952.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "renovo",
+  "tag": "aguia",
+  "inicio": 289.33,
+  "fim": 293.21,
+  "clip": {
+   "id": 4438485,
+   "tag": "aguia",
+   "duracao": 23,
+   "autor": "Ton Souza",
+   "autor_url": "https://www.pexels.com/@ton-souza",
+   "url": "https://www.pexels.com/video/bird-flying-freely-4438485/",
+   "arquivo": "https://videos.pexels.com/video-files/4438485/4438485-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4438485.mp4"
+  }
+ },
+ {
+  "frases": [
+   40,
+   41
+  ],
+  "bloco": "renovo",
+  "tag": "vela",
+  "inicio": 293.21,
+  "fim": 297.831,
+  "clip": {
+   "id": 17795659,
+   "tag": "vela",
+   "duracao": 43,
+   "autor": "Ravi Kiran",
+   "autor_url": "https://www.pexels.com/@ravi-kiran-608220113",
+   "url": "https://www.pexels.com/video/candle-burning-17795659/",
+   "arquivo": "https://videos.pexels.com/video-files/17795659/17795659-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17795659.mp4"
+  }
+ },
+ {
+  "frases": [
+   40,
+   41
+  ],
+  "bloco": "renovo",
+  "tag": "vela",
+  "inicio": 297.831,
+  "fim": 302.452,
+  "clip": {
+   "id": 6802671,
+   "tag": "vela",
+   "duracao": 60,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/burning-candles-6802671/",
+   "arquivo": "https://videos.pexels.com/video-files/6802671/6802671-hd_2048_1080_30fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/6802671.mp4"
+  }
+ },
+ {
+  "frases": [
+   42
+  ],
+  "bloco": "renovo",
+  "tag": "aguia",
+  "inicio": 302.452,
+  "fim": 308.707,
+  "clip": {
+   "id": 4438384,
+   "tag": "aguia",
+   "duracao": 111,
+   "autor": "Ton Souza",
+   "autor_url": "https://www.pexels.com/@ton-souza",
+   "url": "https://www.pexels.com/video/eagle-flying-freely-4438384/",
+   "arquivo": "https://videos.pexels.com/video-files/4438384/4438384-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4438384.mp4"
+  }
+ },
+ {
+  "frases": [
+   43
+  ],
+  "bloco": "renovo",
+  "tag": "nascer_sol",
+  "inicio": 308.707,
+  "fim": 312.669,
   "clip": {
    "id": 4460096,
    "tag": "nascer_sol",
@@ -2996,12 +1332,138 @@
  },
  {
   "frases": [
-   101
+   43
+  ],
+  "bloco": "renovo",
+  "tag": "nascer_sol",
+  "inicio": 312.669,
+  "fim": 316.632,
+  "clip": {
+   "id": 39209062,
+   "tag": "nascer_sol",
+   "duracao": 35,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/serene-sunrise-above-misty-clouds-39209062/",
+   "arquivo": "https://videos.pexels.com/video-files/39209062/16684488_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39209062.mp4"
+  }
+ },
+ {
+  "frases": [
+   44
+  ],
+  "bloco": "bencao",
+  "tag": "ceu_noturno",
+  "inicio": 316.632,
+  "fim": 323.212,
+  "clip": {
+   "id": 10719866,
+   "tag": "ceu_noturno",
+   "duracao": 35,
+   "autor": "Roy S.",
+   "autor_url": "https://www.pexels.com/@roy-s-12656046",
+   "url": "https://www.pexels.com/video/time-lapse-of-night-sky-with-stars-and-clouds-10719866/",
+   "arquivo": "https://videos.pexels.com/video-files/10719866/10719866-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10719866.mp4"
+  }
+ },
+ {
+  "frases": [
+   45
+  ],
+  "bloco": "bencao",
+  "tag": "luz_divina",
+  "inicio": 323.212,
+  "fim": 330.211,
+  "clip": {
+   "id": 4787381,
+   "tag": "luz_divina",
+   "duracao": 21,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/sun-rays-over-the-mountain-in-a-black-and-white-video-4787381/",
+   "arquivo": "https://videos.pexels.com/video-files/4787381/4787381-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4787381.mp4"
+  }
+ },
+ {
+  "frases": [
+   46
+  ],
+  "bloco": "bencao",
+  "tag": "nascer_sol",
+  "inicio": 330.211,
+  "fim": 334.033,
+  "clip": {
+   "id": 6461032,
+   "tag": "nascer_sol",
+   "duracao": 15,
+   "autor": "Marc Espejo",
+   "autor_url": "https://www.pexels.com/@badkz777",
+   "url": "https://www.pexels.com/video/a-time-lapse-of-a-dark-cloudy-sky-during-the-golden-hour-6461032/",
+   "arquivo": "https://videos.pexels.com/video-files/6461032/6461032-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6461032.mp4"
+  }
+ },
+ {
+  "frases": [
+   46
+  ],
+  "bloco": "bencao",
+  "tag": "nascer_sol",
+  "inicio": 334.033,
+  "fim": 337.855,
+  "clip": {
+   "id": 855617,
+   "tag": "nascer_sol",
+   "duracao": 23,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/video-of-sea-of-clouds-during-sunrise-855617/",
+   "arquivo": "https://videos.pexels.com/video-files/855617/855617-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/855617.mp4"
+  }
+ },
+ {
+  "frases": [
+   47
   ],
   "bloco": "bencao",
   "tag": "campo",
-  "inicio": 697.849,
-  "fim": 701.688,
+  "inicio": 337.855,
+  "fim": 343.312,
+  "clip": {
+   "id": 38767013,
+   "tag": "campo",
+   "duracao": 22,
+   "autor": "Siarhei Dalivelia",
+   "autor_url": "https://www.pexels.com/@siarheidalivelia",
+   "url": "https://www.pexels.com/video/scenic-aerial-view-of-vast-green-plains-38767013/",
+   "arquivo": "https://videos.pexels.com/video-files/38767013/16471848_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38767013.mp4"
+  }
+ },
+ {
+  "frases": [
+   47
+  ],
+  "bloco": "bencao",
+  "tag": "campo",
+  "inicio": 343.312,
+  "fim": 348.77,
   "clip": {
    "id": 32495312,
    "tag": "campo",
@@ -3017,65 +1479,107 @@
  },
  {
   "frases": [
-   101
+   48
   ],
   "bloco": "bencao",
-  "tag": "campo",
-  "inicio": 701.688,
-  "fim": 705.526,
+  "tag": "rio",
+  "inicio": 348.77,
+  "fim": 353.52,
   "clip": {
-   "id": 3880967,
-   "tag": "campo",
-   "duracao": 29,
-   "autor": "Ilya Klimenko",
-   "autor_url": "https://www.pexels.com/@tact-tm",
-   "url": "https://www.pexels.com/video/view-of-green-plants-in-a-farmland-3880967/",
-   "arquivo": "https://videos.pexels.com/video-files/3880967/3880967-hd_1920_1080_30fps.mp4",
+   "id": 18637356,
+   "tag": "rio",
+   "duracao": 12,
+   "autor": "Matias Luge",
+   "autor_url": "https://www.pexels.com/@matiasluge",
+   "url": "https://www.pexels.com/video/a-river-running-through-a-forest-with-trees-18637356/",
+   "arquivo": "https://videos.pexels.com/video-files/18637356/18637356-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/3880967.mp4"
+   "arquivo_local": "clips/18637356.mp4"
   }
  },
  {
   "frases": [
-   102
+   48
   ],
   "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 705.526,
-  "fim": 712.389,
+  "tag": "rio",
+  "inicio": 353.52,
+  "fim": 358.27,
   "clip": {
-   "id": 5338469,
-   "tag": "ceu_noturno",
+   "id": 36495339,
+   "tag": "rio",
+   "duracao": 14,
+   "autor": "\u041b\u0430\u043d\u0430 \u0411\u043e\u043d\u0434\u0430\u0440\u0435\u043d\u043a\u043e",
+   "autor_url": "https://www.pexels.com/@2149199626",
+   "url": "https://www.pexels.com/video/peaceful-riverbank-and-cloudy-sky-reflection-36495339/",
+   "arquivo": "https://videos.pexels.com/video-files/36495339/15475353_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36495339.mp4"
+  }
+ },
+ {
+  "frases": [
+   49
+  ],
+  "bloco": "bencao",
+  "tag": "nascer_sol",
+  "inicio": 358.27,
+  "fim": 363.879,
+  "clip": {
+   "id": 6520588,
+   "tag": "nascer_sol",
+   "duracao": 14,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/timelapse-video-of-the-sunrise-6520588/",
+   "arquivo": "https://videos.pexels.com/video-files/6520588/6520588-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6520588.mp4"
+  }
+ },
+ {
+  "frases": [
+   49
+  ],
+  "bloco": "bencao",
+  "tag": "nascer_sol",
+  "inicio": 363.879,
+  "fim": 369.489,
+  "clip": {
+   "id": 27640862,
+   "tag": "nascer_sol",
+   "duracao": 40,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/the-sun-is-setting-behind-some-clouds-27640862/",
+   "arquivo": "https://videos.pexels.com/video-files/27640862/12192040_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27640862.mp4"
+  }
+ },
+ {
+  "frases": [
+   49
+  ],
+  "bloco": "bencao",
+  "tag": "nascer_sol",
+  "inicio": 369.489,
+  "fim": 375.098,
+  "clip": {
+   "id": 31071441,
+   "tag": "nascer_sol",
    "duracao": 15,
-   "autor": "Apoorv Srivastava",
-   "autor_url": "https://www.pexels.com/@apoorv-srivastava-3565271",
-   "url": "https://www.pexels.com/video/time-lapse-footage-of-a-night-sky-5338469/",
-   "arquivo": "https://videos.pexels.com/video-files/5338469/5338469-hd_1920_1080_30fps.mp4",
+   "autor": "Eizi Hirahara",
+   "autor_url": "https://www.pexels.com/@eizihirahara",
+   "url": "https://www.pexels.com/video/serene-sunset-sky-with-contrails-nature-s-evening-canvas-31071441/",
+   "arquivo": "https://videos.pexels.com/video-files/31071441/13278376_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5338469.mp4"
-  }
- },
- {
-  "frases": [
-   102
-  ],
-  "bloco": "bencao",
-  "tag": "ceu_noturno",
-  "inicio": 712.389,
-  "fim": 719.253,
-  "clip": {
-   "id": 29444761,
-   "tag": "ceu_noturno",
-   "duracao": 10,
-   "autor": "Nicola Narracci",
-   "autor_url": "https://www.pexels.com/@nicola-narracci-157460431",
-   "url": "https://www.pexels.com/video/starry-night-sky-with-twinkling-stars-29444761/",
-   "arquivo": "https://videos.pexels.com/video-files/29444761/12675331_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/29444761.mp4"
+   "arquivo_local": "clips/31071441.mp4"
   }
  }
 ]

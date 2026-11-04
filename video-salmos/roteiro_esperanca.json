@@ -1,0 +1,402 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa hoje.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje eu quero orar por você que está passando aperto financeiro, que olha para a conta no fim do mês e não sabe como vai fechar.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Talvez o dinheiro acabou antes do mês acabar, talvez tenha uma dívida tirando o seu sono, ou você está desempregado e já perdeu a conta de quantas portas bateu.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "E junto com a falta de dinheiro vem a vergonha, o medo do futuro, e aquela sensação de que você está ficando para trás enquanto todo mundo segue em frente.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Eu quero que você saiba de uma coisa antes de a gente começar: a sua história financeira não termina neste mês difícil, porque a verdadeira prosperidade vem do Senhor.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Nós vamos orar juntos com duas promessas da Palavra, uma sobre os planos que Deus tem para você e outra sobre a esperança que segura a sua alma quando tudo balança.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Escreva aqui nos comentários o seu pedido de oração, ou simplesmente escreva amém, e vamos entregar a sua vida financeira nas mãos de Deus.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Eu quero começar falando com você que sente que fracassou, que fez tudo certo e mesmo assim as coisas não deram certo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Às vezes a gente olha para a própria vida e pensa que Deus se esqueceu, que os outros prosperam e a gente fica no mesmo lugar.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Mas escute o que o Senhor diz em Jeremias: porque eu sei os planos que tenho para vocês, planos de paz e não de mal, para dar a vocês um futuro e uma esperança.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Jeremias 29:11"
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Essa promessa foi dada a um povo que estava longe de casa, vivendo numa terra estranha, e que achava que a vida tinha acabado.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "E foi justamente ali, no pior momento, que Deus disse que os planos dele continuavam de pé, e que o futuro deles ainda estava nas mãos dele.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Então, se hoje a sua vida parece um lugar estranho, saiba que Deus não mudou de ideia sobre você.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Vamos orar juntos.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Senhor, eu confesso que muitas vezes eu duvidei, achei que o Senhor tinha se esquecido de mim e que a minha vida não ia para frente.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Mas hoje eu escolho crer que os teus planos para mim são de paz e não de mal, e que existe um futuro e uma esperança me esperando.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "planos",
+  "titulo_bloco": "Deus tem planos para você",
+  "frase": "Alinha os meus planos com os teus, me dá direção nas minhas decisões, e não deixa que o desespero me faça desistir antes da hora. Em nome de Jesus, amém.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Agora eu quero orar pelo seu sustento, pelo pão na mesa, pelo aluguel, pelas contas, pelo trabalho das suas mãos.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "A Palavra diz em Deuteronômio: lembre-se do Senhor, o seu Deus, porque é ele que te dá força para conquistar riquezas.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Deuteronômio 8:18"
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "E em Provérbios está escrito: a bênção do Senhor é que enriquece, e ela não traz tristeza junto.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Provérbios 10:22"
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Repare que a força para trabalhar, a ideia nova, a oportunidade certa, tudo isso vem dele, e a prosperidade que vem de Deus não te rouba a paz.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "E o apóstolo Paulo completa: o meu Deus suprirá todas as necessidades de vocês, segundo as suas riquezas em glória em Cristo Jesus.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:19"
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Ore comigo agora.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Pai, eu reconheço que tudo que eu tenho vem de ti, e eu te peço que abençoe o trabalho das minhas mãos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Abre portas de emprego, traz clientes, traz oportunidades, me dá sabedoria para sair das dívidas e para cuidar bem do que o Senhor me confiar.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provisao",
+  "titulo_bloco": "A provisão vem do Senhor",
+  "frase": "Supre cada necessidade da minha casa, Senhor, e me dá uma prosperidade que venha com paz, e não com peso. Amém.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Agora eu quero falar com você que está cansado de esperar, que já orou muitas vezes e ainda não viu a mudança.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "É difícil manter a fé quando o saldo continua negativo e as notícias não melhoram, e às vezes a gente se sente como um barco no meio da tempestade.",
+  "tag_visual": "chuva_janela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Mas a carta aos Hebreus diz assim: temos essa esperança como âncora da alma, firme e segura.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": true,
+  "referencia": "Hebreus 6:19"
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "A âncora não acalma a tempestade, mas segura o barco no lugar para que ele não seja arrastado pelas ondas.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "É isso que a esperança em Deus faz com você, ela não finge que o problema não existe, mas te segura firme até a tempestade passar.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "E Paulo escreveu: que o Deus da esperança encha vocês de toda alegria e paz, para que vocês transbordem de esperança pelo poder do Espírito Santo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Romanos 15:13"
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Então vamos orar por isso.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Senhor, a minha alma está cansada e às vezes eu sinto que vou ser arrastado pelas ondas dessas dificuldades.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Seja a âncora da minha alma hoje, me segura firme, e não deixa que o medo do amanhã tire de mim a esperança.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ancora",
+  "titulo_bloco": "Esperança, a âncora da alma",
+  "frase": "Enche o meu coração de alegria e paz enquanto eu espero, e me ajuda a confiar que o Senhor está trabalhando mesmo quando eu não vejo. Em nome de Jesus, amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Agora eu quero orar por você que sente que perdeu tempo, que errou com o dinheiro no passado, e hoje carrega as consequências.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "A Palavra diz em Lamentações: as misericórdias do Senhor não têm fim, elas se renovam a cada manhã, grande é a tua fidelidade.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Lamentações 3:22-23"
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Isso quer dizer que amanhã cedo existe misericórdia nova esperando por você, e que os erros de ontem não precisam definir o seu futuro.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "E Isaías completa: os que esperam no Senhor renovam as suas forças, sobem com asas como águias, correm e não se cansam.",
+  "tag_visual": "aguia",
+  "mostrar_texto": true,
+  "referencia": "Isaías 40:31"
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Então ore comigo, com fé.",
+  "tag_visual": "vela",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Senhor, me perdoa pelas escolhas erradas que eu fiz com o que o Senhor me deu, e me dá a chance de recomeçar com sabedoria.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Renova as minhas forças, me levanta com asas como águia, e me dá coragem para dar o primeiro passo amanhã cedo.",
+  "tag_visual": "aguia",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "renovo",
+  "titulo_bloco": "Um novo começo",
+  "frase": "Eu recebo a tua misericórdia que se renova a cada manhã, e creio que o meu melhor tempo ainda está por vir. Amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Antes de terminar, eu quero declarar uma bênção sobre a sua vida, a sua casa e o seu trabalho.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Que o Senhor abra as janelas do céu sobre a sua vida, que nada falte na sua mesa, e que cada dívida seja quitada no tempo certo.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Que os planos de Deus para você se cumpram, planos de paz e não de mal, e que a esperança seja a âncora firme da sua alma.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Vamos terminar com a oração que Jesus nos ensinou: Pai nosso, que estás nos céus, santificado seja o teu nome, venha o teu reino, seja feita a tua vontade, assim na terra como no céu.",
+  "tag_visual": "campo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "O pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, assim como nós perdoamos aos nossos devedores, e não nos deixes cair em tentação, mas livra-nos do mal. Amém.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Se essa oração tocou o seu coração, escreva amém nos comentários, e envie este vídeo para alguém que está passando aperto, pode ser a palavra que essa pessoa precisa hoje. Deus abençoe você.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

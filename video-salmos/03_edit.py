@@ -289,11 +289,13 @@ def gerar_chuva(path, dur=150.0, sr=44100):
     sf.write(path, x.astype(np.float32), sr, subtype="PCM_16")
     return path
 
+FINAL_SUAVE = 180
+
 def mixar_audio(limite, total_video, path):
     """voz + trilha com ducking; nos últimos 3 min a trilha sobe e a voz fica baixinha; -14 LUFS."""
     musica = gerar_musica(math.ceil(total_video) + 2, f"{WORK}/musica.wav")
     T = total_video
-    rampa = f"clip((t-{T - 180:.2f})/12,0,1)"
+    rampa = f"clip((t-{T - FINAL_SUAVE:.2f})/12,0,1)" if FINAL_SUAVE > 0 else "0"
     fc = (f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad,atrim=0:{limite:.3f},"
           f"volume='1-0.6*{rampa}':eval=frame,asplit=2[voz][sc];"
           f"[1:a]aresample=48000,atrim=0:{limite:.3f},volume=-22dB,volume='1+1.5*{rampa}':eval=frame[mus];"
@@ -343,8 +345,8 @@ def planejar(limite):
     return plano, jobs, total, len(cenas)
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--saida", default="out/oracao_da_noite_salmos.mp4")
-    a = ap.parse_args()
+    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--saida", default="out/oracao_da_noite_salmos.mp4"); ap.add_argument("--final-suave", type=float, default=180)
+    a = ap.parse_args(); global FINAL_SUAVE; FINAL_SUAVE = a.final_suave
     tl_total = json.load(open("timeline.json"))["duracao_total"]
     limite = a.previa or tl_total
     plano, jobs, total, ncenas = planejar(limite)

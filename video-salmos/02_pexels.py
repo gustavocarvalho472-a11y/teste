@@ -5,7 +5,7 @@ Uso:
   python 02_pexels.py pools     # só busca/atualiza os pools (metadados + thumbnails)
   python 02_pexels.py           # pools + escolha das cenas + download
 """
-import json, os, re, sys, time, urllib.request, urllib.parse, urllib.error
+import json, math, os, re, sys, time, urllib.request, urllib.parse, urllib.error
 
 def load_env():
     for p in (".env", "../.env"):
@@ -37,6 +37,7 @@ RELACIONADAS = {
 BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|hike|hiker|hikers|hiking|walking|walk|runner|silhouette-of-a|traveler|climber|backpacker|fisherman|surfer|boat|kayak|drone-shot-of-a-city|timelapse-of-a-city)\b"
 BANIDAS_MAOS = r"\b(face|portrait|smiling|selfie|crowd|city|street|text|logo|child|kid|couple)\b"
 JANELA_SEM_REPETIR = 600  # s
+CENA_MAX = float(os.environ.get("CENA_MAX", 7.5))  # s; frases longas ganham um clipe a cada ~7,5 s
 POOL_MAX, DUR_MIN = 25, 8
 # tags de natureza aparecem muito no roteiro: pool maior para variar mais
 POOL_NATUREZA = {"ceu_noturno", "lua", "luz_divina", "nascer_sol", "montanha", "rio", "campo", "floresta", "mar_calmo"}
@@ -125,7 +126,7 @@ def montar_cenas(pools):
         while fim_slot(j) - ini < 4.0 and j + 1 < len(frases) and frases[j + 1]["bloco"] == f["bloco"]:
             j += 1
         fim = fim_slot(j)
-        partes = 2 if f["duracao"] > 12 else 1
+        partes = max(1, math.ceil((fim - ini) / CENA_MAX))
         for p in range(partes):
             a = ini + (fim - ini) * p / partes; b = ini + (fim - ini) * (p + 1) / partes
             cenas.append({"frases": list(range(i, j + 1)), "bloco": f["bloco"], "tag": f["tag_visual"],

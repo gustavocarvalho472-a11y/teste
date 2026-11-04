@@ -15,10 +15,13 @@ ap.add_argument("--voz", default=None, help="kokoro: id (pm_alex); cartesia: nom
 ap.add_argument("--blocos", default="", help="lista separada por vírgula; vazio = todos")
 ap.add_argument("--meta", default="38-42", help="faixa de duração em minutos")
 ap.add_argument("--velocidade", type=float, default=None)
+ap.add_argument("--roteiro", default="roteiro.json")
+ap.add_argument("--pausa-frase", type=float, default=0.7)
+ap.add_argument("--pausa-bloco", type=float, default=2.5)
 ap.add_argument("--amostra", default="", help="só gera esta frase em audio/amostras/<voz>.wav")
 args = ap.parse_args()
 
-PAUSA_FRASE, PAUSA_BLOCO, INICIO, FIM = 0.7, 2.5, 1.0, 6.0
+PAUSA_FRASE, PAUSA_BLOCO, INICIO, FIM = args.pausa_frase, args.pausa_bloco, 1.0, 6.0
 SR = 24000
 os.makedirs("audio/frases", exist_ok=True)
 
@@ -122,7 +125,7 @@ if args.amostra:
     sf.write(out, x, SR); print(out); sys.exit()
 
 # ---------------- roteiro ----------------
-roteiro = json.load(open("roteiro.json", encoding="utf-8"))
+roteiro = json.load(open(args.roteiro, encoding="utf-8"))
 if args.blocos:
     quero = args.blocos.split(",")
     roteiro = [f for f in roteiro if f["bloco"] in quero]

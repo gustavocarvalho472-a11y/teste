@@ -28,3 +28,9 @@ node_modules/.cache
 
 # secrets
 .env
+video-cr7/clipes/
+video-cr7/build/
+video-cr7/out/
+*.mp3
+*.wav
+*.mp4

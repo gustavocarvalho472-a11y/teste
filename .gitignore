@@ -34,3 +34,6 @@ video-cr7/out/
 *.mp3
 *.wav
 *.mp4
+video-cr7/edit/cache/
+video-cr7/edit/music/
+video-cr7/edit/narr/**/*.wav

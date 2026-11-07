@@ -37,3 +37,6 @@ video-cr7/out/
 video-cr7/edit/cache/
 video-cr7/edit/music/
 video-cr7/edit/narr/**/*.wav
+video-cr7/edit/__pycache__/
+video-cr7/edit/narr/*.log
+video-cr7/edit/clips/

@@ -687,7 +687,8 @@ def _post_init():
     global _GR, _VIG
     if _GR is None:
         r = np.random.default_rng(5)
-        _GR = [r.normal(0, 4.2, (H, W)).astype(np.float32) for _ in range(6)]
+        from scipy.ndimage import gaussian_filter
+        _GR = [gaussian_filter(r.normal(0, 5.0, (H, W)).astype(np.float32), 0.65) for _ in range(6)]
         yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
         d = np.sqrt(((xx - W / 2) / (W / 2)) ** 2 + ((yy - H / 2) / (H / 2)) ** 2) / math.sqrt(2)
         _VIG = (1 - 0.55 * np.clip(d, 0, 1) ** 2.3).astype(np.float32)

@@ -47,7 +47,7 @@ def video(name, out, audio=None, t0=None, t1=None):
     if audio:
         cmd += ["-ss", f"{(t0 or 0):.3f}", "-i", audio, "-map", "0:v", "-map", "1:a", "-c:a", "aac", "-b:a", "256k",
                 "-shortest"]
-    cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "16", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
+    cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-tune", "film", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     st = time.time()
     with Pool(os.cpu_count()) as pool:

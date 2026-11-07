@@ -1,0 +1,450 @@
+[
+ {
+  "id": "H01",
+  "start": 0.4,
+  "end": 14.031,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "H02",
+  "start": 16.632,
+  "end": 22.549,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "H03",
+  "start": 23.129,
+  "end": 40.946,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "H04",
+  "start": 44.807,
+  "end": 60.477,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "H05",
+  "start": 68.014,
+  "end": 80.191,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "C01",
+  "start": 85.97,
+  "end": 98.167,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "C02",
+  "start": 101.307,
+  "end": 118.577,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "C03",
+  "start": 122.059,
+  "end": 129.64,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "C04",
+  "start": 131.745,
+  "end": 141.568,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A101",
+  "start": 144.532,
+  "end": 150.808,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A102",
+  "start": 151.113,
+  "end": 162.812,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A103",
+  "start": 165.168,
+  "end": 175.214,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A104",
+  "start": 181.338,
+  "end": 192.454,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A105",
+  "start": 195.848,
+  "end": 207.343,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A106",
+  "start": 212.4,
+  "end": 223.845,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A107",
+  "start": 224.968,
+  "end": 241.985,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A201",
+  "start": 248.583,
+  "end": 259.231,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A202",
+  "start": 260.567,
+  "end": 273.961,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A203",
+  "start": 277.48,
+  "end": 279.484,
+  "speed": 1.169,
+  "overflow": 0.0
+ },
+ {
+  "id": "A204",
+  "start": 285.361,
+  "end": 303.482,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A205",
+  "start": 305.057,
+  "end": 308.882,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A206",
+  "start": 310.631,
+  "end": 325.626,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A301",
+  "start": 331.031,
+  "end": 341.186,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A302",
+  "start": 347.751,
+  "end": 362.743,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A303",
+  "start": 367.032,
+  "end": 375.258,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A304",
+  "start": 377.388,
+  "end": 387.344,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A305",
+  "start": 390.351,
+  "end": 399.147,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A306",
+  "start": 400.229,
+  "end": 403.628,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A307",
+  "start": 405.265,
+  "end": 412.033,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A308",
+  "start": 412.812,
+  "end": 422.307,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A401",
+  "start": 426.047,
+  "end": 432.944,
+  "speed": 1.084,
+  "overflow": 0.0
+ },
+ {
+  "id": "A402",
+  "start": 433.183,
+  "end": 440.79,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A403",
+  "start": 443.103,
+  "end": 450.567,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A404",
+  "start": 451.371,
+  "end": 455.603,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A405",
+  "start": 456.663,
+  "end": 472.345,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A406",
+  "start": 478.077,
+  "end": 480.264,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A407",
+  "start": 480.796,
+  "end": 489.816,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A408",
+  "start": 491.391,
+  "end": 499.659,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A409",
+  "start": 504.791,
+  "end": 507.441,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A501",
+  "start": 511.17,
+  "end": 522.733,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A502",
+  "start": 525.382,
+  "end": 533.018,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A503",
+  "start": 535.684,
+  "end": 547.077,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A504",
+  "start": 547.304,
+  "end": 555.029,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A505",
+  "start": 556.167,
+  "end": 563.117,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A506",
+  "start": 565.159,
+  "end": 568.242,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A507",
+  "start": 571.35,
+  "end": 576.773,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A508",
+  "start": 577.532,
+  "end": 593.778,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A509",
+  "start": 598.453,
+  "end": 599.952,
+  "speed": 1.247,
+  "overflow": 0.0
+ },
+ {
+  "id": "A510",
+  "start": 605.852,
+  "end": 617.61,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A511",
+  "start": 620.148,
+  "end": 629.33,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "A512",
+  "start": 635.024,
+  "end": 640.569,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "Q01",
+  "start": 645.333,
+  "end": 656.653,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "Q02",
+  "start": 657.314,
+  "end": 664.727,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "Q03",
+  "start": 666.86,
+  "end": 675.069,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "Q04",
+  "start": 676.535,
+  "end": 685.785,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F01",
+  "start": 689.722,
+  "end": 700.218,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F02",
+  "start": 702.076,
+  "end": 706.541,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F03",
+  "start": 707.663,
+  "end": 712.198,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F04",
+  "start": 713.02,
+  "end": 730.251,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F05",
+  "start": 734.31,
+  "end": 739.98,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F06",
+  "start": 742.0,
+  "end": 753.863,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F07",
+  "start": 755.771,
+  "end": 760.858,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F08",
+  "start": 761.448,
+  "end": 766.594,
+  "speed": 1.0,
+  "overflow": 0.0
+ },
+ {
+  "id": "F09",
+  "start": 768.234,
+  "end": 776.69,
+  "speed": 1.0,
+  "overflow": 0.0
+ }
+]

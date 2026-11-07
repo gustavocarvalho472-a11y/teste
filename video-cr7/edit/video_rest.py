@@ -200,22 +200,26 @@ def statement(c, t, t0, t1, hl_at):
     c.paint_with_alpha(a)
     c.restore()
     ink = (0.1, 0.1, 0.1)
-    text(c, "STATEMENT", x0 + 70, y0 + 100, 54, DISPLAY, ink, a, "left", 6)
-    text(c, "CRISTIANO RONALDO · 06.10.2026", x0 + 72, y0 + 145, 24, UI, (0.35, 0.35, 0.35), a, "left", 2, bold=True)
+    text(c, "THE STATEMENT", x0 + 70, y0 + 100, 54, DISPLAY, ink, a, "left", 6)
+    text(c, "CRISTIANO RONALDO · 06.10.2026 · SUMMARY", x0 + 72, y0 + 145, 24, UI, (0.35, 0.35, 0.35), a, "left", 2,
+         bold=True)
     lines = ["It was agreed that the coach would open",
-             "the press conference by reading points",
-             "approved by me. One of them said he had",
-             "been wrong to have someone of the stature",
-             "of Pelé or Maradona warm up",
-             "and not come on."]
+             "the press conference reading points",
+             "approved by the player. One of them said",
+             "he had been wrong to have someone",
+             "of the stature of Pelé or Maradona",
+             "warm up and not come on."]
+    marks = {3: ("he had been wrong to have ", "someone"), 4: ("", "of the stature of Pelé or Maradona"),
+             5: ("", "warm up")}
     for i, ln in enumerate(lines):
         y = y0 + 250 + i * 66
         la = a * seg(t, t0 + 0.3 + i * 0.12, t0 + 0.6 + i * 0.12)
-        if i in (3, 4) and t >= hl_at:
+        if i in marks and t >= hl_at:
+            pre, hl = marks[i]
             font(c, SERIF, 44)
-            tw = text_width(c, ln if i == 4 else "someone of the stature")
-            xs = x0 + 70 if i == 4 else x0 + 70 + text_width(c, "been wrong to have ")
-            u = eout(seg(t, hl_at + i * 0.25 - 0.75, hl_at + i * 0.25 - 0.35))
+            tw = text_width(c, hl)
+            xs = x0 + 70 + (text_width(c, pre) if pre else 0)
+            u = eout(seg(t, hl_at + (i - 3) * 0.3, hl_at + (i - 3) * 0.3 + 0.4))
             c.rectangle(xs - 6, y - 38, (tw + 12) * u, 52)
             c.set_source_rgba(LIME[0], LIME[1], LIME[2], 0.85 * la)
             c.fill()
@@ -241,7 +245,6 @@ def insta_post(c, t, t0, t1):
         for i, ln in enumerate(msg):
             text(c2, ln, x + w / 2, y + h * 0.36 + i * w * 0.095, w * 0.064, UI, WHITE,
                  seg(t, t0 + 0.4 + i * 0.15, t0 + 0.7 + i * 0.15), "center", bold=True)
-        text(c2, "♥  12.3M", x + w * 0.08, y + h * 0.9, w * 0.055, UI, WHITE, 1, "left", bold=True)
     doc.phone_frame(c, W / 2, H / 2 + 40 * (1 - eout(seg(t, t0, t0 + 0.4))), 880, scr, a=a)
 
 
@@ -640,7 +643,8 @@ def _o24(c, t):
 
 @over(S("A503") + 0.2, T_BEFORE - 0.1)
 def _o25(c, t):
-    score_bug(c, t, S("A503") + 0.3, T_BEFORE - 0.1, "POR", 1, "WAL", 0, "2H")
+    lower_third(c, t, S("A503") + 0.3, "PORTUGAL 1–0 WALES", "NATIONS LEAGUE · 24.09.2026",
+                dur=T_BEFORE - S("A503") - 0.4)
 
 
 @over(T_ASKED, S("A505") - 0.1)
@@ -651,8 +655,7 @@ def _o26(c, t):
 @over(S("A505"), T_DIDNT - 0.1)
 def _o27(c, t):
     mins = int(lerp(46, 90, seg(t, S("A505"), T_DIDNT - 0.2)))
-    score_bug(c, t, S("A505") + 0.1, T_DIDNT - 0.1, "NOR", 1 if t > T_W2 else 0, "POR", 2 if t > T_W2 + 0.8 else 0,
-              f"{mins}'")
+    score_bug(c, t, S("A505") + 0.1, T_DIDNT - 0.1, "NOR", "", "POR", "", f"{mins}'")
 
 
 @over(T_DIDNT - 0.1, S("A506") - 0.1)

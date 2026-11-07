@@ -290,6 +290,7 @@ def gerar_chuva(path, dur=150.0, sr=44100):
     return path
 
 FINAL_SUAVE = 180
+MUSICA_DB = -22  # trilha sintetizada; -90 desliga (ex.: narração que já tem música)
 
 def mixar_audio(limite, total_video, path):
     """voz + trilha com ducking; nos últimos 3 min a trilha sobe e a voz fica baixinha; -14 LUFS."""
@@ -298,7 +299,7 @@ def mixar_audio(limite, total_video, path):
     rampa = f"clip((t-{T - FINAL_SUAVE:.2f})/12,0,1)" if FINAL_SUAVE > 0 else "0"
     fc = (f"[0:a]aresample=48000,aformat=channel_layouts=stereo,apad,atrim=0:{limite:.3f},"
           f"volume='1-0.6*{rampa}':eval=frame,asplit=2[voz][sc];"
-          f"[1:a]aresample=48000,atrim=0:{limite:.3f},volume=-22dB,volume='1+1.5*{rampa}':eval=frame[mus];"
+          f"[1:a]aresample=48000,atrim=0:{limite:.3f}," + (f"volume=-20dB,volume='{rampa}':eval=frame[mus];" if MUSICA_DB <= -80 else f"volume={MUSICA_DB}dB,volume='1+1.5*{rampa}':eval=frame[mus];") +
           f"[mus][sc]sidechaincompress=threshold=0.015:ratio=5:attack=120:release=1200:makeup=1[duck];"
           f"[2:a]aresample=48000,atrim=0:{limite:.3f},volume=-18dB,afade=t=in:d=4[chuva];"
           f"[voz][duck][chuva]amix=inputs=3:normalize=0:duration=first[mix]")
@@ -345,8 +346,8 @@ def planejar(limite):
     return plano, jobs, total, len(cenas)
 
 def main():
-    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--saida", default="out/oracao_da_noite_salmos.mp4"); ap.add_argument("--final-suave", type=float, default=180)
-    a = ap.parse_args(); global FINAL_SUAVE; FINAL_SUAVE = a.final_suave
+    ap = argparse.ArgumentParser(); ap.add_argument("--previa", type=float); ap.add_argument("--jobs", type=int, default=4); ap.add_argument("--saida", default="out/oracao_da_noite_salmos.mp4"); ap.add_argument("--final-suave", type=float, default=180); ap.add_argument("--musica-db", type=float, default=-22)
+    a = ap.parse_args(); global FINAL_SUAVE, MUSICA_DB; FINAL_SUAVE = a.final_suave; MUSICA_DB = a.musica_db
     tl_total = json.load(open("timeline.json"))["duracao_total"]
     limite = a.previa or tl_total
     plano, jobs, total, ncenas = planejar(limite)

@@ -26,7 +26,8 @@ def main(name, out):
     N = int((P.TOTAL + 1.5) * SR)
     # ── narração (EQ leve: corta grave, um pouco de presença, saturação suave)
     voice = np.zeros((N, 2))
-    place(voice, load(os.path.join(HERE, "narr", "fiel", "narracao.wav")), 0.0, 1.0)
+    narr = os.environ.get("NARR", os.path.join(HERE, "narr", "fiel", "narracao.wav"))
+    place(voice, load(narr), 0.0, 1.0)
     vm = voice[:, 0]
     body = sosfilt(butter(2, 90, "high", fs=SR, output="sos"), vm)
     pres = sosfilt(butter(2, [2500, 5000], "band", fs=SR, output="sos"), vm) * 0.15

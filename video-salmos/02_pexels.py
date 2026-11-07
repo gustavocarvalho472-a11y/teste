@@ -24,6 +24,8 @@ QUERIES = {
  "rio": "calm river", "mar_calmo": "calm ocean waves sunset", "montanha": "mountains fog sunrise",
  "floresta": "forest light rays", "chuva_janela": "rain on window night", "cruz": "cross silhouette sunset",
  "aguia": "eagle flying", "fogo_lareira": "fireplace cozy",
+ "paisagem_aerea": "aerial mountains landscape", "lago_montanha": "mountain lake reflection",
+ "cachoeira": "waterfall nature", "campo_flores": "flower field sunset", "vale_nevoa": "misty valley sunrise",
 }
 # tags parecidas para quando o pool de uma tag se esgota dentro da janela de 10 min
 RELACIONADAS = {
@@ -33,6 +35,8 @@ RELACIONADAS = {
  "rio": ["mar_calmo", "floresta"], "mar_calmo": ["rio"], "montanha": ["nascer_sol", "floresta"],
  "floresta": ["luz_divina", "rio"], "chuva_janela": ["vela", "ceu_noturno"], "cruz": ["luz_divina", "nascer_sol"],
  "aguia": ["montanha", "luz_divina"], "fogo_lareira": ["vela"],
+ "paisagem_aerea": ["montanha", "vale_nevoa"], "lago_montanha": ["montanha", "paisagem_aerea"],
+ "cachoeira": ["rio", "floresta"], "campo_flores": ["campo", "nascer_sol"], "vale_nevoa": ["montanha", "paisagem_aerea"],
 }
 BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|hike|hiker|hikers|hiking|walking|walk|runner|silhouette-of-a|traveler|climber|backpacker|fisherman|surfer|boat|kayak|drone-shot-of-a-city|timelapse-of-a-city)\b"
 BANIDAS_MAOS = r"\b(face|portrait|smiling|selfie|crowd|city|street|text|logo|child|kid|couple)\b"
@@ -40,7 +44,8 @@ JANELA_SEM_REPETIR = 600  # s
 CENA_MAX = float(os.environ.get("CENA_MAX", 7.5))  # s; frases longas ganham um clipe a cada ~7,5 s
 POOL_MAX, DUR_MIN = 25, 8
 # tags de natureza aparecem muito no roteiro: pool maior para variar mais
-POOL_NATUREZA = {"ceu_noturno", "lua", "luz_divina", "nascer_sol", "montanha", "rio", "campo", "floresta", "mar_calmo"}
+POOL_NATUREZA = {"ceu_noturno", "lua", "luz_divina", "nascer_sol", "montanha", "rio", "campo", "floresta", "mar_calmo",
+                 "paisagem_aerea", "lago_montanha", "cachoeira", "campo_flores", "vale_nevoa"}
 def alvo(tag): return 35 if tag in POOL_NATUREZA else POOL_MAX
 os.makedirs("clips/thumbs", exist_ok=True); os.makedirs("out", exist_ok=True)
 

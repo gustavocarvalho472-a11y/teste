@@ -16,7 +16,7 @@ def mmss(s):
     s = int(s); return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
 
 # ---------- legenda ----------
-with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
+with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt", "ansiedade": "out/legenda_ansiedade.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
     for n, fr in enumerate(frases, 1):
         linhas = textwrap.wrap(fr["frase"], 42)
         if len(linhas) > 2:  # reequilibra em 2 linhas
@@ -38,7 +38,40 @@ creditos = open("out/creditos.txt", encoding="utf-8").read().strip() if os.path.
 VID = os.environ.get("VIDEO", "")
 V2 = VID == "v2"
 ESP = VID == "esperanca"
-if ESP:
+ANS = VID == "ansiedade"
+if ANS:
+    TITULO = "ORAÇÃO PARA ANSIEDADE Antes de Dormir | Entregue a Deus os Pensamentos Que Não Te Deixam Descansar"
+    ALTERNATIVAS = [
+        "Oração Para Acalmar a Mente e Dormir em Paz | Filipenses 4:6-7 e Mateus 6:34",
+        "ORAÇÃO DA NOITE Contra a Ansiedade | Quando a Cabeça Não Para de Pensar",
+    ]
+    TAGS = ["oração para ansiedade", "oração contra ansiedade", "oração para dormir", "oração da noite",
+            "oração antes de dormir", "oração para acalmar a mente", "oração para acalmar o coração",
+            "filipenses 4 6 7", "mateus 6 34", "oração contra o medo", "ansiedade e fé", "oração para dormir em paz",
+            "oração de libertação da ansiedade", "oração poderosa", "palavra de deus para ansiedade",
+            "oração para insônia", "oração de hoje", "oração curta para dormir"]
+    desc = f"""{TITULO}
+
+Você apagou a luz, mas a cabeça não desligou? Esta oração é para você que deita e os pensamentos começam a correr, que sofre hoje pelo que talvez só aconteça amanhã, que sente o peito apertado no silêncio da noite. Vamos orar juntos com Filipenses 4:6-7, a paz de Deus que guarda o coração e a mente, e com Mateus 6:34, um dia de cada vez.
+
+🙏 Escreva AMÉM nos comentários e deixe o seu pedido de oração.
+
+📲 Conhece alguém que anda ansioso? Envie esta oração para essa pessoa.
+
+🔔 Inscreva-se e ative o sininho para receber uma nova oração toda noite.
+
+CAPÍTULOS
+{chr(10).join(caps)}
+
+Se a ansiedade estiver muito forte, procure também ajuda profissional. No Brasil, o CVV atende de graça pelo número 188, 24 horas.
+
+Leituras bíblicas em paráfrase própria.
+
+Imagens: vídeos gratuitos do Pexels (pexels.com).
+
+#oraçãoparaansiedade #oraçãodanoite #oraçãoparadormir
+"""
+elif ESP:
     TITULO = "ORAÇÃO PELA PROSPERIDADE | Deus Tem Planos Para Você (Jeremias 29:11) e a Esperança Que Não Falha"
     ALTERNATIVAS = [
         "ORAÇÃO PARA FALTA DE DINHEIRO | A Prosperidade Vem do Senhor | Jeremias 29:11 e Hebreus 6:19",
@@ -124,7 +157,7 @@ else:
 
     {' '.join('#' + t.replace(' ', '') for t in ['oraçãodanoite', 'salmo91', 'oraçãoparadormir'])}
     """
-SUF = "_v2" if V2 else "_esperanca" if ESP else ""
+SUF = "_v2" if V2 else "_esperanca" if ESP else "_ansiedade" if ANS else ""
 with open(f"out/descricao{SUF}.txt", "w", encoding="utf-8") as f:
     f.write("TÍTULO\n" + TITULO + "\n\nTÍTULOS ALTERNATIVOS\n" + "\n".join("- " + a for a in ALTERNATIVAS))
     f.write("\n\nTAGS (" + str(len(TAGS)) + ")\n" + ", ".join(TAGS) + "\n\n")
@@ -178,7 +211,27 @@ def clip_da_tag(tag, n=0):
     return ids[n % len(ids)]["arquivo_local"]
 
 OURO, CREME = (246, 206, 120, 255), (255, 246, 228, 255)
-if ESP:
+if ANS:
+    INTER = "fonts/Inter[opsz,wght].ttf"
+    def inter(size, var="Black"):
+        f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f
+    AMAR, BRANCO = (255, 214, 64, 255), (255, 255, 255, 255)
+    def linhas(img, itens, y0, gap=14):
+        d = ImageDraw.Draw(img); y = y0
+        for txt, size, cor in itens:
+            f = inter(size); texto_sombra(img, (640, y), txt, f, cor, anchor="mt", sombra=10, stroke=0)
+            y += d.textbbox((0, 0), txt, font=f)[3] + gap
+    img = vinheta(base(frame("clips/39209062.mp4", 3, "work/thumb/ans_a.png"), 0.72, quente=False), 0.55).convert("RGBA")
+    linhas(img, [("FAÇA ESTA ORAÇÃO", 98, BRANCO), ("ANTES DE DORMIR", 98, AMAR),
+                 ("E ENTREGUE A DEUS", 78, BRANCO), ("SUA ANSIEDADE", 78, AMAR)], 120)
+    img.convert("RGB").save("out/thumb_A_ansiedade.jpg", quality=92)
+    img = vinheta(base(frame("clips/29032225.mp4", 3, "work/thumb/ans_b2.png"), 0.68, quente=False), 0.55).convert("RGBA")
+    linhas(img, [("ORAÇÃO PARA", 92, BRANCO), ("ANSIEDADE", 150, AMAR),
+                 ("QUANDO A CABEÇA NÃO PARA", 54, BRANCO)], 140, gap=22)
+    d = ImageDraw.Draw(img); d.line((470, 570, 810, 570), fill=(255, 214, 64, 200), width=3)
+    texto_sombra(img, (640, 620), "Filipenses 4:6-7  ·  Mateus 6:34", inter(40, "SemiBold"), BRANCO, anchor="mm", sombra=6)
+    img.convert("RGB").save("out/thumb_B_ansiedade.jpg", quality=92)
+elif ESP:
     INTER = "fonts/Inter[opsz,wght].ttf"
     def inter(size, var="Black"):
         f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f

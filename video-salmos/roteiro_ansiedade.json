@@ -11,7 +11,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Hoje eu quero orar por você que apagou a luz, mas a cabeça não desligou, e os pensamentos começaram a correr um atrás do outro.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -19,7 +19,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Talvez seja uma preocupação com dinheiro, com um filho, com a saúde, ou talvez você nem saiba explicar direito, só sente o peito apertado e uma inquietação que não passa.",
-  "tag_visual": "chuva_janela",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -27,7 +27,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Eu sei como a noite consegue deixar tudo maior, e como uma pequena dúvida vira uma montanha quando a casa fica em silêncio.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -35,7 +35,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "E muitas vezes você nem conta isso para ninguém, porque parece bobagem, ou porque você é a pessoa que todo mundo procura quando precisa de força.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -51,7 +51,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Se puder, escreva aqui nos comentários a palavra paz, ou deixe o seu pedido de oração, para eu saber que você está aqui orando comigo.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -67,7 +67,7 @@
   "bloco": "pensamentos",
   "titulo_bloco": "Quando a mente não para",
   "frase": "Eu quero começar orando pela sua mente, por esses pensamentos que vêm sem pedir licença e não deixam você descansar.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -75,7 +75,7 @@
   "bloco": "pensamentos",
   "titulo_bloco": "Quando a mente não para",
   "frase": "É como se o cérebro ficasse repassando conversas, revendo erros, imaginando problemas que ainda nem aconteceram, e quanto mais você tenta parar, mais eles aparecem.",
-  "tag_visual": "chuva_janela",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -99,7 +99,7 @@
   "bloco": "pensamentos",
   "titulo_bloco": "Quando a mente não para",
   "frase": "E repare também na palavra gratidão, porque quando a gente começa a agradecer pelo que Deus já fez, a mente para de olhar só para o que falta e começa a lembrar que ele nunca falhou.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -107,7 +107,7 @@
   "bloco": "pensamentos",
   "titulo_bloco": "Quando a mente não para",
   "frase": "Então ore comigo agora.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -115,7 +115,7 @@
   "bloco": "pensamentos",
   "titulo_bloco": "Quando a mente não para",
   "frase": "Senhor, o Senhor conhece cada pensamento que está rodando na minha cabeça nesta noite, até aqueles que eu tenho vergonha de admitir.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -147,7 +147,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "É a reunião difícil, o resultado do exame, a conta que vai vencer, a conversa que você está adiando, e a mente fica ensaiando o pior cenário sem parar.",
-  "tag_visual": "chuva_janela",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -155,7 +155,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "Jesus falou sobre isso de um jeito muito simples: não carreguem hoje a preocupação de amanhã, porque o amanhã vai cuidar de si mesmo, e cada dia já traz o seu próprio peso.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": true,
   "referencia": "Mateus 6:34"
  },
@@ -163,7 +163,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "Ele não estava dizendo que o amanhã não importa, mas que você não recebeu força hoje para carregar o peso de um dia que ainda não chegou.",
-  "tag_visual": "rio",
+  "tag_visual": "cachoeira",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -187,7 +187,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "Vamos orar.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -195,7 +195,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "Pai, eu te entrego o meu amanhã, com tudo que me assusta e tudo que eu não sei como vai ser.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -203,7 +203,7 @@
   "bloco": "amanha",
   "titulo_bloco": "O medo do amanhã",
   "frase": "Me ensina a viver um dia de cada vez, e me dá a confiança de que o Senhor vai na minha frente em cada situação que eu tenho medo de enfrentar.",
-  "tag_visual": "rio",
+  "tag_visual": "cachoeira",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -219,7 +219,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "Agora eu quero orar por você que sente a ansiedade no corpo, o coração disparado, a respiração curta, um aperto no peito que parece não ir embora.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -227,7 +227,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "Às vezes vem uma crise do nada, e você sente medo de estar ficando doente, de perder o controle, e se sente sozinho com isso no meio da noite.",
-  "tag_visual": "chuva_janela",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -235,7 +235,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "E depois da crise vem a vergonha, a sensação de ser fraco, de não ter fé suficiente, mas eu quero te dizer que sentir ansiedade não faz de você um cristão pior.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -259,7 +259,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "Manter o pensamento firme em Deus não é fingir que nada está acontecendo, é escolher, a cada respiração, voltar o olhar para quem é maior do que aquilo que você está sentindo.",
-  "tag_visual": "rio",
+  "tag_visual": "cachoeira",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -267,7 +267,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "Então, enquanto eu oro, tente respirar devagar comigo, puxando o ar pelo nariz e soltando bem devagar pela boca.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -275,7 +275,7 @@
   "bloco": "corpo",
   "titulo_bloco": "O peito apertado",
   "frase": "Senhor, eu coloco diante de ti o meu corpo cansado, o meu coração acelerado e essa respiração que não encontra descanso.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -307,7 +307,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "Talvez ninguém perceba o quanto custa para você levantar de manhã e funcionar normalmente, sorrir para as pessoas, cumprir as tarefas, enquanto por dentro está tudo pesado.",
-  "tag_visual": "chuva_janela",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -315,7 +315,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "E à noite, quando finalmente para, em vez de descansar, o cansaço vira mais preocupação, e o ciclo começa de novo.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -323,7 +323,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "Para você, Jesus deixou um convite: venham a mim todos vocês que estão exaustos e carregando um peso grande demais, e eu vou dar descanso para vocês.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": true,
   "referencia": "Mateus 11:28"
  },
@@ -331,7 +331,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "E o apóstolo Pedro reforça: joguem sobre Deus toda a ansiedade de vocês, porque ele cuida de vocês.",
-  "tag_visual": "rio",
+  "tag_visual": "cachoeira",
   "mostrar_texto": true,
   "referencia": "1 Pedro 5:7"
  },
@@ -347,7 +347,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "E repare no motivo que Pedro dá, não é porque você merece ou porque orou do jeito certo, é simplesmente porque ele cuida de você, e isso não muda nem nos seus piores dias.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -355,7 +355,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "Ore comigo agora.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -371,7 +371,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "Eu jogo sobre ti toda essa ansiedade, cada preocupação, cada medo, e eu não quero mais ficar segurando nada sozinho.",
-  "tag_visual": "campo",
+  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -379,7 +379,7 @@
   "bloco": "cansaco",
   "titulo_bloco": "Cansado de lutar",
   "frase": "Me dá o descanso que só o Senhor pode dar, um descanso que chega na alma e não só no corpo, e renova as minhas forças para amanhã. Amém.",
-  "tag_visual": "rio",
+  "tag_visual": "cachoeira",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -395,7 +395,7 @@
   "bloco": "madrugada",
   "titulo_bloco": "Sozinho na madrugada",
   "frase": "Essa é uma das horas mais solitárias que existem, o relógio parece não andar, o silêncio pesa, e dá a impressão de que você é a única pessoa acordada no mundo.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -419,7 +419,7 @@
   "bloco": "madrugada",
   "titulo_bloco": "Sozinho na madrugada",
   "frase": "Ore comigo nessa hora silenciosa.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -427,7 +427,7 @@
   "bloco": "madrugada",
   "titulo_bloco": "Sozinho na madrugada",
   "frase": "Senhor, quando eu acordar no meio da noite e o medo tentar tomar conta, me lembra que o Senhor está aqui comigo, e que para ti não existe escuridão.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -467,7 +467,7 @@
   "bloco": "entrega",
   "titulo_bloco": "Em paz me deito",
   "frase": "E o salmista termina assim: eu vou me deitar e dormir em paz, porque só tu, Senhor, me fazes morar em segurança.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": true,
   "referencia": "Salmo 4:8"
  },
@@ -475,7 +475,7 @@
   "bloco": "entrega",
   "titulo_bloco": "Em paz me deito",
   "frase": "Respire fundo mais uma vez, e repita comigo no seu coração.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -491,7 +491,7 @@
   "bloco": "entrega",
   "titulo_bloco": "Em paz me deito",
   "frase": "Pai nosso, que estás nos céus, santificado seja o teu nome, venha o teu reino, seja feita a tua vontade, assim na terra como no céu.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -499,7 +499,7 @@
   "bloco": "entrega",
   "titulo_bloco": "Em paz me deito",
   "frase": "O pão nosso de cada dia nos dá hoje, perdoa as nossas dívidas, assim como nós perdoamos aos nossos devedores, e não nos deixes cair em tentação, mas livra-nos do mal. Amém.",
-  "tag_visual": "vela",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -523,7 +523,7 @@
   "bloco": "entrega",
   "titulo_bloco": "Em paz me deito",
   "frase": "Eu me deito agora em segurança, porque o Senhor está acordado cuidando de mim, da minha casa e de todos que eu amo.",
-  "tag_visual": "lua",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },

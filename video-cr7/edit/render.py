@@ -47,23 +47,53 @@ def video(name, out, audio=None, t0=None, t1=None):
     if audio:
         cmd += ["-ss", f"{(t0 or 0):.3f}", "-i", audio, "-map", "0:v", "-map", "1:a", "-c:a", "aac", "-b:a", "256k",
                 "-shortest"]
-    cmd += ["-c:v", "libx264", "-preset", "medium", "-crf", "18", "-tune", "film", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
+    cmd += ["-c:v", "libx264", "-preset", os.environ.get("PRESET", "medium"), "-crf", os.environ.get("CRF", "18"),
+            "-tune", "film", "-pix_fmt", "yuv420p", "-movflags", "+faststart", out]
     p = subprocess.Popen(cmd, stdin=subprocess.PIPE)
     st = time.time()
+    BATCH = 64   # lote limitado: a memória não cresce se o codificador for mais lento que o desenho
     with Pool(os.cpu_count()) as pool:
-        for k, fr in enumerate(pool.imap(_frame, [(name, i) for i in range(a, b)], chunksize=6)):
-            p.stdin.write(fr)
-            if k % 300 == 0:
+        for s0 in range(a, b, BATCH):
+            frames = pool.map(_frame, [(name, i) for i in range(s0, min(b, s0 + BATCH))], chunksize=4)
+            for fr in frames:
+                p.stdin.write(fr)
+            del frames
+            k = s0 - a
+            if (k // BATCH) % 5 == 0:
                 print(f"{k}/{b - a} quadros  {time.time() - st:.0f}s", flush=True)
     p.stdin.close()
     p.wait()
-    print("OK", out, f"{(b - a) / FPS:.1f}s em {time.time() - st:.0f}s")
+    print("OK", out, f"{(b - a) / FPS:.1f}s em {time.time() - st:.0f}s", flush=True)
+
+
+def parts(name, prefix, secs=120.0):
+    """Renderiza em partes (retomável: pula as partes já prontas). Quadros inteiros por parte, sem sobreposição."""
+    mod = importlib.import_module(name)
+    n = int(round(mod.TOTAL * FPS))
+    step = int(round(secs * FPS))
+    files = []
+    for k, a in enumerate(range(0, n, step)):
+        b = min(n, a + step)
+        f = f"{prefix}_{k:02d}.mp4"
+        files.append(f)
+        if os.path.exists(f) and os.path.exists(f + ".ok"):
+            print("já pronta:", f, flush=True)
+            continue
+        print(f"== parte {k}: quadros {a}-{b}", flush=True)
+        video(name, f, None, a / FPS, b / FPS)
+        open(f + ".ok", "w").write("ok")
+    with open(prefix + "_list.txt", "w") as fh:
+        for f in files:
+            fh.write(f"file '{os.path.abspath(f)}'\n")
+    print("PARTES_OK", len(files), flush=True)
 
 
 if __name__ == "__main__":
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
     if sys.argv[1] == "snap":
         snap(sys.argv[2], sys.argv[3], sys.argv[4:])
+    elif sys.argv[1] == "parts":
+        parts(sys.argv[2], sys.argv[3], float(sys.argv[4]) if len(sys.argv) > 4 else 120.0)
     else:
         args = sys.argv[2:]
         audio = args[2] if len(args) > 2 and args[2] not in ("-", "") else None

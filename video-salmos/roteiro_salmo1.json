@@ -34,7 +34,7 @@
  {
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
-  "frase": "Hoje nós vamos orar juntos com o primeiro salmo da Bíblia, um salmo curto, mas que mostra o segredo de uma vida firme, com raízes fundas e fruto no tempo certo.",
+  "frase": "Hoje nós vamos orar juntos com o primeiro salmo da Bíblia, que mostra o segredo de uma vida firme, com raízes fundas e fruto no tempo certo.",
   "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
@@ -122,7 +122,7 @@
  {
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
-  "frase": "Então, se a sua leitura da Bíblia esfriou, não precisa se culpar, hoje pode ser o dia de recomeçar com um versículo só, lido com calma e guardado no coração.",
+  "frase": "Se a sua leitura da Bíblia esfriou, não precisa se culpar, hoje pode ser o dia de recomeçar com um versículo só, lido com calma e guardado no coração.",
   "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
@@ -170,7 +170,7 @@
  {
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
-  "frase": "Uma árvore não fica correndo atrás da água, ela é plantada perto dela, e as raízes vão buscando lá embaixo, onde ninguém vê, o que mantém as folhas verdes lá em cima.",
+  "frase": "Uma árvore não corre atrás da água, ela é plantada perto dela, e as raízes buscam lá embaixo, onde ninguém vê, o que mantém as folhas verdes.",
   "tag_visual": "rio",
   "mostrar_texto": false,
   "referencia": null
@@ -266,7 +266,7 @@
  {
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
-  "frase": "Vamos fazer uma última oração.",
+  "frase": "Vamos orar uma última vez.",
   "tag_visual": "rio",
   "mostrar_texto": false,
   "referencia": null

@@ -1,0 +1,322 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa agora.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje eu quero orar por você que se sente seco por dentro, que olha para a própria vida e tem a sensação de que nada floresce, por mais que você se esforce.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Talvez você esteja cercado de conversas que puxam para baixo, de pessoas que zombam da sua fé, ou de conselhos que parecem bons, mas te afastam de Deus aos poucos.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "E talvez a Bíblia tenha ficado esquecida em algum canto, e você sente falta daquela alegria de antes, daquele tempo em que a Palavra parecia viva no seu coração.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje nós vamos orar juntos com o primeiro salmo da Bíblia, um salmo curto, mas que mostra o segredo de uma vida firme, com raízes fundas e fruto no tempo certo.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Escreva aqui nos comentários a palavra raiz, ou deixe o seu pedido de oração, para eu saber que você está orando comigo.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "O salmo começa dizendo que é feliz a pessoa que não segue o conselho de quem vive longe de Deus, que não para no caminho dos que insistem no erro, e que não se senta na roda dos que zombam.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Salmo 1:1"
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "Repare na sequência, primeiro a gente anda junto, depois para, e no fim já está sentado, tão acostumado que nem percebe mais o quanto se afastou.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "Isso acontece com as conversas que a gente escuta, com o que a gente assiste antes de dormir, com as pessoas que a gente deixa falar mais alto que Deus no nosso coração.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "Então ore comigo.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "Senhor, me dá discernimento para perceber quais conselhos estão me levando para longe de ti, mesmo quando eles parecem razoáveis.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "Me livra das rodas de zombaria, das conversas que envenenam, e me dá coragem para me afastar com amor de tudo que está secando a minha fé.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Os caminhos e as companhias",
+  "frase": "E coloca perto de mim pessoas que me lembrem de ti, que orem comigo e que me ajudem a voltar quando eu me desviar. Em nome de Jesus, amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "O salmo continua dizendo que essa pessoa encontra alegria na Palavra do Senhor, e pensa nela de dia e de noite.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 1:2"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Não é uma obrigação pesada, nem uma leitura apressada para cumprir tabela, é prazer, é como alguém que volta sempre para perto de quem ama.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "E meditar de noite quer dizer levar a Palavra para a cama, deixar que o último pensamento antes de dormir seja uma promessa de Deus, e não uma preocupação.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Então, se a sua leitura da Bíblia esfriou, não precisa se culpar, hoje pode ser o dia de recomeçar com um versículo só, lido com calma e guardado no coração.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Vamos orar.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Pai, desperta em mim de novo a fome pela tua Palavra, aquela alegria simples de abrir a Bíblia e sentir que o Senhor está falando comigo.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Que as tuas promessas sejam o meu último pensamento esta noite e o primeiro amanhã cedo, e que elas ocupem o lugar do medo na minha mente.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "O prazer na Palavra",
+  "frase": "Me ensina a meditar, a mastigar cada palavra devagar, até que ela vire raiz dentro de mim. Amém.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Agora vem a imagem mais bonita do salmo: essa pessoa é como uma árvore plantada junto a correntes de água, que dá fruto no tempo certo, e cujas folhas não murcham.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": true,
+  "referencia": "Salmo 1:3"
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Uma árvore não fica correndo atrás da água, ela é plantada perto dela, e as raízes vão buscando lá embaixo, onde ninguém vê, o que mantém as folhas verdes lá em cima.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Talvez você esteja numa estação seca, sem fruto, esperando uma resposta que não chega, e se perguntando se ainda vai florescer.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Mas repare que o salmo fala de fruto no tempo certo, não no tempo da nossa ansiedade, e enquanto o fruto não aparece, as raízes estão crescendo.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "E quando o salmo diz que tudo que essa pessoa faz prospera, ele não está prometendo riqueza fácil, está falando de uma vida que dá certo por dentro, firme, verdadeira e cheia de propósito.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Ore comigo agora.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Senhor, me planta perto das tuas águas, e não deixa que eu viva longe da fonte, tentando florescer com as minhas próprias forças.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Nesta estação seca, faz as minhas raízes descerem mais fundo em ti, mesmo quando eu não vejo nenhum fruto do lado de fora.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "arvore",
+  "titulo_bloco": "A árvore junto às águas",
+  "frase": "Eu confio que o meu fruto vai chegar no tempo certo, e te peço que as minhas folhas não murchem, que a minha fé continue verde, mesmo no calor da luta. Em nome de Jesus, amém.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "O salmo termina mostrando o contraste: quem vive sem Deus é como a palha que o vento leva, sem raiz, sem peso, sem direção.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": true,
+  "referencia": "Salmo 1:4"
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "E a última frase é a mais consoladora de todas: o Senhor conhece o caminho dos justos.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": true,
+  "referencia": "Salmo 1:6"
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Conhecer, aqui, não é só saber onde você está, é acompanhar de perto, cuidar, guiar cada passo, como um pai que não tira os olhos do filho.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Então, mesmo que hoje você se sinta sem rumo, saiba que o seu caminho não está esquecido, Deus conhece cada curva, cada subida e cada descanso que ainda vem pela frente.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Vamos fazer uma última oração.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Pai, eu não quero ser como a palha que o vento leva para qualquer lado, eu quero ser árvore firme, plantada perto de ti.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Conhece o meu caminho, guia os meus passos, e quando eu me sentir perdido, me lembra que o Senhor sabe exatamente onde eu estou.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Abençoa a minha casa, a minha família e o trabalho das minhas mãos, e faz da minha vida um lugar onde as pessoas vejam fruto e encontrem sombra.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Esta noite eu descanso nas tuas mãos, sabendo que amanhã as minhas raízes vão estar um pouco mais fundas em ti. Em nome de Jesus, amém.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminho",
+  "titulo_bloco": "O Senhor conhece o teu caminho",
+  "frase": "Se essa oração tocou o seu coração, escreva amém nos comentários e envie este vídeo para alguém que está passando por uma estação seca. Deus abençoe você, e fique em paz.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

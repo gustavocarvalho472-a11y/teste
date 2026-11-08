@@ -34,14 +34,6 @@
  {
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
-  "frase": "Eu não sei qual é a sua situação hoje, mas eu sei que Deus não desistiu de você, e que nenhuma secura é grande demais para a água que vem dele.",
-  "tag_visual": "vale_nevoa",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "abertura",
-  "titulo_bloco": "Abertura",
   "frase": "Hoje nós vamos orar juntos com o primeiro salmo da Bíblia, um salmo curto, mas que mostra o segredo de uma vida firme, com raízes fundas e fruto no tempo certo.",
   "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
@@ -76,14 +68,6 @@
   "titulo_bloco": "Os caminhos e as companhias",
   "frase": "Isso acontece com as conversas que a gente escuta, com o que a gente assiste antes de dormir, com as pessoas que a gente deixa falar mais alto que Deus no nosso coração.",
   "tag_visual": "vale_nevoa",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "caminhos",
-  "titulo_bloco": "Os caminhos e as companhias",
-  "frase": "Não é sobre se isolar do mundo nem olhar as pessoas de cima, é sobre escolher com cuidado quem tem permissão para plantar ideias dentro de você.",
-  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -130,14 +114,6 @@
  {
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
-  "frase": "Não é uma obrigação pesada, nem uma leitura apressada para cumprir tabela, é prazer, é como alguém que volta sempre para perto de quem ama.",
-  "tag_visual": "campo_flores",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "palavra",
-  "titulo_bloco": "O prazer na Palavra",
   "frase": "E meditar de noite quer dizer levar a Palavra para a cama, deixar que o último pensamento antes de dormir seja uma promessa de Deus, e não uma preocupação.",
   "tag_visual": "ceu_noturno",
   "mostrar_texto": false,
@@ -148,14 +124,6 @@
   "titulo_bloco": "O prazer na Palavra",
   "frase": "Então, se a sua leitura da Bíblia esfriou, não precisa se culpar, hoje pode ser o dia de recomeçar com um versículo só, lido com calma e guardado no coração.",
   "tag_visual": "vale_nevoa",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "palavra",
-  "titulo_bloco": "O prazer na Palavra",
-  "frase": "Você pode deixar um versículo escrito perto da cama, ou ouvir a Palavra enquanto o sono chega, e deixar que ela vá regando aos poucos o que estava seco.",
-  "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -220,14 +188,6 @@
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Mas repare que o salmo fala de fruto no tempo certo, não no tempo da nossa ansiedade, e enquanto o fruto não aparece, as raízes estão crescendo.",
   "tag_visual": "cachoeira",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "arvore",
-  "titulo_bloco": "A árvore junto às águas",
-  "frase": "Ninguém vê uma raiz crescer, mas é ela que segura a árvore de pé quando a tempestade chega, e é isso que Deus está fazendo em você neste tempo de espera.",
-  "tag_visual": "floresta",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -306,14 +266,6 @@
  {
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
-  "frase": "Você não precisa enxergar o caminho inteiro, basta saber que quem conhece cada passo está andando com você.",
-  "tag_visual": "paisagem_aerea",
-  "mostrar_texto": false,
-  "referencia": null
- },
- {
-  "bloco": "caminho",
-  "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "Vamos fazer uma última oração.",
   "tag_visual": "rio",
   "mostrar_texto": false,
@@ -354,7 +306,7 @@
  {
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
-  "frase": "Se essa oração tocou o seu coração, escreva amém nos comentários e envie este vídeo para alguém que está passando por uma estação seca. Deus abençoe você, e fique em paz.",
+  "frase": "Se essa oração tocou você, escreva amém nos comentários e envie para quem está numa estação seca. Deus abençoe você, e fique em paz.",
   "tag_visual": "campo_flores",
   "mostrar_texto": false,
   "referencia": null

@@ -1,48 +1,48 @@
 # abertura | Abertura
-nascer_sol||Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa agora.
+paisagem_aerea||Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa agora.
 vale_nevoa||Hoje eu quero orar por você que se sente seco por dentro, que olha para a própria vida e tem a sensação de que nada floresce, por mais que você se esforce.
-campo_flores||Talvez você esteja cercado de conversas que puxam para baixo, de pessoas que zombam da sua fé, ou de conselhos que parecem bons, mas te afastam de Deus aos poucos.
+montanha||Talvez você esteja cercado de conversas que puxam para baixo, de pessoas que zombam da sua fé, ou de conselhos que parecem bons, mas te afastam de Deus aos poucos.
 lago_montanha||E talvez a Bíblia tenha ficado esquecida em algum canto, e você sente falta daquela alegria de antes, daquele tempo em que a Palavra parecia viva no seu coração.
 paisagem_aerea||Hoje nós vamos orar juntos com o primeiro salmo da Bíblia, que mostra o segredo de uma vida firme, com raízes fundas e fruto no tempo certo.
-campo_flores||Escreva aqui nos comentários a palavra raiz, ou deixe o seu pedido de oração, para eu saber que você está orando comigo.
+montanha||Escreva aqui nos comentários a palavra raiz, ou deixe o seu pedido de oração, para eu saber que você está orando comigo.
 
 # caminhos | Os caminhos e as companhias
-floresta|Salmo 1:1|O salmo começa dizendo que é feliz a pessoa que não segue o conselho de quem vive longe de Deus, que não para no caminho dos que insistem no erro, e que não se senta na roda dos que zombam.
+vale_nevoa|Salmo 1:1|O salmo começa dizendo que é feliz a pessoa que não segue o conselho de quem vive longe de Deus, que não para no caminho dos que insistem no erro, e que não se senta na roda dos que zombam.
 paisagem_aerea||Repare na sequência, primeiro a gente anda junto, depois para, e no fim já está sentado, tão acostumado que nem percebe mais o quanto se afastou.
 vale_nevoa||Isso acontece com as conversas que a gente escuta, com o que a gente assiste antes de dormir, com as pessoas que a gente deixa falar mais alto que Deus no nosso coração.
-rio||Então ore comigo.
+lago_montanha||Então ore comigo.
 lago_montanha||Senhor, me dá discernimento para perceber quais conselhos estão me levando para longe de ti, mesmo quando eles parecem razoáveis.
-floresta||Me livra das rodas de zombaria, das conversas que envenenam, e me dá coragem para me afastar com amor de tudo que está secando a minha fé.
-nascer_sol||E coloca perto de mim pessoas que me lembrem de ti, que orem comigo e que me ajudem a voltar quando eu me desviar. Em nome de Jesus, amém.
+vale_nevoa||Me livra das rodas de zombaria, das conversas que envenenam, e me dá coragem para me afastar com amor de tudo que está secando a minha fé.
+paisagem_aerea||E coloca perto de mim pessoas que me lembrem de ti, que orem comigo e que me ajudem a voltar quando eu me desviar. Em nome de Jesus, amém.
 
 # palavra | O prazer na Palavra
 lago_montanha|Salmo 1:2|O salmo continua dizendo que essa pessoa encontra alegria na Palavra do Senhor, e pensa nela de dia e de noite.
-ceu_noturno||E meditar de noite quer dizer levar a Palavra para a cama, deixar que o último pensamento antes de dormir seja uma promessa de Deus, e não uma preocupação.
+montanha||E meditar de noite quer dizer levar a Palavra para a cama, deixar que o último pensamento antes de dormir seja uma promessa de Deus, e não uma preocupação.
 vale_nevoa||Se a sua leitura da Bíblia esfriou, não precisa se culpar, hoje pode ser o dia de recomeçar com um versículo só, lido com calma e guardado no coração.
-rio||Vamos orar.
+lago_montanha||Vamos orar.
 paisagem_aerea||Pai, desperta em mim de novo a fome pela tua Palavra, aquela alegria simples de abrir a Bíblia e sentir que o Senhor está falando comigo.
-ceu_noturno||Que as tuas promessas sejam o meu último pensamento esta noite e o primeiro amanhã cedo, e que elas ocupem o lugar do medo na minha mente.
-nascer_sol||Me ensina a meditar, a mastigar cada palavra devagar, até que ela vire raiz dentro de mim. Amém.
+montanha||Que as tuas promessas sejam o meu último pensamento esta noite e o primeiro amanhã cedo, e que elas ocupem o lugar do medo na minha mente.
+paisagem_aerea||Me ensina a meditar, a mastigar cada palavra devagar, até que ela vire raiz dentro de mim. Amém.
 
 # arvore | A árvore junto às águas
-cachoeira|Salmo 1:3|Agora vem a imagem mais bonita do salmo: essa pessoa é como uma árvore plantada junto a correntes de água, que dá fruto no tempo certo, e cujas folhas não murcham.
-rio||Uma árvore não corre atrás da água, ela é plantada perto dela, e as raízes buscam lá embaixo, onde ninguém vê, o que mantém as folhas verdes.
+lago_montanha|Salmo 1:3|Agora vem a imagem mais bonita do salmo: essa pessoa é como uma árvore plantada junto a correntes de água, que dá fruto no tempo certo, e cujas folhas não murcham.
+lago_montanha||Uma árvore não corre atrás da água, ela é plantada perto dela, e as raízes buscam lá embaixo, onde ninguém vê, o que mantém as folhas verdes.
 vale_nevoa||Talvez você esteja numa estação seca, sem fruto, esperando uma resposta que não chega, e se perguntando se ainda vai florescer.
-cachoeira||Mas repare que o salmo fala de fruto no tempo certo, não no tempo da nossa ansiedade, e enquanto o fruto não aparece, as raízes estão crescendo.
+lago_montanha||Mas repare que o salmo fala de fruto no tempo certo, não no tempo da nossa ansiedade, e enquanto o fruto não aparece, as raízes estão crescendo.
 lago_montanha||E quando o salmo diz que tudo que essa pessoa faz prospera, ele não está prometendo riqueza fácil, está falando de uma vida que dá certo por dentro, firme, verdadeira e cheia de propósito.
-rio||Ore comigo agora.
-cachoeira||Senhor, me planta perto das tuas águas, e não deixa que eu viva longe da fonte, tentando florescer com as minhas próprias forças.
-floresta||Nesta estação seca, faz as minhas raízes descerem mais fundo em ti, mesmo quando eu não vejo nenhum fruto do lado de fora.
-campo_flores||Eu confio que o meu fruto vai chegar no tempo certo, e te peço que as minhas folhas não murchem, que a minha fé continue verde, mesmo no calor da luta. Em nome de Jesus, amém.
+lago_montanha||Ore comigo agora.
+lago_montanha||Senhor, me planta perto das tuas águas, e não deixa que eu viva longe da fonte, tentando florescer com as minhas próprias forças.
+vale_nevoa||Nesta estação seca, faz as minhas raízes descerem mais fundo em ti, mesmo quando eu não vejo nenhum fruto do lado de fora.
+montanha||Eu confio que o meu fruto vai chegar no tempo certo, e te peço que as minhas folhas não murchem, que a minha fé continue verde, mesmo no calor da luta. Em nome de Jesus, amém.
 
 # caminho | O Senhor conhece o teu caminho
 paisagem_aerea|Salmo 1:4|O salmo termina mostrando o contraste: quem vive sem Deus é como a palha que o vento leva, sem raiz, sem peso, sem direção.
-nascer_sol|Salmo 1:6|E a última frase é a mais consoladora de todas: o Senhor conhece o caminho dos justos.
+paisagem_aerea|Salmo 1:6|E a última frase é a mais consoladora de todas: o Senhor conhece o caminho dos justos.
 lago_montanha||Conhecer, aqui, não é só saber onde você está, é acompanhar de perto, cuidar, guiar cada passo, como um pai que não tira os olhos do filho.
 vale_nevoa||Então, mesmo que hoje você se sinta sem rumo, saiba que o seu caminho não está esquecido, Deus conhece cada curva, cada subida e cada descanso que ainda vem pela frente.
-rio||Vamos orar uma última vez.
-nascer_sol||Pai, eu não quero ser como a palha que o vento leva para qualquer lado, eu quero ser árvore firme, plantada perto de ti.
+lago_montanha||Vamos orar uma última vez.
+paisagem_aerea||Pai, eu não quero ser como a palha que o vento leva para qualquer lado, eu quero ser árvore firme, plantada perto de ti.
 paisagem_aerea||Conhece o meu caminho, guia os meus passos, e quando eu me sentir perdido, me lembra que o Senhor sabe exatamente onde eu estou.
 lago_montanha||Abençoa a minha casa, a minha família e o trabalho das minhas mãos, e faz da minha vida um lugar onde as pessoas vejam fruto e encontrem sombra.
-ceu_noturno||Esta noite eu descanso nas tuas mãos, sabendo que amanhã as minhas raízes vão estar um pouco mais fundas em ti. Em nome de Jesus, amém.
-campo_flores||Se essa oração tocou você, escreva amém nos comentários e envie para quem está numa estação seca. Deus abençoe você, e fique em paz.
+montanha||Esta noite eu descanso nas tuas mãos, sabendo que amanhã as minhas raízes vão estar um pouco mais fundas em ti. Em nome de Jesus, amém.
+montanha||Se essa oração tocou você, escreva amém nos comentários e envie para quem está numa estação seca. Deus abençoe você, e fique em paz.

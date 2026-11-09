@@ -3,7 +3,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa agora.",
-  "tag_visual": "nascer_sol",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -19,7 +19,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Talvez você esteja cercado de conversas que puxam para baixo, de pessoas que zombam da sua fé, ou de conselhos que parecem bons, mas te afastam de Deus aos poucos.",
-  "tag_visual": "campo_flores",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -43,7 +43,7 @@
   "bloco": "abertura",
   "titulo_bloco": "Abertura",
   "frase": "Escreva aqui nos comentários a palavra raiz, ou deixe o seu pedido de oração, para eu saber que você está orando comigo.",
-  "tag_visual": "campo_flores",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -51,7 +51,7 @@
   "bloco": "caminhos",
   "titulo_bloco": "Os caminhos e as companhias",
   "frase": "O salmo começa dizendo que é feliz a pessoa que não segue o conselho de quem vive longe de Deus, que não para no caminho dos que insistem no erro, e que não se senta na roda dos que zombam.",
-  "tag_visual": "floresta",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": true,
   "referencia": "Salmo 1:1"
  },
@@ -75,7 +75,7 @@
   "bloco": "caminhos",
   "titulo_bloco": "Os caminhos e as companhias",
   "frase": "Então ore comigo.",
-  "tag_visual": "rio",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -91,7 +91,7 @@
   "bloco": "caminhos",
   "titulo_bloco": "Os caminhos e as companhias",
   "frase": "Me livra das rodas de zombaria, das conversas que envenenam, e me dá coragem para me afastar com amor de tudo que está secando a minha fé.",
-  "tag_visual": "floresta",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -99,7 +99,7 @@
   "bloco": "caminhos",
   "titulo_bloco": "Os caminhos e as companhias",
   "frase": "E coloca perto de mim pessoas que me lembrem de ti, que orem comigo e que me ajudem a voltar quando eu me desviar. Em nome de Jesus, amém.",
-  "tag_visual": "nascer_sol",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -115,7 +115,7 @@
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
   "frase": "E meditar de noite quer dizer levar a Palavra para a cama, deixar que o último pensamento antes de dormir seja uma promessa de Deus, e não uma preocupação.",
-  "tag_visual": "ceu_noturno",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -131,7 +131,7 @@
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
   "frase": "Vamos orar.",
-  "tag_visual": "rio",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -147,7 +147,7 @@
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
   "frase": "Que as tuas promessas sejam o meu último pensamento esta noite e o primeiro amanhã cedo, e que elas ocupem o lugar do medo na minha mente.",
-  "tag_visual": "ceu_noturno",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -155,7 +155,7 @@
   "bloco": "palavra",
   "titulo_bloco": "O prazer na Palavra",
   "frase": "Me ensina a meditar, a mastigar cada palavra devagar, até que ela vire raiz dentro de mim. Amém.",
-  "tag_visual": "nascer_sol",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -163,7 +163,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Agora vem a imagem mais bonita do salmo: essa pessoa é como uma árvore plantada junto a correntes de água, que dá fruto no tempo certo, e cujas folhas não murcham.",
-  "tag_visual": "cachoeira",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": true,
   "referencia": "Salmo 1:3"
  },
@@ -171,7 +171,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Uma árvore não corre atrás da água, ela é plantada perto dela, e as raízes buscam lá embaixo, onde ninguém vê, o que mantém as folhas verdes.",
-  "tag_visual": "rio",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -187,7 +187,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Mas repare que o salmo fala de fruto no tempo certo, não no tempo da nossa ansiedade, e enquanto o fruto não aparece, as raízes estão crescendo.",
-  "tag_visual": "cachoeira",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -203,7 +203,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Ore comigo agora.",
-  "tag_visual": "rio",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -211,7 +211,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Senhor, me planta perto das tuas águas, e não deixa que eu viva longe da fonte, tentando florescer com as minhas próprias forças.",
-  "tag_visual": "cachoeira",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -219,7 +219,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Nesta estação seca, faz as minhas raízes descerem mais fundo em ti, mesmo quando eu não vejo nenhum fruto do lado de fora.",
-  "tag_visual": "floresta",
+  "tag_visual": "vale_nevoa",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -227,7 +227,7 @@
   "bloco": "arvore",
   "titulo_bloco": "A árvore junto às águas",
   "frase": "Eu confio que o meu fruto vai chegar no tempo certo, e te peço que as minhas folhas não murchem, que a minha fé continue verde, mesmo no calor da luta. Em nome de Jesus, amém.",
-  "tag_visual": "campo_flores",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -243,7 +243,7 @@
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "E a última frase é a mais consoladora de todas: o Senhor conhece o caminho dos justos.",
-  "tag_visual": "nascer_sol",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": true,
   "referencia": "Salmo 1:6"
  },
@@ -267,7 +267,7 @@
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "Vamos orar uma última vez.",
-  "tag_visual": "rio",
+  "tag_visual": "lago_montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -275,7 +275,7 @@
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "Pai, eu não quero ser como a palha que o vento leva para qualquer lado, eu quero ser árvore firme, plantada perto de ti.",
-  "tag_visual": "nascer_sol",
+  "tag_visual": "paisagem_aerea",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -299,7 +299,7 @@
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "Esta noite eu descanso nas tuas mãos, sabendo que amanhã as minhas raízes vão estar um pouco mais fundas em ti. Em nome de Jesus, amém.",
-  "tag_visual": "ceu_noturno",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  },
@@ -307,7 +307,7 @@
   "bloco": "caminho",
   "titulo_bloco": "O Senhor conhece o teu caminho",
   "frase": "Se essa oração tocou você, escreva amém nos comentários e envie para quem está numa estação seca. Deus abençoe você, e fique em paz.",
-  "tag_visual": "campo_flores",
+  "tag_visual": "montanha",
   "mostrar_texto": false,
   "referencia": null
  }

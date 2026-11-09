@@ -16,7 +16,7 @@ def mmss(s):
     s = int(s); return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
 
 # ---------- legenda ----------
-with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt", "ansiedade": "out/legenda_ansiedade.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
+with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt", "ansiedade": "out/legenda_ansiedade.srt", "salmo1": "out/legenda_salmo1.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
     for n, fr in enumerate(frases, 1):
         linhas = textwrap.wrap(fr["frase"], 42)
         if len(linhas) > 2:  # reequilibra em 2 linhas
@@ -39,7 +39,35 @@ VID = os.environ.get("VIDEO", "")
 V2 = VID == "v2"
 ESP = VID == "esperanca"
 ANS = VID == "ansiedade"
-if ANS:
+S1 = VID == "salmo1"
+if S1:
+    TITULO = "ORAÇÃO DO SALMO 1 | Como Uma Árvore Plantada Junto às Águas | Ore Antes de Dormir"
+    ALTERNATIVAS = [
+        "SALMO 1 Para Dormir | Oração Para Quem Se Sente Seco Por Dentro e Quer Voltar a Florescer",
+        "Oração Poderosa do Salmo 1 | Raízes Fundas em Deus e Fruto no Tempo Certo",
+    ]
+    TAGS = ["salmo 1", "oração do salmo 1", "salmo 1 oração", "oração para dormir", "oração da noite", "oração antes de dormir",
+            "árvore plantada junto às águas", "fruto no tempo certo", "oração de fé", "oração poderosa",
+            "salmos para dormir", "oração para fortalecer a fé", "palavra de deus", "oração para recomeçar",
+            "oração com fundo musical", "oração de hoje", "salmo 1 explicado", "meditação na palavra"]
+    desc = f"""{TITULO}
+
+Você se sente seco por dentro, como se nada florescesse na sua vida? Esta oração é baseada no Salmo 1, o primeiro salmo da Bíblia, que mostra o segredo de uma vida firme: escolher bem as companhias, encontrar alegria na Palavra de Deus e ter raízes fundas, como uma árvore plantada junto às águas, que dá fruto no tempo certo. E termina com a promessa mais consoladora: o Senhor conhece o seu caminho.\n\n🙏 Escreva AMÉM nos comentários e deixe o seu pedido de oração.
+
+📲 Conhece alguém passando por uma estação seca? Envie esta oração para essa pessoa.
+
+🔔 Inscreva-se e ative o sininho para receber uma nova oração toda noite.
+
+CAPÍTULOS
+{chr(10).join(caps)}
+
+Leitura bíblica em paráfrase própria.
+
+Imagens: vídeos gratuitos do Pexels (pexels.com).
+
+#salmo1 #oraçãodanoite #oraçãoparadormir
+"""
+elif ANS:
     TITULO = "ORAÇÃO PARA ANSIEDADE Antes de Dormir | Entregue a Deus os Pensamentos Que Não Te Deixam Descansar"
     ALTERNATIVAS = [
         "Oração Para Acalmar a Mente e Dormir em Paz | Filipenses 4:6-7 e Mateus 6:34",
@@ -157,7 +185,7 @@ else:
 
     {' '.join('#' + t.replace(' ', '') for t in ['oraçãodanoite', 'salmo91', 'oraçãoparadormir'])}
     """
-SUF = "_v2" if V2 else "_esperanca" if ESP else "_ansiedade" if ANS else ""
+SUF = "_v2" if V2 else "_esperanca" if ESP else "_ansiedade" if ANS else "_salmo1" if S1 else ""
 with open(f"out/descricao{SUF}.txt", "w", encoding="utf-8") as f:
     f.write("TÍTULO\n" + TITULO + "\n\nTÍTULOS ALTERNATIVOS\n" + "\n".join("- " + a for a in ALTERNATIVAS))
     f.write("\n\nTAGS (" + str(len(TAGS)) + ")\n" + ", ".join(TAGS) + "\n\n")
@@ -211,7 +239,27 @@ def clip_da_tag(tag, n=0):
     return ids[n % len(ids)]["arquivo_local"]
 
 OURO, CREME = (246, 206, 120, 255), (255, 246, 228, 255)
-if ANS:
+if S1:
+    INTER = "fonts/Inter[opsz,wght].ttf"
+    def inter(size, var="Black"):
+        f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f
+    AMAR, BRANCO = (255, 214, 64, 255), (255, 255, 255, 255)
+    def linhas(img, itens, y0, gap=14):
+        d = ImageDraw.Draw(img); y = y0
+        for txt, size, cor in itens:
+            f = inter(size); texto_sombra(img, (640, y), txt, f, cor, anchor="mt", sombra=10, stroke=0)
+            y += d.textbbox((0, 0), txt, font=f)[3] + gap
+    img = vinheta(base(frame(clip_da_tag("lago_montanha", 2), 3, "work/thumb/s1_a.png"), 0.62, quente=False), 0.55).convert("RGBA")
+    linhas(img, [("ORE O SALMO 1", 104, BRANCO), ("ANTES DE DORMIR", 104, AMAR),
+                 ("E TENHA RAÍZES", 76, BRANCO), ("FIRMES EM DEUS", 76, AMAR)], 115)
+    img.convert("RGB").save("out/thumb_A_salmo1.jpg", quality=92)
+    img = vinheta(base(frame(clip_da_tag("montanha", 1), 3, "work/thumb/s1_b.png"), 0.62, quente=False), 0.55).convert("RGBA")
+    linhas(img, [("ORAÇÃO DO", 92, BRANCO), ("SALMO 1", 160, AMAR),
+                 ("COMO ÁRVORE JUNTO ÀS ÁGUAS", 52, BRANCO)], 130, gap=22)
+    d = ImageDraw.Draw(img); d.line((470, 585, 810, 585), fill=(255, 214, 64, 200), width=3)
+    texto_sombra(img, (640, 632), "oração para dormir em paz", inter(40, "SemiBold"), BRANCO, anchor="mm", sombra=6)
+    img.convert("RGB").save("out/thumb_B_salmo1.jpg", quality=92)
+elif ANS:
     INTER = "fonts/Inter[opsz,wght].ttf"
     def inter(size, var="Black"):
         f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f

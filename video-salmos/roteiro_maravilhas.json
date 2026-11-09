@@ -1,0 +1,274 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Meu irmão, minha irmã, que a paz de Deus esteja sobre você e sobre a sua casa agora.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje eu quero orar por você que está passando por uma fase tão pesada que já não consegue enxergar nada de bom, só o problema na sua frente.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Talvez você tenha passado o dia inteiro pensando no que falta, no que deu errado, no que ainda não chegou, e foi dormir com o coração cansado e sem gratidão.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "E talvez você tenha esquecido, sem perceber, de tantas coisas que Deus já fez por você, livramentos, portas abertas, orações respondidas, dias em que ele te sustentou quando você achou que não ia aguentar.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Hoje nós vamos orar juntos para lembrar, agradecer e contar, porque quem lembra do que Deus fez ontem encontra forças para confiar nele amanhã.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Abertura",
+  "frase": "Escreva aqui nos comentários uma coisa que Deus já fez por você, pode ser bem simples, e vamos começar.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Quando o rei Davi levou a arca de volta para Jerusalém, ele escreveu um cântico que dizia: lembrem-se das maravilhas que o Senhor fez, dos sinais que ele mostrou e das decisões que ele tomou.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "1 Crônicas 16:12"
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Repare que lembrar foi uma ordem, porque o coração humano esquece fácil, e quando a gente esquece o que Deus fez, qualquer problema parece maior do que ele.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "E o salmista fala consigo mesmo: minha alma, louve ao Senhor, e não se esqueça de nenhum dos benefícios que ele te fez.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 103:2"
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Talvez hoje você precise fazer isso, conversar com a sua própria alma e dizer, calma, lembra de tudo que Deus já fez, ele não mudou.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Então ore comigo.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Senhor, me perdoa por ter esquecido tantas vezes das tuas maravilhas e por ter deixado o problema de hoje apagar tudo que o Senhor já fez por mim.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "Traz à minha memória cada livramento, cada provisão e cada abraço teu que eu recebi nos momentos difíceis.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "lembrar",
+  "titulo_bloco": "Lembrar das maravilhas",
+  "frase": "E que essa lembrança acalme o meu coração esta noite, porque o mesmo Deus que me ajudou ontem continua comigo agora. Em nome de Jesus, amém.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "O profeta Jeremias escreveu num dos momentos mais tristes da sua vida: quero trazer à memória o que me dá esperança, as misericórdias do Senhor não acabam, elas se renovam a cada manhã.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Lamentações 3:21-23"
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Ele estava cercado de ruínas, e mesmo assim escolheu lembrar, e a gratidão não mudou a cidade naquela hora, mas mudou o coração dele.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Agradecer no meio da luta não é fingir que está tudo bem, é declarar que Deus continua bom mesmo quando a vida não está.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Vamos orar.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Pai, eu te agradeço pelo fôlego de vida, pela minha casa, pelas pessoas que eu amo e até pelas coisas pequenas que eu nem costumo perceber.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Mesmo no meio dessa luta, eu escolho dizer que o Senhor é bom, e que as tuas misericórdias vão estar novas para mim amanhã cedo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "gratidao",
+  "titulo_bloco": "Gratidão no meio da luta",
+  "frase": "Tira de mim a reclamação e o peso, e enche o meu coração de uma gratidão sincera, que me faça descansar em paz. Amém.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "E no mesmo cântico Davi diz: falem da glória do Senhor entre as nações, contem a todos os povos as coisas maravilhosas que ele tem feito.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": true,
+  "referencia": "1 Crônicas 16:24"
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Isso não é só para pregadores, é para você, porque a sua história com Deus pode ser exatamente o que alguém precisa ouvir para não desistir.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Quando Jesus curou um homem que vivia atormentado, ele não pediu que o homem fizesse um discurso, só disse: vá para a sua casa e conte aos seus o quanto o Senhor fez por você.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": true,
+  "referencia": "Marcos 5:19"
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Às vezes contar é uma mensagem para um amigo, um testemunho simples na família, ou um comentário que encoraja alguém que você nem conhece.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Ore comigo agora.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Senhor, me dá coragem para contar o que o Senhor fez na minha vida, sem vergonha e sem medo do que vão pensar.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Coloca no meu caminho as pessoas que precisam ouvir que tu és real, e usa a minha história, até as partes difíceis, para levar esperança a alguém.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contar",
+  "titulo_bloco": "Contar a todos o que ele fez",
+  "frase": "Que a minha vida inteira seja um testemunho de que o Senhor é fiel. Em nome de Jesus, amém.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Antes de dormir, eu quero declarar uma bênção sobre você.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Que você nunca mais esqueça das maravilhas que Deus já fez, e que a gratidão seja a primeira coisa no seu coração amanhã cedo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Que novas histórias de livramento e de cuidado sejam escritas na sua vida, e que você tenha muitas coisas boas para contar.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Descanse agora, porque o Deus das maravilhas está acordado cuidando de você e da sua casa. Em nome de Jesus, amém.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final",
+  "frase": "Se essa oração tocou você, escreva amém nos comentários e envie para alguém que precisa lembrar do que Deus já fez. Deus abençoe você, e fique em paz.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

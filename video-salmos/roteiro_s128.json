@@ -1,0 +1,234 @@
+[
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+  "frase": "Senhor, mais um dia chegou ao fim. Eu me deito agora, e entrego a Ti o meu coração.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+  "frase": "Esta noite eu quero meditar no Salmo cento e vinte e oito. Ele começa dizendo que é feliz quem teme ao Senhor, e anda nos Seus caminhos.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 128:1"
+ },
+ {
+  "bloco": "caminhos",
+  "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+  "frase": "Pai, eu quero andar nos Teus caminhos. Não nos caminhos da pressa, nem da preocupação. Nos Teus caminhos.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho das mãos",
+  "frase": "O salmo diz que quem anda contigo vai comer do trabalho das próprias mãos. Que será feliz, e tudo lhe irá bem.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": true,
+  "referencia": "Salmo 128:2"
+ },
+ {
+  "bloco": "trabalho",
+  "titulo_bloco": "O trabalho das mãos",
+  "frase": "Senhor, eu Te entrego o meu trabalho de hoje. O que deu certo, e o que ficou pela metade. Que o fruto das minhas mãos seja abençoado por Ti.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A família ao redor da mesa",
+  "frase": "O salmo fala também da família. Da esposa como uma videira cheia de frutos dentro de casa. Dos filhos como brotos de oliveira, ao redor da mesa.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 128:3"
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "A família ao redor da mesa",
+  "frase": "Pai, eu coloco diante de Ti a minha casa. Cada pessoa que senta à minha mesa. Faz da nossa família um lugar de vida, de fruto e de paz.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao128",
+  "titulo_bloco": "A bênção do Salmo 128",
+  "frase": "E o salmo termina com uma bênção: que o Senhor te abençoe, que você veja o bem todos os dias da sua vida, que você veja os filhos dos seus filhos, e que haja paz.",
+  "tag_visual": "alpes",
+  "mostrar_texto": true,
+  "referencia": "Salmo 128:5-6"
+ },
+ {
+  "bloco": "bencao128",
+  "titulo_bloco": "A bênção do Salmo 128",
+  "frase": "Senhor, eu recebo essa bênção esta noite. Para mim, e para todos os que eu amo.",
+  "tag_visual": "lago_alpino",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "inquieto",
+  "titulo_bloco": "Quando o coração fica inquieto",
+  "frase": "Mas Tu sabes, Pai, que às vezes o meu coração fica inquieto. A mente corre para o amanhã. E a ansiedade tenta roubar o descanso que Tu me dás.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "inquieto",
+  "titulo_bloco": "Quando o coração fica inquieto",
+  "frase": "Então eu me lembro do convite de Jesus: venham a mim, todos vocês que estão cansados e sobrecarregados, e Eu darei descanso a vocês.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": true,
+  "referencia": "Mateus 11:28"
+ },
+ {
+  "bloco": "inquieto",
+  "titulo_bloco": "Quando o coração fica inquieto",
+  "frase": "Eu venho, Senhor. Cansado, mas confiante.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "Pai, o apóstolo Paulo escreveu aos Filipenses que eu não preciso viver ansioso por nada. Em vez disso, eu posso levar tudo a Ti, com oração, com sinceridade, e com gratidão.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:6-7"
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "Então eu falo contigo agora. Eu Te conto o que me preocupa. Um por um, eu coloco cada pensamento nas Tuas mãos.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "E a promessa vem logo depois: a Tua paz, que é maior do que eu consigo entender, vai guardar o meu coração e a minha mente em Cristo Jesus.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "Eu recebo essa paz.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "E Pedro também escreveu: entreguem a Ele toda a ansiedade, porque Ele cuida de vocês.",
+  "tag_visual": "lago_alpino",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "filipenses",
+  "titulo_bloco": "Não andem ansiosos",
+  "frase": "Tu cuidas de mim, Senhor. Eu posso descansar.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Olhem para os pássaros",
+  "frase": "Jesus, no sermão do monte, Tu disseste: não fiquem preocupados com a vida, com o que vão comer, ou com o que vão vestir.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:25-34"
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Olhem para os pássaros",
+  "frase": "Olhem para os pássaros. Eles não plantam, nem colhem, nem guardam em celeiros. E mesmo assim, o Pai que está nos céus cuida deles. Vocês não valem muito mais do que eles?",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Olhem para os pássaros",
+  "frase": "E Tu perguntaste: quem de vocês, por mais que se preocupe, consegue acrescentar uma única hora à própria vida?",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Olhem para os pássaros",
+  "frase": "Senhor, a preocupação não me dá nem um minuto a mais. Só me rouba a paz. Então eu solto.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Olhem para os pássaros",
+  "frase": "Tu disseste ainda: não se preocupem com o amanhã. O amanhã cuidará de si mesmo. Basta a cada dia o seu próprio cuidado.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "E na última noite com os discípulos, Tu falaste: deixo com vocês a minha paz. Não como o mundo dá. Não fiquem com o coração aflito, nem tenham medo.",
+  "tag_visual": "alpes",
+  "mostrar_texto": true,
+  "referencia": "João 14:27"
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "Eu recebo a Tua paz, Jesus. Aqui, nesta cama, nesta noite.",
+  "tag_visual": "lago_alpino",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "Paulo lembrou a Timóteo que Deus não nos deu um espírito de medo, mas de poder, de amor e de equilíbrio.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "Então eu durmo sem medo. A Tua paz guarda o meu coração.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "Boa noite, Senhor.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "paz",
+  "titulo_bloco": "Deixo com vocês a minha paz",
+  "frase": "Em nome de Jesus. Amém.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

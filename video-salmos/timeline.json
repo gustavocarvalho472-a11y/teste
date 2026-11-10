@@ -1,7545 +1,3410 @@
 {
- "duracao_total": 1161.0,
+ "duracao_total": 627.0,
  "motor": "externo",
- "voz": "work/noite19/noite.wav",
+ "voz": "work/s128/s128.wav",
  "frases": [
   {
-   "bloco": "abertura",
-   "titulo_bloco": "Nada nos separa do amor de Deus",
-   "frase": "Pai, o apóstolo Paulo escreveu aos Romanos que nada pode nos separar do Teu amor. Nem a morte, nem a vida. Nem o presente, nem o futuro. Nada em toda a criação.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": true,
-   "referencia": "Romanos 8",
+   "bloco": "caminhos",
+   "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+   "frase": "Senhor, mais um dia chegou ao fim. Eu me deito agora, e entrego a Ti o meu coração.",
+   "tag_visual": "alpes",
+   "mostrar_texto": false,
+   "referencia": null,
    "idx": 0,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 3.34,
-   "fim": 26.94,
-   "duracao": 23.6,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 3.34,
-     "fim": 4.34
-    },
-    {
-     "w": "o",
-     "ini": 5.94,
-     "fim": 6.18
-    },
-    {
-     "w": "apóstolo",
-     "ini": 6.18,
-     "fim": 6.76
-    },
-    {
-     "w": "Paulo",
-     "ini": 6.76,
-     "fim": 7.26
-    },
-    {
-     "w": "escreveu",
-     "ini": 7.26,
-     "fim": 8.52
-    },
-    {
-     "w": "aos",
-     "ini": 8.52,
-     "fim": 8.68
-    },
-    {
-     "w": "Romanos",
-     "ini": 8.68,
-     "fim": 9.38
-    },
-    {
-     "w": "que",
-     "ini": 9.38,
-     "fim": 10.56
-    },
-    {
-     "w": "nada",
-     "ini": 10.56,
-     "fim": 10.78
-    },
-    {
-     "w": "pode",
-     "ini": 10.78,
-     "fim": 11.3
-    },
-    {
-     "w": "nos",
-     "ini": 11.3,
-     "fim": 11.52
-    },
-    {
-     "w": "separar",
-     "ini": 11.52,
-     "fim": 12.1
-    },
-    {
-     "w": "do",
-     "ini": 12.1,
-     "fim": 12.28
-    },
-    {
-     "w": "Teu",
-     "ini": 12.28,
-     "fim": 12.46
-    },
-    {
-     "w": "amor.",
-     "ini": 12.46,
-     "fim": 12.82
-    },
-    {
-     "w": "Nem",
-     "ini": 14.66,
-     "fim": 15.66
-    },
-    {
-     "w": "a",
-     "ini": 15.66,
-     "fim": 15.78
-    },
-    {
-     "w": "morte,",
-     "ini": 15.78,
-     "fim": 16.22
-    },
-    {
-     "w": "nem",
-     "ini": 17.12,
-     "fim": 17.4
-    },
-    {
-     "w": "a",
-     "ini": 17.4,
-     "fim": 17.52
-    },
-    {
-     "w": "vida.",
-     "ini": 17.52,
-     "fim": 17.86
-    },
-    {
-     "w": "Nem",
-     "ini": 19.14,
-     "fim": 19.64
-    },
-    {
-     "w": "o",
-     "ini": 19.64,
-     "fim": 19.76
-    },
-    {
-     "w": "presente,",
-     "ini": 19.76,
-     "fim": 20.2
-    },
-    {
-     "w": "nem",
-     "ini": 20.98,
-     "fim": 21.28
-    },
-    {
-     "w": "o",
-     "ini": 21.28,
-     "fim": 21.44
-    },
-    {
-     "w": "futuro.",
-     "ini": 21.44,
-     "fim": 21.94
-    },
-    {
-     "w": "Nada",
-     "ini": 23.8,
-     "fim": 24.56
-    },
-    {
-     "w": "em",
-     "ini": 24.56,
-     "fim": 25.74
-    },
-    {
-     "w": "toda",
-     "ini": 25.74,
-     "fim": 26.1
-    },
-    {
-     "w": "a",
-     "ini": 26.1,
-     "fim": 26.15
-    },
-    {
-     "w": "criação.",
-     "ini": 26.1,
-     "fim": 26.94
-    }
-   ]
-  },
-  {
-   "bloco": "abertura",
-   "titulo_bloco": "Nada nos separa do amor de Deus",
-   "frase": "Senhor, nada pode me separar de Ti. Nem o meu erro de hoje. Nem o meu medo de amanhã. Eu durmo envolvido pelo Teu amor.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 1,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 30.7,
-   "fim": 46.88,
-   "duracao": 16.18,
+   "wav": "work/s128/s128.wav",
+   "inicio": 6.86,
+   "fim": 17.34,
+   "duracao": 10.48,
    "palavras": [
     {
      "w": "Senhor,",
-     "ini": 30.7,
-     "fim": 31.42
-    },
-    {
-     "w": "nada",
-     "ini": 32.92,
-     "fim": 33.32
-    },
-    {
-     "w": "pode",
-     "ini": 33.32,
-     "fim": 33.68
-    },
-    {
-     "w": "me",
-     "ini": 33.68,
-     "fim": 33.86
-    },
-    {
-     "w": "separar",
-     "ini": 33.86,
-     "fim": 34.44
-    },
-    {
-     "w": "de",
-     "ini": 34.44,
-     "fim": 34.6
-    },
-    {
-     "w": "Ti.",
-     "ini": 34.6,
-     "fim": 34.92
-    },
-    {
-     "w": "Nem",
-     "ini": 35.82,
-     "fim": 37.32
-    },
-    {
-     "w": "o",
-     "ini": 37.32,
-     "fim": 37.42
-    },
-    {
-     "w": "meu",
-     "ini": 37.42,
-     "fim": 37.56
-    },
-    {
-     "w": "erro",
-     "ini": 37.56,
-     "fim": 37.86
-    },
-    {
-     "w": "de",
-     "ini": 37.86,
-     "fim": 38.06
-    },
-    {
-     "w": "hoje.",
-     "ini": 38.06,
-     "fim": 38.48
-    },
-    {
-     "w": "Nem",
-     "ini": 39.36,
-     "fim": 40.5
-    },
-    {
-     "w": "o",
-     "ini": 40.5,
-     "fim": 40.6
-    },
-    {
-     "w": "meu",
-     "ini": 40.6,
-     "fim": 40.7
-    },
-    {
-     "w": "medo",
-     "ini": 40.7,
-     "fim": 41.12
-    },
-    {
-     "w": "de",
-     "ini": 41.12,
-     "fim": 41.32
-    },
-    {
-     "w": "amanhã.",
-     "ini": 41.32,
-     "fim": 42.42
-    },
-    {
-     "w": "Eu",
-     "ini": 44.14,
-     "fim": 44.86
-    },
-    {
-     "w": "durmo",
-     "ini": 44.86,
-     "fim": 45.26
-    },
-    {
-     "w": "envolvido",
-     "ini": 45.26,
-     "fim": 45.9
-    },
-    {
-     "w": "pelo",
-     "ini": 45.9,
-     "fim": 46.18
-    },
-    {
-     "w": "Teu",
-     "ini": 46.18,
-     "fim": 46.52
-    },
-    {
-     "w": "amor.",
-     "ini": 46.52,
-     "fim": 46.88
-    }
-   ]
-  },
-  {
-   "bloco": "abertura",
-   "titulo_bloco": "Nada nos separa do amor de Deus",
-   "frase": "E Paulo também escreveu que todas as coisas cooperam para o bem daqueles que Te amam. Então, mesmo o que hoje eu não entendo, Tu estás usando para o meu bem.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 2,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 49.74,
-   "fim": 66.12,
-   "duracao": 16.38,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 49.74,
-     "fim": 50.18
-    },
-    {
-     "w": "Paulo",
-     "ini": 50.18,
-     "fim": 50.5
-    },
-    {
-     "w": "também",
-     "ini": 50.5,
-     "fim": 50.84
-    },
-    {
-     "w": "escreveu",
-     "ini": 50.84,
-     "fim": 51.68
-    },
-    {
-     "w": "que",
-     "ini": 51.68,
-     "fim": 52.72
-    },
-    {
-     "w": "todas",
-     "ini": 52.72,
-     "fim": 52.98
-    },
-    {
-     "w": "as",
-     "ini": 52.98,
-     "fim": 53.24
-    },
-    {
-     "w": "coisas",
-     "ini": 53.24,
-     "fim": 53.52
-    },
-    {
-     "w": "cooperam",
-     "ini": 53.52,
-     "fim": 54.2
-    },
-    {
-     "w": "para",
-     "ini": 54.2,
-     "fim": 54.38
-    },
-    {
-     "w": "o",
-     "ini": 54.38,
-     "fim": 54.5
-    },
-    {
-     "w": "bem",
-     "ini": 54.5,
-     "fim": 54.66
-    },
-    {
-     "w": "daqueles",
-     "ini": 54.66,
-     "fim": 55.08
-    },
-    {
-     "w": "que",
-     "ini": 55.08,
-     "fim": 55.3
-    },
-    {
-     "w": "Te",
-     "ini": 55.3,
-     "fim": 55.5
-    },
-    {
-     "w": "amam.",
-     "ini": 55.5,
-     "fim": 55.86
-    },
-    {
-     "w": "Então,",
-     "ini": 58.42,
-     "fim": 59.34
-    },
-    {
-     "w": "mesmo",
-     "ini": 60.0,
-     "fim": 60.88
-    },
-    {
-     "w": "o",
-     "ini": 60.88,
-     "fim": 60.93
-    },
-    {
-     "w": "que",
-     "ini": 60.88,
-     "fim": 61.18
-    },
-    {
-     "w": "hoje",
-     "ini": 61.18,
-     "fim": 61.46
-    },
-    {
-     "w": "eu",
-     "ini": 61.46,
-     "fim": 61.58
-    },
-    {
-     "w": "não",
-     "ini": 61.58,
-     "fim": 61.68
-    },
-    {
-     "w": "entendo,",
-     "ini": 61.68,
-     "fim": 62.22
-    },
-    {
-     "w": "Tu",
-     "ini": 63.48,
-     "fim": 64.54
-    },
-    {
-     "w": "estás",
-     "ini": 64.54,
-     "fim": 64.84
-    },
-    {
-     "w": "usando",
-     "ini": 64.84,
-     "fim": 65.42
-    },
-    {
-     "w": "para",
-     "ini": 65.42,
-     "fim": 65.66
-    },
-    {
-     "w": "o",
-     "ini": 65.66,
-     "fim": 65.76
-    },
-    {
-     "w": "meu",
-     "ini": 65.76,
-     "fim": 65.86
-    },
-    {
-     "w": "bem.",
-     "ini": 65.86,
-     "fim": 66.12
-    }
-   ]
-  },
-  {
-   "bloco": "misericordias",
-   "titulo_bloco": "Misericórdias que se renovam",
-   "frase": "Pai, no livro de Lamentações, o profeta Jeremias escreveu, no meio da dor, que as Tuas misericórdias não têm fim. Que elas se renovam a cada manhã. E que grande é a Tua fidelidade.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": true,
-   "referencia": "Lamentações 3:22-23",
-   "idx": 3,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 70.08,
-   "fim": 94.92,
-   "duracao": 24.84,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 70.08,
-     "fim": 71.0
-    },
-    {
-     "w": "no",
-     "ini": 72.36,
-     "fim": 72.82
-    },
-    {
-     "w": "livro",
-     "ini": 72.82,
-     "fim": 73.14
-    },
-    {
-     "w": "de",
-     "ini": 73.14,
-     "fim": 73.34
-    },
-    {
-     "w": "Lamentações,",
-     "ini": 73.34,
-     "fim": 74.1
-    },
-    {
-     "w": "o",
-     "ini": 75.52,
-     "fim": 75.58
-    },
-    {
-     "w": "profeta",
-     "ini": 75.58,
-     "fim": 76.04
-    },
-    {
-     "w": "Jeremias",
-     "ini": 76.04,
-     "fim": 76.72
-    },
-    {
-     "w": "escreveu,",
-     "ini": 76.72,
-     "fim": 77.48
-    },
-    {
-     "w": "no",
-     "ini": 77.48,
-     "fim": 78.82
-    },
-    {
-     "w": "meio",
-     "ini": 78.82,
-     "fim": 79.08
-    },
-    {
-     "w": "da",
-     "ini": 79.08,
-     "fim": 79.28
-    },
-    {
-     "w": "dor,",
-     "ini": 79.28,
-     "fim": 79.6
-    },
-    {
-     "w": "que",
-     "ini": 81.38,
-     "fim": 82.1
-    },
-    {
-     "w": "as",
-     "ini": 82.1,
-     "fim": 82.28
-    },
-    {
-     "w": "Tuas",
-     "ini": 82.28,
-     "fim": 82.54
-    },
-    {
-     "w": "misericórdias",
-     "ini": 82.54,
-     "fim": 83.42
-    },
-    {
-     "w": "não",
-     "ini": 83.42,
-     "fim": 83.68
-    },
-    {
-     "w": "têm",
-     "ini": 83.68,
-     "fim": 83.98
-    },
-    {
-     "w": "fim.",
-     "ini": 83.98,
-     "fim": 84.42
-    },
-    {
-     "w": "Que",
-     "ini": 86.2,
-     "fim": 87.0
-    },
-    {
-     "w": "elas",
-     "ini": 87.0,
-     "fim": 87.16
-    },
-    {
-     "w": "se",
-     "ini": 87.16,
-     "fim": 87.38
-    },
-    {
-     "w": "renovam",
-     "ini": 87.38,
-     "fim": 87.9
-    },
-    {
-     "w": "a",
-     "ini": 87.9,
-     "fim": 88.06
-    },
-    {
-     "w": "cada",
-     "ini": 88.06,
-     "fim": 88.28
-    },
-    {
-     "w": "manhã.",
-     "ini": 88.28,
-     "fim": 88.78
-    },
-    {
-     "w": "E",
-     "ini": 90.96,
-     "fim": 91.68
-    },
-    {
-     "w": "que",
-     "ini": 91.68,
-     "fim": 91.8
-    },
-    {
-     "w": "grande",
-     "ini": 91.8,
-     "fim": 92.16
-    },
-    {
-     "w": "é",
-     "ini": 92.16,
-     "fim": 93.74
-    },
-    {
-     "w": "a",
-     "ini": 93.74,
-     "fim": 93.8
-    },
-    {
-     "w": "Tua",
-     "ini": 93.8,
-     "fim": 94.16
-    },
-    {
-     "w": "fidelidade.",
-     "ini": 94.16,
-     "fim": 94.92
-    }
-   ]
-  },
-  {
-   "bloco": "misericordias",
-   "titulo_bloco": "Misericórdias que se renovam",
-   "frase": "Amanhã será um novo dia. E a Tua misericórdia já estará lá, esperando por mim.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 4,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 98.58,
-   "fim": 107.32,
-   "duracao": 8.74,
-   "palavras": [
-    {
-     "w": "Amanhã",
-     "ini": 98.58,
-     "fim": 99.04
-    },
-    {
-     "w": "será",
-     "ini": 99.04,
-     "fim": 99.36
-    },
-    {
-     "w": "um",
-     "ini": 99.36,
-     "fim": 99.54
-    },
-    {
-     "w": "novo",
-     "ini": 99.54,
-     "fim": 99.72
-    },
-    {
-     "w": "dia.",
-     "ini": 99.72,
-     "fim": 100.12
-    },
-    {
-     "w": "E",
-     "ini": 100.12,
-     "fim": 102.66
-    },
-    {
-     "w": "a",
-     "ini": 102.66,
-     "fim": 102.8
-    },
-    {
-     "w": "Tua",
-     "ini": 102.8,
-     "fim": 102.98
-    },
-    {
-     "w": "misericórdia",
-     "ini": 102.98,
-     "fim": 103.78
-    },
-    {
-     "w": "já",
-     "ini": 103.78,
-     "fim": 103.92
-    },
-    {
-     "w": "estará",
-     "ini": 103.92,
-     "fim": 104.42
-    },
-    {
-     "w": "lá,",
-     "ini": 104.42,
-     "fim": 104.72
-    },
-    {
-     "w": "esperando",
-     "ini": 105.62,
-     "fim": 106.8
-    },
-    {
-     "w": "por",
-     "ini": 106.8,
-     "fim": 107.12
-    },
-    {
-     "w": "mim.",
-     "ini": 107.12,
-     "fim": 107.32
-    }
-   ]
-  },
-  {
-   "bloco": "misericordias",
-   "titulo_bloco": "Misericórdias que se renovam",
-   "frase": "O Salmo trinta diz que o choro pode durar uma noite, mas a alegria vem pela manhã.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 5,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 111.9,
-   "fim": 119.24,
-   "duracao": 7.34,
-   "palavras": [
-    {
-     "w": "O",
-     "ini": 111.9,
-     "fim": 112.6
-    },
-    {
-     "w": "Salmo",
-     "ini": 112.6,
-     "fim": 112.96
-    },
-    {
-     "w": "trinta",
-     "ini": 112.96,
-     "fim": 113.24
-    },
-    {
-     "w": "diz",
-     "ini": 113.24,
-     "fim": 113.66
-    },
-    {
-     "w": "que",
-     "ini": 113.66,
-     "fim": 113.84
-    },
-    {
-     "w": "o",
-     "ini": 113.84,
-     "fim": 113.98
-    },
-    {
-     "w": "choro",
-     "ini": 113.98,
-     "fim": 114.24
-    },
-    {
-     "w": "pode",
-     "ini": 114.24,
-     "fim": 114.52
-    },
-    {
-     "w": "durar",
-     "ini": 114.52,
-     "fim": 114.86
-    },
-    {
-     "w": "uma",
-     "ini": 114.86,
-     "fim": 115.04
-    },
-    {
-     "w": "noite,",
-     "ini": 115.04,
-     "fim": 115.46
-    },
-    {
-     "w": "mas",
-     "ini": 116.32,
-     "fim": 117.7
-    },
-    {
-     "w": "a",
-     "ini": 117.7,
-     "fim": 117.86
-    },
-    {
-     "w": "alegria",
-     "ini": 117.86,
-     "fim": 118.18
-    },
-    {
-     "w": "vem",
-     "ini": 118.18,
-     "fim": 118.5
-    },
-    {
-     "w": "pela",
-     "ini": 118.5,
-     "fim": 118.82
-    },
-    {
-     "w": "manhã.",
-     "ini": 118.82,
-     "fim": 119.24
-    }
-   ]
-  },
-  {
-   "bloco": "misericordias",
-   "titulo_bloco": "Misericórdias que se renovam",
-   "frase": "Senhor, se hoje eu chorei, Tu viste. Se hoje eu fiquei triste, Tu estavas perto. E eu creio que a alegria vai chegar.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 6,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 123.12,
-   "fim": 140.18,
-   "duracao": 17.06,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 123.12,
-     "fim": 123.82
-    },
-    {
-     "w": "se",
-     "ini": 125.28,
-     "fim": 125.6
-    },
-    {
-     "w": "hoje",
-     "ini": 125.6,
-     "fim": 125.82
-    },
-    {
-     "w": "eu",
-     "ini": 125.82,
-     "fim": 125.94
-    },
-    {
-     "w": "chorei,",
-     "ini": 125.94,
-     "fim": 126.36
-    },
-    {
-     "w": "Tu",
-     "ini": 126.36,
-     "fim": 126.56
-    },
-    {
-     "w": "viste.",
-     "ini": 126.56,
-     "fim": 126.96
-    },
-    {
-     "w": "Se",
-     "ini": 127.98,
-     "fim": 129.64
-    },
-    {
-     "w": "hoje",
-     "ini": 129.64,
-     "fim": 129.88
-    },
-    {
-     "w": "eu",
-     "ini": 129.88,
-     "fim": 130.02
-    },
-    {
-     "w": "fiquei",
-     "ini": 130.02,
-     "fim": 130.22
-    },
-    {
-     "w": "triste,",
-     "ini": 130.22,
-     "fim": 131.04
-    },
-    {
-     "w": "Tu",
-     "ini": 132.7,
-     "fim": 132.76
-    },
-    {
-     "w": "estavas",
-     "ini": 132.76,
-     "fim": 133.16
-    },
-    {
-     "w": "perto.",
-     "ini": 133.16,
-     "fim": 133.6
-    },
-    {
-     "w": "E",
-     "ini": 135.4,
-     "fim": 136.78
-    },
-    {
-     "w": "eu",
-     "ini": 136.78,
-     "fim": 136.92
-    },
-    {
-     "w": "creio",
-     "ini": 136.92,
-     "fim": 137.42
-    },
-    {
-     "w": "que",
-     "ini": 137.42,
-     "fim": 139.2
-    },
-    {
-     "w": "a",
-     "ini": 139.2,
-     "fim": 139.32
-    },
-    {
-     "w": "alegria",
-     "ini": 139.32,
-     "fim": 139.62
-    },
-    {
-     "w": "vai",
-     "ini": 139.62,
-     "fim": 139.8
-    },
-    {
-     "w": "chegar.",
-     "ini": 139.8,
-     "fim": 140.18
-    }
-   ]
-  },
-  {
-   "bloco": "misericordias",
-   "titulo_bloco": "Misericórdias que se renovam",
-   "frase": "Eu descanso nessa promessa.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 7,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 144.09,
-   "fim": 149.54,
-   "duracao": 5.45,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 144.09,
-     "fim": 144.78
-    },
-    {
-     "w": "descanso",
-     "ini": 144.78,
-     "fim": 145.56
-    },
-    {
-     "w": "nessa",
-     "ini": 145.56,
-     "fim": 148.92
-    },
-    {
-     "w": "promessa.",
-     "ini": 148.92,
-     "fim": 149.54
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Senhor, o Salmo quarenta e seis começa dizendo que Tu és o nosso refúgio e a nossa força. Um socorro sempre presente na hora da angústia. Por isso, não precisamos ter medo.",
-   "tag_visual": "lua",
-   "mostrar_texto": true,
-   "referencia": "Salmo 46",
-   "idx": 8,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 159.28,
-   "fim": 177.1,
-   "duracao": 17.82,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 159.28,
-     "fim": 160.12
-    },
-    {
-     "w": "o",
-     "ini": 161.3,
-     "fim": 161.52
-    },
-    {
-     "w": "Salmo",
-     "ini": 161.52,
-     "fim": 161.88
-    },
-    {
-     "w": "quarenta",
-     "ini": 161.88,
-     "fim": 162.248
-    },
-    {
-     "w": "e",
-     "ini": 162.248,
-     "fim": 162.359
-    },
-    {
-     "w": "seis",
-     "ini": 162.359,
-     "fim": 162.58
-    },
-    {
-     "w": "começa",
-     "ini": 162.58,
-     "fim": 163.18
-    },
-    {
-     "w": "dizendo",
-     "ini": 163.18,
-     "fim": 163.82
-    },
-    {
-     "w": "que",
-     "ini": 163.82,
-     "fim": 164.04
-    },
-    {
-     "w": "Tu",
-     "ini": 164.04,
-     "fim": 164.26
-    },
-    {
-     "w": "és",
-     "ini": 164.26,
-     "fim": 164.44
-    },
-    {
-     "w": "o",
-     "ini": 164.44,
-     "fim": 164.56
-    },
-    {
-     "w": "nosso",
-     "ini": 164.56,
-     "fim": 164.7
-    },
-    {
-     "w": "refúgio",
-     "ini": 164.7,
-     "fim": 165.46
-    },
-    {
-     "w": "e",
-     "ini": 165.46,
-     "fim": 165.6
-    },
-    {
-     "w": "a",
-     "ini": 165.6,
-     "fim": 165.68
-    },
-    {
-     "w": "nossa",
-     "ini": 165.68,
-     "fim": 165.84
-    },
-    {
-     "w": "força.",
-     "ini": 165.84,
-     "fim": 166.42
-    },
-    {
-     "w": "Um",
-     "ini": 168.72,
-     "fim": 169.16
-    },
-    {
-     "w": "socorro",
-     "ini": 169.16,
-     "fim": 169.64
-    },
-    {
-     "w": "sempre",
-     "ini": 169.64,
-     "fim": 170.02
-    },
-    {
-     "w": "presente",
-     "ini": 170.02,
-     "fim": 170.54
-    },
-    {
-     "w": "na",
-     "ini": 170.54,
-     "fim": 170.96
-    },
-    {
-     "w": "hora",
-     "ini": 170.96,
-     "fim": 171.16
-    },
-    {
-     "w": "da",
-     "ini": 171.16,
-     "fim": 171.34
-    },
-    {
-     "w": "angústia.",
-     "ini": 171.34,
-     "fim": 172.0
-    },
-    {
-     "w": "Por",
-     "ini": 173.42,
-     "fim": 173.76
-    },
-    {
-     "w": "isso,",
-     "ini": 173.76,
-     "fim": 174.06
-    },
-    {
-     "w": "não",
-     "ini": 175.46,
-     "fim": 175.96
-    },
-    {
-     "w": "precisamos",
-     "ini": 175.96,
-     "fim": 176.48
-    },
-    {
-     "w": "ter",
-     "ini": 176.48,
-     "fim": 176.76
-    },
-    {
-     "w": "medo.",
-     "ini": 176.76,
-     "fim": 177.1
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Mesmo que a terra trema. Mesmo que os montes se movam. Mesmo que tudo ao redor pareça instável. Tu continuas firme.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 9,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 179.8,
-   "fim": 193.74,
-   "duracao": 13.94,
-   "palavras": [
-    {
-     "w": "Mesmo",
-     "ini": 179.8,
-     "fim": 180.56
-    },
-    {
-     "w": "que",
-     "ini": 180.56,
-     "fim": 180.7
-    },
-    {
-     "w": "a",
-     "ini": 180.7,
-     "fim": 180.82
-    },
-    {
-     "w": "terra",
-     "ini": 180.82,
-     "fim": 181.02
-    },
-    {
-     "w": "trema.",
-     "ini": 181.02,
-     "fim": 181.56
-    },
-    {
-     "w": "Mesmo",
-     "ini": 182.68,
-     "fim": 183.66
-    },
-    {
-     "w": "que",
-     "ini": 183.66,
-     "fim": 183.84
-    },
-    {
-     "w": "os",
-     "ini": 183.84,
-     "fim": 183.98
-    },
-    {
-     "w": "montes",
-     "ini": 183.98,
-     "fim": 184.4
-    },
-    {
-     "w": "se",
-     "ini": 184.4,
-     "fim": 184.64
-    },
-    {
-     "w": "movam.",
-     "ini": 184.64,
-     "fim": 185.98
-    },
-    {
-     "w": "Mesmo",
-     "ini": 186.22,
-     "fim": 187.52
-    },
-    {
-     "w": "que",
-     "ini": 187.52,
-     "fim": 187.74
-    },
-    {
-     "w": "tudo",
-     "ini": 187.74,
-     "fim": 188.0
-    },
-    {
-     "w": "ao",
-     "ini": 188.0,
-     "fim": 188.2
-    },
-    {
-     "w": "redor",
-     "ini": 188.2,
-     "fim": 188.5
-    },
-    {
-     "w": "pareça",
-     "ini": 188.5,
-     "fim": 189.04
-    },
-    {
-     "w": "instável.",
-     "ini": 189.04,
-     "fim": 189.66
-    },
-    {
-     "w": "Tu",
-     "ini": 191.88,
-     "fim": 192.62
-    },
-    {
-     "w": "continuas",
-     "ini": 192.62,
-     "fim": 193.18
-    },
-    {
-     "w": "firme.",
-     "ini": 193.18,
-     "fim": 193.74
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "E no meio desse salmo, Tu dizes uma frase curta: Parem de lutar, e saibam que Eu sou Deus.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 10,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 193.74,
-   "fim": 206.94,
-   "duracao": 13.2,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 193.74,
-     "fim": 197.02
-    },
-    {
-     "w": "no",
-     "ini": 197.02,
-     "fim": 197.14
-    },
-    {
-     "w": "meio",
-     "ini": 197.14,
-     "fim": 197.34
-    },
-    {
-     "w": "desse",
-     "ini": 197.34,
-     "fim": 197.6
-    },
-    {
-     "w": "salmo,",
-     "ini": 197.6,
-     "fim": 198.32
-    },
-    {
-     "w": "Tu",
-     "ini": 199.8,
-     "fim": 200.26
-    },
-    {
-     "w": "dizes",
-     "ini": 200.26,
-     "fim": 200.56
-    },
-    {
-     "w": "uma",
-     "ini": 200.56,
-     "fim": 200.8
-    },
-    {
-     "w": "frase",
-     "ini": 200.8,
-     "fim": 201.14
-    },
-    {
-     "w": "curta:",
-     "ini": 201.14,
-     "fim": 201.74
-    },
-    {
-     "w": "Parem",
-     "ini": 203.32,
-     "fim": 203.86
-    },
-    {
-     "w": "de",
-     "ini": 203.86,
-     "fim": 203.96
-    },
-    {
-     "w": "lutar,",
-     "ini": 203.96,
-     "fim": 204.34
-    },
-    {
-     "w": "e",
-     "ini": 204.34,
-     "fim": 205.8
-    },
-    {
-     "w": "saibam",
-     "ini": 205.8,
-     "fim": 206.18
-    },
-    {
-     "w": "que",
-     "ini": 206.18,
-     "fim": 206.38
-    },
-    {
-     "w": "Eu",
-     "ini": 206.38,
-     "fim": 206.5
-    },
-    {
-     "w": "sou",
-     "ini": 206.5,
-     "fim": 206.68
-    },
-    {
-     "w": "Deus.",
-     "ini": 206.68,
-     "fim": 206.94
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Pai, eu paro agora. Eu paro de lutar. Eu paro de tentar controlar tudo. Eu paro de ensaiar as conversas de amanhã.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 11,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 211.46,
-   "fim": 227.84,
-   "duracao": 16.38,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 211.46,
-     "fim": 212.22
-    },
-    {
-     "w": "eu",
-     "ini": 213.78,
-     "fim": 214.02
-    },
-    {
-     "w": "paro",
-     "ini": 214.02,
-     "fim": 214.3
-    },
-    {
-     "w": "agora.",
-     "ini": 214.3,
-     "fim": 214.64
-    },
-    {
-     "w": "Eu",
-     "ini": 216.78,
-     "fim": 217.54
-    },
-    {
-     "w": "paro",
-     "ini": 217.54,
-     "fim": 217.8
-    },
-    {
-     "w": "de",
-     "ini": 217.8,
-     "fim": 217.92
-    },
-    {
-     "w": "lutar.",
-     "ini": 217.92,
-     "fim": 218.28
-    },
-    {
-     "w": "Eu",
-     "ini": 220.34,
-     "fim": 220.62
-    },
-    {
-     "w": "paro",
-     "ini": 220.62,
-     "fim": 220.88
-    },
-    {
-     "w": "de",
-     "ini": 220.88,
-     "fim": 221.0
-    },
-    {
-     "w": "tentar",
-     "ini": 221.0,
-     "fim": 221.36
-    },
-    {
-     "w": "controlar",
-     "ini": 221.36,
-     "fim": 221.9
-    },
-    {
-     "w": "tudo.",
-     "ini": 221.9,
-     "fim": 222.4
-    },
-    {
-     "w": "Eu",
-     "ini": 224.96,
-     "fim": 225.56
-    },
-    {
-     "w": "paro",
-     "ini": 225.56,
-     "fim": 225.86
-    },
-    {
-     "w": "de",
-     "ini": 225.86,
-     "fim": 225.98
-    },
-    {
-     "w": "ensaiar",
-     "ini": 225.98,
-     "fim": 226.52
-    },
-    {
-     "w": "as",
-     "ini": 226.52,
-     "fim": 226.68
-    },
-    {
-     "w": "conversas",
-     "ini": 226.68,
-     "fim": 227.28
-    },
-    {
-     "w": "de",
-     "ini": 227.28,
-     "fim": 227.44
-    },
-    {
-     "w": "amanhã.",
-     "ini": 227.44,
-     "fim": 227.84
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Eu só fico aqui, quietinho, na Tua presença.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 12,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 231.34,
-   "fim": 236.54,
-   "duracao": 5.2,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 231.34,
-     "fim": 232.1
-    },
-    {
-     "w": "só",
-     "ini": 232.1,
-     "fim": 232.24
-    },
-    {
-     "w": "fico",
-     "ini": 232.24,
-     "fim": 232.54
-    },
-    {
-     "w": "aqui,",
-     "ini": 232.54,
-     "fim": 232.84
-    },
-    {
-     "w": "quietinho,",
-     "ini": 233.78,
-     "fim": 234.62
-    },
-    {
-     "w": "na",
-     "ini": 235.48,
-     "fim": 235.68
-    },
-    {
-     "w": "Tua",
-     "ini": 235.68,
-     "fim": 235.94
-    },
-    {
-     "w": "presença.",
-     "ini": 235.94,
-     "fim": 236.54
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "O meu coração desacelera. Os meus pensamentos se acalmam. O meu corpo descansa.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 13,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 240.86,
-   "fim": 251.14,
-   "duracao": 10.28,
-   "palavras": [
-    {
-     "w": "O",
-     "ini": 240.86,
-     "fim": 241.78
-    },
-    {
-     "w": "meu",
-     "ini": 241.78,
-     "fim": 241.88
-    },
-    {
-     "w": "coração",
-     "ini": 241.88,
-     "fim": 242.36
-    },
-    {
-     "w": "desacelera.",
-     "ini": 242.36,
-     "fim": 243.22
-    },
-    {
-     "w": "Os",
-     "ini": 244.86,
-     "fim": 245.78
-    },
-    {
-     "w": "meus",
-     "ini": 245.78,
-     "fim": 245.92
-    },
-    {
-     "w": "pensamentos",
-     "ini": 245.92,
-     "fim": 246.66
-    },
-    {
-     "w": "se",
-     "ini": 246.66,
-     "fim": 246.94
-    },
-    {
-     "w": "acalmam.",
-     "ini": 246.94,
-     "fim": 247.46
-    },
-    {
-     "w": "O",
-     "ini": 249.64,
-     "fim": 249.96
-    },
-    {
-     "w": "meu",
-     "ini": 249.96,
-     "fim": 250.12
-    },
-    {
-     "w": "corpo",
-     "ini": 250.12,
-     "fim": 250.48
-    },
-    {
-     "w": "descansa.",
-     "ini": 250.48,
-     "fim": 251.14
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Tu és Deus. E eu não preciso ser.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 14,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 254.86,
-   "fim": 261.56,
-   "duracao": 6.7,
-   "palavras": [
-    {
-     "w": "Tu",
-     "ini": 254.86,
-     "fim": 255.74
-    },
-    {
-     "w": "és",
-     "ini": 255.74,
-     "fim": 255.9
-    },
-    {
-     "w": "Deus.",
-     "ini": 255.9,
-     "fim": 256.22
-    },
-    {
-     "w": "E",
-     "ini": 259.62,
-     "fim": 260.54
-    },
-    {
-     "w": "eu",
-     "ini": 260.54,
-     "fim": 260.6
-    },
-    {
-     "w": "não",
-     "ini": 260.6,
-     "fim": 260.7
-    },
-    {
-     "w": "preciso",
-     "ini": 260.7,
-     "fim": 261.1
-    },
-    {
-     "w": "ser.",
-     "ini": 261.1,
-     "fim": 261.56
-    }
-   ]
-  },
-  {
-   "bloco": "aquietai",
-   "titulo_bloco": "Aquietai-vos",
-   "frase": "Que alívio, Senhor. Que alívio saber que Tu estás no controle.",
-   "tag_visual": "vale_nevoa",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 15,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 264.98,
-   "fim": 273.18,
-   "duracao": 8.2,
-   "palavras": [
-    {
-     "w": "Que",
-     "ini": 264.98,
-     "fim": 265.3
-    },
-    {
-     "w": "alívio,",
-     "ini": 265.3,
-     "fim": 265.74
-    },
-    {
-     "w": "Senhor.",
-     "ini": 265.74,
-     "fim": 265.9
-    },
-    {
-     "w": "Que",
-     "ini": 268.12,
-     "fim": 268.92
-    },
-    {
-     "w": "alívio",
-     "ini": 268.92,
-     "fim": 269.28
-    },
-    {
-     "w": "saber",
-     "ini": 269.28,
-     "fim": 269.66
-    },
-    {
-     "w": "que",
-     "ini": 269.66,
-     "fim": 271.98
-    },
-    {
-     "w": "Tu",
-     "ini": 271.98,
-     "fim": 272.18
-    },
-    {
-     "w": "estás",
-     "ini": 272.18,
-     "fim": 272.48
-    },
-    {
-     "w": "no",
-     "ini": 272.48,
-     "fim": 272.78
-    },
-    {
-     "w": "controle.",
-     "ini": 272.78,
-     "fim": 273.18
-    }
-   ]
-  },
-  {
-   "bloco": "medo",
-   "titulo_bloco": "Não tenha medo",
-   "frase": "Pai, pelo profeta Isaías, Tu falaste ao Teu povo com tanto carinho. Disseste: não tenha medo, porque Eu estou com você. Não fique assustado, porque Eu sou o seu Deus. Eu vou te fortalecer. Eu vou te ajudar. Eu vou te segurar com a minha mão.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": true,
-   "referencia": "Isaías 41:10",
-   "idx": 16,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 277.74,
-   "fim": 313.42,
-   "duracao": 35.68,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 277.74,
-     "fim": 278.54
-    },
-    {
-     "w": "pelo",
-     "ini": 279.74,
-     "fim": 280.04
-    },
-    {
-     "w": "profeta",
-     "ini": 280.04,
-     "fim": 280.54
-    },
-    {
-     "w": "Isaías,",
-     "ini": 280.54,
-     "fim": 281.36
-    },
-    {
-     "w": "Tu",
-     "ini": 282.3,
-     "fim": 282.98
-    },
-    {
-     "w": "falaste",
-     "ini": 282.98,
-     "fim": 283.52
-    },
-    {
-     "w": "ao",
-     "ini": 283.52,
-     "fim": 283.68
-    },
-    {
-     "w": "Teu",
-     "ini": 283.68,
-     "fim": 283.84
-    },
-    {
-     "w": "povo",
-     "ini": 283.84,
-     "fim": 284.18
-    },
-    {
-     "w": "com",
-     "ini": 284.18,
-     "fim": 284.44
-    },
-    {
-     "w": "tanto",
-     "ini": 284.44,
-     "fim": 284.82
-    },
-    {
-     "w": "carinho.",
-     "ini": 284.82,
-     "fim": 285.38
-    },
-    {
-     "w": "Disseste:",
-     "ini": 287.62,
-     "fim": 288.42
-    },
-    {
-     "w": "não",
-     "ini": 289.42,
-     "fim": 289.74
-    },
-    {
-     "w": "tenha",
-     "ini": 289.74,
-     "fim": 290.02
-    },
-    {
-     "w": "medo,",
-     "ini": 290.02,
-     "fim": 290.46
-    },
-    {
-     "w": "porque",
-     "ini": 292.34,
-     "fim": 292.78
-    },
-    {
-     "w": "Eu",
-     "ini": 292.78,
-     "fim": 292.92
-    },
-    {
-     "w": "estou",
-     "ini": 292.92,
-     "fim": 293.16
-    },
-    {
-     "w": "com",
-     "ini": 293.16,
-     "fim": 293.42
-    },
-    {
-     "w": "você.",
-     "ini": 293.42,
-     "fim": 293.74
-    },
-    {
-     "w": "Não",
-     "ini": 296.62,
-     "fim": 296.92
-    },
-    {
-     "w": "fique",
-     "ini": 296.92,
-     "fim": 297.2
-    },
-    {
-     "w": "assustado,",
-     "ini": 297.2,
-     "fim": 297.96
-    },
-    {
-     "w": "porque",
-     "ini": 298.52,
-     "fim": 299.84
-    },
-    {
-     "w": "Eu",
-     "ini": 299.84,
-     "fim": 300.0
-    },
-    {
-     "w": "sou",
-     "ini": 300.0,
-     "fim": 300.24
-    },
-    {
-     "w": "o",
-     "ini": 300.24,
-     "fim": 300.46
-    },
-    {
-     "w": "seu",
-     "ini": 300.46,
-     "fim": 300.62
-    },
-    {
-     "w": "Deus.",
-     "ini": 300.62,
-     "fim": 300.8
-    },
-    {
-     "w": "Eu",
-     "ini": 303.1,
-     "fim": 303.44
-    },
-    {
-     "w": "vou",
-     "ini": 303.44,
-     "fim": 303.56
-    },
-    {
-     "w": "te",
-     "ini": 303.56,
-     "fim": 303.68
-    },
-    {
-     "w": "fortalecer.",
-     "ini": 303.68,
-     "fim": 304.48
-    },
-    {
-     "w": "Eu",
-     "ini": 306.62,
-     "fim": 307.06
-    },
-    {
-     "w": "vou",
-     "ini": 307.06,
-     "fim": 307.2
-    },
-    {
-     "w": "te",
-     "ini": 307.2,
-     "fim": 307.32
-    },
-    {
-     "w": "ajudar.",
-     "ini": 307.32,
-     "fim": 307.74
-    },
-    {
-     "w": "Eu",
-     "ini": 311.7,
-     "fim": 312.0
-    },
-    {
-     "w": "vou",
-     "ini": 312.0,
-     "fim": 312.14
-    },
-    {
-     "w": "te",
-     "ini": 312.14,
-     "fim": 312.26
-    },
-    {
-     "w": "segurar",
-     "ini": 312.26,
-     "fim": 312.74
-    },
-    {
-     "w": "com",
-     "ini": 312.74,
-     "fim": 312.94
-    },
-    {
-     "w": "a",
-     "ini": 312.94,
-     "fim": 313.02
-    },
-    {
-     "w": "minha",
-     "ini": 313.02,
-     "fim": 313.18
-    },
-    {
-     "w": "mão.",
-     "ini": 313.18,
-     "fim": 313.42
-    }
-   ]
-  },
-  {
-   "bloco": "medo",
-   "titulo_bloco": "Não tenha medo",
-   "frase": "Senhor, segura a minha mão esta noite. Se o medo voltar, lembra-me destas palavras. Se eu acordar no meio da madrugada, lembra-me de que Tu estás aqui.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 17,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 318.68,
-   "fim": 338.68,
-   "duracao": 20.0,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 318.68,
-     "fim": 319.28
-    },
-    {
-     "w": "segura",
-     "ini": 321.14,
-     "fim": 321.64
-    },
-    {
-     "w": "a",
-     "ini": 321.64,
-     "fim": 321.82
-    },
-    {
-     "w": "minha",
-     "ini": 321.82,
-     "fim": 321.87
-    },
-    {
-     "w": "mão",
-     "ini": 321.86,
-     "fim": 322.16
-    },
-    {
-     "w": "esta",
-     "ini": 322.16,
-     "fim": 322.42
-    },
-    {
-     "w": "noite.",
-     "ini": 322.42,
-     "fim": 322.86
-    },
-    {
-     "w": "Se",
-     "ini": 324.68,
-     "fim": 325.52
-    },
-    {
-     "w": "o",
-     "ini": 325.52,
-     "fim": 325.62
-    },
-    {
-     "w": "medo",
-     "ini": 325.62,
-     "fim": 325.76
-    },
-    {
-     "w": "voltar,",
-     "ini": 325.76,
-     "fim": 326.32
-    },
-    {
-     "w": "lembra-me",
-     "ini": 326.32,
-     "fim": 327.98
-    },
-    {
-     "w": "destas",
-     "ini": 327.98,
-     "fim": 328.34
-    },
-    {
-     "w": "palavras.",
-     "ini": 328.34,
-     "fim": 328.78
-    },
-    {
-     "w": "Se",
-     "ini": 331.12,
-     "fim": 331.96
-    },
-    {
-     "w": "eu",
-     "ini": 331.96,
-     "fim": 332.06
-    },
-    {
-     "w": "acordar",
-     "ini": 332.06,
-     "fim": 332.52
-    },
-    {
-     "w": "no",
-     "ini": 332.52,
-     "fim": 332.66
-    },
-    {
-     "w": "meio",
-     "ini": 332.66,
-     "fim": 332.88
-    },
-    {
-     "w": "da",
-     "ini": 332.88,
-     "fim": 333.04
-    },
-    {
-     "w": "madrugada,",
-     "ini": 333.04,
-     "fim": 333.66
-    },
-    {
-     "w": "lembra-me",
-     "ini": 333.66,
-     "fim": 336.18
-    },
-    {
-     "w": "de",
-     "ini": 336.18,
-     "fim": 337.64
-    },
-    {
-     "w": "que",
-     "ini": 337.64,
-     "fim": 337.74
-    },
-    {
-     "w": "Tu",
-     "ini": 337.74,
-     "fim": 337.94
-    },
-    {
-     "w": "estás",
-     "ini": 337.94,
-     "fim": 338.22
-    },
-    {
-     "w": "aqui.",
-     "ini": 338.22,
-     "fim": 338.68
-    }
-   ]
-  },
-  {
-   "bloco": "medo",
-   "titulo_bloco": "Não tenha medo",
-   "frase": "E quando Josué precisou seguir em frente, sem saber o que viria, Tu disseste a ele: seja forte e corajoso. Não tenha medo, nem desanime, porque o Senhor, o seu Deus, estará com você por onde você andar.",
-   "tag_visual": "lua",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 18,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 343.62,
-   "fim": 371.04,
-   "duracao": 27.42,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 343.62,
-     "fim": 344.46
-    },
-    {
-     "w": "quando",
-     "ini": 344.46,
-     "fim": 344.66
-    },
-    {
-     "w": "Josué",
-     "ini": 344.66,
-     "fim": 345.12
-    },
-    {
-     "w": "precisou",
-     "ini": 345.12,
-     "fim": 345.72
-    },
-    {
-     "w": "seguir",
-     "ini": 345.72,
-     "fim": 346.02
-    },
-    {
-     "w": "em",
-     "ini": 346.02,
-     "fim": 346.28
-    },
-    {
-     "w": "frente,",
-     "ini": 346.28,
-     "fim": 346.68
-    },
-    {
-     "w": "sem",
-     "ini": 348.04,
-     "fim": 348.42
-    },
-    {
-     "w": "saber",
-     "ini": 348.42,
-     "fim": 348.76
-    },
-    {
-     "w": "o",
-     "ini": 348.76,
-     "fim": 348.92
-    },
-    {
-     "w": "que",
-     "ini": 348.92,
-     "fim": 349.0
-    },
-    {
-     "w": "viria,",
-     "ini": 349.0,
-     "fim": 349.52
-    },
-    {
-     "w": "Tu",
-     "ini": 351.78,
-     "fim": 352.78
-    },
-    {
-     "w": "disseste",
-     "ini": 352.78,
-     "fim": 353.26
-    },
-    {
-     "w": "a",
-     "ini": 353.26,
-     "fim": 353.48
-    },
-    {
-     "w": "ele:",
-     "ini": 353.48,
-     "fim": 353.68
-    },
-    {
-     "w": "seja",
-     "ini": 354.82,
-     "fim": 355.24
-    },
-    {
-     "w": "forte",
-     "ini": 355.24,
-     "fim": 355.8
-    },
-    {
-     "w": "e",
-     "ini": 355.8,
-     "fim": 356.02
-    },
-    {
-     "w": "corajoso.",
-     "ini": 356.02,
-     "fim": 356.52
-    },
-    {
-     "w": "Não",
-     "ini": 358.26,
-     "fim": 358.92
-    },
-    {
-     "w": "tenha",
-     "ini": 358.92,
-     "fim": 359.16
-    },
-    {
-     "w": "medo,",
-     "ini": 359.16,
-     "fim": 359.56
-    },
-    {
-     "w": "nem",
-     "ini": 360.42,
-     "fim": 360.68
-    },
-    {
-     "w": "desanime,",
-     "ini": 360.68,
-     "fim": 361.26
-    },
-    {
-     "w": "porque",
-     "ini": 363.06,
-     "fim": 364.06
-    },
-    {
-     "w": "o",
-     "ini": 364.06,
-     "fim": 364.2
-    },
-    {
-     "w": "Senhor,",
-     "ini": 364.2,
-     "fim": 364.46
-    },
-    {
-     "w": "o",
-     "ini": 365.32,
-     "fim": 365.42
-    },
-    {
-     "w": "seu",
-     "ini": 365.42,
-     "fim": 365.6
-    },
-    {
-     "w": "Deus,",
-     "ini": 365.6,
-     "fim": 365.78
-    },
-    {
-     "w": "estará",
-     "ini": 367.28,
-     "fim": 368.28
-    },
-    {
-     "w": "com",
-     "ini": 368.28,
-     "fim": 368.46
-    },
-    {
-     "w": "você",
-     "ini": 368.46,
-     "fim": 368.8
-    },
-    {
-     "w": "por",
-     "ini": 368.8,
-     "fim": 369.48
-    },
-    {
-     "w": "onde",
-     "ini": 369.48,
-     "fim": 370.36
-    },
-    {
-     "w": "você",
-     "ini": 370.36,
-     "fim": 370.72
-    },
-    {
-     "w": "andar.",
-     "ini": 370.72,
-     "fim": 371.04
-    }
-   ]
-  },
-  {
-   "bloco": "medo",
-   "titulo_bloco": "Não tenha medo",
-   "frase": "Pai, por onde eu andar, Tu estás comigo. No trabalho, em casa, na rua. E também aqui, neste quarto, nesta cama.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 19,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 374.76,
-   "fim": 397.86,
-   "duracao": 23.1,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 374.76,
-     "fim": 375.76
-    },
-    {
-     "w": "por",
-     "ini": 377.5,
-     "fim": 378.32
-    },
-    {
-     "w": "onde",
-     "ini": 378.32,
-     "fim": 378.56
-    },
-    {
-     "w": "eu",
-     "ini": 378.56,
-     "fim": 379.36
-    },
-    {
-     "w": "andar,",
-     "ini": 379.36,
-     "fim": 380.96
-    },
-    {
-     "w": "Tu",
-     "ini": 380.96,
-     "fim": 381.96
-    },
-    {
-     "w": "estás",
-     "ini": 381.96,
-     "fim": 382.18
-    },
-    {
-     "w": "comigo.",
-     "ini": 382.18,
-     "fim": 382.76
-    },
-    {
-     "w": "No",
-     "ini": 384.54,
-     "fim": 385.54
-    },
-    {
-     "w": "trabalho,",
-     "ini": 385.54,
-     "fim": 385.88
-    },
-    {
-     "w": "em",
-     "ini": 385.88,
-     "fim": 386.16
-    },
-    {
-     "w": "casa,",
-     "ini": 386.16,
-     "fim": 386.52
-    },
-    {
-     "w": "na",
-     "ini": 387.62,
-     "fim": 388.1
-    },
-    {
-     "w": "rua.",
-     "ini": 388.1,
-     "fim": 388.38
-    },
-    {
-     "w": "E",
-     "ini": 391.2,
-     "fim": 392.2
-    },
-    {
-     "w": "também",
-     "ini": 392.2,
-     "fim": 392.42
-    },
-    {
-     "w": "aqui,",
-     "ini": 392.42,
-     "fim": 393.34
-    },
-    {
-     "w": "neste",
-     "ini": 394.28,
-     "fim": 394.9
-    },
-    {
-     "w": "quarto,",
-     "ini": 394.9,
-     "fim": 397.18
-    },
-    {
-     "w": "nesta",
-     "ini": 397.18,
-     "fim": 397.44
-    },
-    {
-     "w": "cama.",
-     "ini": 397.44,
-     "fim": 397.86
-    }
-   ]
-  },
-  {
-   "bloco": "medo",
-   "titulo_bloco": "Não tenha medo",
-   "frase": "Eu não estou sozinho. Eu nunca estive sozinho.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 20,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 403.02,
-   "fim": 413.736,
-   "duracao": 10.716,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 403.02,
-     "fim": 403.36
-    },
-    {
-     "w": "não",
-     "ini": 403.36,
-     "fim": 403.5
-    },
-    {
-     "w": "estou",
-     "ini": 403.5,
-     "fim": 403.72
-    },
-    {
-     "w": "sozinho.",
-     "ini": 403.72,
-     "fim": 404.22
-    },
-    {
-     "w": "Eu",
-     "ini": 410.2,
-     "fim": 410.56
-    },
-    {
-     "w": "nunca",
-     "ini": 410.56,
-     "fim": 411.449
-    },
-    {
-     "w": "estive",
-     "ini": 411.449,
-     "fim": 412.466
-    },
-    {
-     "w": "sozinho.",
-     "ini": 412.466,
-     "fim": 413.736
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Senhor, no Salmo cento e três, Davi conversa com a própria alma. Ele diz a si mesmo: não esqueça nenhum dos benefícios de Deus.",
-   "tag_visual": "montanha",
-   "mostrar_texto": true,
-   "referencia": "Salmo 103",
-   "idx": 21,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 413.736,
-   "fim": 428.02,
-   "duracao": 14.284,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 413.736,
-     "fim": 414.88
-    },
-    {
-     "w": "no",
-     "ini": 414.88,
-     "fim": 414.96
-    },
-    {
-     "w": "Salmo",
-     "ini": 414.96,
-     "fim": 415.38
-    },
-    {
-     "w": "cento",
-     "ini": 415.38,
-     "fim": 416.269
-    },
-    {
-     "w": "e",
-     "ini": 416.269,
-     "fim": 416.651
-    },
-    {
-     "w": "três,",
-     "ini": 416.651,
-     "fim": 417.54
-    },
-    {
-     "w": "Davi",
-     "ini": 417.54,
-     "fim": 418.06
-    },
-    {
-     "w": "conversa",
-     "ini": 418.06,
-     "fim": 418.66
-    },
-    {
-     "w": "com",
-     "ini": 418.66,
-     "fim": 418.8
-    },
-    {
-     "w": "a",
-     "ini": 418.8,
-     "fim": 418.88
-    },
-    {
-     "w": "própria",
-     "ini": 418.88,
-     "fim": 419.24
-    },
-    {
-     "w": "alma.",
-     "ini": 419.24,
-     "fim": 419.62
-    },
-    {
-     "w": "Ele",
-     "ini": 422.16,
-     "fim": 422.56
-    },
-    {
-     "w": "diz",
-     "ini": 422.56,
-     "fim": 422.8
-    },
-    {
-     "w": "a",
-     "ini": 422.8,
-     "fim": 422.9
-    },
-    {
-     "w": "si",
-     "ini": 422.9,
-     "fim": 423.04
-    },
-    {
-     "w": "mesmo:",
-     "ini": 423.04,
-     "fim": 423.56
-    },
-    {
-     "w": "não",
-     "ini": 425.56,
-     "fim": 425.86
-    },
-    {
-     "w": "esqueça",
-     "ini": 425.86,
-     "fim": 426.34
-    },
-    {
-     "w": "nenhum",
-     "ini": 426.34,
-     "fim": 426.62
-    },
-    {
-     "w": "dos",
-     "ini": 426.62,
-     "fim": 426.9
-    },
-    {
-     "w": "benefícios",
-     "ini": 426.9,
-     "fim": 427.5
-    },
-    {
-     "w": "de",
-     "ini": 427.5,
-     "fim": 427.74
-    },
-    {
-     "w": "Deus.",
-     "ini": 427.74,
-     "fim": 428.02
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Então, antes de dormir, eu quero lembrar.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 22,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 430.72,
-   "fim": 440.62,
-   "duracao": 9.9,
-   "palavras": [
-    {
-     "w": "Então,",
-     "ini": 430.72,
-     "fim": 431.44
-    },
-    {
-     "w": "antes",
-     "ini": 432.42,
-     "fim": 432.86
-    },
-    {
-     "w": "de",
-     "ini": 432.86,
-     "fim": 433.02
-    },
-    {
-     "w": "dormir,",
-     "ini": 433.02,
-     "fim": 433.38
-    },
-    {
-     "w": "eu",
-     "ini": 435.3,
-     "fim": 435.66
-    },
-    {
-     "w": "quero",
-     "ini": 435.66,
-     "fim": 435.82
-    },
-    {
-     "w": "lembrar.",
-     "ini": 435.82,
-     "fim": 440.62
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Tu perdoas as minhas culpas. Tu cuidas das minhas dores. Tu me tiras do buraco. Tu me cercas de bondade e de compaixão.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 23,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 440.62,
-   "fim": 455.16,
-   "duracao": 14.54,
-   "palavras": [
-    {
-     "w": "Tu",
-     "ini": 440.62,
-     "fim": 441.34
-    },
-    {
-     "w": "perdoas",
-     "ini": 441.34,
-     "fim": 441.84
-    },
-    {
-     "w": "as",
-     "ini": 441.84,
-     "fim": 442.02
-    },
-    {
-     "w": "minhas",
-     "ini": 442.02,
-     "fim": 442.24
-    },
-    {
-     "w": "culpas.",
-     "ini": 442.24,
-     "fim": 442.86
-    },
-    {
-     "w": "Tu",
-     "ini": 444.56,
-     "fim": 445.28
-    },
-    {
-     "w": "cuidas",
-     "ini": 445.28,
-     "fim": 445.662
-    },
-    {
-     "w": "das",
-     "ini": 445.662,
-     "fim": 445.9
-    },
-    {
-     "w": "minhas",
-     "ini": 445.9,
-     "fim": 446.2
-    },
-    {
-     "w": "dores.",
-     "ini": 446.2,
-     "fim": 446.56
-    },
-    {
-     "w": "Tu",
-     "ini": 449.1,
-     "fim": 449.66
-    },
-    {
-     "w": "me",
-     "ini": 449.66,
-     "fim": 449.82
-    },
-    {
-     "w": "tiras",
-     "ini": 449.82,
-     "fim": 450.18
-    },
-    {
-     "w": "do",
-     "ini": 450.18,
-     "fim": 450.3
-    },
-    {
-     "w": "buraco.",
-     "ini": 450.3,
-     "fim": 450.76
-    },
-    {
-     "w": "Tu",
-     "ini": 452.62,
-     "fim": 453.02
-    },
-    {
-     "w": "me",
-     "ini": 453.02,
-     "fim": 453.14
-    },
-    {
-     "w": "cercas",
-     "ini": 453.14,
-     "fim": 453.62
-    },
-    {
-     "w": "de",
-     "ini": 453.62,
-     "fim": 453.82
-    },
-    {
-     "w": "bondade",
-     "ini": 453.82,
-     "fim": 454.36
-    },
-    {
-     "w": "e",
-     "ini": 454.36,
-     "fim": 454.5
-    },
-    {
-     "w": "de",
-     "ini": 454.5,
-     "fim": 454.58
-    },
-    {
-     "w": "compaixão.",
-     "ini": 454.58,
-     "fim": 455.16
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Davi escreveu que, assim como um pai tem compaixão dos filhos, Tu tens compaixão de nós. Porque Tu sabes do que somos feitos. Tu sabes que somos frágeis.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 24,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 458.88,
-   "fim": 483.94,
-   "duracao": 25.06,
-   "palavras": [
-    {
-     "w": "Davi",
-     "ini": 458.88,
-     "fim": 459.6
-    },
-    {
-     "w": "escreveu",
-     "ini": 459.6,
-     "fim": 460.26
-    },
-    {
-     "w": "que,",
-     "ini": 460.26,
-     "fim": 460.42
-    },
-    {
-     "w": "assim",
-     "ini": 460.52,
-     "fim": 460.72
-    },
-    {
-     "w": "como",
-     "ini": 460.72,
-     "fim": 460.98
-    },
-    {
-     "w": "um",
-     "ini": 460.98,
-     "fim": 461.14
-    },
-    {
-     "w": "pai",
-     "ini": 461.14,
-     "fim": 461.36
-    },
-    {
-     "w": "tem",
-     "ini": 461.36,
-     "fim": 461.54
-    },
-    {
-     "w": "compaixão",
-     "ini": 461.54,
-     "fim": 462.12
-    },
-    {
-     "w": "dos",
-     "ini": 462.12,
-     "fim": 462.982
-    },
-    {
-     "w": "filhos,",
-     "ini": 462.982,
-     "fim": 464.535
-    },
-    {
-     "w": "Tu",
-     "ini": 464.535,
-     "fim": 465.225
-    },
-    {
-     "w": "tens",
-     "ini": 465.225,
-     "fim": 466.26
-    },
-    {
-     "w": "compaixão",
-     "ini": 466.26,
-     "fim": 466.86
-    },
-    {
-     "w": "de",
-     "ini": 466.86,
-     "fim": 467.04
-    },
-    {
-     "w": "nós.",
-     "ini": 467.04,
-     "fim": 467.28
-    },
-    {
-     "w": "Porque",
-     "ini": 470.82,
-     "fim": 471.4
-    },
-    {
-     "w": "Tu",
-     "ini": 471.4,
-     "fim": 471.56
-    },
-    {
-     "w": "sabes",
-     "ini": 471.56,
-     "fim": 471.94
-    },
-    {
-     "w": "do",
-     "ini": 471.94,
-     "fim": 472.16
-    },
-    {
-     "w": "que",
-     "ini": 472.16,
-     "fim": 472.24
-    },
-    {
-     "w": "somos",
-     "ini": 472.24,
-     "fim": 472.52
-    },
-    {
-     "w": "feitos.",
-     "ini": 472.52,
-     "fim": 473.52
-    },
-    {
-     "w": "Tu",
-     "ini": 476.14,
-     "fim": 476.72
-    },
-    {
-     "w": "sabes",
-     "ini": 476.72,
-     "fim": 476.98
-    },
-    {
-     "w": "que",
-     "ini": 477.2,
-     "fim": 477.25
-    },
-    {
-     "w": "somos",
-     "ini": 477.2,
-     "fim": 477.48
-    },
-    {
-     "w": "frágeis.",
-     "ini": 477.48,
-     "fim": 483.94
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Pai, obrigado por não exigir de mim o que eu não consigo dar. Obrigado por me amar mesmo nos dias em que eu falho.",
-   "tag_visual": "vale_nevoa",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 25,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 483.94,
-   "fim": 498.54,
-   "duracao": 14.6,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 483.94,
-     "fim": 484.52
-    },
-    {
-     "w": "obrigado",
-     "ini": 486.62,
-     "fim": 487.2
-    },
-    {
-     "w": "por",
-     "ini": 487.2,
-     "fim": 487.52
-    },
-    {
-     "w": "não",
-     "ini": 487.52,
-     "fim": 487.64
-    },
-    {
-     "w": "exigir",
-     "ini": 487.64,
-     "fim": 488.04
-    },
-    {
-     "w": "de",
-     "ini": 488.04,
-     "fim": 488.24
-    },
-    {
-     "w": "mim",
-     "ini": 488.24,
-     "fim": 488.46
-    },
-    {
-     "w": "o",
-     "ini": 488.46,
-     "fim": 488.56
-    },
-    {
-     "w": "que",
-     "ini": 488.56,
-     "fim": 488.64
-    },
-    {
-     "w": "eu",
-     "ini": 488.64,
-     "fim": 488.72
-    },
-    {
-     "w": "não",
-     "ini": 488.72,
-     "fim": 488.8
-    },
-    {
-     "w": "consigo",
-     "ini": 488.8,
-     "fim": 489.14
-    },
-    {
-     "w": "dar.",
-     "ini": 489.14,
-     "fim": 489.52
-    },
-    {
-     "w": "Obrigado",
-     "ini": 493.08,
-     "fim": 493.66
-    },
-    {
-     "w": "por",
-     "ini": 493.66,
-     "fim": 493.88
-    },
-    {
-     "w": "me",
-     "ini": 493.88,
-     "fim": 494.02
-    },
-    {
-     "w": "amar",
-     "ini": 494.02,
-     "fim": 494.2
-    },
-    {
-     "w": "mesmo",
-     "ini": 494.2,
-     "fim": 494.6
-    },
-    {
-     "w": "nos",
-     "ini": 494.6,
-     "fim": 495.216
-    },
-    {
-     "w": "dias",
-     "ini": 495.216,
-     "fim": 495.954
-    },
-    {
-     "w": "em",
-     "ini": 495.954,
-     "fim": 496.447
-    },
-    {
-     "w": "que",
-     "ini": 496.447,
-     "fim": 497.063
-    },
-    {
-     "w": "eu",
-     "ini": 497.063,
-     "fim": 497.555
-    },
-    {
-     "w": "falho.",
-     "ini": 497.555,
-     "fim": 498.54
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Obrigado pela comida de hoje. Pelo ar que eu respiro. Pelas pessoas que me amam. Por esta cama, por este descanso.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 26,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 498.54,
-   "fim": 515.917,
-   "duracao": 17.377,
-   "palavras": [
-    {
-     "w": "Obrigado",
-     "ini": 498.54,
-     "fim": 499.56
-    },
-    {
-     "w": "pela",
-     "ini": 499.56,
-     "fim": 499.78
-    },
-    {
-     "w": "comida",
-     "ini": 499.78,
-     "fim": 500.06
-    },
-    {
-     "w": "de",
-     "ini": 500.06,
-     "fim": 500.36
-    },
-    {
-     "w": "hoje.",
-     "ini": 500.36,
-     "fim": 500.62
-    },
-    {
-     "w": "Pelo",
-     "ini": 502.42,
-     "fim": 502.84
-    },
-    {
-     "w": "ar",
-     "ini": 502.84,
-     "fim": 503.288
-    },
-    {
-     "w": "que",
-     "ini": 503.288,
-     "fim": 503.848
-    },
-    {
-     "w": "eu",
-     "ini": 503.848,
-     "fim": 504.296
-    },
-    {
-     "w": "respiro.",
-     "ini": 504.296,
-     "fim": 505.416
-    },
-    {
-     "w": "Pelas",
-     "ini": 505.416,
-     "fim": 506.2
-    },
-    {
-     "w": "pessoas",
-     "ini": 506.2,
-     "fim": 506.58
-    },
-    {
-     "w": "que",
-     "ini": 506.58,
-     "fim": 506.84
-    },
-    {
-     "w": "me",
-     "ini": 506.84,
-     "fim": 507.02
-    },
-    {
-     "w": "amam.",
-     "ini": 507.02,
-     "fim": 507.78
-    },
-    {
-     "w": "Por",
-     "ini": 508.17,
-     "fim": 508.68
-    },
-    {
-     "w": "esta",
-     "ini": 508.68,
-     "fim": 509.563
-    },
-    {
-     "w": "cama,",
-     "ini": 509.563,
-     "fim": 510.594
-    },
-    {
-     "w": "por",
-     "ini": 510.594,
-     "fim": 511.33
-    },
-    {
-     "w": "este",
-     "ini": 511.33,
-     "fim": 511.84
-    },
-    {
-     "w": "descanso.",
-     "ini": 511.84,
-     "fim": 515.917
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Eu não quero esquecer. Tudo de bom que eu tenho veio de Ti.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 27,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 515.917,
-   "fim": 520.889,
-   "duracao": 4.971,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 515.917,
-     "fim": 517.4
-    },
-    {
-     "w": "não",
-     "ini": 517.4,
-     "fim": 518.42
-    },
-    {
-     "w": "quero",
-     "ini": 518.42,
-     "fim": 518.64
-    },
-    {
-     "w": "esquecer.",
-     "ini": 518.64,
-     "fim": 519.24
-    },
-    {
-     "w": "Tudo",
-     "ini": 519.24,
-     "fim": 519.455
-    },
-    {
-     "w": "de",
-     "ini": 519.455,
-     "fim": 519.598
-    },
-    {
-     "w": "bom",
-     "ini": 519.598,
-     "fim": 519.778
-    },
-    {
-     "w": "que",
-     "ini": 519.778,
-     "fim": 519.957
-    },
-    {
-     "w": "eu",
-     "ini": 519.957,
-     "fim": 520.1
-    },
-    {
-     "w": "tenho",
-     "ini": 520.1,
-     "fim": 520.351
-    },
-    {
-     "w": "veio",
-     "ini": 520.351,
-     "fim": 520.566
-    },
-    {
-     "w": "de",
-     "ini": 520.566,
-     "fim": 520.71
-    },
-    {
-     "w": "Ti.",
-     "ini": 520.71,
-     "fim": 520.889
-    }
-   ]
-  },
-  {
-   "bloco": "beneficios",
-   "titulo_bloco": "Não esquecer nenhum benefício",
-   "frase": "Obrigado, Senhor. Obrigado.",
-   "tag_visual": "lua",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 28,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 520.889,
-   "fim": 522.0,
-   "duracao": 1.111,
-   "palavras": [
-    {
-     "w": "Obrigado,",
-     "ini": 520.889,
-     "fim": 521.283
-    },
-    {
-     "w": "Senhor.",
-     "ini": 521.283,
-     "fim": 521.606
-    },
-    {
-     "w": "Obrigado.",
-     "ini": 521.606,
-     "fim": 522.0
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Senhor Jesus, quando os discípulos pediram que Tu os ensinasses a orar, Tu começaste chamando Deus de Pai.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": true,
-   "referencia": "Mateus 6:9-13",
-   "idx": 29,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 522.0,
-   "fim": 532.78,
-   "duracao": 10.78,
-   "palavras": [
-    {
-     "w": "Senhor",
-     "ini": 522.0,
-     "fim": 523.02
-    },
-    {
-     "w": "Jesus,",
-     "ini": 523.02,
-     "fim": 523.44
-    },
-    {
-     "w": "quando",
-     "ini": 524.36,
-     "fim": 525.16
-    },
-    {
-     "w": "os",
-     "ini": 525.16,
-     "fim": 525.32
-    },
-    {
-     "w": "discípulos",
-     "ini": 525.32,
-     "fim": 525.86
-    },
-    {
-     "w": "pediram",
-     "ini": 525.86,
-     "fim": 526.54
-    },
-    {
-     "w": "que",
-     "ini": 526.54,
-     "fim": 526.72
-    },
-    {
-     "w": "Tu",
-     "ini": 526.72,
-     "fim": 527.04
-    },
-    {
-     "w": "os",
-     "ini": 527.04,
-     "fim": 527.18
-    },
-    {
-     "w": "ensinasses",
-     "ini": 527.18,
-     "fim": 528.1
-    },
-    {
-     "w": "a",
-     "ini": 528.1,
-     "fim": 528.15
-    },
-    {
-     "w": "orar,",
-     "ini": 528.1,
-     "fim": 528.6
-    },
-    {
-     "w": "Tu",
-     "ini": 528.6,
-     "fim": 530.08
-    },
-    {
-     "w": "começaste",
-     "ini": 530.08,
-     "fim": 531.34
-    },
-    {
-     "w": "chamando",
-     "ini": 531.34,
-     "fim": 531.88
-    },
-    {
-     "w": "Deus",
-     "ini": 532.08,
-     "fim": 532.3
-    },
-    {
-     "w": "de",
-     "ini": 532.3,
-     "fim": 532.54
-    },
-    {
-     "w": "Pai.",
-     "ini": 532.54,
-     "fim": 532.78
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Pai. Não um Deus distante. Um Pai que está perto, e que ouve.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 30,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 535.38,
-   "fim": 542.76,
-   "duracao": 7.38,
-   "palavras": [
-    {
-     "w": "Pai.",
-     "ini": 535.38,
-     "fim": 536.18
-    },
-    {
-     "w": "Não",
-     "ini": 537.02,
-     "fim": 537.42
-    },
-    {
-     "w": "um",
-     "ini": 537.42,
-     "fim": 537.47
-    },
-    {
-     "w": "Deus",
-     "ini": 537.42,
-     "fim": 537.88
-    },
-    {
-     "w": "distante.",
-     "ini": 537.88,
-     "fim": 538.54
-    },
-    {
-     "w": "Um",
-     "ini": 540.6,
-     "fim": 540.84
-    },
-    {
-     "w": "Pai",
-     "ini": 540.84,
-     "fim": 541.22
-    },
-    {
-     "w": "que",
-     "ini": 541.22,
-     "fim": 541.34
-    },
-    {
-     "w": "está",
-     "ini": 541.34,
-     "fim": 541.5
-    },
-    {
-     "w": "perto,",
-     "ini": 541.5,
-     "fim": 541.96
-    },
-    {
-     "w": "e",
-     "ini": 541.96,
-     "fim": 542.32
-    },
-    {
-     "w": "que",
-     "ini": 542.32,
-     "fim": 542.37
-    },
-    {
-     "w": "ouve.",
-     "ini": 542.32,
-     "fim": 542.76
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Que o Teu nome seja honrado na minha vida. Que a Tua vontade seja feita, e não a minha.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 31,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 544.7,
-   "fim": 552.5,
-   "duracao": 7.8,
-   "palavras": [
-    {
-     "w": "Que",
-     "ini": 544.7,
-     "fim": 544.9
-    },
-    {
-     "w": "o",
-     "ini": 544.9,
-     "fim": 545.12
-    },
-    {
-     "w": "Teu",
-     "ini": 545.12,
-     "fim": 545.17
-    },
-    {
-     "w": "nome",
-     "ini": 545.12,
-     "fim": 545.48
-    },
-    {
-     "w": "seja",
-     "ini": 545.48,
-     "fim": 545.84
-    },
-    {
-     "w": "honrado",
-     "ini": 545.84,
-     "fim": 546.42
-    },
-    {
-     "w": "na",
-     "ini": 546.42,
-     "fim": 546.62
-    },
-    {
-     "w": "minha",
-     "ini": 546.62,
-     "fim": 546.8
-    },
-    {
-     "w": "vida.",
-     "ini": 546.8,
-     "fim": 547.2
-    },
-    {
-     "w": "Que",
-     "ini": 548.2,
-     "fim": 549.0
-    },
-    {
-     "w": "a",
-     "ini": 549.0,
-     "fim": 549.08
-    },
-    {
-     "w": "Tua",
-     "ini": 549.08,
-     "fim": 549.24
-    },
-    {
-     "w": "vontade",
-     "ini": 549.24,
-     "fim": 549.84
-    },
-    {
-     "w": "seja",
-     "ini": 549.84,
-     "fim": 550.1
-    },
-    {
-     "w": "feita,",
-     "ini": 550.1,
-     "fim": 550.82
-    },
-    {
-     "w": "e",
-     "ini": 550.82,
-     "fim": 551.9
-    },
-    {
-     "w": "não",
-     "ini": 551.9,
-     "fim": 552.1
-    },
-    {
-     "w": "a",
-     "ini": 552.1,
-     "fim": 552.24
-    },
-    {
-     "w": "minha.",
-     "ini": 552.24,
-     "fim": 552.5
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Dá-me hoje o que eu preciso. Nem mais, nem menos. Só o pão de cada dia.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 32,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 552.5,
-   "fim": 564.68,
-   "duracao": 12.18,
-   "palavras": [
-    {
-     "w": "Dá-me",
-     "ini": 552.5,
-     "fim": 555.86
-    },
-    {
-     "w": "hoje",
-     "ini": 555.86,
-     "fim": 556.12
-    },
-    {
-     "w": "o",
-     "ini": 556.12,
-     "fim": 556.28
-    },
-    {
-     "w": "que",
-     "ini": 556.28,
-     "fim": 556.33
-    },
-    {
-     "w": "eu",
-     "ini": 556.28,
-     "fim": 556.42
-    },
-    {
-     "w": "preciso.",
-     "ini": 556.42,
-     "fim": 556.84
-    },
-    {
-     "w": "Nem",
-     "ini": 558.3,
-     "fim": 558.78
-    },
-    {
-     "w": "mais,",
-     "ini": 558.78,
-     "fim": 559.3
-    },
-    {
-     "w": "nem",
-     "ini": 560.2,
-     "fim": 560.44
-    },
-    {
-     "w": "menos.",
-     "ini": 560.44,
-     "fim": 560.9
-    },
-    {
-     "w": "Só",
-     "ini": 561.8,
-     "fim": 563.56
-    },
-    {
-     "w": "o",
-     "ini": 563.56,
-     "fim": 563.74
-    },
-    {
-     "w": "pão",
-     "ini": 563.74,
-     "fim": 563.92
-    },
-    {
-     "w": "de",
-     "ini": 563.92,
-     "fim": 564.08
-    },
-    {
-     "w": "cada",
-     "ini": 564.08,
-     "fim": 564.28
-    },
-    {
-     "w": "dia.",
-     "ini": 564.28,
-     "fim": 564.68
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Perdoa as minhas falhas. E me ensina a perdoar quem me feriu. Eu solto agora toda mágoa.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 33,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 568.84,
-   "fim": 582.76,
-   "duracao": 13.92,
-   "palavras": [
-    {
-     "w": "Perdoa",
-     "ini": 568.84,
-     "fim": 569.52
-    },
-    {
-     "w": "as",
-     "ini": 569.52,
-     "fim": 569.62
-    },
-    {
-     "w": "minhas",
-     "ini": 569.62,
-     "fim": 569.9
-    },
-    {
-     "w": "falhas.",
-     "ini": 569.9,
-     "fim": 570.78
-    },
-    {
-     "w": "E",
-     "ini": 570.78,
-     "fim": 572.42
-    },
-    {
-     "w": "me",
-     "ini": 572.42,
-     "fim": 572.52
-    },
-    {
-     "w": "ensina",
-     "ini": 572.52,
-     "fim": 572.94
-    },
-    {
-     "w": "a",
-     "ini": 572.94,
-     "fim": 573.12
-    },
-    {
-     "w": "perdoar",
-     "ini": 573.12,
-     "fim": 573.54
-    },
-    {
-     "w": "quem",
-     "ini": 573.54,
-     "fim": 573.78
-    },
-    {
-     "w": "me",
-     "ini": 573.78,
-     "fim": 573.94
-    },
-    {
-     "w": "feriu.",
-     "ini": 573.94,
-     "fim": 576.82
-    },
-    {
-     "w": "Eu",
-     "ini": 576.82,
-     "fim": 577.44
-    },
-    {
-     "w": "solto",
-     "ini": 577.44,
-     "fim": 577.8
-    },
-    {
-     "w": "agora",
-     "ini": 577.8,
-     "fim": 578.22
-    },
-    {
-     "w": "toda",
-     "ini": 578.22,
-     "fim": 579.46
-    },
-    {
-     "w": "mágoa.",
-     "ini": 579.46,
-     "fim": 582.76
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Não me deixes cair em tentação. E me livra de todo o mal.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 34,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 582.76,
-   "fim": 588.56,
-   "duracao": 5.8,
-   "palavras": [
-    {
-     "w": "Não",
-     "ini": 582.76,
-     "fim": 582.94
-    },
-    {
-     "w": "me",
-     "ini": 582.94,
-     "fim": 582.99
-    },
-    {
-     "w": "deixes",
-     "ini": 582.94,
-     "fim": 583.38
-    },
-    {
-     "w": "cair",
-     "ini": 583.38,
-     "fim": 583.7
-    },
-    {
-     "w": "em",
-     "ini": 583.7,
-     "fim": 583.92
-    },
-    {
-     "w": "tentação.",
-     "ini": 583.92,
-     "fim": 584.5
-    },
-    {
-     "w": "E",
-     "ini": 584.5,
-     "fim": 587.22
-    },
-    {
-     "w": "me",
-     "ini": 587.22,
-     "fim": 587.34
-    },
-    {
-     "w": "livra",
-     "ini": 587.34,
-     "fim": 587.72
-    },
-    {
-     "w": "de",
-     "ini": 587.72,
-     "fim": 587.86
-    },
-    {
-     "w": "todo",
-     "ini": 587.86,
-     "fim": 588.16
-    },
-    {
-     "w": "o",
-     "ini": 588.16,
-     "fim": 588.32
-    },
-    {
-     "w": "mal.",
-     "ini": 588.32,
-     "fim": 588.56
-    }
-   ]
-  },
-  {
-   "bloco": "painosso",
-   "titulo_bloco": "Pai Nosso, frase por frase",
-   "frase": "Porque o reino é Teu. O poder é Teu. E a glória é Tua, para sempre.",
-   "tag_visual": "vale_nevoa",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 35,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 590.94,
-   "fim": 608.48,
-   "duracao": 17.54,
-   "palavras": [
-    {
-     "w": "Porque",
-     "ini": 590.94,
-     "fim": 592.3
-    },
-    {
-     "w": "o",
-     "ini": 592.3,
-     "fim": 592.46
-    },
-    {
-     "w": "reino",
-     "ini": 592.46,
-     "fim": 592.76
-    },
-    {
-     "w": "é",
-     "ini": 592.76,
-     "fim": 592.98
-    },
-    {
-     "w": "Teu.",
-     "ini": 592.98,
-     "fim": 593.14
-    },
-    {
-     "w": "O",
-     "ini": 596.72,
-     "fim": 597.6
-    },
-    {
-     "w": "poder",
-     "ini": 597.6,
-     "fim": 597.96
-    },
-    {
-     "w": "é",
-     "ini": 597.96,
-     "fim": 598.26
-    },
-    {
-     "w": "Teu.",
-     "ini": 598.26,
-     "fim": 598.5
-    },
-    {
-     "w": "E",
-     "ini": 598.5,
-     "fim": 603.0
-    },
-    {
-     "w": "a",
-     "ini": 603.0,
-     "fim": 603.14
-    },
-    {
-     "w": "glória",
-     "ini": 603.14,
-     "fim": 603.44
-    },
-    {
-     "w": "é",
-     "ini": 603.44,
-     "fim": 603.74
-    },
-    {
-     "w": "Tua,",
-     "ini": 603.74,
-     "fim": 603.96
-    },
-    {
-     "w": "para",
-     "ini": 603.96,
-     "fim": 607.98
-    },
-    {
-     "w": "sempre.",
-     "ini": 607.98,
-     "fim": 608.48
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "Pai, o Salmo cento e vinte e sete diz algo tão bonito. Diz que é inútil levantar cedo e dormir tarde, se esforçando com ansiedade, porque Tu dás o sono àqueles que Tu amas.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": true,
-   "referencia": "Salmo 127:2",
-   "idx": 36,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 612.36,
-   "fim": 631.86,
-   "duracao": 19.5,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 612.36,
-     "fim": 613.24
-    },
-    {
-     "w": "o",
-     "ini": 614.54,
-     "fim": 614.59
-    },
-    {
-     "w": "Salmo",
-     "ini": 614.58,
-     "fim": 615.02
-    },
-    {
-     "w": "cento",
-     "ini": 615.02,
-     "fim": 615.289
-    },
-    {
-     "w": "e",
-     "ini": 615.289,
-     "fim": 615.405
-    },
-    {
-     "w": "vinte",
-     "ini": 615.405,
-     "fim": 615.674
-    },
-    {
-     "w": "e",
-     "ini": 615.674,
-     "fim": 615.789
-    },
-    {
-     "w": "sete",
-     "ini": 615.789,
-     "fim": 616.02
-    },
-    {
-     "w": "diz",
-     "ini": 616.02,
-     "fim": 616.78
-    },
-    {
-     "w": "algo",
-     "ini": 616.78,
-     "fim": 617.16
-    },
-    {
-     "w": "tão",
-     "ini": 617.16,
-     "fim": 617.46
-    },
-    {
-     "w": "bonito.",
-     "ini": 617.46,
-     "fim": 618.04
-    },
-    {
-     "w": "Diz",
-     "ini": 619.8,
-     "fim": 620.36
-    },
-    {
-     "w": "que",
-     "ini": 620.36,
-     "fim": 620.5
-    },
-    {
-     "w": "é",
-     "ini": 620.5,
-     "fim": 620.56
-    },
-    {
-     "w": "inútil",
-     "ini": 620.56,
-     "fim": 620.92
-    },
-    {
-     "w": "levantar",
-     "ini": 620.92,
-     "fim": 621.44
-    },
-    {
-     "w": "cedo",
-     "ini": 621.44,
-     "fim": 622.02
-    },
-    {
-     "w": "e",
-     "ini": 622.02,
-     "fim": 622.14
-    },
-    {
-     "w": "dormir",
-     "ini": 622.14,
-     "fim": 623.03
-    },
-    {
-     "w": "tarde,",
-     "ini": 623.03,
-     "fim": 623.92
-    },
-    {
-     "w": "se",
-     "ini": 623.92,
-     "fim": 624.54
-    },
-    {
-     "w": "esforçando",
-     "ini": 624.54,
-     "fim": 625.22
-    },
-    {
-     "w": "com",
-     "ini": 625.22,
-     "fim": 625.44
-    },
-    {
-     "w": "ansiedade,",
-     "ini": 625.44,
-     "fim": 626.18
-    },
-    {
-     "w": "porque",
-     "ini": 627.16,
-     "fim": 629.34
-    },
-    {
-     "w": "Tu",
-     "ini": 629.34,
-     "fim": 629.54
-    },
-    {
-     "w": "dás",
-     "ini": 629.54,
-     "fim": 629.76
-    },
-    {
-     "w": "o",
-     "ini": 629.76,
-     "fim": 629.98
-    },
-    {
-     "w": "sono",
-     "ini": 629.98,
-     "fim": 630.332
-    },
-    {
-     "w": "àqueles",
-     "ini": 630.332,
-     "fim": 630.86
-    },
-    {
-     "w": "que",
-     "ini": 630.86,
-     "fim": 631.12
-    },
-    {
-     "w": "Tu",
-     "ini": 631.12,
-     "fim": 631.34
-    },
-    {
-     "w": "amas.",
-     "ini": 631.34,
-     "fim": 631.86
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "Senhor, o sono é um presente Teu. Eu não preciso conquistar o descanso. Eu só preciso receber.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 37,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 634.78,
-   "fim": 647.18,
-   "duracao": 12.4,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 634.78,
-     "fim": 635.28
-    },
-    {
-     "w": "o",
-     "ini": 636.88,
-     "fim": 637.7
-    },
-    {
-     "w": "sono",
-     "ini": 637.7,
-     "fim": 638.0
-    },
-    {
-     "w": "é",
-     "ini": 638.0,
-     "fim": 638.18
-    },
-    {
-     "w": "um",
-     "ini": 638.18,
-     "fim": 638.3
-    },
-    {
-     "w": "presente",
-     "ini": 638.3,
-     "fim": 638.62
-    },
-    {
-     "w": "Teu.",
-     "ini": 638.62,
-     "fim": 639.16
-    },
-    {
-     "w": "Eu",
-     "ini": 641.36,
-     "fim": 641.72
-    },
-    {
-     "w": "não",
-     "ini": 641.72,
-     "fim": 641.8
-    },
-    {
-     "w": "preciso",
-     "ini": 641.8,
-     "fim": 642.18
-    },
-    {
-     "w": "conquistar",
-     "ini": 642.18,
-     "fim": 642.88
-    },
-    {
-     "w": "o",
-     "ini": 642.88,
-     "fim": 643.02
-    },
-    {
-     "w": "descanso.",
-     "ini": 643.02,
-     "fim": 643.66
-    },
-    {
-     "w": "Eu",
-     "ini": 645.06,
-     "fim": 646.1
-    },
-    {
-     "w": "só",
-     "ini": 646.1,
-     "fim": 646.24
-    },
-    {
-     "w": "preciso",
-     "ini": 646.24,
-     "fim": 646.72
-    },
-    {
-     "w": "receber.",
-     "ini": 646.72,
-     "fim": 647.18
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "Então eu recebo agora. Eu recebo o Teu descanso.",
-   "tag_visual": "lua",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 38,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 649.88,
-   "fim": 655.44,
-   "duracao": 5.56,
-   "palavras": [
-    {
-     "w": "Então",
-     "ini": 649.88,
-     "fim": 650.76
-    },
-    {
-     "w": "eu",
-     "ini": 653.84,
-     "fim": 653.9
-    },
-    {
-     "w": "recebo",
-     "ini": 653.9,
-     "fim": 654.46
-    },
-    {
-     "w": "agora.",
-     "ini": 654.46,
-     "fim": 654.51
-    },
-    {
-     "w": "Eu",
-     "ini": 654.46,
-     "fim": 654.51
-    },
-    {
-     "w": "recebo",
-     "ini": 654.46,
-     "fim": 654.51
-    },
-    {
-     "w": "o",
-     "ini": 654.46,
-     "fim": 654.51
-    },
-    {
-     "w": "Teu",
-     "ini": 654.46,
-     "fim": 654.68
-    },
-    {
-     "w": "descanso.",
-     "ini": 654.68,
-     "fim": 655.44
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "E Davi, no Salmo quatro, escreveu: eu me deito em paz, e logo adormeço, porque só Tu me fazes viver em segurança.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 39,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 657.9,
-   "fim": 672.46,
-   "duracao": 14.56,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 657.9,
-     "fim": 658.6
-    },
-    {
-     "w": "Davi,",
-     "ini": 658.6,
-     "fim": 659.02
-    },
-    {
-     "w": "no",
-     "ini": 659.02,
-     "fim": 660.28
-    },
-    {
-     "w": "Salmo",
-     "ini": 660.28,
-     "fim": 660.68
-    },
-    {
-     "w": "quatro,",
-     "ini": 660.68,
-     "fim": 661.08
-    },
-    {
-     "w": "escreveu:",
-     "ini": 661.08,
-     "fim": 661.88
-    },
-    {
-     "w": "eu",
-     "ini": 663.94,
-     "fim": 664.16
-    },
-    {
-     "w": "me",
-     "ini": 664.16,
-     "fim": 664.3
-    },
-    {
-     "w": "deito",
-     "ini": 664.3,
-     "fim": 664.58
-    },
-    {
-     "w": "em",
-     "ini": 664.58,
-     "fim": 664.72
-    },
-    {
-     "w": "paz,",
-     "ini": 664.72,
-     "fim": 665.04
-    },
-    {
-     "w": "e",
-     "ini": 665.04,
-     "fim": 666.5
-    },
-    {
-     "w": "logo",
-     "ini": 666.5,
-     "fim": 666.76
-    },
-    {
-     "w": "adormeço,",
-     "ini": 666.76,
-     "fim": 669.24
-    },
-    {
-     "w": "porque",
-     "ini": 669.24,
-     "fim": 670.12
-    },
-    {
-     "w": "só",
-     "ini": 670.12,
-     "fim": 670.46
-    },
-    {
-     "w": "Tu",
-     "ini": 670.46,
-     "fim": 670.72
-    },
-    {
-     "w": "me",
-     "ini": 670.72,
-     "fim": 670.9
-    },
-    {
-     "w": "fazes",
-     "ini": 670.9,
-     "fim": 671.48
-    },
-    {
-     "w": "viver",
-     "ini": 671.48,
-     "fim": 671.76
-    },
-    {
-     "w": "em",
-     "ini": 671.76,
-     "fim": 672.02
-    },
-    {
-     "w": "segurança.",
-     "ini": 672.02,
-     "fim": 672.46
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "Pai, os meus olhos estão pesados. A minha respiração está mais lenta. O meu corpo está pronto para descansar.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 40,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 677.6,
-   "fim": 693.2,
-   "duracao": 15.6,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 677.6,
-     "fim": 678.64
-    },
-    {
-     "w": "os",
-     "ini": 678.64,
-     "fim": 679.68
-    },
-    {
-     "w": "meus",
-     "ini": 679.68,
-     "fim": 679.8
-    },
-    {
-     "w": "olhos",
-     "ini": 679.8,
-     "fim": 680.16
-    },
-    {
-     "w": "estão",
-     "ini": 680.16,
-     "fim": 680.52
-    },
-    {
-     "w": "pesados.",
-     "ini": 680.52,
-     "fim": 681.2
-    },
-    {
-     "w": "A",
-     "ini": 682.04,
-     "fim": 683.4
-    },
-    {
-     "w": "minha",
-     "ini": 683.4,
-     "fim": 683.56
-    },
-    {
-     "w": "respiração",
-     "ini": 683.56,
-     "fim": 684.42
-    },
-    {
-     "w": "está",
-     "ini": 684.42,
-     "fim": 684.66
+     "ini": 6.86,
+     "fim": 7.64
     },
     {
      "w": "mais",
-     "ini": 684.66,
-     "fim": 684.96
+     "ini": 7.64,
+     "fim": 8.42
     },
     {
-     "w": "lenta.",
-     "ini": 684.96,
-     "fim": 685.5
-    },
-    {
-     "w": "O",
-     "ini": 687.12,
-     "fim": 687.88
-    },
-    {
-     "w": "meu",
-     "ini": 687.88,
-     "fim": 687.98
-    },
-    {
-     "w": "corpo",
-     "ini": 687.98,
-     "fim": 688.36
-    },
-    {
-     "w": "está",
-     "ini": 688.36,
-     "fim": 688.62
-    },
-    {
-     "w": "pronto",
-     "ini": 688.62,
-     "fim": 689.12
-    },
-    {
-     "w": "para",
-     "ini": 689.12,
-     "fim": 689.42
-    },
-    {
-     "w": "descansar.",
-     "ini": 689.42,
-     "fim": 693.2
-    }
-   ]
-  },
-  {
-   "bloco": "sono",
-   "titulo_bloco": "O sono é um presente",
-   "frase": "Eu me entrego a Ti. Por inteiro.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 41,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 693.2,
-   "fim": 699.0,
-   "duracao": 5.8,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 693.2,
-     "fim": 694.24
-    },
-    {
-     "w": "me",
-     "ini": 694.24,
-     "fim": 694.34
-    },
-    {
-     "w": "entrego",
-     "ini": 694.34,
-     "fim": 694.8
-    },
-    {
-     "w": "a",
-     "ini": 694.8,
-     "fim": 695.0
-    },
-    {
-     "w": "Ti.",
-     "ini": 695.0,
-     "fim": 695.16
-    },
-    {
-     "w": "Por",
-     "ini": 696.18,
-     "fim": 698.54
-    },
-    {
-     "w": "inteiro.",
-     "ini": 698.54,
-     "fim": 699.0
-    }
-   ]
-  },
-  {
-   "bloco": "passaros",
-   "titulo_bloco": "Os pássaros e as flores do campo",
-   "frase": "Jesus, no sermão do monte, Tu pediste que olhássemos para os pássaros. Eles não plantam, nem colhem, nem guardam em celeiros. E mesmo assim, o Pai cuida deles.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": true,
-   "referencia": "Mateus 6:26-34",
-   "idx": 42,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 704.2,
-   "fim": 724.9,
-   "duracao": 20.7,
-   "palavras": [
-    {
-     "w": "Jesus,",
-     "ini": 704.2,
-     "fim": 705.24
-    },
-    {
-     "w": "no",
-     "ini": 706.28,
-     "fim": 706.74
-    },
-    {
-     "w": "sermão",
-     "ini": 706.74,
-     "fim": 707.14
-    },
-    {
-     "w": "do",
-     "ini": 707.14,
-     "fim": 707.32
-    },
-    {
-     "w": "monte,",
-     "ini": 707.32,
-     "fim": 707.82
-    },
-    {
-     "w": "Tu",
-     "ini": 709.24,
-     "fim": 709.76
-    },
-    {
-     "w": "pediste",
-     "ini": 709.76,
-     "fim": 710.18
-    },
-    {
-     "w": "que",
-     "ini": 710.18,
-     "fim": 710.46
-    },
-    {
-     "w": "olhássemos",
-     "ini": 710.46,
-     "fim": 711.1
-    },
-    {
-     "w": "para",
-     "ini": 711.1,
-     "fim": 711.34
-    },
-    {
-     "w": "os",
-     "ini": 711.34,
-     "fim": 711.54
-    },
-    {
-     "w": "pássaros.",
-     "ini": 711.54,
-     "fim": 712.1
-    },
-    {
-     "w": "Eles",
-     "ini": 713.72,
-     "fim": 714.76
-    },
-    {
-     "w": "não",
-     "ini": 714.76,
-     "fim": 714.96
-    },
-    {
-     "w": "plantam,",
-     "ini": 714.96,
-     "fim": 715.64
-    },
-    {
-     "w": "nem",
-     "ini": 716.2,
-     "fim": 716.42
-    },
-    {
-     "w": "colhem,",
-     "ini": 716.42,
-     "fim": 717.78
-    },
-    {
-     "w": "nem",
-     "ini": 717.78,
-     "fim": 717.9
-    },
-    {
-     "w": "guardam",
-     "ini": 717.9,
-     "fim": 718.44
-    },
-    {
-     "w": "em",
-     "ini": 718.44,
-     "fim": 718.952
-    },
-    {
-     "w": "celeiros.",
-     "ini": 718.952,
-     "fim": 720.36
-    },
-    {
-     "w": "E",
-     "ini": 720.36,
-     "fim": 721.4
-    },
-    {
-     "w": "mesmo",
-     "ini": 721.4,
-     "fim": 721.64
-    },
-    {
-     "w": "assim,",
-     "ini": 721.64,
-     "fim": 722.04
-    },
-    {
-     "w": "o",
-     "ini": 723.54,
-     "fim": 723.9
-    },
-    {
-     "w": "Pai",
-     "ini": 723.9,
-     "fim": 724.2
-    },
-    {
-     "w": "cuida",
-     "ini": 724.2,
-     "fim": 724.48
-    },
-    {
-     "w": "deles.",
-     "ini": 724.48,
-     "fim": 724.9
-    }
-   ]
-  },
-  {
-   "bloco": "passaros",
-   "titulo_bloco": "Os pássaros e as flores do campo",
-   "frase": "E pediste que olhássemos para as flores do campo. Elas não trabalham, nem se preocupam. E nem o rei Salomão, com toda a sua riqueza, se vestiu como uma delas.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 43,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 727.08,
-   "fim": 747.24,
-   "duracao": 20.16,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 727.08,
-     "fim": 727.96
-    },
-    {
-     "w": "pediste",
-     "ini": 727.96,
-     "fim": 728.4
-    },
-    {
-     "w": "que",
-     "ini": 728.4,
-     "fim": 728.62
-    },
-    {
-     "w": "olhássemos",
-     "ini": 728.62,
-     "fim": 729.16
-    },
-    {
-     "w": "para",
-     "ini": 729.16,
-     "fim": 729.42
-    },
-    {
-     "w": "as",
-     "ini": 729.42,
-     "fim": 729.6
-    },
-    {
-     "w": "flores",
-     "ini": 729.6,
-     "fim": 729.92
-    },
-    {
-     "w": "do",
-     "ini": 729.92,
-     "fim": 730.12
-    },
-    {
-     "w": "campo.",
-     "ini": 730.12,
-     "fim": 730.58
-    },
-    {
-     "w": "Elas",
-     "ini": 732.76,
-     "fim": 733.64
-    },
-    {
-     "w": "não",
-     "ini": 733.64,
-     "fim": 733.78
-    },
-    {
-     "w": "trabalham,",
-     "ini": 733.78,
-     "fim": 734.46
-    },
-    {
-     "w": "nem",
-     "ini": 735.9,
-     "fim": 736.36
-    },
-    {
-     "w": "se",
-     "ini": 736.36,
-     "fim": 736.52
-    },
-    {
-     "w": "preocupam.",
-     "ini": 736.52,
-     "fim": 737.26
-    },
-    {
-     "w": "E",
-     "ini": 738.98,
-     "fim": 739.86
-    },
-    {
-     "w": "nem",
-     "ini": 739.86,
-     "fim": 740.02
-    },
-    {
-     "w": "o",
-     "ini": 740.02,
-     "fim": 740.14
-    },
-    {
-     "w": "rei",
-     "ini": 740.14,
-     "fim": 740.36
-    },
-    {
-     "w": "Salomão,",
-     "ini": 740.36,
-     "fim": 741.1
-    },
-    {
-     "w": "com",
-     "ini": 742.06,
-     "fim": 743.0
-    },
-    {
-     "w": "toda",
-     "ini": 743.0,
-     "fim": 743.32
-    },
-    {
-     "w": "a",
-     "ini": 743.32,
-     "fim": 743.37
-    },
-    {
-     "w": "sua",
-     "ini": 743.32,
-     "fim": 743.64
-    },
-    {
-     "w": "riqueza,",
-     "ini": 743.64,
-     "fim": 744.32
-    },
-    {
-     "w": "se",
-     "ini": 745.54,
-     "fim": 745.9
-    },
-    {
-     "w": "vestiu",
-     "ini": 745.9,
-     "fim": 746.3
-    },
-    {
-     "w": "como",
-     "ini": 746.3,
-     "fim": 746.6
-    },
-    {
-     "w": "uma",
-     "ini": 746.6,
-     "fim": 746.8
-    },
-    {
-     "w": "delas.",
-     "ini": 746.8,
-     "fim": 747.24
-    }
-   ]
-  },
-  {
-   "bloco": "passaros",
-   "titulo_bloco": "Os pássaros e as flores do campo",
-   "frase": "Então Tu perguntaste: se Deus cuida assim das flores, que hoje existem e amanhã secam, será que não vai cuidar muito mais de vocês?",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 44,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 750.8,
-   "fim": 764.72,
-   "duracao": 13.92,
-   "palavras": [
-    {
-     "w": "Então",
-     "ini": 750.8,
-     "fim": 751.56
-    },
-    {
-     "w": "Tu",
-     "ini": 751.56,
-     "fim": 751.76
-    },
-    {
-     "w": "perguntaste:",
-     "ini": 751.76,
-     "fim": 752.6
-    },
-    {
-     "w": "se",
-     "ini": 754.08,
-     "fim": 754.78
-    },
-    {
-     "w": "Deus",
-     "ini": 754.78,
-     "fim": 755.0
-    },
-    {
-     "w": "cuida",
-     "ini": 755.0,
-     "fim": 755.44
-    },
-    {
-     "w": "assim",
-     "ini": 755.44,
-     "fim": 755.68
-    },
-    {
-     "w": "das",
-     "ini": 755.68,
-     "fim": 755.9
-    },
-    {
-     "w": "flores,",
-     "ini": 755.9,
-     "fim": 756.44
-    },
-    {
-     "w": "que",
-     "ini": 757.5,
-     "fim": 757.58
-    },
-    {
-     "w": "hoje",
-     "ini": 757.58,
-     "fim": 757.8
-    },
-    {
-     "w": "existem",
-     "ini": 757.8,
-     "fim": 758.18
-    },
-    {
-     "w": "e",
-     "ini": 758.18,
-     "fim": 758.6
-    },
-    {
-     "w": "amanhã",
-     "ini": 758.6,
-     "fim": 758.86
-    },
-    {
-     "w": "secam,",
-     "ini": 758.86,
-     "fim": 759.5
-    },
-    {
-     "w": "será",
-     "ini": 761.82,
-     "fim": 762.58
-    },
-    {
-     "w": "que",
-     "ini": 762.58,
-     "fim": 762.76
-    },
-    {
-     "w": "não",
-     "ini": 762.76,
-     "fim": 762.9
-    },
-    {
-     "w": "vai",
-     "ini": 762.9,
-     "fim": 763.08
-    },
-    {
-     "w": "cuidar",
-     "ini": 763.08,
-     "fim": 763.46
-    },
-    {
-     "w": "muito",
-     "ini": 763.46,
-     "fim": 763.76
-    },
-    {
-     "w": "mais",
-     "ini": 763.76,
-     "fim": 764.16
-    },
-    {
-     "w": "de",
-     "ini": 764.16,
-     "fim": 764.34
-    },
-    {
-     "w": "vocês?",
-     "ini": 764.34,
-     "fim": 764.72
-    }
-   ]
-  },
-  {
-   "bloco": "passaros",
-   "titulo_bloco": "Os pássaros e as flores do campo",
-   "frase": "Senhor, Tu cuidas de mim. Eu não preciso me preocupar com o amanhã. Cada dia já tem o seu próprio cuidado.",
-   "tag_visual": "vale_nevoa",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 45,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 769.48,
-   "fim": 785.96,
-   "duracao": 16.48,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 769.48,
-     "fim": 770.24
-    },
-    {
-     "w": "Tu",
-     "ini": 771.64,
-     "fim": 772.0
-    },
-    {
-     "w": "cuidas",
-     "ini": 772.0,
-     "fim": 772.28
-    },
-    {
-     "w": "de",
-     "ini": 772.28,
-     "fim": 772.52
-    },
-    {
-     "w": "mim.",
-     "ini": 772.52,
-     "fim": 772.72
-    },
-    {
-     "w": "Eu",
-     "ini": 774.9,
-     "fim": 776.06
-    },
-    {
-     "w": "não",
-     "ini": 776.06,
-     "fim": 776.2
-    },
-    {
-     "w": "preciso",
-     "ini": 776.2,
-     "fim": 776.62
-    },
-    {
-     "w": "me",
-     "ini": 776.62,
-     "fim": 776.88
-    },
-    {
-     "w": "preocupar",
-     "ini": 776.88,
-     "fim": 777.48
-    },
-    {
-     "w": "com",
-     "ini": 777.48,
-     "fim": 777.7
-    },
-    {
-     "w": "o",
-     "ini": 777.7,
-     "fim": 777.78
-    },
-    {
-     "w": "amanhã.",
-     "ini": 777.78,
-     "fim": 778.14
-    },
-    {
-     "w": "Cada",
-     "ini": 780.96,
-     "fim": 782.12
+     "w": "um",
+     "ini": 8.42,
+     "fim": 8.6
     },
     {
      "w": "dia",
-     "ini": 782.12,
-     "fim": 782.52
+     "ini": 8.6,
+     "fim": 8.84
     },
     {
-     "w": "já",
-     "ini": 783.96,
-     "fim": 784.38
+     "w": "chegou",
+     "ini": 8.84,
+     "fim": 9.18
     },
     {
-     "w": "tem",
-     "ini": 784.38,
-     "fim": 784.542
+     "w": "ao",
+     "ini": 9.18,
+     "fim": 9.4
+    },
+    {
+     "w": "fim.",
+     "ini": 9.4,
+     "fim": 9.72
+    },
+    {
+     "w": "Eu",
+     "ini": 11.44,
+     "fim": 12.04
+    },
+    {
+     "w": "me",
+     "ini": 12.04,
+     "fim": 12.14
+    },
+    {
+     "w": "deito",
+     "ini": 12.14,
+     "fim": 12.36
+    },
+    {
+     "w": "agora,",
+     "ini": 12.36,
+     "fim": 12.88
+    },
+    {
+     "w": "e",
+     "ini": 14.82,
+     "fim": 15.7
+    },
+    {
+     "w": "entrego",
+     "ini": 15.7,
+     "fim": 16.14
+    },
+    {
+     "w": "a",
+     "ini": 16.14,
+     "fim": 16.26
+    },
+    {
+     "w": "Ti",
+     "ini": 16.26,
+     "fim": 16.5
     },
     {
      "w": "o",
-     "ini": 784.542,
-     "fim": 784.64
+     "ini": 16.5,
+     "fim": 16.62
     },
     {
-     "w": "seu",
-     "ini": 784.64,
-     "fim": 784.9
+     "w": "meu",
+     "ini": 16.62,
+     "fim": 16.76
     },
     {
-     "w": "próprio",
-     "ini": 784.9,
-     "fim": 785.28
+     "w": "coração.",
+     "ini": 16.76,
+     "fim": 17.34
+    }
+   ]
+  },
+  {
+   "bloco": "caminhos",
+   "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+   "frase": "Esta noite eu quero meditar no Salmo cento e vinte e oito. Ele começa dizendo que é feliz quem teme ao Senhor, e anda nos Seus caminhos.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": true,
+   "referencia": "Salmo 128:1",
+   "idx": 1,
+   "wav": "work/s128/s128.wav",
+   "inicio": 24.62,
+   "fim": 38.76,
+   "duracao": 14.14,
+   "palavras": [
+    {
+     "w": "Esta",
+     "ini": 24.62,
+     "fim": 25.3
     },
     {
-     "w": "cuidado.",
-     "ini": 785.28,
-     "fim": 785.96
+     "w": "noite",
+     "ini": 25.3,
+     "fim": 25.66
+    },
+    {
+     "w": "eu",
+     "ini": 25.66,
+     "fim": 25.84
+    },
+    {
+     "w": "quero",
+     "ini": 25.84,
+     "fim": 26.0
+    },
+    {
+     "w": "meditar",
+     "ini": 26.0,
+     "fim": 26.54
+    },
+    {
+     "w": "no",
+     "ini": 26.54,
+     "fim": 26.72
+    },
+    {
+     "w": "Salmo",
+     "ini": 26.72,
+     "fim": 27.14
+    },
+    {
+     "w": "cento",
+     "ini": 27.14,
+     "fim": 27.996
+    },
+    {
+     "w": "e",
+     "ini": 27.996,
+     "fim": 28.362
+    },
+    {
+     "w": "vinte",
+     "ini": 28.362,
+     "fim": 29.218
+    },
+    {
+     "w": "e",
+     "ini": 29.218,
+     "fim": 29.584
+    },
+    {
+     "w": "oito.",
+     "ini": 29.584,
+     "fim": 30.44
+    },
+    {
+     "w": "Ele",
+     "ini": 30.44,
+     "fim": 31.0
+    },
+    {
+     "w": "começa",
+     "ini": 31.0,
+     "fim": 31.3
+    },
+    {
+     "w": "dizendo",
+     "ini": 31.3,
+     "fim": 31.84
+    },
+    {
+     "w": "que",
+     "ini": 31.84,
+     "fim": 32.06
+    },
+    {
+     "w": "é",
+     "ini": 32.06,
+     "fim": 32.2
+    },
+    {
+     "w": "feliz",
+     "ini": 32.2,
+     "fim": 32.54
+    },
+    {
+     "w": "quem",
+     "ini": 32.54,
+     "fim": 32.94
+    },
+    {
+     "w": "teme",
+     "ini": 32.94,
+     "fim": 33.216
+    },
+    {
+     "w": "ao",
+     "ini": 33.216,
+     "fim": 33.4
+    },
+    {
+     "w": "Senhor,",
+     "ini": 33.4,
+     "fim": 33.74
+    },
+    {
+     "w": "e",
+     "ini": 33.74,
+     "fim": 37.44
+    },
+    {
+     "w": "anda",
+     "ini": 37.44,
+     "fim": 37.7
+    },
+    {
+     "w": "nos",
+     "ini": 37.7,
+     "fim": 37.94
+    },
+    {
+     "w": "Seus",
+     "ini": 37.94,
+     "fim": 38.1
+    },
+    {
+     "w": "caminhos.",
+     "ini": 38.1,
+     "fim": 38.76
+    }
+   ]
+  },
+  {
+   "bloco": "caminhos",
+   "titulo_bloco": "Salmo 128: andar nos caminhos de Deus",
+   "frase": "Pai, eu quero andar nos Teus caminhos. Não nos caminhos da pressa, nem da preocupação. Nos Teus caminhos.",
+   "tag_visual": "picos_neve",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 2,
+   "wav": "work/s128/s128.wav",
+   "inicio": 44.22,
+   "fim": 60.54,
+   "duracao": 16.32,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 44.22,
+     "fim": 45.1
+    },
+    {
+     "w": "eu",
+     "ini": 46.82,
+     "fim": 47.2
+    },
+    {
+     "w": "quero",
+     "ini": 47.2,
+     "fim": 47.4
+    },
+    {
+     "w": "andar",
+     "ini": 47.4,
+     "fim": 47.72
+    },
+    {
+     "w": "nos",
+     "ini": 47.72,
+     "fim": 47.98
+    },
+    {
+     "w": "Teus",
+     "ini": 47.98,
+     "fim": 48.22
+    },
+    {
+     "w": "caminhos.",
+     "ini": 48.22,
+     "fim": 48.8
+    },
+    {
+     "w": "Não",
+     "ini": 49.72,
+     "fim": 51.4
+    },
+    {
+     "w": "nos",
+     "ini": 51.4,
+     "fim": 51.58
+    },
+    {
+     "w": "caminhos",
+     "ini": 51.58,
+     "fim": 51.98
+    },
+    {
+     "w": "da",
+     "ini": 51.98,
+     "fim": 52.18
+    },
+    {
+     "w": "pressa,",
+     "ini": 52.18,
+     "fim": 54.32
+    },
+    {
+     "w": "nem",
+     "ini": 54.36,
+     "fim": 54.8
+    },
+    {
+     "w": "da",
+     "ini": 54.8,
+     "fim": 54.96
+    },
+    {
+     "w": "preocupação.",
+     "ini": 54.96,
+     "fim": 55.82
+    },
+    {
+     "w": "Nos",
+     "ini": 58.1,
+     "fim": 59.7
+    },
+    {
+     "w": "Teus",
+     "ini": 59.7,
+     "fim": 59.96
+    },
+    {
+     "w": "caminhos.",
+     "ini": 59.96,
+     "fim": 60.54
+    }
+   ]
+  },
+  {
+   "bloco": "trabalho",
+   "titulo_bloco": "O trabalho das mãos",
+   "frase": "O salmo diz que quem anda contigo vai comer do trabalho das próprias mãos. Que será feliz, e tudo lhe irá bem.",
+   "tag_visual": "cordilheira",
+   "mostrar_texto": true,
+   "referencia": "Salmo 128:2",
+   "idx": 3,
+   "wav": "work/s128/s128.wav",
+   "inicio": 66.72,
+   "fim": 81.04,
+   "duracao": 14.32,
+   "palavras": [
+    {
+     "w": "O",
+     "ini": 66.72,
+     "fim": 67.52
+    },
+    {
+     "w": "salmo",
+     "ini": 67.52,
+     "fim": 67.88
+    },
+    {
+     "w": "diz",
+     "ini": 67.88,
+     "fim": 68.16
+    },
+    {
+     "w": "que",
+     "ini": 68.16,
+     "fim": 69.56
+    },
+    {
+     "w": "quem",
+     "ini": 69.56,
+     "fim": 69.76
+    },
+    {
+     "w": "anda",
+     "ini": 69.76,
+     "fim": 69.96
+    },
+    {
+     "w": "contigo",
+     "ini": 69.96,
+     "fim": 70.5
+    },
+    {
+     "w": "vai",
+     "ini": 70.5,
+     "fim": 70.68
+    },
+    {
+     "w": "comer",
+     "ini": 70.68,
+     "fim": 70.96
+    },
+    {
+     "w": "do",
+     "ini": 70.96,
+     "fim": 71.18
+    },
+    {
+     "w": "trabalho",
+     "ini": 71.18,
+     "fim": 71.7
+    },
+    {
+     "w": "das",
+     "ini": 71.7,
+     "fim": 71.92
+    },
+    {
+     "w": "próprias",
+     "ini": 71.92,
+     "fim": 72.38
+    },
+    {
+     "w": "mãos.",
+     "ini": 72.38,
+     "fim": 73.18
+    },
+    {
+     "w": "Que",
+     "ini": 73.68,
+     "fim": 76.08
+    },
+    {
+     "w": "será",
+     "ini": 76.08,
+     "fim": 76.36
+    },
+    {
+     "w": "feliz,",
+     "ini": 76.36,
+     "fim": 76.88
+    },
+    {
+     "w": "e",
+     "ini": 76.88,
+     "fim": 80.1
+    },
+    {
+     "w": "tudo",
+     "ini": 80.1,
+     "fim": 80.36
+    },
+    {
+     "w": "lhe",
+     "ini": 80.36,
+     "fim": 80.56
+    },
+    {
+     "w": "irá",
+     "ini": 80.56,
+     "fim": 80.76
+    },
+    {
+     "w": "bem.",
+     "ini": 80.76,
+     "fim": 81.04
+    }
+   ]
+  },
+  {
+   "bloco": "trabalho",
+   "titulo_bloco": "O trabalho das mãos",
+   "frase": "Senhor, eu Te entrego o meu trabalho de hoje. O que deu certo, e o que ficou pela metade. Que o fruto das minhas mãos seja abençoado por Ti.",
+   "tag_visual": "dolomitas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 4,
+   "wav": "work/s128/s128.wav",
+   "inicio": 90.7,
+   "fim": 110.42,
+   "duracao": 19.72,
+   "palavras": [
+    {
+     "w": "Senhor,",
+     "ini": 90.7,
+     "fim": 91.58
+    },
+    {
+     "w": "eu",
+     "ini": 91.58,
+     "fim": 92.46
+    },
+    {
+     "w": "Te",
+     "ini": 92.46,
+     "fim": 92.6
+    },
+    {
+     "w": "entrego",
+     "ini": 92.6,
+     "fim": 93.04
+    },
+    {
+     "w": "o",
+     "ini": 93.04,
+     "fim": 93.14
+    },
+    {
+     "w": "meu",
+     "ini": 93.14,
+     "fim": 93.2
+    },
+    {
+     "w": "trabalho",
+     "ini": 93.2,
+     "fim": 93.68
+    },
+    {
+     "w": "de",
+     "ini": 93.68,
+     "fim": 93.92
+    },
+    {
+     "w": "hoje.",
+     "ini": 93.92,
+     "fim": 95.42
+    },
+    {
+     "w": "O",
+     "ini": 95.42,
+     "fim": 96.76
+    },
+    {
+     "w": "que",
+     "ini": 96.76,
+     "fim": 96.84
+    },
+    {
+     "w": "deu",
+     "ini": 96.84,
+     "fim": 96.98
+    },
+    {
+     "w": "certo,",
+     "ini": 96.98,
+     "fim": 97.46
+    },
+    {
+     "w": "e",
+     "ini": 97.46,
+     "fim": 99.86
+    },
+    {
+     "w": "o",
+     "ini": 99.86,
+     "fim": 99.92
+    },
+    {
+     "w": "que",
+     "ini": 99.92,
+     "fim": 100.0
+    },
+    {
+     "w": "ficou",
+     "ini": 100.0,
+     "fim": 100.34
+    },
+    {
+     "w": "pela",
+     "ini": 100.34,
+     "fim": 100.62
+    },
+    {
+     "w": "metade.",
+     "ini": 100.62,
+     "fim": 101.34
+    },
+    {
+     "w": "Que",
+     "ini": 103.64,
+     "fim": 104.48
+    },
+    {
+     "w": "o",
+     "ini": 104.48,
+     "fim": 104.58
+    },
+    {
+     "w": "fruto",
+     "ini": 104.58,
+     "fim": 105.0
+    },
+    {
+     "w": "das",
+     "ini": 105.0,
+     "fim": 105.24
+    },
+    {
+     "w": "minhas",
+     "ini": 105.24,
+     "fim": 105.54
+    },
+    {
+     "w": "mãos",
+     "ini": 105.54,
+     "fim": 106.48
+    },
+    {
+     "w": "seja",
+     "ini": 106.48,
+     "fim": 109.1
+    },
+    {
+     "w": "abençoado",
+     "ini": 109.1,
+     "fim": 109.84
+    },
+    {
+     "w": "por",
+     "ini": 109.84,
+     "fim": 110.16
+    },
+    {
+     "w": "Ti.",
+     "ini": 110.16,
+     "fim": 110.42
+    }
+   ]
+  },
+  {
+   "bloco": "familia",
+   "titulo_bloco": "A família ao redor da mesa",
+   "frase": "O salmo fala também da família. Da esposa como uma videira cheia de frutos dentro de casa. Dos filhos como brotos de oliveira, ao redor da mesa.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": true,
+   "referencia": "Salmo 128:3",
+   "idx": 5,
+   "wav": "work/s128/s128.wav",
+   "inicio": 118.62,
+   "fim": 139.34,
+   "duracao": 20.72,
+   "palavras": [
+    {
+     "w": "O",
+     "ini": 118.62,
+     "fim": 119.52
+    },
+    {
+     "w": "salmo",
+     "ini": 119.52,
+     "fim": 119.88
+    },
+    {
+     "w": "fala",
+     "ini": 119.88,
+     "fim": 120.14
+    },
+    {
+     "w": "também",
+     "ini": 120.14,
+     "fim": 120.48
+    },
+    {
+     "w": "da",
+     "ini": 120.48,
+     "fim": 120.6
+    },
+    {
+     "w": "família.",
+     "ini": 120.6,
+     "fim": 121.1
+    },
+    {
+     "w": "Da",
+     "ini": 121.64,
+     "fim": 124.12
+    },
+    {
+     "w": "esposa",
+     "ini": 124.12,
+     "fim": 124.66
+    },
+    {
+     "w": "como",
+     "ini": 124.66,
+     "fim": 124.96
+    },
+    {
+     "w": "uma",
+     "ini": 124.96,
+     "fim": 125.14
+    },
+    {
+     "w": "videira",
+     "ini": 125.14,
+     "fim": 125.58
+    },
+    {
+     "w": "cheia",
+     "ini": 125.58,
+     "fim": 126.04
+    },
+    {
+     "w": "de",
+     "ini": 126.04,
+     "fim": 126.18
+    },
+    {
+     "w": "frutos",
+     "ini": 126.18,
+     "fim": 126.76
+    },
+    {
+     "w": "dentro",
+     "ini": 126.76,
+     "fim": 127.06
+    },
+    {
+     "w": "de",
+     "ini": 127.06,
+     "fim": 127.3
+    },
+    {
+     "w": "casa.",
+     "ini": 127.3,
+     "fim": 127.74
+    },
+    {
+     "w": "Dos",
+     "ini": 129.96,
+     "fim": 132.06
+    },
+    {
+     "w": "filhos",
+     "ini": 132.06,
+     "fim": 132.82
+    },
+    {
+     "w": "como",
+     "ini": 132.82,
+     "fim": 134.26
+    },
+    {
+     "w": "brotos",
+     "ini": 134.26,
+     "fim": 134.84
+    },
+    {
+     "w": "de",
+     "ini": 134.84,
+     "fim": 134.96
+    },
+    {
+     "w": "oliveira,",
+     "ini": 134.96,
+     "fim": 135.64
+    },
+    {
+     "w": "ao",
+     "ini": 135.64,
+     "fim": 138.44
+    },
+    {
+     "w": "redor",
+     "ini": 138.44,
+     "fim": 138.74
+    },
+    {
+     "w": "da",
+     "ini": 138.74,
+     "fim": 138.94
+    },
+    {
+     "w": "mesa.",
+     "ini": 138.94,
+     "fim": 139.34
+    }
+   ]
+  },
+  {
+   "bloco": "familia",
+   "titulo_bloco": "A família ao redor da mesa",
+   "frase": "Pai, eu coloco diante de Ti a minha casa. Cada pessoa que senta à minha mesa. Faz da nossa família um lugar de vida, de fruto e de paz.",
+   "tag_visual": "vale_nevoa",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 6,
+   "wav": "work/s128/s128.wav",
+   "inicio": 146.8,
+   "fim": 173.3,
+   "duracao": 26.5,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 146.8,
+     "fim": 147.68
+    },
+    {
+     "w": "eu",
+     "ini": 147.68,
+     "fim": 148.56
+    },
+    {
+     "w": "coloco",
+     "ini": 148.56,
+     "fim": 148.96
+    },
+    {
+     "w": "diante",
+     "ini": 148.96,
+     "fim": 149.38
+    },
+    {
+     "w": "de",
+     "ini": 149.38,
+     "fim": 149.56
+    },
+    {
+     "w": "Ti",
+     "ini": 149.56,
+     "fim": 149.8
+    },
+    {
+     "w": "a",
+     "ini": 149.8,
+     "fim": 149.9
+    },
+    {
+     "w": "minha",
+     "ini": 149.9,
+     "fim": 150.04
+    },
+    {
+     "w": "casa.",
+     "ini": 150.04,
+     "fim": 150.54
+    },
+    {
+     "w": "Cada",
+     "ini": 152.12,
+     "fim": 155.74
+    },
+    {
+     "w": "pessoa",
+     "ini": 155.74,
+     "fim": 156.22
+    },
+    {
+     "w": "que",
+     "ini": 156.22,
+     "fim": 156.46
+    },
+    {
+     "w": "senta",
+     "ini": 156.46,
+     "fim": 156.96
+    },
+    {
+     "w": "à",
+     "ini": 156.96,
+     "fim": 157.08
+    },
+    {
+     "w": "minha",
+     "ini": 157.08,
+     "fim": 157.13
+    },
+    {
+     "w": "mesa.",
+     "ini": 157.12,
+     "fim": 157.6
+    },
+    {
+     "w": "Faz",
+     "ini": 160.42,
+     "fim": 163.04
+    },
+    {
+     "w": "da",
+     "ini": 163.04,
+     "fim": 163.24
+    },
+    {
+     "w": "nossa",
+     "ini": 163.24,
+     "fim": 163.46
+    },
+    {
+     "w": "família",
+     "ini": 163.46,
+     "fim": 164.08
+    },
+    {
+     "w": "um",
+     "ini": 164.08,
+     "fim": 166.48
+    },
+    {
+     "w": "lugar",
+     "ini": 166.48,
+     "fim": 166.72
+    },
+    {
+     "w": "de",
+     "ini": 166.72,
+     "fim": 166.94
+    },
+    {
+     "w": "vida,",
+     "ini": 166.94,
+     "fim": 167.28
+    },
+    {
+     "w": "de",
+     "ini": 169.08,
+     "fim": 170.04
+    },
+    {
+     "w": "fruto",
+     "ini": 170.04,
+     "fim": 170.64
+    },
+    {
+     "w": "e",
+     "ini": 170.64,
+     "fim": 172.84
+    },
+    {
+     "w": "de",
+     "ini": 172.84,
+     "fim": 173.02
+    },
+    {
+     "w": "paz.",
+     "ini": 173.02,
+     "fim": 173.3
+    }
+   ]
+  },
+  {
+   "bloco": "bencao128",
+   "titulo_bloco": "A bênção do Salmo 128",
+   "frase": "E o salmo termina com uma bênção: que o Senhor te abençoe, que você veja o bem todos os dias da sua vida, que você veja os filhos dos seus filhos, e que haja paz.",
+   "tag_visual": "alpes",
+   "mostrar_texto": true,
+   "referencia": "Salmo 128:5-6",
+   "idx": 7,
+   "wav": "work/s128/s128.wav",
+   "inicio": 178.46,
+   "fim": 208.1,
+   "duracao": 29.64,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 178.46,
+     "fim": 179.38
+    },
+    {
+     "w": "o",
+     "ini": 179.38,
+     "fim": 179.52
+    },
+    {
+     "w": "salmo",
+     "ini": 179.52,
+     "fim": 179.78
+    },
+    {
+     "w": "termina",
+     "ini": 179.78,
+     "fim": 180.26
+    },
+    {
+     "w": "com",
+     "ini": 180.26,
+     "fim": 180.44
+    },
+    {
+     "w": "uma",
+     "ini": 180.44,
+     "fim": 181.526
+    },
+    {
+     "w": "bênção:",
+     "ini": 181.526,
+     "fim": 183.48
+    },
+    {
+     "w": "que",
+     "ini": 183.48,
+     "fim": 184.76
+    },
+    {
+     "w": "o",
+     "ini": 184.76,
+     "fim": 184.88
+    },
+    {
+     "w": "Senhor",
+     "ini": 184.88,
+     "fim": 185.1
+    },
+    {
+     "w": "te",
+     "ini": 185.1,
+     "fim": 185.36
+    },
+    {
+     "w": "abençoe,",
+     "ini": 185.36,
+     "fim": 185.92
+    },
+    {
+     "w": "que",
+     "ini": 189.6,
+     "fim": 190.14
+    },
+    {
+     "w": "você",
+     "ini": 190.14,
+     "fim": 190.36
+    },
+    {
+     "w": "veja",
+     "ini": 190.36,
+     "fim": 190.74
+    },
+    {
+     "w": "o",
+     "ini": 190.74,
+     "fim": 190.79
+    },
+    {
+     "w": "bem",
+     "ini": 190.74,
+     "fim": 191.1
+    },
+    {
+     "w": "todos",
+     "ini": 191.1,
+     "fim": 193.34
+    },
+    {
+     "w": "os",
+     "ini": 193.34,
+     "fim": 193.68
+    },
+    {
+     "w": "dias",
+     "ini": 193.68,
+     "fim": 193.96
+    },
+    {
+     "w": "da",
+     "ini": 193.96,
+     "fim": 194.14
+    },
+    {
+     "w": "sua",
+     "ini": 194.14,
+     "fim": 194.34
+    },
+    {
+     "w": "vida,",
+     "ini": 194.34,
+     "fim": 194.74
+    },
+    {
+     "w": "que",
+     "ini": 195.52,
+     "fim": 198.54
+    },
+    {
+     "w": "você",
+     "ini": 198.54,
+     "fim": 198.8
+    },
+    {
+     "w": "veja",
+     "ini": 198.8,
+     "fim": 199.38
+    },
+    {
+     "w": "os",
+     "ini": 199.38,
+     "fim": 200.78
+    },
+    {
+     "w": "filhos",
+     "ini": 200.78,
+     "fim": 201.16
+    },
+    {
+     "w": "dos",
+     "ini": 201.16,
+     "fim": 201.34
+    },
+    {
+     "w": "seus",
+     "ini": 201.34,
+     "fim": 201.46
+    },
+    {
+     "w": "filhos,",
+     "ini": 201.46,
+     "fim": 202.1
+    },
+    {
+     "w": "e",
+     "ini": 202.1,
+     "fim": 207.18
+    },
+    {
+     "w": "que",
+     "ini": 207.18,
+     "fim": 207.24
+    },
+    {
+     "w": "haja",
+     "ini": 207.24,
+     "fim": 207.54
+    },
+    {
+     "w": "paz.",
+     "ini": 207.54,
+     "fim": 208.1
+    }
+   ]
+  },
+  {
+   "bloco": "bencao128",
+   "titulo_bloco": "A bênção do Salmo 128",
+   "frase": "Senhor, eu recebo essa bênção esta noite. Para mim, e para todos os que eu amo.",
+   "tag_visual": "lago_alpino",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 8,
+   "wav": "work/s128/s128.wav",
+   "inicio": 217.34,
+   "fim": 231.78,
+   "duracao": 14.44,
+   "palavras": [
+    {
+     "w": "Senhor,",
+     "ini": 217.34,
+     "fim": 218.26
+    },
+    {
+     "w": "eu",
+     "ini": 218.26,
+     "fim": 219.18
+    },
+    {
+     "w": "recebo",
+     "ini": 219.18,
+     "fim": 220.34
+    },
+    {
+     "w": "essa",
+     "ini": 220.34,
+     "fim": 220.52
+    },
+    {
+     "w": "bênção",
+     "ini": 220.52,
+     "fim": 220.98
+    },
+    {
+     "w": "esta",
+     "ini": 220.98,
+     "fim": 221.24
+    },
+    {
+     "w": "noite.",
+     "ini": 221.24,
+     "fim": 221.64
+    },
+    {
+     "w": "Para",
+     "ini": 222.8,
+     "fim": 225.32
+    },
+    {
+     "w": "mim,",
+     "ini": 225.32,
+     "fim": 225.64
+    },
+    {
+     "w": "e",
+     "ini": 225.64,
+     "fim": 228.42
+    },
+    {
+     "w": "para",
+     "ini": 228.42,
+     "fim": 230.58
+    },
+    {
+     "w": "todos",
+     "ini": 230.58,
+     "fim": 230.94
+    },
+    {
+     "w": "os",
+     "ini": 230.94,
+     "fim": 231.24
+    },
+    {
+     "w": "que",
+     "ini": 231.24,
+     "fim": 231.38
+    },
+    {
+     "w": "eu",
+     "ini": 231.38,
+     "fim": 231.52
+    },
+    {
+     "w": "amo.",
+     "ini": 231.52,
+     "fim": 231.78
+    }
+   ]
+  },
+  {
+   "bloco": "inquieto",
+   "titulo_bloco": "Quando o coração fica inquieto",
+   "frase": "Mas Tu sabes, Pai, que às vezes o meu coração fica inquieto. A mente corre para o amanhã. E a ansiedade tenta roubar o descanso que Tu me dás.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 9,
+   "wav": "work/s128/s128.wav",
+   "inicio": 239.32,
+   "fim": 261.08,
+   "duracao": 21.76,
+   "palavras": [
+    {
+     "w": "Mas",
+     "ini": 239.32,
+     "fim": 239.86
+    },
+    {
+     "w": "Tu",
+     "ini": 239.86,
+     "fim": 240.02
+    },
+    {
+     "w": "sabes,",
+     "ini": 240.02,
+     "fim": 240.36
+    },
+    {
+     "w": "Pai,",
+     "ini": 240.62,
+     "fim": 240.84
+    },
+    {
+     "w": "que",
+     "ini": 244.4,
+     "fim": 244.46
+    },
+    {
+     "w": "às",
+     "ini": 244.46,
+     "fim": 244.6
+    },
+    {
+     "w": "vezes",
+     "ini": 244.6,
+     "fim": 244.86
+    },
+    {
+     "w": "o",
+     "ini": 244.86,
+     "fim": 245.04
+    },
+    {
+     "w": "meu",
+     "ini": 245.04,
+     "fim": 245.16
+    },
+    {
+     "w": "coração",
+     "ini": 245.16,
+     "fim": 245.54
+    },
+    {
+     "w": "fica",
+     "ini": 245.54,
+     "fim": 245.82
+    },
+    {
+     "w": "inquieto.",
+     "ini": 245.82,
+     "fim": 246.7
+    },
+    {
+     "w": "A",
+     "ini": 248.76,
+     "fim": 249.54
+    },
+    {
+     "w": "mente",
+     "ini": 249.54,
+     "fim": 249.82
+    },
+    {
+     "w": "corre",
+     "ini": 249.82,
+     "fim": 250.3
+    },
+    {
+     "w": "para",
+     "ini": 250.3,
+     "fim": 250.56
+    },
+    {
+     "w": "o",
+     "ini": 250.56,
+     "fim": 250.7
+    },
+    {
+     "w": "amanhã.",
+     "ini": 250.7,
+     "fim": 251.36
+    },
+    {
+     "w": "E",
+     "ini": 251.36,
+     "fim": 255.12
+    },
+    {
+     "w": "a",
+     "ini": 255.12,
+     "fim": 255.24
+    },
+    {
+     "w": "ansiedade",
+     "ini": 255.24,
+     "fim": 256.12
+    },
+    {
+     "w": "tenta",
+     "ini": 256.12,
+     "fim": 257.772
+    },
+    {
+     "w": "roubar",
+     "ini": 257.772,
+     "fim": 259.66
+    },
+    {
+     "w": "o",
+     "ini": 259.66,
+     "fim": 259.82
+    },
+    {
+     "w": "descanso",
+     "ini": 259.82,
+     "fim": 260.4
+    },
+    {
+     "w": "que",
+     "ini": 260.4,
+     "fim": 260.56
+    },
+    {
+     "w": "Tu",
+     "ini": 260.56,
+     "fim": 260.7
+    },
+    {
+     "w": "me",
+     "ini": 260.7,
+     "fim": 260.84
+    },
+    {
+     "w": "dás.",
+     "ini": 260.84,
+     "fim": 261.08
+    }
+   ]
+  },
+  {
+   "bloco": "inquieto",
+   "titulo_bloco": "Quando o coração fica inquieto",
+   "frase": "Então eu me lembro do convite de Jesus: venham a mim, todos vocês que estão cansados e sobrecarregados, e Eu darei descanso a vocês.",
+   "tag_visual": "picos_neve",
+   "mostrar_texto": true,
+   "referencia": "Mateus 11:28",
+   "idx": 10,
+   "wav": "work/s128/s128.wav",
+   "inicio": 270.56,
+   "fim": 296.48,
+   "duracao": 25.92,
+   "palavras": [
+    {
+     "w": "Então",
+     "ini": 270.56,
+     "fim": 271.8
+    },
+    {
+     "w": "eu",
+     "ini": 271.8,
+     "fim": 273.04
+    },
+    {
+     "w": "me",
+     "ini": 273.04,
+     "fim": 273.14
+    },
+    {
+     "w": "lembro",
+     "ini": 273.14,
+     "fim": 273.38
+    },
+    {
+     "w": "do",
+     "ini": 273.38,
+     "fim": 273.52
+    },
+    {
+     "w": "convite",
+     "ini": 273.52,
+     "fim": 274.02
+    },
+    {
+     "w": "de",
+     "ini": 274.02,
+     "fim": 274.2
+    },
+    {
+     "w": "Jesus:",
+     "ini": 274.2,
+     "fim": 274.54
+    },
+    {
+     "w": "venham",
+     "ini": 274.54,
+     "fim": 279.62
+    },
+    {
+     "w": "a",
+     "ini": 279.62,
+     "fim": 279.8
+    },
+    {
+     "w": "mim,",
+     "ini": 279.8,
+     "fim": 279.94
+    },
+    {
+     "w": "todos",
+     "ini": 280.8,
+     "fim": 283.8
+    },
+    {
+     "w": "vocês",
+     "ini": 283.8,
+     "fim": 284.34
+    },
+    {
+     "w": "que",
+     "ini": 284.34,
+     "fim": 284.54
+    },
+    {
+     "w": "estão",
+     "ini": 284.54,
+     "fim": 284.76
+    },
+    {
+     "w": "cansados",
+     "ini": 284.76,
+     "fim": 285.46
+    },
+    {
+     "w": "e",
+     "ini": 285.46,
+     "fim": 288.02
+    },
+    {
+     "w": "sobrecarregados,",
+     "ini": 288.02,
+     "fim": 289.14
+    },
+    {
+     "w": "e",
+     "ini": 293.5,
+     "fim": 294.9
+    },
+    {
+     "w": "Eu",
+     "ini": 294.9,
+     "fim": 295.06
+    },
+    {
+     "w": "darei",
+     "ini": 295.06,
+     "fim": 295.42
+    },
+    {
+     "w": "descanso",
+     "ini": 295.42,
+     "fim": 295.98
+    },
+    {
+     "w": "a",
+     "ini": 295.98,
+     "fim": 296.08
+    },
+    {
+     "w": "vocês.",
+     "ini": 296.08,
+     "fim": 296.48
+    }
+   ]
+  },
+  {
+   "bloco": "inquieto",
+   "titulo_bloco": "Quando o coração fica inquieto",
+   "frase": "Eu venho, Senhor. Cansado, mas confiante.",
+   "tag_visual": "cordilheira",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 11,
+   "wav": "work/s128/s128.wav",
+   "inicio": 297.68,
+   "fim": 316.18,
+   "duracao": 18.5,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 297.68,
+     "fim": 304.28
+    },
+    {
+     "w": "venho,",
+     "ini": 304.28,
+     "fim": 304.58
+    },
+    {
+     "w": "Senhor.",
+     "ini": 304.76,
+     "fim": 305.0
+    },
+    {
+     "w": "Cansado,",
+     "ini": 308.46,
+     "fim": 310.64
+    },
+    {
+     "w": "mas",
+     "ini": 312.42,
+     "fim": 315.4
+    },
+    {
+     "w": "confiante.",
+     "ini": 315.4,
+     "fim": 316.18
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "Pai, o apóstolo Paulo escreveu aos Filipenses que eu não preciso viver ansioso por nada. Em vez disso, eu posso levar tudo a Ti, com oração, com sinceridade, e com gratidão.",
+   "tag_visual": "dolomitas",
+   "mostrar_texto": true,
+   "referencia": "Filipenses 4:6-7",
+   "idx": 12,
+   "wav": "work/s128/s128.wav",
+   "inicio": 323.94,
+   "fim": 353.62,
+   "duracao": 29.68,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 323.94,
+     "fim": 325.1
+    },
+    {
+     "w": "o",
+     "ini": 326.82,
+     "fim": 327.6
+    },
+    {
+     "w": "apóstolo",
+     "ini": 327.6,
+     "fim": 328.12
+    },
+    {
+     "w": "Paulo",
+     "ini": 328.12,
+     "fim": 328.54
+    },
+    {
+     "w": "escreveu",
+     "ini": 328.54,
+     "fim": 329.18
+    },
+    {
+     "w": "aos",
+     "ini": 329.18,
+     "fim": 329.36
+    },
+    {
+     "w": "Filipenses",
+     "ini": 329.36,
+     "fim": 330.06
+    },
+    {
+     "w": "que",
+     "ini": 331.54,
+     "fim": 333.2
+    },
+    {
+     "w": "eu",
+     "ini": 333.2,
+     "fim": 333.28
+    },
+    {
+     "w": "não",
+     "ini": 333.28,
+     "fim": 333.38
+    },
+    {
+     "w": "preciso",
+     "ini": 333.38,
+     "fim": 333.82
+    },
+    {
+     "w": "viver",
+     "ini": 333.82,
+     "fim": 334.14
+    },
+    {
+     "w": "ansioso",
+     "ini": 334.14,
+     "fim": 334.94
+    },
+    {
+     "w": "por",
+     "ini": 334.94,
+     "fim": 335.08
+    },
+    {
+     "w": "nada.",
+     "ini": 335.08,
+     "fim": 335.4
+    },
+    {
+     "w": "Em",
+     "ini": 338.26,
+     "fim": 339.48
+    },
+    {
+     "w": "vez",
+     "ini": 339.48,
+     "fim": 339.64
+    },
+    {
+     "w": "disso,",
+     "ini": 339.64,
+     "fim": 340.14
+    },
+    {
+     "w": "eu",
+     "ini": 340.46,
+     "fim": 342.34
+    },
+    {
+     "w": "posso",
+     "ini": 342.34,
+     "fim": 342.6
+    },
+    {
+     "w": "levar",
+     "ini": 342.6,
+     "fim": 342.9
+    },
+    {
+     "w": "tudo",
+     "ini": 342.9,
+     "fim": 343.4
+    },
+    {
+     "w": "a",
+     "ini": 343.4,
+     "fim": 343.68
+    },
+    {
+     "w": "Ti,",
+     "ini": 343.68,
+     "fim": 343.88
+    },
+    {
+     "w": "com",
+     "ini": 344.68,
+     "fim": 346.46
+    },
+    {
+     "w": "oração,",
+     "ini": 346.46,
+     "fim": 347.02
+    },
+    {
+     "w": "com",
+     "ini": 348.5,
+     "fim": 349.18
+    },
+    {
+     "w": "sinceridade,",
+     "ini": 349.18,
+     "fim": 350.18
+    },
+    {
+     "w": "e",
+     "ini": 350.18,
+     "fim": 352.84
+    },
+    {
+     "w": "com",
+     "ini": 352.84,
+     "fim": 352.96
+    },
+    {
+     "w": "gratidão.",
+     "ini": 352.96,
+     "fim": 353.62
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "Então eu falo contigo agora. Eu Te conto o que me preocupa. Um por um, eu coloco cada pensamento nas Tuas mãos.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 13,
+   "wav": "work/s128/s128.wav",
+   "inicio": 358.44,
+   "fim": 371.62,
+   "duracao": 13.18,
+   "palavras": [
+    {
+     "w": "Então",
+     "ini": 358.44,
+     "fim": 359.28
+    },
+    {
+     "w": "eu",
+     "ini": 359.28,
+     "fim": 359.44
+    },
+    {
+     "w": "falo",
+     "ini": 359.44,
+     "fim": 359.72
+    },
+    {
+     "w": "contigo",
+     "ini": 359.72,
+     "fim": 360.14
+    },
+    {
+     "w": "agora.",
+     "ini": 360.14,
+     "fim": 360.5
+    },
+    {
+     "w": "Eu",
+     "ini": 361.78,
+     "fim": 363.3
+    },
+    {
+     "w": "Te",
+     "ini": 363.3,
+     "fim": 363.44
+    },
+    {
+     "w": "conto",
+     "ini": 363.44,
+     "fim": 363.92
+    },
+    {
+     "w": "o",
+     "ini": 363.92,
+     "fim": 363.97
+    },
+    {
+     "w": "que",
+     "ini": 363.92,
+     "fim": 364.06
+    },
+    {
+     "w": "me",
+     "ini": 364.06,
+     "fim": 364.18
+    },
+    {
+     "w": "preocupa.",
+     "ini": 364.18,
+     "fim": 365.48
+    },
+    {
+     "w": "Um",
+     "ini": 366.34,
+     "fim": 366.76
+    },
+    {
+     "w": "por",
+     "ini": 366.76,
+     "fim": 366.96
+    },
+    {
+     "w": "um,",
+     "ini": 366.96,
+     "fim": 367.32
+    },
+    {
+     "w": "eu",
+     "ini": 367.32,
+     "fim": 368.98
+    },
+    {
+     "w": "coloco",
+     "ini": 368.98,
+     "fim": 369.42
+    },
+    {
+     "w": "cada",
+     "ini": 369.42,
+     "fim": 369.68
+    },
+    {
+     "w": "pensamento",
+     "ini": 369.68,
+     "fim": 370.4
+    },
+    {
+     "w": "nas",
+     "ini": 370.4,
+     "fim": 370.68
+    },
+    {
+     "w": "Tuas",
+     "ini": 370.68,
+     "fim": 371.0
+    },
+    {
+     "w": "mãos.",
+     "ini": 371.0,
+     "fim": 371.62
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "E a promessa vem logo depois: a Tua paz, que é maior do que eu consigo entender, vai guardar o meu coração e a minha mente em Cristo Jesus.",
+   "tag_visual": "vale_nevoa",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 14,
+   "wav": "work/s128/s128.wav",
+   "inicio": 374.4,
+   "fim": 392.6,
+   "duracao": 18.2,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 374.4,
+     "fim": 375.24
+    },
+    {
+     "w": "a",
+     "ini": 375.24,
+     "fim": 375.34
+    },
+    {
+     "w": "promessa",
+     "ini": 375.34,
+     "fim": 375.78
+    },
+    {
+     "w": "vem",
+     "ini": 375.78,
+     "fim": 376.04
+    },
+    {
+     "w": "logo",
+     "ini": 376.04,
+     "fim": 376.34
+    },
+    {
+     "w": "depois:",
+     "ini": 376.34,
+     "fim": 376.88
+    },
+    {
+     "w": "a",
+     "ini": 378.12,
+     "fim": 379.92
+    },
+    {
+     "w": "Tua",
+     "ini": 379.92,
+     "fim": 380.06
+    },
+    {
+     "w": "paz,",
+     "ini": 380.06,
+     "fim": 380.62
+    },
+    {
+     "w": "que",
+     "ini": 382.04,
+     "fim": 382.9
+    },
+    {
+     "w": "é",
+     "ini": 382.9,
+     "fim": 383.0
+    },
+    {
+     "w": "maior",
+     "ini": 383.0,
+     "fim": 383.28
+    },
+    {
+     "w": "do",
+     "ini": 383.28,
+     "fim": 383.5
+    },
+    {
+     "w": "que",
+     "ini": 383.5,
+     "fim": 383.58
+    },
+    {
+     "w": "eu",
+     "ini": 383.58,
+     "fim": 383.7
+    },
+    {
+     "w": "consigo",
+     "ini": 383.7,
+     "fim": 384.04
+    },
+    {
+     "w": "entender,",
+     "ini": 384.04,
+     "fim": 384.62
+    },
+    {
+     "w": "vai",
+     "ini": 387.04,
+     "fim": 387.66
+    },
+    {
+     "w": "guardar",
+     "ini": 387.66,
+     "fim": 388.1
+    },
+    {
+     "w": "o",
+     "ini": 388.1,
+     "fim": 388.24
+    },
+    {
+     "w": "meu",
+     "ini": 388.24,
+     "fim": 388.36
+    },
+    {
+     "w": "coração",
+     "ini": 388.36,
+     "fim": 388.92
+    },
+    {
+     "w": "e",
+     "ini": 388.92,
+     "fim": 390.92
+    },
+    {
+     "w": "a",
+     "ini": 390.92,
+     "fim": 390.98
+    },
+    {
+     "w": "minha",
+     "ini": 390.98,
+     "fim": 391.12
+    },
+    {
+     "w": "mente",
+     "ini": 391.12,
+     "fim": 391.6
+    },
+    {
+     "w": "em",
+     "ini": 391.6,
+     "fim": 391.76
+    },
+    {
+     "w": "Cristo",
+     "ini": 391.76,
+     "fim": 392.18
+    },
+    {
+     "w": "Jesus.",
+     "ini": 392.18,
+     "fim": 392.6
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "Eu recebo essa paz.",
+   "tag_visual": "alpes",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 15,
+   "wav": "work/s128/s128.wav",
+   "inicio": 397.28,
+   "fim": 399.48,
+   "duracao": 2.2,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 397.28,
+     "fim": 398.34
+    },
+    {
+     "w": "recebo",
+     "ini": 398.34,
+     "fim": 398.82
+    },
+    {
+     "w": "essa",
+     "ini": 398.82,
+     "fim": 399.0
+    },
+    {
+     "w": "paz.",
+     "ini": 399.0,
+     "fim": 399.48
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "E Pedro também escreveu: entreguem a Ele toda a ansiedade, porque Ele cuida de vocês.",
+   "tag_visual": "lago_alpino",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 16,
+   "wav": "work/s128/s128.wav",
+   "inicio": 400.8,
+   "fim": 414.78,
+   "duracao": 13.98,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 400.8,
+     "fim": 403.08
+    },
+    {
+     "w": "Pedro",
+     "ini": 403.08,
+     "fim": 403.38
+    },
+    {
+     "w": "também",
+     "ini": 403.38,
+     "fim": 403.74
+    },
+    {
+     "w": "escreveu:",
+     "ini": 403.74,
+     "fim": 404.4
+    },
+    {
+     "w": "entreguem",
+     "ini": 404.4,
+     "fim": 407.6
+    },
+    {
+     "w": "a",
+     "ini": 407.6,
+     "fim": 407.76
+    },
+    {
+     "w": "Ele",
+     "ini": 407.76,
+     "fim": 408.04
+    },
+    {
+     "w": "toda",
+     "ini": 408.04,
+     "fim": 408.82
+    },
+    {
+     "w": "a",
+     "ini": 408.82,
+     "fim": 408.87
+    },
+    {
+     "w": "ansiedade,",
+     "ini": 408.82,
+     "fim": 409.82
+    },
+    {
+     "w": "porque",
+     "ini": 410.4,
+     "fim": 413.68
+    },
+    {
+     "w": "Ele",
+     "ini": 413.68,
+     "fim": 413.88
+    },
+    {
+     "w": "cuida",
+     "ini": 413.88,
+     "fim": 414.3
+    },
+    {
+     "w": "de",
+     "ini": 414.3,
+     "fim": 414.46
+    },
+    {
+     "w": "vocês.",
+     "ini": 414.46,
+     "fim": 414.78
+    }
+   ]
+  },
+  {
+   "bloco": "filipenses",
+   "titulo_bloco": "Não andem ansiosos",
+   "frase": "Tu cuidas de mim, Senhor. Eu posso descansar.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 17,
+   "wav": "work/s128/s128.wav",
+   "inicio": 418.34,
+   "fim": 424.2,
+   "duracao": 5.86,
+   "palavras": [
+    {
+     "w": "Tu",
+     "ini": 418.34,
+     "fim": 418.98
+    },
+    {
+     "w": "cuidas",
+     "ini": 418.98,
+     "fim": 419.42
+    },
+    {
+     "w": "de",
+     "ini": 419.42,
+     "fim": 419.62
+    },
+    {
+     "w": "mim,",
+     "ini": 419.62,
+     "fim": 419.8
+    },
+    {
+     "w": "Senhor.",
+     "ini": 419.98,
+     "fim": 420.24
+    },
+    {
+     "w": "Eu",
+     "ini": 421.92,
+     "fim": 423.04
+    },
+    {
+     "w": "posso",
+     "ini": 423.04,
+     "fim": 423.36
+    },
+    {
+     "w": "descansar.",
+     "ini": 423.36,
+     "fim": 424.2
     }
    ]
   },
   {
    "bloco": "passaros",
-   "titulo_bloco": "Os pássaros e as flores do campo",
-   "frase": "Amanhã é amanhã. Agora é hora de descansar.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 46,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 788.9,
-   "fim": 799.2,
-   "duracao": 10.3,
-   "palavras": [
-    {
-     "w": "Amanhã",
-     "ini": 788.9,
-     "fim": 789.8
-    },
-    {
-     "w": "é",
-     "ini": 790.72,
-     "fim": 791.04
-    },
-    {
-     "w": "amanhã.",
-     "ini": 791.04,
-     "fim": 791.58
-    },
-    {
-     "w": "Agora",
-     "ini": 793.6,
-     "fim": 794.76
-    },
-    {
-     "w": "é",
-     "ini": 795.92,
-     "fim": 796.48
-    },
-    {
-     "w": "hora",
-     "ini": 796.48,
-     "fim": 796.8
-    },
-    {
-     "w": "de",
-     "ini": 796.8,
-     "fim": 798.48
-    },
-    {
-     "w": "descansar.",
-     "ini": 798.48,
-     "fim": 799.2
-    }
-   ]
-  },
-  {
-   "bloco": "descanso",
-   "titulo_bloco": "Só em Deus a alma descansa",
-   "frase": "Senhor, no Salmo sessenta e dois, Davi disse que somente em Deus a sua alma encontra descanso. Que dele vem a sua salvação. Que só Ele é a sua rocha, e por isso ele não será abalado.",
-   "tag_visual": "montanha",
+   "titulo_bloco": "Olhem para os pássaros",
+   "frase": "Jesus, no sermão do monte, Tu disseste: não fiquem preocupados com a vida, com o que vão comer, ou com o que vão vestir.",
+   "tag_visual": "picos_neve",
    "mostrar_texto": true,
-   "referencia": "Salmo 62",
-   "idx": 47,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 808.56,
-   "fim": 831.34,
-   "duracao": 22.78,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 808.56,
-     "fim": 809.24
-    },
-    {
-     "w": "no",
-     "ini": 810.86,
-     "fim": 810.98
-    },
-    {
-     "w": "Salmo",
-     "ini": 810.98,
-     "fim": 811.32
-    },
-    {
-     "w": "sessenta",
-     "ini": 811.32,
-     "fim": 812.551
-    },
-    {
-     "w": "e",
-     "ini": 812.551,
-     "fim": 812.92
-    },
-    {
-     "w": "dois,",
-     "ini": 812.92,
-     "fim": 813.782
-    },
-    {
-     "w": "Davi",
-     "ini": 813.782,
-     "fim": 814.52
-    },
-    {
-     "w": "disse",
-     "ini": 814.52,
-     "fim": 814.9
-    },
-    {
-     "w": "que",
-     "ini": 814.9,
-     "fim": 815.06
-    },
-    {
-     "w": "somente",
-     "ini": 815.06,
-     "fim": 815.6
-    },
-    {
-     "w": "em",
-     "ini": 815.6,
-     "fim": 815.82
-    },
-    {
-     "w": "Deus",
-     "ini": 815.82,
-     "fim": 816.16
-    },
-    {
-     "w": "a",
-     "ini": 816.16,
-     "fim": 816.44
-    },
-    {
-     "w": "sua",
-     "ini": 816.44,
-     "fim": 816.62
-    },
-    {
-     "w": "alma",
-     "ini": 816.62,
-     "fim": 816.96
-    },
-    {
-     "w": "encontra",
-     "ini": 816.96,
-     "fim": 817.42
-    },
-    {
-     "w": "descanso.",
-     "ini": 817.42,
-     "fim": 818.32
-    },
-    {
-     "w": "Que",
-     "ini": 820.04,
-     "fim": 820.44
-    },
-    {
-     "w": "dele",
-     "ini": 820.44,
-     "fim": 820.66
-    },
-    {
-     "w": "vem",
-     "ini": 820.66,
-     "fim": 820.94
-    },
-    {
-     "w": "a",
-     "ini": 820.94,
-     "fim": 821.12
-    },
-    {
-     "w": "sua",
-     "ini": 821.12,
-     "fim": 821.26
-    },
-    {
-     "w": "salvação.",
-     "ini": 821.26,
-     "fim": 822.04
-    },
-    {
-     "w": "Que",
-     "ini": 823.42,
-     "fim": 824.32
-    },
-    {
-     "w": "só",
-     "ini": 824.32,
-     "fim": 824.56
-    },
-    {
-     "w": "Ele",
-     "ini": 824.56,
-     "fim": 824.86
-    },
-    {
-     "w": "é",
-     "ini": 824.86,
-     "fim": 825.02
-    },
-    {
-     "w": "a",
-     "ini": 825.02,
-     "fim": 825.2
-    },
-    {
-     "w": "sua",
-     "ini": 825.2,
-     "fim": 825.36
-    },
-    {
-     "w": "rocha,",
-     "ini": 825.36,
-     "fim": 828.08
-    },
-    {
-     "w": "e",
-     "ini": 828.08,
-     "fim": 828.38
-    },
-    {
-     "w": "por",
-     "ini": 828.38,
-     "fim": 828.56
-    },
-    {
-     "w": "isso",
-     "ini": 828.56,
-     "fim": 828.92
-    },
-    {
-     "w": "ele",
-     "ini": 830.02,
-     "fim": 830.18
-    },
-    {
-     "w": "não",
-     "ini": 830.18,
-     "fim": 830.36
-    },
-    {
-     "w": "será",
-     "ini": 830.36,
-     "fim": 830.68
-    },
-    {
-     "w": "abalado.",
-     "ini": 830.68,
-     "fim": 831.34
-    }
-   ]
-  },
-  {
-   "bloco": "descanso",
-   "titulo_bloco": "Só em Deus a alma descansa",
-   "frase": "Pai, eu já procurei descanso em tantos lugares. Na tela do celular. Nas distrações. No barulho. Mas o descanso verdadeiro só existe em Ti.",
-   "tag_visual": "lua",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 48,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 834.86,
-   "fim": 851.6,
-   "duracao": 16.74,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 834.86,
-     "fim": 835.5
-    },
-    {
-     "w": "eu",
-     "ini": 837.14,
-     "fim": 837.34
-    },
-    {
-     "w": "já",
-     "ini": 837.34,
-     "fim": 837.48
-    },
-    {
-     "w": "procurei",
-     "ini": 837.48,
-     "fim": 837.98
-    },
-    {
-     "w": "descanso",
-     "ini": 837.98,
-     "fim": 838.62
-    },
-    {
-     "w": "em",
-     "ini": 838.62,
-     "fim": 838.86
-    },
-    {
-     "w": "tantos",
-     "ini": 838.86,
-     "fim": 839.14
-    },
-    {
-     "w": "lugares.",
-     "ini": 839.14,
-     "fim": 839.66
-    },
-    {
-     "w": "Na",
-     "ini": 841.16,
-     "fim": 842.06
-    },
-    {
-     "w": "tela",
-     "ini": 842.06,
-     "fim": 842.38
-    },
-    {
-     "w": "do",
-     "ini": 842.38,
-     "fim": 842.56
-    },
-    {
-     "w": "celular.",
-     "ini": 842.56,
-     "fim": 843.08
-    },
-    {
-     "w": "Nas",
-     "ini": 843.3,
-     "fim": 843.4
-    },
-    {
-     "w": "distrações.",
-     "ini": 843.4,
-     "fim": 844.12
-    },
-    {
-     "w": "No",
-     "ini": 844.26,
-     "fim": 844.34
-    },
-    {
-     "w": "barulho.",
-     "ini": 844.34,
-     "fim": 847.04
-    },
-    {
-     "w": "Mas",
-     "ini": 847.04,
-     "fim": 847.36
-    },
-    {
-     "w": "o",
-     "ini": 847.36,
-     "fim": 847.46
-    },
-    {
-     "w": "descanso",
-     "ini": 847.46,
-     "fim": 847.98
-    },
-    {
-     "w": "verdadeiro",
-     "ini": 847.98,
-     "fim": 849.06
-    },
-    {
-     "w": "só",
-     "ini": 849.06,
-     "fim": 850.68
-    },
-    {
-     "w": "existe",
-     "ini": 850.68,
-     "fim": 850.98
-    },
-    {
-     "w": "em",
-     "ini": 850.98,
-     "fim": 851.42
-    },
-    {
-     "w": "Ti.",
-     "ini": 851.42,
-     "fim": 851.6
-    }
-   ]
-  },
-  {
-   "bloco": "descanso",
-   "titulo_bloco": "Só em Deus a alma descansa",
-   "frase": "Jesus, Tu disseste: não deixem o coração de vocês ficar aflito. Confiem em Deus, e confiem também em mim. Na casa do meu Pai há muitos lugares.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 49,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 857.46,
-   "fim": 877.94,
-   "duracao": 20.48,
+   "referencia": "Mateus 6:25-34",
+   "idx": 18,
+   "wav": "work/s128/s128.wav",
+   "inicio": 428.54,
+   "fim": 442.0,
+   "duracao": 13.46,
    "palavras": [
     {
      "w": "Jesus,",
-     "ini": 857.46,
-     "fim": 858.42
-    },
-    {
-     "w": "Tu",
-     "ini": 859.74,
-     "fim": 860.5
-    },
-    {
-     "w": "disseste:",
-     "ini": 860.5,
-     "fim": 861.1
-    },
-    {
-     "w": "não",
-     "ini": 862.8,
-     "fim": 863.36
-    },
-    {
-     "w": "deixem",
-     "ini": 863.36,
-     "fim": 863.74
-    },
-    {
-     "w": "o",
-     "ini": 863.74,
-     "fim": 863.84
-    },
-    {
-     "w": "coração",
-     "ini": 863.84,
-     "fim": 864.22
-    },
-    {
-     "w": "de",
-     "ini": 864.22,
-     "fim": 864.46
-    },
-    {
-     "w": "vocês",
-     "ini": 864.46,
-     "fim": 864.8
-    },
-    {
-     "w": "ficar",
-     "ini": 864.8,
-     "fim": 865.24
-    },
-    {
-     "w": "aflito.",
-     "ini": 865.24,
-     "fim": 866.78
-    },
-    {
-     "w": "Confiem",
-     "ini": 866.78,
-     "fim": 868.32
-    },
-    {
-     "w": "em",
-     "ini": 868.32,
-     "fim": 868.56
-    },
-    {
-     "w": "Deus,",
-     "ini": 868.56,
-     "fim": 868.8
-    },
-    {
-     "w": "e",
-     "ini": 868.8,
-     "fim": 870.48
-    },
-    {
-     "w": "confiem",
-     "ini": 870.48,
-     "fim": 871.14
-    },
-    {
-     "w": "também",
-     "ini": 871.14,
-     "fim": 871.82
-    },
-    {
-     "w": "em",
-     "ini": 871.82,
-     "fim": 872.448
-    },
-    {
-     "w": "mim.",
-     "ini": 872.448,
-     "fim": 873.39
-    },
-    {
-     "w": "Na",
-     "ini": 873.39,
-     "fim": 874.018
-    },
-    {
-     "w": "casa",
-     "ini": 874.018,
-     "fim": 874.96
-    },
-    {
-     "w": "do",
-     "ini": 874.96,
-     "fim": 875.22
-    },
-    {
-     "w": "meu",
-     "ini": 875.22,
-     "fim": 875.34
-    },
-    {
-     "w": "Pai",
-     "ini": 875.34,
-     "fim": 875.7
-    },
-    {
-     "w": "há",
-     "ini": 875.7,
-     "fim": 877.1
-    },
-    {
-     "w": "muitos",
-     "ini": 877.1,
-     "fim": 877.36
-    },
-    {
-     "w": "lugares.",
-     "ini": 877.36,
-     "fim": 877.94
-    }
-   ]
-  },
-  {
-   "bloco": "descanso",
-   "titulo_bloco": "Só em Deus a alma descansa",
-   "frase": "Que promessa, Senhor. Existe um lugar preparado para mim. Existe um lar que nunca vai acabar.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 50,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 882.33,
-   "fim": 895.42,
-   "duracao": 13.09,
-   "palavras": [
-    {
-     "w": "Que",
-     "ini": 882.33,
-     "fim": 882.88
-    },
-    {
-     "w": "promessa,",
-     "ini": 882.88,
-     "fim": 883.62
-    },
-    {
-     "w": "Senhor.",
-     "ini": 883.62,
-     "fim": 883.84
-    },
-    {
-     "w": "Existe",
-     "ini": 885.94,
-     "fim": 886.3
-    },
-    {
-     "w": "um",
-     "ini": 886.3,
-     "fim": 886.48
-    },
-    {
-     "w": "lugar",
-     "ini": 886.48,
-     "fim": 886.66
-    },
-    {
-     "w": "preparado",
-     "ini": 886.66,
-     "fim": 887.38
-    },
-    {
-     "w": "para",
-     "ini": 887.38,
-     "fim": 887.62
-    },
-    {
-     "w": "mim.",
-     "ini": 887.62,
-     "fim": 887.88
-    },
-    {
-     "w": "Existe",
-     "ini": 891.5,
-     "fim": 892.5
-    },
-    {
-     "w": "um",
-     "ini": 892.5,
-     "fim": 892.72
-    },
-    {
-     "w": "lar",
-     "ini": 892.72,
-     "fim": 893.0
-    },
-    {
-     "w": "que",
-     "ini": 893.0,
-     "fim": 894.36
-    },
-    {
-     "w": "nunca",
-     "ini": 894.36,
-     "fim": 894.62
-    },
-    {
-     "w": "vai",
-     "ini": 894.62,
-     "fim": 895.14
-    },
-    {
-     "w": "acabar.",
-     "ini": 895.14,
-     "fim": 895.42
-    }
-   ]
-  },
-  {
-   "bloco": "descanso",
-   "titulo_bloco": "Só em Deus a alma descansa",
-   "frase": "Então eu descanso. Aqui e agora. Na Tua presença.",
-   "tag_visual": "montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 51,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 900.34,
-   "fim": 912.68,
-   "duracao": 12.34,
-   "palavras": [
-    {
-     "w": "Então",
-     "ini": 900.34,
-     "fim": 900.96
-    },
-    {
-     "w": "eu",
-     "ini": 900.96,
-     "fim": 901.885
-    },
-    {
-     "w": "descanso.",
-     "ini": 901.885,
-     "fim": 904.43
-    },
-    {
-     "w": "Aqui",
-     "ini": 904.43,
-     "fim": 904.98
-    },
-    {
-     "w": "e",
-     "ini": 904.98,
-     "fim": 905.92
-    },
-    {
-     "w": "agora.",
-     "ini": 905.92,
-     "fim": 906.18
-    },
-    {
-     "w": "Na",
-     "ini": 906.18,
-     "fim": 911.88
-    },
-    {
-     "w": "Tua",
-     "ini": 911.88,
-     "fim": 912.04
-    },
-    {
-     "w": "presença.",
-     "ini": 912.04,
-     "fim": 912.68
-    }
-   ]
-  },
-  {
-   "bloco": "nome",
-   "titulo_bloco": "Chamado pelo nome",
-   "frase": "Pai, o profeta Sofonias escreveu algo que aquece o coração. Ele disse que o Senhor, o teu Deus, está no meio de ti. Que Ele se alegra em você. Que Ele te acalma com o Seu amor.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": true,
-   "referencia": "Sofonias 3:17",
-   "idx": 52,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 912.68,
-   "fim": 935.58,
-   "duracao": 22.9,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 912.68,
-     "fim": 915.38
-    },
-    {
-     "w": "o",
-     "ini": 915.38,
-     "fim": 915.94
-    },
-    {
-     "w": "profeta",
-     "ini": 915.94,
-     "fim": 916.4
-    },
-    {
-     "w": "Sofonias",
-     "ini": 916.4,
-     "fim": 917.18
-    },
-    {
-     "w": "escreveu",
-     "ini": 917.18,
-     "fim": 917.88
-    },
-    {
-     "w": "algo",
-     "ini": 917.88,
-     "fim": 918.14
-    },
-    {
-     "w": "que",
-     "ini": 918.14,
-     "fim": 918.36
-    },
-    {
-     "w": "aquece",
-     "ini": 918.36,
-     "fim": 918.78
-    },
-    {
-     "w": "o",
-     "ini": 918.78,
-     "fim": 918.94
-    },
-    {
-     "w": "coração.",
-     "ini": 918.94,
-     "fim": 919.34
-    },
-    {
-     "w": "Ele",
-     "ini": 922.38,
-     "fim": 922.84
-    },
-    {
-     "w": "disse",
-     "ini": 922.84,
-     "fim": 923.12
-    },
-    {
-     "w": "que",
-     "ini": 923.12,
-     "fim": 923.32
-    },
-    {
-     "w": "o",
-     "ini": 923.32,
-     "fim": 923.4
-    },
-    {
-     "w": "Senhor,",
-     "ini": 923.4,
-     "fim": 923.68
-    },
-    {
-     "w": "o",
-     "ini": 923.96,
-     "fim": 924.06
-    },
-    {
-     "w": "teu",
-     "ini": 924.06,
-     "fim": 924.26
-    },
-    {
-     "w": "Deus,",
-     "ini": 924.26,
-     "fim": 924.52
-    },
-    {
-     "w": "está",
-     "ini": 925.5,
-     "fim": 925.78
+     "ini": 428.54,
+     "fim": 429.18
     },
     {
      "w": "no",
-     "ini": 925.78,
-     "fim": 925.98
+     "ini": 430.44,
+     "fim": 430.74
     },
     {
-     "w": "meio",
-     "ini": 925.98,
-     "fim": 926.18
+     "w": "sermão",
+     "ini": 430.74,
+     "fim": 431.1
     },
     {
-     "w": "de",
-     "ini": 926.18,
-     "fim": 926.38
+     "w": "do",
+     "ini": 431.1,
+     "fim": 431.26
     },
     {
-     "w": "ti.",
-     "ini": 926.38,
-     "fim": 926.7
-    },
-    {
-     "w": "Que",
-     "ini": 930.02,
-     "fim": 930.58
-    },
-    {
-     "w": "Ele",
-     "ini": 930.58,
-     "fim": 930.7
-    },
-    {
-     "w": "se",
-     "ini": 930.7,
-     "fim": 930.86
-    },
-    {
-     "w": "alegra",
-     "ini": 930.86,
-     "fim": 931.26
-    },
-    {
-     "w": "em",
-     "ini": 931.26,
-     "fim": 931.48
-    },
-    {
-     "w": "você.",
-     "ini": 931.48,
-     "fim": 931.72
-    },
-    {
-     "w": "Que",
-     "ini": 933.36,
-     "fim": 933.92
-    },
-    {
-     "w": "Ele",
-     "ini": 933.92,
-     "fim": 934.06
-    },
-    {
-     "w": "te",
-     "ini": 934.06,
-     "fim": 934.24
-    },
-    {
-     "w": "acalma",
-     "ini": 934.24,
-     "fim": 934.78
-    },
-    {
-     "w": "com",
-     "ini": 934.78,
-     "fim": 935.16
-    },
-    {
-     "w": "o",
-     "ini": 935.16,
-     "fim": 935.21
-    },
-    {
-     "w": "Seu",
-     "ini": 935.16,
-     "fim": 935.26
-    },
-    {
-     "w": "amor.",
-     "ini": 935.26,
-     "fim": 935.58
-    }
-   ]
-  },
-  {
-   "bloco": "nome",
-   "titulo_bloco": "Chamado pelo nome",
-   "frase": "Senhor, é difícil acreditar que Tu Te alegras em mim. Mas a Tua Palavra diz que sim. Então eu recebo esse amor.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 53,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 941.88,
-   "fim": 956.52,
-   "duracao": 14.64,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 941.88,
-     "fim": 942.76
-    },
-    {
-     "w": "é",
-     "ini": 943.72,
-     "fim": 944.18
-    },
-    {
-     "w": "difícil",
-     "ini": 944.18,
-     "fim": 944.5
-    },
-    {
-     "w": "acreditar",
-     "ini": 944.5,
-     "fim": 945.1
-    },
-    {
-     "w": "que",
-     "ini": 945.1,
-     "fim": 945.36
+     "w": "monte,",
+     "ini": 431.26,
+     "fim": 431.72
     },
     {
      "w": "Tu",
-     "ini": 945.36,
-     "fim": 945.46
-    },
-    {
-     "w": "Te",
-     "ini": 945.46,
-     "fim": 945.62
-    },
-    {
-     "w": "alegras",
-     "ini": 945.62,
-     "fim": 946.06
-    },
-    {
-     "w": "em",
-     "ini": 946.06,
-     "fim": 946.26
-    },
-    {
-     "w": "mim.",
-     "ini": 946.26,
-     "fim": 946.7
-    },
-    {
-     "w": "Mas",
-     "ini": 948.72,
-     "fim": 949.6
-    },
-    {
-     "w": "a",
-     "ini": 949.6,
-     "fim": 949.68
-    },
-    {
-     "w": "Tua",
-     "ini": 949.68,
-     "fim": 949.82
-    },
-    {
-     "w": "Palavra",
-     "ini": 949.82,
-     "fim": 950.24
-    },
-    {
-     "w": "diz",
-     "ini": 950.24,
-     "fim": 950.62
-    },
-    {
-     "w": "que",
-     "ini": 950.62,
-     "fim": 950.78
-    },
-    {
-     "w": "sim.",
-     "ini": 950.78,
-     "fim": 951.16
-    },
-    {
-     "w": "Então",
-     "ini": 954.38,
-     "fim": 955.26
-    },
-    {
-     "w": "eu",
-     "ini": 955.26,
-     "fim": 955.447
-    },
-    {
-     "w": "recebo",
-     "ini": 955.447,
-     "fim": 955.82
-    },
-    {
-     "w": "esse",
-     "ini": 955.82,
-     "fim": 956.02
-    },
-    {
-     "w": "amor.",
-     "ini": 956.02,
-     "fim": 956.52
-    }
-   ]
-  },
-  {
-   "bloco": "nome",
-   "titulo_bloco": "Chamado pelo nome",
-   "frase": "E pelo profeta Isaías, Tu disseste: não tenha medo, Eu te chamei pelo nome. Você é meu. Quando você passar pelas águas, Eu estarei com você. Quando passar pelo fogo, ele não vai te queimar.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 54,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 961.38,
-   "fim": 1006.161,
-   "duracao": 44.781,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 961.38,
-     "fim": 961.68
-    },
-    {
-     "w": "pelo",
-     "ini": 961.68,
-     "fim": 961.84
-    },
-    {
-     "w": "profeta",
-     "ini": 961.84,
-     "fim": 962.3
-    },
-    {
-     "w": "Isaías,",
-     "ini": 962.3,
-     "fim": 964.1
-    },
-    {
-     "w": "Tu",
-     "ini": 964.1,
-     "fim": 964.38
+     "ini": 431.92,
+     "fim": 431.97
     },
     {
      "w": "disseste:",
-     "ini": 964.38,
-     "fim": 964.92
+     "ini": 431.96,
+     "fim": 432.6
     },
     {
      "w": "não",
-     "ini": 968.02,
-     "fim": 968.7
+     "ini": 434.64,
+     "fim": 434.88
     },
     {
-     "w": "tenha",
-     "ini": 968.7,
-     "fim": 968.92
+     "w": "fiquem",
+     "ini": 434.88,
+     "fim": 435.2
     },
     {
-     "w": "medo,",
-     "ini": 968.92,
-     "fim": 969.3
-    },
-    {
-     "w": "Eu",
-     "ini": 970.4,
-     "fim": 970.84
-    },
-    {
-     "w": "te",
-     "ini": 970.84,
-     "fim": 970.96
-    },
-    {
-     "w": "chamei",
-     "ini": 970.96,
-     "fim": 971.28
-    },
-    {
-     "w": "pelo",
-     "ini": 971.28,
-     "fim": 971.52
-    },
-    {
-     "w": "nome.",
-     "ini": 971.52,
-     "fim": 971.73
-    },
-    {
-     "w": "Você",
-     "ini": 971.73,
-     "fim": 971.91
-    },
-    {
-     "w": "é",
-     "ini": 971.91,
-     "fim": 972.0
-    },
-    {
-     "w": "meu.",
-     "ini": 972.0,
-     "fim": 972.14
-    },
-    {
-     "w": "Quando",
-     "ini": 976.48,
-     "fim": 976.84
-    },
-    {
-     "w": "você",
-     "ini": 976.84,
-     "fim": 977.14
-    },
-    {
-     "w": "passar",
-     "ini": 977.14,
-     "fim": 977.48
-    },
-    {
-     "w": "pelas",
-     "ini": 977.48,
-     "fim": 977.94
-    },
-    {
-     "w": "águas,",
-     "ini": 977.94,
-     "fim": 978.46
-    },
-    {
-     "w": "Eu",
-     "ini": 980.36,
-     "fim": 980.72
-    },
-    {
-     "w": "estarei",
-     "ini": 980.72,
-     "fim": 981.054
+     "w": "preocupados",
+     "ini": 435.2,
+     "fim": 435.92
     },
     {
      "w": "com",
-     "ini": 981.054,
-     "fim": 981.24
+     "ini": 435.92,
+     "fim": 436.16
     },
     {
-     "w": "você.",
-     "ini": 981.24,
-     "fim": 981.6
+     "w": "a",
+     "ini": 436.16,
+     "fim": 436.3
     },
     {
-     "w": "Quando",
-     "ini": 984.08,
-     "fim": 984.38
+     "w": "vida,",
+     "ini": 436.3,
+     "fim": 436.62
     },
     {
-     "w": "passar",
-     "ini": 984.38,
-     "fim": 984.82
-    },
-    {
-     "w": "pelo",
-     "ini": 984.82,
-     "fim": 985.1
-    },
-    {
-     "w": "fogo,",
-     "ini": 985.1,
-     "fim": 987.32
-    },
-    {
-     "w": "ele",
-     "ini": 987.32,
-     "fim": 987.86
-    },
-    {
-     "w": "não",
-     "ini": 987.86,
-     "fim": 988.08
-    },
-    {
-     "w": "vai",
-     "ini": 988.08,
-     "fim": 988.24
-    },
-    {
-     "w": "te",
-     "ini": 1002.98,
-     "fim": 1003.18
-    },
-    {
-     "w": "queimar.",
-     "ini": 1003.18,
-     "fim": 1006.161
-    }
-   ]
-  },
-  {
-   "bloco": "nome",
-   "titulo_bloco": "Chamado pelo nome",
-   "frase": "Pai, Tu sabes o meu nome. Eu sou Teu. Em qualquer água, em qualquer fogo, Tu estás comigo.",
-   "tag_visual": "vale_nevoa",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 55,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1006.161,
-   "fim": 1022.238,
-   "duracao": 16.077,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 1006.161,
-     "fim": 1007.95
-    },
-    {
-     "w": "Tu",
-     "ini": 1007.95,
-     "fim": 1009.142
-    },
-    {
-     "w": "sabes",
-     "ini": 1009.142,
-     "fim": 1011.229
+     "w": "com",
+     "ini": 437.34,
+     "fim": 438.24
     },
     {
      "w": "o",
-     "ini": 1011.229,
-     "fim": 1012.123
+     "ini": 438.24,
+     "fim": 438.36
     },
     {
-     "w": "meu",
-     "ini": 1012.123,
-     "fim": 1013.613
+     "w": "que",
+     "ini": 438.36,
+     "fim": 438.41
     },
     {
-     "w": "nome.",
-     "ini": 1013.613,
-     "fim": 1015.7
+     "w": "vão",
+     "ini": 438.38,
+     "fim": 438.58
     },
     {
-     "w": "Eu",
-     "ini": 1015.7,
-     "fim": 1016.08
+     "w": "comer,",
+     "ini": 438.58,
+     "fim": 439.02
     },
     {
-     "w": "sou",
-     "ini": 1016.08,
-     "fim": 1016.502
+     "w": "ou",
+     "ini": 439.02,
+     "fim": 440.92
     },
     {
-     "w": "Teu.",
-     "ini": 1016.502,
-     "fim": 1017.008
+     "w": "com",
+     "ini": 440.92,
+     "fim": 441.06
     },
     {
-     "w": "Em",
-     "ini": 1017.008,
-     "fim": 1017.345
+     "w": "o",
+     "ini": 441.06,
+     "fim": 441.22
     },
     {
-     "w": "qualquer",
-     "ini": 1017.345,
-     "fim": 1018.189
+     "w": "que",
+     "ini": 441.22,
+     "fim": 441.27
     },
     {
-     "w": "água,",
-     "ini": 1018.189,
-     "fim": 1018.779
+     "w": "vão",
+     "ini": 441.24,
+     "fim": 441.44
     },
     {
-     "w": "em",
-     "ini": 1018.779,
-     "fim": 1019.117
-    },
-    {
-     "w": "qualquer",
-     "ini": 1019.117,
-     "fim": 1019.961
-    },
-    {
-     "w": "fogo,",
-     "ini": 1019.961,
-     "fim": 1020.551
-    },
-    {
-     "w": "Tu",
-     "ini": 1020.551,
-     "fim": 1020.888
-    },
-    {
-     "w": "estás",
-     "ini": 1020.888,
-     "fim": 1021.479
-    },
-    {
-     "w": "comigo.",
-     "ini": 1021.479,
-     "fim": 1022.238
+     "w": "vestir.",
+     "ini": 441.44,
+     "fim": 442.0
     }
    ]
   },
   {
-   "bloco": "nome",
-   "titulo_bloco": "Chamado pelo nome",
-   "frase": "Que eu durma ouvindo essa verdade: eu sou amado. Eu sou Teu.",
-   "tag_visual": "ceu_noturno",
+   "bloco": "passaros",
+   "titulo_bloco": "Olhem para os pássaros",
+   "frase": "Olhem para os pássaros. Eles não plantam, nem colhem, nem guardam em celeiros. E mesmo assim, o Pai que está nos céus cuida deles. Vocês não valem muito mais do que eles?",
+   "tag_visual": "cordilheira",
    "mostrar_texto": false,
    "referencia": null,
-   "idx": 56,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1022.238,
-   "fim": 1043.7,
-   "duracao": 21.462,
+   "idx": 19,
+   "wav": "work/s128/s128.wav",
+   "inicio": 444.94,
+   "fim": 465.58,
+   "duracao": 20.64,
    "palavras": [
     {
-     "w": "Que",
-     "ini": 1022.238,
-     "fim": 1022.66
+     "w": "Olhem",
+     "ini": 444.94,
+     "fim": 445.7
     },
     {
-     "w": "eu",
-     "ini": 1022.66,
-     "fim": 1024.06
-    },
-    {
-     "w": "durma",
-     "ini": 1024.06,
-     "fim": 1024.13
-    },
-    {
-     "w": "ouvindo",
-     "ini": 1024.13,
-     "fim": 1024.22
-    },
-    {
-     "w": "essa",
-     "ini": 1024.22,
-     "fim": 1024.28
-    },
-    {
-     "w": "verdade:",
-     "ini": 1024.28,
-     "fim": 1024.38
-    },
-    {
-     "w": "eu",
-     "ini": 1024.38,
-     "fim": 1024.43
-    },
-    {
-     "w": "sou",
-     "ini": 1024.38,
-     "fim": 1024.43
-    },
-    {
-     "w": "amado.",
-     "ini": 1024.38,
-     "fim": 1024.58
-    },
-    {
-     "w": "Eu",
-     "ini": 1030.72,
-     "fim": 1032.12
-    },
-    {
-     "w": "sou",
-     "ini": 1032.12,
-     "fim": 1037.384
-    },
-    {
-     "w": "Teu.",
-     "ini": 1037.384,
-     "fim": 1043.7
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Pai, antes de fechar os olhos, eu recebo a bênção que Tu mandaste Moisés ensinar aos sacerdotes. Que ela seja sobre mim, e sobre todos que estão ouvindo esta oração agora.",
-   "tag_visual": "montanha",
-   "mostrar_texto": true,
-   "referencia": "Números 6:24-26",
-   "idx": 57,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1043.7,
-   "fim": 1059.7,
-   "duracao": 16.0,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 1043.7,
-     "fim": 1044.3
-    },
-    {
-     "w": "antes",
-     "ini": 1045.38,
-     "fim": 1045.82
-    },
-    {
-     "w": "de",
-     "ini": 1045.82,
-     "fim": 1045.98
-    },
-    {
-     "w": "fechar",
-     "ini": 1045.98,
-     "fim": 1046.32
+     "w": "para",
+     "ini": 445.7,
+     "fim": 445.9
     },
     {
      "w": "os",
-     "ini": 1046.32,
-     "fim": 1046.52
+     "ini": 445.9,
+     "fim": 446.1
     },
     {
-     "w": "olhos,",
-     "ini": 1046.52,
-     "fim": 1046.8
+     "w": "pássaros.",
+     "ini": 446.1,
+     "fim": 446.6
     },
     {
-     "w": "eu",
-     "ini": 1048.44,
-     "fim": 1048.54
+     "w": "Eles",
+     "ini": 447.88,
+     "fim": 448.48
     },
     {
-     "w": "recebo",
-     "ini": 1048.54,
-     "fim": 1048.88
+     "w": "não",
+     "ini": 448.48,
+     "fim": 448.68
     },
     {
-     "w": "a",
-     "ini": 1048.88,
-     "fim": 1048.98
+     "w": "plantam,",
+     "ini": 448.68,
+     "fim": 449.3
     },
     {
-     "w": "bênção",
-     "ini": 1048.98,
-     "fim": 1049.36
+     "w": "nem",
+     "ini": 449.9,
+     "fim": 450.12
+    },
+    {
+     "w": "colhem,",
+     "ini": 450.12,
+     "fim": 450.74
+    },
+    {
+     "w": "nem",
+     "ini": 451.42,
+     "fim": 451.54
+    },
+    {
+     "w": "guardam",
+     "ini": 451.54,
+     "fim": 451.98
+    },
+    {
+     "w": "em",
+     "ini": 451.98,
+     "fim": 452.16
+    },
+    {
+     "w": "celeiros.",
+     "ini": 452.16,
+     "fim": 452.66
+    },
+    {
+     "w": "E",
+     "ini": 455.16,
+     "fim": 455.92
+    },
+    {
+     "w": "mesmo",
+     "ini": 455.92,
+     "fim": 456.12
+    },
+    {
+     "w": "assim,",
+     "ini": 456.12,
+     "fim": 456.52
+    },
+    {
+     "w": "o",
+     "ini": 458.02,
+     "fim": 458.4
+    },
+    {
+     "w": "Pai",
+     "ini": 458.4,
+     "fim": 458.7
     },
     {
      "w": "que",
-     "ini": 1049.36,
-     "fim": 1049.52
+     "ini": 458.7,
+     "fim": 458.88
     },
     {
-     "w": "Tu",
-     "ini": 1049.52,
-     "fim": 1049.64
+     "w": "está",
+     "ini": 458.88,
+     "fim": 459.04
     },
     {
-     "w": "mandaste",
-     "ini": 1049.64,
-     "fim": 1050.1
+     "w": "nos",
+     "ini": 459.04,
+     "fim": 459.26
     },
     {
-     "w": "Moisés",
-     "ini": 1050.1,
-     "fim": 1051.037
+     "w": "céus",
+     "ini": 459.26,
+     "fim": 459.62
     },
     {
-     "w": "ensinar",
-     "ini": 1051.037,
-     "fim": 1052.091
+     "w": "cuida",
+     "ini": 459.62,
+     "fim": 459.98
     },
     {
-     "w": "aos",
-     "ini": 1052.091,
-     "fim": 1052.677
+     "w": "deles.",
+     "ini": 459.98,
+     "fim": 460.36
     },
     {
-     "w": "sacerdotes.",
-     "ini": 1052.677,
-     "fim": 1054.2
+     "w": "Vocês",
+     "ini": 463.08,
+     "fim": 463.84
     },
     {
-     "w": "Que",
-     "ini": 1054.2,
-     "fim": 1054.8
+     "w": "não",
+     "ini": 463.84,
+     "fim": 464.08
     },
     {
-     "w": "ela",
-     "ini": 1054.8,
-     "fim": 1054.9
+     "w": "valem",
+     "ini": 464.08,
+     "fim": 464.4
     },
     {
-     "w": "seja",
-     "ini": 1054.9,
-     "fim": 1055.16
-    },
-    {
-     "w": "sobre",
-     "ini": 1055.16,
-     "fim": 1055.5
-    },
-    {
-     "w": "mim,",
-     "ini": 1055.5,
-     "fim": 1055.76
-    },
-    {
-     "w": "e",
-     "ini": 1056.94,
-     "fim": 1057.28
-    },
-    {
-     "w": "sobre",
-     "ini": 1057.28,
-     "fim": 1057.42
-    },
-    {
-     "w": "todos",
-     "ini": 1057.42,
-     "fim": 1057.84
-    },
-    {
-     "w": "que",
-     "ini": 1058.04,
-     "fim": 1058.1
-    },
-    {
-     "w": "estão",
-     "ini": 1058.1,
-     "fim": 1058.403
-    },
-    {
-     "w": "ouvindo",
-     "ini": 1058.403,
-     "fim": 1058.793
-    },
-    {
-     "w": "esta",
-     "ini": 1058.793,
-     "fim": 1059.053
-    },
-    {
-     "w": "oração",
-     "ini": 1059.053,
-     "fim": 1059.4
-    },
-    {
-     "w": "agora.",
-     "ini": 1059.4,
-     "fim": 1059.7
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Que o Senhor te abençoe e te guarde. Que o Senhor faça o Seu rosto brilhar sobre você, e tenha misericórdia de você. Que o Senhor volte o Seu rosto para você, e te dê a paz.",
-   "tag_visual": "lua",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 58,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1063.02,
-   "fim": 1094.94,
-   "duracao": 31.92,
-   "palavras": [
-    {
-     "w": "Que",
-     "ini": 1063.02,
-     "fim": 1063.98
-    },
-    {
-     "w": "o",
-     "ini": 1063.98,
-     "fim": 1064.03
-    },
-    {
-     "w": "Senhor",
-     "ini": 1063.98,
-     "fim": 1064.24
-    },
-    {
-     "w": "te",
-     "ini": 1064.24,
-     "fim": 1064.46
-    },
-    {
-     "w": "abençoe",
-     "ini": 1064.46,
-     "fim": 1064.84
-    },
-    {
-     "w": "e",
-     "ini": 1081.46,
-     "fim": 1082.42
-    },
-    {
-     "w": "te",
-     "ini": 1083.02,
-     "fim": 1083.34
-    },
-    {
-     "w": "guarde.",
-     "ini": 1083.34,
-     "fim": 1083.961
-    },
-    {
-     "w": "Que",
-     "ini": 1083.961,
-     "fim": 1084.306
-    },
-    {
-     "w": "o",
-     "ini": 1084.306,
-     "fim": 1084.513
-    },
-    {
-     "w": "Senhor",
-     "ini": 1084.513,
-     "fim": 1085.065
-    },
-    {
-     "w": "faça",
-     "ini": 1085.065,
-     "fim": 1085.479
-    },
-    {
-     "w": "o",
-     "ini": 1085.479,
-     "fim": 1085.686
-    },
-    {
-     "w": "Seu",
-     "ini": 1085.686,
-     "fim": 1086.03
-    },
-    {
-     "w": "rosto",
-     "ini": 1086.03,
-     "fim": 1086.513
-    },
-    {
-     "w": "brilhar",
-     "ini": 1086.513,
-     "fim": 1087.134
-    },
-    {
-     "w": "sobre",
-     "ini": 1087.134,
-     "fim": 1087.617
-    },
-    {
-     "w": "você,",
-     "ini": 1087.617,
-     "fim": 1088.1
-    },
-    {
-     "w": "e",
-     "ini": 1088.1,
-     "fim": 1089.5
-    },
-    {
-     "w": "tenha",
-     "ini": 1089.5,
-     "fim": 1089.55
-    },
-    {
-     "w": "misericórdia",
-     "ini": 1089.5,
-     "fim": 1089.55
-    },
-    {
-     "w": "de",
-     "ini": 1089.5,
-     "fim": 1089.6
-    },
-    {
-     "w": "você.",
-     "ini": 1089.6,
-     "fim": 1090.079
-    },
-    {
-     "w": "Que",
-     "ini": 1090.079,
-     "fim": 1090.422
-    },
-    {
-     "w": "o",
-     "ini": 1090.422,
-     "fim": 1090.627
-    },
-    {
-     "w": "Senhor",
-     "ini": 1090.627,
-     "fim": 1091.175
-    },
-    {
-     "w": "volte",
-     "ini": 1091.175,
-     "fim": 1091.654
-    },
-    {
-     "w": "o",
-     "ini": 1091.654,
-     "fim": 1091.859
-    },
-    {
-     "w": "Seu",
-     "ini": 1091.859,
-     "fim": 1092.202
-    },
-    {
-     "w": "rosto",
-     "ini": 1092.202,
-     "fim": 1092.681
-    },
-    {
-     "w": "para",
-     "ini": 1092.681,
-     "fim": 1093.092
-    },
-    {
-     "w": "você,",
-     "ini": 1093.092,
-     "fim": 1093.571
-    },
-    {
-     "w": "e",
-     "ini": 1093.571,
-     "fim": 1093.776
-    },
-    {
-     "w": "te",
-     "ini": 1093.776,
-     "fim": 1094.05
-    },
-    {
-     "w": "dê",
-     "ini": 1094.05,
-     "fim": 1094.324
-    },
-    {
-     "w": "a",
-     "ini": 1094.324,
-     "fim": 1094.529
-    },
-    {
-     "w": "paz.",
-     "ini": 1094.529,
-     "fim": 1094.94
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Agora, descansa. Não há mais nada a fazer esta noite. Tudo está nas mãos de Deus.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 59,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1094.94,
-   "fim": 1108.199,
-   "duracao": 13.259,
-   "palavras": [
-    {
-     "w": "Agora,",
-     "ini": 1094.94,
-     "fim": 1096.34
-    },
-    {
-     "w": "descansa.",
-     "ini": 1096.34,
-     "fim": 1097.789
-    },
-    {
-     "w": "Não",
-     "ini": 1097.789,
-     "fim": 1098.448
-    },
-    {
-     "w": "há",
-     "ini": 1098.448,
-     "fim": 1098.975
+     "w": "muito",
+     "ini": 464.4,
+     "fim": 464.66
     },
     {
      "w": "mais",
-     "ini": 1098.975,
-     "fim": 1099.766
+     "ini": 464.66,
+     "fim": 465.0
     },
     {
-     "w": "nada",
-     "ini": 1099.766,
-     "fim": 1100.557
+     "w": "do",
+     "ini": 465.0,
+     "fim": 465.2
     },
     {
-     "w": "a",
-     "ini": 1100.557,
-     "fim": 1100.952
+     "w": "que",
+     "ini": 465.2,
+     "fim": 465.32
     },
     {
-     "w": "fazer",
-     "ini": 1100.952,
-     "fim": 1101.874
-    },
-    {
-     "w": "esta",
-     "ini": 1101.874,
-     "fim": 1102.665
-    },
-    {
-     "w": "noite.",
-     "ini": 1102.665,
-     "fim": 1103.719
-    },
-    {
-     "w": "Tudo",
-     "ini": 1103.719,
-     "fim": 1104.51
-    },
-    {
-     "w": "está",
-     "ini": 1104.51,
-     "fim": 1105.3
-    },
-    {
-     "w": "nas",
-     "ini": 1105.3,
-     "fim": 1105.959
-    },
-    {
-     "w": "mãos",
-     "ini": 1105.959,
-     "fim": 1106.75
-    },
-    {
-     "w": "de",
-     "ini": 1106.75,
-     "fim": 1107.277
-    },
-    {
-     "w": "Deus.",
-     "ini": 1107.277,
-     "fim": 1108.199
+     "w": "eles?",
+     "ini": 465.32,
+     "fim": 465.58
     }
    ]
   },
   {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Respira devagar. Deixa o corpo pesar. Deixa o coração aquietar.",
-   "tag_visual": "ceu_noturno",
+   "bloco": "passaros",
+   "titulo_bloco": "Olhem para os pássaros",
+   "frase": "E Tu perguntaste: quem de vocês, por mais que se preocupe, consegue acrescentar uma única hora à própria vida?",
+   "tag_visual": "dolomitas",
    "mostrar_texto": false,
    "referencia": null,
-   "idx": 60,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1108.199,
-   "fim": 1117.95,
-   "duracao": 9.751,
+   "idx": 20,
+   "wav": "work/s128/s128.wav",
+   "inicio": 468.44,
+   "fim": 479.88,
+   "duracao": 11.44,
    "palavras": [
     {
-     "w": "Respira",
-     "ini": 1108.199,
-     "fim": 1109.385
+     "w": "E",
+     "ini": 468.44,
+     "fim": 469.14
     },
     {
-     "w": "devagar.",
-     "ini": 1109.385,
-     "fim": 1110.703
+     "w": "Tu",
+     "ini": 469.14,
+     "fim": 469.24
     },
     {
-     "w": "Deixa",
-     "ini": 1110.703,
-     "fim": 1111.625
+     "w": "perguntaste:",
+     "ini": 469.24,
+     "fim": 470.0
+    },
+    {
+     "w": "quem",
+     "ini": 471.34,
+     "fim": 472.06
+    },
+    {
+     "w": "de",
+     "ini": 472.06,
+     "fim": 472.2
+    },
+    {
+     "w": "vocês,",
+     "ini": 472.2,
+     "fim": 472.6
+    },
+    {
+     "w": "por",
+     "ini": 472.9,
+     "fim": 473.0
+    },
+    {
+     "w": "mais",
+     "ini": 473.0,
+     "fim": 473.3
+    },
+    {
+     "w": "que",
+     "ini": 473.3,
+     "fim": 473.44
+    },
+    {
+     "w": "se",
+     "ini": 473.44,
+     "fim": 473.6
+    },
+    {
+     "w": "preocupe,",
+     "ini": 473.6,
+     "fim": 474.28
+    },
+    {
+     "w": "consegue",
+     "ini": 476.44,
+     "fim": 476.7
+    },
+    {
+     "w": "acrescentar",
+     "ini": 476.7,
+     "fim": 477.46
+    },
+    {
+     "w": "uma",
+     "ini": 477.46,
+     "fim": 477.7
+    },
+    {
+     "w": "única",
+     "ini": 477.7,
+     "fim": 478.12
+    },
+    {
+     "w": "hora",
+     "ini": 478.12,
+     "fim": 478.54
+    },
+    {
+     "w": "à",
+     "ini": 478.54,
+     "fim": 478.59
+    },
+    {
+     "w": "própria",
+     "ini": 478.54,
+     "fim": 478.96
+    },
+    {
+     "w": "vida?",
+     "ini": 479.32,
+     "fim": 479.88
+    }
+   ]
+  },
+  {
+   "bloco": "passaros",
+   "titulo_bloco": "Olhem para os pássaros",
+   "frase": "Senhor, a preocupação não me dá nem um minuto a mais. Só me rouba a paz. Então eu solto.",
+   "tag_visual": "estrelas_montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 21,
+   "wav": "work/s128/s128.wav",
+   "inicio": 482.86,
+   "fim": 498.5,
+   "duracao": 15.64,
+   "palavras": [
+    {
+     "w": "Senhor,",
+     "ini": 482.86,
+     "fim": 483.58
+    },
+    {
+     "w": "a",
+     "ini": 485.04,
+     "fim": 485.32
+    },
+    {
+     "w": "preocupação",
+     "ini": 485.32,
+     "fim": 485.94
+    },
+    {
+     "w": "não",
+     "ini": 485.94,
+     "fim": 486.2
+    },
+    {
+     "w": "me",
+     "ini": 486.2,
+     "fim": 486.34
+    },
+    {
+     "w": "dá",
+     "ini": 486.34,
+     "fim": 486.48
+    },
+    {
+     "w": "nem",
+     "ini": 486.48,
+     "fim": 486.669
+    },
+    {
+     "w": "um",
+     "ini": 486.669,
+     "fim": 486.82
+    },
+    {
+     "w": "minuto",
+     "ini": 486.82,
+     "fim": 487.3
+    },
+    {
+     "w": "a",
+     "ini": 487.3,
+     "fim": 487.44
+    },
+    {
+     "w": "mais.",
+     "ini": 487.44,
+     "fim": 487.76
+    },
+    {
+     "w": "Só",
+     "ini": 489.88,
+     "fim": 490.32
+    },
+    {
+     "w": "me",
+     "ini": 490.32,
+     "fim": 490.46
+    },
+    {
+     "w": "rouba",
+     "ini": 490.46,
+     "fim": 490.82
+    },
+    {
+     "w": "a",
+     "ini": 490.82,
+     "fim": 490.98
+    },
+    {
+     "w": "paz.",
+     "ini": 490.98,
+     "fim": 491.34
+    },
+    {
+     "w": "Então",
+     "ini": 494.24,
+     "fim": 495.12
+    },
+    {
+     "w": "eu",
+     "ini": 495.12,
+     "fim": 496.247
+    },
+    {
+     "w": "solto.",
+     "ini": 496.247,
+     "fim": 498.5
+    }
+   ]
+  },
+  {
+   "bloco": "passaros",
+   "titulo_bloco": "Olhem para os pássaros",
+   "frase": "Tu disseste ainda: não se preocupem com o amanhã. O amanhã cuidará de si mesmo. Basta a cada dia o seu próprio cuidado.",
+   "tag_visual": "vale_nevoa",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 22,
+   "wav": "work/s128/s128.wav",
+   "inicio": 498.5,
+   "fim": 512.82,
+   "duracao": 14.32,
+   "palavras": [
+    {
+     "w": "Tu",
+     "ini": 498.5,
+     "fim": 499.44
+    },
+    {
+     "w": "disseste",
+     "ini": 499.44,
+     "fim": 499.84
+    },
+    {
+     "w": "ainda:",
+     "ini": 499.84,
+     "fim": 500.34
+    },
+    {
+     "w": "não",
+     "ini": 502.06,
+     "fim": 502.36
+    },
+    {
+     "w": "se",
+     "ini": 502.36,
+     "fim": 502.56
+    },
+    {
+     "w": "preocupem",
+     "ini": 502.56,
+     "fim": 503.08
+    },
+    {
+     "w": "com",
+     "ini": 503.08,
+     "fim": 503.26
     },
     {
      "w": "o",
-     "ini": 1111.625,
-     "fim": 1112.02
+     "ini": 503.26,
+     "fim": 503.628
     },
     {
-     "w": "corpo",
-     "ini": 1112.02,
-     "fim": 1112.943
+     "w": "amanhã.",
+     "ini": 503.628,
+     "fim": 504.731
     },
     {
-     "w": "pesar.",
-     "ini": 1112.943,
-     "fim": 1113.997
+     "w": "O",
+     "ini": 504.731,
+     "fim": 505.099
     },
     {
-     "w": "Deixa",
-     "ini": 1113.997,
-     "fim": 1114.919
+     "w": "amanhã",
+     "ini": 505.099,
+     "fim": 506.08
+    },
+    {
+     "w": "cuidará",
+     "ini": 506.08,
+     "fim": 506.68
+    },
+    {
+     "w": "de",
+     "ini": 506.68,
+     "fim": 506.78
+    },
+    {
+     "w": "si",
+     "ini": 506.78,
+     "fim": 506.98
+    },
+    {
+     "w": "mesmo.",
+     "ini": 506.98,
+     "fim": 507.32
+    },
+    {
+     "w": "Basta",
+     "ini": 509.76,
+     "fim": 510.24
+    },
+    {
+     "w": "a",
+     "ini": 510.24,
+     "fim": 510.29
+    },
+    {
+     "w": "cada",
+     "ini": 510.24,
+     "fim": 510.52
+    },
+    {
+     "w": "dia",
+     "ini": 510.52,
+     "fim": 510.94
     },
     {
      "w": "o",
-     "ini": 1114.919,
-     "fim": 1115.315
+     "ini": 510.94,
+     "fim": 511.74
+    },
+    {
+     "w": "seu",
+     "ini": 511.74,
+     "fim": 511.86
+    },
+    {
+     "w": "próprio",
+     "ini": 511.86,
+     "fim": 512.3
+    },
+    {
+     "w": "cuidado.",
+     "ini": 512.3,
+     "fim": 512.82
+    }
+   ]
+  },
+  {
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "E na última noite com os discípulos, Tu falaste: deixo com vocês a minha paz. Não como o mundo dá. Não fiquem com o coração aflito, nem tenham medo.",
+   "tag_visual": "alpes",
+   "mostrar_texto": true,
+   "referencia": "João 14:27",
+   "idx": 23,
+   "wav": "work/s128/s128.wav",
+   "inicio": 517.64,
+   "fim": 539.54,
+   "duracao": 21.9,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 517.64,
+     "fim": 518.44
+    },
+    {
+     "w": "na",
+     "ini": 518.44,
+     "fim": 518.56
+    },
+    {
+     "w": "última",
+     "ini": 518.56,
+     "fim": 518.82
+    },
+    {
+     "w": "noite",
+     "ini": 518.82,
+     "fim": 519.26
+    },
+    {
+     "w": "com",
+     "ini": 519.26,
+     "fim": 519.52
+    },
+    {
+     "w": "os",
+     "ini": 519.52,
+     "fim": 519.62
+    },
+    {
+     "w": "discípulos,",
+     "ini": 519.62,
+     "fim": 520.36
+    },
+    {
+     "w": "Tu",
+     "ini": 521.6,
+     "fim": 522.0
+    },
+    {
+     "w": "falaste:",
+     "ini": 522.0,
+     "fim": 522.56
+    },
+    {
+     "w": "deixo",
+     "ini": 524.66,
+     "fim": 525.46
+    },
+    {
+     "w": "com",
+     "ini": 525.46,
+     "fim": 525.6
+    },
+    {
+     "w": "vocês",
+     "ini": 525.6,
+     "fim": 526.0
+    },
+    {
+     "w": "a",
+     "ini": 526.0,
+     "fim": 526.26
+    },
+    {
+     "w": "minha",
+     "ini": 526.26,
+     "fim": 526.38
+    },
+    {
+     "w": "paz.",
+     "ini": 526.38,
+     "fim": 526.82
+    },
+    {
+     "w": "Não",
+     "ini": 530.06,
+     "fim": 530.32
+    },
+    {
+     "w": "como",
+     "ini": 530.32,
+     "fim": 530.64
+    },
+    {
+     "w": "o",
+     "ini": 530.64,
+     "fim": 530.74
+    },
+    {
+     "w": "mundo",
+     "ini": 530.74,
+     "fim": 530.96
+    },
+    {
+     "w": "dá.",
+     "ini": 530.96,
+     "fim": 531.34
+    },
+    {
+     "w": "Não",
+     "ini": 531.34,
+     "fim": 534.68
+    },
+    {
+     "w": "fiquem",
+     "ini": 534.68,
+     "fim": 534.98
+    },
+    {
+     "w": "com",
+     "ini": 534.98,
+     "fim": 535.18
+    },
+    {
+     "w": "o",
+     "ini": 535.18,
+     "fim": 535.58
     },
     {
      "w": "coração",
-     "ini": 1115.315,
-     "fim": 1116.5
+     "ini": 535.58,
+     "fim": 535.63
     },
     {
-     "w": "aquietar.",
-     "ini": 1116.5,
-     "fim": 1117.95
+     "w": "aflito,",
+     "ini": 535.58,
+     "fim": 538.02
+    },
+    {
+     "w": "nem",
+     "ini": 538.02,
+     "fim": 538.9
+    },
+    {
+     "w": "tenham",
+     "ini": 538.9,
+     "fim": 539.12
+    },
+    {
+     "w": "medo.",
+     "ini": 539.12,
+     "fim": 539.54
     }
    ]
   },
   {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Deus está aqui. Ele cuida de você. Ele não dorme.",
-   "tag_visual": "montanha",
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Eu recebo a Tua paz, Jesus. Aqui, nesta cama, nesta noite.",
+   "tag_visual": "lago_alpino",
    "mostrar_texto": false,
    "referencia": null,
-   "idx": 61,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1117.95,
-   "fim": 1125.856,
-   "duracao": 7.906,
+   "idx": 24,
+   "wav": "work/s128/s128.wav",
+   "inicio": 544.78,
+   "fim": 555.22,
+   "duracao": 10.44,
    "palavras": [
     {
-     "w": "Deus",
-     "ini": 1117.95,
-     "fim": 1118.74
+     "w": "Eu",
+     "ini": 544.78,
+     "fim": 545.66
     },
     {
-     "w": "está",
-     "ini": 1118.74,
-     "fim": 1119.531
-    },
-    {
-     "w": "aqui.",
-     "ini": 1119.531,
-     "fim": 1120.453
-    },
-    {
-     "w": "Ele",
-     "ini": 1120.453,
-     "fim": 1121.112
-    },
-    {
-     "w": "cuida",
-     "ini": 1121.112,
-     "fim": 1122.035
-    },
-    {
-     "w": "de",
-     "ini": 1122.035,
-     "fim": 1122.562
-    },
-    {
-     "w": "você.",
-     "ini": 1122.562,
-     "fim": 1123.484
-    },
-    {
-     "w": "Ele",
-     "ini": 1123.484,
-     "fim": 1124.143
-    },
-    {
-     "w": "não",
-     "ini": 1124.143,
-     "fim": 1124.802
-    },
-    {
-     "w": "dorme.",
-     "ini": 1124.802,
-     "fim": 1125.856
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Dorme em paz.",
-   "tag_visual": "lago_montanha",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 62,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1125.856,
-   "fim": 1128.096,
-   "duracao": 2.24,
-   "palavras": [
-    {
-     "w": "Dorme",
-     "ini": 1125.856,
-     "fim": 1126.778
-    },
-    {
-     "w": "em",
-     "ini": 1126.778,
-     "fim": 1127.305
-    },
-    {
-     "w": "paz.",
-     "ini": 1127.305,
-     "fim": 1128.096
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Em nome de Jesus. Amém.",
-   "tag_visual": "ceu_noturno",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 63,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1128.096,
-   "fim": 1131.917,
-   "duracao": 3.821,
-   "palavras": [
-    {
-     "w": "Em",
-     "ini": 1128.096,
-     "fim": 1128.623
-    },
-    {
-     "w": "nome",
-     "ini": 1128.623,
-     "fim": 1129.414
-    },
-    {
-     "w": "de",
-     "ini": 1129.414,
-     "fim": 1129.941
-    },
-    {
-     "w": "Jesus.",
-     "ini": 1129.941,
-     "fim": 1130.995
-    },
-    {
-     "w": "Amém.",
-     "ini": 1130.995,
-     "fim": 1131.917
-    }
-   ]
-  },
-  {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "e te dê a paz. Agora, descansa. Tudo está nas mãos de Deus. Ele cuida de você. Ele não dorme. Dorme em paz. Em nome de Jesus, amém.",
-   "tag_visual": "paisagem_aerea",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 64,
-   "wav": "work/noite19/noite.wav",
-   "inicio": 1131.917,
-   "fim": 1153.0,
-   "duracao": 21.083,
-   "palavras": [
-    {
-     "w": "e",
-     "ini": 1131.917,
-     "fim": 1132.313
-    },
-    {
-     "w": "te",
-     "ini": 1132.313,
-     "fim": 1132.84
-    },
-    {
-     "w": "dê",
-     "ini": 1132.84,
-     "fim": 1133.367
+     "w": "recebo",
+     "ini": 545.66,
+     "fim": 546.16
     },
     {
      "w": "a",
-     "ini": 1133.367,
-     "fim": 1133.762
+     "ini": 546.16,
+     "fim": 546.28
     },
     {
-     "w": "paz.",
-     "ini": 1133.762,
-     "fim": 1134.553
+     "w": "Tua",
+     "ini": 546.28,
+     "fim": 546.38
     },
     {
-     "w": "Agora,",
-     "ini": 1134.553,
-     "fim": 1135.607
+     "w": "paz,",
+     "ini": 546.38,
+     "fim": 546.92
     },
     {
-     "w": "descansa.",
-     "ini": 1135.607,
-     "fim": 1137.056
+     "w": "Jesus.",
+     "ini": 549.14,
+     "fim": 551.26
     },
     {
-     "w": "Tudo",
-     "ini": 1137.056,
-     "fim": 1137.847
+     "w": "Aqui,",
+     "ini": 551.26,
+     "fim": 552.03
     },
     {
-     "w": "está",
-     "ini": 1137.847,
-     "fim": 1138.637
+     "w": "nesta",
+     "ini": 552.03,
+     "fim": 552.8
     },
     {
-     "w": "nas",
-     "ini": 1138.637,
-     "fim": 1139.296
+     "w": "cama,",
+     "ini": 552.8,
+     "fim": 553.57
     },
     {
-     "w": "mãos",
-     "ini": 1139.296,
-     "fim": 1140.087
+     "w": "nesta",
+     "ini": 553.57,
+     "fim": 554.34
     },
     {
-     "w": "de",
-     "ini": 1140.087,
-     "fim": 1140.614
-    },
-    {
-     "w": "Deus.",
-     "ini": 1140.614,
-     "fim": 1141.536
-    },
-    {
-     "w": "Ele",
-     "ini": 1141.536,
-     "fim": 1142.195
-    },
-    {
-     "w": "cuida",
-     "ini": 1142.195,
-     "fim": 1143.117
-    },
-    {
-     "w": "de",
-     "ini": 1143.117,
-     "fim": 1143.645
-    },
-    {
-     "w": "você.",
-     "ini": 1143.645,
-     "fim": 1144.567
-    },
-    {
-     "w": "Ele",
-     "ini": 1144.567,
-     "fim": 1145.226
-    },
-    {
-     "w": "não",
-     "ini": 1145.226,
-     "fim": 1145.885
-    },
-    {
-     "w": "dorme.",
-     "ini": 1145.885,
-     "fim": 1146.939
-    },
-    {
-     "w": "Dorme",
-     "ini": 1146.939,
-     "fim": 1147.861
-    },
-    {
-     "w": "em",
-     "ini": 1147.861,
-     "fim": 1148.388
-    },
-    {
-     "w": "paz.",
-     "ini": 1148.388,
-     "fim": 1149.179
-    },
-    {
-     "w": "Em",
-     "ini": 1149.179,
-     "fim": 1149.706
-    },
-    {
-     "w": "nome",
-     "ini": 1149.706,
-     "fim": 1150.496
-    },
-    {
-     "w": "de",
-     "ini": 1150.496,
-     "fim": 1151.023
-    },
-    {
-     "w": "Jesus,",
-     "ini": 1151.023,
-     "fim": 1152.078
-    },
-    {
-     "w": "amém.",
-     "ini": 1152.078,
-     "fim": 1153.0
+     "w": "noite.",
+     "ini": 554.34,
+     "fim": 555.22
     }
    ]
   },
   {
-   "bloco": "bencao",
-   "titulo_bloco": "Bênção final e Amém",
-   "frase": "Escreva amém nos comentários",
-   "tag_visual": "ceu_noturno",
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Paulo lembrou a Timóteo que Deus não nos deu um espírito de medo, mas de poder, de amor e de equilíbrio.",
+   "tag_visual": "estrelas_montanha",
    "mostrar_texto": false,
    "referencia": null,
-   "idx": 65,
+   "idx": 25,
+   "wav": "work/s128/s128.wav",
+   "inicio": 555.22,
+   "fim": 568.0,
+   "duracao": 12.78,
+   "palavras": [
+    {
+     "w": "Paulo",
+     "ini": 555.22,
+     "fim": 556.1
+    },
+    {
+     "w": "lembrou",
+     "ini": 556.1,
+     "fim": 556.56
+    },
+    {
+     "w": "a",
+     "ini": 556.56,
+     "fim": 556.68
+    },
+    {
+     "w": "Timóteo",
+     "ini": 556.68,
+     "fim": 557.04
+    },
+    {
+     "w": "que",
+     "ini": 557.04,
+     "fim": 559.28
+    },
+    {
+     "w": "Deus",
+     "ini": 559.28,
+     "fim": 559.56
+    },
+    {
+     "w": "não",
+     "ini": 559.56,
+     "fim": 559.78
+    },
+    {
+     "w": "nos",
+     "ini": 559.78,
+     "fim": 560.0
+    },
+    {
+     "w": "deu",
+     "ini": 560.0,
+     "fim": 560.14
+    },
+    {
+     "w": "um",
+     "ini": 560.14,
+     "fim": 560.32
+    },
+    {
+     "w": "espírito",
+     "ini": 560.32,
+     "fim": 560.86
+    },
+    {
+     "w": "de",
+     "ini": 560.86,
+     "fim": 561.06
+    },
+    {
+     "w": "medo,",
+     "ini": 561.06,
+     "fim": 561.4
+    },
+    {
+     "w": "mas",
+     "ini": 563.06,
+     "fim": 563.94
+    },
+    {
+     "w": "de",
+     "ini": 563.94,
+     "fim": 564.12
+    },
+    {
+     "w": "poder,",
+     "ini": 564.12,
+     "fim": 564.54
+    },
+    {
+     "w": "de",
+     "ini": 565.36,
+     "fim": 565.78
+    },
+    {
+     "w": "amor",
+     "ini": 565.78,
+     "fim": 566.14
+    },
+    {
+     "w": "e",
+     "ini": 566.14,
+     "fim": 567.3
+    },
+    {
+     "w": "de",
+     "ini": 567.3,
+     "fim": 567.38
+    },
+    {
+     "w": "equilíbrio.",
+     "ini": 567.38,
+     "fim": 568.0
+    }
+   ]
+  },
+  {
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Então eu durmo sem medo. A Tua paz guarda o meu coração.",
+   "tag_visual": "picos_neve",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 26,
+   "wav": "work/s128/s128.wav",
+   "inicio": 571.96,
+   "fim": 578.86,
+   "duracao": 6.9,
+   "palavras": [
+    {
+     "w": "Então",
+     "ini": 571.96,
+     "fim": 572.62
+    },
+    {
+     "w": "eu",
+     "ini": 572.62,
+     "fim": 572.86
+    },
+    {
+     "w": "durmo",
+     "ini": 572.86,
+     "fim": 573.06
+    },
+    {
+     "w": "sem",
+     "ini": 573.06,
+     "fim": 573.38
+    },
+    {
+     "w": "medo.",
+     "ini": 573.38,
+     "fim": 573.78
+    },
+    {
+     "w": "A",
+     "ini": 575.74,
+     "fim": 576.02
+    },
+    {
+     "w": "Tua",
+     "ini": 576.02,
+     "fim": 576.16
+    },
+    {
+     "w": "paz",
+     "ini": 576.16,
+     "fim": 576.7
+    },
+    {
+     "w": "guarda",
+     "ini": 576.7,
+     "fim": 578.12
+    },
+    {
+     "w": "o",
+     "ini": 578.12,
+     "fim": 578.22
+    },
+    {
+     "w": "meu",
+     "ini": 578.22,
+     "fim": 578.3
+    },
+    {
+     "w": "coração.",
+     "ini": 578.3,
+     "fim": 578.86
+    }
+   ]
+  },
+  {
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Boa noite, Senhor.",
+   "tag_visual": "cordilheira",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 27,
+   "wav": "work/s128/s128.wav",
+   "inicio": 583.9,
+   "fim": 585.32,
+   "duracao": 1.42,
+   "palavras": [
+    {
+     "w": "Boa",
+     "ini": 583.9,
+     "fim": 584.56
+    },
+    {
+     "w": "noite,",
+     "ini": 584.56,
+     "fim": 584.9
+    },
+    {
+     "w": "Senhor.",
+     "ini": 585.14,
+     "fim": 585.32
+    }
+   ]
+  },
+  {
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Em nome de Jesus. Amém.",
+   "tag_visual": "dolomitas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 28,
+   "wav": "work/s128/s128.wav",
+   "inicio": 587.34,
+   "fim": 601.56,
+   "duracao": 14.22,
+   "palavras": [
+    {
+     "w": "Em",
+     "ini": 587.34,
+     "fim": 591.06
+    },
+    {
+     "w": "nome",
+     "ini": 591.06,
+     "fim": 591.28
+    },
+    {
+     "w": "de",
+     "ini": 591.28,
+     "fim": 591.58
+    },
+    {
+     "w": "Jesus.",
+     "ini": 591.58,
+     "fim": 591.86
+    },
+    {
+     "w": "Amém.",
+     "ini": 600.16,
+     "fim": 601.56
+    }
+   ]
+  },
+  {
+   "bloco": "paz",
+   "titulo_bloco": "Deixo com vocês a minha paz",
+   "frase": "Escreva amém nos comentários",
+   "tag_visual": "alpes",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 29,
    "wav": null,
-   "inicio": 1154.5,
-   "fim": 1160.0,
+   "inicio": 620.5,
+   "fim": 626.0,
    "duracao": 5.5,
    "palavras": [
     {
      "w": "Escreva",
-     "ini": 1154.5,
-     "fim": 1155.1
+     "ini": 620.5,
+     "fim": 621.1
     },
     {
      "w": "amém",
-     "ini": 1155.1,
-     "fim": 1155.7
+     "ini": 621.1,
+     "fim": 621.7
     },
     {
      "w": "nos",
-     "ini": 1155.7,
-     "fim": 1156.3
+     "ini": 621.7,
+     "fim": 622.3
     },
     {
      "w": "comentários",
-     "ini": 1156.3,
-     "fim": 1156.9
+     "ini": 622.3,
+     "fim": 622.9
     }
    ]
   }

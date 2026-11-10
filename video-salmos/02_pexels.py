@@ -26,6 +26,8 @@ QUERIES = {
  "aguia": "eagle flying", "fogo_lareira": "fireplace cozy",
  "paisagem_aerea": "aerial mountains landscape", "lago_montanha": "mountain lake reflection",
  "cachoeira": "waterfall nature", "campo_flores": "flower field sunset", "vale_nevoa": "misty valley sunrise",
+ "alpes": "alps mountains aerial sunrise", "picos_neve": "snowy mountain peaks clouds", "dolomitas": "dolomites mountains",
+ "cordilheira": "mountain range golden hour", "estrelas_montanha": "milky way over mountains", "lago_alpino": "alpine lake mountains drone",
 }
 # tags parecidas para quando o pool de uma tag se esgota dentro da janela de 10 min
 RELACIONADAS = {
@@ -37,15 +39,20 @@ RELACIONADAS = {
  "aguia": ["montanha", "luz_divina"], "fogo_lareira": ["vela"],
  "paisagem_aerea": ["montanha", "vale_nevoa"], "lago_montanha": ["montanha", "paisagem_aerea"],
  "cachoeira": ["rio", "floresta"], "campo_flores": ["campo", "nascer_sol"], "vale_nevoa": ["montanha", "paisagem_aerea"],
+ "alpes": ["picos_neve", "cordilheira", "montanha"], "picos_neve": ["alpes", "dolomitas"], "dolomitas": ["alpes", "picos_neve"],
+ "cordilheira": ["alpes", "paisagem_aerea"], "estrelas_montanha": ["ceu_noturno", "lua"], "lago_alpino": ["lago_montanha", "alpes"],
 }
 BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|hike|hiker|hikers|hiking|walking|walk|runner|silhouette-of-a|traveler|climber|backpacker|fisherman|surfer|boat|kayak|drone-shot-of-a-city|timelapse-of-a-city)\b"
 BANIDAS_MAOS = r"\b(face|portrait|smiling|selfie|crowd|city|street|text|logo|child|kid|couple)\b"
 JANELA_SEM_REPETIR = 600  # s
+# clipes usados em vídeos anteriores (clips/usados.json) não entram em vídeo novo, a não ser que o pool acabe
+USADOS_ANTES = set(json.load(open("clips/usados.json"))) if os.path.exists("clips/usados.json") else set()
 CENA_MAX = float(os.environ.get("CENA_MAX", 7.5))  # s; frases longas ganham um clipe a cada ~7,5 s
 POOL_MAX, DUR_MIN = 25, 8
 # tags de natureza aparecem muito no roteiro: pool maior para variar mais
 POOL_NATUREZA = {"ceu_noturno", "lua", "luz_divina", "nascer_sol", "montanha", "rio", "campo", "floresta", "mar_calmo",
-                 "paisagem_aerea", "lago_montanha", "cachoeira", "campo_flores", "vale_nevoa"}
+                 "paisagem_aerea", "lago_montanha", "cachoeira", "campo_flores", "vale_nevoa",
+                 "alpes", "picos_neve", "dolomitas", "cordilheira", "estrelas_montanha", "lago_alpino"}
 def alvo(tag): return 35 if tag in POOL_NATUREZA else POOL_MAX
 os.makedirs("clips/thumbs", exist_ok=True); os.makedirs("out", exist_ok=True)
 
@@ -93,11 +100,11 @@ def montar_pools():
     for tag, q in QUERIES.items():
         if tag in pools:
             pools[tag] = [c for c in pools[tag] if c["id"] not in bloqueados]
-            if len(pools[tag]) >= 15: continue  # pools já revisados visualmente; só completa se ficar < 15
+            if sum(c["id"] not in USADOS_ANTES for c in pools[tag]) >= 20: continue  # já tem 20 clipes nunca usados
         print(f"[pool] {tag}: '{q}'")
         cands = list(pools.get(tag, [])); vistos = {c["id"] for c in cands}
-        for page in range(1, 6):  # 2 páginas normalmente; mais se o pool ainda não chegou ao alvo
-            if page > 2 and len(cands) >= alvo(tag): break
+        for page in range(1, 11):  # vai buscando páginas até ter clipes novos suficientes
+            if page > 2 and sum(c["id"] not in USADOS_ANTES for c in cands) >= alvo(tag): break
             d = api("https://api.pexels.com/videos/search?" + urllib.parse.urlencode(
                 {"query": q, "orientation": "landscape", "size": "medium", "per_page": 15, "page": page}))
             for v in d.get("videos", []):
@@ -110,7 +117,8 @@ def montar_pools():
                 cands.append({"id": v["id"], "tag": tag, "duracao": v["duration"], "autor": v["user"]["name"],
                               "autor_url": v["user"]["url"], "url": v["url"], "slug": slug(v), "thumb": v["image"],
                               "arquivo": f["link"], "w": f["width"], "h": f["height"], "fps": f.get("fps")})
-        pools[tag] = cands[:alvo(tag)]
+        novos = [c for c in cands if c["id"] not in USADOS_ANTES]
+        pools[tag] = novos[:alvo(tag)] + [c for c in cands if c["id"] in USADOS_ANTES][:10]
         for c in pools[tag]:
             if os.path.exists(f"clips/thumbs/{c['id']}.jpg"): continue
             baixar(c["thumb"] + ("&" if "?" in c["thumb"] else "?") + "w=320", f"clips/thumbs/{c['id']}.jpg")
@@ -141,7 +149,8 @@ def montar_cenas(pools):
     for c in cenas:
         escolha = None
         for tag in [c["tag"]] + RELACIONADAS[c["tag"]]:
-            livres = [k for k in pools[tag] if c["inicio"] - usados_em.get(k["id"], -1e9) >= JANELA_SEM_REPETIR]
+            livres = [k for k in pools[tag] if c["inicio"] - usados_em.get(k["id"], -1e9) >= JANELA_SEM_REPETIR
+                      and k["id"] not in USADOS_ANTES]
             if livres:
                 escolha = min(livres, key=lambda k: usados_em.get(k["id"], -1e9)); break
         if escolha is None:  # tudo usado nos últimos 10 min: pega o usado há mais tempo

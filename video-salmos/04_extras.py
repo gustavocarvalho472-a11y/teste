@@ -16,7 +16,7 @@ def mmss(s):
     s = int(s); return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60:02d}:{s % 60:02d}"
 
 # ---------- legenda ----------
-with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt", "ansiedade": "out/legenda_ansiedade.srt", "salmo1": "out/legenda_salmo1.srt", "noite19": "out/legenda_noite19.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
+with open({"v2": "out/legenda_v2.srt", "esperanca": "out/legenda_esperanca.srt", "ansiedade": "out/legenda_ansiedade.srt", "salmo1": "out/legenda_salmo1.srt", "noite19": "out/legenda_noite19.srt", "s128": "out/legenda_s128.srt"}.get(os.environ.get("VIDEO", ""), "out/legenda.srt"), "w", encoding="utf-8") as f:
     for n, fr in enumerate(frases, 1):
         linhas = textwrap.wrap(fr["frase"], 42)
         if len(linhas) > 2:  # reequilibra em 2 linhas
@@ -41,7 +41,35 @@ ESP = VID == "esperanca"
 ANS = VID == "ansiedade"
 S1 = VID == "salmo1"
 N19 = VID == "noite19"
-if N19:
+S128 = VID == "s128"
+if S128:
+    TITULO = "ORAÇÃO DA NOITE com o SALMO 128 - A Paz Que Vence a Ansiedade - Durma em Paz"
+    ALTERNATIVAS = [
+        "Oração Para Ansiedade Antes de Dormir - Salmo 128 e Filipenses 4 - Entregue Tudo a Deus",
+        "SALMO 128 Para Dormir - Bênção Para Sua Casa, Seu Trabalho e Sua Família",
+    ]
+    TAGS = ["salmo 128", "oração do salmo 128", "oração da noite", "oração para dormir", "oração para ansiedade",
+            "oração contra ansiedade", "filipenses 4 6 7", "mateus 6 34", "joão 14 27", "oração pela família",
+            "oração pelo trabalho", "bênção para minha casa", "oração antes de dormir", "oração com piano",
+            "paz de deus", "oração para acalmar a mente", "oração de hoje", "oração guiada"]
+    desc = f"""{TITULO}
+
+Uma oração da noite para entregar a Deus o seu dia, o seu trabalho e a sua família, com o Salmo 128, e depois descansar na paz que vence a ansiedade, com as promessas de Mateus 11, Filipenses 4, 1 Pedro 5, Mateus 6, João 14 e 2 Timóteo 1. Piano suave ao fundo, para ouvir deitado.
+
+Escreva AMÉM nos comentários e deixe o seu pedido de oração.
+
+Envie esta oração para alguém que anda ansioso.
+
+Inscreva-se e ative o sininho para receber uma nova oração toda noite.
+
+CAPÍTULOS
+{chr(10).join(caps)}
+
+Imagens: vídeos gratuitos do Pexels.
+
+#salmo128 #oraçãodanoite #oraçãoparaansiedade
+"""
+elif N19:
     TITULO = "ORAÇÃO DA NOITE: Durma na Presença de Deus - Salmos e Promessas Para Dormir em Paz"
     ALTERNATIVAS = [
         "Deus Não Dorme, Então Você Pode Descansar - Oração Para Dormir com Piano Suave",
@@ -213,7 +241,7 @@ else:
 
     {' '.join('#' + t.replace(' ', '') for t in ['oraçãodanoite', 'salmo91', 'oraçãoparadormir'])}
     """
-SUF = "_v2" if V2 else "_esperanca" if ESP else "_ansiedade" if ANS else "_salmo1" if S1 else "_noite19" if N19 else ""
+SUF = "_v2" if V2 else "_esperanca" if ESP else "_ansiedade" if ANS else "_salmo1" if S1 else "_noite19" if N19 else "_s128" if S128 else ""
 with open(f"out/descricao{SUF}.txt", "w", encoding="utf-8") as f:
     f.write("TÍTULO\n" + TITULO + "\n\nTÍTULOS ALTERNATIVOS\n" + "\n".join("- " + a for a in ALTERNATIVAS))
     f.write("\n\nTAGS (" + str(len(TAGS)) + ")\n" + ", ".join(TAGS) + "\n\n")
@@ -267,7 +295,27 @@ def clip_da_tag(tag, n=0):
     return ids[n % len(ids)]["arquivo_local"]
 
 OURO, CREME = (246, 206, 120, 255), (255, 246, 228, 255)
-if N19:
+if S128:
+    INTER = "fonts/Inter[opsz,wght].ttf"
+    def inter(size, var="Black"):
+        f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f
+    AMAR, BRANCO = (255, 214, 64, 255), (255, 255, 255, 255)
+    def linhas(img, itens, y0, gap=14):
+        d = ImageDraw.Draw(img); y = y0
+        for txt, size, cor in itens:
+            f = inter(size); texto_sombra(img, (640, y), txt, f, cor, anchor="mt", sombra=10, stroke=0)
+            y += d.textbbox((0, 0), txt, font=f)[3] + gap
+    img = vinheta(base(frame(clip_da_tag("alpes", 0), 3, "work/thumb/s128_a.png"), 0.9, quente=False), 0.45).convert("RGBA")
+    linhas(img, [("ORAÇÃO DA NOITE", 96, BRANCO), ("SALMO 128", 150, AMAR),
+                 ("A PAZ QUE VENCE", 72, BRANCO), ("A ANSIEDADE", 72, AMAR)], 100)
+    img.convert("RGB").save("out/thumb_A_s128.jpg", quality=92)
+    img = vinheta(base(frame(clip_da_tag("estrelas_montanha", 2), 3, "work/thumb/s128_b2.png"), 1.15, quente=False), 0.4).convert("RGBA")
+    linhas(img, [("ANSIEDADE", 120, AMAR), ("ANTES DE DORMIR?", 92, BRANCO),
+                 ("ORE ISSO E DESCANSE", 64, BRANCO)], 150, gap=22)
+    d = ImageDraw.Draw(img); d.line((470, 520, 810, 520), fill=(255, 214, 64, 200), width=3)
+    texto_sombra(img, (640, 570), "Salmo 128  ·  Filipenses 4  ·  João 14", inter(40, "SemiBold"), BRANCO, anchor="mm", sombra=6)
+    img.convert("RGB").save("out/thumb_B_s128.jpg", quality=92)
+elif N19:
     INTER = "fonts/Inter[opsz,wght].ttf"
     def inter(size, var="Black"):
         f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f

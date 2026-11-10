@@ -26,7 +26,11 @@ O trabalho deste repositório está em `video-salmos/` (branch `video-salmos`). 
 - Frases longas e fluidas, nada picado. Nunca "Deus me mostrou", revelação ou testemunho inventado.
 - Prosperidade como provisão, trabalho e paz; não prometer enriquecer.
 - Versículos em paráfrase própria baseada em Almeida.
-- Imagens só de natureza e paisagens: sem pessoas, mãos ou imagens de outras religiões.
+- Imagens só de natureza e paisagens: sem pessoas, mãos, cidades, estradas, casas ou imagens de outras religiões.
+- Nunca repetir clipes de vídeos anteriores: `clips/usados.json` guarda todos os IDs já usados e o `02_pexels.py` os evita (busca mais páginas no Pexels quando faltam clipes novos). Depois de entregar um vídeo, acrescente os IDs do `cenas.json` em `clips/usados.json`.
+- O vídeo começa com uma montanha (primeira frase com tag `alpes` ou outra de montanha), nunca com o mesmo céu estrelado.
+- Antes de renderizar, montar uma folha de contato com as miniaturas dos clipes escolhidos, olhar e bloquear (`clips/bloqueados.json`) os ruins.
+- Áudio do Suno: o texto exato está na conta do Suno (conector Suno, `audio-retrieve` traz `metadata.lyrics`); use `01c_externo.py` e `03_edit.py --musica-db -90` quando o áudio já tiver música.
 - Legenda centralizada, Inter bold branca, palavra por palavra; chuva leve e trilha suave ao fundo; -14 LUFS.
 - Thumbnails: texto grande em 3-4 linhas alternando branco e amarelo, fundo de natureza ou noite (estilo dos outliers pesquisados no vidIQ).
 - Descrição do YouTube até 5.000 caracteres (crédito do Pexels em uma linha). Marcar "conteúdo sintético" (voz de IA).

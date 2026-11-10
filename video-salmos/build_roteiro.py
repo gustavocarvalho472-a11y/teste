@@ -3,7 +3,8 @@ import json, re, sys, collections
 src = sys.argv[1] if len(sys.argv) > 1 else "roteiro_fonte.txt"
 TAGS = {"ceu_noturno","lua","nascer_sol","luz_divina","vela","biblia","maos_orando","campo",
         "pastor_ovelhas","rio","mar_calmo","montanha","floresta","chuva_janela","cruz","aguia","fogo_lareira",
-        "paisagem_aerea","lago_montanha","cachoeira","campo_flores","vale_nevoa"}
+        "paisagem_aerea","lago_montanha","cachoeira","campo_flores","vale_nevoa",
+        "alpes","picos_neve","dolomitas","cordilheira","estrelas_montanha","lago_alpino"}
 out, bloco, titulos, erros = [], None, {}, []
 for n, line in enumerate(open(src, encoding="utf-8"), 1):
     line = line.strip()

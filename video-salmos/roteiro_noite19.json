@@ -1,0 +1,522 @@
+[
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Nada nos separa do amor de Deus",
+  "frase": "Pai, o apóstolo Paulo escreveu aos Romanos que nada pode nos separar do Teu amor. Nem a morte, nem a vida. Nem o presente, nem o futuro. Nada em toda a criação.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Romanos 8"
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Nada nos separa do amor de Deus",
+  "frase": "Senhor, nada pode me separar de Ti. Nem o meu erro de hoje. Nem o meu medo de amanhã. Eu durmo envolvido pelo Teu amor.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "abertura",
+  "titulo_bloco": "Nada nos separa do amor de Deus",
+  "frase": "E Paulo também escreveu que todas as coisas cooperam para o bem daqueles que Te amam. Então, mesmo o que hoje eu não entendo, Tu estás usando para o meu bem.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "misericordias",
+  "titulo_bloco": "Misericórdias que se renovam",
+  "frase": "Pai, no livro de Lamentações, o profeta Jeremias escreveu, no meio da dor, que as Tuas misericórdias não têm fim. Que elas se renovam a cada manhã. E que grande é a Tua fidelidade.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Lamentações 3:22-23"
+ },
+ {
+  "bloco": "misericordias",
+  "titulo_bloco": "Misericórdias que se renovam",
+  "frase": "Amanhã será um novo dia. E a Tua misericórdia já estará lá, esperando por mim.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "misericordias",
+  "titulo_bloco": "Misericórdias que se renovam",
+  "frase": "O Salmo trinta diz que o choro pode durar uma noite, mas a alegria vem pela manhã.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "misericordias",
+  "titulo_bloco": "Misericórdias que se renovam",
+  "frase": "Senhor, se hoje eu chorei, Tu viste. Se hoje eu fiquei triste, Tu estavas perto. E eu creio que a alegria vai chegar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "misericordias",
+  "titulo_bloco": "Misericórdias que se renovam",
+  "frase": "Eu descanso nessa promessa.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Senhor, o Salmo quarenta e seis começa dizendo que Tu és o nosso refúgio e a nossa força. Um socorro sempre presente na hora da angústia. Por isso, não precisamos ter medo.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 46"
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Mesmo que a terra trema. Mesmo que os montes se movam. Mesmo que tudo ao redor pareça instável. Tu continuas firme.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "E no meio desse salmo, Tu dizes uma frase curta: Parem de lutar, e saibam que Eu sou Deus.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Pai, eu paro agora. Eu paro de lutar. Eu paro de tentar controlar tudo. Eu paro de ensaiar as conversas de amanhã.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Eu só fico aqui, quietinho, na Tua presença.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "O meu coração desacelera. Os meus pensamentos se acalmam. O meu corpo descansa.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Tu és Deus. E eu não preciso ser.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aquietai",
+  "titulo_bloco": "Aquietai-vos",
+  "frase": "Que alívio, Senhor. Que alívio saber que Tu estás no controle.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Não tenha medo",
+  "frase": "Pai, pelo profeta Isaías, Tu falaste ao Teu povo com tanto carinho. Disseste: não tenha medo, porque Eu estou com você. Não fique assustado, porque Eu sou o seu Deus. Eu vou te fortalecer. Eu vou te ajudar. Eu vou te segurar com a minha mão.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Isaías 41:10"
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Não tenha medo",
+  "frase": "Senhor, segura a minha mão esta noite. Se o medo voltar, lembra-me destas palavras. Se eu acordar no meio da madrugada, lembra-me de que Tu estás aqui.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Não tenha medo",
+  "frase": "E quando Josué precisou seguir em frente, sem saber o que viria, Tu disseste a ele: seja forte e corajoso. Não tenha medo, nem desanime, porque o Senhor, o seu Deus, estará com você por onde você andar.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Não tenha medo",
+  "frase": "Pai, por onde eu andar, Tu estás comigo. No trabalho, em casa, na rua. E também aqui, neste quarto, nesta cama.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "medo",
+  "titulo_bloco": "Não tenha medo",
+  "frase": "Eu não estou sozinho. Eu nunca estive sozinho.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Senhor, no Salmo cento e três, Davi conversa com a própria alma. Ele diz a si mesmo: não esqueça nenhum dos benefícios de Deus.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 103"
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Então, antes de dormir, eu quero lembrar.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Tu perdoas as minhas culpas. Tu cuidas das minhas dores. Tu me tiras do buraco. Tu me cercas de bondade e de compaixão.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Davi escreveu que, assim como um pai tem compaixão dos filhos, Tu tens compaixão de nós. Porque Tu sabes do que somos feitos. Tu sabes que somos frágeis.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Pai, obrigado por não exigir de mim o que eu não consigo dar. Obrigado por me amar mesmo nos dias em que eu falho.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Obrigado pela comida de hoje. Pelo ar que eu respiro. Pelas pessoas que me amam. Por esta cama, por este descanso.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Eu não quero esquecer. Tudo de bom que eu tenho veio de Ti.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "beneficios",
+  "titulo_bloco": "Não esquecer nenhum benefício",
+  "frase": "Obrigado, Senhor. Obrigado.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Senhor Jesus, quando os discípulos pediram que Tu os ensinasses a orar, Tu começaste chamando Deus de Pai.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:9-13"
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Pai. Não um Deus distante. Um Pai que está perto, e que ouve.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Que o Teu nome seja honrado na minha vida. Que a Tua vontade seja feita, e não a minha.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Dá-me hoje o que eu preciso. Nem mais, nem menos. Só o pão de cada dia.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Perdoa as minhas falhas. E me ensina a perdoar quem me feriu. Eu solto agora toda mágoa.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Não me deixes cair em tentação. E me livra de todo o mal.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "painosso",
+  "titulo_bloco": "Pai Nosso, frase por frase",
+  "frase": "Porque o reino é Teu. O poder é Teu. E a glória é Tua, para sempre.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "Pai, o Salmo cento e vinte e sete diz algo tão bonito. Diz que é inútil levantar cedo e dormir tarde, se esforçando com ansiedade, porque Tu dás o sono àqueles que Tu amas.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": true,
+  "referencia": "Salmo 127:2"
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "Senhor, o sono é um presente Teu. Eu não preciso conquistar o descanso. Eu só preciso receber.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "Então eu recebo agora. Eu recebo o Teu descanso.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "E Davi, no Salmo quatro, escreveu: eu me deito em paz, e logo adormeço, porque só Tu me fazes viver em segurança.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "Pai, os meus olhos estão pesados. A minha respiração está mais lenta. O meu corpo está pronto para descansar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sono",
+  "titulo_bloco": "O sono é um presente",
+  "frase": "Eu me entrego a Ti. Por inteiro.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Os pássaros e as flores do campo",
+  "frase": "Jesus, no sermão do monte, Tu pediste que olhássemos para os pássaros. Eles não plantam, nem colhem, nem guardam em celeiros. E mesmo assim, o Pai cuida deles.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:26-34"
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Os pássaros e as flores do campo",
+  "frase": "E pediste que olhássemos para as flores do campo. Elas não trabalham, nem se preocupam. E nem o rei Salomão, com toda a sua riqueza, se vestiu como uma delas.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Os pássaros e as flores do campo",
+  "frase": "Então Tu perguntaste: se Deus cuida assim das flores, que hoje existem e amanhã secam, será que não vai cuidar muito mais de vocês?",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Os pássaros e as flores do campo",
+  "frase": "Senhor, Tu cuidas de mim. Eu não preciso me preocupar com o amanhã. Cada dia já tem o seu próprio cuidado.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passaros",
+  "titulo_bloco": "Os pássaros e as flores do campo",
+  "frase": "Amanhã é amanhã. Agora é hora de descansar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "descanso",
+  "titulo_bloco": "Só em Deus a alma descansa",
+  "frase": "Senhor, no Salmo sessenta e dois, Davi disse que somente em Deus a sua alma encontra descanso. Que dele vem a sua salvação. Que só Ele é a sua rocha, e por isso ele não será abalado.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 62"
+ },
+ {
+  "bloco": "descanso",
+  "titulo_bloco": "Só em Deus a alma descansa",
+  "frase": "Pai, eu já procurei descanso em tantos lugares. Na tela do celular. Nas distrações. No barulho. Mas o descanso verdadeiro só existe em Ti.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "descanso",
+  "titulo_bloco": "Só em Deus a alma descansa",
+  "frase": "Jesus, Tu disseste: não deixem o coração de vocês ficar aflito. Confiem em Deus, e confiem também em mim. Na casa do meu Pai há muitos lugares.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "descanso",
+  "titulo_bloco": "Só em Deus a alma descansa",
+  "frase": "Que promessa, Senhor. Existe um lugar preparado para mim. Existe um lar que nunca vai acabar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "descanso",
+  "titulo_bloco": "Só em Deus a alma descansa",
+  "frase": "Então eu descanso. Aqui e agora. Na Tua presença.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "nome",
+  "titulo_bloco": "Chamado pelo nome",
+  "frase": "Pai, o profeta Sofonias escreveu algo que aquece o coração. Ele disse que o Senhor, o teu Deus, está no meio de ti. Que Ele se alegra em você. Que Ele te acalma com o Seu amor.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": true,
+  "referencia": "Sofonias 3:17"
+ },
+ {
+  "bloco": "nome",
+  "titulo_bloco": "Chamado pelo nome",
+  "frase": "Senhor, é difícil acreditar que Tu Te alegras em mim. Mas a Tua Palavra diz que sim. Então eu recebo esse amor.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "nome",
+  "titulo_bloco": "Chamado pelo nome",
+  "frase": "E pelo profeta Isaías, Tu disseste: não tenha medo, Eu te chamei pelo nome. Você é meu. Quando você passar pelas águas, Eu estarei com você. Quando passar pelo fogo, ele não vai te queimar.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "nome",
+  "titulo_bloco": "Chamado pelo nome",
+  "frase": "Pai, Tu sabes o meu nome. Eu sou Teu. Em qualquer água, em qualquer fogo, Tu estás comigo.",
+  "tag_visual": "vale_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "nome",
+  "titulo_bloco": "Chamado pelo nome",
+  "frase": "Que eu durma ouvindo essa verdade: eu sou amado. Eu sou Teu.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Pai, antes de fechar os olhos, eu recebo a bênção que Tu mandaste Moisés ensinar aos sacerdotes. Que ela seja sobre mim, e sobre todos que estão ouvindo esta oração agora.",
+  "tag_visual": "montanha",
+  "mostrar_texto": true,
+  "referencia": "Números 6:24-26"
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Que o Senhor te abençoe e te guarde. Que o Senhor faça o Seu rosto brilhar sobre você, e tenha misericórdia de você. Que o Senhor volte o Seu rosto para você, e te dê a paz.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Agora, descansa. Não há mais nada a fazer esta noite. Tudo está nas mãos de Deus.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Respira devagar. Deixa o corpo pesar. Deixa o coração aquietar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Deus está aqui. Ele cuida de você. Ele não dorme.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Dorme em paz.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "Em nome de Jesus. Amém.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "bencao",
+  "titulo_bloco": "Bênção final e Amém",
+  "frase": "e te dê a paz. Agora, descansa. Tudo está nas mãos de Deus. Ele cuida de você. Ele não dorme. Dorme em paz. Em nome de Jesus, amém.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

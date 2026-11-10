@@ -85,48 +85,6 @@
    "fps": 25.0
   },
   {
-   "id": 37767639,
-   "tag": "ceu_noturno",
-   "duracao": 12,
-   "autor": "Jueon Kim \uae40\uc8fc\uc5b8",
-   "autor_url": "https://www.pexels.com/@jueonkim",
-   "url": "https://www.pexels.com/video/starry-night-sky-with-rotating-stars-timelapse-37767639/",
-   "slug": "starry-night-sky-with-rotating-stars-timelapse-37767639",
-   "thumb": "https://images.pexels.com/videos/37767639/pexels-photo-37767639.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/37767639/16019424_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 30.0
-  },
-  {
-   "id": 9647121,
-   "tag": "ceu_noturno",
-   "duracao": 15,
-   "autor": "Lay-Z Owl",
-   "autor_url": "https://www.pexels.com/@lay-z-owl-801145",
-   "url": "https://www.pexels.com/video/time-lapse-of-stars-moving-in-sky-at-night-9647121/",
-   "slug": "time-lapse-of-stars-moving-in-sky-at-night-9647121",
-   "thumb": "https://images.pexels.com/videos/9647121/pexels-photo-9647121.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/9647121/9647121-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 24.0
-  },
-  {
-   "id": 39785380,
-   "tag": "ceu_noturno",
-   "duracao": 9,
-   "autor": "Meryem \u015eahin",
-   "autor_url": "https://www.pexels.com/@bigparadox",
-   "url": "https://www.pexels.com/video/night-sky-timelapse-with-milky-way-39785380/",
-   "slug": "night-sky-timelapse-with-milky-way-39785380",
-   "thumb": "https://images.pexels.com/videos/39785380/pexels-photo-39785380.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/39785380/16965710_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 25.0
-  },
-  {
    "id": 13423306,
    "tag": "ceu_noturno",
    "duracao": 21,
@@ -139,20 +97,6 @@
    "w": 1920,
    "h": 1080,
    "fps": 23.98
-  },
-  {
-   "id": 10650641,
-   "tag": "ceu_noturno",
-   "duracao": 14,
-   "autor": "Kostas Exarhos",
-   "autor_url": "https://www.pexels.com/@kostas-exarhos-144474017",
-   "url": "https://www.pexels.com/video/silhouette-of-tree-branches-under-a-starry-sky-10650641/",
-   "slug": "silhouette-of-tree-branches-under-a-starry-sky-10650641",
-   "thumb": "https://images.pexels.com/videos/10650641/pexels-photo-10650641.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/10650641/10650641-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 25.0
   },
   {
    "id": 29628759,
@@ -209,20 +153,6 @@
    "w": 1920,
    "h": 1080,
    "fps": 23.98
-  },
-  {
-   "id": 14164051,
-   "tag": "ceu_noturno",
-   "duracao": 23,
-   "autor": "Roy S.",
-   "autor_url": "https://www.pexels.com/@roy-s-12656046",
-   "url": "https://www.pexels.com/video/clouds-and-stars-on-night-sky-14164051/",
-   "slug": "clouds-and-stars-on-night-sky-14164051",
-   "thumb": "https://images.pexels.com/videos/14164051/pexels-photo-14164051.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/14164051/14164051-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 25.0
   },
   {
    "id": 5338469,
@@ -353,20 +283,6 @@
    "fps": 29.97
   },
   {
-   "id": 5251546,
-   "tag": "lua",
-   "duracao": 21,
-   "autor": "Connor kane",
-   "autor_url": "https://www.pexels.com/@connor-kane-3369264",
-   "url": "https://www.pexels.com/video/video-of-a-bright-moon-5251546/",
-   "slug": "video-of-a-bright-moon-5251546",
-   "thumb": "https://images.pexels.com/videos/5251546/bright-moon-5251546.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/5251546/5251546-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 29.97
-  },
-  {
    "id": 6960054,
    "tag": "lua",
    "duracao": 41,
@@ -405,48 +321,6 @@
    "thumb": "https://images.pexels.com/videos/11319504/abstract-atmospheric-mood-background-blue-11319504.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
    "arquivo": "https://videos.pexels.com/video-files/11319504/11319504-hd_1920_1080_25fps.mp4",
    "w": 1920,
-   "h": 1080,
-   "fps": 25.0
-  },
-  {
-   "id": 39750684,
-   "tag": "lua",
-   "duracao": 20,
-   "autor": "Jelena Kazak",
-   "autor_url": "https://www.pexels.com/@selena1965",
-   "url": "https://www.pexels.com/video/mystical-full-moon-behind-dramatic-clouds-39750684/",
-   "slug": "mystical-full-moon-behind-dramatic-clouds-39750684",
-   "thumb": "https://images.pexels.com/videos/39750684/pexels-photo-39750684.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/39750684/16953275_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 25.0
-  },
-  {
-   "id": 34207595,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Ahmet G\u00fcr\u00fcn",
-   "autor_url": "https://www.pexels.com/@ahmetgurun",
-   "url": "https://www.pexels.com/video/moonlit-cloudy-night-sky-with-dramatic-clouds-34207595/",
-   "slug": "moonlit-cloudy-night-sky-with-dramatic-clouds-34207595",
-   "thumb": "https://images.pexels.com/videos/34207595/timelapse-of-a-dramatic-night-sky-with-full-moon-through-hazy-clouds-34207595.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/34207595/14498435_1620_1080_30fps.mp4",
-   "w": 1620,
-   "h": 1080,
-   "fps": 30.0
-  },
-  {
-   "id": 2895754,
-   "tag": "lua",
-   "duracao": 13,
-   "autor": "Lay-Z Owl",
-   "autor_url": "https://www.pexels.com/@lay-z-owl-801145",
-   "url": "https://www.pexels.com/video/the-moon-and-clouds-in-the-night-sky-2895754/",
-   "slug": "the-moon-and-clouds-in-the-night-sky-2895754",
-   "thumb": "https://images.pexels.com/videos/2895754/free-video-2895754.jpg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/2895754/2895754-hd_2048_1080_25fps.mp4",
-   "w": 2048,
    "h": 1080,
    "fps": 25.0
   },
@@ -505,48 +379,6 @@
    "w": 1920,
    "h": 1080,
    "fps": 29.97
-  },
-  {
-   "id": 5984164,
-   "tag": "lua",
-   "duracao": 60,
-   "autor": "Ubaid Khan",
-   "autor_url": "https://www.pexels.com/@obaidkhanspot",
-   "url": "https://www.pexels.com/video/low-angle-view-of-the-night-sky-with-a-full-moon-5984164/",
-   "slug": "low-angle-view-of-the-night-sky-with-a-full-moon-5984164",
-   "thumb": "https://images.pexels.com/videos/5984164/clouds-and-moon-5984164.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/5984164/5984164-hd_2048_948_30fps.mp4",
-   "w": 2048,
-   "h": 948,
-   "fps": 29.97
-  },
-  {
-   "id": 5571755,
-   "tag": "lua",
-   "duracao": 20,
-   "autor": "Monsieur  Sylvain",
-   "autor_url": "https://www.pexels.com/@monsieursylvain",
-   "url": "https://www.pexels.com/video/video-of-a-full-moon-5571755/",
-   "slug": "video-of-a-full-moon-5571755",
-   "thumb": "https://images.pexels.com/videos/5571755/cloudsd-nature-5571755.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/5571755/5571755-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 23.98
-  },
-  {
-   "id": 5571753,
-   "tag": "lua",
-   "duracao": 15,
-   "autor": "Monsieur  Sylvain",
-   "autor_url": "https://www.pexels.com/@monsieursylvain",
-   "url": "https://www.pexels.com/video/view-of-the-moon-through-dark-clouds-5571753/",
-   "slug": "view-of-the-moon-through-dark-clouds-5571753",
-   "thumb": "https://images.pexels.com/videos/5571753/cloudsd-nature-5571753.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/5571753/5571753-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 23.98
   },
   {
    "id": 34206506,
@@ -6601,20 +6433,6 @@
    "fps": 59.94
   },
   {
-   "id": 33175426,
-   "tag": "paisagem_aerea",
-   "duracao": 43,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/aerial-view-of-swiss-mountain-railway-bridge-33175426/",
-   "slug": "aerial-view-of-swiss-mountain-railway-bridge-33175426",
-   "thumb": "https://images.pexels.com/videos/33175426/droneview-swissbeauty-33175426.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/33175426/14138799_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 23.98
-  },
-  {
    "id": 5277105,
    "tag": "paisagem_aerea",
    "duracao": 18,
@@ -6953,20 +6771,6 @@
    "fps": 24.0
   },
   {
-   "id": 11029951,
-   "tag": "lago_montanha",
-   "duracao": 22,
-   "autor": "Luigi Cataldi",
-   "autor_url": "https://www.pexels.com/@luigi-cataldi-3481845",
-   "url": "https://www.pexels.com/video/drone-shot-of-lake-in-autumn-11029951/",
-   "slug": "drone-shot-of-lake-in-autumn-11029951",
-   "thumb": "https://images.pexels.com/videos/11029951/pexels-photo-11029951.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/11029951/11029951-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 29.97
-  },
-  {
    "id": 35869091,
    "tag": "lago_montanha",
    "duracao": 29,
@@ -7035,20 +6839,6 @@
    "w": 1920,
    "h": 1080,
    "fps": 29.97
-  },
-  {
-   "id": 36113643,
-   "tag": "lago_montanha",
-   "duracao": 11,
-   "autor": "Mehmet Turgut  Kirkgoz",
-   "autor_url": "https://www.pexels.com/@tkirkgoz",
-   "url": "https://www.pexels.com/video/scenic-misty-lake-in-hallstatt-austria-36113643/",
-   "slug": "scenic-misty-lake-in-hallstatt-austria-36113643",
-   "thumb": "https://images.pexels.com/videos/36113643/pexels-photo-36113643.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=630&w=1200",
-   "arquivo": "https://videos.pexels.com/video-files/36113643/15315106_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "fps": 59.94
   },
   {
    "id": 12175235,

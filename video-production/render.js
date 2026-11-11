@@ -61,7 +61,9 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;color:#fff;font-fa
 .mono{font-family:'JetBrains Mono',monospace}
 `;
 
-const studio = `<div class="abs studio"><div class="grid"></div><div class="blob b1"></div><div class="blob b2"></div><div class="panel" style="left:5%"></div><div class="panel" style="right:5%"></div><div class="floor"></div><div class="abs vig"></div></div>`;
+const STUDIO = `<div class="abs studio"><div class="grid"></div><div class="blob b1"></div><div class="blob b2"></div><div class="panel" style="left:5%"></div><div class="panel" style="right:5%"></div><div class="floor"></div><div class="abs vig"></div></div>`;
+let studio = STUDIO;
+const SCRIM = (o) => `<div class="abs" style="background:linear-gradient(to bottom,rgba(4,9,24,${o}),rgba(4,9,24,${o - .1}) 45%,rgba(4,9,24,${o}))"></div>`;
 const hud = s => s.label ? `<div class="abs hud"><div class="tl"><i></i>SPECIAL REPORT</div><div class="tr">THE <b>115</b> FILES</div><div class="ln"></div><div class="bl"><span>${esc(s.label)}</span><span>FOOTBALL LEAKS · CASE FILE</span></div></div>` : '';
 const trophy = `<svg viewBox="0 0 100 116" width="170"><g fill="#F5B700"><path d="M26 6h48v32a24 24 0 0 1-48 0z"/><rect x="44" y="60" width="12" height="24"/><rect x="28" y="84" width="44" height="10" rx="2"/><rect x="20" y="96" width="60" height="14" rx="2"/></g><g fill="none" stroke="#F5B700" stroke-width="7"><path d="M26 14H10v8a18 18 0 0 0 18 18"/><path d="M74 14h16v8a18 18 0 0 1-18 18"/></g></svg>`;
 const person = `<svg viewBox="0 0 100 100" width="150"><circle cx="50" cy="50" r="48" fill="#13244a" stroke="#5f84d6" stroke-width="2"/><circle cx="50" cy="40" r="17" fill="#5f84d6"/><path d="M18 88a32 28 0 0 1 64 0z" fill="#5f84d6"/></svg>`;
@@ -82,7 +84,7 @@ const T = {
     <div class="bebas fu" style="font-size:560px;color:transparent;-webkit-text-stroke:5px var(--amber);${d(.1)}">${g.num}</div>
     <div><div class="kick fi" style="${d(.45)}">CHAPTER ${g.num}</div><div class="bebas wr" style="font-size:${fit(g.title, 190, 1050)}px;margin:14px 0 24px;${d(.5)}">${esc(g.title)}</div><div class="bar gl" style="width:520px;${d(.8)}"></div></div></div>`,
   bigtext: (g, D) => { const t0 = (g.late || 0) * D, fs = fit(g.lines, 330, 1640);
-    return `${g.bare ? '<div class="abs" style="background:#02040b"></div>' : studio}<div class="c" style="align-items:center;text-align:center">
+    return `${g.bare ? SCRIM(.9) : studio}<div class="c" style="align-items:center;text-align:center">
     ${g.kicker ? `<div class="pill fu" style="align-self:center;margin-bottom:34px;${d(.2)}">${esc(g.kicker)}</div>` : ''}
     ${g.lines.map((l, i) => `<div class="bebas ${g.bare ? 'fi' : 'trk'}" style="font-size:${fs}px;${g.sky && i ? 'color:var(--sky);' : ''}${d(t0 + .15 + i * .35)}">${esc(l)}</div>`).join('')}
     ${g.sub ? `<div class="bar gl" style="width:200px;margin:34px 0 22px;${d(t0 + .9)}"></div><div class="sub fu" style="${d(t0 + 1)}">${esc(g.sub)}</div>` : ''}</div>`; },
@@ -96,7 +98,7 @@ const T = {
     <div style="display:flex;align-items:flex-end;gap:34px;height:470px;border-bottom:3px solid rgba(255,255,255,.4);padding:0 20px">${Array.from({ length: n }, (_, i) => `<div class="gu" style="flex:1;height:${Math.round(14 + 86 * Math.pow((i + 1) / n, 1.9))}%;background:linear-gradient(${i === n - 1 ? '#F5B700,#b98400' : '#6f9bff,#27408a'});${d(.8 + i * (D * .62 / n))}"></div>`).join('')}</div>
     <div class="fi" style="font:500 22px Osw;letter-spacing:4px;color:#8496c4;margin-top:18px;text-align:right;${d(1)}">${esc(g.note)}</div></div>`; },
   list: (g, D) => { const n = g.items.length, at = i => (g.ats ? g.ats[i] : (g.t0 || .2) + (.88 - (g.t0 || .2)) * i / n) * D;
-    return `${studio}<div class="c"><div class="pill fu" style="${d(.2)}">${esc(g.tag)}</div><div class="bebas fu" style="font-size:${fit(g.title, 170, 1500)}px;margin:22px 0 14px;${d(.35)}">${esc(g.title)}</div><div class="bar gl" style="width:260px;margin-bottom:34px;${d(.6)}"></div>
+    return `${studio}<div class="c"><div class="pill fu" style="${d(.2)}">${esc(g.tag)}</div><div class="bebas fu" style="font-size:${fit(g.title, 170, 1500, .46)}px;margin:22px 0 14px;${d(.35)}">${esc(g.title)}</div><div class="bar gl" style="width:260px;margin-bottom:34px;${d(.6)}"></div>
     ${g.items.map((it, i) => `<div class="fu" style="display:flex;align-items:baseline;gap:30px;margin:13px 0;${d(at(i))}"><span class="bebas" style="font-size:54px;color:var(--amber);width:70px">0${i + 1}</span><span style="font:600 ${n > 3 ? 54 : 58}px 'Inter Display',Inter;${g.lasthot && i === n - 1 ? 'color:var(--amber)' : ''}">${esc(it)}</span></div>`).join('')}
     ${g.stamp ? `<div style="position:absolute;right:0;bottom:70px"><div class="stamp stampA" style="${d((g.stampat || .7) * D)}">${esc(g.stamp)}</div></div>` : ''}</div>`; },
   define: (g, D) => `${studio}<div class="c" style="flex-direction:row;align-items:center;gap:80px"><div class="bebas trk" style="font-size:${g.small ? 210 : 400}px;color:var(--amber);flex:none;${g.small ? 'width:640px;line-height:.86;' : ''}${d(.25)}">${esc(g.term)}</div>
@@ -168,12 +170,15 @@ const T = {
     ${g.items.map((it, i) => `<div class="fu" style="background:rgba(11,22,48,.9);border-left:10px solid var(--amber);font:700 62px Osw;letter-spacing:2px;padding:16px 40px 18px;margin:11px 0;${d(t0 + i * st)}">${esc(it)}</div>`).join('')}</div>`; },
 };
 const OVERLAY = new Set(['none', 'stat', 'word', 'lower', 'chips']);
+const FULL = new Set(['quote', 'sting', 'bumper', 'end', 'map']);
+const isAlpha = s => !FULL.has(s.gfx.type);
 
 function html(s) {
-  const g = s.gfx, D = s.dur, alpha = OVERLAY.has(g.type);
+  const g = s.gfx, D = s.dur, alpha = isAlpha(s);
+  studio = alpha ? SCRIM(g.type === 'doc' || g.type === 'terminal' ? .62 : .72) : STUDIO;
   const bare = ['quote', 'sting', 'pitch'].includes(g.type) || g.bare;
-  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}body{--D:${D};background:${alpha ? 'transparent' : '#040814'}}.c{zoom:${({list:1.22,names:1.25,terminal:1.2,flow:1.2,flow3:1.2,org:1.25,bars:1.15,define:1.1})[g.type]||1}}</style></head><body>
-${alpha ? '<div class="abs ovig"></div>' : ''}${T[g.type](g, D)}${g.type === 'pitch' || alpha || !bare ? hud(s) : ''}${g.type === 'sting' ? '' : '<div class="abs flash"></div>'}
+  return `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}body{--D:${D};background:${alpha ? 'transparent' : '#040814'}}.c{zoom:${({list:1.08,names:1.25,terminal:1.2,flow:1.2,flow3:1.2,org:1.25,bars:1.15,define:1.1})[g.type]||1}}</style></head><body>
+${OVERLAY.has(g.type) ? '<div class="abs ovig"></div>' : ''}${T[g.type](g, D)}${g.type === 'pitch' || alpha || !bare ? hud(s) : ''}${g.type === 'sting' ? '' : '<div class="abs flash"></div>'}
 <script>window.__init=()=>{window.__A=document.getAnimations();__A.forEach(a=>a.pause())};
 window.__seek=t=>{__A.forEach(a=>a.currentTime=t*1000);
 document.querySelectorAll('[data-count]').forEach(e=>{const a=+e.dataset.t0,b=+e.dataset.t1;let p=Math.min(1,Math.max(0,(t-a)/(b-a)));p=1-Math.pow(1-p,3);e.textContent=Math.round(+e.dataset.count*p).toLocaleString('en-US')});
@@ -191,7 +196,7 @@ document.querySelectorAll('[data-type]').forEach(e=>{const n=Math.max(0,Math.flo
   const worker = async () => {
     const page = await browser.newPage({ viewport: { width: 1920, height: 1080 } });
     for (let s; (s = queue.shift());) {
-      const alpha = OVERLAY.has(s.gfx.type), f = `${B}/html/${s.id}.html`, out = `${B}/frames/${s.id}`;
+      const alpha = isAlpha(s), f = `${B}/html/${s.id}.html`, out = `${B}/frames/${s.id}`;
       fs.writeFileSync(f, html(s));
       await page.goto('file://' + f); await page.evaluate(() => document.fonts.ready); await page.evaluate(() => __init());
       if (still) {

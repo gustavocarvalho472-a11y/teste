@@ -22,7 +22,7 @@ CHAPTERS = [
         ("Five Premier League titles in six seasons.",
          G("icons", count=5, label="PREMIER LEAGUE TITLES", sub="IN SIX SEASONS")),
         ("A hundred points in a single campaign.",
-         G("pitch", parts=[{"t": "100", "s": "POINTS · 2017/18 SEASON"}])),
+         S("", "stat", big="100", label="POINTS · 2017/18 SEASON")),
         ("More than a billion euros spent building Pep Guardiola's dream squad.",
          G("counter", prefix="€", value=1000000000, suffix="+", label="SPENT BUILDING THE SQUAD")),
         ("While the traditional giants were cutting costs and struggling in the transfer market, City seemed to live in a different reality.",
@@ -78,7 +78,7 @@ CHAPTERS = [
     ]},
     {"num": "03", "title": "THE LINE HE CROSSED", "music": "drone", "beats": [
         ("At home in Portugal, the leaks hit like an earthquake.",
-         G("map", center=[-6, 39.8], scale=4200, title="PORTUGAL", shake=True, pins=[{"n": "LISBON", "lon": -9.14, "lat": 38.72}])),
+         S("", "word", text="PORTUGAL", sub="THE LEAKS HIT HOME")),
         ("They exposed internal Benfica emails pointing to alleged influence over refereeing, favoritism inside the federation, and privileged access to confidential judicial reports.",
          G("list", tag="ALLEGED · THE BENFICA EMAILS", title="WHAT THE LEAKS POINTED TO", t0=0.3,
            items=["Influence over refereeing", "Favoritism inside the federation", "Access to confidential judicial reports"])),
@@ -111,8 +111,7 @@ CHAPTERS = [
         ("In other words, state money was being pumped into the club and dressed up as commercial revenue.",
          G("flow3", title="HOW IT WORKED", nodes=["STATE MONEY", "“SPONSORSHIP”", "THE CLUB"], foot="BOOKED AS COMMERCIAL REVENUE")),
         ("Other files revealed a network of offshore companies used by Cristiano Ronaldo to shield more than 150 million euros in image rights, which led to his tax conviction in Spain.",
-         G("map", center=[-32, 38], scale=620, title="€150M+ IN IMAGE RIGHTS", foot="TAX CONVICTION IN SPAIN", footlate=0.75,
-           pins=[{"n": "BRITISH VIRGIN ISLANDS", "lon": -64.6, "lat": 18.4}, {"n": "JERSEY", "lon": -2.13, "lat": 49.2}, {"n": "LUXEMBOURG", "lon": 6.13, "lat": 49.6, "below": True}])),
+         S("", "chips", title="€150M+ IN IMAGE RIGHTS", items=["British Virgin Islands", "Jersey", "Luxembourg", "Tax conviction in Spain"], t0=0.2)),
         ("Der Spiegel also published documents on the rape allegation made by Kathryn Mayorga against Ronaldo in Las Vegas in 2009, including a 375,000 dollar confidentiality settlement. Ronaldo has always denied the allegation, and no criminal charges were filed.",
          G("list", tag="ALLEGATION · DENIED", title="LAS VEGAS, 2009", t0=0.12,
            items=["Der Spiegel publishes documents on the allegation", "$375,000 confidentiality settlement", "Ronaldo denies the allegation · no criminal charges filed"], lasthot=True, ats=[0.12, 0.5, 0.74])),
@@ -128,14 +127,13 @@ CHAPTERS = [
         ("In 2011, UEFA introduced Financial Fair Play: clubs couldn't spend more than they earned.",
          G("define", term="FFP", full="FINANCIAL FAIR PLAY · UEFA · 2011", body="Clubs cannot spend more than they earn.")),
         ("The Football Leaks emails showed that City's main sponsor, Etihad Airways, a company owned by the Abu Dhabi government, was officially paying 67.5 million pounds a year.",
-         G("pitch", parts=[{"t": "£67.5M", "s": "ETIHAD AIRWAYS · OFFICIAL SPONSORSHIP PER YEAR"}], late=0.55)),
+         S("", "stat", big="£67.5M", label="ETIHAD AIRWAYS · OFFICIAL SPONSORSHIP PER YEAR", late=0.55)),
         ("But emails from City's own finance director admitted Etihad was only paying 8 million.",
          G("doc", head="INTERNAL EMAIL · FINANCE", lines=["Etihad's direct contribution", "remains at *£8 million.*", "The balance is covered by the shareholder."])),
         ("The other 59.5 million? It came straight from ADUG, the Sheikh's own fund.",
-         G("pitch", parts=[{"t": "£8M", "s": "ETIHAD"}, {"t": "£59.5M", "s": "ADUG · THE OWNER'S FUND", "hot": True}])),
+         G("bars", title="WHO REALLY PAID THE £67.5M", items=[{"l": "ETIHAD AIRWAYS", "v": 8, "d": "£8M", "at": 0.08}, {"l": "ADUG · THE OWNER'S FUND", "v": 59.5, "d": "£59.5M", "at": 0.42, "hot": True}])),
         ("In the Guardiola era, the scheme got more sophisticated. City Football Group bought Girona in Spain, in partnership with Pere Guardiola, Pep's brother.",
-         G("map", center=[3, 50.5], scale=1500, title="CITY FOOTBALL GROUP", route=[0, 1], foot="IN PARTNERSHIP WITH PERE GUARDIOLA", late=0.4,
-           pins=[{"n": "MANCHESTER", "lon": -2.24, "lat": 53.48}, {"n": "GIRONA", "lon": 2.82, "lat": 41.98}])),
+         S("", "chips", title="CITY FOOTBALL GROUP", items=["Buys Girona, in Spain", "Partner: Pere Guardiola"], t0=0.45)),
         ("Then the hunt for artificial revenue reached a whole new level with the Wega case. In 2015, City announced a 40 million pound sponsorship with this supposed tech and payment-card company.",
          G("counter", prefix="£", value=40000000, label="THE WEGA SPONSORSHIP · 2015", sub="A SUPPOSED TECH AND PAYMENT-CARD COMPANY", t0=0.5, sublate=0.75)),
         ("When journalists checked the company records, they found a sham. No products. No registered employees. No assets. Total equity: 1,200 pounds.",
@@ -174,6 +172,78 @@ CHAPTERS = [
 ]
 
 
+B, R, P, I = "city_bbc_long", "rui_trial_reuters", "city_pep_official", "city_ban_itv"
+def sh(src, *idx): return [("shot", src, i) for i in idx]
+def win(src, a, b): return [("win", src, a, b)]
+def st(*keys): return [("stock", k) for k in keys]
+POOLS = {
+ "celeb": sh(B, 2, 4, 5, 6, 8, 3, 27, 26, 37) + sh("city_stage23", 9, 1, 3, 5, 0, 7, 4, 8, 2) + sh("city_parade23", 0, 1, 2, 3, 4) + sh("city_parade18", 1, 4, 5) + sh("city_parade22", 0, 1) + sh(I, 8, 9) + sh(P, 32, 36, 40, 31),
+ "etihad": sh(B, 43, 7, 21, 11, 44, 34) + sh(R, 9, 8),
+ "store": sh(R, 10, 11),
+ "pep": sh(P, 12, 28, 13, 37, 14, 39, 27, 2, 34, 26, 38) + sh(B, 23) + sh(I, 7) + sh("city_parade22", 2) + sh("city_stage23", 6),
+ "match": sh(I, 0, 5, 2, 1) + sh(P, 29, 19, 30, 21, 22) + st("match1"),
+ "court": sh(R, 3, 2, 6, 5, 4, 7, 13, 12, 14),
+ "arrest": sh(B, 45, 46, 47, 61, 62, 63, 70, 71, 72),
+ "photo": sh(R, 16, 15),
+ "police": sh(R, 0, 1) + sh(B, 64),
+ "porto": sh(B, 49, 48, 50) + st("porto"),
+ "spiegel": sh(B, 56, 31, 59, 60, 32),
+ "uefa": sh(B, 28, 29, 30),
+ "mansour": sh("mansour_goal", 0, 4, 2, 6, 1) + sh(B, 24, 25),
+ "abudhabi": sh("abudhabi_drone", 0, 10, 16) + st("skyline_night"),
+ "psg": sh("neymar_present", 1, 7, 2, 4, 9, 5, 6, 8, 3) + st("paris"),
+ "ronaldo": win("ronaldo_court_ap", 2, 34),
+ "mourinho": win("mourinho_court", 7, 28) + sh("mourinho_court", 3, 4),
+ "infantino": win("infantino_afp", 47, 52) + win("infantino_afp", 21, 46),
+ "twente": win("twente_fans", 6, 66),
+ "lisbon": st("lisbon") + sh(B, 67),
+ "budapest": sh(B, 54) + st("budapest"),
+ "london": st("london"), "manchester": st("manchester"),
+ "tech": st("laptop_dark", "keyboard2", "hacker", "cables", "keyboard", "harddrive"),
+ "docs": st("contract", "boardroom", "sign", "handshake", "office_night", "spreadsheet"),
+ "money": st("money"), "plane": st("plane"),
+}
+SCENE_POOLS = [
+ ["celeb", "celeb", "match+celeb", "pep+match", "match+etihad", "etihad+celeb", "etihad", "etihad", "etihad+pep", "arrest+tech"],
+ [None, "tech", "docs", "twente", "docs+twente", "docs", "twente", "ronaldo+mourinho+etihad"],
+ ["spiegel+docs", "photo", "porto", None, "tech", "tech+spiegel", "spiegel", "court+arrest"],
+ ["lisbon", "lisbon+docs", "police+lisbon", "arrest", "money+arrest", None, "court", "tech+court", "tech"],
+ ["docs", "uefa+match", "psg", "psg", "psg+docs", "ronaldo", "ronaldo+docs", "etihad", "celeb"],
+ ["mansour+abudhabi", "mansour+etihad", "uefa", "etihad+plane", "docs+etihad", "mansour+abudhabi", "pep", "store+docs", "docs", "celeb+match", "uefa+match", "etihad+pep+celeb"],
+ ["london", None, "abudhabi+london", "manchester+etihad"],
+ ["infantino", "infantino", "court+arrest", "pep+mansour+celeb+etihad", "photo+tech+court", "etihad"],
+]
+SHOTS = json.load(open(f"{ROOT}/build/shots.json"))
+_items = {}; _cur = {}; _len = {}
+def pool_items(name):
+    if name not in _items:
+        out = []
+        for it in POOLS[name]:
+            if it[0] == "stock":
+                p = f"{ROOT}/assets/stock/{it[1]}.mp4"; L = _len.setdefault(p, dur(p)); spans = [(0.3, L - 0.3)]
+            elif it[0] == "win":
+                p = f"{ROOT}/assets/real/{it[1]}.mp4"; spans = [(it[2], it[3])]
+            else:
+                p = f"{ROOT}/assets/real/{it[1]}.mp4"; a, b = SHOTS[it[1]][it[2]]; spans = [(a + 0.12, b - 0.12)]
+            for a, b in spans:
+                if b - a > 9.5:
+                    k = int((b - a) // 4.7); out += [(p, a + i * (b - a) / k, a + (i + 1) * (b - a) / k) for i in range(k)]
+                else:
+                    out.append((p, a, b))
+        _items[name] = out; _cur[name] = 0
+    return _items[name]
+def allocate(pools, nf):
+    D = nf / FPS; n = max(1, round(D / 4.0)); names = pools.split("+"); takes = []; base = nf // n
+    for i in range(n):
+        frames = base if i < n - 1 else nf - base * (n - 1); d = frames / FPS; name = names[i % len(names)]; items = pool_items(name)
+        for _ in range(len(items)):
+            p, a, b = items[_cur[name] % len(items)]; _cur[name] += 1; L = b - a
+            if L >= d or d / L <= 1.75: break
+        slow = max(1.0, d / L); ss = a + (min(1.2, (L - d) / 2) if L > d else 0)
+        takes.append({"src": p, "ss": round(ss, 2), "slow": round(slow, 3), "frames": frames})
+    return takes
+
+
 def dur(path):
     return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]))
 
@@ -208,8 +278,12 @@ def main():
     scenes = []; t = 0.0; vo = []; music = []
     def add(d, **k):
         nonlocal t
-        scenes.append({"id": f"s{len(scenes):03d}", "start": t, "dur": d, **k}); t += d
+        sid = k.pop("sid", None) or f"s{sum(1 for x in scenes if x['id'][0] == 's'):03d}"
+        scenes.append({"id": sid, "start": t, "dur": d, **k}); t += d
     music.append({"track": "drone", "start": 0})
+    PEP = f"{ROOT}/assets/real/pep_furious.mp4"
+    add(12.0, sid="c000", gfx={"type": "lower", "name": "PEP GUARDIOLA", "role": "Press conference · May 2019"}, label="",
+        takes=[{"src": PEP, "ss": 19.5, "slow": 1.0, "frames": 300, "pillar": True}], nat={"src": PEP, "ss": 19.5})
     add(7.5, gfx={"type": "quote", "text": "Football is not for sale. Not today, not tomorrow, and not ever.", "by": "ALEKSANDER ČEFERIN · UEFA PRESIDENT"}, label="")
     add(5.0, gfx={"type": "sting", "title": "THE 115 CHARGES", "sub": "THE HACKER WHO PULLED THE THREAD"}, label="")
     for ci, ch in enumerate(CHAPTERS, 1):
@@ -228,7 +302,8 @@ def main():
             s0 = vo_start + cuts[bi] if bi else t
             s1 = vo_start + (cuts[bi + 1] if bi + 1 < n else d + 0.9)
             t = s0
-            add(s1 - s0, text=text, label=label, vo0=vo_start + cuts[bi], **vis)
+            vis = dict(vis); vis.pop("bg", None)
+            add(s1 - s0, text=text, label=label, vo0=vo_start + cuts[bi], pools=SCENE_POOLS[ci - 1][bi], **vis)
     music.append({"track": "finale", "start": t, "keep": True})
     add(14.0, gfx={"type": "end"}, label="")
     # frame-quantise
@@ -239,12 +314,14 @@ def main():
     scenes[-1]["nf"] = round(scenes[-1]["dur"] * FPS)
     for s in scenes:
         s["start"] = s["f0"] / FPS; s["dur"] = s["nf"] / FPS
+    for s in scenes:
+        if s.get("pools"): s["takes"] = allocate(s["pools"], s["nf"])
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
     os.makedirs(f"{ROOT}/build", exist_ok=True)
     json.dump({"fps": FPS, "total": total, "scenes": scenes, "vo": vo, "music": music}, open(f"{ROOT}/build/timeline.json", "w"), indent=1, ensure_ascii=False)
     print(f"{len(scenes)} scenes, total {total/60:.2f} min")
     for s in scenes:
-        print(f'{s["id"]} {s["start"]:7.2f} {s["dur"]:6.2f} {s.get("bg","-")[:14]:14s} {s["gfx"]["type"]:9s} {s.get("text","")[:60]}')
+        print(f'{s["id"]} {s["start"]:7.2f} {s["dur"]:6.2f} {(s.get("pools") or "-")[:22]:22s} {len(s.get("takes",[]))} {s["gfx"]["type"]:9s} {s.get("text","")[:60]}')
 
 
 if __name__ == "__main__":

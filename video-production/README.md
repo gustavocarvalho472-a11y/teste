@@ -49,3 +49,23 @@ Footage via Pexels:
 
 Narration and music: AI-generated. Graphics: illustrative recreations.
 Based on reporting by Football Leaks / European Investigative Collaborations (EIC) / Der Spiegel.
+
+## Fontes de imagem real (v2 — takes de 3–5 s)
+
+Os takes reais vêm destas reportagens do YouTube (baixadas para `assets/real/`, fora do git). `shots.py` detecta os planos de cada uma e `build.py` (POOLS / SCENE_POOLS) define qual tema entra em cada trecho da narração.
+
+| Arquivo | YouTube ID | Origem |
+|---|---|---|
+| city_bbc_long | m_l52IF6H0Q | BBC News |
+| rui_trial_reuters | PCMMXsXOk5U | Reuters |
+| city_pep_official | W4NnL8DbkcY | Man City (canal oficial) |
+| city_ban_itv | JYn0zYNBezU | ITV News |
+| city_stage23 / city_parade23 / city_parade18 / city_parade22 | bWTidCmiNEU / z66_IMQl1i4 / Vt6T_5G7vBg / yu5ShU0EMY0 | AFP |
+| neymar_present / infantino_afp | 7tyJQ873_fc / -XYR3CrLr10 | AFP |
+| ronaldo_court_ap / mourinho_court | vvXBIdxxyY4 / D6cgvtzieC8 | AP Archive |
+| mansour_goal | MbH5Fjlftus | upload de terceiro |
+| twente_fans | SDs4EFaBaoc | FC Twente (canal oficial) |
+| abudhabi_drone | k8oS1URc_yk | Travel Beyond Maps |
+| pep_furious (abertura, com áudio original) | 6I302sgnTyE | coletiva pós-final da FA Cup 2019 |
+
+Esse material é de terceiros e não está licenciado: ver os avisos de direitos no plano de edição.

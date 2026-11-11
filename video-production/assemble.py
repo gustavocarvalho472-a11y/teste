@@ -22,17 +22,22 @@ def probe(p):
 
 def encode(s):
     out = f"{B}/seg/{s['id']}.mp4"; fr = f"{B}/frames/{s['id']}"; nf = s["nf"]
-    if "bg" not in s:
+    if "takes" not in s:
         run(["ffmpeg", "-y", "-v", "error", "-framerate", str(FPS), "-i", f"{fr}/%05d.jpg", "-frames:v", str(nf)] + X264 + [out]); return out
-    keys = s["bg"].split("+"); n = len(keys); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []; base = nf // n
-    for i, k in enumerate(keys):
-        src = f"{A}/stock/{k}.mp4"; frames = base if i < n - 1 else nf - base * (n - 1); need = frames / FPS
-        have = probe(src) - 0.6; slow = min(2.2, max(1.0, need / have))
-        cmd += ["-i", src]
-        fc.append(f"[{i}:v]trim=start=0.3,setpts={slow:.4f}*(PTS-STARTPTS),fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,"
-                  f"eq=contrast=1.12:saturation=0.74:brightness=-0.06,tpad=stop_mode=clone:stop_duration=30,trim=end_frame={frames},setpts=PTS-STARTPTS[v{i}]")
+    takes = s["takes"]; n = len(takes); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []
+    for i, t in enumerate(takes):
+        need = t["frames"] / FPS / t["slow"] + 0.4; real = "/real/" in t["src"]
+        cmd += ["-ss", f"{t['ss']:.2f}", "-t", f"{need:.2f}", "-i", t["src"]]
+        pre = "crop=iw:ih*0.755," if "city_pep_official" in t["src"] else ""
+        grade = "eq=contrast=1.07:saturation=0.9:brightness=-0.03" if real else "eq=contrast=1.12:saturation=0.74:brightness=-0.06"
+        if t.get("pillar"):
+            fc.append(f"[{i}:v]crop=ih*0.70:ih,fps={FPS},split[pa][pb];[pa]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=28:4,eq=brightness=-0.22[pbg];"
+                      f"[pb]scale=-2:1080[pfg];[pbg][pfg]overlay=(W-w)/2:0,setsar=1,format=yuv420p,trim=end_frame={t['frames']},setpts=PTS-STARTPTS[v{i}]")
+            continue
+        fc.append(f"[{i}:v]{pre}setpts={t['slow']:.4f}*(PTS-STARTPTS),fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,setsar=1,format=yuv420p,"
+                  f"{grade},tpad=stop_mode=clone:stop_duration=30,trim=end_frame={t['frames']},setpts=PTS-STARTPTS[v{i}]")
     cmd += ["-framerate", str(FPS), "-i", f"{fr}/%05d.png"]
-    fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,noise=alls=4:allf=t,vignette=PI/5[bg];[bg][{n}:v]overlay=0:0:format=auto[o]")
+    fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,noise=alls=2:allf=t,vignette=PI/6[bg];[bg][{n}:v]overlay=0:0:format=auto[o]")
     run(cmd + ["-filter_complex", ";".join(fc), "-map", "[o]", "-frames:v", str(nf)] + X264 + [out]); return out
 
 
@@ -88,6 +93,10 @@ def build_audio():
     for v in TL["vo"]:
         put(vo, load(f"{A}/vo/{v['file']}", "highpass=f=75,acompressor=threshold=-21dB:ratio=3:attack=6:release=140:makeup=2.5"), v["start"])
     vo *= 0.12 / np.sqrt((vo[np.abs(vo).sum(1) > 0.02] ** 2).mean())
+    for s in TL["scenes"]:
+        if s.get("nat"):
+            x = np.frombuffer(subprocess.check_output(["ffmpeg", "-v", "error", "-ss", str(s["nat"]["ss"]), "-t", str(s["dur"]), "-i", s["nat"]["src"], "-af", "highpass=f=90,acompressor=threshold=-22dB:ratio=3:makeup=3,afade=t=in:d=0.15,afade=t=out:st=" + str(s["dur"] - 0.4) + ":d=0.4", "-f", "f32le", "-ac", "2", "-ar", str(SR), "-"]), dtype=np.float32).reshape(-1, 2).astype(np.float64)
+            put(vo, x * (0.11 / np.sqrt((x ** 2).mean() + 1e-9)), s["start"])
     # --- music runs (merge consecutive identical tracks)
     runs = []
     for m in TL["music"]:
@@ -124,7 +133,7 @@ def build_audio():
             for dt in (0.6, 2.7, 4.3): put(fx, HIT, t + dt, 0.3)
             continue
         if ty == "end": continue
-        put(fx, WS if "bg" in s else W, t - 0.1, 0.22 if "bg" in s else 0.3)
+        put(fx, WS, t - 0.1, 0.24)
         if ty == "counter":
             t0 = (g.get("t0") or 0.08) * D; t1 = t0 + min(2.4, D * 0.3)
             for q in np.arange(t0, t1, 0.055): put(fx, sfx_tick(2200 + 900 * (q - t0) / (t1 - t0)), t + q, 0.16)

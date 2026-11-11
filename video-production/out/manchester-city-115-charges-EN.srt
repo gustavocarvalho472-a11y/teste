@@ -1,0 +1,805 @@
+1
+00:00:12,850 --> 00:00:15,128
+Between 2017 and 2023,
+
+2
+00:00:15,178 --> 00:00:19,552
+Manchester City didn't just
+win English football.
+
+3
+00:00:19,602 --> 00:00:21,260
+They owned it.
+
+4
+00:00:21,555 --> 00:00:24,380
+Five Premier League titles in six seasons.
+
+5
+00:00:24,689 --> 00:00:26,860
+A hundred points in a single campaign.
+
+6
+00:00:27,159 --> 00:00:33,020
+More than a billion euros spent
+building Pep Guardiola's dream squad.
+
+7
+00:00:33,323 --> 00:00:37,702
+While the traditional giants were cutting
+costs and struggling in the transfer
+
+8
+00:00:37,752 --> 00:00:38,474
+market,
+
+9
+00:00:38,524 --> 00:00:41,100
+City seemed to live in a
+different reality.
+
+10
+00:00:41,405 --> 00:00:43,112
+They won everything,
+
+11
+00:00:43,162 --> 00:00:44,807
+and on top of that,
+
+12
+00:00:44,857 --> 00:00:48,322
+they kept announcing record
+commercial revenues,
+
+13
+00:00:48,372 --> 00:00:51,900
+outearning clubs with far
+bigger global fanbases.
+
+14
+00:00:52,180 --> 00:00:55,700
+It looked too good to be true.
+
+15
+00:00:55,987 --> 00:00:57,700
+It was.
+
+16
+00:00:57,994 --> 00:01:00,192
+After years of investigation,
+
+17
+00:01:00,242 --> 00:01:04,262
+Manchester City was found guilty
+of 114 financial breaches:
+
+18
+00:01:04,312 --> 00:01:05,842
+inflated accounts,
+
+19
+00:01:05,892 --> 00:01:09,366
+sponsorships that weren't what
+they claimed to be,
+
+20
+00:01:09,416 --> 00:01:12,100
+and documents hidden from regulators.
+
+21
+00:01:12,419 --> 00:01:16,992
+And none of it would have come out
+if it weren't for one man,
+
+22
+00:01:17,042 --> 00:01:20,744
+sitting thousands of
+kilometers from Manchester,
+
+23
+00:01:20,794 --> 00:01:25,500
+with a computer and 3.4 terabytes of
+leaked confidential files.
+
+24
+00:01:29,546 --> 00:01:31,372
+November 2015.
+
+25
+00:01:31,422 --> 00:01:36,660
+The phone of FC Twente's
+president won't stop ringing.
+
+26
+00:01:36,974 --> 00:01:42,375
+Journalists want answers about confidential
+documents that have just appeared on a
+
+27
+00:01:42,425 --> 00:01:44,980
+website hosted on a Russian server.
+
+28
+00:01:45,284 --> 00:01:49,540
+They're Twente's secret contracts with an
+investment fund called Doyen Sports.
+
+29
+00:01:49,841 --> 00:01:54,820
+In exchange for five million euros
+to rescue its finances,
+
+30
+00:01:54,870 --> 00:02:01,220
+the club had sold percentages of seven
+players' economic rights to the fund.
+
+31
+00:02:01,509 --> 00:02:07,020
+It's called third-party ownership,
+T.P.O., and it's banned.
+
+32
+00:02:07,314 --> 00:02:10,516
+But the worst part was a single clause.
+
+33
+00:02:10,566 --> 00:02:15,705
+If Twente turned down a transfer offer
+that Doyen wanted to accept,
+
+34
+00:02:15,755 --> 00:02:18,265
+the club owed a massive fine.
+
+35
+00:02:18,315 --> 00:02:22,140
+In practice, Doyen was the
+one running the club.
+
+36
+00:02:22,425 --> 00:02:27,859
+The Dutch federation banned Twente from
+European competition for three years,
+
+37
+00:02:27,909 --> 00:02:31,020
+with penalties that nearly bankrupted it.
+
+38
+00:02:31,301 --> 00:02:33,677
+In the months that followed,
+
+39
+00:02:33,727 --> 00:02:39,809
+the same source leaked tax-avoidance schemes
+involving stars like Cristiano Ronaldo
+
+40
+00:02:39,859 --> 00:02:41,560
+and José Mourinho,
+
+41
+00:02:41,610 --> 00:02:45,940
+plus the files that would later
+bring down City's empire.
+
+42
+00:02:50,003 --> 00:02:52,230
+Behind that mountain of data,
+
+43
+00:02:52,280 --> 00:02:57,460
+and the panic spreading through Europe's
+boardrooms, there was just one name.
+
+44
+00:02:57,772 --> 00:03:00,500
+Rui Pedro Gonçalves Pinto.
+
+45
+00:03:00,781 --> 00:03:02,422
+Born in Portugal.
+
+46
+00:03:02,472 --> 00:03:04,383
+A young FC Porto fan.
+
+47
+00:03:04,433 --> 00:03:08,305
+A history student with no
+formal training in tech.
+
+48
+00:03:08,355 --> 00:03:10,740
+He taught himself computing.
+
+49
+00:03:11,024 --> 00:03:12,207
+In 2015,
+
+50
+00:03:12,257 --> 00:03:18,220
+living in Budapest under the alias
+"John", he launched Football Leaks.
+
+51
+00:03:18,527 --> 00:03:19,474
+His goal:
+
+52
+00:03:19,524 --> 00:03:23,928
+expose how football had been taken over
+by shadowy investment funds,
+
+53
+00:03:23,978 --> 00:03:25,980
+tax evasion and corruption.
+
+54
+00:03:26,276 --> 00:03:30,753
+By breaking into servers and
+running phishing attacks,
+
+55
+00:03:30,803 --> 00:03:35,500
+Rui gathered more than 70 million
+confidential documents.
+
+56
+00:03:35,794 --> 00:03:38,609
+Too much for one person to read.
+
+57
+00:03:38,659 --> 00:03:43,409
+So he partnered with European
+Investigative Collaborations,
+
+58
+00:03:43,459 --> 00:03:44,770
+the E.I.C.,
+
+59
+00:03:44,820 --> 00:03:49,140
+a journalism consortium led by
+Germany's Der Spiegel.
+
+60
+00:03:49,432 --> 00:03:51,706
+As the stories exploded,
+
+61
+00:03:51,756 --> 00:03:53,739
+Rui became a target,
+
+62
+00:03:53,789 --> 00:04:00,420
+hunted by billion-dollar funds and threatened
+by the power networks inside football.
+
+63
+00:04:04,452 --> 00:04:08,260
+At home in Portugal, the leaks
+hit like an earthquake.
+
+64
+00:04:08,554 --> 00:04:14,662
+They exposed internal Benfica emails pointing
+to alleged influence over refereeing,
+
+65
+00:04:14,712 --> 00:04:17,437
+favoritism inside the federation,
+
+66
+00:04:17,487 --> 00:04:21,700
+and privileged access to
+confidential judicial reports.
+
+67
+00:04:21,990 --> 00:04:27,300
+The scandal triggered corruption
+investigations into club officials.
+
+68
+00:04:27,598 --> 00:04:32,020
+But the line between activism
+and crime got crossed.
+
+69
+00:04:32,339 --> 00:04:37,768
+Rui tried to get one million euros from Doyen
+in exchange for not publishing the
+
+70
+00:04:37,818 --> 00:04:38,640
+files,
+
+71
+00:04:38,690 --> 00:04:41,940
+something he'd later call a
+childish mistake.
+
+72
+00:04:42,247 --> 00:04:43,452
+In January 2019,
+
+73
+00:04:43,502 --> 00:04:45,335
+he was arrested in Budapest,
+
+74
+00:04:45,385 --> 00:04:48,420
+extradited to Portugal and
+charged with 147 crimes.
+
+75
+00:04:48,717 --> 00:04:50,123
+In court,
+
+76
+00:04:50,173 --> 00:04:53,720
+he called himself a whistleblower,
+
+77
+00:04:53,770 --> 00:04:57,660
+someone acting in the public interest.
+
+78
+00:04:57,941 --> 00:05:00,201
+And to reduce his sentence,
+
+79
+00:05:00,251 --> 00:05:06,140
+he handed his encrypted hard drives to
+authorities in France, Belgium and Germany.
+
+80
+00:05:06,435 --> 00:05:10,220
+What was on them was a lot more
+than harmless chatter.
+
+81
+00:05:14,252 --> 00:05:20,900
+The files showed Europe's biggest clubs
+operating in a world with no rules.
+
+82
+00:05:21,189 --> 00:05:22,317
+In 2018,
+
+83
+00:05:22,367 --> 00:05:28,793
+Football Leaks published the emails that
+revealed the plans for a European Super
+
+84
+00:05:28,843 --> 00:05:29,897
+League,
+
+85
+00:05:29,947 --> 00:05:36,300
+a closed tournament designed by the
+continent's richest clubs to make billions.
+
+86
+00:05:36,615 --> 00:05:38,948
+At Paris Saint-Germain,
+
+87
+00:05:38,998 --> 00:05:44,097
+after spending over 400 million
+euros on Neymar and Mbappé,
+
+88
+00:05:44,147 --> 00:05:50,860
+the documents exposed crude accounting tricks
+to get around Financial Fair Play.
+
+89
+00:05:51,179 --> 00:05:56,127
+PSG signed an inflated deal with
+the Qatar Tourism Authority:
+
+90
+00:05:56,177 --> 00:05:59,748
+officially worth 200 million euros a year.
+
+91
+00:05:59,798 --> 00:06:03,660
+UEFA's auditors valued it at
+around 3 million.
+
+92
+00:06:03,965 --> 00:06:05,321
+In other words,
+
+93
+00:06:05,371 --> 00:06:10,700
+state money was being pumped into the club
+and dressed up as commercial revenue.
+
+94
+00:06:11,009 --> 00:06:17,474
+Other files revealed a network of offshore
+companies used by Cristiano Ronaldo to
+
+95
+00:06:17,524 --> 00:06:21,793
+shield more than 150 million
+euros in image rights,
+
+96
+00:06:21,843 --> 00:06:25,380
+which led to his tax conviction in Spain.
+
+97
+00:06:25,668 --> 00:06:33,015
+Der Spiegel also published documents on the
+rape allegation made by Kathryn Mayorga
+
+98
+00:06:33,065 --> 00:06:36,672
+against Ronaldo in Las Vegas in 2009,
+
+99
+00:06:36,722 --> 00:06:41,711
+including a 375,000 dollar
+confidentiality settlement.
+
+100
+00:06:41,761 --> 00:06:48,620
+Ronaldo has always denied the allegation,
+and no criminal charges were filed.
+
+101
+00:06:48,910 --> 00:06:51,545
+But among all those scandals,
+
+102
+00:06:51,595 --> 00:06:55,100
+one club kept showing up again and again.
+
+103
+00:06:55,382 --> 00:06:58,100
+Manchester City.
+
+104
+00:07:02,138 --> 00:07:07,031
+The man behind City's 2008
+takeover is Sheikh Mansour,
+
+105
+00:07:07,081 --> 00:07:10,620
+a member of Abu Dhabi's royal family,
+
+106
+00:07:10,670 --> 00:07:14,128
+Deputy Prime Minister of the U.A.E.,
+
+107
+00:07:14,178 --> 00:07:16,122
+and head of ADUG,
+
+108
+00:07:16,172 --> 00:07:22,820
+a state-linked investment vehicle backed by
+hundreds of billions of dollars.
+
+109
+00:07:23,104 --> 00:07:28,020
+He also owns City Football Group, today
+chaired by Khaldoon Al Mubarak.
+
+110
+00:07:28,308 --> 00:07:29,278
+In 2011,
+
+111
+00:07:29,328 --> 00:07:32,086
+UEFA introduced Financial Fair Play:
+
+112
+00:07:32,136 --> 00:07:35,340
+clubs couldn't spend more
+than they earned.
+
+113
+00:07:35,651 --> 00:07:40,047
+The Football Leaks emails showed
+that City's main sponsor,
+
+114
+00:07:40,097 --> 00:07:41,597
+Etihad Airways,
+
+115
+00:07:41,647 --> 00:07:45,100
+a company owned by the Abu
+Dhabi government,
+
+116
+00:07:45,150 --> 00:07:48,940
+was officially paying 67.5
+million pounds a year.
+
+117
+00:07:49,228 --> 00:07:55,172
+But emails from City's own finance director
+admitted Etihad was only paying 8
+
+118
+00:07:55,222 --> 00:07:56,300
+million.
+
+119
+00:07:56,600 --> 00:07:59,096
+The other 59.5 million?
+
+120
+00:07:59,146 --> 00:08:03,860
+It came straight from ADUG,
+the Sheikh's own fund.
+
+121
+00:08:04,173 --> 00:08:06,111
+In the Guardiola era,
+
+122
+00:08:06,161 --> 00:08:08,989
+the scheme got more sophisticated.
+
+123
+00:08:09,039 --> 00:08:12,485
+City Football Group bought
+Girona in Spain,
+
+124
+00:08:12,535 --> 00:08:16,460
+in partnership with Pere
+Guardiola, Pep's brother.
+
+125
+00:08:16,747 --> 00:08:23,148
+Then the hunt for artificial revenue reached a
+whole new level with the Wega case.
+
+126
+00:08:23,198 --> 00:08:24,295
+In 2015,
+
+127
+00:08:24,345 --> 00:08:30,101
+City announced a 40 million pound
+sponsorship with this supposed tech and
+
+128
+00:08:30,151 --> 00:08:32,180
+payment-card company.
+
+129
+00:08:32,470 --> 00:08:36,404
+When journalists checked
+the company records,
+
+130
+00:08:36,454 --> 00:08:38,359
+they found a sham.
+
+131
+00:08:38,409 --> 00:08:39,863
+No products.
+
+132
+00:08:39,913 --> 00:08:42,269
+No registered employees.
+
+133
+00:08:42,319 --> 00:08:43,622
+No assets.
+
+134
+00:08:43,672 --> 00:08:45,201
+Total equity:
+
+135
+00:08:45,251 --> 00:08:46,780
+1,200 pounds.
+
+136
+00:08:47,067 --> 00:08:48,872
+At the height of it,
+
+137
+00:08:48,922 --> 00:08:53,976
+City sold its players' image rights to
+a third-party finance company,
+
+138
+00:08:54,026 --> 00:08:55,037
+Fordham.
+
+139
+00:08:55,087 --> 00:08:56,429
+From then on,
+
+140
+00:08:56,479 --> 00:08:59,809
+Fordham paid those
+millions to the players,
+
+141
+00:08:59,859 --> 00:09:04,780
+and the cost magically vanished from
+the reports City sent to UEFA.
+
+142
+00:09:05,087 --> 00:09:06,612
+February 2020:
+
+143
+00:09:06,662 --> 00:09:11,267
+UEFA banned City from European
+competition for two years.
+
+144
+00:09:11,317 --> 00:09:12,771
+Months later,
+
+145
+00:09:12,821 --> 00:09:15,707
+the ban was overturned on appeal,
+
+146
+00:09:15,757 --> 00:09:19,860
+and the club got away with a
+10 million euro fine.
+
+147
+00:09:20,172 --> 00:09:21,142
+Then,
+
+148
+00:09:21,192 --> 00:09:22,397
+in 2026,
+
+149
+00:09:22,447 --> 00:09:24,123
+a new verdict,
+
+150
+00:09:24,173 --> 00:09:27,418
+this time from the Premier League.
+
+151
+00:09:27,468 --> 00:09:33,303
+City was found guilty of 114 of the
+115 charges brought against it.
+
+152
+00:09:33,353 --> 00:09:39,580
+The club denied every accusation and
+continues to insist it is innocent.
+
+153
+00:09:43,627 --> 00:09:47,354
+The 115 charges show something bigger:
+
+154
+00:09:47,404 --> 00:09:53,020
+football has become hostage to
+diplomacy and state interests.
+
+155
+00:09:53,308 --> 00:09:58,622
+British government documents showed that the
+embassy in Abu Dhabi and the Foreign
+
+156
+00:09:58,672 --> 00:10:02,660
+Office in London were following
+the City case step by step.
+
+157
+00:10:02,953 --> 00:10:04,223
+The U.A.E.
+
+158
+00:10:04,273 --> 00:10:07,011
+is a giant investor in the UK,
+
+159
+00:10:07,061 --> 00:10:13,100
+with more than 10 billion pounds in
+energy, real estate and infrastructure.
+
+160
+00:10:13,403 --> 00:10:21,220
+Truly punishing City could mean risking a
+diplomatic crisis, and that money.
+
+161
+00:10:25,266 --> 00:10:29,927
+One more powerful figure played a
+central role behind the scenes:
+
+162
+00:10:29,977 --> 00:10:31,540
+Gianni Infantino.
+
+163
+00:10:31,843 --> 00:10:33,989
+According to Rui Pinto,
+
+164
+00:10:34,039 --> 00:10:40,150
+the FIFA president knew about these backroom
+manipulations and even held secret
+
+165
+00:10:40,200 --> 00:10:43,904
+meetings to soften the
+punishments for clubs.
+
+166
+00:10:43,954 --> 00:10:47,020
+Infantino has denied any wrongdoing.
+
+167
+00:10:47,312 --> 00:10:51,014
+Poking that hornet's nest came
+at a very high price.
+
+168
+00:10:51,064 --> 00:10:55,454
+Rui Pinto spent years in Portugal's
+witness protection program,
+
+169
+00:10:55,504 --> 00:11:01,020
+but lost that status in October of this year,
+leaving him exposed to real danger.
+
+170
+00:11:01,334 --> 00:11:07,299
+What actually decides the leagues and titles
+that generate billions of euros are
+
+171
+00:11:07,349 --> 00:11:10,511
+deals far more political than sporting.
+
+172
+00:11:10,561 --> 00:11:12,698
+Deals that feel distant,
+
+173
+00:11:12,748 --> 00:11:15,501
+or even like conspiracy theories,
+
+174
+00:11:15,551 --> 00:11:20,900
+made by powerful people who put
+themselves above the rules and the law.
+
+175
+00:11:21,195 --> 00:11:22,723
+But in the end,
+
+176
+00:11:22,773 --> 00:11:26,841
+all it took was one guy with an
+internet connection,
+
+177
+00:11:26,891 --> 00:11:29,999
+and journalists free to do their jobs,
+
+178
+00:11:30,049 --> 00:11:34,460
+to prove that when a project
+looks too good to be true...
+
+179
+00:11:34,755 --> 00:11:36,780
+maybe it really is.

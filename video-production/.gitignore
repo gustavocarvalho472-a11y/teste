@@ -1,0 +1,7 @@
+node_modules/
+build/
+assets/stock/
+assets/thumbs/
+assets/contact.jpg
+out/*.mp4
+__pycache__/

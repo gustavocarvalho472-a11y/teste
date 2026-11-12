@@ -22,13 +22,14 @@ def probe(p):
 
 def encode(s):
     out = f"{B}/seg/{s['id']}.mp4"; fr = f"{B}/frames/{s['id']}"; nf = s["nf"]
+    if REUSE and os.path.exists(out) and os.path.getsize(out) > 1000: return out
     if "takes" not in s:
         run(["ffmpeg", "-y", "-v", "error", "-framerate", str(FPS), "-i", f"{fr}/%05d.jpg", "-frames:v", str(nf)] + X264 + [out]); return out
     takes = s["takes"]; n = len(takes); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []
     for i, t in enumerate(takes):
         need = t["frames"] / FPS / t["slow"] + 0.4; real = "/real/" in t["src"]
         cmd += ["-ss", f"{t['ss']:.2f}", "-t", f"{need:.2f}", "-i", t["src"]]
-        pre = "crop=iw:ih*0.755," if "city_pep_official" in t["src"] else ""
+        pre = ("crop=iw:ih*0.755," if "city_pep_official" in t["src"] else "") + (t.get("crop") or "")
         grade = "eq=contrast=1.07:saturation=0.9:brightness=-0.03" if real else "eq=contrast=1.12:saturation=0.74:brightness=-0.06"
         if t.get("pillar"):
             fc.append(f"[{i}:v]crop=ih*0.70:ih,fps={FPS},split[pa][pb];[pa]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=28:4,eq=brightness=-0.22[pbg];"
@@ -37,7 +38,11 @@ def encode(s):
         fc.append(f"[{i}:v]{pre}setpts={t['slow']:.4f}*(PTS-STARTPTS),fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,setsar=1,format=yuv420p,"
                   f"{grade},tpad=stop_mode=clone:stop_duration=30,trim=end_frame={t['frames']},setpts=PTS-STARTPTS[v{i}]")
     cmd += ["-framerate", str(FPS), "-i", f"{fr}/%05d.png"]
-    fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,noise=alls=2:allf=t,vignette=PI/6[bg];[bg][{n}:v]overlay=0:0:format=auto[o]")
+    if s.get("framed"):
+        cmd += ["-loop", "1", "-framerate", str(FPS), "-i", f"{B}/frame_bg.png", "-loop", "1", "-framerate", str(FPS), "-i", f"{B}/frame_fg.png"]
+        fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,noise=alls=2:allf=t,vignette=PI/6,scale=1600:900[in];[{n+1}:v][in]overlay=160:84[b1];[b1][{n+2}:v]overlay=0:0[bg];[bg][{n}:v]overlay=0:0:format=auto[o]")
+    else:
+        fc.append("".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0,noise=alls=2:allf=t,vignette=PI/6[bg];[bg][{n}:v]overlay=0:0:format=auto[o]")
     run(cmd + ["-filter_complex", ";".join(fc), "-map", "[o]", "-frames:v", str(nf)] + X264 + [out]); return out
 
 
@@ -133,6 +138,11 @@ def build_audio():
             for dt in (0.6, 2.7, 4.3): put(fx, HIT, t + dt, 0.3)
             continue
         if ty == "end": continue
+        if ty == "caps":
+            put(fx, HIT, t + 0.05, 0.55); put(fx, WS, t - 0.1, 0.3)
+            for p in g["phrases"]:
+                if "*" in p["text"]: put(fx, THUD, t + p["t0"] + 0.05, 0.45)
+            continue
         put(fx, WS, t - 0.1, 0.24)
         if ty == "counter":
             t0 = (g.get("t0") or 0.08) * D; t1 = t0 + min(2.4, D * 0.3)
@@ -151,6 +161,9 @@ def build_audio():
                 for q in np.arange(0, st * 0.7, 0.07): put(fx, sfx_key(), t + 0.4 + i * st + q + rng.uniform(0, 0.03), rng.uniform(0.18, 0.3))
         elif ty in ("bigtext",):
             put(fx, HIT, t + (g.get("late") or 0) * D + 0.15, 0.7 if g.get("bare") else 0.5)
+        elif ty == "article":
+            for m in g["marks"]: put(fx, WS, t + m[4] * D, 0.35)
+            put(fx, THUD, t + g["stampat"] * D, 0.9); put(fx, HIT, t + g["footat"] * D, 0.4)
         elif ty == "doc":
             put(fx, WS, t + D * 0.42, 0.4)
             if g.get("foot"): put(fx, HIT, t + D * 0.76, 0.4)
@@ -203,8 +216,9 @@ def srt():
     open(f"{OUT}/manchester-city-115-charges-EN.srt", "w").write("\n".join(out))
 
 
+REUSE = "--reuse" in sys.argv
 if __name__ == "__main__":
-    only = sys.argv[1:]
+    only = [x for x in sys.argv[1:] if not x.startswith("--")]
     scenes = [s for s in TL["scenes"] if not only or s["id"] in only]
     with ThreadPoolExecutor(3) as ex:
         for i, o in enumerate(ex.map(encode, scenes)): print("seg", i + 1, len(scenes), flush=True)

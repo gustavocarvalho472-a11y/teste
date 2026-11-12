@@ -28,7 +28,7 @@ CHAPTERS = [
         ("While the traditional giants were cutting costs and struggling in the transfer market, City seemed to live in a different reality.",
          S("match2", "word", text="A DIFFERENT REALITY", late=0.45)),
         ("They won everything, and on top of that, they kept announcing record commercial revenues, outearning clubs with far bigger global fanbases.",
-         G("trend", title="COMMERCIAL REVENUE", note="ILLUSTRATIVE TREND · NOT TO SCALE")),
+         G("trend", title="COMMERCIAL REVENUE", note="SOURCE: MANCHESTER CITY ANNUAL REPORTS · ROUNDED", data=[["2017/18", 232], ["2018/19", 227], ["2019/20", 246], ["2020/21", 272], ["2021/22", 310], ["2022/23", 341]])),
         ("It looked too good to be true.",
          S("stadium_night", "word", text="TOO GOOD TO BE TRUE?")),
         ("It was.", {**G("bigtext", lines=["IT WAS."], bare=True), "mute_music": True}),
@@ -141,7 +141,7 @@ CHAPTERS = [
         ("At the height of it, City sold its players' image rights to a third-party finance company, Fordham. From then on, Fordham paid those millions to the players, and the cost magically vanished from the reports City sent to UEFA.",
          G("flow3", title="IMAGE RIGHTS", nodes=["MANCHESTER CITY", "FORDHAM", "THE PLAYERS"], foot="THE COST VANISHES FROM THE REPORTS SENT TO UEFA", late=0.3)),
         ("February 2020: UEFA banned City from European competition for two years. Months later, the ban was overturned on appeal, and the club got away with a 10 million euro fine.",
-         G("list", tag="UEFA", title="FEBRUARY 2020", t0=0.15, items=["Two-year ban from European competition", "Overturned on appeal months later", "Final penalty: a €10 million fine"], stamp="OVERTURNED", stampat=0.62)),
+         G("article", img="art_nyt.jpg", tag="PRESS · FEBRUARY 2020", marks=[[0.045, 0.07, 0.72, 0.235, 0.1], [0.045, 0.315, 0.775, 0.235, 0.19], [0.655, 0.615, 0.238, 0.13, 0.33]], stamp="OVERTURNED", stampat=0.6, foot="FINAL PENALTY: A €10 MILLION FINE", footat=0.8)),
         ("Then, in 2026, a new verdict, this time from the Premier League. City was found guilty of 114 of the 115 charges brought against it. The club denied every accusation and continues to insist it is innocent.",
          G("counter", value=114, suffix=" / 115", label="CHARGES PROVEN · PREMIER LEAGUE · 2026", sub="MANCHESTER CITY DENIES ALL CHARGES", t0=0.3, sublate=0.68)),
     ]},
@@ -175,13 +175,20 @@ CHAPTERS = [
 B, R, P, I = "city_bbc_long", "rui_trial_reuters", "city_pep_official", "city_ban_itv"
 def sh(src, *idx): return [("shot", src, i) for i in idx]
 def win(src, a, b): return [("win", src, a, b)]
+NDR = "rui_ndr"; NC = "crop=iw*0.78:ih*0.76:iw*0.11:ih*0.02,"
+def shc(src, crop, *idx): return [("shot", src, i, crop) for i in idx]
 def st(*keys): return [("stock", k) for k in keys]
 POOLS = {
  "celeb": sh(B, 2, 4, 5, 6, 8, 3, 27, 26, 37) + sh("city_stage23", 9, 1, 3, 5, 0, 7, 4, 8, 2) + sh("city_parade23", 0, 1, 2, 3, 4) + sh("city_parade18", 1, 4, 5) + sh("city_parade22", 0, 1) + sh(I, 8, 9) + sh(P, 32, 36, 40, 31),
- "etihad": sh(B, 43, 7, 21, 11, 44, 34) + sh(R, 9, 8),
+ "ucl": sh("city_stage23", 9) + sh(P, 31, 29) + sh(B, 2) + sh(P, 30),
+ "goals": sh(I, 0) + sh(P, 22, 19) + sh(I, 2) + sh(P, 29, 30),
+ "etihad": sh(B, 43, 7, 21, 11) + win(B, 352.74, 357.34) + sh(B, 34) + sh(R, 9, 8),
  "store": sh(R, 10, 11),
- "pep": sh(P, 12, 28, 13, 37, 14, 39, 27, 2, 34, 26, 38) + sh(B, 23) + sh(I, 7) + sh("city_parade22", 2) + sh("city_stage23", 6),
- "match": sh(I, 0, 5, 2, 1) + sh(P, 29, 19, 30, 21, 22) + st("match1"),
+ "pep": sh(P, 28, 37, 39, 27, 23, 34, 26, 38, 40) + sh(B, 23) + sh(I, 7) + sh("city_parade22", 2) + sh("city_stage23", 6),
+ "match": sh(I, 0, 5, 2, 1) + sh(P, 29, 19, 30, 22) + st("match1"),
+ "rui": shc(NDR, NC, 64, 68, 76, 77, 73) + sh(NDR, 51, 57, 66, 52, 75, 78, 60),
+ "ruiroom": sh(NDR, 13, 54, 58),
+ "leakdocs": sh(B, 33),
  "court": sh(R, 3, 2, 6, 5, 4, 7, 13, 12, 14),
  "arrest": sh(B, 45, 46, 47, 61, 62, 63, 70, 71, 72),
  "photo": sh(R, 16, 15),
@@ -191,28 +198,29 @@ POOLS = {
  "uefa": sh(B, 28, 29, 30),
  "mansour": sh("mansour_goal", 0, 4, 2, 6, 1) + sh(B, 24, 25),
  "abudhabi": sh("abudhabi_drone", 0, 10, 16) + st("skyline_night"),
- "psg": sh("neymar_present", 1, 7, 2, 4, 9, 5, 6, 8, 3) + st("paris"),
+ "psg": sh("neymar_present", 1, 7) + sh(NDR, 10, 9) + sh("neymar_present", 2, 4, 9, 5, 6, 8, 3) + st("paris"),
  "ronaldo": win("ronaldo_court_ap", 2, 34),
  "mourinho": win("mourinho_court", 7, 28) + sh("mourinho_court", 3, 4),
- "infantino": win("infantino_afp", 47, 52) + win("infantino_afp", 21, 46),
+ "infantino": sh(NDR, 11) + win("infantino_afp", 47, 52) + win("infantino_afp", 21, 46),
  "twente": win("twente_fans", 6, 66),
  "lisbon": st("lisbon") + sh(B, 67),
- "budapest": sh(B, 54) + st("budapest"),
+ "budapest": sh(B, 54) + sh(NDR, 28, 25, 20, 45) + st("budapest"),
  "london": st("london"), "manchester": st("manchester"),
  "tech": st("laptop_dark", "keyboard2", "hacker", "cables", "keyboard", "harddrive"),
  "docs": st("contract", "boardroom", "sign", "handshake", "office_night", "spreadsheet"),
  "money": st("money"), "plane": st("plane"),
 }
 SCENE_POOLS = [
- ["celeb", "celeb", "match+celeb", "pep+match", "match+etihad", "etihad+celeb", "etihad", "etihad", "etihad+pep", "arrest+tech"],
+ ["ucl+goals+celeb", "celeb", "goals+celeb", "pep+match", "match+etihad", "etihad+celeb", "etihad", "etihad", "etihad+pep", "rui+arrest+ruiroom"],
  [None, "tech", "docs", "twente", "docs+twente", "docs", "twente", "ronaldo+mourinho+etihad"],
- ["spiegel+docs", "photo", "porto", None, "tech", "tech+spiegel", "spiegel", "court+arrest"],
- ["lisbon", "lisbon+docs", "police+lisbon", "arrest", "money+arrest", None, "court", "tech+court", "tech"],
+ ["spiegel+ruiroom", "rui", "porto+rui", None, "ruiroom+tech", "ruiroom+tech+spiegel", "spiegel+rui", "rui+court+arrest"],
+ ["lisbon", "lisbon+docs", "police+lisbon", "arrest+rui", "money+rui", None, "court+rui", "tech+court", "tech"],
  ["docs", "uefa+match", "psg", "psg", "psg+docs", "ronaldo", "ronaldo+docs", "etihad", "celeb"],
- ["mansour+abudhabi", "mansour+etihad", "uefa", "etihad+plane", "docs+etihad", "mansour+abudhabi", "pep", "store+docs", "docs", "celeb+match", "uefa+match", "etihad+pep+celeb"],
+ ["mansour+abudhabi", "mansour+etihad", "uefa", "etihad+plane", "leakdocs+etihad", "mansour+abudhabi", "pep", "store+docs", "docs", "celeb+match", "uefa+match", "etihad+pep+celeb"],
  ["london", None, "abudhabi+london", "manchester+etihad"],
- ["infantino", "infantino", "court+arrest", "pep+mansour+celeb+etihad", "photo+tech+court", "etihad"],
+ ["infantino", "infantino", "rui+court+arrest", "pep+mansour+celeb+etihad", "rui+tech+rui", "etihad"],
 ]
+SCENE_CUT = {(1, 0): 1.8, (1, 1): 1.6, (1, 2): 1.3}
 SHOTS = json.load(open(f"{ROOT}/build/shots.json"))
 _items = {}; _cur = {}; _len = {}
 def pool_items(name):
@@ -225,22 +233,23 @@ def pool_items(name):
                 p = f"{ROOT}/assets/real/{it[1]}.mp4"; spans = [(it[2], it[3])]
             else:
                 p = f"{ROOT}/assets/real/{it[1]}.mp4"; a, b = SHOTS[it[1]][it[2]]; spans = [(a + 0.12, b - 0.12)]
+            crop = it[3] if it[0] == "shot" and len(it) > 3 else ""
             for a, b in spans:
                 if b - a > 9.5:
-                    k = int((b - a) // 4.7); out += [(p, a + i * (b - a) / k, a + (i + 1) * (b - a) / k) for i in range(k)]
+                    k = int((b - a) // 4.7); out += [(p, a + i * (b - a) / k, a + (i + 1) * (b - a) / k, crop) for i in range(k)]
                 else:
-                    out.append((p, a, b))
+                    out.append((p, a, b, crop))
         _items[name] = out; _cur[name] = 0
     return _items[name]
-def allocate(pools, nf):
-    D = nf / FPS; n = max(1, round(D / 4.0)); names = pools.split("+"); takes = []; base = nf // n
+def allocate(pools, nf, cut=4.0):
+    D = nf / FPS; n = max(1, round(D / cut)); names = pools.split("+"); takes = []; base = nf // n
     for i in range(n):
         frames = base if i < n - 1 else nf - base * (n - 1); d = frames / FPS; name = names[i % len(names)]; items = pool_items(name)
         for _ in range(len(items)):
-            p, a, b = items[_cur[name] % len(items)]; _cur[name] += 1; L = b - a
+            p, a, b, crop = items[_cur[name] % len(items)]; _cur[name] += 1; L = b - a
             if L >= d or d / L <= 1.75: break
         slow = max(1.0, d / L); ss = a + (min(1.2, (L - d) / 2) if L > d else 0)
-        takes.append({"src": p, "ss": round(ss, 2), "slow": round(slow, 3), "frames": frames})
+        takes.append({"src": p, "ss": round(ss, 2), "slow": round(slow, 3), "frames": frames, "crop": crop})
     return takes
 
 
@@ -275,17 +284,27 @@ def beat_times(i, beats):
 
 
 def main():
-    scenes = []; t = 0.0; vo = []; music = []
+    scenes = []; t = 0.0; vo = []; music = []; auto = [2]
     def add(d, **k):
         nonlocal t
-        sid = k.pop("sid", None) or f"s{sum(1 for x in scenes if x['id'][0] == 's'):03d}"
+        sid = k.pop("sid", None)
+        if not sid: sid = f"s{auto[0]:03d}"; auto[0] += 1
         scenes.append({"id": sid, "start": t, "dur": d, **k}); t += d
     music.append({"track": "drone", "start": 0})
-    PEP = f"{ROOT}/assets/real/pep_furious.mp4"
-    add(12.0, sid="c000", gfx={"type": "lower", "name": "PEP GUARDIOLA", "role": "Press conference · May 2019"}, label="",
-        takes=[{"src": PEP, "ss": 19.5, "slow": 1.0, "frames": 300, "pillar": True}], nat={"src": PEP, "ss": 19.5})
-    add(7.5, gfx={"type": "quote", "text": "Football is not for sale. Not today, not tomorrow, and not ever.", "by": "ALEKSANDER ČEFERIN · UEFA PRESIDENT"}, label="")
-    add(5.0, gfx={"type": "sting", "title": "THE 115 CHARGES", "sub": "THE HACKER WHO PULLED THE THREAD"}, label="")
+    BBC = f"{ROOT}/assets/real/city_bbc_long.mp4"; SKY = f"{ROOT}/assets/real/soriano_sky.mp4"; NDRF = f"{ROOT}/assets/real/rui_ndr.mp4"
+    add(5.2, sid="b000", gfx={"type": "caps", "name": "", "role": "", "phrases": [{"t0": 0.15, "t1": 1.7, "text": "*Champions* of Europe.", "q": 0}, {"t0": 1.8, "t1": 3.4, "text": "5 league titles in 6 years.", "q": 0}, {"t0": 3.5, "t1": 5.1, "text": "*Too good* to be true?", "q": 0}]},
+        label="", pools="ucl+goals+celeb+goals", cut=1.3)
+    COLD = [
+        (BBC, 245.2, 6.0, "PEP GUARDIOLA", "Manchester City manager · 2023", "", [(0.15, 2.45, "How confident are you that you have *been told everything?*", 1), (3.1, 5.7, "We are *already being condemned.*", 0)]),
+        (SKY, 0.0, 6.6, "FERRAN SORIANO", "Manchester City chief executive · 2026", "", [(2.1, 3.75, "Do you *apologise* to football fans?", 1), (4.0, 6.4, "I have nothing to say.", 0)]),
+        (SKY, 11.3, 6.0, "FERRAN SORIANO", "Manchester City chief executive · 2026", "", [(0.2, 2.6, "Is all this success *sham contracts?*", 1), (2.65, 4.4, "Is this a *sham club?*", 1), (4.6, 5.9, "Thank you.", 0)]),
+        (NDRF, 426.9, 4.0, "RUI PINTO", "Football Leaks · the source", "crop=iw*0.60:ih*0.70:iw*0.10:ih*0.03,", [(0.1, 1.9, "I'm not a hacker.", 0), (2.0, 3.85, "I'm a *whistleblower.*", 0)]),
+        (BBC, 92.6, 6.4, "", "BBC News report · 2026", "", [(0.1, 2.7, "Seismic news.", 0), (3.5, 6.25, "City found *guilty* of the majority of *115 charges.*", 0)]),
+    ]
+    for k, (src, ss, d, name, role, crop, ph) in enumerate(COLD):
+        add(d, sid=f"c{k:03d}", gfx={"type": "caps", "name": name, "role": role, "phrases": [{"t0": a, "t1": b, "text": x, "q": q} for a, b, x, q in ph]}, label="",
+            takes=[{"src": src, "ss": ss, "slow": 1.0, "frames": round(d * FPS), "crop": crop}], nat={"src": src, "ss": ss})
+    add(5.0, sid="s001", gfx={"type": "sting", "title": "THE 115 CHARGES", "sub": "THE HACKER WHO PULLED THE THREAD"}, label="")
     for ci, ch in enumerate(CHAPTERS, 1):
         if "num" in ch:
             music.append({"track": ch["music"], "start": t})
@@ -303,7 +322,7 @@ def main():
             s1 = vo_start + (cuts[bi + 1] if bi + 1 < n else d + 0.9)
             t = s0
             vis = dict(vis); vis.pop("bg", None)
-            add(s1 - s0, text=text, label=label, vo0=vo_start + cuts[bi], pools=SCENE_POOLS[ci - 1][bi], **vis)
+            add(s1 - s0, text=text, label=label, vo0=vo_start + cuts[bi], pools=SCENE_POOLS[ci - 1][bi], cut=SCENE_CUT.get((ci, bi), 4.0), **vis)
     music.append({"track": "finale", "start": t, "keep": True})
     add(14.0, gfx={"type": "end"}, label="")
     # frame-quantise
@@ -315,7 +334,9 @@ def main():
     for s in scenes:
         s["start"] = s["f0"] / FPS; s["dur"] = s["nf"] / FPS
     for s in scenes:
-        if s.get("pools"): s["takes"] = allocate(s["pools"], s["nf"])
+        if s.get("pools"): s["takes"] = allocate(s["pools"], s["nf"], s.get("cut", 4.0))
+        if s["gfx"]["type"] in ("article", "map"): s.pop("takes", None)
+        s["framed"] = "takes" in s and s["gfx"]["type"] in ("none", "stat", "word", "lower", "chips", "caps")
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
     os.makedirs(f"{ROOT}/build", exist_ok=True)
     json.dump({"fps": FPS, "total": total, "scenes": scenes, "vo": vo, "music": music}, open(f"{ROOT}/build/timeline.json", "w"), indent=1, ensure_ascii=False)

@@ -182,7 +182,7 @@ POOLS = {
  "celeb": sh(B, 2, 4, 5, 6, 8, 3, 27, 26, 37) + sh("city_stage23", 9, 1, 3, 5, 0, 7, 4, 8, 2) + sh("city_parade23", 0, 1, 2, 3, 4) + sh("city_parade18", 1, 4, 5) + sh("city_parade22", 0, 1) + sh(I, 8, 9) + sh(P, 32, 36, 40, 31),
  "ucl": sh("city_stage23", 9) + sh(P, 31, 29) + sh(B, 2) + sh(P, 30),
  "goals": sh(I, 0) + sh(P, 22, 19) + sh(I, 2) + sh(P, 29, 30),
- "etihad": sh(B, 43, 7, 21, 11) + win(B, 352.74, 357.34) + sh(B, 34) + sh(R, 9, 8),
+ "etihad": sh(B, 43) + win(B, 99.6, 104.2) + sh(B, 21, 11, 43) + sh(B, 21, 11) + win(B, 352.74, 357.34) + sh(B, 34) + sh(R, 9, 8),
  "store": sh(R, 10, 11),
  "pep": sh(P, 28, 37, 39, 27, 23, 34, 26, 38, 40) + sh(B, 23) + sh(I, 7) + sh("city_parade22", 2) + sh("city_stage23", 6),
  "match": sh(I, 0, 5, 2, 1) + sh(P, 29, 19, 30, 22) + st("match1"),
@@ -296,14 +296,14 @@ def main():
         label="", pools="ucl+goals+celeb+goals", cut=1.3)
     COLD = [
         (BBC, 245.2, 6.0, "PEP GUARDIOLA", "Manchester City manager · 2023", "", [(0.15, 2.45, "How confident are you that you have *been told everything?*", 1), (3.1, 5.7, "We are *already being condemned.*", 0)]),
-        (SKY, 0.0, 6.6, "FERRAN SORIANO", "Manchester City chief executive · 2026", "", [(2.1, 3.75, "Do you *apologise* to football fans?", 1), (4.0, 6.4, "I have nothing to say.", 0)]),
-        (SKY, 11.3, 6.0, "FERRAN SORIANO", "Manchester City chief executive · 2026", "", [(0.2, 2.6, "Is all this success *sham contracts?*", 1), (2.65, 4.4, "Is this a *sham club?*", 1), (4.6, 5.9, "Thank you.", 0)]),
-        (NDRF, 426.9, 4.0, "RUI PINTO", "Football Leaks · the source", "crop=iw*0.60:ih*0.70:iw*0.10:ih*0.03,", [(0.1, 1.9, "I'm not a hacker.", 0), (2.0, 3.85, "I'm a *whistleblower.*", 0)]),
+        (SKY, 0.0, 6.6, "FERRAN SORIANO", "Manchester City chief executive · 2026", "PILLAR:crop=iw:iw*0.86:0:ih*0.045", [(2.1, 3.75, "Do you *apologise* to football fans?", 1), (4.0, 6.4, "I have nothing to say.", 0)]),
+        (SKY, 11.3, 6.0, "FERRAN SORIANO", "Manchester City chief executive · 2026", "PILLAR:crop=iw:iw*0.86:0:ih*0.045", [(0.2, 2.6, "Is all this success *sham contracts?*", 1), (2.65, 4.4, "Is this a *sham club?*", 1), (4.6, 5.9, "Thank you.", 0)]),
+        (NDRF, 426.9, 4.0, "RUI PINTO", "Football Leaks · the source", "PILLAR:crop=iw*0.66:ih*0.80:0:0", [(0.1, 1.9, "I'm not a hacker.", 0), (2.0, 3.85, "I'm a *whistleblower.*", 0)]),
         (BBC, 92.6, 6.4, "", "BBC News report · 2026", "", [(0.1, 2.7, "Seismic news.", 0), (3.5, 6.25, "City found *guilty* of the majority of *115 charges.*", 0)]),
     ]
     for k, (src, ss, d, name, role, crop, ph) in enumerate(COLD):
-        add(d, sid=f"c{k:03d}", gfx={"type": "caps", "name": name, "role": role, "phrases": [{"t0": a, "t1": b, "text": x, "q": q} for a, b, x, q in ph]}, label="",
-            takes=[{"src": src, "ss": ss, "slow": 1.0, "frames": round(d * FPS), "crop": crop}], nat={"src": src, "ss": ss})
+        add(d, sid=f"c{k:03d}", gfx={"type": "caps", "name": name, "role": role, "nameat": 2.5 if k == 0 else 0, "small": k == 3, "phrases": [{"t0": a, "t1": b, "text": x, "q": q} for a, b, x, q in ph]}, label="",
+            takes=[{"src": src, "ss": ss, "slow": 1.0, "frames": round(d * FPS), "crop": "" if crop.startswith("PILLAR:") else crop, "pillar": crop[7:] if crop.startswith("PILLAR:") else ""}], nat={"src": src, "ss": ss})
     add(5.0, sid="s001", gfx={"type": "sting", "title": "THE 115 CHARGES", "sub": "THE HACKER WHO PULLED THE THREAD"}, label="")
     for ci, ch in enumerate(CHAPTERS, 1):
         if "num" in ch:

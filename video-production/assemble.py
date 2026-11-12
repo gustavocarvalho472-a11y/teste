@@ -32,7 +32,7 @@ def encode(s):
         pre = ("crop=iw:ih*0.755," if "city_pep_official" in t["src"] else "") + (t.get("crop") or "")
         grade = "eq=contrast=1.07:saturation=0.9:brightness=-0.03" if real else "eq=contrast=1.12:saturation=0.74:brightness=-0.06"
         if t.get("pillar"):
-            fc.append(f"[{i}:v]crop=ih*0.70:ih,fps={FPS},split[pa][pb];[pa]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=28:4,eq=brightness=-0.22[pbg];"
+            fc.append(f"[{i}:v]{t['pillar']},fps={FPS},split[pa][pb];[pa]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,boxblur=28:4,eq=brightness=-0.22[pbg];"
                       f"[pb]scale=-2:1080[pfg];[pbg][pfg]overlay=(W-w)/2:0,setsar=1,format=yuv420p,trim=end_frame={t['frames']},setpts=PTS-STARTPTS[v{i}]")
             continue
         fc.append(f"[{i}:v]{pre}setpts={t['slow']:.4f}*(PTS-STARTPTS),fps={FPS},scale=1920:1080:force_original_aspect_ratio=increase:flags=lanczos,crop=1920:1080,setsar=1,format=yuv420p,"

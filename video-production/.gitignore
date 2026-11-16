@@ -6,3 +6,8 @@ assets/contact.jpg
 out/*.mp4
 __pycache__/
 assets/real/
+brazil/node_modules
+brazil/assets/stock
+brazil/assets/music
+**/assets/real/
+**/out/*.mp4

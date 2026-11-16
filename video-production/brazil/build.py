@@ -22,6 +22,7 @@ POOLS = {
  "today": sh(A, 10, 14, 15) + win(J26, 2, 50),
  "norwaycry": sh(NC, 0, 1), "norway": win(NOR, SHOTS[NOR][16][0] + 2, SHOTS[NOR][16][0] + 12) + win(NOR, SHOTS[NOR][26][0] + 2, SHOTS[NOR][26][0] + 12),
  "neymar": sh(CRO, 31, 46) + sh(NC, 1),
+ "fall": sh(CRO, 38) + sh(A25, 34) + sh(NC, 1) + sh(A23, 38) + sh(J25, 2) + sh(CRO, 43) + sh(A25, 37) + sh(J25, 70) + sh(A23, 25) + sh(A25, 7) + sh(J26, 17) + sh(NC, 0),
  "anc": sh(A, 8, 2, 3, 9, 11), "train": sh(A, 10, 14, 15, 11, 9), "wc": sh(A, 16, 17),
  "j26vini": win(J26, 207, 268) + sh(J26, 8, 6, 9, 10, 11, 7), "j26winner": win(J26, 362, 398),
  "j26end": win(J26, 401, 438) + win(J26, 441, 490) + sh(J26, 17, 15, 16), "j26score": sh(J26, 15, 16, 17),
@@ -58,9 +59,9 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  {"cold": True, "src": R(S71), "ss": SHOTS[S71][2][0] + 0.2, "d": 3.2},
- L(0, P(1, "s71", "stat", 2.3, big="0 – 5", label="BRAZIL v GERMANY · 29 MINUTES · JULY 8, 2014", late=.55)),
- L(1, P(1, "s71sad+s71", "word", 3.2, text="ROCK BOTTOM", late=.1)),
- L(2, P(1, "j26end+norwaycry", "word", 3.2, text="IT GOT WORSE", late=.05)),
+ L(0, P(1, "s71", "chips", 1.25, title="29 MINUTES", items=["11' · Müller", "23' · Klose", "24' · Kroos", "26' · Kroos", "29' · Khedira"], t0=.3)),
+ L(1, P(1, "s71sad+s71+" + "+".join(["fall"] * 10), "chips", 1.45, title="ROCK BOTTOM?", items=["2018 · Out to Belgium", "2022 · Out to Croatia", "2026 · Out to Norway"], t0=.45)),
+ L(2, P(1, "j26end+viniboo+rpress+j26score+arg25", "word", 1.5, text="IT GOT WORSE", late=.05)),
  L(3, P(1, "vinibest", "lower", name="VINÍCIUS JÚNIOR", role="FIFA The Best · December 2024", late=.1), P(1, "vinibest+r9", "stat", 3.4, big="NO. 1", label="FIRST BRAZILIAN SINCE KAKÁ IN 2007", late=.08)),
  L(4, P(1, "viniboo", "word", text="WHISTLED", sub="AT THE BERNABÉU", late=.3)),
  L(5, P(.26, "viniyellow"), P(.42, "viniboo+viniyellow", "define", **D_("BODY DOUBLE", "THE JOKE ONLINE · SUMMER 2026", "“The real Vini died in surgery. That one is a double.”")),

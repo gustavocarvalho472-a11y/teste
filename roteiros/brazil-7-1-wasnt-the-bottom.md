@@ -69,3 +69,62 @@ Depois do Japão, o Romário, campeão em 1994, resumiu o humor do país numa fr
 A próxima Copa é em 2030, na Espanha, em Portugal e no Marrocos. Se o Brasil não ganhar, serão vinte e oito anos sem título, e o contrato do Ancelotti vai exatamente até lá. Quando perguntaram a ele sobre as críticas, a resposta coube em duas palavras: "Temos futuro." Talvez tenha. Em 2030, o Endrick vai ter vinte e quatro anos, o Estêvão vai ter vinte e três, e o Vinícius vai chegar aos trinta. Mas, pela primeira vez em muito tempo, o Brasil vai entrar numa Copa sem ser tratado como favorito por ninguém.
 
 O sete a um deveria ter sido o fundo do poço. Doze anos depois, o melhor do mundo virou meme, o capitão pede descanso e o Japão já venceu o Brasil duas vezes. Talvez a piada da internet esteja mais certa do que parece, e alguma coisa tenha mesmo morrido depois daquela Copa. A dúvida é se ainda dá tempo de trazer de volta antes de 2030.
+
+## SCRIPT (EN) — versão gravada
+
+On July 8th, 2014, in Belo Horizonte, Germany need just twenty-nine minutes to score five goals against Brazil, at home, in a World Cup semi-final.
+
+For years, that match is treated as rock bottom, the kind of humiliation that happens once in a lifetime and that, precisely because it is so big, should force Brazilian football to rebuild. The logic is simple: after seven-one, the only way is up.
+
+Twelve years later, the problem is no longer a scoreline. It is that Brazilian fans have stopped expecting anything from their own national team.
+
+In December 2024, in Doha, Vinícius Júnior is named the best player in the world by FIFA, ahead of Rodri and Bellingham, the first Brazilian to win it since Kaká in 2007, and for one night it looks like Brazil have finally found the heir to Romário, Ronaldo and Ronaldinho.
+
+Less than two years later, that same player is whistled by Real Madrid's own fans at the Bernabéu.
+
+And in Brazil, he has become a joke. When he has a cosmetic procedure on his chin this summer, the internet finds the perfect explanation for his decline: the real Vini died on the operating table, and the man on the pitch today is a body double. Because for a lot of people, that is the only way to explain how the best player in the world got this bad, this fast.
+
+And when you watch him in a yellow shirt, you understand why the joke stuck.
+
+It does not look like a player in bad form. It looks like someone who does not want to be there. And that is exactly what hurts the fans, because they remember a time when the best player in the world wore yellow and played as if that shirt was the most important thing in his life.
+
+So the question is no longer whether Brazil will win the next World Cup. It is what, exactly, happened to the Brazilian national team.
+
+To understand it, start with the captain. In March 2025, days before facing Argentina in Buenos Aires, Raphinha gives an interview to Romário and promises to, quote, beat them up, on the pitch and off it if necessary.
+
+Argentina answer by winning four-one, and after the final whistle their players are filmed singing a chant aimed at him.
+
+Three months later, already on holiday, Raphinha talks about the Club World Cup and says it is hard to give up your holidays, and that not everyone will want to go. He is talking about clubs, not Brazil, but Zico, who played three World Cups and never won one, replies that if Raphinha had played that tournament in the middle of his holidays, he would not have said it.
+
+And in November 2026, before a trip to Asia with the national team, the captain says that if Ancelotti really counts on him, he knows he has to manage his minutes. He has had three injuries in eight months, but in Brazil nobody hears the injuries. What they hear is a player choosing which matches to play for his country. At the next press conference, when he tries to explain himself, this happens.
+
+Twenty-four seconds without finishing the sentence. Days later, he walks out against Japan wearing the captain's armband, and he leaves with a red card.
+
+Bruno Guimarães is a different story that ends in the same place. In the round of sixteen of the 2026 World Cup, against Norway, Brazil win a penalty, and with the 2024 world player of the year on the pitch, Ancelotti gives the ball to Bruno. He misses, Brazil go out, and two days later the midfielder writes that it hurts a lot.
+
+And Vinícius, who did not take that penalty, finally scores twice for Brazil in November, against Japan, one of them into the top corner. Brazil still lose three-two in stoppage time, for the second time in thirteen months against the same opponent.
+
+And if anyone in Brazil thought the humiliation would stay in the family, Argentina made sure it did not. In 2022, when Brazil go out to Croatia, Argentina's fans celebrate inside the stadium. A year later, Argentina win at the Maracanã and hand Brazil the first home defeat in the history of their World Cup qualifiers.
+
+The comparison with the past becomes impossible to avoid. In 1994, Dunga lifts the trophy screaming at the sky, and in 2002 Cafu climbs onto the podium in Yokohama, with a shaved head, no cameras in the dressing room and no skincare brand.
+
+Today's Brazil have tattoos on every arm, a hairdresser before every tournament and more followers than any team on the planet, and it is tempting to conclude that this is the problem.
+
+Except that in 2002, Ronaldo walks out with the most ridiculous haircut in World Cup history, a triangle of hair on a shaved head, and still scores eight goals, two of them in the final. So the problem was never the hair. Back then, fame came after the trophy. Today it comes first, and sometimes instead of it.
+
+And it is worth remembering what is at stake. This is the shirt Pelé wore at seventeen in 1958, the one Garrincha carried in 1962, the one that became the most beautiful team in history in 1970, the one Romário rescued in 1994, and the one Ronaldo, Rivaldo and Ronaldinho took to a fifth title in 2002. Five stars, and no other country in the world has five.
+
+What changed is the road that leads to it. Brazil now export more footballers than any country on Earth, one thousand four hundred and fifty-five of them playing abroad. Vinícius signs for Real Madrid at sixteen, so does Endrick, and both grow up far from home, becoming brands, with sponsors and social media, before they become idols in their own country. And the person who confirms it is not a critic. It is the captain himself.
+
+In 2024, Ronaldinho had already said what many people were thinking: that there was no love for the shirt, no fight and, above all, no football. Days later, he revealed the line was part of an advertising campaign. The strange part is that almost nobody disagreed with it.
+
+Through all of this, the national team spent twelve years depending on a single player. In 2014, Neymar gets injured and the seven-one follows. In 2022, he scores against Croatia and Brazil go out anyway. And in 2026, against Norway, Brazil leave in the round of sixteen, their worst World Cup since 1990.
+
+After Japan, Romário, a world champion in 1994, sums up the mood of the country in one line: Ancelotti, that's enough. Pack your things and get out.
+
+The next World Cup is in 2030, in Spain, Portugal and Morocco. If Brazil do not win it, that will be twenty-eight years without a title, and Ancelotti's contract runs exactly until then. When he is asked about the criticism, his answer is short: we have a future.
+
+Maybe they do. In 2030, Endrick and Estêvão will be twenty-three, and Vinícius will turn thirty. But for the first time in a very long time, Brazil will arrive at a World Cup without anyone calling them favourites.
+
+The seven-one was supposed to be rock bottom. Twelve years later, the best player in the world is a meme, the captain is asking for rest, and Japan have beaten Brazil twice. Maybe the internet's joke is closer to the truth than it sounds, and something really did die after that World Cup. The question is whether there is still time to bring it back before 2030.
+

@@ -124,7 +124,8 @@ def main():
         vo.append({"file": f, "start": t + 0.12, "dur": d - 0.3})
         for k, (w, pools, cut, gfx) in enumerate(it["parts"]):
             add(d * w / W, f"n{n:02d}", gfx=gfx, pools=pools, cut=cut, label="BRAZIL · THE FALL", **({"text": TEXT[it["line"]], "vo0": t + 0.12, "vod": d - 0.3} if k == 0 else {})); n += 1
-    add(12.0, "end", gfx={"type": "end"})
+    dc = dur(f"{ROOT}/assets/vo/L28.mp3"); vo.append({"file": "L28.mp3", "start": t + 0.6, "dur": dc})
+    add(dc + 2.4, "end", gfx={"type": "end"}, text=TEXT[28], vo0=t + 0.6, vod=dc)
     for s in scenes: s["f0"] = round(s["start"] * FPS)
     for a, b in zip(scenes, scenes[1:]): a["nf"] = b["f0"] - a["f0"]
     scenes[-1]["nf"] = round(scenes[-1]["dur"] * FPS)

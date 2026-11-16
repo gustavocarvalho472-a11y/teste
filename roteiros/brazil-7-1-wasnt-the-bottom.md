@@ -128,3 +128,9 @@ Maybe they do. In 2030, Endrick and Estêvão will be twenty-three, and Viníciu
 
 The seven-one was supposed to be rock bottom. Twelve years later, the best player in the world is a meme, the captain is asking for rest, and Japan have beaten Brazil twice. Maybe the internet's joke is closer to the truth than it sounds, and something really did die after that World Cup. The question is whether there is still time to bring it back before 2030.
 
+
+## CTA (final)
+
+EN: So tell me in the comments: can Brazil win it in 2030? And if this video was worth your time, leave a like, subscribe, and send it to a friend who still believes in Brazil. It really helps the channel grow.
+
+PT: Então me conta nos comentários: o Brasil consegue ganhar em 2030? E se este vídeo valeu o seu tempo, deixe o like, se inscreva e mande para um amigo que ainda acredita no Brasil. Isso ajuda muito o canal a crescer.

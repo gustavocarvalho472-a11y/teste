@@ -213,7 +213,7 @@ def srt():
                 c = p.rfind(" ", 0, 84); c2 = p.rfind(", ", 30, 84); c = c2 + 1 if c2 > 0 else c
                 chunks.append(p[:c].strip()); p = p[c:].strip()
             chunks.append(p)
-        a = s["vo0"]; b = s["start"] + s["dur"] - 0.25; tot = sum(len(c) + 8 for c in chunks); t = a
+        a = s["vo0"]; b = (s["vo0"] + s["vod"]) if "vod" in s else s["start"] + s["dur"] - 0.25; tot = sum(len(c) + 8 for c in chunks); t = a
         for c in chunks:
             dt = (b - a) * (len(c) + 8) / tot
             if len(c) > 42:

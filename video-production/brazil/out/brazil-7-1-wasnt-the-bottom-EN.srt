@@ -1,825 +1,825 @@
 1
-00:00:03,320 --> 00:00:04,729
+00:00:03,320 --> 00:00:04,737
 On July 8th,
 
 2
-00:00:04,779 --> 00:00:05,677
+00:00:04,787 --> 00:00:05,691
 2014,
 
 3
-00:00:05,727 --> 00:00:07,574
+00:00:05,741 --> 00:00:07,599
 in Belo Horizonte,
 
 4
-00:00:07,624 --> 00:00:14,140
+00:00:07,649 --> 00:00:14,202
 Germany need just twenty-nine minutes to score
 five goals against Brazil, at home,
 
 5
-00:00:14,190 --> 00:00:16,620
+00:00:14,252 --> 00:00:16,697
 in a World Cup semi-final.
 
 6
-00:00:17,047 --> 00:00:18,049
+00:00:17,047 --> 00:00:18,053
 For years,
 
 7
-00:00:18,099 --> 00:00:20,680
+00:00:18,103 --> 00:00:20,692
 that match is treated as rock bottom,
 
 8
-00:00:20,730 --> 00:00:24,948
+00:00:20,742 --> 00:00:24,973
 the kind of humiliation that happens
 once in a lifetime and that,
 
 9
-00:00:24,998 --> 00:00:27,229
+00:00:25,023 --> 00:00:27,260
 precisely because it is so big,
 
 10
-00:00:27,279 --> 00:00:30,210
+00:00:27,310 --> 00:00:30,250
 should force Brazilian
 football to rebuild.
 
 11
-00:00:30,260 --> 00:00:31,847
+00:00:30,300 --> 00:00:31,893
 The logic is simple:
 
 12
-00:00:31,897 --> 00:00:34,420
+00:00:31,943 --> 00:00:34,473
 after seven-one, the only way is up.
 
 13
-00:00:34,823 --> 00:00:36,152
+00:00:34,823 --> 00:00:36,163
 Twelve years later,
 
 14
-00:00:36,202 --> 00:00:38,450
+00:00:36,213 --> 00:00:38,480
 the problem is no longer a scoreline.
 
 15
-00:00:38,500 --> 00:00:42,996
+00:00:38,530 --> 00:00:43,063
 It is that Brazilian fans have stopped
 expecting anything from their own national
 
 16
-00:00:43,046 --> 00:00:43,660
+00:00:43,113 --> 00:00:43,733
 team.
 
 17
-00:00:44,083 --> 00:00:44,849
+00:00:44,083 --> 00:00:45,699
 In December 2024,
 
 18
-00:00:44,899 --> 00:00:45,372
+00:00:45,749 --> 00:00:46,765
 in Doha,
 
 19
-00:00:45,422 --> 00:00:47,657
+00:00:46,815 --> 00:00:51,430
 Vinícius Júnior is named the best
 player in the world by FIFA,
 
 20
-00:00:47,707 --> 00:00:48,898
+00:00:51,480 --> 00:00:53,962
 ahead of Rodri and Bellingham,
 
 21
-00:00:48,948 --> 00:00:50,760
+00:00:54,012 --> 00:00:57,761
 the first Brazilian to win it
 since Kaká in 2007,
 
 22
-00:00:50,810 --> 00:00:53,568
+00:00:57,811 --> 00:01:03,492
 and for one night it looks like Brazil have
 finally found the heir to Romário,
 
 23
-00:00:53,618 --> 00:00:54,580
+00:01:03,542 --> 00:01:05,558
 Ronaldo and Ronaldinho.
 
 24
-00:01:05,908 --> 00:01:08,073
+00:01:05,908 --> 00:01:08,098
 Less than two years later,
 
 25
-00:01:08,123 --> 00:01:13,220
+00:01:08,148 --> 00:01:13,303
 that same player is whistled by Real
 Madrid's own fans at the Bernabéu.
 
 26
-00:01:13,653 --> 00:01:13,917
+00:01:13,653 --> 00:01:14,867
 And in Brazil,
 
 27
-00:01:13,967 --> 00:01:14,332
+00:01:14,917 --> 00:01:16,534
 he has become a joke.
 
 28
-00:01:14,382 --> 00:01:15,262
+00:01:16,584 --> 00:01:20,271
 When he has a cosmetic procedure
 on his chin this summer,
 
 29
-00:01:15,312 --> 00:01:16,221
+00:01:20,321 --> 00:01:24,122
 the internet finds the perfect
 explanation for his decline:
 
 30
-00:01:16,271 --> 00:01:16,936
+00:01:24,172 --> 00:01:26,996
 the real Vini died on the operating table,
 
 31
-00:01:16,986 --> 00:01:17,737
+00:01:27,046 --> 00:01:30,215
 and the man on the pitch
 today is a body double.
 
 32
-00:01:17,787 --> 00:01:18,252
+00:01:30,265 --> 00:01:32,284
 Because for a lot of people,
 
 33
-00:01:18,302 --> 00:01:19,482
+00:01:32,334 --> 00:01:37,228
 that is the only way to explain how the best
 player in the world got this bad,
 
 34
-00:01:19,532 --> 00:01:19,740
+00:01:37,278 --> 00:01:38,262
 this fast.
 
 35
-00:01:38,612 --> 00:01:42,660
+00:01:38,612 --> 00:01:42,742
 And when you watch him in a yellow shirt,
 you understand why the joke stuck.
 
 36
-00:01:49,092 --> 00:01:50,302
+00:01:49,092 --> 00:01:51,928
 It does not look like a
 player in bad form.
 
 37
-00:01:50,352 --> 00:01:51,785
+00:01:51,978 --> 00:01:55,324
 It looks like someone who does
 not want to be there.
 
 38
-00:01:51,835 --> 00:01:52,971
+00:01:55,374 --> 00:01:58,041
 And that is exactly what hurts the fans,
 
 39
-00:01:53,021 --> 00:01:55,096
+00:01:58,091 --> 00:02:02,909
 because they remember a time when the best
 player in the world wore yellow and
 
 40
-00:01:55,146 --> 00:01:56,900
+00:02:02,959 --> 00:02:07,040
 played as if that shirt was the most
 important thing in his life.
 
 41
-00:02:07,390 --> 00:02:11,954
+00:02:07,390 --> 00:02:11,981
 So the question is no longer whether
 Brazil will win the next World Cup.
 
 42
-00:02:12,004 --> 00:02:13,049
+00:02:12,031 --> 00:02:13,084
 It is what,
 
 43
-00:02:13,099 --> 00:02:13,972
+00:02:13,134 --> 00:02:14,012
 exactly,
 
 44
-00:02:14,022 --> 00:02:16,740
+00:02:14,062 --> 00:02:16,797
 happened to the Brazilian national team.
 
 45
-00:02:21,747 --> 00:02:23,184
+00:02:21,747 --> 00:02:23,189
 To understand it,
 
 46
-00:02:23,234 --> 00:02:25,028
+00:02:23,239 --> 00:02:25,039
 start with the captain.
 
 47
-00:02:25,078 --> 00:02:26,337
+00:02:25,089 --> 00:02:26,352
 In March 2025,
 
 48
-00:02:26,387 --> 00:02:29,490
+00:02:26,402 --> 00:02:29,515
 days before facing
 Argentina in Buenos Aires,
 
 49
-00:02:29,540 --> 00:02:33,237
+00:02:29,565 --> 00:02:33,275
 Raphinha gives an interview to
 Romário and promises to,
 
 50
-00:02:33,287 --> 00:02:34,070
+00:02:33,325 --> 00:02:34,110
 quote,
 
 51
-00:02:34,120 --> 00:02:37,580
+00:02:34,160 --> 00:02:37,631
 beat them up, on the pitch and
 off it if necessary.
 
 52
-00:02:37,981 --> 00:02:40,534
+00:02:37,981 --> 00:02:40,552
 Argentina answer by winning four-one,
 
 53
-00:02:40,584 --> 00:02:45,740
+00:02:40,602 --> 00:02:45,794
 and after the final whistle their players are
 filmed singing a chant aimed at him.
 
 54
-00:02:46,144 --> 00:02:46,625
+00:02:46,144 --> 00:02:47,461
 Three months later,
 
 55
-00:02:46,675 --> 00:02:47,156
+00:02:47,511 --> 00:02:48,827
 already on holiday,
 
 56
-00:02:47,206 --> 00:02:48,787
+00:02:48,877 --> 00:02:53,028
 Raphinha talks about the Club World Cup
 and says it is hard to give up your
 
 57
-00:02:48,837 --> 00:02:49,121
+00:02:53,078 --> 00:02:53,888
 holidays,
 
 58
-00:02:49,171 --> 00:02:50,025
+00:02:53,938 --> 00:02:56,217
 and that not everyone will want to go.
 
 59
-00:02:50,075 --> 00:02:50,694
+00:02:56,267 --> 00:02:57,937
 He is talking about clubs,
 
 60
-00:02:50,744 --> 00:02:51,067
+00:02:57,987 --> 00:02:58,899
 not Brazil,
 
 61
-00:02:51,117 --> 00:02:51,401
+00:02:58,949 --> 00:02:59,759
 but Zico,
 
 62
-00:02:51,451 --> 00:02:52,463
+00:02:59,809 --> 00:03:02,492
 who played three World Cups
 and never won one,
 
 63
-00:02:52,513 --> 00:02:54,232
+00:03:02,542 --> 00:03:07,048
 replies that if Raphinha had played that
 tournament in the middle of his holidays,
 
 64
-00:02:54,282 --> 00:02:54,900
+00:03:07,098 --> 00:03:08,768
 he would not have said it.
 
 65
-00:03:09,118 --> 00:03:09,703
+00:03:09,118 --> 00:03:10,691
 And in November 2026,
 
 66
-00:03:09,753 --> 00:03:10,862
+00:03:10,741 --> 00:03:13,657
 before a trip to Asia with
 the national team,
 
 67
-00:03:10,912 --> 00:03:12,263
+00:03:13,707 --> 00:03:17,239
 the captain says that if
 Ancelotti really counts on him,
 
 68
-00:03:12,313 --> 00:03:13,269
+00:03:17,289 --> 00:03:19,813
 he knows he has to manage his minutes.
 
 69
-00:03:13,319 --> 00:03:14,363
+00:03:19,863 --> 00:03:22,611
 He has had three injuries in eight months,
 
 70
-00:03:14,413 --> 00:03:15,413
+00:03:22,661 --> 00:03:25,297
 but in Brazil nobody hears the injuries.
 
 71
-00:03:15,463 --> 00:03:17,207
+00:03:25,347 --> 00:03:29,886
 What they hear is a player choosing which
 matches to play for his country.
 
 72
-00:03:17,257 --> 00:03:18,017
+00:03:29,936 --> 00:03:31,956
 At the next press conference,
 
 73
-00:03:18,067 --> 00:03:19,220
+00:03:32,006 --> 00:03:35,034
 when he tries to explain
 himself, this happens.
 
 74
-00:03:46,384 --> 00:03:49,713
+00:03:46,384 --> 00:03:49,740
 Twenty-four seconds without
 finishing the sentence.
 
 75
-00:03:49,763 --> 00:03:50,801
+00:03:49,790 --> 00:03:50,837
 Days later,
 
 76
-00:03:50,851 --> 00:03:54,524
+00:03:50,887 --> 00:03:54,589
 he walks out against Japan
 wearing the captain's armband,
 
 77
-00:03:54,574 --> 00:03:56,700
+00:03:54,639 --> 00:03:56,783
 and he leaves with a red card.
 
 78
-00:03:57,133 --> 00:03:59,776
+00:03:57,133 --> 00:04:02,049
 Bruno Guimarães is a different story
 that ends in the same place.
 
 79
-00:03:59,826 --> 00:04:01,769
+00:04:02,099 --> 00:04:05,722
 In the round of sixteen of
 the 2026 World Cup,
 
 80
-00:04:01,819 --> 00:04:02,617
+00:04:05,772 --> 00:04:07,287
 against Norway,
 
 81
-00:04:02,667 --> 00:04:03,687
+00:04:07,337 --> 00:04:09,259
 Brazil win a penalty,
 
 82
-00:04:03,737 --> 00:04:06,049
+00:04:09,309 --> 00:04:13,613
 and with the 2024 world player of
 the year on the pitch,
 
 83
-00:04:06,099 --> 00:04:07,598
+00:04:13,663 --> 00:04:16,470
 Ancelotti gives the ball to Bruno.
 
 84
-00:04:07,648 --> 00:04:08,262
+00:04:16,520 --> 00:04:17,694
 He misses,
 
 85
-00:04:08,312 --> 00:04:09,074
+00:04:17,744 --> 00:04:19,191
 Brazil go out,
 
 86
-00:04:09,124 --> 00:04:11,620
+00:04:19,241 --> 00:04:23,885
 and two days later the midfielder
 writes that it hurts a lot.
 
 87
-00:04:24,235 --> 00:04:24,755
+00:04:24,235 --> 00:04:25,357
 And Vinícius,
 
 88
-00:04:24,805 --> 00:04:25,786
+00:04:25,407 --> 00:04:27,478
 who did not take that penalty,
 
 89
-00:04:25,836 --> 00:04:27,197
+00:04:27,528 --> 00:04:30,381
 finally scores twice for
 Brazil in November,
 
 90
-00:04:27,247 --> 00:04:27,795
+00:04:30,431 --> 00:04:31,610
 against Japan,
 
 91
-00:04:27,845 --> 00:04:28,880
+00:04:31,660 --> 00:04:33,843
 one of them into the top corner.
 
 92
-00:04:28,930 --> 00:04:30,319
+00:04:33,893 --> 00:04:36,802
 Brazil still lose three-two
 in stoppage time,
 
 93
-00:04:30,369 --> 00:04:32,300
+00:04:36,852 --> 00:04:40,877
 for the second time in thirteen
 months against the same opponent.
 
 94
-00:04:53,527 --> 00:04:55,029
+00:04:53,527 --> 00:04:58,859
 And if anyone in Brazil thought the
 humiliation would stay in the family,
 
 95
-00:04:55,079 --> 00:04:55,776
+00:04:58,909 --> 00:05:01,451
 Argentina made sure it did not.
 
 96
-00:04:55,826 --> 00:04:56,083
+00:05:01,501 --> 00:05:02,514
 In 2022,
 
 97
-00:04:56,133 --> 00:04:56,811
+00:05:02,564 --> 00:05:05,039
 when Brazil go out to Croatia,
 
 98
-00:04:56,861 --> 00:04:57,845
+00:05:05,089 --> 00:05:08,627
 Argentina's fans celebrate
 inside the stadium.
 
 99
-00:04:57,895 --> 00:04:58,248
+00:05:08,677 --> 00:05:10,023
 A year later,
 
 100
-00:04:58,298 --> 00:04:59,972
+00:05:10,073 --> 00:05:16,003
 Argentina win at the Maracanã and hand Brazil
 the first home defeat in the history
 
 101
-00:05:00,022 --> 00:05:00,700
+00:05:16,053 --> 00:05:18,528
 of their World Cup qualifiers.
 
 102
-00:05:18,878 --> 00:05:20,975
+00:05:18,878 --> 00:05:23,218
 The comparison with the past
 becomes impossible to avoid.
 
 103
-00:05:21,025 --> 00:05:21,503
+00:05:23,268 --> 00:05:24,298
 In 1994,
 
 104
-00:05:21,553 --> 00:05:23,220
+00:05:24,348 --> 00:05:27,810
 Dunga lifts the trophy
 screaming at the sky,
 
 105
-00:05:23,270 --> 00:05:25,201
+00:05:27,860 --> 00:05:31,862
 and in 2002 Cafu climbs onto
 the podium in Yokohama,
 
 106
-00:05:25,251 --> 00:05:26,093
+00:05:31,912 --> 00:05:33,685
 with a shaved head,
 
 107
-00:05:26,143 --> 00:05:28,140
+00:05:33,735 --> 00:05:37,872
 no cameras in the dressing room
 and no skincare brand.
 
 108
-00:05:38,222 --> 00:05:40,971
+00:05:38,222 --> 00:05:40,990
 Today's Brazil have tattoos on every arm,
 
 109
-00:05:41,021 --> 00:05:45,827
+00:05:41,040 --> 00:05:45,879
 a hairdresser before every tournament and
 more followers than any team on the
 
 110
-00:05:45,877 --> 00:05:46,684
+00:05:45,929 --> 00:05:46,742
 planet,
 
 111
-00:05:46,734 --> 00:05:50,340
+00:05:46,792 --> 00:05:50,423
 and it is tempting to conclude
 that this is the problem.
 
 112
-00:05:50,773 --> 00:05:51,620
+00:05:50,773 --> 00:05:52,553
 Except that in 2002,
 
 113
-00:05:51,670 --> 00:05:54,184
+00:05:52,603 --> 00:05:57,780
 Ronaldo walks out with the most
 ridiculous haircut in World Cup history,
 
 114
-00:05:54,234 --> 00:05:55,594
+00:05:57,830 --> 00:06:00,655
 a triangle of hair on a shaved head,
 
 115
-00:05:55,644 --> 00:05:56,780
+00:06:00,705 --> 00:06:03,073
 and still scores eight goals,
 
 116
-00:05:56,830 --> 00:05:57,837
+00:06:03,123 --> 00:06:05,229
 two of them in the final.
 
 117
-00:05:57,887 --> 00:05:59,183
+00:06:05,279 --> 00:06:07,973
 So the problem was never the hair.
 
 118
-00:05:59,233 --> 00:05:59,760
+00:06:08,023 --> 00:06:09,149
 Back then,
 
 119
-00:05:59,810 --> 00:06:00,881
+00:06:09,199 --> 00:06:11,436
 fame came after the trophy.
 
 120
-00:06:00,931 --> 00:06:02,740
+00:06:11,486 --> 00:06:15,226
 Today it comes first, and
 sometimes instead of it.
 
 121
-00:06:15,576 --> 00:06:18,542
+00:06:15,576 --> 00:06:19,519
 And it is worth remembering
 what is at stake.
 
 122
-00:06:18,592 --> 00:06:21,786
+00:06:19,569 --> 00:06:23,813
 This is the shirt Pelé wore
 at seventeen in 1958,
 
 123
-00:06:21,836 --> 00:06:24,176
+00:06:23,863 --> 00:06:26,977
 the one Garrincha carried in 1962,
 
 124
-00:06:24,226 --> 00:06:28,216
+00:06:27,027 --> 00:06:32,325
 the one that became the most
 beautiful team in history in 1970,
 
 125
-00:06:28,266 --> 00:06:30,492
+00:06:32,375 --> 00:06:35,339
 the one Romário rescued in 1994,
 
 126
-00:06:30,542 --> 00:06:32,085
+00:06:35,389 --> 00:06:37,448
 and the one Ronaldo,
 
 127
-00:06:32,135 --> 00:06:35,557
+00:06:37,498 --> 00:06:42,044
 Rivaldo and Ronaldinho took to
 a fifth title in 2002.
 
 128
-00:06:35,607 --> 00:06:36,638
+00:06:42,094 --> 00:06:43,475
 Five stars,
 
 129
-00:06:36,688 --> 00:06:39,540
+00:06:43,525 --> 00:06:47,317
 and no other country in
 the world has five.
 
 130
-00:06:47,667 --> 00:06:48,484
+00:06:47,667 --> 00:06:50,595
 What changed is the road that leads to it.
 
 131
-00:06:48,534 --> 00:06:49,680
+00:06:50,645 --> 00:06:54,706
 Brazil now export more footballers
 than any country on Earth,
 
 132
-00:06:49,730 --> 00:06:50,929
+00:06:54,756 --> 00:06:58,995
 one thousand four hundred and
 fifty-five of them playing abroad.
 
 133
-00:06:50,979 --> 00:06:51,796
+00:06:59,045 --> 00:07:01,973
 Vinícius signs for Real Madrid at sixteen,
 
 134
-00:06:51,846 --> 00:06:52,212
+00:07:02,023 --> 00:07:03,403
 so does Endrick,
 
 135
-00:06:52,262 --> 00:06:52,888
+00:07:03,453 --> 00:07:05,726
 and both grow up far from home,
 
 136
-00:06:52,938 --> 00:06:53,304
+00:07:05,776 --> 00:07:07,156
 becoming brands,
 
 137
-00:06:53,354 --> 00:06:53,980
+00:07:07,206 --> 00:07:09,479
 with sponsors and social media,
 
 138
-00:06:54,030 --> 00:06:54,917
+00:07:09,529 --> 00:07:12,696
 before they become idols in
 their own country.
 
 139
-00:06:54,967 --> 00:06:55,870
+00:07:12,746 --> 00:07:15,972
 And the person who confirms
 it is not a critic.
 
 140
-00:06:55,920 --> 00:06:56,460
+00:07:16,022 --> 00:07:17,997
 It is the captain himself.
 
 141
-00:07:35,547 --> 00:07:35,960
+00:07:35,547 --> 00:07:36,444
 In 2024,
 
 142
-00:07:36,010 --> 00:07:37,899
+00:07:36,494 --> 00:07:40,408
 Ronaldinho had already said what
 many people were thinking:
 
 143
-00:07:37,949 --> 00:07:39,201
+00:07:40,458 --> 00:07:43,070
 that there was no love for the shirt,
 
 144
-00:07:39,251 --> 00:07:39,809
+00:07:43,120 --> 00:07:44,313
 no fight and,
 
 145
-00:07:39,859 --> 00:07:40,330
+00:07:44,363 --> 00:07:45,378
 above all,
 
 146
-00:07:40,380 --> 00:07:40,908
+00:07:45,428 --> 00:07:46,561
 no football.
 
 147
-00:07:40,958 --> 00:07:41,458
+00:07:46,611 --> 00:07:47,685
 Days later,
 
 148
-00:07:41,508 --> 00:07:43,339
+00:07:47,735 --> 00:07:51,531
 he revealed the line was part of
 an advertising campaign.
 
 149
-00:07:43,389 --> 00:07:45,220
+00:07:51,581 --> 00:07:55,377
 The strange part is that almost
 nobody disagreed with it.
 
 150
-00:07:55,727 --> 00:07:57,636
+00:07:55,727 --> 00:07:57,641
 Through all of this,
 
 151
-00:07:57,686 --> 00:08:02,815
+00:07:57,691 --> 00:08:02,832
 the national team spent twelve years
 depending on a single player.
 
 152
-00:08:02,865 --> 00:08:03,934
+00:08:02,882 --> 00:08:03,955
 In 2014,
 
 153
-00:08:03,984 --> 00:08:07,713
+00:08:04,005 --> 00:08:07,743
 Neymar gets injured and the
 seven-one follows.
 
 154
-00:08:07,763 --> 00:08:08,833
+00:08:07,793 --> 00:08:08,866
 In 2022,
 
 155
-00:08:08,883 --> 00:08:12,962
+00:08:08,916 --> 00:08:13,005
 he scores against Croatia and
 Brazil go out anyway.
 
 156
-00:08:13,012 --> 00:08:14,362
+00:08:13,055 --> 00:08:14,408
 And in 2026,
 
 157
-00:08:14,412 --> 00:08:15,971
+00:08:14,458 --> 00:08:16,022
 against Norway,
 
 158
-00:08:16,021 --> 00:08:21,500
+00:08:16,072 --> 00:08:21,564
 Brazil leave in the round of sixteen,
 their worst World Cup since 1990.
 
 159
-00:08:32,614 --> 00:08:33,757
+00:08:32,614 --> 00:08:33,764
 After Japan,
 
 160
-00:08:33,807 --> 00:08:34,712
+00:08:33,814 --> 00:08:34,725
 Romário,
 
 161
-00:08:34,762 --> 00:08:36,682
+00:08:34,775 --> 00:08:36,706
 a world champion in 1994,
 
 162
-00:08:36,732 --> 00:08:39,785
+00:08:36,756 --> 00:08:39,827
 sums up the mood of the
 country in one line:
 
 163
-00:08:39,835 --> 00:08:40,859
+00:08:39,877 --> 00:08:40,908
 Ancelotti,
 
 164
-00:08:40,909 --> 00:08:42,172
+00:08:40,958 --> 00:08:42,229
 that's enough.
 
 165
-00:08:42,222 --> 00:08:44,380
+00:08:42,279 --> 00:08:44,450
 Pack your things and get out.
 
 166
-00:08:44,800 --> 00:08:46,208
+00:08:44,800 --> 00:08:47,221
 The next World Cup is in 2030,
 
 167
-00:08:46,258 --> 00:08:46,861
+00:08:47,271 --> 00:08:48,326
 in Spain,
 
 168
-00:08:46,911 --> 00:08:47,974
+00:08:48,376 --> 00:08:50,212
 Portugal and Morocco.
 
 169
-00:08:48,024 --> 00:08:49,202
+00:08:50,262 --> 00:08:52,293
 If Brazil do not win it,
 
 170
-00:08:49,252 --> 00:08:51,351
+00:08:52,343 --> 00:08:55,934
 that will be twenty-eight
 years without a title,
 
 171
-00:08:51,401 --> 00:08:53,539
+00:08:55,984 --> 00:08:59,641
 and Ancelotti's contract runs
 exactly until then.
 
 172
-00:08:53,589 --> 00:08:55,266
+00:08:59,691 --> 00:09:02,567
 When he is asked about the criticism,
 
 173
-00:08:55,316 --> 00:08:56,340
+00:09:02,617 --> 00:09:04,388
 his answer is short:
 
 174
-00:08:56,390 --> 00:08:57,300
+00:09:04,438 --> 00:09:06,013
 we have a future.
 
 175
-00:09:06,363 --> 00:09:07,627
+00:09:06,363 --> 00:09:07,633
 Maybe they do.
 
 176
-00:09:07,677 --> 00:09:08,582
+00:09:07,683 --> 00:09:08,592
 In 2030,
 
 177
-00:09:08,632 --> 00:09:11,508
+00:09:08,642 --> 00:09:11,531
 Endrick and Estêvão will be twenty-three,
 
 178
-00:09:11,558 --> 00:09:13,778
+00:09:11,581 --> 00:09:13,809
 and Vinícius will turn thirty.
 
 179
-00:09:13,828 --> 00:09:16,823
+00:09:13,859 --> 00:09:16,868
 But for the first time in
 a very long time,
 
 180
-00:09:16,873 --> 00:09:21,660
+00:09:16,918 --> 00:09:21,726
 Brazil will arrive at a World Cup without
 anyone calling them favourites.
 
 181
-00:09:22,076 --> 00:09:23,186
+00:09:22,076 --> 00:09:25,005
 The seven-one was supposed
 to be rock bottom.
 
 182
-00:09:23,236 --> 00:09:23,777
+00:09:25,055 --> 00:09:26,524
 Twelve years later,
 
 183
-00:09:23,827 --> 00:09:24,806
+00:09:26,574 --> 00:09:29,166
 the best player in the world is a meme,
 
 184
-00:09:24,856 --> 00:09:25,660
+00:09:29,216 --> 00:09:31,359
 the captain is asking for rest,
 
 185
-00:09:25,710 --> 00:09:26,601
+00:09:31,409 --> 00:09:33,777
 and Japan have beaten Brazil twice.
 
 186
-00:09:26,651 --> 00:09:28,177
+00:09:33,827 --> 00:09:37,825
 Maybe the internet's joke is closer
 to the truth than it sounds,
 
 187
-00:09:28,227 --> 00:09:29,447
+00:09:37,875 --> 00:09:41,086
 and something really did die
 after that World Cup.
 
 188
-00:09:29,497 --> 00:09:31,220
+00:09:41,136 --> 00:09:45,640
 The question is whether there is still
 time to bring it back before 2030.

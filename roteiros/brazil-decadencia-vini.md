@@ -1,107 +1,82 @@
-# Brazil's decline: the Vini meme, Neymar dependency, Ronaldinho's warning (v2, ~8 min)
-
-Substitui o ângulo do Zlatan (pouco engajamento). Abertura com o 7x1 + meme do "Vini morreu na cirurgia".
+# Brazil's decline v3: "The joke got worse" (~8 min)
 
 ## Título e thumb
 | | Título | Thumb |
 |---|---|---|
-| A | Ronaldinho's Fake Warning Came True | Vini na frente, Ronaldinho apagado atrás; "NO LOVE" |
-| B | Brazil Died After The World Cup | Vini sério, fundo escuro; "DEAD?" |
-| C | Nobody Wants To Play For Brazil Anymore | Vini cabisbaixo de amarelo; "WHY?" |
+| A | 7–1 Wasn't Brazil's Lowest Point | Vini sério na frente, placar 7–1 apagado atrás; "WORSE" |
+| B | Brazil Became A Joke | Vini + Raphinha; "JOKE" |
+| C | Ronaldinho's Fake Warning Came True | Vini na frente, Ronaldinho apagado atrás; "NO LOVE" |
 
 ## Fatos e fontes
 | Fato | Fonte | Situação |
 |---|---|---|
-| 7x1, 8/jul/2014, Mineirão; 5 gols em 29 min; Neymar fora (vértebra fraturada) | histórico | lido |
-| Vini fez harmonização facial/queixo nas férias (julho/2026); memes "morreu depois da Copa, é um sósia" | AS via FourFourTwo, OneFootball, Daily Sports | lido |
-| Bernabéu vaiou Vini e Bellingham (jan/2026) e de novo no outono (Inter); Mourinho e Mbappé defenderam | Forbes 17/01/2026, ESPN, Yahoo | lido |
-| Ronaldinho, jun/2024: "Falta amor à camisa, falta garra e o mais importante: futebol"; "uma vergonha"; depois revelou que era campanha publicitária | Band, Gazeta Esportiva, Trivela | lido |
-| Raphinha respondeu: "foi um baque", vê orgulho em vestir a camisa | Band, Centauro | lido |
-| Neymar se despediu da seleção após a Copa 2026 | World Soccer Talk, Heavy | conferir |
-| Vini assinou com o Real aos 16 (2017, €45 mi), mudou aos 18; Endrick assinou aos 16, mudou aos 18 | histórico | lido |
-| Romário: "Ancelotti, já deu! Pega tuas coisas e mete o pé!" | LiveScore/Goal | lido |
-| Japão 3x2 (14/11/2026), 2 gols do Vini; 21 jogos, 5 derrotas; contrato até 2030 | vídeos de 14–15/11 | lido |
+| 7x1, 8/jul/2014; 5 gols em 29 min; Neymar fora (vértebra) | histórico | lido |
+| Vini: harmonização no queixo (jul/2026), memes "morreu depois da Copa, é sósia" | AS/FourFourTwo, OneFootball | lido |
+| Vini vaiado no Bernabéu (jan/2026; outono 2026 vs Inter); Mourinho e Mbappé defendem | Forbes, ESPN, Yahoo | lido |
+| Raphinha, ~10/nov/2026: "Se ele conta comigo de verdade, sabe que tem que gerir meus minutos"; ficou fora vs Índia; travou 24 s na coletiva; 3 lesões em 8 meses | A Bola, O Tempo, Tribuna de Jundiaí, abcdoabc | lido |
+| Raphinha capitão e expulso vs Japão (14/11) | vídeos do jogo | lido |
+| Ronaldo 2002: corte "Cascão", 8 gols, 2 na final | histórico | lido |
+| Argentina 1x0 no Maracanã (21/11/2023), 1ª derrota em casa nas Eliminatórias; Argentina 4x1 (25/03/2025) | histórico | lido |
+| Ronaldinho jun/2024 "Falta amor à camisa…"; era campanha publicitária | Band, Gazeta Esportiva | lido |
+| Nécessaire de cremes do Raphinha | — | NÃO ACHADO (pedir link) |
+| Neymar se despediu da seleção após 2026 | World Soccer Talk | conferir |
 
 ## SCRIPT (EN)
 
-[COLD OPEN — 7–1 goals, stadium sound only, 10 s]
+[COLD OPEN — 7–1 goals, stadium sound only]
 
-July 8th, 2014. Belo Horizonte. In twenty-nine minutes, Germany score five goals against Brazil. At home. In a World Cup semi-final. Brazil's best player is not even on the pitch. Neymar is in a hospital bed with a broken vertebra.
+July 8th, 2014. Belo Horizonte. In twenty-nine minutes, Germany score five goals against Brazil. At home. In a World Cup semi-final. For twelve years, that was the lowest point in Brazilian football. It was supposed to be the bottom.
 
-Twelve years later, the joke on Brazilian social media is about a different player.
+It wasn't. Twelve years later, the joke got worse.
 
-This summer, Vinícius Júnior has a cosmetic procedure on his chin. When he comes back, his face looks different. And the internet decides he did not survive. "Vini died after the World Cup." "That's a body double." "The real one is gone."
+This summer, Vinícius Júnior has a cosmetic procedure on his chin. His face comes back different. And the internet decides he did not survive. "Vini died after the World Cup." "That's a body double."
 
-It is a joke. But in Brazil, people are not only laughing at Vinícius. The joke sounds familiar. Something did die after that World Cup. And it was not him.
+That is the joke about his face. The other joke is about his football. In January, the Bernabéu whistles him. In the autumn, it whistles him again. Mourinho and Mbappé have to defend him in public. The best Brazilian player of his generation, whistled by his own fans.
 
 [TITLE]
 
-In January 2026, the Bernabéu whistles its own players. Vinícius is one of them. Two Champions League titles. Runner-up for the Ballon d'Or. Whistled at home.
+He is not the only one. Raphinha is Brazil's captain. One of the best players in Europe last season. In November, before a trip to Asia, he says this about his own coach: "If he really counts on me, he knows he has to manage my minutes."
 
-In the autumn, it happens again. Against Inter. José Mourinho and Kylian Mbappé have to defend him in public.
+He has been injured three times in eight months. But in Brazil, nobody hears the injuries. They hear a player choosing which games to play for his country. Days later, at a press conference, he tries to explain. And for twenty-four seconds, he says nothing.
 
-[CLIP — Bernabéu whistles]
+Then he goes to Singapore, wears the armband, and is sent off.
 
-To understand why this hurts, you have to know what that yellow shirt used to mean.
+Now look at the men who used to wear that armband.
 
-1958. A seventeen-year-old called Pelé wins the World Cup in Sweden. 1962, Garrincha. 1970, Mexico, the team people still call the most beautiful ever. 1994, Romário. 2002, Ronaldo, Rivaldo, Ronaldinho.
+Dunga in 1994, screaming at the sky with the trophy in his hands. Cafu in 2002, standing on the podium in Yokohama. Lúcio. Roque Júnior. Shaved heads, no cameras in the dressing room, no skincare brand.
 
-Five stars. No other country has five. For forty years, the best player in the world was very often Brazilian. And there was nothing he wanted more than that shirt.
+Today's Brazil has tattoos on every arm, a hairstylist before every tournament, and more followers than any team on Earth. And here it is easy to say that is the problem.
 
-Then came Neymar. More goals for Brazil than anyone in history. More than Pelé. And slowly, Brazil stopped being a team. It became a plan with one rule. Give him the ball.
+But in 2002, Ronaldo walks out with the worst haircut in World Cup history. A triangle of hair on a shaved head. He scores eight goals. Two in the final.
 
-In 2014, Neymar gets injured, and Brazil lose seven-one. In 2018, out to Belgium. In 2022, Neymar scores in extra time against Croatia, and Brazil still go out on penalties.
+So the problem was never the hair. Back then, the image came after the trophy. Now it comes instead of it.
 
-In 2026, he comes off the bench against Norway, scores a penalty, and it is not enough. Round of sixteen. Brazil's worst World Cup since 1990. After the tournament, Neymar says goodbye to the national team.
+To understand what has been lost, remember what that shirt meant. 1958, a seventeen-year-old called Pelé. 1962, Garrincha. 1970, the most beautiful team ever. 1994, Romário. 2002, Ronaldo, Rivaldo, Ronaldinho. Five stars. No other country has five.
 
-The plan is over. And nobody built a new one.
+Then came Neymar. More goals for Brazil than anyone, more than Pelé. And Brazil became a plan with one rule: give him the ball. In 2014, he gets injured, and Brazil lose seven-one. In 2022, he scores against Croatia, and Brazil still go out. In 2026, he scores a penalty against Norway, and Brazil go out in the round of sixteen. Their worst World Cup since 1990.
 
-Look at how the next generation was made. Vinícius signs for Real Madrid at sixteen. Forty-five million euros. He leaves Brazil at eighteen. Endrick signs at sixteen. He leaves at eighteen.
+Meanwhile, the next generation leaves early. Vinícius signs for Real Madrid at sixteen, leaves at eighteen. Endrick, the same. They grow up in Madrid, Barcelona, London, and meet the national team a few times a year.
 
-For the players, these are the right decisions. But it means the best Brazilians now grow up in Madrid, in Barcelona, in London. They meet the national team a few times a year.
+In June 2024, Ronaldinho says what millions of Brazilians think.
 
-In Brazil, many fans have a simpler explanation. They say these players do not love the shirt anymore. That they play for the clubs that pay them.
+[CLIP — Ronaldinho] "Falta amor à camisa. Falta garra. E o mais importante de tudo: futebol." ("No love for the shirt. No fight. And most of all, no football.")
 
-In June 2024, Ronaldinho says it on camera.
+Days later, he admits it was an advertising campaign. But almost nobody argued with it.
 
-[CLIP — Ronaldinho] "Falta amor à camisa. Falta garra. E o mais importante de tudo: futebol." (subtitle: "No love for the shirt. No fight. And most of all, no football.")
+And the results stopped arguing too. November 2023: Argentina win at the Maracanã. Brazil's first home defeat in World Cup qualifying, ever. March 2025: Argentina four, Brazil one. Then Norway at the World Cup. Then Japan. Twice.
 
-He calls the team a shame. Days later, he admits it was part of an advertising campaign. But almost nobody argued with what he said. Millions of Brazilians already believed it.
+[MONTAGE — Vini losing the ball in yellow, no narration]
 
-Raphinha answers him. He says he sees pride in every player who wears the shirt. Two years later, Raphinha is the captain. And Brazil are still looking for the football.
-
-Which brings us back to Vinícius.
-
-[MONTAGE — Vini losing the ball in yellow, 4–5 takes, no narration]
-
-At Real Madrid, he has scored in two Champions League finals. In yellow, the dribble that destroys Europe stops working. The ball runs away. The cross goes behind the goal. He beats two defenders and tries a third.
-
-On November 14th, in Singapore, it finally works. He scores twice. One into the top corner. And Brazil still lose to Japan. Three-two. In stoppage time. For the second time in thirteen months.
+On November 14th, Vinícius scores twice against Japan. One in the top corner. And Brazil still lose. Three-two. In stoppage time.
 
 [CLIP — ESPN FC] "It used to be smiles and samba. It was the team to watch. Now that Brazil shirt is clearly so heavy for whoever wears it."
 
 [CLIP — ESPN FC] "When they win, they haven't played well enough. And if they don't win, then everybody jumps on them. There's nowhere for them to go."
 
-The coach is Carlo Ancelotti. Five Champions League titles. The best-paid national team coach in the world. Twenty-one matches. Five defeats. Two of them to Japan. The reaction in Brazil comes from Romário, who won them the 1994 World Cup.
+Romário, who won the 1994 World Cup, says it to the coach: "Ancelotti, that's enough. Pack your things and get out."
 
-[ON SCREEN] "Ancelotti, that's enough. Pack your things and get out."
+Brazil's last World Cup was twenty-four years ago. If they do not win in 2030, it will be twenty-eight. The players who will lead Brazil in 2030 have never seen their country win anything. They grew up watching seven-one, not Yokohama.
 
-Brazil's last World Cup was twenty-four years ago. If they do not win in 2030, it will be twenty-eight. The players who will be at their peak in 2030 were babies in Yokohama. They grew up watching Brazil lose seven-one, not Brazil lift the trophy.
+The 7–1 was supposed to be the bottom. Twelve years later, Brazil's best player is a meme, its captain asks for rest, and Japan beat them twice.
 
-So maybe the meme is right. Maybe someone did die after the World Cup.
-
-The question is whether it was the player. Or the team that used to make players like him.
-
-## ROTEIRO (PT — só para validação)
-(ver o chat; mesmo texto do SCRIPT acima, traduzido)
-
-## Clipes a buscar
-1. 7x1: gols da Alemanha (já temos `seven_one_fifa`)
-2. Memes / antes-depois do Vini (prints de matérias em inglês com marcação)
-3. Vaias no Bernabéu (jan/2026 e vs Inter)
-4. Arquivo: Pelé 1958, 1970, Romário 1994 (já temos 2002)
-5. Neymar: gol vs Croácia 2022 e pênalti vs Noruega (já temos parte)
-6. Ronaldinho, entrevista de jun/2024 (Cartolouco) + resposta do Raphinha
-7. Vini/Endrick apresentados no Real
-8. Lances ruins do Vini pela seleção
-9. ESPN FC (já temos) + mais algum comentarista inglês criticando
+So maybe the joke is right. Maybe something did die after the World Cup. The question is whether Brazil will notice before 2030.

@@ -19,6 +19,7 @@
 | Argentina 1x0 no Maracanã (21/11/2023), 1ª derrota em casa nas Eliminatórias; Argentina 4x1 (25/03/2025) | histórico | lido |
 | Ronaldinho jun/2024 "Falta amor à camisa…"; era campanha publicitária | Band, Gazeta Esportiva | lido |
 | Raphinha 27/06/2025 (Mundial de Clubes): "É complicado abrir mão de férias… Nem todos vão querer ir"; Zico rebate | A Gazeta, Goal, O Hoje, Soccerway | lido |
+| Raphinha à UOL (~jun/2026): sente mais carinho de fora; "natural… sair muito jovem do Brasil, não ter uma conexão com nenhum clube" | UOL Esporte `bYmupjb0vOI` (transcrição) | lido |
 | Nécessaire de cremes do Raphinha | — | não achado |
 | Neymar se despediu da seleção após 2026 | World Soccer Talk | conferir |
 
@@ -63,6 +64,10 @@ To understand what has been lost, remember what that shirt meant. 1958, a sevent
 Then came Neymar. More goals for Brazil than anyone, more than Pelé. And Brazil became a plan with one rule: give him the ball. In 2014, he gets injured, and Brazil lose seven-one. In 2022, he scores against Croatia, and Brazil still go out. In 2026, he scores a penalty against Norway, and Brazil go out in the round of sixteen. Their worst World Cup since 1990.
 
 Meanwhile, the next generation leaves early. Vinícius signs for Real Madrid at sixteen, leaves at eighteen. Endrick, the same. They grow up in Madrid, Barcelona, London, and meet the national team a few times a year.
+
+Five months before the World Cup, Brazil's future captain is asked about it.
+
+[CLIP — Raphinha, UOL, June 2026] "To be honest with you, I feel the affection from Brazilian fans is different from the people abroad who follow me every day… I think it's natural. Leaving Brazil very young, not having a connection with any club." 
 
 In June 2024, Ronaldinho says what millions of Brazilians think.
 

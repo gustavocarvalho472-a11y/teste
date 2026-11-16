@@ -44,7 +44,7 @@ Chromium e Playwright já vêm instalados; não rode `playwright install`.
 
 ## Etapa 1 — Roteiro
 
-> O manual de estilo definitivo (baseado no estudo dos canais de referência) ainda será acrescentado em `references/manual-de-roteiro.md`. Até lá, siga a estrutura abaixo, que é a do vídeo de exemplo.
+> **Leia primeiro `references/manual-de-roteiro.md`**: como achar o tema da semana, o teste do ângulo, as famílias de título e a estrutura de 8 minutos (formato Becir). A estrutura abaixo é a do documentário longo de exemplo (12 min); use-a quando o vídeo for investigativo.
 
 1. Se houver vídeo de referência: `vidiq_video_transcript` (texto) e `vidiq_video_watch` com pedido de shot list (ordem dos assuntos e do tipo de imagem). Use como mapa de assuntos, nunca copie o corte nem os gráficos do outro canal.
 2. Estrutura que funcionou:

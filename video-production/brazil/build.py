@@ -59,9 +59,9 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  {"cold": True, "src": R(S71), "ss": SHOTS[S71][2][0] + 0.2, "d": 3.2},
- L(0, P(1, "s71", "chips", 1.25, title="29 MINUTES", items=["11' · Müller", "23' · Klose", "24' · Kroos", "26' · Kroos", "29' · Khedira"], t0=.3)),
- L(1, P(1, "s71sad+s71+" + "+".join(["fall"] * 10), "chips", 1.45, title="ROCK BOTTOM?", items=["2018 · Out to Belgium", "2022 · Out to Croatia", "2026 · Out to Norway"], t0=.45)),
- L(2, P(1, "j26end+viniboo+rpress+j26score+arg25", "word", 1.5, text="IT GOT WORSE", late=.05)),
+ L(0, P(1, "s71", "chips", 0.9, title="29 MINUTES", items=["11' · Müller", "23' · Klose", "24' · Kroos", "26' · Kroos", "29' · Khedira"], t0=.3)),
+ L(1, P(1, "s71sad+" + "+".join(["fall"] * 15), "chips", 1.1, title="ROCK BOTTOM?", items=["2018 · Out to Belgium", "2022 · Out to Croatia", "2026 · Out to Norway"], t0=.45)),
+ L(2, P(1, "j26end+viniboo+rpress+j26score+arg25", "word", 1.15, text="IT GOT WORSE", late=.05)),
  L(3, P(1, "vinibest", "lower", name="VINÍCIUS JÚNIOR", role="FIFA The Best · December 2024", late=.1), P(1, "vinibest+r9", "stat", 3.4, big="NO. 1", label="FIRST BRAZILIAN SINCE KAKÁ IN 2007", late=.08)),
  L(4, P(1, "viniboo", "word", text="WHISTLED", sub="AT THE BERNABÉU", late=.3)),
  L(5, P(.26, "viniyellow"), P(.42, "viniboo+viniyellow", "define", **D_("BODY DOUBLE", "THE JOKE ONLINE · SUMMER 2026", "“The real Vini died in surgery. That one is a double.”")),
@@ -112,7 +112,8 @@ def main():
         nonlocal n
         add(d, f"c{n:02d}", gfx=gfx, takes=[{"src": src, "ss": ss, "slow": 1.0, "frames": round(d * FPS), "crop": "", "pillar": ""}], nat={"src": src, "ss": ss}, **k); n += 1
     for it in SEQ:
-        if it.get("cold"): clip(it["src"], it["ss"], it["d"], {"type": "none"}); continue
+        if it.get("cold"):
+            clip(it["src"], it["ss"], it["d"], {"type": "none"}); scenes[-1]["takes"] = allocate("s71", round(it["d"] * FPS), 0.64); continue
         if it.get("sting"):
             add(4.6, "sting", gfx={"type": "sting", "title": "7–1 WASN'T THE BOTTOM", "sub": "WHAT HAPPENED TO THE BRAZILIAN NATIONAL TEAM"}); continue
         if it.get("clip"): clip(it["src"], it["ss"], it["d"], it["gfx"], **it["extra"]); continue

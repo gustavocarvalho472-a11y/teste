@@ -18,7 +18,8 @@
 | Ronaldo 2002: corte "Cascão", 8 gols, 2 na final | histórico | lido |
 | Argentina 1x0 no Maracanã (21/11/2023), 1ª derrota em casa nas Eliminatórias; Argentina 4x1 (25/03/2025) | histórico | lido |
 | Ronaldinho jun/2024 "Falta amor à camisa…"; era campanha publicitária | Band, Gazeta Esportiva | lido |
-| Nécessaire de cremes do Raphinha | — | NÃO ACHADO (pedir link) |
+| Raphinha 27/06/2025 (Mundial de Clubes): "É complicado abrir mão de férias… Nem todos vão querer ir"; Zico rebate | A Gazeta, Goal, O Hoje, Soccerway | lido |
+| Nécessaire de cremes do Raphinha | — | não achado |
 | Neymar se despediu da seleção após 2026 | World Soccer Talk | conferir |
 
 ## SCRIPT (EN)
@@ -35,7 +36,13 @@ That is the joke about his face. The other joke is about his football. In Januar
 
 [TITLE]
 
-He is not the only one. Raphinha is Brazil's captain. One of the best players in Europe last season. In November, before a trip to Asia, he says this about his own coach: "If he really counts on me, he knows he has to manage my minutes."
+He is not the only one. Raphinha is Brazil's captain. One of the best players in Europe.
+
+June 2025. Barcelona are not at the Club World Cup, and Raphinha is already on holiday. He says this about the players who are there: "It's hard to give up your holidays. Not everyone will want to go."
+
+He is talking about clubs, not Brazil. But Zico, who never won a World Cup and would have given anything to, answers him: "If he had played that tournament during his holidays, he wouldn't have said that."
+
+Seventeen months later, before a trip to Asia with Brazil, Raphinha says this about his own coach: "If he really counts on me, he knows he has to manage my minutes."
 
 He has been injured three times in eight months. But in Brazil, nobody hears the injuries. They hear a player choosing which games to play for his country. Days later, at a press conference, he tries to explain. And for twenty-four seconds, he says nothing.
 

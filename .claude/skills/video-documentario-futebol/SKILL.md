@@ -52,7 +52,8 @@ Chromium e Playwright já vêm instalados; não rode `playwright install`.
    - **Capítulo 1**: a promessa ("bom demais para ser verdade") e a apresentação do personagem que ninguém conhece.
    - **5–7 capítulos** de 40–160 s, cada um com cartela numerada. Frases curtas. Um número ou nome próprio por frase.
    - **Fecho** que retoma a frase da abertura.
-3. Escreva o roteiro já **em beats**: cada beat = 1–3 frases (3–20 s de fala) + o visual. Um beat nunca termina no meio de uma frase.
+3. **Idioma:** o vídeo é sempre em inglês. O arquivo do roteiro traz o script em inglês **e, logo abaixo, a tradução completa em português**, só para o usuário validar (nada do português vai para a narração nem para a tela). Mantenha as duas versões sincronizadas a cada alteração.
+3b. Escreva o roteiro já **em beats**: cada beat = 1–3 frases (3–20 s de fala) + o visual. Um beat nunca termina no meio de uma frase.
 4. Alegações contra pessoas: mantenha "alleged/denied" no texto **e** na tela. Fatos recentes que você não consegue confirmar: avise o usuário.
 5. Números em gráfico precisam de fonte. Sem número confiável, não desenhe barra com valor.
 

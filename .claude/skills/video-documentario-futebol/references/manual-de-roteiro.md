@@ -10,6 +10,7 @@ Fórmula: **[AUTORIDADE] + [frase ou atitude antiga] + [FATO NOVO que a confirma
 
 Teste do ângulo — só aprove se responder "sim" às quatro:
 1. **Dois nomes grandes?** A autoridade (Mourinho, Ronaldo, Maldini, Zlatan, Guardiola, Messi, Ferguson) e o assunto do momento. Nome médio derruba o vídeo: Chicharito 17 mil, Sesko 21 mil, Musiala 35 mil, contra 400 mil–1,9 mi quando os dois nomes são gigantes.
+   A autoridade tem de ser **global**: o canal é em inglês. Ídolo local (Romário, Neto, Casagrande) entra como voz de apoio, apresentado em uma frase ("the man who won Brazil the 1994 World Cup"), nunca no título nem na thumb. Se o pedido citar um nome (ex.: Thierry Henry) e não houver fala dele sobre o assunto, diga isso e proponha quem de fato falou.
 2. **Existe a fala gravada?** Sem o clipe da frase original não há abertura. Ache o vídeo da fala antes de escrever.
 3. **Tem gancho de agora?** O vídeo do Mourinho saiu 5 dias depois do veredito do City; o do Amorim, na semana da crise do United. A frase é velha, o motivo para clicar é desta semana.
 4. **O título esconde a resposta?** "Kane Never Forgot Him", "Ronaldo Wanted Him 5 Years Ago": quem é "ele"? A pessoa clica para saber.
@@ -66,3 +67,9 @@ Regras de texto observadas:
 - Vídeo de 8 min neste formato tem ~15–20 falas reais: use cenas `caps` (áudio original + palavra marcada) intercaladas com a narração, não só na abertura.
 - Menos gráficos de dados e mais `lower`/`stat` sobre o take. Reserve `counter`, `bars` e `article` para 3–5 momentos.
 - Thumb: dois rostos (o de trás apagado), fundo escuro, duas palavras nas laterais.
+
+## 5. Entrega do roteiro
+
+Arquivo em `roteiros/<slug>.md` com: gancho e ângulo; 3 opções de título + thumb com tradução; tabela de fatos com fonte e situação (lido / conferir); SCRIPT (EN); ROTEIRO (PT, só para validação); lista de clipes a buscar. Exemplo: `roteiros/brazil-zlatan-manager-not-coach.md`.
+
+Um elogio antigo que hoje soa como diagnóstico também é ângulo ("Zlatan disse que Ancelotti é gestor, não treinador"). Deixe claro no roteiro que a fala original era elogio: é mais honesto e é a própria virada da história.

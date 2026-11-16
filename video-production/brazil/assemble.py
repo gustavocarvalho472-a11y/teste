@@ -219,7 +219,7 @@ def srt():
             if len(c) > 42:
                 m = c.rfind(" ", 0, len(c) // 2 + 6); c = c[:m] + "\n" + c[m + 1:]
             out.append(f"{k}\n{ts(t)} --> {ts(t + dt - 0.05)}\n{c}\n"); k += 1; t += dt
-    open(f"{OUT}/brazil-zlatan-manager-not-coach-EN.srt", "w").write("\n".join(out))
+    open(f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.srt", "w").write("\n".join(out))
 
 
 REUSE = "--reuse" in sys.argv
@@ -231,7 +231,7 @@ if __name__ == "__main__":
     if only: sys.exit()
     open(f"{B}/concat.txt", "w").write("".join(f"file 'seg/{s['id']}.mp4'\n" for s in TL["scenes"]))
     print("audio…", flush=True); build_audio(); srt()
-    final = f"{OUT}/brazil-zlatan-manager-not-coach-EN.mp4"
+    final = f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.mp4"
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", f"{B}/concat.txt", "-i", f"{B}/mix.wav", "-c:v", "copy",
          "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", "-shortest", final])
     print("DONE", final, f"{os.path.getsize(final)/1e6:.0f} MB", probe(final))

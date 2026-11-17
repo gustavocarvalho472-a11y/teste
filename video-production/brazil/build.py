@@ -10,30 +10,30 @@ def win(src, a, b): return [("win", src, a, b)]
 A, J26, J25, F02, CRO, S71, NOR = "ancelotti_afp", "japan_2026_hl", "japan_2025_hl", "final_2002_fifa", "croatia_2022_fifa", "seven_one_fifa", "norway_cbs"
 A25, A23, F70, F94, NC, R24, RU, VB, VF = "arg_bra_2025", "bra_arg_2023", "final_1970_fifa", "final_1994_fifa", "norway_crying", "raphinha_24s", "raphinha_uol", "vini_booed_as", "vini_fails"
 REF, R9G, R10G, ROM, ZG, NED, BEL, FRA, N26, VB2, RZ = "ref_vini", "r9_goals", "r10_goals", "romario_goals", "zico_goals", "ned_2010", "bel_2018", "fra_2006", "nor_2026", "vini_best2", "raph_zico"
-CROP = {F70: "crop=iw*0.78:ih:iw*0.11:0,", VF: "crop=iw*0.84:ih*0.84:iw*0.16:ih*0.14,", FRA: "crop=iw*0.8:ih*0.8:0:ih*0.2,"}
+CROP = {RZ: "crop=iw*0.66:ih*0.66:iw*0.03:ih*0.2,", F70: "crop=iw*0.78:ih:iw*0.11:0,", VF: "crop=iw*0.84:ih*0.84:iw*0.16:ih*0.14,", FRA: "crop=iw*0.8:ih*0.8:0:ih*0.2,"}
 PILLAR = {VB2: "crop=iw*0.34:ih*0.84:iw*0.33:0"}
 POOLS = {
  "s71": sh(S71, 2, 4, 5, 7, 8, 3), "s71sad": win(S71, 108.4, 118.5),
  "vbest": win(VB2, 2, 30), "vinibest": sh(VF, 5, 4, 3),
  "viniboo": sh(VB, 1, 2) + sh(VF, 14) + sh(REF, 43, 142) + sh(VF, 1, 2, 11, 12) + sh(REF, 147),
- "vinireal": sh(REF, 93, 152, 157, 142) + sh(VF, 7, 13, 12), "diomande": sh(REF, 143, 123, 141, 137),
- "india": sh(REF, 6, 5, 117, 115, 116), "proc": sh(REF, 33, 11) + win(REF, SHOTS[REF][41][0] + 0.1, SHOTS[REF][41][0] + 2.8), "clone": sh(REF, 47, 51, 59, 45),
+ "vinireal": sh(REF, 142, 152) + sh(VF, 12, 7, 13, 11, 2), "diomande": sh(REF, 143, 123, 141),
+ "india": sh(REF, 6, 5, 117, 115, 116), "proc": sh(REF, 33, 11) + win(REF, SHOTS[REF][41][0] + 0.1, SHOTS[REF][41][0] + 2.8), "clone": sh(REF, 51, 47) + win(REF, SHOTS[REF][41][0] + 0.1, SHOTS[REF][41][0] + 2.8),
  "virginia": sh(REF, 34, 75, 72, 11),
  "viniyellow": sh(REF, 9, 27, 28) + sh(A25, 16) + sh(J25, 2, 70, 62) + sh(J26, 8),
- "vinisad": win(REF, SHOTS[REF][24][0] + 1.8, SHOTS[REF][24][1] - 0.1) + sh(REF, 9) + sh(J25, 2) + sh(A25, 16) + sh(J25, 70) + sh(REF, 87, 81) + sh(NC, 0),
+ "vinisad": sh(REF, 9, 28) + sh(J25, 2) + sh(A25, 16) + sh(J25, 70) + sh(REF, 87, 81) + sh(NC, 0),
  "stumble": win(VF, 139.6, 143.3), "misses": sh(VF, 7, 13, 18, 21) + sh(REF, 9, 87),
- "r9": sh(R9G, 7, 8, 11, 15, 17, 1, 0, 2, 5, 6, 14, 18), "r10": sh(R10G, 17, 16, 18, 13, 7, 12, 15, 14), "romario": sh(ROM, 1, 3, 4, 6, 5, 2), "zico": sh(ZG, 4, 3, 6, 7, 5),
- "cafu": sh(F02, 47, 46, 1), "f02r10": sh(F02, 23, 3, 17),
+ "r9": sh(R9G, 7, 8, 11, 15, 17, 1, 0, 2, 5, 6, 14, 18), "r10": sh(R10G, 17, 16, 18, 13, 7, 12, 15, 14), "romario": sh(ROM, 1, 3, 4, 6, 5, 2), "zico": win(RZ, 168, 190),
+ "cafu": sh(R10G, 14) + win(R9G, SHOTS[R9G][14][0] + 2.0, SHOTS[R9G][14][1] - 0.2) + sh(R9G, 18, 20),
  "arg25": sh(A25, 3, 4, 5, 13, 30, 32, 36, 39, 40, 15, 6), "raph25": sh(A25, 46, 7, 26, 34),
  "rpress": win(R24, 4, 100), "ruol": win(RU, 16, 55),
- "a23": sh(A23, 2, 3, 9, 8, 28, 41, 38, 25, 1, 4), "cro": sh(CRO, 37, 38, 43, 47, 16, 29),
+ "a23": sh(A23, 2, 3, 9, 8, 28, 41, 38, 25, 1, 4), "cro": sh(A25, 4, 6, 13, 15),
  "f94": sh(F94, 0, 43, 45, 30, 37, 20, 46), "f70": sh(F70, 3, 6, 7, 4),
  "today": sh(A, 10, 14, 15) + win(J26, 2, 50),
  "norwaycry": sh(NC, 0, 1), "norway": win(NOR, SHOTS[NOR][16][0] + 2, SHOTS[NOR][16][0] + 12) + win(NOR, SHOTS[NOR][26][0] + 2, SHOTS[NOR][26][0] + 12),
  "brunoface": sh(N26, 2), "nor26": sh(N26, 8, 10, 15, 5, 6, 14, 20, 18),
  "wc06": sh(FRA, 5, 13, 19, 4), "wc10": win(NED, 255, 268) + win(NED, 283, 290) + sh(NED, 21), "wc18": sh(BEL, 9, 17, 15, 7, 6),
- "neymar": sh(CRO, 31, 46) + sh(NC, 1) + sh(BEL, 15),
- "fall": sh(FRA, 5) + win(NED, 283, 290) + sh(BEL, 9) + sh(CRO, 38) + sh(N26, 15) + sh(FRA, 19) + sh(BEL, 17) + sh(NC, 1) + sh(A25, 34) + sh(BEL, 15) + sh(N26, 10) + sh(A23, 38) + sh(J25, 2) + sh(CRO, 43) + sh(A25, 37) + sh(NED, 21) + sh(J25, 70) + sh(J26, 17),
+ "neymar": sh(BEL, 15) + sh(NC, 1) + sh(N26, 18),
+ "fall": sh(FRA, 5) + win(NED, 283, 290) + sh(BEL, 9) + sh(N26, 15) + sh(FRA, 19) + sh(BEL, 17) + sh(NC, 1) + sh(A25, 34) + sh(BEL, 15) + sh(N26, 10) + sh(A23, 38) + sh(J25, 2) + sh(A25, 37) + sh(NED, 21) + sh(J25, 70) + sh(J26, 17),
  "anc": sh(A, 8, 2, 3, 9, 11), "train": sh(A, 10, 14, 15, 11, 9), "wc": sh(A, 16, 17),
  "j26vini": win(J26, 207, 268) + sh(J26, 8, 6, 9, 10, 11, 7), "j26winner": win(J26, 362, 398),
  "j26end": win(J26, 401, 438) + win(J26, 441, 490) + sh(J26, 17, 15, 16), "j26score": sh(J26, 15, 16, 17),
@@ -104,7 +104,7 @@ SEQ = [
  L(14, P(.2, "brunoface", "lower", 9.0, name="BRUNO GUIMARÃES", role="Brazil v Norway · World Cup 2026 · Round of 16", late=.08), P(.4, "nor26", "none", 2.5), P(.4, "norwaycry+norway", "word", text="“IT HURTS A LOT”", late=.3)),
  L(15, P(.5, "j26vini", "stat", 3.2, big="2 GOALS", label="VINÍCIUS JÚNIOR · BRAZIL v JAPAN", late=.2), P(.5, "j26winner+j26end", "stat", big="3 – 2", label="JAPAN BEAT BRAZIL · TWICE IN 13 MONTHS", late=.1)),
  C(E, 80.6, 12.3, "", "ESPN FC · November 14, 2026", [(0.3, 6.9, "It used to be *smiles and samba.* It was the team to watch."), (7.7, 12.0, "Now that Brazil shirt is clearly *so heavy* for whoever wears it.")]),
- L(16, P(.3, "arg25", "none", 2.6), P(.25, "cro", "lower", name="QATAR 2022", role="Brazil go out to Croatia. Argentina's fans celebrate.", late=.05),
+ L(16, P(.3, "arg25", "none", 2.6), P(.25, "cro", "lower", name="QATAR 2022", role="Brazil go out. Argentina's fans celebrate.", late=.05),
        P(.45, "a23", "list", 3.4, tag="NOVEMBER 21, 2023 · MARACANÃ", title="BRAZIL 0–1 ARGENTINA", items=["Brazil's first home defeat in qualifying. Ever."], t0=.3, lasthot=True), music="beat"),
  L(17, P(.5, "f94", "lower", name="DUNGA · 1994", role="Captain. World champion.", late=.15), P(.5, "cafu", "lower", name="CAFU · 2002", role="Captain. World champion.", late=.1), music="drone"),
  L(18, P(1, "today", "chips", title="BRAZIL TODAY", items=["Tattoos", "Hairdressers", "Followers"], t0=.1)),

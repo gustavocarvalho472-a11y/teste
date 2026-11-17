@@ -43,12 +43,12 @@ _AP = "crop=iw*0.82:ih*0.82:0:ih*0.18,"
 CROP.update({APR: _AP, APS: _AP, APT: _AP, AP2: "crop=iw*0.6:ih*0.6:iw*0.15:ih*0.32,", R9B: "crop=iw*0.8:ih*0.8:0:0,", R10B: "crop=iw*0.9:ih*0.9:0:ih*0.1,"})
 PILLAR.clear()
 _ap71 = sh(APR, 2, 9, 0, 8, 4, 11) + sh(APS, 3, 6) + sh(APT, 0, 2) + sh(APR, 1, 3, 7, 10) + sh(APS, 4, 2, 5) + sh(APT, 1)
-_ap02 = win(AP2, 3, 100) + sh(AP2, 1, 3, 4)
+_ap02 = sh(AP2, 1, 4, 3)
 _r9b = sh(R9B, 11, 16, 10, 21, 14, 23, 31, 1, 3, 2); _r10b = sh(R10B, 0, 4, 5, 8, 15, 16, 17, 3, 13, 11)
 POOLS.update({
  "s71": _ap71, "s71sad": sh(APR, 9, 8, 11), "vbest": sh(VF, 5, 4, 3),
  "r9": _r9b, "r10": _r10b, "romario": _r9b[5:] + _r10b[5:], "cafu": _ap02, "f94": _ap02, "f70": _ap02,
- "norwaycry": POOLS["norway"] + sh(APS, 3, 6), "brunoface": POOLS["norway"], "nor26": POOLS["norway"] + sh(A, 16, 17),
+ "norwaycry": sh(APS, 3, 6) + sh(APR, 9, 4), "brunoface": sh(A, 16, 17), "nor26": sh(A, 16, 17, 8, 3),
  "wc06": _ap71, "wc10": _ap71, "wc18": _ap71, "neymar": sh(APR, 9, 4) + sh(APS, 6, 3),
  "fall": sh(APS, 3) + sh(A25, 34) + sh(APR, 8) + sh(A23, 38) + sh(J25, 2) + sh(APS, 6) + sh(A25, 37) + sh(J25, 70) + sh(APT, 2) + sh(A23, 25) + sh(APR, 4) + sh(A25, 7) + sh(J26, 17) + sh(APR, 11) + sh(APT, 0) + sh(APR, 1),
 })

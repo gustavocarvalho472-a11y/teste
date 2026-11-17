@@ -38,6 +38,21 @@ POOLS = {
  "j26vini": win(J26, 207, 268) + sh(J26, 8, 6, 9, 10, 11, 7), "j26winner": win(J26, 362, 398),
  "j26end": win(J26, 401, 438) + win(J26, 441, 490) + sh(J26, 17, 15, 16), "j26score": sh(J26, 15, 16, 17),
 }
+APR, APS, APT, AP2, R9B, R10B = "ap_rio_71", "ap_sp_71", "ap_stadium_71", "ap_2002_fans", "r9_barca", "r10_barca"
+_AP = "crop=iw*0.82:ih*0.82:0:ih*0.18,"
+CROP.update({APR: _AP, APS: _AP, APT: _AP, AP2: "crop=iw*0.6:ih*0.6:iw*0.15:ih*0.32,", R9B: "crop=iw*0.8:ih*0.8:0:0,", R10B: "crop=iw*0.9:ih*0.9:0:ih*0.1,"})
+PILLAR.clear()
+_ap71 = sh(APR, 2, 9, 0, 8, 4, 11) + sh(APS, 3, 6) + sh(APT, 0, 2) + sh(APR, 1, 3, 7, 10) + sh(APS, 4, 2, 5) + sh(APT, 1)
+_ap02 = win(AP2, 3, 100) + sh(AP2, 1, 3, 4)
+_r9b = sh(R9B, 11, 16, 10, 21, 14, 23, 31, 1, 3, 2); _r10b = sh(R10B, 0, 4, 5, 8, 15, 16, 17, 3, 13, 11)
+POOLS.update({
+ "s71": _ap71, "s71sad": sh(APR, 9, 8, 11), "vbest": sh(VF, 5, 4, 3),
+ "r9": _r9b, "r10": _r10b, "romario": _r9b[5:] + _r10b[5:], "cafu": _ap02, "f94": _ap02, "f70": _ap02,
+ "norwaycry": POOLS["norway"] + sh(APS, 3, 6), "brunoface": POOLS["norway"], "nor26": POOLS["norway"] + sh(A, 16, 17),
+ "wc06": _ap71, "wc10": _ap71, "wc18": _ap71, "neymar": sh(APR, 9, 4) + sh(APS, 6, 3),
+ "fall": sh(APS, 3) + sh(A25, 34) + sh(APR, 8) + sh(A23, 38) + sh(J25, 2) + sh(APS, 6) + sh(A25, 37) + sh(J25, 70) + sh(APT, 2) + sh(A23, 25) + sh(APR, 4) + sh(A25, 7) + sh(J26, 17) + sh(APR, 11) + sh(APT, 0) + sh(APR, 1),
+})
+FIFA = [S71, F70, F94, F02, CRO, R9G, R10G, ROM, ZG, NED, BEL, FRA, N26, NC, VB2]
 _items = {}; _cur = {}
 def pool_items(name):
     if name not in _items:
@@ -69,13 +84,13 @@ def L(i, *parts, music=None): return {"line": i, "parts": parts, "music": music}
 def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cut}
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
- {"cold": True, "src": R(S71), "ss": SHOTS[S71][2][0] + 0.2, "d": 3.2},
+ {"cold": True, "src": R(APR), "ss": SHOTS[APR][2][0] + 0.2, "d": 3.2},
  L(0, P(1, "s71", "chips", 0.9, title="29 MINUTES", items=["11' · Müller", "23' · Klose", "24' · Kroos", "26' · Kroos", "29' · Khedira"], t0=.3)),
  L(1, P(1, "s71sad+" + "+".join(["fall"] * 15), "chips", 1.1, title="ROCK BOTTOM?", items=["2018 · Out to Belgium", "2022 · Out to Croatia", "2026 · Out to Norway"], t0=.45)),
  L(2, P(1, "j26end+viniboo+rpress+j26score+arg25", "word", 1.15, text="IT GOT WORSE", late=.05)),
  L(3, P(.3, "vbest", "lower", 7.0, name="VINÍCIUS JÚNIOR", role="The Best FIFA Men's Player · December 2024", late=.1),
       P(.25, "vinibest", "list", 2.6, tag="THE BEST FIFA 2024", title="THE VOTE", items=["1 · Vinícius Júnior · 48 pts", "2 · Rodri · 43 pts", "3 · Bellingham · 37 pts"], t0=.1),
-      P(.45, "romario+r9+r10+romario+r9+r10", "chips", 1.7, title="THE HEIR OF", items=["Romário", "Ronaldo", "Ronaldinho"], t0=.3)),
+      P(.45, "r9+r10+r9+r10+r9+r10", "chips", 1.7, title="THE HEIR OF", items=["Romário", "Ronaldo", "Ronaldinho"], t0=.3)),
  L(4, P(1, "viniboo", "word", 2.4, text="WHISTLED", sub="AT THE BERNABÉU", late=.3)),
  L("N0", P(.3, "vinireal", "stat", 2.6, big="1 GOAL", label="FIRST 8 MATCHES · HIS WORST START AS A STARTER", late=.3),
          P(.3, "diomande", "stat", 2.6, big="€100M+", label="SPENT ON A 19-YEAR-OLD IN HIS POSITION", late=.1),
@@ -101,15 +116,15 @@ SEQ = [
        P(.6, "rpress+train", "stat", big="3", label="INJURIES IN EIGHT MONTHS", late=.05)),
  C(R(R24), 107.3, 11.0, "RAPHINHA", "Press conference · Singapore · November 2026", [(3.6, 10.8, "*24 SECONDS OF SILENCE*")], mute_music=True),
  L(13, P(1, "j26end", "word", text="SENT OFF", sub="THE CAPTAIN · BRAZIL v JAPAN", stamp=True, late=.5), music="drone"),
- L(14, P(.2, "brunoface", "lower", 9.0, name="BRUNO GUIMARÃES", role="Brazil v Norway · World Cup 2026 · Round of 16", late=.08), P(.4, "nor26", "none", 2.5), P(.4, "norwaycry+norway", "word", text="“IT HURTS A LOT”", late=.3)),
+ L(14, P(.6, "nor26", "lower", 3.4, name="NORWAY 2–1 BRAZIL", role="World Cup 2026 · Round of 16 · Bruno Guimarães misses a penalty", late=.08), P(.4, "anc+train", "word", text="“IT HURTS A LOT”", late=.3)),
  L(15, P(.5, "j26vini", "stat", 3.2, big="2 GOALS", label="VINÍCIUS JÚNIOR · BRAZIL v JAPAN", late=.2), P(.5, "j26winner+j26end", "stat", big="3 – 2", label="JAPAN BEAT BRAZIL · TWICE IN 13 MONTHS", late=.1)),
  C(E, 80.6, 12.3, "", "ESPN FC · November 14, 2026", [(0.3, 6.9, "It used to be *smiles and samba.* It was the team to watch."), (7.7, 12.0, "Now that Brazil shirt is clearly *so heavy* for whoever wears it.")]),
  L(16, P(.3, "arg25", "none", 2.6), P(.25, "cro", "lower", name="QATAR 2022", role="Brazil go out. Argentina's fans celebrate.", late=.05),
        P(.45, "a23", "list", 3.4, tag="NOVEMBER 21, 2023 · MARACANÃ", title="BRAZIL 0–1 ARGENTINA", items=["Brazil's first home defeat in qualifying. Ever."], t0=.3, lasthot=True), music="beat"),
- L(17, P(.5, "f94", "lower", name="DUNGA · 1994", role="Captain. World champion.", late=.15), P(.5, "cafu", "lower", name="CAFU · 2002", role="Captain. World champion.", late=.1), music="drone"),
+ L(17, P(1, "cafu", "chips", 3.2, title="THE CAPTAINS", items=["1994 · Dunga", "2002 · Cafu"], t0=.2), music="drone"),
  L(18, P(1, "today", "chips", title="BRAZIL TODAY", items=["Tattoos", "Hairdressers", "Followers"], t0=.1)),
  L(19, P(.5, "r9", "stat", 2.6, big="8 GOALS", label="RONALDO · WORLD CUP 2002", late=.45), P(.5, "r9+cafu", "define", 3.0, **D_("FAME", "THEN AND NOW", "Back then, fame came after the trophy. Today it comes first."))),
- L(20, P(.76, "f70+f70+f70+romario+romario+r9+r10", "chips", 3.5, title="FIVE STARS", items=["1958 · Pelé", "1962 · Garrincha", "1970 · The beautiful team", "1994 · Romário", "2002 · Ronaldo"], t0=.14), P(.24, "cafu", "stat", big="5 STARS", label="NO OTHER COUNTRY HAS FIVE", late=.1)),
+ L(20, P(.76, "cafu+cafu+cafu+cafu+r9+r9+r10", "chips", 3.5, title="FIVE STARS", items=["1958 · Pelé", "1962 · Garrincha", "1970 · The beautiful team", "1994 · Romário", "2002 · Ronaldo"], t0=.14), P(.24, "cafu", "stat", big="5 STARS", label="NO OTHER COUNTRY HAS FIVE", late=.1)),
  L(21, P(.3, "train+anc", "counter", value=1455, label="BRAZILIAN PLAYERS ABROAD · MOST IN THE WORLD", sub="CIES FOOTBALL OBSERVATORY · MAY 2026", t0=.25, sublate=.6),
        P(.4, "vinibest+train", "stat", big="16", label="AGE VINÍCIUS AND ENDRICK SIGNED FOR REAL MADRID", late=.1), P(.3, "ruol"), music="beat"),
  C(R(RU), 6.2, 9.0, "RAPHINHA", "Brazil captain · UOL Esporte · 2026", [(0.3, 8.8, "The affection from Brazilian fans is *different* from the people abroad who follow me.")]),
@@ -117,7 +132,7 @@ SEQ = [
  L(22, P(.5, "r10", "define", 2.6, **D_("NO LOVE", "RONALDINHO · JUNE 2024", "“No love for the shirt. No fight. And above all, no football.”")), P(.5, "r10+today", "word", 2.6, text="IT WAS AN AD", sub="ALMOST NOBODY DISAGREED", late=.15)),
  L(23, P(1, "neymar+s71+cro+nor26+wc18+wc10", "chips", 2.6, title="ONE PLAYER", items=["2014 · Neymar injured · 7–1", "2022 · Neymar scores · out", "2026 · Worst World Cup since 1990"], t0=.28), music="drone"),
  C(E, 278.0, 10.7, "", "ESPN FC · November 14, 2026", [(0.2, 3.4, "When they win, they haven't played well enough."), (4.6, 6.6, "If they don't win, then everybody jumps on them."), (7.3, 10.5, "*There's nowhere for them to go.*")]),
- L(24, P(.35, "romario", "lower", 2.2, name="ROMÁRIO", role="World champion · 1994", late=.2), P(.65, "j26end", "define", **D_("ROMÁRIO", "NOVEMBER 14, 2026", "“Ancelotti, that's enough. Pack your things and get out.”"))),
+ L(24, P(.35, "cafu", "lower", 2.2, name="ROMÁRIO", role="World champion · 1994", late=.2), P(.65, "j26end", "define", **D_("ROMÁRIO", "NOVEMBER 14, 2026", "“Ancelotti, that's enough. Pack your things and get out.”"))),
  L(25, P(.6, "anc+cafu", "counter", value=28, suffix=" YEARS", label="WITHOUT A WORLD CUP · IF BRAZIL DO NOT WIN IN 2030", sub="ANCELOTTI'S CONTRACT RUNS UNTIL 2030", t0=.3, sublate=.6),
        P(.4, "anc", "word", text="“WE HAVE A FUTURE”", late=.45), music="finale"),
  L(26, P(1, "train+today", "chips", title="WORLD CUP 2030", items=["Endrick · 23", "Estêvão · 23", "Vinícius · 30"], t0=.12)),
@@ -159,9 +174,10 @@ def main():
         s["framed"] = "takes" in s and s["gfx"]["type"] in ("none", "stat", "word", "lower", "chips", "caps")
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
     json.dump({"fps": FPS, "total": total, "scenes": scenes, "vo": vo, "music": music,
-               "brand": "BRAZIL · <b>THE FALL</b>", "tagline": "7–1 WASN'T THE BOTTOM", "stingbg": "7–1", "endtitle": "BRAZIL · <span style=\"color:var(--amber)\">THE FALL</span>", "sources": "FIFA · CONMEBOL · ESPN FC · UOL Esporte · AS · AFP"},
+               "brand": "BRAZIL · <b>THE FALL</b>", "tagline": "7–1 WASN'T THE BOTTOM", "stingbg": "7–1", "endtitle": "BRAZIL · <span style=\"color:var(--amber)\">THE FALL</span>", "sources": "AP · AFP · CONMEBOL · ESPN FC · UOL Esporte · AS"},
               open(f"{ROOT}/build/timeline.json", "w"), indent=1, ensure_ascii=False)
     tk = [x for s in scenes for x in s.get("takes", [])]
+    bad = sorted({x['src'].split('/')[-1] for x in tk if any(x['src'] == R(k) for k in FIFA)}); assert not bad, bad
     print(f"{len(scenes)} scenes, {total/60:.2f} min, {len(tk)} takes, avg {sum(x['frames'] for x in tk)/25/len(tk):.2f}s")
     for s in scenes: print(f'{s["id"]} {s["start"]:7.2f} {s["dur"]:6.2f} {s["gfx"]["type"]:8s} {len(s.get("takes",[]))}')
 if __name__ == "__main__": main()

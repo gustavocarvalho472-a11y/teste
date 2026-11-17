@@ -7,6 +7,7 @@ SHOTS = json.load(open(f"{ROOT}/build/shots.json"))
 def dur(p): return float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", p]))
 def sh(src, *idx): return [("shot", src, i) for i in idx]
 def win(src, a, b): return [("win", src, a, b)]
+def ph(*names): return [("photo", f"{ROOT}/assets/photos/{n}.jpg") for n in names]
 A, J26, J25, F02, CRO, S71, NOR = "ancelotti_afp", "japan_2026_hl", "japan_2025_hl", "final_2002_fifa", "croatia_2022_fifa", "seven_one_fifa", "norway_cbs"
 A25, A23, F70, F94, NC, R24, RU, VB, VF = "arg_bra_2025", "bra_arg_2023", "final_1970_fifa", "final_1994_fifa", "norway_crying", "raphinha_24s", "raphinha_uol", "vini_booed_as", "vini_fails"
 REF, R9G, R10G, ROM, ZG, NED, BEL, FRA, N26, VB2, RZ = "ref_vini", "r9_goals", "r10_goals", "romario_goals", "zico_goals", "ned_2010", "bel_2018", "fra_2006", "nor_2026", "vini_best2", "raph_zico"
@@ -46,11 +47,17 @@ _ap71 = sh(APR, 2, 9, 0, 8, 4, 11) + sh(APS, 3, 6) + sh(APT, 0, 2) + sh(APR, 1, 
 _ap02 = sh(AP2, 1, 4, 3)
 _r9b = sh(R9B, 11, 16, 10, 21, 14, 23, 31, 1, 3, 2); _r10b = sh(R10B, 0, 4, 5, 8, 15, 16, 17, 3, 13, 11)
 POOLS.update({
- "s71": _ap71, "s71sad": sh(APR, 9, 8, 11), "vbest": sh(VF, 5, 4, 3),
- "r9": _r9b, "r10": _r10b, "romario": _r9b[5:] + _r10b[5:], "cafu": _ap02, "f94": _ap02, "f70": _ap02,
+ "s71": ph("g71_01") + sh(APR, 2) + ph("g71_05") + sh(APS, 3) + ph("g71_09") + sh(APR, 9) + ph("g71_06") + sh(APT, 0) + ph("g71_00") + sh(APR, 8) + ph("g71_04") + sh(APS, 6) + ph("g71_11") + sh(APR, 4) + ph("g71_02") + sh(APT, 2) + ph("g71_10") + sh(APR, 11) + ph("g71_08", "g71_12", "g71_07"),
+ "s71sad": ph("g71_10") + sh(APR, 9) + ph("g71_04") + sh(APR, 8, 11),
+ "vbest": ph("vini_best_3", "vini_best_26", "vini_best_185", "vini_best_34"), "vinibest": ph("vini_best_26", "vini_best_3") + sh(VF, 5, 4),
+ "r9": _r9b, "r10": ph("r10_brazil") + _r10b[:3] + ph("r10_ph") + _r10b[3:],
+ "romario": ph("romario_26", "dunga_romario"),
+ "cafu": ph("cafu_pele", "dunga_romario", "pele_celeb") + _ap02 + ph("romario_26", "pele_team"),
+ "f94": ph("dunga_romario"), "f70": ph("pele_celeb", "pele_team"), "stars": ph("pele_team", "pele_celeb", "dunga_romario", "cafu_pele", "r10_brazil"),
+ "zicoph": ph("zico_fla"),
  "norwaycry": sh(APS, 3, 6) + sh(APR, 9, 4), "brunoface": sh(A, 16, 17), "nor26": sh(A, 16, 17, 8, 3),
  "wc06": _ap71, "wc10": _ap71, "wc18": _ap71, "neymar": sh(APR, 9, 4) + sh(APS, 6, 3),
- "fall": sh(APS, 3) + sh(A25, 34) + sh(APR, 8) + sh(A23, 38) + sh(J25, 2) + sh(APS, 6) + sh(A25, 37) + sh(J25, 70) + sh(APT, 2) + sh(A23, 25) + sh(APR, 4) + sh(A25, 7) + sh(J26, 17) + sh(APR, 11) + sh(APT, 0) + sh(APR, 1),
+ "fall": ph("g71_10") + sh(APS, 3) + sh(A25, 34) + sh(APR, 8) + ph("g71_04") + sh(A23, 38) + sh(J25, 2) + sh(APS, 6) + sh(A25, 37) + sh(J25, 70) + sh(APT, 2) + sh(A23, 25) + sh(APR, 4) + sh(A25, 7) + sh(J26, 17) + sh(APR, 11),
 })
 FIFA = [S71, F70, F94, F02, CRO, R9G, R10G, ROM, ZG, NED, BEL, FRA, N26, NC, VB2]
 _items = {}; _cur = {}
@@ -58,6 +65,7 @@ def pool_items(name):
     if name not in _items:
         out = []
         for it in POOLS[name]:
+            if it[0] == "photo": out.append((it[1], 0.0, 30.0)); continue
             p = R(it[1])
             a, b = (it[2], it[3]) if it[0] == "win" else (SHOTS[it[1]][it[2]][0] + 0.12, SHOTS[it[1]][it[2]][1] - 0.12)
             if b - a > 9.5:
@@ -72,7 +80,7 @@ def allocate(pools, nf, cut=4.0):
         for _ in range(len(items)):
             p, a, b = items[_cur[name] % len(items)]; _cur[name] += 1; L = b - a
             if L >= d or d / L <= 1.75: break
-        slow = max(1.0, d / L); ss = a + (min(1.2, (L - d) / 2) if L > d else 0)
+        slow = max(1.0, d / L); ss = 0.0 if p.endswith(".jpg") else a + (min(1.2, (L - d) / 2) if L > d else 0)
         takes.append({"src": p, "ss": round(ss, 2), "slow": round(slow, 3), "frames": frames, "crop": next((c for k, c in CROP.items() if p == R(k)), ""), "pillar": next((c for k, c in PILLAR.items() if p == R(k)), "")})
     return takes
 
@@ -88,7 +96,7 @@ SEQ = [
  L(0, P(1, "s71", "chips", 0.9, title="29 MINUTES", items=["11' · Müller", "23' · Klose", "24' · Kroos", "26' · Kroos", "29' · Khedira"], t0=.3)),
  L(1, P(1, "s71sad+" + "+".join(["fall"] * 15), "chips", 1.1, title="ROCK BOTTOM?", items=["2018 · Out to Belgium", "2022 · Out to Croatia", "2026 · Out to Norway"], t0=.45)),
  L(2, P(1, "j26end+viniboo+rpress+j26score+arg25", "word", 1.15, text="IT GOT WORSE", late=.05)),
- L(3, P(.3, "vbest", "lower", 7.0, name="VINÍCIUS JÚNIOR", role="The Best FIFA Men's Player · December 2024", late=.1),
+ L(3, P(.3, "vbest", "lower", 1.7, name="VINÍCIUS JÚNIOR", role="The Best FIFA Men's Player · December 2024", late=.1),
       P(.25, "vinibest", "list", 2.6, tag="THE BEST FIFA 2024", title="THE VOTE", items=["1 · Vinícius Júnior · 48 pts", "2 · Rodri · 43 pts", "3 · Bellingham · 37 pts"], t0=.1),
       P(.45, "r9+r10+r9+r10+r9+r10", "chips", 1.7, title="THE HEIR OF", items=["Romário", "Ronaldo", "Ronaldinho"], t0=.3)),
  L(4, P(1, "viniboo", "word", 2.4, text="WHISTLED", sub="AT THE BERNABÉU", late=.3)),
@@ -110,7 +118,7 @@ SEQ = [
  L(10, P(1, "arg25", "stat", 2.4, big="4 – 1", label="ARGENTINA v BRAZIL · MARCH 25, 2025", late=.1)),
  L("N4a", P(1, "ruol+rpress", "lower", 3.4, name="JUNE 2025", role="Raphinha, on holiday, talks about the Club World Cup", late=.1)),
  C(R(RZ), 81.6, 7.6, "RAPHINHA", "June 2025", [(0.3, 7.4, "From my point of view, it's very bad to *give up my holidays* to play something you're forced to play.")], crop="crop=iw*0.66:ih*0.66:iw*0.15:ih*0.17,"),
- L("N4b", P(1, "zico", "lower", 2.9, name="ZICO", role="One of the greatest players in Brazil's history", late=.3)),
+ L("N4b", P(1, "zicoph+zico", "lower", 2.9, name="ZICO", role="One of the greatest players in Brazil's history", late=.3)),
  C(R(RZ), 194.6, 11.0, "ZICO", "June 2025", [(0.3, 6.9, "If he had played the World Cups like everyone else, during his holidays,"), (7.1, 10.8, "*he wouldn't have made that statement.*")], crop="crop=iw*0.66:ih*0.66:iw*0.03:ih*0.2,"),
  L(12, P(.4, "rpress", "define", **D_("MINUTES", "RAPHINHA · NOVEMBER 2026", "“If he really counts on me, he knows he has to manage my minutes.”")),
        P(.6, "rpress+train", "stat", big="3", label="INJURIES IN EIGHT MONTHS", late=.05)),
@@ -121,10 +129,10 @@ SEQ = [
  C(E, 80.6, 12.3, "", "ESPN FC · November 14, 2026", [(0.3, 6.9, "It used to be *smiles and samba.* It was the team to watch."), (7.7, 12.0, "Now that Brazil shirt is clearly *so heavy* for whoever wears it.")]),
  L(16, P(.3, "arg25", "none", 2.6), P(.25, "cro", "lower", name="QATAR 2022", role="Brazil go out. Argentina's fans celebrate.", late=.05),
        P(.45, "a23", "list", 3.4, tag="NOVEMBER 21, 2023 · MARACANÃ", title="BRAZIL 0–1 ARGENTINA", items=["Brazil's first home defeat in qualifying. Ever."], t0=.3, lasthot=True), music="beat"),
- L(17, P(1, "cafu", "chips", 3.2, title="THE CAPTAINS", items=["1994 · Dunga", "2002 · Cafu"], t0=.2), music="drone"),
+ L(17, P(1, "f94+cafu", "chips", 2.6, title="THE CAPTAINS", items=["1994 · Dunga", "2002 · Cafu"], t0=.2), music="drone"),
  L(18, P(1, "today", "chips", title="BRAZIL TODAY", items=["Tattoos", "Hairdressers", "Followers"], t0=.1)),
  L(19, P(.5, "r9", "stat", 2.6, big="8 GOALS", label="RONALDO · WORLD CUP 2002", late=.45), P(.5, "r9+cafu", "define", 3.0, **D_("FAME", "THEN AND NOW", "Back then, fame came after the trophy. Today it comes first."))),
- L(20, P(.76, "cafu+cafu+cafu+cafu+r9+r9+r10", "chips", 3.5, title="FIVE STARS", items=["1958 · Pelé", "1962 · Garrincha", "1970 · The beautiful team", "1994 · Romário", "2002 · Ronaldo"], t0=.14), P(.24, "cafu", "stat", big="5 STARS", label="NO OTHER COUNTRY HAS FIVE", late=.1)),
+ L(20, P(.76, "stars", "chips", 2.6, title="FIVE STARS", items=["1958 · Pelé", "1962 · Garrincha", "1970 · The beautiful team", "1994 · Romário", "2002 · Ronaldo"], t0=.14), P(.24, "cafu", "stat", big="5 STARS", label="NO OTHER COUNTRY HAS FIVE", late=.1)),
  L(21, P(.3, "train+anc", "counter", value=1455, label="BRAZILIAN PLAYERS ABROAD · MOST IN THE WORLD", sub="CIES FOOTBALL OBSERVATORY · MAY 2026", t0=.25, sublate=.6),
        P(.4, "vinibest+train", "stat", big="16", label="AGE VINÍCIUS AND ENDRICK SIGNED FOR REAL MADRID", late=.1), P(.3, "ruol"), music="beat"),
  C(R(RU), 6.2, 9.0, "RAPHINHA", "Brazil captain · UOL Esporte · 2026", [(0.3, 8.8, "The affection from Brazilian fans is *different* from the people abroad who follow me.")]),
@@ -132,7 +140,7 @@ SEQ = [
  L(22, P(.5, "r10", "define", 2.6, **D_("NO LOVE", "RONALDINHO · JUNE 2024", "“No love for the shirt. No fight. And above all, no football.”")), P(.5, "r10+today", "word", 2.6, text="IT WAS AN AD", sub="ALMOST NOBODY DISAGREED", late=.15)),
  L(23, P(1, "neymar+s71+cro+nor26+wc18+wc10", "chips", 2.6, title="ONE PLAYER", items=["2014 · Neymar injured · 7–1", "2022 · Neymar scores · out", "2026 · Worst World Cup since 1990"], t0=.28), music="drone"),
  C(E, 278.0, 10.7, "", "ESPN FC · November 14, 2026", [(0.2, 3.4, "When they win, they haven't played well enough."), (4.6, 6.6, "If they don't win, then everybody jumps on them."), (7.3, 10.5, "*There's nowhere for them to go.*")]),
- L(24, P(.35, "cafu", "lower", 2.2, name="ROMÁRIO", role="World champion · 1994", late=.2), P(.65, "j26end", "define", **D_("ROMÁRIO", "NOVEMBER 14, 2026", "“Ancelotti, that's enough. Pack your things and get out.”"))),
+ L(24, P(.35, "romario", "lower", 2.2, name="ROMÁRIO", role="World champion · 1994", late=.2), P(.65, "j26end", "define", **D_("ROMÁRIO", "NOVEMBER 14, 2026", "“Ancelotti, that's enough. Pack your things and get out.”"))),
  L(25, P(.6, "anc+cafu", "counter", value=28, suffix=" YEARS", label="WITHOUT A WORLD CUP · IF BRAZIL DO NOT WIN IN 2030", sub="ANCELOTTI'S CONTRACT RUNS UNTIL 2030", t0=.3, sublate=.6),
        P(.4, "anc", "word", text="“WE HAVE A FUTURE”", late=.45), music="finale"),
  L(26, P(1, "train+today", "chips", title="WORLD CUP 2030", items=["Endrick · 23", "Estêvão · 23", "Vinícius · 30"], t0=.12)),

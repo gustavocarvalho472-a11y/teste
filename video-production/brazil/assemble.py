@@ -28,6 +28,14 @@ def encode(s):
     takes = s["takes"]; n = len(takes); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []
     for i, t in enumerate(takes):
         need = t["frames"] / FPS / t["slow"] + 0.4; real = "/real/" in t["src"]
+        if t["src"].endswith(".jpg"):
+            cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{need:.2f}", "-i", t["src"]]
+            k = len([u for u in takes[:i] if u["src"].endswith(".jpg")]) % 4; fN = t["frames"]
+            zs = ["1+0.13*on/{N}", "1.13-0.13*on/{N}", "1.06+0.08*on/{N}", "1.14-0.08*on/{N}"][k].format(N=fN)
+            xs = ["(iw-iw/zoom)/2", "(iw-iw/zoom)*on/{N}", "(iw-iw/zoom)*(1-on/{N})", "(iw-iw/zoom)/2"][k].format(N=fN)
+            fc.append(f"[{i}:v]scale=2880:1620:force_original_aspect_ratio=increase,crop=2880:1620,zoompan=z='{zs}':x='{xs}':y='(ih-ih/zoom)/2':d=1:s=1920x1080:fps={FPS},"
+                      f"setsar=1,format=yuv420p,eq=contrast=1.06:saturation=0.95,fade=t=in:st=0:d=0.12:color=white,trim=end_frame={fN},setpts=PTS-STARTPTS[v{i}]")
+            continue
         cmd += ["-ss", f"{t['ss']:.2f}", "-t", f"{need:.2f}", "-i", t["src"]]
         pre = ("crop=iw:ih*0.755," if "city_pep_official" in t["src"] else "") + (t.get("crop") or "")
         grade = "eq=contrast=1.07:saturation=0.9:brightness=-0.03" if real else "eq=contrast=1.12:saturation=0.74:brightness=-0.06"

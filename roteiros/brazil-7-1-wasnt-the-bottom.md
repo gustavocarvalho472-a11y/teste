@@ -129,8 +129,22 @@ Maybe they do. In 2030, Endrick and Estêvão will be twenty-three, and Viníciu
 The seven-one was supposed to be rock bottom. Twelve years later, the best player in the world is a meme, the captain is asking for rest, and Japan have beaten Brazil twice. Maybe the internet's joke is closer to the truth than it sounds, and something really did die after that World Cup. The question is whether there is still time to bring it back before 2030.
 
 
-## CTA (final)
+## Revisão final (versão publicada, 11:19)
 
-EN: So tell me in the comments: can Brazil win it in 2030? And if this video was worth your time, leave a like, subscribe, and send it to a friend who still believes in Brazil. It really helps the channel grow.
+Trechos novos da narração (EN):
 
-PT: Então me conta nos comentários: o Brasil consegue ganhar em 2030? E se este vídeo valeu o seu tempo, deixe o like, se inscreva e mande para um amigo que ainda acredita no Brasil. Isso ajuda muito o canal a crescer.
+And the numbers explain why. In his first eight matches this season, he has scored one goal, his worst start since he became a starter at Real Madrid. The club spends more than a hundred million euros on a nineteen-year-old who plays in his position, and when the newspaper Marca asks its readers who should start, more than fifty thousand people vote, and eighty-six percent of them choose the teenager.
+
+With Brazil, it is the same film. Against India, a team that has never played at a World Cup and sits more than a hundred and thirty places below Brazil in the ranking, he is taken off at half-time.
+
+Off the pitch, he has never been more visible: a new face, a famous girlfriend, millions of followers watching every photo. On the pitch, he has never looked further away.
+
+Before we go on: if you like this kind of story, leave a like, subscribe, and send this video to a friend who still believes in Brazil. It really helps the channel grow.
+
+Three months later, already on holiday, Raphinha talks about the Club World Cup and says it is hard to give up your holidays, and that not everyone will want to go.
+
+He is talking about clubs, not Brazil, but Zico, one of the greatest players in the history of Brazilian football, criticises him in public.
+
+Mudanças: fase ruim do Vini com números (1 gol em 8 jogos; enquete do Marca, 86%; substituído no intervalo contra a Índia), CTA logo depois do título, Zico apresentado como um dos maiores da história, falas originais de Raphinha (férias) e Zico com legenda em inglês, gols de Ronaldo, Ronaldinho, Romário e Zico, lances das Copas de 2006, 2010, 2018 e 2026. Sem CTA no final.
+
+Fontes novas: Marca/Bernabéu Digital (enquete), vídeo de referência `w_njtoB6nMc` (números da temporada e jogo da Índia: fonte única, conferir), Fora de Campo `k-p6_P5kZzQ` (falas de Raphinha e Zico).

@@ -1,0 +1,6 @@
+assets/real/
+assets/photos/cand/
+assets/stock/
+build/
+out/*.mp4
+node_modules/

@@ -7,7 +7,7 @@ import numpy as np
 ROOT = os.path.dirname(os.path.abspath(__file__)); B = f"{ROOT}/build"; A = f"{ROOT}/assets"
 TL = json.load(open(f"{B}/timeline.json")); FPS = TL["fps"]; SR = 48000
 OUT = f"{ROOT}/out"; os.makedirs(OUT, exist_ok=True); os.makedirs(f"{B}/seg", exist_ok=True)
-X264 = ["-c:v", "libx264", "-preset", "medium", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", "50", "-an"]
+X264 = ["-c:v", "libx264", "-preset", "fast", "-crf", "21", "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", "50", "-an"]
 
 
 def run(cmd):
@@ -24,7 +24,7 @@ def encode(s):
     out = f"{B}/seg/{s['id']}.mp4"; fr = f"{B}/frames/{s['id']}"; nf = s["nf"]
     if REUSE and os.path.exists(out) and os.path.getsize(out) > 1000: return out
     if "takes" not in s:
-        run(["ffmpeg", "-y", "-v", "error", "-framerate", str(FPS), "-i", f"{fr}/%05d.jpg", "-frames:v", str(nf)] + X264 + [out]); return out
+        run(["ffmpeg", "-y", "-v", "error", "-framerate", str(FPS), "-i", f"{fr}/%05d.jpg", "-vf", "tpad=stop_mode=clone:stop_duration=900", "-frames:v", str(nf)] + X264 + [out]); return out
     takes = s["takes"]; n = len(takes); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []
     for i, t in enumerate(takes):
         need = t["frames"] / FPS / t["slow"] + 0.4; real = "/real/" in t["src"]
@@ -227,7 +227,7 @@ def srt():
             if len(c) > 42:
                 m = c.rfind(" ", 0, len(c) // 2 + 6); c = c[:m] + "\n" + c[m + 1:]
             out.append(f"{k}\n{ts(t)} --> {ts(t + dt - 0.05)}\n{c}\n"); k += 1; t += dt
-    open(f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.srt", "w").write("\n".join(out))
+    open(f"{OUT}/VIDEO-SLUG-EN.srt", "w").write("\n".join(out))
 
 
 REUSE = "--reuse" in sys.argv
@@ -239,7 +239,7 @@ if __name__ == "__main__":
     if only: sys.exit()
     open(f"{B}/concat.txt", "w").write("".join(f"file 'seg/{s['id']}.mp4'\n" for s in TL["scenes"]))
     print("audio…", flush=True); build_audio(); srt()
-    final = f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.mp4"
+    final = f"{OUT}/VIDEO-SLUG-EN.mp4"
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", f"{B}/concat.txt", "-i", f"{B}/mix.wav", "-c:v", "copy",
          "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", "-shortest", final])
     print("DONE", final, f"{os.path.getsize(final)/1e6:.0f} MB", probe(final))

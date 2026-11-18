@@ -88,7 +88,7 @@ Then came the manager the whole world knew, José Mourinho. He won the League Cu
 
 Four months later he was out too, so the club bet on nostalgia and called one of Ferguson's own players, Ole Gunnar Solskjær, who started by winning almost everything, knocked PSG out in Paris and became a hero all over again. But a team built on emotion does not survive three seasons, and in November 2021, after losing four-one at Watford, he left as well. The man brought in to fix the house was Ralf Rangnick, the man who invented half of modern German football, and it did not take him long to say in public what nobody inside dared to say.
 
-**[CLIP — Rangnick, April 2022: "open-heart surgery"]**
+**[CLIP — Rangnick, April 2022]** "In medicine you would see this is an operation at the open heart. This is also something that not only one single person as a manager can do."
 
 Keep that sentence in mind, because it comes back at the end of this video.
 
@@ -98,7 +98,7 @@ Keep that sentence in mind, because it comes back at the end of this video.
 
 Look at the queue closely and something strange appears, because United do not sack their managers when they fail, they sack them right after they win. Van Gaal won a cup and was gone two days later. Erik ten Hag won the League Cup in 2023, beat City to win the FA Cup in 2024, was handed a new contract that summer and was sacked in October. Rúben Amorim arrived promising a project of years, took the team to a European final in Bilbao, lost it to Tottenham and finished fifteenth in the league, the club's worst season since relegation in 1974. In January this year, the day before he was sacked, he said one sentence that explained everything.
 
-**[CLIP — Amorim, 4 Jan 2026]** "I came here to be the manager of Manchester United, not to be the coach."
+**[CLIP — Amorim, 4 Jan 2026]** "I came here to be the manager of Manchester United, not to be the coach of Manchester United… I know that my name is not Tuchel, it's not Conte, it's not Mourinho, but I'm the manager of Manchester United."
 
 And then came the cruellest story of all. Michael Carrick, another son of the Ferguson years, took over as interim in January, won eleven of his sixteen games, put United back in the Champions League and was given the job permanently in May on a two-year deal. Six months later, with one win in ten league games and the team in the relegation zone, he was sacked. For the first time in a hundred and forty-eight years of history, Manchester United had sacked two managers in the same calendar year.
 
@@ -176,7 +176,7 @@ Depois veio o técnico que o mundo inteiro conhecia, o José Mourinho. Ele ganho
 
 Quatro meses depois ele também estava fora, e o clube apostou na saudade, chamando um ex-jogador do próprio Ferguson, o Ole Gunnar Solskjær, que começou ganhando quase tudo, eliminou o PSG em Paris e virou ídolo de novo. Só que um time montado na emoção não aguenta três temporadas, e em novembro de 2021, depois de perder de 4 a 1 para o Watford, ele também saiu. Quem chegou para arrumar a casa foi o Ralf Rangnick, o homem que inventou metade do futebol moderno alemão, e ele não demorou para dizer em público o que ninguém lá dentro tinha coragem de dizer.
 
-**[FALA — Rangnick, abril/2022: "cirurgia de coração aberto"]**
+**[FALA — Rangnick, abril/2022]** "Na medicina, isso seria uma operação de coração aberto. E não é algo que uma única pessoa, um técnico, consiga fazer sozinha."
 
 Guarda essa frase, porque ela volta no fim do vídeo.
 
@@ -186,7 +186,7 @@ Guarda essa frase, porque ela volta no fim do vídeo.
 
 Se você olhar a fila com calma, aparece uma coisa estranha, porque o United não demite os técnicos quando eles fracassam, demite logo depois que eles ganham. O Van Gaal ganhou uma copa e caiu dois dias depois. O Erik ten Hag ganhou a Copa da Liga em 2023, venceu o City na final da FA Cup em 2024, recebeu um contrato novo naquele verão e foi demitido em outubro. O Rúben Amorim chegou prometendo um projeto de anos, levou o time a uma final europeia em Bilbao, perdeu para o Tottenham e terminou a liga em 15º, a pior temporada do clube desde o rebaixamento de 1974. Em janeiro deste ano, na véspera de ser demitido, ele disse uma frase que explicava tudo.
 
-**[FALA — Amorim, 04/01/2026]** "Eu vim para ser o manager do Manchester United, não para ser o treinador."
+**[FALA — Amorim, 04/01/2026]** "Eu vim para ser o manager do Manchester United, não o treinador do Manchester United… Sei que meu nome não é Tuchel, não é Conte, não é Mourinho, mas eu sou o manager do Manchester United."
 
 E depois veio a história mais cruel de todas. O Michael Carrick, outro filho da era Ferguson, assumiu como interino em janeiro, ganhou onze de dezesseis jogos, colocou o United de volta na Champions League e foi efetivado em maio com contrato de dois anos. Seis meses depois, com uma vitória em dez rodadas e o time na zona de rebaixamento, foi demitido. Pela primeira vez em 148 anos de história, o Manchester United mandou embora dois técnicos no mesmo ano.
 
@@ -216,17 +216,19 @@ Treze anos atrás, um homem de 71 anos parou no meio do gramado e pediu à torci
 
 ---
 
-## Clipes a buscar (prioridade)
+## Clipes (status em 18/11/2026)
 
-| # | Fala / imagem | Onde procurar | Status |
-|---|---|---|---|
-| 1 | Ferguson, discurso de 12/05/2013 | Reportagem Sky News / BBC / AP Archive (evitar Premier League/MUTV) | buscar |
-| 2 | Pochettino sobre Ferguson ("everything I admire") | Coletivas USMNT / entrevistas nov/2026 | buscar |
-| 3 | Mourinho, 31/08/2018, "second place… biggest achievements" | Coletiva (Sky/BT/reportagem) | buscar |
-| 4 | Rangnick, abr/2022, "open-heart surgery" | Coletiva pré-jogo | buscar |
-| 5 | Amorim, 04/01/2026, "manager, not coach" | Coletiva pós-Leeds | buscar |
-| 6 | Dele Alli sobre Pochettino | Entrevista (Diary of a CEO / Sky) | buscar |
-| 7 | Moyes "Chosen One" faixa; Van Gaal FA Cup 2016; Solskjær PSG; Ten Hag FA Cup 2024; Amorim Bilbao; Carrick | AP Archive, reportagens | buscar |
-| 8 | Espanyol x Barça 2009; Tottenham final 2019 (só reportagem, sem UEFA) | Lances por clube / AP | buscar |
-| 9 | Pochettino chega a Carrington (nov/2026); estreia em Anfield (22/11) | AP / Sky News | buscar |
-| 10 | Fotos livres: Ferguson anos 80/2013, Pochettino (Southampton/Spurs/PSG/USA), Old Trafford, Anfield | Wikimedia Commons | buscar |
+| # | Fala / imagem | Fonte | Trecho | Status |
+|---|---|---|---|---|
+| 1 | Ferguson: "When we had bad times here, the club stood by me… Your job now is to stand by our new manager." | Sky Sports Retro `8E11U1cGeKU` (0:27); versão longa `HgWvOYMzQHs`; vídeo de torcedor `SlVe7S3adTs`; Al Jazeera `LJppzglI7Mc` (imagens) | 0:05–0:20 | ✅ transcrição lida. Sky costuma reivindicar; ter o vídeo de torcedor como reserva |
+| 2 | Rangnick: "operation at the open heart… not only one single person as a manager can do" | Sky Sports Retro `4zoXQn8-hDM` (1:04) | 0:37–0:46 | ✅ lida |
+| 3 | Amorim: "I came here to be the manager… not to be the coach… my name is not Tuchel, Conte, Mourinho" | The Independent `Z4q80oezi3k` (0:51); coletiva completa Beanyman `IaxOoxmUwws`; Sky News `mQUfkvgfygk` | 0:06–0:25 | ✅ lida |
+| 4 | Mourinho, 31/08/2018: "second position… one of my biggest achievements" | Sky Sports PL `VjnvtIMDphc` (6:03, sem legenda); FootballUnited `QWi57iPpZHg` (1:01); UKANIO `ntsJ7RhnpLY` | a medir | ⏳ transcrever |
+| 5 | Pochettino sobre Ferguson | Coletiva de apresentação no United (prevista para esta semana, antes de Anfield) | — | ⏳ aguardar a coletiva |
+| 6 | Dele Alli sobre Pochettino | The Overlap `LyDL9EUIdy0` (43 min) | a achar | ⏳ transcrever |
+| 7 | Moyes (faixa "Chosen One"), Van Gaal FA Cup 2016, Solskjær PSG, Ten Hag FA Cup 2024, Amorim Bilbao, Carrick | AP Archive, reportagens | — | buscar |
+| 8 | Espanyol x Barça 2009; Tottenham final 2019 (só reportagem, sem UEFA) | Lances por clube / AP | — | buscar |
+| 9 | Pochettino chega a Carrington (nov/2026); estreia em Anfield (22/11) | AP / Sky News | — | buscar |
+| 10 | Fotos livres: Ferguson anos 80/2013, Pochettino (Southampton/Spurs/PSG/USA), Old Trafford, Anfield | Wikimedia Commons | — | buscar |
+
+Outros achados úteis: HaytersTV `d0xn8TbSMUY` ("Mourinho, Amorim & Rangnick exposing the same problems", 6:22), possível fonte extra para o Bloco 3; "Ralf Rangnick Was Right All Along" (Total Futball HQ, 350 mil em 1 mês), que mostra que o tema rende.

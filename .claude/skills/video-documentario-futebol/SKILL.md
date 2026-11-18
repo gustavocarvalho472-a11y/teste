@@ -149,3 +149,26 @@ Rode os dois comandos longos em segundo plano e acompanhe pelo log. O `.srt` sai
 - `SendUserFile` com o MP4 e o `.srt`; commit dos scripts, narração, trilhas e manifestos.
 - Diga sempre, sem enfeite: o que não tem imagem real, onde há logo de emissora, quais tempos de legenda são estimados, quais números não foram confirmados, e que **todo material de arquivo é de terceiros e não licenciado** (jogos e canal oficial de clube são os mais visados pelo Content ID).
 - Thumb e título: dois rostos (um nítido, um apagado atrás), fundo escuro, duas palavras que não explicam sozinhas; título curto que completa a história.
+
+## Lições do vídeo do Brasil (nov/2026) — siga sempre
+
+**Roteiro e validação**
+- Sempre entregue o roteiro em PT no chat para o usuário validar antes de gerar narração (ele lê no celular e não abre arquivos). O vídeo é sempre em inglês.
+- Narração corrida, estilo Becir: frases que puxam a próxima, ganchos no fim de cada bloco. Frases curtas e truncadas soam como IA e foram rejeitadas.
+- Checagem de fatos antes de escrever: o usuário traz memes, falas e números; confirme (WebSearch) e diga o que mudou. Ex.: a fala do Raphinha sobre "férias" era sobre o Mundial de Clubes; a "Bola de Ouro" do Vini é na verdade o The Best da FIFA.
+- O narrador não acusa; críticas pesadas ficam na boca de torcedores, ídolos ou comentaristas. Evite termos como "afeminados" (risco de desmonetização e briga nos comentários).
+- CTA (like, inscrever, mandar para um amigo) logo depois da introdução/título, não no final.
+- Para validar sem gastar créditos: versão PT com `espeak-ng` (apt) e legenda PT queimada no topo (ver `exemplo/build_brazil.py` e o histórico).
+
+**Imagens e direitos autorais**
+- NÃO use nenhum vídeo da FIFA (Copas, FIFA TV, FIFA+, gols em Copas, premiação The Best): o vídeo foi bloqueado no mundo todo por isso. Antes de publicar, suba como não listado e espere as reivindicações.
+- Substitutos que funcionaram: reportagens da AP Archive (torcida, ruas), lances por clube (Barcelona etc.), entrevistas (UOL, ESPN FC, Fora de Campo) e **fotos livres do Wikimedia Commons** (Agência Brasil CC BY 3.0 BR tem fotos de jogos da seleção; Pelé 1970 é domínio público). Hosts a liberar: `commons.wikimedia.org`, `upload.wikimedia.org`. A API tem limite (429): uma busca a cada ~25 s.
+- Fotos entram animadas (`ph("nome")` no pool → zoom/pan + flash no `assemble.py`); fotos verticais vão para 16:9 com fundo desfocado. Misture foto + vídeo — o usuário gostou.
+- Liste os créditos das fotos em `assets/photos/CREDITS.md` e entregue o texto pronto para a descrição.
+- Não use takes com texto solto em PT de canais brasileiros, cartelas, miniaturas de Shorts nem logos de outros canais.
+- Fala em PT com áudio original → legenda em EN.
+
+**Edição**
+- Abertura muito dinâmica: cortes de ~1 s, gráficos pequenos no canto (não números gigantes parados), misture jogo + reação.
+- Quando citar um craque antigo, mostre ele jogando (lances/skills) ou foto; quando citar um personagem (ex.: Zico), coloque imagem dele para a pessoa saber quem é.
+- O render completo passa de 30 min; rode em background com timeout longo e reaproveite segmentos (`--reuse`, apagando só `build/seg/<id>.mp4` das cenas alteradas).

@@ -28,6 +28,14 @@ def encode(s):
     takes = s["takes"]; n = len(takes); cmd = ["ffmpeg", "-y", "-v", "error"]; fc = []
     for i, t in enumerate(takes):
         need = t["frames"] / FPS / t["slow"] + 0.4; real = "/real/" in t["src"]
+        if t["src"].endswith(".jpg"):
+            cmd += ["-loop", "1", "-framerate", str(FPS), "-t", f"{need:.2f}", "-i", t["src"]]
+            k = len([u for u in takes[:i] if u["src"].endswith(".jpg")]) % 4; fN = t["frames"]
+            zs = ["1+0.13*on/{N}", "1.13-0.13*on/{N}", "1.06+0.08*on/{N}", "1.14-0.08*on/{N}"][k].format(N=fN)
+            xs = ["(iw-iw/zoom)/2", "(iw-iw/zoom)*on/{N}", "(iw-iw/zoom)*(1-on/{N})", "(iw-iw/zoom)/2"][k].format(N=fN)
+            fc.append(f"[{i}:v]scale=2880:1620:force_original_aspect_ratio=increase,crop=2880:1620,zoompan=z='{zs}':x='{xs}':y='(ih-ih/zoom)/2':d=1:s=1920x1080:fps={FPS},"
+                      f"setsar=1,format=yuv420p,eq=contrast=1.06:saturation=0.95,fade=t=in:st=0:d=0.12:color=white,trim=end_frame={fN},setpts=PTS-STARTPTS[v{i}]")
+            continue
         cmd += ["-ss", f"{t['ss']:.2f}", "-t", f"{need:.2f}", "-i", t["src"]]
         pre = ("crop=iw:ih*0.755," if "city_pep_official" in t["src"] else "") + (t.get("crop") or "")
         grade = "eq=contrast=1.07:saturation=0.9:brightness=-0.03" if real else "eq=contrast=1.12:saturation=0.74:brightness=-0.06"
@@ -95,8 +103,14 @@ def build_audio():
         x = x[: N - i]
         if x.ndim == 1: x = np.stack([x * (1 - max(0, pan)), x * (1 + min(0, pan))], 1)
         buf[i:i + len(x)] += x * g
+    cache = {}
     for v in TL["vo"]:
-        put(vo, load(f"{A}/vo/{v['file']}", "highpass=f=75,acompressor=threshold=-21dB:ratio=3:attack=6:release=140:makeup=2.5"), v["start"])
+        if v["file"] not in cache: cache[v["file"]] = load(f"{A}/vo/{v['file']}", "highpass=f=75,acompressor=threshold=-21dB:ratio=3:attack=6:release=140:makeup=2.5")
+        x = cache[v["file"]]
+        if "ss" in v:
+            x = x[int(v["ss"] * SR): int((v["ss"] + v["dur"]) * SR)].copy(); f = int(0.03 * SR)
+            x[:f] *= np.linspace(0, 1, f)[:, None]; x[-f:] *= np.linspace(1, 0, f)[:, None]
+        put(vo, x, v["start"])
     vo *= 0.12 / np.sqrt((vo[np.abs(vo).sum(1) > 0.02] ** 2).mean())
     for s in TL["scenes"]:
         if s.get("nat"):
@@ -207,13 +221,13 @@ def srt():
                 c = p.rfind(" ", 0, 84); c2 = p.rfind(", ", 30, 84); c = c2 + 1 if c2 > 0 else c
                 chunks.append(p[:c].strip()); p = p[c:].strip()
             chunks.append(p)
-        a = s["vo0"]; b = s["start"] + s["dur"] - 0.25; tot = sum(len(c) + 8 for c in chunks); t = a
+        a = s["vo0"]; b = (s["vo0"] + s["vod"]) if "vod" in s else s["start"] + s["dur"] - 0.25; tot = sum(len(c) + 8 for c in chunks); t = a
         for c in chunks:
             dt = (b - a) * (len(c) + 8) / tot
             if len(c) > 42:
                 m = c.rfind(" ", 0, len(c) // 2 + 6); c = c[:m] + "\n" + c[m + 1:]
             out.append(f"{k}\n{ts(t)} --> {ts(t + dt - 0.05)}\n{c}\n"); k += 1; t += dt
-    open(f"{OUT}/manchester-city-115-charges-EN.srt", "w").write("\n".join(out))
+    open(f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.srt", "w").write("\n".join(out))
 
 
 REUSE = "--reuse" in sys.argv
@@ -225,7 +239,7 @@ if __name__ == "__main__":
     if only: sys.exit()
     open(f"{B}/concat.txt", "w").write("".join(f"file 'seg/{s['id']}.mp4'\n" for s in TL["scenes"]))
     print("audio…", flush=True); build_audio(); srt()
-    final = f"{OUT}/manchester-city-115-charges-EN.mp4"
+    final = f"{OUT}/brazil-7-1-wasnt-the-bottom-EN.mp4"
     run(["ffmpeg", "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", f"{B}/concat.txt", "-i", f"{B}/mix.wav", "-c:v", "copy",
          "-af", "loudnorm=I=-14:TP=-1.5:LRA=11", "-ar", "48000", "-c:a", "aac", "-b:a", "256k", "-movflags", "+faststart", "-shortest", final])
     print("DONE", final, f"{os.path.getsize(final)/1e6:.0f} MB", probe(final))

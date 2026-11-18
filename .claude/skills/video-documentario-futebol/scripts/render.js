@@ -64,7 +64,7 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;color:#fff;font-fa
 const STUDIO = `<div class="abs studio"><div class="grid"></div><div class="blob b1"></div><div class="blob b2"></div><div class="panel" style="left:5%"></div><div class="panel" style="right:5%"></div><div class="floor"></div><div class="abs vig"></div></div>`;
 let studio = STUDIO;
 const SCRIM = (o) => `<div class="abs" style="background:linear-gradient(to bottom,rgba(0,0,0,${o}),rgba(0,0,0,${o - .1}) 45%,rgba(0,0,0,${o}))"></div>`;
-const hud = s => s.label ? `<div class="abs hud"><div class="tl"><i></i>SPECIAL REPORT</div><div class="tr">THE <b>115</b> FILES</div><div class="ln"></div><div class="bl"><span>${esc(s.label)}</span><span>FOOTBALL LEAKS · CASE FILE</span></div></div>` : '';
+const hud = s => s.label ? `<div class="abs hud"><div class="tl"><i></i>SPECIAL REPORT</div><div class="tr">${TL.brand || "SPECIAL"}</div><div class="ln"></div><div class="bl"><span>${esc(s.label)}</span><span>${TL.tagline || ""}</span></div></div>` : '';
 const trophy = `<svg viewBox="0 0 100 116" width="170"><g fill="#C6FF00"><path d="M26 6h48v32a24 24 0 0 1-48 0z"/><rect x="44" y="60" width="12" height="24"/><rect x="28" y="84" width="44" height="10" rx="2"/><rect x="20" y="96" width="60" height="14" rx="2"/></g><g fill="none" stroke="#C6FF00" stroke-width="7"><path d="M26 14H10v8a18 18 0 0 0 18 18"/><path d="M74 14h16v8a18 18 0 0 1-18 18"/></g></svg>`;
 const person = `<svg viewBox="0 0 100 100" width="150"><circle cx="50" cy="50" r="48" fill="#151515" stroke="#9a9a9a" stroke-width="2"/><circle cx="50" cy="40" r="17" fill="#9a9a9a"/><path d="M18 88a32 28 0 0 1 64 0z" fill="#9a9a9a"/></svg>`;
 const hl = t => esc(t).replace(/\*(.+?)\*/g, '<span class="hl">$1</span>');
@@ -75,7 +75,7 @@ const T = {
     <div style="font:600 82px/1.22 'Inter Display',Inter"><div class="fu" style="${d(.6)}">Football is not for sale.</div><div class="fu" style="${d(2.7)}">Not today, not tomorrow,</div><div class="fu" style="color:var(--amber);${d(4.3)}">and not ever.</div></div>
     <div class="bar gl" style="width:160px;margin:54px 0 26px;${d(5.2)}"></div><div class="sub fi" style="${d(5.4)}">${esc(g.by)}</div></div>`,
   sting: (g, D) => `<div class="abs" style="background:#000000"></div><div class="abs studio fi" style="${d(.9)}"><div class="grid"></div><div class="blob b2"></div><div class="abs vig"></div></div>
-    <div class="abs bebas fi" style="display:flex;align-items:center;justify-content:center;font-size:980px;color:transparent;-webkit-text-stroke:3px rgba(198,255,0,.16);${d(1)}"><span class="push">115</span></div>
+    <div class="abs bebas fi" style="display:flex;align-items:center;justify-content:center;font-size:980px;color:transparent;-webkit-text-stroke:3px rgba(198,255,0,.16);${d(1)}"><span class="push">${TL.stingbg || ""}</span></div>
     <div class="c" style="align-items:center;text-align:center"><div class="bar gl" style="width:1300px;height:6px;animation-duration:.9s;transform-origin:center"></div>
     <div class="bebas trk" style="font-size:270px;margin:34px 0 10px;text-shadow:0 0 60px rgba(198,255,0,.3);${d(.9)}">${esc(g.title)}</div>
     <div class="bar gl" style="width:1300px;height:6px;transform-origin:center;${d(1.2)}"></div><div class="sub fu" style="margin-top:40px;font-size:40px;${d(1.9)}">${esc(g.sub)}</div></div>
@@ -154,8 +154,8 @@ const T = {
     else{css+='@keyframes mz{from{transform:scale(1)}to{transform:translate(-48px,-27px) scale(1.05)}}';mw.style.animation='mz '+D+'s linear both'}
     st.textContent=css;document.head.appendChild(st)})()</script>`,
   end: (g, D) => `${studio}<div class="c" style="flex-direction:row;gap:70px;inset:90px 110px"><div style="flex:1;display:flex;flex-direction:column;justify-content:center">
-    <div class="kick fu" style="${d(.3)}">SPECIAL REPORT</div><div class="bebas fu" style="font-size:190px;margin:8px 0 18px;${d(.4)}">THE <span style="color:var(--amber)">115</span> FILES</div><div class="bar gl" style="width:300px;margin-bottom:40px;${d(.7)}"></div>
-    ${[['NARRATION & MUSIC', 'AI-generated'], ['FOOTAGE', 'News archive footage · Pexels'], ['BASED ON REPORTING BY', 'Football Leaks · EIC · Der Spiegel'], ['GRAPHICS', 'Illustrative recreations']].map((r, i) => `<div class="fu" style="margin:11px 0;${d(1 + i * .25)}"><div class="kick" style="font-size:22px;letter-spacing:6px">${r[0]}</div><div style="font:500 34px Inter;color:#f0f0f0">${r[1]}</div></div>`).join('')}</div>
+    <div class="kick fu" style="${d(.3)}">SPECIAL REPORT</div><div class="bebas fu" style="font-size:190px;margin:8px 0 18px;${d(.4)}">${TL.endtitle || ""}</div><div class="bar gl" style="width:300px;margin-bottom:40px;${d(.7)}"></div>
+    ${[['NARRATION & MUSIC', 'AI-generated'], ['FOOTAGE', 'News archive footage · Pexels'], ['FOOTAGE & SOUNDBITES', TL.sources || ''], ['GRAPHICS', 'Illustrative recreations']].map((r, i) => `<div class="fu" style="margin:11px 0;${d(1 + i * .25)}"><div class="kick" style="font-size:22px;letter-spacing:6px">${r[0]}</div><div style="font:500 34px Inter;color:#f0f0f0">${r[1]}</div></div>`).join('')}</div>
     <div style="width:820px;display:flex;flex-direction:column;justify-content:center;gap:40px">${[0, 1].map(i => `<div class="fu" style="height:330px;border:3px solid rgba(255,255,255,.55);border-radius:18px;background:rgba(14,14,14,.6);display:flex;align-items:center;justify-content:center;${d(1.2 + i * .3)}"><span class="kick" style="color:#a8a8a8">WATCH NEXT</span></div>`).join('')}</div></div>`,
   article: (g, D) => `${STUDIO}<div class="abs" style="display:flex;flex-direction:column;align-items:center;justify-content:center"><div class="push"><div class="fu" style="position:relative;width:1560px;background:#fff;padding:26px 30px 30px;transform:rotate(-1.2deg);box-shadow:0 40px 100px rgba(0,0,0,.7);${d(.15)}">
     <div style="display:flex;justify-content:space-between;font:700 22px 'JetBrains Mono';letter-spacing:3px;color:#555;border-bottom:2px solid #ddd;padding-bottom:14px;margin-bottom:14px"><span>${esc(g.tag)}</span><span>HEADLINE AS PUBLISHED</span></div>
@@ -179,8 +179,8 @@ const T = {
     <div class="wr" style="display:inline-block;background:#fff;color:#0a0a0a;font:700 36px Inter;padding:14px 30px;${d(t0 + .35)}">${esc(g.role)}</div></div>`; },
   chips: (g, D) => { const n = g.items.length, t0 = (g.t0 || .12) * D, st = (D * .86 - t0) / n;
     return `<div class="abs" style="background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.25) 62%,transparent)"></div><div style="position:absolute;left:150px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start">
-    <div class="bebas wr" style="font-size:${fit(g.title, 200, 1200)}px;${d(.4)}">${esc(g.title)}</div><div class="bar gl" style="width:240px;margin:8px 0 34px;${d(.7)}"></div>
-    ${g.items.map((it, i) => `<div class="fu" style="background:rgba(12,12,12,.9);border-left:10px solid var(--amber);font:700 62px Osw;letter-spacing:2px;padding:16px 40px 18px;margin:11px 0;${d(t0 + i * st)}">${esc(it)}</div>`).join('')}</div>`; },
+    <div class="bebas wr" style="font-size:${Math.min(fit(g.title, 200, 1200), n > 4 ? 120 : 200)}px;${d(.4)}">${esc(g.title)}</div><div class="bar gl" style="width:240px;margin:8px 0 34px;${d(.7)}"></div>
+    ${g.items.map((it, i) => `<div class="fu" style="background:rgba(12,12,12,.9);border-left:10px solid var(--amber);font:700 ${n > 4 ? 48 : 62}px Osw;letter-spacing:2px;padding:${n > 4 ? '10px 32px 12px' : '16px 40px 18px'};margin:${n > 4 ? 7 : 11}px 0;${d(t0 + i * st)}">${esc(it)}</div>`).join('')}</div>`; },
 };
 const OVERLAY = new Set(['none', 'stat', 'word', 'lower', 'chips']);
 const FULL = new Set(['quote', 'sting', 'bumper', 'end', 'map', 'article']);

@@ -39,7 +39,7 @@ POOLS = {
  "tenhag": win(SP, 247, 270) + win(SP, 273, 284),
  "amo": win(AR, 0.5, 19) + win(SP, 286, 334) + win(AR, 21, 41) + win(AR, 72, 98) + win(SP, 338, 380) + win(AR, 100, 142),
  # Pochettino
- "poch_now": sh(PA, 11, 12, 13, 10), "poch_pp": win(PP, 20, 1420), "poch_spurs": win(PSP, 1, 46),
+ "poch_now": sh(PA, 11, 12, 13), "poch_pp": win(PP, 20, 1420), "poch_spurs": win(PSP, 1, 46),
  "lfc": sh(LFC, 1, 7, 8, 13, 2) + sh(LFC4, 0),
 }
 POOLS["glory"] = POOLS["fa_trophies"] + POOLS["itv_cantona"] + POOLS["fa_fans"] + POOLS["players13"][:2] + POOLS["fa_90s"] + POOLS["fa_banner"]
@@ -100,7 +100,7 @@ SEQ = [
       P(.45, "poch_spurs+poch_pp", "define", **D_("JAN 2019", "POCHETTINO ON FERGUSON", "“The best manager in the history of football.”"))),
  L("B16", P(1, "moyes", "word", 2.4, text="UNDER 10 MONTHS", sub="FERGUSON'S OWN CHOICE", late=.35)),
  L("B17", P(.5, "moyes", "lower", 2.4, name="DAVID MOYES", role="2013–2014 · “The Chosen One”", late=.1), P(.5, "moyes+statue", "stat", big="APRIL 2014", label="SACKED AFTER LOSING AT EVERTON", late=.15)),
- L("B18", P(1, "fa_ot+otcrowd+fa_fans", "define", **D_("VAN GAAL", "MANCHESTER UNITED · 2014–2016", "The opposite of Ferguson: spreadsheets, patterns, slow football."))),
+ L("B18", P(1, "fa_ot+fa_fans+players13", "define", **D_("VAN GAAL", "MANCHESTER UNITED · 2014–2016", "The opposite of Ferguson: spreadsheets, patterns, slow football."))),
  L("B19", P(1, "fa_fans+otcrowd", "stat", 2.4, big="2 DAYS", label="FROM FA CUP WIN TO SACKING · MAY 2016", late=.3)),
  L("B20", P(.6, "mou", "lower", 2.6, name="JOSÉ MOURINHO", role="2016–2018 · League Cup · Europa League", late=.1), P(.4, "mou", "stat", big="2ND", label="PREMIER LEAGUE · 2017–18", late=.1)),
  C(MG, 338.0, 12.4, "JOSÉ MOURINHO", "Press conference · August 31, 2018", [(0.1, 4.2, "Not small titles, not small countries. *Eight proper titles.*"), (4.3, 12.2, "My second position last season is *one of my greatest achievements* in football.")]),

@@ -198,3 +198,10 @@ Rode os dois comandos longos em segundo plano e acompanhe pelo log. O `.srt` sai
 - `render.js` agora para de capturar quadros quando todas as animações da cena terminam (calcula o fim pelas animações CSS + contadores + digitação) e o `assemble.py` congela o último quadro (`overlay` repete o último quadro; cenas de tela cheia usam `tpad=stop_mode=clone`). Por isso o ponto vermelho do selo não pisca mais (animação infinita impede a otimização).
 - `assemble.py` com `-preset fast`.
 - Prévia: `node render.js --still` leva ~3 s para 69 cenas. Monte a grade com PIL (o `concat` do ffmpeg com JPEGs de formatos diferentes sai preto).
+
+**Direitos (vídeo do Ferguson foi bloqueado pela Premier League)**
+- Tudo o que foi filmado pela transmissão de um jogo da Premier League é da **FA Premier League**, mesmo quando o upload é do Sky Sports Retro ou de outro canal: discurso no gramado, volta olímpica, entrevista pós-jogo com o painel de patrocinadores da PL. A reivindicação veio como "MUN_vs_SWA — visual — bloqueado no mundo todo".
+- Coletivas com fundo da **UEFA** (Champions/Europa League) também são de risco alto. Coletivas no fundo do clube ou da federação são de risco médio.
+- Para uma fala famosa dita no estádio, procure **vídeo de torcedor na arquibancada** (áudio do sistema de som + imagem própria) e use **legenda grande** — a fala continua no vídeo sem o sinal da transmissão. Imagem por cima: fotos/quadros congelados animados.
+- `build.py` aceita fala com áudio de uma fonte e imagens de pools: `C(FAN, ss, d, nome, papel, frases, pools="fg_ph+fan", cut=1.9)`.
+- Faça uma tabela fonte → dono provável → decisão no README antes de montar, e um `assert` no `build.py` proibindo as fontes removidas.

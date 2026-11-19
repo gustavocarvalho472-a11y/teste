@@ -42,3 +42,25 @@ Refazer: `python3 build.py && node render.js && python3 assemble.py` (ou `--reus
 Nenhum vídeo da FIFA. Todo material de arquivo é de terceiros e não licenciado (Sky, ITV e AP são os mais prováveis de reivindicar).
 
 Narration: AI voice (Kokoro, Apache-2.0). Music: AI-generated (reused channel tracks).
+
+## Auditoria de direitos (v2, após a reivindicação da Premier League)
+
+Reivindicação recebida: **"MUN_vs_SWA" — FA Premier League — visual — bloqueio mundial** (0:03–0:19 e 9:58–10:03). As imagens do discurso de despedida do Ferguson são a transmissão oficial do jogo United x Swansea (12/05/2013), mesmo no upload do Sky Sports Retro.
+
+| Fonte | Dono provável | Decisão |
+|---|---|---|
+| fergie_line, fergie_speech | Premier League (sinal do jogo) | **Removidas** (imagem). A fala agora usa o **áudio gravado por um torcedor na arquibancada** (`fergie_fan`, 1:49–2:04) com fotos animadas |
+| fergie_final_game | Premier League (entrevista pós-jogo com painel da PL) | **Removida** |
+| poch_spurs_presser | UEFA (coletiva de Champions League) | **Removida** |
+| same_problems_hayters 0:39–1:00 e 4:33–4:45 | UEFA (coletivas de Champions/Europa League) | **Trechos removidos** |
+| fergie_itv_dressing | ITV | **Removida** (risco alto de Content ID) |
+| fergie_aljazeera: inserts de arquivo (treinos anos 90, taças, Ronaldo) | agências/clube | **Removidos**; ficam só as imagens próprias da Al Jazeera (estátua, fachada, torcida, banner) e quadros congelados delas |
+| lfc_parade_4k | Compass Media (agência de licenciamento) | **Removida** |
+| fergie_first_interview (1986) | provavelmente Granada/ITV | Mantida (única imagem do Ferguson jovem) — **risco médio** |
+| coletivas do United (Mourinho, Rangnick, Ten Hag, Amorim) via Sky/HaytersTV/The Independent | clubes / Sky | Mantidas — risco médio (Sky às vezes reivindica uploads próprios) |
+| moyes_sacked | AP | Mantida — risco baixo/médio |
+| poch_presser_sky | US Soccer / Sky News | Mantida — risco baixo/médio |
+| lfc_parade_hayters | HaytersTV | Mantida — risco médio |
+| fergie_fan | torcedor | Mantida — gravação própria, não é a transmissão |
+
+Fotos: o Wikimedia Commons bloqueou o IP de saída (429), então as "fotos" animadas são quadros congelados das fontes mantidas (`assets/photos/*.jpg`). Quando o Commons liberar, `photos.py` baixa fotos livres em `assets/photos/cand/`.

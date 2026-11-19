@@ -16,33 +16,42 @@ PA, PP, PSP, LFC, LFC4 = "poch_arrival", "poch_presser_sky", "poch_spurs_presser
 CROP = {FA: "crop=iw*0.88:ih*0.86:iw*0.12:0,", MOY: "crop=iw*0.86:ih*0.86:0:ih*0.14,", PA: "crop=iw*0.8:ih*0.8:iw*0.2:ih*0.2,",
         PP: "crop=iw*0.38:ih*0.38:iw*0.285:ih*0.36,", PSP: "crop=iw*0.55:ih*0.55:iw*0.03:ih*0.02,", FI: "crop=ih*4/3:ih:(iw-ih*4/3)/2:0,", RH: "crop=iw*0.8:ih*0.8:iw*0.1:0,"}
 PILLAR = {}
+# Rights-safe pools (v2): NO Premier League match feed (the 2013 farewell broadcast was claimed: MUN_vs_SWA),
+# no PL flash interviews, no UEFA/FIFA press-conference feeds, no ITV archive, no licensing-agency clips.
+FAN = "fergie_fan"   # fan-filmed from the stands on 12 May 2013 (own recording, not the broadcast)
 POOLS = {
- # Ferguson's farewell, 12 May 2013 (Sky Sports Retro, one continuous camera)
- "speech_wide": win(FS, 46, 78) + win(FS, 96, 118) + win(FS, 128, 142),
- "speech_close": win(FS, 236, 268) + win(FS, 168, 190) + win(FS, 150, 158),
- "otcrowd": win(FS, 40.5, 46.5) + win(FS, 86.5, 94) + win(FS, 206, 214) + win(FS, 312, 318),
- "players13": win(FS, 80, 86) + win(FS, 120, 126) + win(FS, 158, 166) + win(FS, 190, 198) + win(FS, 222, 228) + win(FS, 272, 284),
- "fergexit": win(FS, 296, 310) + win(FS, 334, 346),
- "fg_int": win(FG, 8, 30) + win(FG, 126, 140) + win(FG, 278, 290),
- # Al Jazeera, retirement report
- "fa_banner": win(FA, 0.3, 4.4), "fa_statue": win(FA, 13.6, 19.6), "fa_portrait": win(FA, 33.2, 37.2), "fa_ot": win(FA, 44.3, 48.6),
- "fa_90s": win(FA, 64.2, 72.6), "fa_trophies": win(FA, 72.8, 75.2), "fa_fans": win(FA, 79.5, 88.0), "fa_train13": win(FA, 88.3, 92.6),
+ # Ferguson: stills (animated zoom/pan + flash) from Al Jazeera / 1986 interview, plus fan footage from the stands
+ "fg_ph": ph("fg_aj_portrait", "fg_aj_mic", "fg_aj_banner", "fg_aj_statue", "fg_aj_train"),
+ "fg86_ph": ph("fg86_close", "fg86_wide", "fg86_look", "fg86_close2"),
+ "fans_ph": ph("fans_aj_20", "fans_aj_flag", "fan_stand", "ot_aj_facade", "fan_pitch", "crowd86"),
+ "poch_ph": ph("poch_pp_a", "poch_pp_c", "poch_car", "poch_pp_b"),
+ "fan": win(FAN, 6, 58) + win(FAN, 100, 124),
+ "speech_wide": win(FAN, 6, 30) + ph("fg_aj_mic") + win(FAN, 100, 108) + ph("fg_aj_portrait") + win(FAN, 30, 58),
+ "speech_close": ph("fg_aj_portrait", "fg_aj_mic", "fg_aj_banner"),
+ "otcrowd": win(FA, 79.5, 88.0) + win(FAN, 110, 124) + ph("fans_aj_flag") + win(FI, 59.6, 71.5) + ph("fans_aj_20"),
+ "players13": ph("fg_aj_train") + win(FA, 88.3, 92.6) + ph("fan_stand"),
+ "fergexit": ph("fg_aj_statue", "fg_aj_banner") + win(FA, 13.6, 19.6),
+ "fg_int": ph("fg_aj_portrait", "fg_aj_mic"),
+ # Al Jazeera's own exteriors only (archive inserts removed)
+ "fa_banner": ph("fg_aj_banner"), "fa_statue": win(FA, 13.6, 19.6) + ph("fg_aj_statue"), "fa_portrait": ph("fg_aj_portrait"), "fa_ot": win(FA, 44.3, 48.6) + ph("ot_aj_facade"),
+ "fa_90s": ph("fg_aj_banner", "fg_aj_portrait"), "fa_trophies": ph("fg_aj_banner", "fans_aj_flag"), "fa_fans": win(FA, 79.5, 88.0) + ph("fans_aj_20"), "fa_train13": win(FA, 88.3, 92.6),
  # 1986: Ferguson's first interview at Old Trafford, and the crowd
- "fi86": win(FI, 2, 58) + win(FI, 72, 114), "fi86crowd": win(FI, 59.6, 71.5),
- # ITV archive, 1990s
- "itv_ferg": sh(ITV, 16, 26, 19, 29, 23, 30, 35, 38, 40, 14, 20, 7),
- "itv_young": sh(ITV, 43, 44, 45, 25, 57, 11, 12), "itv_cantona": sh(ITV, 63, 66, 68), "itv_ole": sh(ITV, 17),
- # managers since
+ "fi86": win(FI, 2, 58) + ph("fg86_close") + win(FI, 72, 114) + ph("fg86_look"), "fi86crowd": win(FI, 59.6, 71.5) + ph("crowd86"),
+ # (ITV archive removed) -> 1986 interview stills and footage
+ "itv_ferg": ph("fg86_close", "fg86_look", "fg86_close2", "fg86_wide") + win(FI, 72, 114),
+ "itv_young": win(FI, 59.6, 71.5) + ph("crowd86", "fan_stand"), "itv_cantona": ph("fg_aj_banner", "fans_aj_flag"), "itv_ole": ph("fans_aj_20", "fan_stand"),
+ # managers since (club / federation press conferences, AP)
  "moyes": sh(MOY, 6, 1, 2, 0, 9, 4, 8), "statue": sh(MOY, 5),
- "mou": win(MG, 10, 60) + win(SP, 0.5, 20) + win(SP, 39.5, 60) + win(SP, 65, 117) + win(MG, 120, 160),
+ "mou": win(MG, 10, 60) + win(SP, 0.5, 20) + win(SP, 65, 117) + win(MG, 120, 160),
  "ran": sh(RH, 1, 2, 3) + win(SP, 124, 195) + win(SP, 202, 241),
- "tenhag": win(SP, 247, 270) + win(SP, 273, 284),
+ "tenhag": win(SP, 247, 270),
  "amo": win(AR, 0.5, 19) + win(SP, 286, 334) + win(AR, 21, 41) + win(AR, 72, 98) + win(SP, 338, 380) + win(AR, 100, 142),
- # Pochettino
- "poch_now": sh(PA, 11, 12, 13), "poch_pp": win(PP, 20, 1420), "poch_spurs": win(PSP, 1, 46),
- "lfc": sh(LFC, 1, 7, 8, 13, 2) + sh(LFC4, 0),
+ # Pochettino: USMNT farewell press conference (video + stills), arrival at Carrington (UEFA press conference removed)
+ "poch_now": sh(PA, 11, 12, 13) + ph("poch_car"), "poch_pp": win(PP, 20, 1420),
+ "poch_spurs": ph("poch_pp_c") + win(PP, 200, 260) + ph("poch_pp_a") + win(PP, 700, 760) + ph("poch_pp_b") + win(PP, 1100, 1160),
+ "lfc": sh(LFC, 1, 7, 8, 13, 2),
 }
-POOLS["glory"] = POOLS["fa_trophies"] + POOLS["itv_cantona"] + POOLS["fa_fans"] + POOLS["players13"][:2] + POOLS["fa_90s"] + POOLS["fa_banner"]
+POOLS["glory"] = ph("fg_aj_banner") + win(FA, 79.5, 88.0) + ph("fans_aj_flag", "fg_aj_portrait") + win(FAN, 110, 124) + ph("fg_aj_statue")
 
 _items = {}; _cur = {}
 def pool_items(name):
@@ -77,9 +86,9 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  M(3.2, "glory", 0.55),
- C(FL, 4.6, 15.6, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.3, 5.0, "When we had bad times here, the club stood by me."), (6.2, 9.9, "All my staff stood by me. The players stood by me."), (10.2, 15.4, "Your job now is to *stand by our new manager.*")]),
+ C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fan", cut=1.9),
  L("B00", P(1, "speech_wide+otcrowd+fergexit", "lower", 1.3, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.25)),
- L("B01", P(.55, "moyes+fa_ot+mou+itv_ole+tenhag+amo+otcrowd", "chips", 0.9, title="7 SACKINGS", items=["2014 · Moyes", "2016 · Van Gaal", "2018 · Mourinho", "2021 · Solskjær", "2024 · Ten Hag", "2026 · Amorim", "2026 · Carrick"], t0=.08),
+ L("B01", P(.55, "moyes+fa_ot+mou+otcrowd+tenhag+amo+fan", "chips", 0.9, title="7 SACKINGS", items=["2014 · Moyes", "2016 · Van Gaal", "2018 · Mourinho", "2021 · Solskjær", "2024 · Ten Hag", "2026 · Amorim", "2026 · Carrick"], t0=.08),
       P(.45, "poch_pp+fi86", "lower", 1.2, name="MAURICIO POCHETTINO", role="Manager No. 8 since Ferguson", late=.15)),
  L("B02", P(1, "fi86+poch_spurs+itv_young+poch_now", "chips", 1.2, title="SAME START", items=["A club sinking down the table", "Kids nobody had heard of", "Years without a trophy"], t0=.12)),
  L("B03", P(.5, "fi86+fg_int", "word", 1.3, text="UNITED WAITED", sub="FOR FERGUSON", late=.12), P(.5, "poch_now+lfc", "stat", 1.3, big="ANFIELD", label="SATURDAY, NOVEMBER 22 · POCHETTINO'S FIRST GAME", late=.08)),
@@ -104,7 +113,7 @@ SEQ = [
  L("B19", P(1, "fa_fans+otcrowd", "stat", 2.4, big="2 DAYS", label="FROM FA CUP WIN TO SACKING · MAY 2016", late=.3)),
  L("B20", P(.6, "mou", "lower", 2.6, name="JOSÉ MOURINHO", role="2016–2018 · League Cup · Europa League", late=.1), P(.4, "mou", "stat", big="2ND", label="PREMIER LEAGUE · 2017–18", late=.1)),
  C(MG, 338.0, 12.4, "JOSÉ MOURINHO", "Press conference · August 31, 2018", [(0.1, 4.2, "Not small titles, not small countries. *Eight proper titles.*"), (4.3, 12.2, "My second position last season is *one of my greatest achievements* in football.")]),
- L("B21", P(.45, "mou", "stat", 2.4, big="DEC 2018", label="MOURINHO SACKED", late=.05), P(.55, "itv_ole+speech_close", "lower", 2.6, name="OLE GUNNAR SOLSKJÆR", role="A Ferguson player · manager 2018–2021", late=.05)),
+ L("B21", P(.45, "mou", "stat", 2.4, big="DEC 2018", label="MOURINHO SACKED", late=.05), P(.55, "fans_ph+otcrowd", "stat", 2.6, big="SOLSKJÆR", label="A FERGUSON PLAYER · MANAGER 2018–2021", late=.05)),
  L("B22", P(1, "otcrowd+fa_fans", "stat", 2.6, big="4–1", label="WATFORD v MAN UNITED · NOV 2021 · SOLSKJÆR'S LAST GAME", late=.25)),
  L("B23", P(1, "ran", "lower", 2.6, name="RALF RANGNICK", role="Interim manager · 2021–2022", late=.3)),
  C(RH, 37.0, 8.9, "RALF RANGNICK", "April 2022", [(0.1, 3.9, "In medicine you would see this is *an operation at the open heart.*"), (4.0, 8.7, "This is also something that *not only one single person as a manager* can do.")]),
@@ -128,7 +137,7 @@ SEQ = [
  L("B40", P(1, "speech_wide+fergexit", "none", 2.6), music="finale"),
  L("B41", P(1, "otcrowd+fa_fans", "word", 2.0, text="THE CLUB NEVER DID.", late=.5)),
  L("B42", P(.4, "lfc+poch_now", "lower", 2.6, name="SATURDAY · ANFIELD", role="Manager No. 8 · his first game", late=.1), P(.6, "fergexit+fa_statue+speech_close", "none", 2.6)),
- C(FL, 14.7, 5.6, "", "", [(0.2, 5.4, "Your job now is to *stand by our new manager.*")]),
+ C(FAN, 119.8, 4.8, "", "", [(0.3, 4.6, "Your job now is to *stand by our new manager.*")], pools="fg_ph", cut=2.4),
 ]
 TEXT = {i: t for i, t in (l.strip().split("|", 1) for l in open(f"{ROOT}/lines.txt") if "|" in l)}
 
@@ -143,7 +152,11 @@ def main():
     for it in SEQ:
         if it.get("sting"):
             add(4.6, "sting", gfx={"type": "sting", "title": "THE GHOST OF 2013", "sub": "FERGUSON TOLD THEM TO STAND BY THE MANAGER"}); continue
-        if it.get("clip"): clip(R(it["src"]), it["ss"], it["d"], it["gfx"], it["crop"], **it["extra"]); continue
+        if it.get("clip"):
+            if it["extra"].get("pools"):  # soundbite audio from one source, pictures from pools (photos/other footage)
+                ex = dict(it["extra"]); pools = ex.pop("pools"); cut = ex.pop("cut", 1.6)
+                add(it["d"], f"c{n:02d}", gfx=it["gfx"], pools=pools, cut=cut, nat={"src": R(it["src"]), "ss": it["ss"]}, **ex); n += 1; continue
+            clip(R(it["src"]), it["ss"], it["d"], it["gfx"], it["crop"], **it["extra"]); continue
         if it.get("montage"):
             add(it["d"], f"m{n:02d}", gfx={"type": "none"}, pools=it["pools"], cut=it["cut"]); n += 1; continue
         if it.get("music"): music.append({"track": it["music"], "start": t})
@@ -162,7 +175,7 @@ def main():
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
     json.dump({"fps": FPS, "total": total, "scenes": scenes, "vo": vo, "music": music,
                "brand": "MAN UNITED · <b>THE GHOST</b>", "tagline": "THE GHOST OF 2013", "stingbg": "2013",
-               "endtitle": "THE GHOST <span style=\"color:var(--amber)\">OF 2013</span>", "sources": "Sky Sports · Al Jazeera · AP · ITV · The Independent · HaytersTV"},
+               "endtitle": "THE GHOST <span style=\"color:var(--amber)\">OF 2013</span>", "sources": "Al Jazeera · AP · Sky Sports · The Independent · HaytersTV · fan footage"},
               open(f"{ROOT}/build/timeline.json", "w"), indent=1, ensure_ascii=False)
     tk = [x for s in scenes for x in s.get("takes", [])]
     print(f"{len(scenes)} scenes, {total/60:.2f} min, {len(tk)} takes, avg {sum(x['frames'] for x in tk)/25/len(tk):.2f}s, slow>1.3: {sum(1 for x in tk if x['slow'] > 1.3)}")

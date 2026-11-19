@@ -28,8 +28,12 @@ POOLS = {
  # clean windows only (no channel intro, no flags or heads in front of the lens)
  "fan": win(FAN, 12.5, 24.5) + win(FAN, 37.5, 59.5) + win(FAN, 66.5, 94.0) + win(FAN, 104, 124),
  "speech_wide": win(FAN, 12.5, 24.5) + ph("fg_aj_mic") + win(FAN, 104, 116) + ph("fg_aj_portrait") + win(FAN, 66.5, 94.0),
- "fg_end": ph("fg_aj_portrait", "fg_aj_statue"),
+ "fg_end": ph("sp_close4", "fg_aj_statue"),
  "fg_talk": win("fergie_aj_talk", 1.2, 4.6),
+ # screenshots of the farewell speech (user's choice), shown only as short animated stills inside the frame
+ "sp_ph": ph("sp_mic_wide", "sp_close3", "sp_tifo", "sp_mic3", "sp_smile", "sp_close2", "sp_fans", "sp_close4", "sp_players", "sp_dream", "sp_close1"),
+ "sp_day": ph("sp_giggs", "sp_squad", "sp_walkout", "sp_tunnel", "sp_tifo", "sp_fans", "sp_mic2", "sp_clap"),
+ "sp_end": ph("sp_walkout", "sp_mic2", "sp_clap", "sp_tunnel", "sp_close1"),
  "fans_aj": ph("fans_aj_20", "ot_aj_facade", "fans_aj_flag") + win(FA, 79.5, 88.0),   # Ferguson speaking at a microphone (Al Jazeera, cropped above the caption bar)
  "speech_close": ph("fg_aj_portrait", "fg_aj_mic", "fg_aj_banner"),
  "otcrowd": win(FA, 79.5, 88.0) + win(FAN, 110, 124) + ph("fans_aj_flag") + win(FI, 59.6, 71.5) + ph("fans_aj_20"),
@@ -90,8 +94,8 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  M(3.2, "glory", 0.55),
- C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fans_aj+fg_ph+fans_aj+fg_ph+fan", cut=1.9),
- L("B00", P(1, "fg_ph+fans_aj+fergexit+fans_aj", "lower", 1.4, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.3, lead=("fg_talk", 3.0))),
+ C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="sp_ph", cut=1.4),
+ L("B00", P(1, "sp_day", "lower", 1.4, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.3, lead=("fg_talk", 3.0))),
  L("B01", P(.55, "moyes+fa_ot+mou+otcrowd+tenhag+amo+fan", "chips", 0.9, title="7 SACKINGS", items=["2014 · Moyes", "2016 · Van Gaal", "2018 · Mourinho", "2021 · Solskjær", "2024 · Ten Hag", "2026 · Amorim", "2026 · Carrick"], t0=.08),
       P(.45, "poch_pp+fi86", "lower", 1.2, name="MAURICIO POCHETTINO", role="Manager No. 8 since Ferguson", late=.15)),
  L("B02", P(1, "fi86+poch_spurs+itv_young+poch_now", "chips", 1.2, title="SAME START", items=["A club sinking down the table", "Kids nobody had heard of", "Years without a trophy"], t0=.12)),
@@ -138,7 +142,7 @@ SEQ = [
  L("B37", P(.5, "fi86+itv_ferg", "stat", 2.4, big="3½ YEARS", label="FERGUSON BEFORE HIS FIRST TROPHY", late=.05), P(.5, "poch_pp", "stat", big="3 MONTHS?", label="POCHETTINO", late=.05)),
  L("B38", P(1, "ran", "define", **D_("OPEN HEART", "RALF RANGNICK · APRIL 2022", "“Not something one single person as a manager can do.”"))),
  L("B39", P(1, "poch_now+poch_pp", "word", 2.2, text="YES OR NO?", sub="DOES POCHETTINO LAST THE SEASON? · COMMENT BELOW", late=.15)),
- L("B40", P(1, "speech_wide+fergexit", "none", 2.6), music="finale"),
+ L("B40", P(1, "sp_end", "none", 2.2), music="finale"),
  L("B41", P(1, "otcrowd+fa_fans", "word", 2.0, text="THE CLUB NEVER DID.", late=.5)),
  L("B42", P(.4, "lfc+poch_now", "lower", 2.6, name="SATURDAY · ANFIELD", role="Manager No. 8 · his first game", late=.1), P(.6, "fergexit+fa_statue+speech_close", "none", 2.6)),
  C(FAN, 119.8, 4.8, "", "", [(0.3, 4.6, "Your job now is to *stand by our new manager.*")], pools="fg_end", cut=2.4),

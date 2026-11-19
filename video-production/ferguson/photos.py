@@ -37,6 +37,7 @@ for key, q in Q.items():
         if ii["width"] < 900 or ii.get("size", 0) > 25e6: continue
         items.append({"title": pg["title"], "url": ii["url"].split("?")[0], "w": ii["width"], "h": ii["height"], "page": ii.get("descriptionurl"),
                       "artist": em.get("Artist", {}).get("value", ""), "license": em.get("LicenseShortName", {}).get("value", ""), "date": em.get("DateTimeOriginal", {}).get("value", "")})
+    meta[key] = items[:10]; json.dump(meta, open(f"{OUT}/meta.json", "w"), indent=1, ensure_ascii=False)
     for i, it in enumerate(items[:10]):
         fn = f"{OUT}/{key}_{i:02d}.jpg"
         if not os.path.exists(fn):

@@ -64,3 +64,5 @@ Reivindicação recebida: **"MUN_vs_SWA" — FA Premier League — visual — bl
 | fergie_fan | torcedor | Mantida — gravação própria, não é a transmissão |
 
 Fotos: o Wikimedia Commons bloqueou o IP de saída (429), então as "fotos" animadas são quadros congelados das fontes mantidas (`assets/photos/*.jpg`). Quando o Commons liberar, `photos.py` baixa fotos livres em `assets/photos/cand/`.
+
+**v5 (escolha do usuário):** os trechos do discurso usam **prints** da transmissão de 12/05/2013 (`assets/photos/sp_*.jpg`) como fotos animadas de ~1,4 s, dentro da moldura, com o áudio do torcedor. Risco: o Content ID também compara imagem; conferir subindo como não listado.

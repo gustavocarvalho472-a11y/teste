@@ -29,6 +29,8 @@ POOLS = {
  "fan": win(FAN, 12.5, 24.5) + win(FAN, 37.5, 59.5) + win(FAN, 66.5, 94.0) + win(FAN, 104, 124),
  "speech_wide": win(FAN, 12.5, 24.5) + ph("fg_aj_mic") + win(FAN, 104, 116) + ph("fg_aj_portrait") + win(FAN, 66.5, 94.0),
  "fg_end": ph("fg_aj_portrait", "fg_aj_statue"),
+ "fg_talk": win("fergie_aj_talk", 1.2, 4.6),
+ "fans_aj": ph("fans_aj_20", "ot_aj_facade", "fans_aj_flag") + win(FA, 79.5, 88.0),   # Ferguson speaking at a microphone (Al Jazeera, cropped above the caption bar)
  "speech_close": ph("fg_aj_portrait", "fg_aj_mic", "fg_aj_banner"),
  "otcrowd": win(FA, 79.5, 88.0) + win(FAN, 110, 124) + ph("fans_aj_flag") + win(FI, 59.6, 71.5) + ph("fans_aj_20"),
  "players13": ph("fg_aj_train") + win(FA, 88.3, 92.6) + ph("fan_stand"),
@@ -53,7 +55,7 @@ POOLS = {
  "poch_spurs": ph("poch_pp_c") + win(PP, 200, 260) + ph("poch_pp_a") + win(PP, 700, 760) + ph("poch_pp_b") + win(PP, 1100, 1160),
  "lfc": sh(LFC, 1, 7, 8, 13, 2),
 }
-POOLS["glory"] = ph("fg_aj_banner") + win(FA, 79.5, 88.0) + ph("fans_aj_flag", "fg_aj_portrait") + win(FAN, 110, 124) + ph("fg_aj_statue")
+POOLS["glory"] = ph("fg_aj_banner") + win(FA, 79.5, 88.0) + ph("fans_aj_flag", "fg_aj_portrait", "fans_aj_20", "fg_aj_statue")
 
 _items = {}; _cur = {}
 def pool_items(name):
@@ -88,8 +90,8 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  M(3.2, "glory", 0.55),
- C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fan+fg_ph", cut=1.9),
- L("B00", P(1, "speech_wide+fans_ph+fergexit", "lower", 1.3, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.25)),
+ C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fans_aj+fg_ph+fans_aj+fg_ph+fan", cut=1.9),
+ L("B00", P(1, "fg_ph+fans_aj+fergexit+fans_aj", "lower", 1.4, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.3, lead=("fg_talk", 3.0))),
  L("B01", P(.55, "moyes+fa_ot+mou+otcrowd+tenhag+amo+fan", "chips", 0.9, title="7 SACKINGS", items=["2014 · Moyes", "2016 · Van Gaal", "2018 · Mourinho", "2021 · Solskjær", "2024 · Ten Hag", "2026 · Amorim", "2026 · Carrick"], t0=.08),
       P(.45, "poch_pp+fi86", "lower", 1.2, name="MAURICIO POCHETTINO", role="Manager No. 8 since Ferguson", late=.15)),
  L("B02", P(1, "fi86+poch_spurs+itv_young+poch_now", "chips", 1.2, title="SAME START", items=["A club sinking down the table", "Kids nobody had heard of", "Years without a trophy"], t0=.12)),
@@ -172,7 +174,11 @@ def main():
     scenes[-1]["nf"] = round(scenes[-1]["dur"] * FPS)
     for s in scenes:
         s["start"] = s["f0"] / FPS; s["dur"] = s["nf"] / FPS
-        if s.get("pools"): s["takes"] = allocate(s["pools"], s["nf"], s.get("cut", 4.0))
+        lead = s["gfx"].pop("lead", None)
+        if s.get("pools"):
+            if lead:
+                lf = round(lead[1] * FPS); s["takes"] = allocate(lead[0], lf, lead[1]) + allocate(s["pools"], s["nf"] - lf, s.get("cut", 4.0))
+            else: s["takes"] = allocate(s["pools"], s["nf"], s.get("cut", 4.0))
         s["framed"] = "takes" in s and s["gfx"]["type"] in ("none", "stat", "word", "lower", "chips", "caps")
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
     json.dump({"fps": FPS, "total": total, "scenes": scenes, "vo": vo, "music": music,

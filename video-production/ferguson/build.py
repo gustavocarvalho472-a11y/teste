@@ -25,8 +25,10 @@ POOLS = {
  "fg86_ph": ph("fg86_close", "fg86_wide", "fg86_look", "fg86_close2"),
  "fans_ph": ph("fans_aj_20", "fans_aj_flag", "fan_stand", "ot_aj_facade", "fan_pitch", "crowd86"),
  "poch_ph": ph("poch_pp_a", "poch_pp_c", "poch_car", "poch_pp_b"),
- "fan": win(FAN, 6, 58) + win(FAN, 100, 124),
- "speech_wide": win(FAN, 6, 30) + ph("fg_aj_mic") + win(FAN, 100, 108) + ph("fg_aj_portrait") + win(FAN, 30, 58),
+ # clean windows only (no channel intro, no flags or heads in front of the lens)
+ "fan": win(FAN, 12.5, 24.5) + win(FAN, 37.5, 59.5) + win(FAN, 66.5, 94.0) + win(FAN, 104, 124),
+ "speech_wide": win(FAN, 12.5, 24.5) + ph("fg_aj_mic") + win(FAN, 104, 116) + ph("fg_aj_portrait") + win(FAN, 66.5, 94.0),
+ "fg_end": ph("fg_aj_portrait", "fg_aj_statue"),
  "speech_close": ph("fg_aj_portrait", "fg_aj_mic", "fg_aj_banner"),
  "otcrowd": win(FA, 79.5, 88.0) + win(FAN, 110, 124) + ph("fans_aj_flag") + win(FI, 59.6, 71.5) + ph("fans_aj_20"),
  "players13": ph("fg_aj_train") + win(FA, 88.3, 92.6) + ph("fan_stand"),
@@ -86,8 +88,8 @@ def M(d, pools, cut): return {"montage": True, "d": d, "pools": pools, "cut": cu
 D_ = lambda term, full, body: dict(term=term, full=full, body=body, small=True)
 SEQ = [
  M(3.2, "glory", 0.55),
- C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fan", cut=1.9),
- L("B00", P(1, "speech_wide+otcrowd+fergexit", "lower", 1.3, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.25)),
+ C(FAN, 109.6, 14.8, "SIR ALEX FERGUSON", "Old Trafford · May 12, 2013", [(0.4, 4.3, "When we had bad times here, the club stood by me."), (6.4, 10.3, "All my staff stood by me. The players stood by me."), (10.4, 14.5, "Your job now is to *stand by our new manager.*")], pools="fg_ph+fan+fg_ph", cut=1.9),
+ L("B00", P(1, "speech_wide+fans_ph+fergexit", "lower", 1.3, name="MAY 12, 2013", role="Ferguson's last game at Old Trafford", late=.25)),
  L("B01", P(.55, "moyes+fa_ot+mou+otcrowd+tenhag+amo+fan", "chips", 0.9, title="7 SACKINGS", items=["2014 · Moyes", "2016 · Van Gaal", "2018 · Mourinho", "2021 · Solskjær", "2024 · Ten Hag", "2026 · Amorim", "2026 · Carrick"], t0=.08),
       P(.45, "poch_pp+fi86", "lower", 1.2, name="MAURICIO POCHETTINO", role="Manager No. 8 since Ferguson", late=.15)),
  L("B02", P(1, "fi86+poch_spurs+itv_young+poch_now", "chips", 1.2, title="SAME START", items=["A club sinking down the table", "Kids nobody had heard of", "Years without a trophy"], t0=.12)),
@@ -137,7 +139,7 @@ SEQ = [
  L("B40", P(1, "speech_wide+fergexit", "none", 2.6), music="finale"),
  L("B41", P(1, "otcrowd+fa_fans", "word", 2.0, text="THE CLUB NEVER DID.", late=.5)),
  L("B42", P(.4, "lfc+poch_now", "lower", 2.6, name="SATURDAY · ANFIELD", role="Manager No. 8 · his first game", late=.1), P(.6, "fergexit+fa_statue+speech_close", "none", 2.6)),
- C(FAN, 119.8, 4.8, "", "", [(0.3, 4.6, "Your job now is to *stand by our new manager.*")], pools="fg_ph", cut=2.4),
+ C(FAN, 119.8, 4.8, "", "", [(0.3, 4.6, "Your job now is to *stand by our new manager.*")], pools="fg_end", cut=2.4),
 ]
 TEXT = {i: t for i, t in (l.strip().split("|", 1) for l in open(f"{ROOT}/lines.txt") if "|" in l)}
 

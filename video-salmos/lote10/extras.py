@@ -87,10 +87,18 @@ def clip(tag_ou_id):
 # A: Inter Black, linhas alternando branco e amarelo
 cid, t = M["thumb_a_fundo"]
 img = base(frame(clip(cid), t), M.get("thumb_a_brilho", 0.82)).convert("RGBA")
-y = M.get("thumb_a_y", 90); d = ImageDraw.Draw(img)
-for txt, size, cor in M["thumb_a"]:
-    f = inter(size); sombra(img, (640, y), txt, f, AMAR if cor == "a" else BRANCO)
-    y += d.textbbox((0, 0), txt, font=f)[3] + M.get("thumb_a_gap", 24)
+d = ImageDraw.Draw(img)
+linhas_a = [(txt, inter(size), cor) for txt, size, cor in M["thumb_a"]]
+# ritmo pela altura das maiúsculas: cada linha é posicionada pela linha de base ("ms"),
+# então acentos e cedilhas não empurram as linhas
+caps = [-d.textbbox((0, 0), "H", font=f, anchor="ls")[1] for _, f, _ in linhas_a]
+GAP = M.get("thumb_a_gap", 34)
+total = sum(caps) + GAP * (len(caps) - 1)
+cur = (720 - total) / 2
+for (txt, f, cor), ch in zip(linhas_a, caps):
+    y_base = cur + ch
+    sombra(img, (640, y_base), txt, f, AMAR if cor == "a" else BRANCO, anchor="ms")
+    cur = y_base + GAP
 img.convert("RGB").save(f"{OUT}/thumb_A_{V}.jpg", quality=92)
 
 # B: editorial (serifa grande com palavra em itálico amarelo, grade fina, micro texto espaçado)

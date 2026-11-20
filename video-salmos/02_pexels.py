@@ -29,7 +29,8 @@ QUERIES = {
  "alpes": "alps mountains aerial sunrise", "picos_neve": "snowy mountain peaks clouds", "dolomitas": "dolomites mountains",
  "prado": "green meadow wildflowers mountains", "colinas": "rolling green hills aerial",
  "nuvens": "white clouds blue sky timelapse", "alpes_verde": "green mountain peaks summer drone",
- "trigo": "golden wheat field wind", "arvore": "lone tree on green hill", "por_do_sol": "sunset over mountains lake", "aguia_voo": "eagle soaring sky", "rocha": "rocky cliff sea waves",
+ "trigo": "golden wheat field wind", "canion": "canyon aerial sunrise", "rochedo": "red rock formations sunrise",
+ "riacho": "gentle forest stream", "lago_nevoa": "misty lake morning", "acima_nuvens": "flying above clouds sunrise", "arvore": "lone tree on green hill", "por_do_sol": "sunset over mountains lake", "aguia_voo": "eagle soaring sky", "rocha": "rocky cliff sea waves",
  "cordilheira": "mountain range golden hour", "estrelas_montanha": "milky way over mountains", "lago_alpino": "alpine lake mountains drone",
 }
 # tags parecidas para quando o pool de uma tag se esgota dentro da janela de 10 min
@@ -45,7 +46,8 @@ RELACIONADAS = {
  "alpes": ["picos_neve", "cordilheira", "montanha"], "picos_neve": ["alpes", "dolomitas"], "dolomitas": ["alpes", "picos_neve"],
  "prado": ["colinas", "campo_flores"], "colinas": ["prado", "paisagem_aerea"], "nuvens": ["luz_divina", "colinas"],
  "aguia_voo": ["nuvens", "cordilheira"], "alpes_verde": ["prado", "lago_alpino", "alpes"],
- "trigo": ["campo_flores", "prado"], "arvore": ["colinas", "prado"], "por_do_sol": ["lago_montanha", "nascer_sol"], "rocha": ["mar_calmo", "cachoeira"],
+ "trigo": ["campo_flores", "prado"], "canion": ["rochedo", "cordilheira"], "rochedo": ["canion", "nascer_sol"],
+ "riacho": ["floresta", "rio"], "lago_nevoa": ["lago_montanha", "vale_nevoa"], "acima_nuvens": ["nuvens", "paisagem_aerea"], "arvore": ["colinas", "prado"], "por_do_sol": ["lago_montanha", "nascer_sol"], "rocha": ["mar_calmo", "cachoeira"],
  "cordilheira": ["alpes", "paisagem_aerea"], "estrelas_montanha": ["ceu_noturno", "lua"], "lago_alpino": ["lago_montanha", "alpes"],
 }
 BANIDAS = r"\b(woman|women|man|men|girl|boy|people|person|face|portrait|city|street|traffic|text|logo|neon|crowd|couple|child|children|kid|selfie|car|cars|building|urban|party|dance|dancing|family|friends|bride|wedding|model|tourist|hike|hiker|hikers|hiking|walking|walk|runner|silhouette-of-a|traveler|climber|backpacker|fisherman|surfer|boat|kayak|drone-shot-of-a-city|timelapse-of-a-city)\b"
@@ -60,7 +62,8 @@ POOL_NATUREZA = {"ceu_noturno", "lua", "luz_divina", "nascer_sol", "montanha", "
                  "paisagem_aerea", "lago_montanha", "cachoeira", "campo_flores", "vale_nevoa",
                  "alpes", "picos_neve", "dolomitas", "cordilheira", "estrelas_montanha", "lago_alpino",
                  "prado", "colinas", "nuvens", "aguia_voo", "rocha",
-                 "alpes_verde", "trigo", "arvore", "por_do_sol"}
+                 "alpes_verde", "trigo", "arvore", "por_do_sol",
+                 "canion", "rochedo", "riacho", "lago_nevoa", "acima_nuvens"}
 def alvo(tag): return 35 if tag in POOL_NATUREZA else POOL_MAX
 os.makedirs("clips/thumbs", exist_ok=True); os.makedirs("out", exist_ok=True)
 

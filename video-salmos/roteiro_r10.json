@@ -1,0 +1,326 @@
+[
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Quando o tanque está vazio",
+  "frase": "Você já sentiu que não tem mais nada para dar, que a bateria acabou, que o tanque está vazio, e que você está funcionando no modo automático só para chegar ao fim do dia?",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Quando o tanque está vazio",
+  "frase": "Se sim, esta oração é para você, para quem está sem forças, mas ainda não desistiu.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Quando o tanque está vazio",
+  "frase": "Deus tem uma promessa de renovo para a sua vida hoje.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Asas como águias",
+  "frase": "Ouça a Palavra do Senhor no livro de Isaías, capítulo quarenta, versículos vinte e nove a trinta e um.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Asas como águias",
+  "frase": "Ele dá forças ao cansado, e multiplica o vigor de quem não tem nenhuma força.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": true,
+  "referencia": "Isaías 40:29",
+  "destaque": "Ele dá forças ao *cansado*.",
+  "rodape": "E MULTIPLICA O VIGOR"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Asas como águias",
+  "frase": "Até os jovens se cansam e ficam exaustos, e os mais fortes tropeçam e caem; mas os que esperam no Senhor renovam as suas forças, sobem com asas como águias, correm e não se cansam, caminham e não desfalecem.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": true,
+  "referencia": "Isaías 40:30-31",
+  "destaque": "Asas como *águias*.",
+  "rodape": "OS QUE ESPERAM NO SENHOR"
+ },
+ {
+  "bloco": "fraqueza",
+  "titulo_bloco": "O ponto de partida do milagre",
+  "frase": "Repara numa coisa nesse texto: Deus não promete força só para quem já é forte; Ele diz que dá forças ao cansado, e que multiplica o vigor de quem não tem nenhum.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "fraqueza",
+  "titulo_bloco": "O ponto de partida do milagre",
+  "frase": "Ou seja, o ponto de partida do milagre é justamente o seu cansaço; a sua fraqueza não te desqualifica, ela é o lugar onde o poder de Deus se manifesta.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "A sua fraqueza não te *desqualifica*.",
+  "rodape": "O PODER DE DEUS"
+ },
+ {
+  "bloco": "fraqueza",
+  "titulo_bloco": "O ponto de partida do milagre",
+  "frase": "E o profeta diz que até os jovens se cansam e até os mais fortes caem; isso quer dizer que não existe ser humano que aguente tudo sozinho, e que ninguém foi feito para viver só das próprias forças.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "fraqueza",
+  "titulo_bloco": "O ponto de partida do milagre",
+  "frase": "A diferença não está em quem é mais forte, está em quem espera no Senhor.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "fraqueza",
+  "titulo_bloco": "O ponto de partida do milagre",
+  "frase": "Elias, depois de uma batalha enorme, deitou exausto debaixo de uma árvore e pediu para desistir; e Deus não brigou com ele, Deus mandou pão, mandou água e deixou que ele dormisse, antes de mostrar o próximo passo.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "esperar",
+  "titulo_bloco": "Esperar é se conectar à fonte",
+  "frase": "Esperar no Senhor não é ficar parado; é depender Dele, é reconhecer que a sua força vem Dele, é se conectar à fonte; e quem faz isso renova as forças.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "esperar",
+  "titulo_bloco": "Esperar é se conectar à fonte",
+  "frase": "E a imagem que Deus usa é linda: asas como águias; sabe o que a águia faz quando vem a tempestade? Ela não luta contra o vento, ela abre as asas e usa o próprio vento para subir mais alto.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "esperar",
+  "titulo_bloco": "Esperar é se conectar à fonte",
+  "frase": "Deus quer te ensinar a voar acima da tempestade, e não a ser derrubado por ela.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Voar *acima* da tempestade.",
+  "rodape": "O VENTO QUE LEVANTA"
+ },
+ {
+  "bloco": "esperar",
+  "titulo_bloco": "Esperar é se conectar à fonte",
+  "frase": "Vamos orar; e se esta palavra já está renovando você, escreve nos comentários: Deus renova as minhas forças; e deixa o seu pedido de oração com o seu nome.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "semforcas",
+  "titulo_bloco": "Eu venho sem forças",
+  "frase": "Senhor meu Deus, eu venho a Ti sem forças; eu estou cansado de lutar, cansado de recomeçar, cansado de tentar e não ver resultado, e cansado de ser forte para todo mundo.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "semforcas",
+  "titulo_bloco": "Eu venho sem forças",
+  "frase": "Mas a Tua Palavra diz que Tu dás forças ao cansado; então eu me apresento a Ti exatamente assim, cansado.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "semforcas",
+  "titulo_bloco": "Eu venho sem forças",
+  "frase": "Pai, eu reconheço que tenho tentado viver das minhas próprias forças, confiando na minha capacidade, na minha disposição e na minha resistência; e ela acabou.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "semforcas",
+  "titulo_bloco": "Eu venho sem forças",
+  "frase": "Hoje eu entendo que eu preciso de Ti, e que eu preciso me conectar de novo à fonte.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "semforcas",
+  "titulo_bloco": "Eu venho sem forças",
+  "frase": "Eu Te entrego o cansaço do corpo e o cansaço da alma, as metas que eu não alcancei e as orações que eu achei que ficaram sem resposta.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "Multiplica as minhas forças, Senhor: onde eu não tenho nenhum vigor, coloca o Teu vigor; onde as minhas pernas estão tremendo, firma os meus passos.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "Onde a minha mente está esgotada, traz clareza, e onde o meu coração está desanimado, traz um novo ânimo.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "Eu escolho esperar em Ti e depender de Ti; eu escolho parar de correr atrás das coisas com as minhas próprias mãos, e começar a caminhar de mãos dadas contigo.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "Me ensina a voar como a águia, Senhor: que as tempestades da minha vida não me derrubem, mas me levem mais alto, e que eu enxergue os problemas lá de cima, com a Tua perspectiva, e não aqui de baixo, com medo.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "Pai, renova o meu corpo, cura as dores, as tensões e a exaustão; renova a minha mente, tira os pensamentos que me drenam, e acende de novo em mim a alegria de estar na Tua presença.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica as minhas forças",
+  "frase": "E me ajuda a cuidar daquilo que Tu me deste: a descansar, a dormir, e a dizer não para o que me esgota sem propósito, porque cuidar de mim também é honrar a Ti.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Cuidar de mim também é *honrar* a Deus.",
+  "rodape": "RENOVO"
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Agora, Senhor, eu levanto em oração cada pessoa que está ouvindo; Tu sabes quem está prestes a desistir, quem está levantando todos os dias só por obrigação, e quem está com o corpo doendo e a alma vazia.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Pai, dá forças a cada um desses cansados, e multiplica o vigor de quem já não tem mais nenhum; que eles sintam agora uma nova energia vinda do céu.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Que eles corram e não se cansem, e que caminhem e não desfaleçam.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Coloca asas de águia em cada um deles, Senhor: que eles subam acima das circunstâncias, que vejam a vida com esperança de novo, e que amanhã de manhã acordem com uma disposição que não vem deles, mas vem de Ti.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Eu oro também pelos que trabalham de madrugada, pelos que cuidam de doentes e pelos que estudam depois de um dia inteiro de trabalho; renova as forças deles a cada manhã.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "E por quem está cansado de esperar uma resposta: que essa espera seja cheia da Tua presença, e não de desânimo.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Asas de águia para cada um",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "O próximo passo",
+  "frase": "Quero te deixar uma palavra para hoje: você não precisa ter tudo resolvido para seguir em frente; você só precisa esperar no Senhor e dar o próximo passo.",
+  "tag_visual": "acima_nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "O próximo passo",
+  "frase": "Ele vai cuidar das forças, e você cuida de continuar caminhando.",
+  "tag_visual": "aguia_voo",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Ele cuida das *forças*.",
+  "rodape": "VOCÊ CONTINUA CAMINHANDO"
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "O próximo passo",
+  "frase": "E nos dias em que você não conseguir correr, caminhe; e nos dias em que não conseguir caminhar, descanse nos braços Dele, porque esperar no Senhor também é uma forma de seguir em frente.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se esta oração renovou o seu coração, se inscreva no canal e ative o sininho, e deixa o seu like, para que esta mensagem chegue a mais pessoas que estão sem forças hoje.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração; e compartilha este vídeo com alguém que está precisando de um novo fôlego, porque às vezes uma palavra na hora certa devolve a esperança de alguém.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Os que esperam no Senhor renovam as suas forças. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "paisagem_aerea",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

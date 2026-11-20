@@ -1,0 +1,348 @@
+[
+ {
+  "bloco": "cansaco",
+  "titulo_bloco": "Um cansaço da alma",
+  "frase": "Tem um cansaço que vai além do corpo; não é só sono, não é só dor nas costas, é um cansaço da alma.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "cansaco",
+  "titulo_bloco": "Um cansaço da alma",
+  "frase": "Cansaço de lutar, de ser forte o tempo todo, de cuidar de todo mundo e não ter ninguém cuidando de você.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "cansaco",
+  "titulo_bloco": "Um cansaço da alma",
+  "frase": "Se é assim que você chegou aqui hoje, eu quero que você saiba que Jesus tem um convite especial para você.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Vinde a mim",
+  "frase": "Ouça as palavras de Jesus no evangelho de Mateus, capítulo onze, versículos vinte e oito a trinta.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Vinde a mim",
+  "frase": "Venham a mim, todos vocês que estão cansados e sobrecarregados, e Eu darei descanso a vocês.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": true,
+  "referencia": "Mateus 11:28",
+  "destaque": "Vinde a *mim*.",
+  "rodape": "CANSADOS E SOBRECARREGADOS"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Vinde a mim",
+  "frase": "Tomem sobre vocês o meu jugo e aprendam de mim, porque Eu sou manso e humilde de coração, e vocês encontrarão descanso para a alma; porque o meu jugo é suave, e o meu fardo é leve.",
+  "tag_visual": "riacho",
+  "mostrar_texto": true,
+  "referencia": "Mateus 11:29-30",
+  "destaque": "Descanso para a sua *alma*.",
+  "rodape": "O MEU FARDO É LEVE"
+ },
+ {
+  "bloco": "convite",
+  "titulo_bloco": "Do jeito que você está",
+  "frase": "Repara no jeito como Jesus fala: Ele não diz venham a mim todos os que estão bem, os que têm tudo resolvido; Ele chama justamente os cansados, os sobrecarregados, os que não aguentam mais.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "convite",
+  "titulo_bloco": "Do jeito que você está",
+  "frase": "Você não precisa se arrumar para ir até Jesus; pode ir do jeito que está.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "convite",
+  "titulo_bloco": "Do jeito que você está",
+  "frase": "E Ele faz uma promessa: Eu vos aliviarei; aliviar é tirar o peso, é deixar respirar, é como quando alguém pega a sacola pesada da sua mão e diz: deixa que eu levo.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Deixa que *Eu* levo.",
+  "rodape": "ELE ALIVIA"
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Depois Ele fala de um jugo: antigamente, o jugo era uma peça de madeira que unia dois bois para puxarem o arado juntos.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Quando Jesus diz para tomar o jugo Dele, Ele está dizendo: vem caminhar comigo, vem puxar essa carga do meu lado, você não vai carregar sozinho.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "E quando Jesus está do seu lado, o fardo fica leve.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Talvez você esteja tentando carregar tudo sozinho há muito tempo: o trabalho, a casa, os filhos, os pais, as contas e os problemas dos outros.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Hoje Jesus diz: chega, vem descansar.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Até Jesus, no meio de multidões que precisavam Dele, se afastava para lugares tranquilos para orar e descansar; se o próprio Filho de Deus parava, você também pode parar.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "jugo",
+  "titulo_bloco": "Vem caminhar comigo",
+  "frase": "Vamos orar juntos; e se você está se sentindo assim, escreve nos comentários: eu estou cansado, mas Jesus me alivia; e deixa o seu pedido de oração com o seu nome.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Senhor Jesus, eu aceito o Teu convite; eu venho a Ti agora, cansado e sobrecarregado, e eu não tenho mais forças para fingir que está tudo bem.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Eu preciso de descanso, eu preciso de alívio.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Senhor, Tu sabes como foram os meus últimos dias: as noites mal dormidas, as horas de trabalho que não acabam, as responsabilidades que se acumulam e as pessoas que dependem de mim.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "E às vezes eu sinto que estou dando tudo de mim, e mesmo assim não é suficiente.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Hoje eu coloco aos Teus pés tudo aquilo que eu tenho carregado: as minhas obrigações, as expectativas dos outros e as minhas próprias cobranças.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Eu coloco a culpa de não dar conta de tudo, e o medo de parar e tudo desmoronar.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aceito",
+  "titulo_bloco": "Eu aceito o Teu convite",
+  "frase": "Eu coloco também o cansaço de começar de novo tantas vezes, e de não ver o resultado do meu esforço; eu entrego tudo isso nas Tuas mãos.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "Jesus, Tu disseste que és manso e humilde de coração; me ensina a ser assim também.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "Me ensina a não me cobrar tanto, a dizer não quando eu preciso, e a descansar sem culpa; me ensina a confiar que o mundo não vai acabar se eu parar um pouco.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Descansar *sem* culpa.",
+  "rodape": "MANSO E HUMILDE"
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "Eu tomo sobre mim o Teu jugo, Senhor; eu quero caminhar do Teu lado e quero que Tu dividas comigo essa carga, para que eu não carregue mais nada sozinho.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "Renova as minhas forças: restaura o meu corpo cansado, a minha mente sobrecarregada e as minhas emoções esgotadas.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "Me dá um sono profundo e reparador, e que eu acorde amanhã com uma disposição que vem de Ti.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "manso",
+  "titulo_bloco": "Me ensina a descansar",
+  "frase": "E me dá descanso para a alma, Pai, esse descanso que nenhuma viagem, nenhuma folga e nenhuma série conseguem dar: o descanso de saber que eu sou amado, que eu não preciso provar nada para ninguém, e que a minha vida está segura nas Tuas mãos.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Agora eu quero orar por você que está ouvindo: pela mãe que cuida de tudo e de todos e nunca tem tempo para si, e pelo pai que trabalha em dois empregos para sustentar a casa.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Por quem cuida de um familiar doente, por quem estuda e trabalha ao mesmo tempo, e por quem está à frente de um ministério e se sente esgotado.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Senhor, alivia cada um deles agora e tira o peso dos ombros; que eles sintam, neste momento, um descanso que vem do céu.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Que eles saibam que Tu os vês, que Tu reconheces cada esforço, cada sacrifício e cada lágrima escondida.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "E eu oro também por você que está sem forças até para orar; deixa esta oração falar por você, e saiba que Jesus entende o silêncio de quem está cansado.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Renova as forças deles, Pai: coloca pessoas para ajudar, abre espaço na agenda para o descanso, e ensina cada um deles a encontrar refúgio em Ti todos os dias.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pausa",
+  "titulo_bloco": "Descansar também é fé",
+  "frase": "Antes de ir, quero te deixar um convite prático: hoje, separa pelo menos alguns minutos só para você e Deus, sem celular, sem tarefa e sem pressa.",
+  "tag_visual": "riacho",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pausa",
+  "titulo_bloco": "Descansar também é fé",
+  "frase": "Só você, um lugar tranquilo e uma conversa sincera com Ele, porque descansar também é um ato de fé.",
+  "tag_visual": "prado",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Descansar também é *fé*.",
+  "rodape": "UM CONVITE PARA HOJE"
+ },
+ {
+  "bloco": "pausa",
+  "titulo_bloco": "Descansar também é fé",
+  "frase": "E quando o peso voltar, lembra do convite: vinde a mim; Ele não se cansa de receber você, quantas vezes você precisar voltar.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se esta oração te trouxe alívio, se inscreva no canal e ative o sininho, e deixa o seu like, para ajudar esta mensagem a chegar em mais pessoas que estão no limite.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração; e compartilha este vídeo com alguém que você sabe que está sobrecarregado, porque às vezes uma mensagem dizendo eu orei por você muda o dia de alguém.",
+  "tag_visual": "lago_nevoa",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Venham a Jesus, todos os que estão cansados, e Ele vai aliviar vocês. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

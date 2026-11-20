@@ -1,0 +1,1685 @@
+[
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "noite",
+  "tag": "cordilheira",
+  "inicio": 0.0,
+  "fim": 7.029,
+  "clip": {
+   "id": 11344294,
+   "tag": "cordilheira",
+   "duracao": 14,
+   "autor": "Timo Volz",
+   "autor_url": "https://www.pexels.com/@timo-volz-837240",
+   "url": "https://www.pexels.com/video/time-lapse-of-sunrise-in-mountains-11344294/",
+   "arquivo": "https://videos.pexels.com/video-files/11344294/11344294-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11344294.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "noite",
+  "tag": "por_do_sol",
+  "inicio": 7.029,
+  "fim": 14.059,
+  "clip": {
+   "id": 36351901,
+   "tag": "por_do_sol",
+   "duracao": 18,
+   "autor": "Efrem  Efre",
+   "autor_url": "https://www.pexels.com/@efrem-efre-2786187",
+   "url": "https://www.pexels.com/video/vibrant-winter-sunset-over-frozen-lake-36351901/",
+   "arquivo": "https://videos.pexels.com/video-files/36351901/15418058_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36351901.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "noite",
+  "tag": "por_do_sol",
+  "inicio": 14.059,
+  "fim": 21.088,
+  "clip": {
+   "id": 26835570,
+   "tag": "por_do_sol",
+   "duracao": 8,
+   "autor": "Alex Moliski",
+   "autor_url": "https://www.pexels.com/@alexmoliski",
+   "url": "https://www.pexels.com/video/a-view-of-the-sun-setting-over-a-mountain-range-26835570/",
+   "arquivo": "https://videos.pexels.com/video-files/26835570/12017472_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/26835570.mp4"
+  }
+ },
+ {
+  "frases": [
+   1
+  ],
+  "bloco": "noite",
+  "tag": "lago_montanha",
+  "inicio": 21.088,
+  "fim": 26.061,
+  "clip": {
+   "id": 20784482,
+   "tag": "lago_montanha",
+   "duracao": 18,
+   "autor": "Florian Del\u00e9e",
+   "autor_url": "https://www.pexels.com/@florian-delee-209542985",
+   "url": "https://www.pexels.com/video/a-mountain-range-is-reflected-in-a-lake-20784482/",
+   "arquivo": "https://videos.pexels.com/video-files/20784482/20784482-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/20784482.mp4"
+  }
+ },
+ {
+  "frases": [
+   1
+  ],
+  "bloco": "noite",
+  "tag": "lago_montanha",
+  "inicio": 26.061,
+  "fim": 31.033,
+  "clip": {
+   "id": 14576290,
+   "tag": "lago_montanha",
+   "duracao": 8,
+   "autor": "Grigoriy Bunkov",
+   "autor_url": "https://www.pexels.com/@gerkhertz",
+   "url": "https://www.pexels.com/video/lake-in-mountains-in-winter-14576290/",
+   "arquivo": "https://videos.pexels.com/video-files/14576290/14576290-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/14576290.mp4"
+  }
+ },
+ {
+  "frases": [
+   2
+  ],
+  "bloco": "noite",
+  "tag": "lua",
+  "inicio": 31.033,
+  "fim": 35.195,
+  "clip": {
+   "id": 40228710,
+   "tag": "lua",
+   "duracao": 20,
+   "autor": "Raghu_Ranavaya",
+   "autor_url": "https://www.pexels.com/@raghuranavaya",
+   "url": "https://www.pexels.com/video/eerie-moonlight-through-dark-clouds-40228710/",
+   "arquivo": "https://videos.pexels.com/video-files/40228710/17182209_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40228710.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "noite",
+  "tag": "ceu_noturno",
+  "inicio": 35.195,
+  "fim": 42.95,
+  "clip": {
+   "id": 32103785,
+   "tag": "ceu_noturno",
+   "duracao": 30,
+   "autor": "Jason Pittman",
+   "autor_url": "https://www.pexels.com/@jason-pittman-1808114732",
+   "url": "https://www.pexels.com/video/starry-night-sky-with-meteor-shower-over-forest-32103785/",
+   "arquivo": "https://videos.pexels.com/video-files/32103785/13685986_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32103785.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "noite",
+  "tag": "ceu_noturno",
+  "inicio": 42.95,
+  "fim": 50.704,
+  "clip": {
+   "id": 38788509,
+   "tag": "ceu_noturno",
+   "duracao": 16,
+   "autor": "HaireKia",
+   "autor_url": "https://www.pexels.com/@hairekia-2160928180",
+   "url": "https://www.pexels.com/video/stunning-star-trails-in-night-sky-timelapse-38788509/",
+   "arquivo": "https://videos.pexels.com/video-files/38788509/16483099_1620_1080_30fps.mp4",
+   "w": 1620,
+   "h": 1080,
+   "arquivo_local": "clips/38788509.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "palavra",
+  "tag": "estrelas_montanha",
+  "inicio": 50.704,
+  "fim": 57.785,
+  "clip": {
+   "id": 9129751,
+   "tag": "estrelas_montanha",
+   "duracao": 10,
+   "autor": "Giuseppe Paoletti",
+   "autor_url": "https://www.pexels.com/@giusxpe",
+   "url": "https://www.pexels.com/video/time-lapse-of-the-night-sky-9129751/",
+   "arquivo": "https://videos.pexels.com/video-files/9129751/9129751-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9129751.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "por_do_sol",
+  "inicio": 57.785,
+  "fim": 65.318,
+  "clip": {
+   "id": 13146131,
+   "tag": "por_do_sol",
+   "duracao": 47,
+   "autor": "Jaxon Matthew Willis",
+   "autor_url": "https://www.pexels.com/@jaxon-matthew-willis-55957128",
+   "url": "https://www.pexels.com/video/sunlight-over-lake-13146131/",
+   "arquivo": "https://videos.pexels.com/video-files/13146131/13146131-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13146131.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "por_do_sol",
+  "inicio": 65.318,
+  "fim": 72.851,
+  "clip": {
+   "id": 19308446,
+   "tag": "por_do_sol",
+   "duracao": 61,
+   "autor": "Ferat \u00dcng\u00fcr",
+   "autor_url": "https://www.pexels.com/@ferat-ungur-207145842",
+   "url": "https://www.pexels.com/video/renklerin-dansi-golde-gun-batimi-ve-benzersiz-atmosferi-19308446/",
+   "arquivo": "https://videos.pexels.com/video-files/19308446/19308446-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/19308446.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "palavra",
+  "tag": "lago_montanha",
+  "inicio": 72.851,
+  "fim": 79.091,
+  "clip": {
+   "id": 37864095,
+   "tag": "lago_montanha",
+   "duracao": 22,
+   "autor": "Sergey Guk",
+   "autor_url": "https://www.pexels.com/@gsn-travel",
+   "url": "https://www.pexels.com/video/misty-rhodope-mountains-reflective-lakeview-37864095/",
+   "arquivo": "https://videos.pexels.com/video-files/37864095/16063662_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37864095.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "palavra",
+  "tag": "lua",
+  "inicio": 79.091,
+  "fim": 83.414,
+  "clip": {
+   "id": 5571752,
+   "tag": "lua",
+   "duracao": 10,
+   "autor": "Monsieur  Sylvain",
+   "autor_url": "https://www.pexels.com/@monsieursylvain",
+   "url": "https://www.pexels.com/video/footage-of-the-moon-behind-thick-clouds-5571752/",
+   "arquivo": "https://videos.pexels.com/video-files/5571752/5571752-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5571752.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "palavra",
+  "tag": "lua",
+  "inicio": 83.414,
+  "fim": 87.737,
+  "clip": {
+   "id": 4190835,
+   "tag": "lua",
+   "duracao": 186,
+   "autor": "Wayne Speedy",
+   "autor_url": "https://www.pexels.com/@wayne-speedy-777933",
+   "url": "https://www.pexels.com/video/a-shot-of-the-full-moon-4190835/",
+   "arquivo": "https://videos.pexels.com/video-files/4190835/4190835-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4190835.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "palavra",
+  "tag": "ceu_noturno",
+  "inicio": 87.737,
+  "fim": 93.345,
+  "clip": {
+   "id": 39790273,
+   "tag": "ceu_noturno",
+   "duracao": 12,
+   "autor": "Joaquin Reyes Ramos",
+   "autor_url": "https://www.pexels.com/@joaquinrr",
+   "url": "https://www.pexels.com/video/night-sky-with-moving-clouds-39790273/",
+   "arquivo": "https://videos.pexels.com/video-files/39790273/16968846_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39790273.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "palavra",
+  "tag": "ceu_noturno",
+  "inicio": 93.345,
+  "fim": 98.954,
+  "clip": {
+   "id": 9860820,
+   "tag": "ceu_noturno",
+   "duracao": 12,
+   "autor": "Borys Zaitsev",
+   "autor_url": "https://www.pexels.com/@mrborys",
+   "url": "https://www.pexels.com/video/stars-in-galaxies-9860820/",
+   "arquivo": "https://videos.pexels.com/video-files/9860820/9860820-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9860820.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "palavra",
+  "tag": "estrelas_montanha",
+  "inicio": 98.954,
+  "fim": 105.067,
+  "clip": {
+   "id": 9912641,
+   "tag": "estrelas_montanha",
+   "duracao": 18,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/a-wide-angle-shot-of-a-milky-way-9912641/",
+   "arquivo": "https://videos.pexels.com/video-files/9912641/9912641-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9912641.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "pessoal",
+  "tag": "por_do_sol",
+  "inicio": 105.067,
+  "fim": 110.823,
+  "clip": {
+   "id": 4802875,
+   "tag": "por_do_sol",
+   "duracao": 10,
+   "autor": "Amit Batra",
+   "autor_url": "https://www.pexels.com/@amit-batra-3062797",
+   "url": "https://www.pexels.com/video/scenic-video-of-lake-by-the-mountains-4802875/",
+   "arquivo": "https://videos.pexels.com/video-files/4802875/4802875-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4802875.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "pessoal",
+  "tag": "por_do_sol",
+  "inicio": 110.823,
+  "fim": 116.579,
+  "clip": {
+   "id": 8346482,
+   "tag": "por_do_sol",
+   "duracao": 19,
+   "autor": "Mikhail Nilov",
+   "autor_url": "https://www.pexels.com/@mikhail-nilov",
+   "url": "https://www.pexels.com/video/drone-footage-of-an-ocean-sunset-8346482/",
+   "arquivo": "https://videos.pexels.com/video-files/8346482/8346482-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8346482.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "pessoal",
+  "tag": "lago_montanha",
+  "inicio": 116.579,
+  "fim": 122.394,
+  "clip": {
+   "id": 5109652,
+   "tag": "lago_montanha",
+   "duracao": 11,
+   "autor": "Spencer Campbell",
+   "autor_url": "https://www.pexels.com/@mrcampbellrocks",
+   "url": "https://www.pexels.com/video/the-beautiful-landscape-and-cloudy-sky-5109652/",
+   "arquivo": "https://videos.pexels.com/video-files/5109652/5109652-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5109652.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "pessoal",
+  "tag": "lago_montanha",
+  "inicio": 122.394,
+  "fim": 128.209,
+  "clip": {
+   "id": 856191,
+   "tag": "lago_montanha",
+   "duracao": 8,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-sky-856191/",
+   "arquivo": "https://videos.pexels.com/video-files/856191/856191-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/856191.mp4"
+  }
+ },
+ {
+  "frases": [
+   12
+  ],
+  "bloco": "pessoal",
+  "tag": "lua",
+  "inicio": 128.209,
+  "fim": 133.427,
+  "clip": {
+   "id": 4651680,
+   "tag": "lua",
+   "duracao": 21,
+   "autor": "ROMAN ODINTSOV",
+   "autor_url": "https://www.pexels.com/@roman-odintsov",
+   "url": "https://www.pexels.com/video/time-lapse-of-a-full-moon-4651680/",
+   "arquivo": "https://videos.pexels.com/video-files/4651680/4651680-hd_2048_1080_30fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/4651680.mp4"
+  }
+ },
+ {
+  "frases": [
+   12
+  ],
+  "bloco": "pessoal",
+  "tag": "lua",
+  "inicio": 133.427,
+  "fim": 138.644,
+  "clip": {
+   "id": 4102367,
+   "tag": "lua",
+   "duracao": 10,
+   "autor": "Sosa Films",
+   "autor_url": "https://www.pexels.com/@sosafilms",
+   "url": "https://www.pexels.com/video/moving-clouds-in-front-of-the-moon-4102367/",
+   "arquivo": "https://videos.pexels.com/video-files/4102367/4102367-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4102367.mp4"
+  }
+ },
+ {
+  "frases": [
+   13
+  ],
+  "bloco": "pessoal",
+  "tag": "ceu_noturno",
+  "inicio": 138.644,
+  "fim": 145.432,
+  "clip": {
+   "id": 6867012,
+   "tag": "ceu_noturno",
+   "duracao": 17,
+   "autor": "David Ka",
+   "autor_url": "https://www.pexels.com/@david-ka-2933824",
+   "url": "https://www.pexels.com/video/time-lapse-of-the-shooting-stars-6867012/",
+   "arquivo": "https://videos.pexels.com/video-files/6867012/6867012-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6867012.mp4"
+  }
+ },
+ {
+  "frases": [
+   13
+  ],
+  "bloco": "pessoal",
+  "tag": "ceu_noturno",
+  "inicio": 145.432,
+  "fim": 152.22,
+  "clip": {
+   "id": 20556585,
+   "tag": "ceu_noturno",
+   "duracao": 120,
+   "autor": "Colin Jones",
+   "autor_url": "https://www.pexels.com/@larchmedia",
+   "url": "https://www.pexels.com/video/a-star-field-with-many-stars-in-the-sky-20556585/",
+   "arquivo": "https://videos.pexels.com/video-files/20556585/20556585-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/20556585.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "pessoal",
+  "tag": "lago_montanha",
+  "inicio": 152.22,
+  "fim": 159.128,
+  "clip": {
+   "id": 5370904,
+   "tag": "lua",
+   "duracao": 9,
+   "autor": "Maor Attias",
+   "autor_url": "https://www.pexels.com/@maorattias",
+   "url": "https://www.pexels.com/video/bright-moon-among-moving-clouds-5370904/",
+   "arquivo": "https://videos.pexels.com/video-files/5370904/5370904-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5370904.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "pessoal",
+  "tag": "lago_montanha",
+  "inicio": 159.128,
+  "fim": 166.036,
+  "clip": {
+   "id": 29003680,
+   "tag": "lago_montanha",
+   "duracao": 26,
+   "autor": "Flex Journey",
+   "autor_url": "https://www.pexels.com/@flexjourney",
+   "url": "https://www.pexels.com/video/breathtaking-view-of-lake-oeschinen-and-swiss-alps-29003680/",
+   "arquivo": "https://videos.pexels.com/video-files/29003680/12543124_1920_1080_29fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29003680.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "pessoal",
+  "tag": "estrelas_montanha",
+  "inicio": 166.036,
+  "fim": 172.669,
+  "clip": {
+   "id": 12043830,
+   "tag": "estrelas_montanha",
+   "duracao": 18,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/time-lapse-of-the-milky-way-12043830/",
+   "arquivo": "https://videos.pexels.com/video-files/12043830/12043830-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12043830.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "pessoal",
+  "tag": "estrelas_montanha",
+  "inicio": 172.669,
+  "fim": 179.303,
+  "clip": {
+   "id": 5380054,
+   "tag": "estrelas_montanha",
+   "duracao": 12,
+   "autor": "tsun",
+   "autor_url": "https://www.pexels.com/@tsun-3477183",
+   "url": "https://www.pexels.com/video/star-gazing-on-a-clear-night-sky-5380054/",
+   "arquivo": "https://videos.pexels.com/video-files/5380054/5380054-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5380054.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "pessoal",
+  "tag": "por_do_sol",
+  "inicio": 179.303,
+  "fim": 185.091,
+  "clip": {
+   "id": 9322518,
+   "tag": "por_do_sol",
+   "duracao": 12,
+   "autor": "Ivan Yeo",
+   "autor_url": "https://www.pexels.com/@ivan-yeo-1200617",
+   "url": "https://www.pexels.com/video/time-lapse-of-a-sunset-9322518/",
+   "arquivo": "https://videos.pexels.com/video-files/9322518/9322518-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9322518.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "pessoal",
+  "tag": "por_do_sol",
+  "inicio": 185.091,
+  "fim": 190.878,
+  "clip": {
+   "id": 29542698,
+   "tag": "por_do_sol",
+   "duracao": 59,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/serene-coastal-sunset-over-tranquil-waters-29542698/",
+   "arquivo": "https://videos.pexels.com/video-files/29542698/12717126_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29542698.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "pessoal",
+  "tag": "por_do_sol",
+  "inicio": 190.878,
+  "fim": 196.666,
+  "clip": {
+   "id": 9244200,
+   "tag": "por_do_sol",
+   "duracao": 362,
+   "autor": "Toni.063371 -  Antonio S\u00e1ez",
+   "autor_url": "https://www.pexels.com/@toni-063371-antonio-saez-3896352",
+   "url": "https://www.pexels.com/video/a-beautiful-view-during-sunset-9244200/",
+   "arquivo": "https://videos.pexels.com/video-files/9244200/9244200-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9244200.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "saudade",
+  "tag": "lago_montanha",
+  "inicio": 196.666,
+  "fim": 202.855,
+  "clip": {
+   "id": 4922999,
+   "tag": "lago_montanha",
+   "duracao": 27,
+   "autor": "Tima Miroshnichenko",
+   "autor_url": "https://www.pexels.com/@tima-miroshnichenko",
+   "url": "https://www.pexels.com/video/lake-surrounded-by-mountains-4922999/",
+   "arquivo": "https://videos.pexels.com/video-files/4922999/4922999-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4922999.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "saudade",
+  "tag": "lago_montanha",
+  "inicio": 202.855,
+  "fim": 209.043,
+  "clip": {
+   "id": 16853892,
+   "tag": "lago_montanha",
+   "duracao": 31,
+   "autor": "Julian M",
+   "autor_url": "https://www.pexels.com/@julian-m-541521563",
+   "url": "https://www.pexels.com/video/lake-tekapo-morning-1-16853892/",
+   "arquivo": "https://videos.pexels.com/video-files/16853892/16853892-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16853892.mp4"
+  }
+ },
+ {
+  "frases": [
+   18,
+   19
+  ],
+  "bloco": "saudade",
+  "tag": "lua",
+  "inicio": 209.043,
+  "fim": 215.228,
+  "clip": {
+   "id": 30785083,
+   "tag": "lua",
+   "duracao": 16,
+   "autor": "Dr Photographer",
+   "autor_url": "https://www.pexels.com/@drphotographer152",
+   "url": "https://www.pexels.com/video/mysterious-moon-hidden-behind-moving-clouds-30785083/",
+   "arquivo": "https://videos.pexels.com/video-files/30785083/13167895_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30785083.mp4"
+  }
+ },
+ {
+  "frases": [
+   18,
+   19
+  ],
+  "bloco": "saudade",
+  "tag": "lua",
+  "inicio": 215.228,
+  "fim": 221.412,
+  "clip": {
+   "id": 39750759,
+   "tag": "lua",
+   "duracao": 21,
+   "autor": "Jelena Kazak",
+   "autor_url": "https://www.pexels.com/@selena1965",
+   "url": "https://www.pexels.com/video/serene-full-moon-in-dark-night-sky-39750759/",
+   "arquivo": "https://videos.pexels.com/video-files/39750759/16953397_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39750759.mp4"
+  }
+ },
+ {
+  "frases": [
+   18,
+   19
+  ],
+  "bloco": "saudade",
+  "tag": "lua",
+  "inicio": 221.412,
+  "fim": 227.597,
+  "clip": {
+   "id": 12496955,
+   "tag": "lua",
+   "duracao": 34,
+   "autor": "Pouya Lucky",
+   "autor_url": "https://www.pexels.com/@pouyalucky",
+   "url": "https://www.pexels.com/video/moon-in-sky-at-evening-12496955/",
+   "arquivo": "https://videos.pexels.com/video-files/12496955/12496955-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12496955.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "saudade",
+  "tag": "estrelas_montanha",
+  "inicio": 227.597,
+  "fim": 234.291,
+  "clip": {
+   "id": 12467968,
+   "tag": "estrelas_montanha",
+   "duracao": 13,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/time-lapse-of-the-milky-way-core-12467968/",
+   "arquivo": "https://videos.pexels.com/video-files/12467968/12467968-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12467968.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "saudade",
+  "tag": "por_do_sol",
+  "inicio": 234.291,
+  "fim": 239.658,
+  "clip": {
+   "id": 33286051,
+   "tag": "por_do_sol",
+   "duracao": 9,
+   "autor": "Okan Demiray",
+   "autor_url": "https://www.pexels.com/@okan-demiray-306414780",
+   "url": "https://www.pexels.com/video/serene-sunset-over-tranquil-lake-landscape-33286051/",
+   "arquivo": "https://videos.pexels.com/video-files/33286051/14178733_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33286051.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "saudade",
+  "tag": "por_do_sol",
+  "inicio": 239.658,
+  "fim": 245.026,
+  "clip": {
+   "id": 38568777,
+   "tag": "por_do_sol",
+   "duracao": 30,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/serene-sunset-over-tranquil-lake-38568777/",
+   "arquivo": "https://videos.pexels.com/video-files/38568777/16382289_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38568777.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "saudade",
+  "tag": "por_do_sol",
+  "inicio": 245.026,
+  "fim": 250.393,
+  "clip": {
+   "id": 37671979,
+   "tag": "por_do_sol",
+   "duracao": 38,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/serene-sunset-over-tranquil-water-surface-37671979/",
+   "arquivo": "https://videos.pexels.com/video-files/37671979/15971837_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37671979.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "saudade",
+  "tag": "lago_montanha",
+  "inicio": 250.393,
+  "fim": 258.003,
+  "clip": {
+   "id": 3191885,
+   "tag": "lago_montanha",
+   "duracao": 17,
+   "autor": "Pressmaster",
+   "autor_url": "https://www.pexels.com/@pressmaster",
+   "url": "https://www.pexels.com/video/soft-wavy-motion-of-a-lake-s-surface-3191885/",
+   "arquivo": "https://videos.pexels.com/video-files/3191885/3191885-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3191885.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "saudade",
+  "tag": "lago_montanha",
+  "inicio": 258.003,
+  "fim": 265.613,
+  "clip": {
+   "id": 38256884,
+   "tag": "lua",
+   "duracao": 8,
+   "autor": "Damir K",
+   "autor_url": "https://www.pexels.com/@damir",
+   "url": "https://www.pexels.com/video/tranquil-moonlit-sky-with-gentle-clouds-38256884/",
+   "arquivo": "https://videos.pexels.com/video-files/38256884/16243729_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38256884.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "saudade",
+  "tag": "lua",
+  "inicio": 265.613,
+  "fim": 271.782,
+  "clip": {
+   "id": 5799520,
+   "tag": "lua",
+   "duracao": 53,
+   "autor": "Toni.063371 -  Antonio S\u00e1ez",
+   "autor_url": "https://www.pexels.com/@toni-063371-antonio-saez-3896352",
+   "url": "https://www.pexels.com/video/close-up-shot-of-the-moon-5799520/",
+   "arquivo": "https://videos.pexels.com/video-files/5799520/5799520-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5799520.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "saudade",
+  "tag": "lua",
+  "inicio": 271.782,
+  "fim": 277.951,
+  "clip": {
+   "id": 26673809,
+   "tag": "lua",
+   "duracao": 29,
+   "autor": "Dr Photographer",
+   "autor_url": "https://www.pexels.com/@drphotographer152",
+   "url": "https://www.pexels.com/video/moonscape-26673809/",
+   "arquivo": "https://videos.pexels.com/video-files/26673809/11986952_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/26673809.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "familia",
+  "tag": "lago_montanha",
+  "inicio": 277.951,
+  "fim": 282.298,
+  "clip": {
+   "id": 6380843,
+   "tag": "lago_montanha",
+   "duracao": 39,
+   "autor": "Sergei Starostin",
+   "autor_url": "https://www.pexels.com/@sejio402",
+   "url": "https://www.pexels.com/video/animals-grazing-on-scenic-landscape-6380843/",
+   "arquivo": "https://videos.pexels.com/video-files/6380843/6380843-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6380843.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "familia",
+  "tag": "lago_montanha",
+  "inicio": 282.298,
+  "fim": 286.644,
+  "clip": {
+   "id": 7012602,
+   "tag": "lago_montanha",
+   "duracao": 37,
+   "autor": "Media Loopers",
+   "autor_url": "https://www.pexels.com/@medialoopers",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-beautiful-view-of-blue-lake-7012602/",
+   "arquivo": "https://videos.pexels.com/video-files/7012602/7012602-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7012602.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "familia",
+  "tag": "lua",
+  "inicio": 286.644,
+  "fim": 292.819,
+  "clip": {
+   "id": 29060023,
+   "tag": "lua",
+   "duracao": 15,
+   "autor": "Mudit verma",
+   "autor_url": "https://www.pexels.com/@muditverma17",
+   "url": "https://www.pexels.com/video/moonlit-night-sky-timelapse-with-clouds-29060023/",
+   "arquivo": "https://videos.pexels.com/video-files/29060023/12561313_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29060023.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "familia",
+  "tag": "lua",
+  "inicio": 292.819,
+  "fim": 298.994,
+  "clip": {
+   "id": 39525728,
+   "tag": "lua",
+   "duracao": 18,
+   "autor": "\u00d6zg\u00fcr S\u00fcrmeli",
+   "autor_url": "https://www.pexels.com/@ozgur-surmeli-124841273",
+   "url": "https://www.pexels.com/video/tranquil-crescent-moon-at-twilight-39525728/",
+   "arquivo": "https://videos.pexels.com/video-files/39525728/16839983_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39525728.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "familia",
+  "tag": "lua",
+  "inicio": 298.994,
+  "fim": 305.169,
+  "clip": {
+   "id": 36492194,
+   "tag": "lua",
+   "duracao": 30,
+   "autor": "Dr Photographer",
+   "autor_url": "https://www.pexels.com/@drphotographer152",
+   "url": "https://www.pexels.com/video/crescent-moon-in-night-sky-36492194/",
+   "arquivo": "https://videos.pexels.com/video-files/36492194/15473875_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36492194.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "familia",
+  "tag": "ceu_noturno",
+  "inicio": 305.169,
+  "fim": 310.922,
+  "clip": {
+   "id": 27254149,
+   "tag": "ceu_noturno",
+   "duracao": 20,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/the-center-of-the-milky-way-galaxy-27254149/",
+   "arquivo": "https://videos.pexels.com/video-files/27254149/12103116_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27254149.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "familia",
+  "tag": "ceu_noturno",
+  "inicio": 310.922,
+  "fim": 316.674,
+  "clip": {
+   "id": 34614295,
+   "tag": "ceu_noturno",
+   "duracao": 120,
+   "autor": "Colin Jones",
+   "autor_url": "https://www.pexels.com/@larchmedia",
+   "url": "https://www.pexels.com/video/stunning-abstract-starfield-in-deep-space-34614295/",
+   "arquivo": "https://videos.pexels.com/video-files/34614295/14669696_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34614295.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "familia",
+  "tag": "ceu_noturno",
+  "inicio": 316.674,
+  "fim": 322.427,
+  "clip": {
+   "id": 2915133,
+   "tag": "ceu_noturno",
+   "duracao": 9,
+   "autor": "Sin(an)",
+   "autor_url": "https://www.pexels.com/@sin-an-1512138",
+   "url": "https://www.pexels.com/video/stars-above-the-sky-at-a-clear-night-2915133/",
+   "arquivo": "https://videos.pexels.com/video-files/2915133/2915133-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/2915133.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "familia",
+  "tag": "estrelas_montanha",
+  "inicio": 322.427,
+  "fim": 328.009,
+  "clip": {
+   "id": 7534808,
+   "tag": "estrelas_montanha",
+   "duracao": 43,
+   "autor": "Dmitry Varennikov",
+   "autor_url": "https://www.pexels.com/@dmitry-varennikov-1414666",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-night-sky-7534808/",
+   "arquivo": "https://videos.pexels.com/video-files/7534808/7534808-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7534808.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "familia",
+  "tag": "estrelas_montanha",
+  "inicio": 328.009,
+  "fim": 333.59,
+  "clip": {
+   "id": 25621510,
+   "tag": "estrelas_montanha",
+   "duracao": 10,
+   "autor": "Ahnaf Piash",
+   "autor_url": "https://www.pexels.com/@the-ahnafpiash",
+   "url": "https://www.pexels.com/video/the-milky-is-seen-in-the-sky-above-a-forest-25621510/",
+   "arquivo": "https://videos.pexels.com/video-files/25621510/11902813_1620_1080_15fps.mp4",
+   "w": 1620,
+   "h": 1080,
+   "arquivo_local": "clips/25621510.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "familia",
+  "tag": "estrelas_montanha",
+  "inicio": 333.59,
+  "fim": 339.172,
+  "clip": {
+   "id": 35092214,
+   "tag": "estrelas_montanha",
+   "duracao": 9,
+   "autor": "Ken Cheung",
+   "autor_url": "https://www.pexels.com/@ken-cheung-3355734",
+   "url": "https://www.pexels.com/video/breathtaking-northern-lights-over-iceland-s-winter-landscape-35092214/",
+   "arquivo": "https://videos.pexels.com/video-files/35092214/14866547_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35092214.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "visita",
+  "tag": "por_do_sol",
+  "inicio": 339.172,
+  "fim": 347.092,
+  "clip": {
+   "id": 35190891,
+   "tag": "por_do_sol",
+   "duracao": 14,
+   "autor": "Image Hunter",
+   "autor_url": "https://www.pexels.com/@image-hunter-281453274",
+   "url": "https://www.pexels.com/video/serene-sunset-over-majestic-mountain-lake-35190891/",
+   "arquivo": "https://videos.pexels.com/video-files/35190891/14908687_1922_1080_30fps.mp4",
+   "w": 1922,
+   "h": 1080,
+   "arquivo_local": "clips/35190891.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "visita",
+  "tag": "por_do_sol",
+  "inicio": 347.092,
+  "fim": 355.013,
+  "clip": {
+   "id": 4802871,
+   "tag": "por_do_sol",
+   "duracao": 24,
+   "autor": "Amit Batra",
+   "autor_url": "https://www.pexels.com/@amit-batra-3062797",
+   "url": "https://www.pexels.com/video/natural-formations-of-mountains-and-lake-valley-4802871/",
+   "arquivo": "https://videos.pexels.com/video-files/4802871/4802871-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4802871.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "visita",
+  "tag": "lago_montanha",
+  "inicio": 355.013,
+  "fim": 359.752,
+  "clip": {
+   "id": 27013508,
+   "tag": "lago_montanha",
+   "duracao": 15,
+   "autor": "Soly Moses",
+   "autor_url": "https://www.pexels.com/@solyartphotos",
+   "url": "https://www.pexels.com/video/flying-over-a-lake-27013508/",
+   "arquivo": "https://videos.pexels.com/video-files/27013508/12046963_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27013508.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "visita",
+  "tag": "ceu_noturno",
+  "inicio": 359.752,
+  "fim": 365.171,
+  "clip": {
+   "id": 30706899,
+   "tag": "ceu_noturno",
+   "duracao": 10,
+   "autor": "Nicola Narracci",
+   "autor_url": "https://www.pexels.com/@nicola-narracci-157460431",
+   "url": "https://www.pexels.com/video/beautiful-night-sky-full-of-twinkling-stars-30706899/",
+   "arquivo": "https://videos.pexels.com/video-files/30706899/13138099_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30706899.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "visita",
+  "tag": "ceu_noturno",
+  "inicio": 365.171,
+  "fim": 370.59,
+  "clip": {
+   "id": 32555948,
+   "tag": "ceu_noturno",
+   "duracao": 12,
+   "autor": "Dubang chang",
+   "autor_url": "https://www.pexels.com/@dudubangbang",
+   "url": "https://www.pexels.com/video/stunning-star-trails-in-a-clear-night-sky-32555948/",
+   "arquivo": "https://videos.pexels.com/video-files/32555948/13883092_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32555948.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "visita",
+  "tag": "lua",
+  "inicio": 370.59,
+  "fim": 376.944,
+  "clip": {
+   "id": 30782789,
+   "tag": "lua",
+   "duracao": 34,
+   "autor": "Dr Photographer",
+   "autor_url": "https://www.pexels.com/@drphotographer152",
+   "url": "https://www.pexels.com/video/moon-peeking-through-cloudy-daytime-sky-30782789/",
+   "arquivo": "https://videos.pexels.com/video-files/30782789/13166870_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30782789.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "visita",
+  "tag": "lua",
+  "inicio": 376.944,
+  "fim": 383.299,
+  "clip": {
+   "id": 5024340,
+   "tag": "lua",
+   "duracao": 11,
+   "autor": "Sosa Films",
+   "autor_url": "https://www.pexels.com/@sosafilms",
+   "url": "https://www.pexels.com/video/clouds-under-full-moon-5024340/",
+   "arquivo": "https://videos.pexels.com/video-files/5024340/5024340-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5024340.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "visita",
+  "tag": "ceu_noturno",
+  "inicio": 383.299,
+  "fim": 389.006,
+  "clip": {
+   "id": 40085408,
+   "tag": "ceu_noturno",
+   "duracao": 23,
+   "autor": "Gavin Fregona",
+   "autor_url": "https://www.pexels.com/@gavin",
+   "url": "https://www.pexels.com/video/stunning-timelapse-of-star-trails-at-night-40085408/",
+   "arquivo": "https://videos.pexels.com/video-files/40085408/17111783_2096_1080_30fps.mp4",
+   "w": 2096,
+   "h": 1080,
+   "arquivo_local": "clips/40085408.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "visita",
+  "tag": "ceu_noturno",
+  "inicio": 389.006,
+  "fim": 394.713,
+  "clip": {
+   "id": 8901067,
+   "tag": "ceu_noturno",
+   "duracao": 33,
+   "autor": "Borys Zaitsev",
+   "autor_url": "https://www.pexels.com/@mrborys",
+   "url": "https://www.pexels.com/video/a-starry-night-8901067/",
+   "arquivo": "https://videos.pexels.com/video-files/8901067/8901067-hd_1840_888_30fps.mp4",
+   "w": 1840,
+   "h": 888,
+   "arquivo_local": "clips/8901067.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "visita",
+  "tag": "ceu_noturno",
+  "inicio": 394.713,
+  "fim": 400.42,
+  "clip": {
+   "id": 39070325,
+   "tag": "ceu_noturno",
+   "duracao": 8,
+   "autor": "Travel with  Lenses",
+   "autor_url": "https://www.pexels.com/@travel-with-lenses-734723610",
+   "url": "https://www.pexels.com/video/starlit-night-sky-with-silhouetted-trees-39070325/",
+   "arquivo": "https://videos.pexels.com/video-files/39070325/16625195_1920_1440_30fps.mp4",
+   "w": 1920,
+   "h": 1440,
+   "arquivo_local": "clips/39070325.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "visita",
+  "tag": "estrelas_montanha",
+  "inicio": 400.42,
+  "fim": 404.079,
+  "clip": {
+   "id": 30262970,
+   "tag": "estrelas_montanha",
+   "duracao": 8,
+   "autor": "Andrew Nyero",
+   "autor_url": "https://www.pexels.com/@andrew-nyero-2148760500",
+   "url": "https://www.pexels.com/video/stunning-milky-way-timelapse-in-night-sky-30262970/",
+   "arquivo": "https://videos.pexels.com/video-files/30262970/12973673_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30262970.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "repita",
+  "tag": "por_do_sol",
+  "inicio": 404.079,
+  "fim": 411.824,
+  "clip": {
+   "id": 38788269,
+   "tag": "por_do_sol",
+   "duracao": 17,
+   "autor": "Jeremy Hardin",
+   "autor_url": "https://www.pexels.com/@jeremy-hardin-2150314713",
+   "url": "https://www.pexels.com/video/tranquil-lake-sunrise-with-mist-and-mountains-38788269/",
+   "arquivo": "https://videos.pexels.com/video-files/38788269/16482972_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38788269.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "repita",
+  "tag": "lago_montanha",
+  "inicio": 411.824,
+  "fim": 416.882,
+  "clip": {
+   "id": 34588733,
+   "tag": "lago_montanha",
+   "duracao": 17,
+   "autor": "Oskar Gross",
+   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
+   "url": "https://www.pexels.com/video/serene-mountain-lake-with-snow-capped-peaks-34588733/",
+   "arquivo": "https://videos.pexels.com/video-files/34588733/14657399_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34588733.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "repita",
+  "tag": "lago_montanha",
+  "inicio": 416.882,
+  "fim": 421.939,
+  "clip": {
+   "id": 8491142,
+   "tag": "lago_montanha",
+   "duracao": 9,
+   "autor": "ArtHouse Studio",
+   "autor_url": "https://www.pexels.com/@arthousestudio",
+   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-8491142/",
+   "arquivo": "https://videos.pexels.com/video-files/8491142/8491142-hd_2048_1080_24fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/8491142.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "final",
+  "tag": "lua",
+  "inicio": 421.939,
+  "fim": 428.888,
+  "clip": {
+   "id": 3654535,
+   "tag": "lua",
+   "duracao": 10,
+   "autor": "Mark Edwin Hedia",
+   "autor_url": "https://www.pexels.com/@mark-edwin-hedia-1850041",
+   "url": "https://www.pexels.com/video/dark-clouds-formation-covering-the-moon-3654535/",
+   "arquivo": "https://videos.pexels.com/video-files/3654535/3654535-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3654535.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "final",
+  "tag": "lua",
+  "inicio": 428.888,
+  "fim": 435.837,
+  "clip": {
+   "id": 15721416,
+   "tag": "lua",
+   "duracao": 24,
+   "autor": "Martyn Day",
+   "autor_url": "https://www.pexels.com/@martyn-day-3443633",
+   "url": "https://www.pexels.com/video/a-crescent-moon-on-a-dark-night-15721416/",
+   "arquivo": "https://videos.pexels.com/video-files/15721416/15721416-hd_2048_1080_50fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/15721416.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "final",
+  "tag": "ceu_noturno",
+  "inicio": 435.837,
+  "fim": 441.51,
+  "clip": {
+   "id": 29628756,
+   "tag": "ceu_noturno",
+   "duracao": 18,
+   "autor": "Dubang chang",
+   "autor_url": "https://www.pexels.com/@dudubangbang",
+   "url": "https://www.pexels.com/video/stunning-night-sky-time-lapse-in-forest-29628756/",
+   "arquivo": "https://videos.pexels.com/video-files/29628756/12749547_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29628756.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "final",
+  "tag": "ceu_noturno",
+  "inicio": 441.51,
+  "fim": 447.183,
+  "clip": {
+   "id": 12310328,
+   "tag": "ceu_noturno",
+   "duracao": 15,
+   "autor": "Bhomick Attri",
+   "autor_url": "https://www.pexels.com/@bhomickattri",
+   "url": "https://www.pexels.com/video/stars-on-sky-12310328/",
+   "arquivo": "https://videos.pexels.com/video-files/12310328/12310328-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12310328.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "final",
+  "tag": "ceu_noturno",
+  "inicio": 447.183,
+  "fim": 452.856,
+  "clip": {
+   "id": 34150874,
+   "tag": "ceu_noturno",
+   "duracao": 16,
+   "autor": "William Chen",
+   "autor_url": "https://www.pexels.com/@mavicair2tw",
+   "url": "https://www.pexels.com/video/captivating-night-sky-timelapse-with-star-trails-34150874/",
+   "arquivo": "https://videos.pexels.com/video-files/34150874/14479269_1920_1440_30fps.mp4",
+   "w": 1920,
+   "h": 1440,
+   "arquivo_local": "clips/34150874.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "estrelas_montanha",
+  "inicio": 452.856,
+  "fim": 458.857,
+  "clip": {
+   "id": 15377236,
+   "tag": "estrelas_montanha",
+   "duracao": 9,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/milky-way-appearing-during-nightfall-at-the-beach-15377236/",
+   "arquivo": "https://videos.pexels.com/video-files/15377236/15377236-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/15377236.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "estrelas_montanha",
+  "inicio": 458.857,
+  "fim": 464.859,
+  "clip": {
+   "id": 19314206,
+   "tag": "estrelas_montanha",
+   "duracao": 15,
+   "autor": "Fatih Din\u00e7",
+   "autor_url": "https://www.pexels.com/@fatih-dinc-366536882",
+   "url": "https://www.pexels.com/video/samanyolu-19314206/",
+   "arquivo": "https://videos.pexels.com/video-files/19314206/19314206-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/19314206.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "estrelas_montanha",
+  "inicio": 464.859,
+  "fim": 470.86,
+  "clip": {
+   "id": 9341049,
+   "tag": "estrelas_montanha",
+   "duracao": 20,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/the-milky-is-seen-in-the-sky-above-a-lake-9341049/",
+   "arquivo": "https://videos.pexels.com/video-files/9341049/9341049-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9341049.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "estrelas_montanha",
+  "inicio": 470.86,
+  "fim": 475.11,
+  "clip": {
+   "id": 30573729,
+   "tag": "estrelas_montanha",
+   "duracao": 15,
+   "autor": "\u96f7\u795e\u7684 \u661f\u5929\u5730",
+   "autor_url": "https://www.pexels.com/@1171508281",
+   "url": "https://www.pexels.com/video/starry-night-sky-with-milky-way-over-rocks-30573729/",
+   "arquivo": "https://videos.pexels.com/video-files/30573729/13092421_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30573729.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "estrelas_montanha",
+  "inicio": 475.11,
+  "fim": 479.36,
+  "clip": {
+   "id": 28112530,
+   "tag": "estrelas_montanha",
+   "duracao": 18,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/time-lapse-of-a-beautiful-deep-starry-sky-28112530/",
+   "arquivo": "https://videos.pexels.com/video-files/28112530/12302202_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28112530.mp4"
+  }
+ }
+]

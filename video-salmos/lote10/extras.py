@@ -90,7 +90,7 @@ img = base(frame(clip(cid), t), M.get("thumb_a_brilho", 0.82)).convert("RGBA")
 y = M.get("thumb_a_y", 90); d = ImageDraw.Draw(img)
 for txt, size, cor in M["thumb_a"]:
     f = inter(size); sombra(img, (640, y), txt, f, AMAR if cor == "a" else BRANCO)
-    y += d.textbbox((0, 0), txt, font=f)[3] + 16
+    y += d.textbbox((0, 0), txt, font=f)[3] + M.get("thumb_a_gap", 24)
 img.convert("RGB").save(f"{OUT}/thumb_A_{V}.jpg", quality=92)
 
 # B: editorial (serifa grande com palavra em itálico amarelo, grade fina, micro texto espaçado)
@@ -108,9 +108,12 @@ micro((124, 138), M["thumb_b_ref"], "ld"); micro((1156, 138), M["thumb_b_rodape"
 micro((124, 602), "ORAÇÃO", "la"); micro((1156, 602), M["thumb_b_tema"], "ra")
 # linhas da frase editorial: palavras entre * em itálico amarelo
 for (linha, size), y in zip(M["thumb_b"], M.get("thumb_b_ys", [215, 385])):
-    fr, fi = ImageFont.truetype(SERIF, size), ImageFont.truetype(SERIF_I, size)
-    partes = [(w.strip("*"), w.startswith("*")) for w in linha.split(" ")]
-    larg = sum(d.textlength(p + " ", font=fi if it else fr) for p, it in partes) - d.textlength(" ", font=fr)
+    partes = [(w.replace("*", ""), w.startswith("*")) for w in linha.split(" ")]
+    while True:  # ajusta o tamanho para caber em ~1000 px
+        fr, fi = ImageFont.truetype(SERIF, size), ImageFont.truetype(SERIF_I, size)
+        larg = sum(d.textlength(p + " ", font=fi if it else fr) for p, it in partes) - d.textlength(" ", font=fr)
+        if larg <= 1000 or size < 80: break
+        size -= 6
     x = 640 - larg / 2
     for p, it in partes:
         f = fi if it else fr

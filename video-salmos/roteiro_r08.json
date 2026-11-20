@@ -1,0 +1,350 @@
+[
+ {
+  "bloco": "poco",
+  "titulo_bloco": "Uma tristeza que parece um poço",
+  "frase": "Existe um tipo de tristeza que não passa com uma noite de sono, uma tristeza que parece um poço fundo, onde quanto mais você tenta sair, mais escorrega.",
+  "tag_visual": "cordilheira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "poco",
+  "titulo_bloco": "Uma tristeza que parece um poço",
+  "frase": "Se é assim que você tem se sentido, esta oração é para você; fica aqui comigo por alguns minutos, e deixa Deus falar com o seu coração.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele me tirou do poço",
+  "frase": "Ouça a Palavra do Senhor no Salmo quarenta, versículos um e dois.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele me tirou do poço",
+  "frase": "Esperei com paciência pelo Senhor, e Ele se inclinou para mim e ouviu o meu clamor; Ele me tirou de um poço de destruição, de um lamaçal, colocou os meus pés sobre uma rocha e firmou os meus passos.",
+  "tag_visual": "canion",
+  "mostrar_texto": true,
+  "referencia": "Salmo 40:1-2",
+  "destaque": "Os meus pés sobre a *rocha*.",
+  "rodape": "ELE SE INCLINOU PARA MIM"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele me tirou do poço",
+  "frase": "E no Salmo cento e quarenta e sete, versículo três, está escrito sobre o Senhor.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele me tirou do poço",
+  "frase": "Ele cura os que têm o coração partido, e cuida de cada uma das suas feridas.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": true,
+  "referencia": "Salmo 147:3",
+  "destaque": "Ele *cura* o coração partido.",
+  "rodape": "E CUIDA DE CADA FERIDA"
+ },
+ {
+  "bloco": "inclinou",
+  "titulo_bloco": "Deus se inclinou",
+  "frase": "Davi sabia muito bem o que era estar num poço: ele descreve um lugar de lama, onde os pés afundam e não dá para ficar de pé.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "inclinou",
+  "titulo_bloco": "Deus se inclinou",
+  "frase": "Talvez seja assim que você se sente: sem chão, sem firmeza, afundando um pouco a cada dia.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "inclinou",
+  "titulo_bloco": "Deus se inclinou",
+  "frase": "Mas olha o que Davi conta: ele clamou, e Deus se inclinou; imagina essa cena, Deus lá do alto se abaixando para ouvir a voz de alguém que está no fundo do poço.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "inclinou",
+  "titulo_bloco": "Deus se inclinou",
+  "frase": "Deus não fica lá em cima gritando para você subir sozinho; Ele se inclina, desce até onde você está, e te tira de lá.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Deus *desce* até onde você está.",
+  "rodape": "ELE NÃO TE DEIXA NO POÇO"
+ },
+ {
+  "bloco": "rocha",
+  "titulo_bloco": "Chão firme de novo",
+  "frase": "E depois Ele faz mais: Ele coloca os seus pés sobre a rocha e firma os seus passos; não é só sair do poço, é ter chão firme de novo, é voltar a caminhar.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "rocha",
+  "titulo_bloco": "Chão firme de novo",
+  "frase": "E o salmo diz que Ele cura os de coração partido e cuida das feridas; cuidar de uma ferida é limpar, é colocar curativo, é tratar com paciência, no tempo certo.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "rocha",
+  "titulo_bloco": "Chão firme de novo",
+  "frase": "Deus é esse médico cuidadoso, que não tem pressa com a sua dor.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "rocha",
+  "titulo_bloco": "Chão firme de novo",
+  "frase": "E repara que Davi esperou com paciência; a cura nem sempre vem de uma vez, às vezes ela vem em camadas, um dia de cada vez, e cada pequeno passo conta diante de Deus.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ajuda",
+  "titulo_bloco": "A corda que Deus joga",
+  "frase": "E lembra, Deus também usa pessoas e profissionais nesse processo de cura; procurar um médico ou um psicólogo pode ser exatamente a corda que Ele está jogando no seu poço.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Pedir ajuda também é *fé*.",
+  "rodape": "CVV · LIGUE 188"
+ },
+ {
+  "bloco": "ajuda",
+  "titulo_bloco": "A corda que Deus joga",
+  "frase": "E se a dor estiver grande demais, liga agora para o CVV, no cento e oitenta e oito; é gratuito, e funciona o dia todo.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "ajuda",
+  "titulo_bloco": "A corda que Deus joga",
+  "frase": "Vamos orar.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Senhor, eu estou clamando a Ti agora; do fundo do poço eu levanto a minha voz, talvez fraca, talvez só um sussurro, mas eu sei que Tu Te inclinas para me ouvir.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Pai, eu me sinto preso: preso em pensamentos que se repetem, numa tristeza que não vai embora, num cansaço que nem o descanso resolve.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Eu já tentei sair sozinho, Senhor, e não consegui; por isso eu Te peço socorro.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Inclina-Te para mim, Senhor, desce até onde eu estou e me tira desse lamaçal; eu não tenho forças para subir, mas Tu tens força para me levantar.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Segura a minha mão e me puxa para fora; coloca os meus pés sobre a rocha, e que eu volte a ter firmeza, vontade de viver, de sonhar e de fazer planos.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Senhor, eu confesso que às vezes eu nem tenho vontade de orar; então recebe estas palavras como o meu clamor, mesmo quando o meu coração parece frio.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "clamo",
+  "titulo_bloco": "Do fundo do poço",
+  "frase": "Firma os meus passos, um de cada vez; eu não preciso correr, Senhor, eu só preciso dar o próximo passo.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Só o próximo *passo*.",
+  "rodape": "UM DE CADA VEZ"
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "Pai, cura o meu coração partido e trata as feridas que me trouxeram até aqui: as perdas que eu não consegui chorar, as palavras duras que eu ouvi, os abandonos e os fracassos.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "Cura as expectativas que não se cumpriram, e coloca o Teu curativo de amor sobre cada uma delas.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "E que o Teu Espírito Santo seja o meu consolador: que Ele me envolva quando eu me sentir vazio, me lembre das Tuas promessas quando eu esquecer, e interceda por mim quando eu não souber orar.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "Me dá também sabedoria para cuidar de mim: que eu durma, que eu me alimente, que eu saia um pouco no sol e converse com alguém.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "Me ajuda a fazer o que está ao meu alcance, e faz Tu o que só Tu podes fazer.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "feridas",
+  "titulo_bloco": "Cura as minhas feridas",
+  "frase": "Se você quer que a gente ore por você, deixa o seu nome nos comentários e escreve: Deus vai me tirar do poço.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Agora, Pai, eu levanto em oração cada pessoa que está ouvindo esta mensagem e que está no fundo do poço; Tu vês cada uma delas, e ninguém está escondido de Ti.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Inclina-Te para cada uma delas hoje: que elas sintam que foram ouvidas, que um raio de luz entre nesse lugar escuro, e que consigam respirar um pouco melhor depois desta oração.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Firma os pés dessas pessoas na rocha, cura os corações partidos e cuida de cada ferida.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "E coloca na boca delas um cântico novo, como Tu fizeste com Davi; que elas voltem a cantar, a sorrir e a ter esperança.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Um cântico *novo*.",
+  "rodape": "SALMO 40:3"
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Eu oro também por quem cuida de alguém com depressão e já não sabe o que fazer; dá paciência, sabedoria e forças, e que essas pessoas também sejam cuidadas.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Protege essas vidas, Senhor, guarda cada uma delas, e que a Tua igreja seja um lugar de acolhimento para quem está sofrendo, e não de julgamento.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Inclina-Te para cada um",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pequenos",
+  "titulo_bloco": "Pequenos passos também são passos",
+  "frase": "Quero te pedir uma coisa: hoje, faz uma coisa pequena por você; abre a janela, toma um copo de água, sai para uma caminhada curta, ou manda uma mensagem para alguém de confiança e diz: eu não estou bem.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pequenos",
+  "titulo_bloco": "Pequenos passos também são passos",
+  "frase": "Pequenos passos também são passos; e se você ainda não procurou ajuda profissional, considera fazer isso esta semana, e se precisar conversar agora, o CVV atende no cento e oitenta e oito.",
+  "tag_visual": "luz_divina",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se esta oração foi um alívio para você, se inscreva no canal e ative o sininho, e deixa o seu like, para que esta oração alcance mais pessoas que estão presas na tristeza.",
+  "tag_visual": "rochedo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração; e compartilha este vídeo com alguém que está passando por isso, porque às vezes a pessoa não pede ajuda, mas recebe com gratidão.",
+  "tag_visual": "nascer_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Deus se inclina para ouvir você, e vai firmar os seus pés na rocha. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "canion",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

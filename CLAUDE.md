@@ -17,7 +17,7 @@ Usado no lote de 10 (`lote10/`, roteiros `roteiro_r01..r10_fonte.txt`). Mais rá
 4. **Alinhar sem Whisper**: `python 01c_externo.py --audio work/rXX/x.wav --roteiro roteiro_rXX.json --outro 10 --texto-final "Escreva amém nos comentários" --tag-final <montanha> --suno-align lote10/align/rXX_full.json` (100% das palavras casam; `--tempo 0.92` se o áudio foi desacelerado com rubberband). O "Escreva amém" do fim também sai em estilo editorial.
 5. **Cenas**: cada vídeo tem paleta própria de tags (diurna e clara). Rever SEMPRE em alta (`lote10/folha_hd.py cenas.json 0 20 saida.jpg`): a miniatura pequena esconde casas, estradas e pessoas. Trocar ruins com `lote10/trocar.py cenas.json id1 id2` (`TAGS_SUB=tag1,tag2` força outras buscas) e conferir com `lote10/novos.py`.
 6. **Render em fila**: `lote10/ativar.sh rXX` copia timeline/cenas/narração para a raiz; `lote10/fila.sh r06 r07 ...` renderiza, mede, faz as cópias e apaga o mestre. Filtro padrão `LOOK=filme` (pretos levantados, quente, grão).
-7. **Extras**: `python lote10/extras.py rXX` (textos em `lote10/meta.py`): srt, capítulos, descrição, 18 tags, thumb A (Inter Black, linhas alinhadas pela base) e thumb B (editorial, mesma linguagem dos versículos). Saída em `out/rXX/`.
+7. **Extras**: `python lote10/extras.py rXX` (textos em `lote10/meta.py`): srt, capítulos, descrição e 18 tags. Saída em `out/rXX/`. Sem thumbs.
 
 ## Fluxo anterior: voz do Suno enviada pelo usuário + imagens do Pexels
 1. **Roteiro** (quando o usuário pede um texto novo): escrever seguindo as regras de conteúdo abaixo. Para colar no Suno:
@@ -50,9 +50,9 @@ O fluxo antigo com voz Cartesia (`01_tts.py --motor cartesia --voz Rafael` + `01
 - Tags de cena: alpes, picos_neve, dolomitas, cordilheira, estrelas_montanha, lago_alpino, paisagem_aerea, lago_montanha, vale_nevoa, montanha, ceu_noturno, lua, nascer_sol, luz_divina, cachoeira, campo_flores, mar_calmo, rio, floresta, alpes_verde, prado, colinas, nuvens, trigo, arvore, por_do_sol, aguia_voo, rocha, canion, rochedo, riacho, lago_nevoa, acima_nuvens. As buscas de vilarejo (prado, colinas, arvore, pastor_ovelhas) e de avião (acima_nuvens) trazem muito clipe proibido: revisar em alta. Para criar busca nova, acrescentar em `QUERIES`, `RELACIONADAS` e `POOL_NATUREZA` (`02_pexels.py`) e em `TAGS` (`build_roteiro.py`).
 - Legenda centralizada, Inter bold branca, palavra por palavra; chuva leve ao fundo; -14 LUFS; no fim "Escreva amém nos comentários".
 - Identidade pedida no lote de 10: imagens claras e diurnas (prados, Alpes verdes, lagos, céu azul), versículos com gráfico editorial que sobe na tela, filtro de filme; violão e piano baixinho, voz masculina falada, oração intensa mas acolhedora; 7 a 10 min.
-- Thumbnails: texto grande em 3-4 linhas alternando branco e amarelo (Inter Black), fundo de montanha ou céu estrelado claro o bastante (estilo dos outliers pesquisados no vidIQ). Fazer A e B.
+- **Thumbnails: não criar** (pedido do usuário em nov/2026). O código ainda existe (`THUMBS=1 python lote10/extras.py rXX`), mas só usar se ele pedir.
 - Título até 100 caracteres. Descrição até 5.000 caracteres, com capítulos e "Imagens: vídeos gratuitos do Pexels." Lembrar de marcar "conteúdo sintético" (voz de IA).
-- Entregar ao final: vídeo (720p e 1080p), thumbs A e B, legenda, e título + 2 alternativas + descrição + 18 tags no chat em texto simples.
+- Entregar ao final: vídeo (720p e 1080p), legenda, e título + 2 alternativas + descrição + 18 tags no chat em texto simples.
 
 ## Vídeos já feitos
 - `oracao_noite_v2` (12 min, Cartesia): medo, contas, família, trabalho, pessoas, saúde — `roteiro16_fonte.txt`.

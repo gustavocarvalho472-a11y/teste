@@ -57,6 +57,9 @@ with open(f"{OUT}/descricao_{V}.txt", "w", encoding="utf-8") as f:
     f.write("\n\nTAGS (18)\n" + ", ".join(M["tags"]) + "\n\n" + "=" * 50 + "\nDESCRIÇÃO\n" + "=" * 50 + "\n\n" + desc)
 
 # ---------- thumbs ----------
+# o usuário não quer thumbs (nov/2026): só gera com THUMBS=1
+if not os.environ.get("THUMBS"):
+    print("ok", OUT, "| título", len(M["titulo"]), "| descrição", len(desc), "| sem thumbs"); sys.exit()
 INTER, SERIF, SERIF_I = "fonts/Inter[opsz,wght].ttf", "fonts/InstrumentSerif-Regular.ttf", "fonts/InstrumentSerif-Italic.ttf"
 def inter(size, var="Black"):
     f = ImageFont.truetype(INTER, size); f.set_variation_by_name(var); return f

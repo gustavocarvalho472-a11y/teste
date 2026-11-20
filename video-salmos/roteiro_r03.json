@@ -1,0 +1,348 @@
+[
+ {
+  "bloco": "aperto",
+  "titulo_bloco": "Deus está vendo",
+  "frase": "Se você está passando por um aperto financeiro agora, se as contas estão chegando mais rápido do que o dinheiro, se você abre o aplicativo do banco com medo do que vai ver, eu quero que você saiba de uma coisa logo no começo.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "aperto",
+  "titulo_bloco": "Deus está vendo",
+  "frase": "Deus está vendo a sua situação, e Ele não é indiferente a ela.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "promessa",
+  "titulo_bloco": "A promessa de provisão",
+  "frase": "Ouça a promessa que está escrita na carta aos Filipenses, capítulo quatro, versículo dezenove.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "promessa",
+  "titulo_bloco": "A promessa de provisão",
+  "frase": "O meu Deus, de acordo com as Suas riquezas em glória, vai suprir, em Cristo Jesus, cada uma das necessidades de vocês.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": true,
+  "referencia": "Filipenses 4:19",
+  "destaque": "Cada *necessidade* suprida.",
+  "rodape": "SEGUNDO AS RIQUEZAS EM GLÓRIA"
+ },
+ {
+  "bloco": "promessa",
+  "titulo_bloco": "A promessa de provisão",
+  "frase": "E o rei Davi, já no fim da vida, escreveu no Salmo trinta e sete, versículo vinte e cinco.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "promessa",
+  "titulo_bloco": "A promessa de provisão",
+  "frase": "Eu fui jovem e agora estou velho, mas nunca vi o justo abandonado, nem os seus filhos pedindo pão.",
+  "tag_visual": "arvore",
+  "mostrar_texto": true,
+  "referencia": "Salmo 37:25",
+  "destaque": "Nunca vi o justo *desamparado*.",
+  "rodape": "FUI MOÇO E JÁ SOU VELHO"
+ },
+ {
+  "bloco": "cada",
+  "titulo_bloco": "Cada uma delas",
+  "frase": "Presta atenção em uma palavra: cada. Deus não disse que vai suprir algumas necessidades, nem só as grandes, nem só as pequenas; Ele disse cada uma.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "cada",
+  "titulo_bloco": "Cada uma delas",
+  "frase": "O aluguel, a conta de luz, o material da escola das crianças, o remédio, a comida da semana e a dívida que te tira o sono; cada uma delas está no radar de Deus.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "cada",
+  "titulo_bloco": "Cada uma delas",
+  "frase": "E repara de onde vem esse suprimento: não vem do seu salário, nem do mercado, nem do humor do seu patrão; vem da riqueza em glória de Deus.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "cada",
+  "titulo_bloco": "Cada uma delas",
+  "frase": "E essa riqueza não entra em crise, não sofre com a inflação e não acaba.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "Davi viveu muita coisa: ele foi pastor de ovelhas, foi perseguido, morou em caverna e foi rei; ele conheceu o pouco e conheceu o muito.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "E depois de tudo isso, ele olhou para trás e disse: eu nunca vi o justo desamparado.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "Talvez você esteja no meio da caverna agora, mas a caverna não é o fim da sua história.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "A caverna não é o *fim* da sua história.",
+  "rodape": "DEUS ESTÁ VENDO"
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "Lembra também de José, que passou pela cova, pela escravidão e pela prisão, e mesmo assim Deus usou a vida dele para guardar o pão de uma nação inteira em tempo de fome.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "Então vamos orar, e colocar diante de Deus essa batalha financeira, com fé e com sinceridade.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "caverna",
+  "titulo_bloco": "A caverna não é o fim",
+  "frase": "E se você está passando por essa luta agora, escreve aqui nos comentários: Deus vai suprir; e deixa o seu pedido de oração com o seu nome, seja uma dívida, um emprego, uma venda ou um negócio.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provedor",
+  "titulo_bloco": "Tu és o meu provedor",
+  "frase": "Senhor meu Deus, eu venho diante de Ti com o coração aberto; Tu conheces a minha situação melhor do que eu.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provedor",
+  "titulo_bloco": "Tu és o meu provedor",
+  "frase": "Tu sabes cada conta que está atrasada, cada número que não fecha, e quantas vezes eu fiz e refiz as contas tentando encontrar uma saída.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provedor",
+  "titulo_bloco": "Tu és o meu provedor",
+  "frase": "Pai, eu não vou fingir que está tudo bem: eu estou preocupado, eu estou com medo, e às vezes eu sinto vergonha e culpa pelas escolhas que eu fiz.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provedor",
+  "titulo_bloco": "Tu és o meu provedor",
+  "frase": "Mas eu venho a Ti, porque Tu és o meu provedor.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "provedor",
+  "titulo_bloco": "Tu és o meu provedor",
+  "frase": "Eu Te peço perdão, Senhor, se em algum momento eu coloquei a minha segurança no dinheiro e não em Ti, se eu gastei sem sabedoria ou se deixei de ouvir a Tua voz; hoje eu entrego a minha vida financeira nas Tuas mãos.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "portas",
+  "titulo_bloco": "Abre portas, Senhor",
+  "frase": "Pai, Tu prometeste suprir cada uma das minhas necessidades, então eu Te apresento cada uma delas agora.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "portas",
+  "titulo_bloco": "Abre portas, Senhor",
+  "frase": "Eu Te apresento as dívidas que me pesam e as contas deste mês, o emprego que eu preciso, o cliente que eu espero, a venda que precisa acontecer e o aumento que eu estou buscando.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "portas",
+  "titulo_bloco": "Abre portas, Senhor",
+  "frase": "Abre portas, Senhor, portas de trabalho e de oportunidade, portas que nenhum homem pode fechar, e coloca a Tua graça sobre mim diante das pessoas certas.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "portas",
+  "titulo_bloco": "Abre portas, Senhor",
+  "frase": "Me dá ideias criativas e sabedoria para administrar o pouco, para que eu seja fiel no pouco e Tu me confies o muito.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "portas",
+  "titulo_bloco": "Abre portas, Senhor",
+  "frase": "Me livra de comparar a minha vida com a de qualquer pessoa, e me ensina a ser grato pelo que eu já tenho, porque a gratidão acalma o coração enquanto a resposta não chega.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica o que está nas minhas mãos",
+  "frase": "E eu Te peço também por provisões inesperadas, por recursos que chegam de onde eu nem imagino.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica o que está nas minhas mãos",
+  "frase": "Assim como Tu alimentaste Elias através dos corvos, e multiplicaste o azeite da viúva, multiplica aquilo que está nas minhas mãos.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica o que está nas minhas mãos",
+  "frase": "Eu declaro que a escassez não vai ter a última palavra na minha casa, e que a minha família não vai passar necessidade.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "multiplica",
+  "titulo_bloco": "Multiplica o que está nas minhas mãos",
+  "frase": "Eu declaro que Tu és Jeová Jiré, o Deus que provê, e aquilo que Tu provês, ninguém pode tirar.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Jeová Jiré, o Deus que *provê*.",
+  "rodape": "EU DECLARO"
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Agora eu quero orar por você que está ouvindo e está no meio dessa batalha.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Senhor, olha para essa pessoa, olha para essa casa, olha para esse negócio que está lutando para sobreviver, para esse pai e essa mãe que estão se desdobrando para colocar comida na mesa.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Acalma o coração dessa pessoa, para que ela consiga dormir esta noite e a angústia não roube a esperança dela.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "E que, a partir de hoje, ela comece a ver sinais da Tua provisão: uma porta que se abre, uma ligação inesperada, uma ajuda que chega na hora certa.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Pai, eu oro especialmente por quem está desempregado agora: renova a esperança dessa pessoa a cada currículo enviado, e não deixa que ela pense que não tem valor.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Quebra toda cadeia de dívidas e todo ciclo de escassez, e levanta essa família para ser abençoada e para ser bênção na vida de outras pessoas.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "pastor_ovelhas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "agir",
+  "titulo_bloco": "Orar e agir",
+  "frase": "Quero te dizer uma coisa antes de terminar: fé não é ficar parado esperando; fé é orar e também agir.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Fé é orar e também *agir*.",
+  "rodape": "UM PASSO DE CADA VEZ"
+ },
+ {
+  "bloco": "agir",
+  "titulo_bloco": "Orar e agir",
+  "frase": "Então hoje, depois dessa oração, faz a sua parte: manda aquele currículo, faz aquela ligação, organiza as contas no papel, e confia que Deus vai fazer a parte Dele, a parte que você não consegue fazer.",
+  "tag_visual": "montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se essa oração tocou você, se inscreva no canal e ative o sininho, e deixa o seu like, para que esta mensagem chegue a mais famílias que estão passando por aperto.",
+  "tag_visual": "trigo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E deixa nos comentários o seu pedido de oração, com o seu nome e a área da sua vida financeira que precisa de um milagre; cada pedido vai ser levado a Deus em oração.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Que o Deus que supre cada necessidade cuide de você e da sua casa. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "campo_flores",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

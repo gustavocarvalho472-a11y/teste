@@ -11,3 +11,7 @@ clips/*.log
 clips/pools_v1.json
 out/amostras_voz/
 out/*.mp3
+out/**/*.mp4
+lote10/teste/
+lote10/*.jpg
+lote10/*.log

@@ -15,9 +15,18 @@ import numpy as np, soundfile as sf
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 W, H, FPS, XF = 1920, 1080, 30, 1.0
-LOOK = ("eq=brightness=-0.06:saturation=0.85,"
-        "colorbalance=rs=0.05:gs=0.01:bs=-0.05:rm=0.04:bm=-0.04,"
-        "vignette=angle=PI/4.5,noise=c0s=5:c0f=t,format=yuv420p")
+LOOKS = {
+ # escuro e quente (vídeos antigos, noturnos)
+ "noite": ("eq=brightness=-0.06:saturation=0.85,"
+           "colorbalance=rs=0.05:gs=0.01:bs=-0.05:rm=0.04:bm=-0.04,"
+           "vignette=angle=PI/4.5,noise=c0s=5:c0f=t,format=yuv420p"),
+ # editorial / filme: pretos levantados, contraste suave, quente nos claros, grão visível
+ "filme": ("eq=contrast=0.93:brightness=0.015:saturation=1.06,"
+           "curves=all='0/0.06 0.25/0.27 0.75/0.76 1/0.96',"
+           "colorbalance=rs=0.03:bs=-0.03:rm=0.02:gm=0.01:bm=-0.03:rh=0.03:bh=-0.04,"
+           "vignette=angle=PI/6,noise=c0s=8:c0f=t+u,format=yuv420p"),
+}
+LOOK = LOOKS[os.environ.get("LOOK", "filme")]
 FONTE = "fonts/Inter[opsz,wght].ttf"  # sem serifa moderna, peso Bold
 WORK = "work"
 for d in (WORK, f"{WORK}/seg", f"{WORK}/txt", f"{WORK}/blocos", "out"): os.makedirs(d, exist_ok=True)
@@ -74,6 +83,8 @@ ScaledBorderAndShadow: yes
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: Main,Inter Legenda,64,&H00FFFFFF,&H66FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,-0.5,0,1,0,0,5,0,0,0,1
 Style: Ref,Inter Legenda Ref,27,&H26FFFFFF,&H26FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,5,0,1,0,0,5,0,0,0,1
+Style: Serif,Instrument Serif,150,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,-1,0,1,0,0,5,0,0,0,1
+Style: Micro,Inter Legenda Ref,22,&H1AFFFFFF,&H1AFFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,6,0,1,0,0,5,0,0,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -113,10 +124,63 @@ def duas_linhas(ws):
         if d < best: best, bi = d, i
     return [ws[:bi], ws[bi:]]
 
+AMARELO = "&H6BD1F2&"  # #F2D16B em BGR
+
+def destaque_ass(txt):
+    """'Ele *cuida* de você' -> palavras entre * em itálico amarelo; quebra em até 2 linhas equilibradas."""
+    ws = txt.split()
+    linhas = duas_linhas(ws) if len(txt) > 20 else [ws]
+    def fmt(w):
+        if w.startswith("*") and w.rstrip(",.;:!?").endswith("*"):
+            core = w.strip("*,.;:!?"); tail = w[len(w.rstrip(",.;:!?")):]
+            return f"{{\\i1\\c{AMARELO}}}{core}{{\\i0\\c&HFFFFFF&}}{tail}"
+        return w
+    return "\\N".join(" ".join(fmt(w) for w in ln) for ln in linhas), "\\N".join(" ".join(w.replace("*", "") for w in ln) for ln in linhas)
+
+def camada_versiculo(f, t0, ev):
+    """Gráfico editorial: grade fina que se desenha, quadradinhos, referência e rodapé em micro caixa alta,
+    frase de destaque em serifa grande subindo e ganhando foco; fundo escurece de leve."""
+    a_s = f["inicio"] - 0.35; b_s = f["fim"] + 0.7
+    a, b = ass_t(a_s - t0), ass_t(b_s - t0); D = int((b_s - a_s) * 1000)
+    Y1, Y2, X1, X2 = 232, 812, 250, 1670
+    ev.append(f"Dialogue: 0,{a},{b},Micro,,0,0,0,,{{\\an7\\pos(0,0)\\p1\\bord0\\1c&H000000&\\1a&HFF&\\t(0,600,\\1a&HC4&)\\t({D-600},{D},\\1a&HFF&)}}m 0 0 l 1920 0 l 1920 1080 l 0 1080{{\\p0}}")
+    for k, y in enumerate((Y1, Y2)):
+        ev.append(f"Dialogue: 1,{a},{b},Micro,,0,0,0,,{{\\an7\\pos(0,{y})\\p1\\bord0\\1c&HFFFFFF&\\1a&H8C&\\fscx0\\t({k*150},{900+k*150},0.6,\\fscx100)\\fad(0,400)}}m 0 0 l 1920 0 l 1920 2 l 0 2{{\\p0}}")
+    for k, x in enumerate((X1, X2)):
+        ev.append(f"Dialogue: 1,{a},{b},Micro,,0,0,0,,{{\\an7\\pos({x},0)\\p1\\bord0\\1c&HFFFFFF&\\1a&H8C&\\fscy0\\t({200+k*150},{1100+k*150},0.6,\\fscy100)\\fad(0,400)}}m 0 0 l 2 0 l 2 1080 l 0 1080{{\\p0}}")
+    for k, (x, y) in enumerate(((X1, Y1), (X2, Y1), (X1, Y2), (X2, Y2))):
+        ev.append(f"Dialogue: 2,{a},{b},Micro,,0,0,0,,{{\\an5\\pos({x+1},{y+1})\\p1\\1a&HFF&\\3c&HFFFFFF&\\3a&HFF&\\bord1.5\\shad0\\t({700+k*90},{1000+k*90},\\3a&H30&)\\fad(0,400)}}m 0 0 l 16 0 l 16 16 l 0 16{{\\p0}}")
+    ref = (f.get("referencia") or "").upper()
+    rod = (f.get("rodape") or "").upper()
+    for txt, an, x in ((ref, 1, X1 + 14), (rod, 3, X2 - 14)):
+        if not txt: continue
+        ev.append(f"Dialogue: 2,{a},{b},Micro,,0,0,0,,{{\\an{an}\\move({x},{Y1-4},{x},{Y1-14},300,1000)\\fad(700,400)\\shad0\\blur0.4}}{txt}")
+    rotulo = (f.get("titulo_bloco") or "").upper()
+    if rotulo:
+        ev.append(f"Dialogue: 2,{a},{b},Micro,,0,0,0,,{{\\an7\\pos({X1+14},{Y2+16})\\fad(900,400)\\shad0}}{rotulo}")
+    selo = "PALAVRA DE DEUS" if f.get("referencia") else "ORAÇÃO"
+    ev.append(f"Dialogue: 2,{a},{b},Micro,,0,0,0,,{{\\an9\\pos({X2-14},{Y2+16})\\fad(900,400)\\shad0}}{selo}")
+    cor, limpo = destaque_ass(f["destaque"])
+    mv = f"\\an5\\move(960,{560},960,{500},0,1100)"
+    ev.append(f"Dialogue: 3,{a},{b},Serif,,0,0,0,,{{{mv}\\fad(600,450)\\1c&H000000&\\1a&H50&\\blur22\\bord0}}{limpo}")
+    ev.append(f"Dialogue: 4,{a},{b},Serif,,0,0,0,,{{{mv}\\fad(600,450)\\blur8\\t(0,900,\\blur0.6)\\fsp6\\t(0,1400,0.5,\\fsp-1)}}{cor}")
+
 def gerar_ass(frases, t0, t1, path):
     ev = []
-    for f in frases:
+    ordem = list(dict.fromkeys(x["bloco"] for x in frases))
+    for i, f in enumerate(frases):
         if f["fim"] < t0 or f["inicio"] > t1: continue
+        verso = bool(f.get("destaque"))
+        if verso: camada_versiculo(f, t0, ev)
+        elif (i == 0 or frases[i - 1]["bloco"] != f["bloco"]) and f.get("titulo_bloco"):
+            # abertura de capítulo: número + título em micro caixa alta, com fio que se desenha
+            n = ordem.index(f["bloco"]) + 1
+            a, b = ass_t(f["inicio"] - 0.2 - t0), ass_t(f["inicio"] + 5.5 - t0)
+            ev.append(f"Dialogue: 2,{a},{b},Micro,,0,0,0,,{{\\an8\\move(960,118,960,106,0,900)\\fad(700,700)\\shad0\\1a&HFF&\\3c&H000000&\\3a&H90&\\bord5\\blur10}}{n:02d}  ·  {f['titulo_bloco'].upper()}")
+            ev.append(f"Dialogue: 3,{a},{b},Micro,,0,0,0,,{{\\an8\\move(960,118,960,106,0,900)\\fad(700,700)\\shad0}}{n:02d}  ·  {f['titulo_bloco'].upper()}")
+            ev.append(f"Dialogue: 3,{a},{b},Micro,,0,0,0,,{{\\an8\\pos(960,92)\\p1\\bord0\\1c&HFFFFFF&\\1a&H60&\\fscx0\\t(200,1200,0.5,\\fscx100)\\fad(0,700)}}m 0 0 l 90 0 l 90 2 l 0 2{{\\p0}}")
+        cy, fs = (930, "\\fs44") if verso else (CY, "")
+        if f.get("so_destaque"): continue  # encerramento: só o título editorial, sem legenda embaixo
         grupos = chunks_da_frase(f["palavras"])
         for gi, g in enumerate(grupos):
             ini = (f["inicio"] - 0.12) if gi == 0 else g[0]["ini"] - 0.04
@@ -135,11 +199,12 @@ def gerar_ass(frases, t0, t1, path):
                 kar.append(" ".join(parts))
             limpo = "\\N".join(" ".join(ln) for ln in linhas)
             a, b = ass_t(ini - t0), ass_t(fim - t0)
-            pos = f"\\an5\\pos({CX},{CY})"
-            ev.append(f"Dialogue: 0,{a},{b},Main,,0,0,0,,{{{pos}{fad}\\1a&HFF&\\3c&H000000&\\3a&H80&\\bord8\\blur18}}{limpo}")
-            ev.append(f"Dialogue: 1,{a},{b},Main,,0,0,0,,{{\\an5\\pos({CX + 2},{CY + 3}){fad}\\1c&H000000&\\1a&H70&\\blur3}}{limpo}")
-            ev.append(f"Dialogue: 2,{a},{b},Main,,0,0,0,,{{{pos}{fad}}}" + "\\N".join(kar))
-        if f["mostrar_texto"] and f["referencia"]:
+            pos = f"\\an5\\pos({CX},{cy}){fs}"
+            L0 = 5 if verso else 0
+            ev.append(f"Dialogue: {L0},{a},{b},Main,,0,0,0,,{{{pos}{fad}\\1a&HFF&\\3c&H000000&\\3a&H80&\\bord8\\blur18}}{limpo}")
+            ev.append(f"Dialogue: {L0+1},{a},{b},Main,,0,0,0,,{{\\an5\\pos({CX + 2},{cy + 3}){fs}{fad}\\1c&H000000&\\1a&H70&\\blur3}}{limpo}")
+            ev.append(f"Dialogue: {L0+2},{a},{b},Main,,0,0,0,,{{{pos}{fad}}}" + "\\N".join(kar))
+        if f["mostrar_texto"] and f["referencia"] and not verso:
             a, b = ass_t(f["inicio"] - 0.12 - t0), ass_t(f["fim"] + 0.45 - t0)
             ref = f["referencia"].upper()
             ev.append(f"Dialogue: 0,{a},{b},Ref,,0,0,0,,{{\\an5\\pos({CX},{CY - 118})\\fad(250,250)\\1a&HFF&\\3a&H70&\\bord6\\blur12}}{ref}")

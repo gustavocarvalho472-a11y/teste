@@ -1,0 +1,1535 @@
+[
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "aperto",
+  "tag": "montanha",
+  "inicio": 0.0,
+  "fim": 6.749,
+  "clip": {
+   "id": 4288017,
+   "tag": "montanha",
+   "duracao": 31,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/a-sea-of-clouds-4288017/",
+   "arquivo": "https://videos.pexels.com/video-files/4288017/4288017-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288017.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "aperto",
+  "tag": "montanha",
+  "inicio": 6.749,
+  "fim": 13.498,
+  "clip": {
+   "id": 27671901,
+   "tag": "montanha",
+   "duracao": 11,
+   "autor": "AP Vibes",
+   "autor_url": "https://www.pexels.com/@apvibes",
+   "url": "https://www.pexels.com/video/a-lake-with-fog-and-mountains-in-the-background-27671901/",
+   "arquivo": "https://videos.pexels.com/video-files/27671901/12200346_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27671901.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "aperto",
+  "tag": "montanha",
+  "inicio": 13.498,
+  "fim": 20.247,
+  "clip": {
+   "id": 28551448,
+   "tag": "montanha",
+   "duracao": 22,
+   "autor": "Jay's Photography",
+   "autor_url": "https://www.pexels.com/@jaysphotography",
+   "url": "https://www.pexels.com/video/4k-drone-video-of-sunrise-above-fog-28551448/",
+   "arquivo": "https://videos.pexels.com/video-files/28551448/12417623_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28551448.mp4"
+  }
+ },
+ {
+  "frases": [
+   1
+  ],
+  "bloco": "aperto",
+  "tag": "trigo",
+  "inicio": 20.247,
+  "fim": 26.863,
+  "clip": {
+   "id": 11355346,
+   "tag": "trigo",
+   "duracao": 9,
+   "autor": "Nastya Gorskaya",
+   "autor_url": "https://www.pexels.com/@nastya-gorskaya-43044020",
+   "url": "https://www.pexels.com/video/crops-waving-on-wind-on-field-11355346/",
+   "arquivo": "https://videos.pexels.com/video-files/11355346/11355346-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11355346.mp4"
+  }
+ },
+ {
+  "frases": [
+   2
+  ],
+  "bloco": "promessa",
+  "tag": "rio",
+  "inicio": 26.863,
+  "fim": 34.858,
+  "clip": {
+   "id": 40153740,
+   "tag": "rio",
+   "duracao": 22,
+   "autor": "Phalgunn Maharishi",
+   "autor_url": "https://www.pexels.com/@phalgunnmaharishi",
+   "url": "https://www.pexels.com/video/gentle-rippled-water-surface-with-reflections-40153740/",
+   "arquivo": "https://videos.pexels.com/video-files/40153740/17150081_2048_1080_50fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/40153740.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "promessa",
+  "tag": "campo_flores",
+  "inicio": 34.858,
+  "fim": 40.627,
+  "clip": {
+   "id": 8642288,
+   "tag": "campo_flores",
+   "duracao": 15,
+   "autor": "Kmeel.com Videos",
+   "autor_url": "https://www.pexels.com/@kmeel",
+   "url": "https://www.pexels.com/video/fields-of-lavender-at-sunset-8642288/",
+   "arquivo": "https://videos.pexels.com/video-files/8642288/8642288-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8642288.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "promessa",
+  "tag": "campo_flores",
+  "inicio": 40.627,
+  "fim": 46.396,
+  "clip": {
+   "id": 9153883,
+   "tag": "campo_flores",
+   "duracao": 23,
+   "autor": "ROMAN ODINTSOV",
+   "autor_url": "https://www.pexels.com/@roman-odintsov",
+   "url": "https://www.pexels.com/video/golden-field-at-sunset-9153883/",
+   "arquivo": "https://videos.pexels.com/video-files/9153883/9153883-hd_2048_1080_30fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/9153883.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "promessa",
+  "tag": "pastor_ovelhas",
+  "inicio": 46.396,
+  "fim": 54.263,
+  "clip": {
+   "id": 17802393,
+   "tag": "campo_flores",
+   "duracao": 19,
+   "autor": "Kenan Turgu\u00e7",
+   "autor_url": "https://www.pexels.com/@kenanturguc",
+   "url": "https://www.pexels.com/video/sunflowers-in-a-field-at-sunset-17802393/",
+   "arquivo": "https://videos.pexels.com/video-files/17802393/17802393-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17802393.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "promessa",
+  "tag": "arvore",
+  "inicio": 54.263,
+  "fim": 58.975,
+  "clip": {
+   "id": 17259017,
+   "tag": "arvore",
+   "duracao": 9,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/a-tree-in-the-middle-of-a-green-valley-17259017/",
+   "arquivo": "https://videos.pexels.com/video-files/17259017/17259017-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17259017.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "promessa",
+  "tag": "arvore",
+  "inicio": 58.975,
+  "fim": 63.688,
+  "clip": {
+   "id": 38452490,
+   "tag": "arvore",
+   "duracao": 18,
+   "autor": "Ashad The Nomadic",
+   "autor_url": "https://www.pexels.com/@ashad-the-nomadic-2156221678",
+   "url": "https://www.pexels.com/video/scenic-tree-by-peaceful-lake-at-sunset-38452490/",
+   "arquivo": "https://videos.pexels.com/video-files/38452490/16329086_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38452490.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "cada",
+  "tag": "trigo",
+  "inicio": 63.688,
+  "fim": 69.395,
+  "clip": {
+   "id": 17831468,
+   "tag": "trigo",
+   "duracao": 10,
+   "autor": "Sururi Ball\u0131da\u011f Director",
+   "autor_url": "https://www.pexels.com/@drector",
+   "url": "https://www.pexels.com/video/a-wheat-field-with-tall-grass-and-a-blue-sky-17831468/",
+   "arquivo": "https://videos.pexels.com/video-files/17831468/17831468-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17831468.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "cada",
+  "tag": "trigo",
+  "inicio": 69.395,
+  "fim": 75.103,
+  "clip": {
+   "id": 30511075,
+   "tag": "trigo",
+   "duracao": 23,
+   "autor": "Melih Akkus",
+   "autor_url": "https://www.pexels.com/@melih-akkus-679376803",
+   "url": "https://www.pexels.com/video/golden-wheat-field-swaying-in-the-breeze-30511075/",
+   "arquivo": "https://videos.pexels.com/video-files/30511075/13071905_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30511075.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "cada",
+  "tag": "rio",
+  "inicio": 75.103,
+  "fim": 81.062,
+  "clip": {
+   "id": 40818282,
+   "tag": "rio",
+   "duracao": 14,
+   "autor": "Evgenij Mikhailov",
+   "autor_url": "https://www.pexels.com/@evgenij-mikhailov-118166450",
+   "url": "https://www.pexels.com/video/serene-forest-stream-flowing-over-mossy-rocks-40818282/",
+   "arquivo": "https://videos.pexels.com/video-files/40818282/17438960_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40818282.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "cada",
+  "tag": "rio",
+  "inicio": 81.062,
+  "fim": 87.022,
+  "clip": {
+   "id": 28899295,
+   "tag": "rio",
+   "duracao": 15,
+   "autor": "Ambam Gorilla",
+   "autor_url": "https://www.pexels.com/@ambam",
+   "url": "https://www.pexels.com/video/aerial-view-of-serene-river-and-forest-landscape-28899295/",
+   "arquivo": "https://videos.pexels.com/video-files/28899295/12509091_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28899295.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "cada",
+  "tag": "campo_flores",
+  "inicio": 87.022,
+  "fim": 92.257,
+  "clip": {
+   "id": 5455558,
+   "tag": "campo_flores",
+   "duracao": 103,
+   "autor": "Wagner Silva",
+   "autor_url": "https://www.pexels.com/@wagner-silva-3645609",
+   "url": "https://www.pexels.com/video/close-up-shot-flowers-on-the-field-5455558/",
+   "arquivo": "https://videos.pexels.com/video-files/5455558/5455558-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5455558.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "cada",
+  "tag": "campo_flores",
+  "inicio": 92.257,
+  "fim": 97.493,
+  "clip": {
+   "id": 17802896,
+   "tag": "campo_flores",
+   "duracao": 12,
+   "autor": "Kenan Turgu\u00e7",
+   "autor_url": "https://www.pexels.com/@kenanturguc",
+   "url": "https://www.pexels.com/video/sunflowers-in-a-field-at-sunset-17802896/",
+   "arquivo": "https://videos.pexels.com/video-files/17802896/17802896-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17802896.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "cada",
+  "tag": "pastor_ovelhas",
+  "inicio": 97.493,
+  "fim": 103.698,
+  "clip": {
+   "id": 8930819,
+   "tag": "pastor_ovelhas",
+   "duracao": 30,
+   "autor": "Altaf Shah",
+   "autor_url": "https://www.pexels.com/@altaf-shah-3143825",
+   "url": "https://www.pexels.com/video/flock-of-sheep-on-a-pasture-land-8930819/",
+   "arquivo": "https://videos.pexels.com/video-files/8930819/8930819-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8930819.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "caverna",
+  "tag": "arvore",
+  "inicio": 103.698,
+  "fim": 108.832,
+  "clip": {
+   "id": 38772785,
+   "tag": "arvore",
+   "duracao": 15,
+   "autor": "Zulfugar Karimov",
+   "autor_url": "https://www.pexels.com/@zulfugarkarimov",
+   "url": "https://www.pexels.com/video/solitary-tree-in-serene-pebble-landscape-38772785/",
+   "arquivo": "https://videos.pexels.com/video-files/38772785/16474252_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38772785.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "caverna",
+  "tag": "arvore",
+  "inicio": 108.832,
+  "fim": 113.966,
+  "clip": {
+   "id": 39212555,
+   "tag": "campo_flores",
+   "duracao": 14,
+   "autor": "Ifham  Khan",
+   "autor_url": "https://www.pexels.com/@ifham-khan-572781978",
+   "url": "https://www.pexels.com/video/tranquil-sunset-over-wildflower-meadow-39212555/",
+   "arquivo": "https://videos.pexels.com/video-files/39212555/16685910_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39212555.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "caverna",
+  "tag": "montanha",
+  "inicio": 113.966,
+  "fim": 120.4,
+  "clip": {
+   "id": 39640328,
+   "tag": "montanha",
+   "duracao": 9,
+   "autor": "Major &Wang",
+   "autor_url": "https://www.pexels.com/@major",
+   "url": "https://www.pexels.com/video/aerial-mountain-mist-at-dawn-39640328/",
+   "arquivo": "https://videos.pexels.com/video-files/39640328/16899121_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39640328.mp4"
+  }
+ },
+ {
+  "frases": [
+   12
+  ],
+  "bloco": "caverna",
+  "tag": "trigo",
+  "inicio": 120.4,
+  "fim": 126.727,
+  "clip": {
+   "id": 4812187,
+   "tag": "trigo",
+   "duracao": 10,
+   "autor": "Pavel Danilyuk",
+   "autor_url": "https://www.pexels.com/@pavel-danilyuk",
+   "url": "https://www.pexels.com/video/wheat-field-4812187/",
+   "arquivo": "https://videos.pexels.com/video-files/4812187/4812187-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4812187.mp4"
+  }
+ },
+ {
+  "frases": [
+   13
+  ],
+  "bloco": "caverna",
+  "tag": "pastor_ovelhas",
+  "inicio": 126.727,
+  "fim": 132.588,
+  "clip": {
+   "id": 15778835,
+   "tag": "pastor_ovelhas",
+   "duracao": 11,
+   "autor": "Ali Demir",
+   "autor_url": "https://www.pexels.com/@ali-demir-209544711",
+   "url": "https://www.pexels.com/video/a-shepherd-and-his-dogs-herding-sheep-and-goats-15778835/",
+   "arquivo": "https://videos.pexels.com/video-files/15778835/15778835-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/15778835.mp4"
+  }
+ },
+ {
+  "frases": [
+   13
+  ],
+  "bloco": "caverna",
+  "tag": "pastor_ovelhas",
+  "inicio": 132.588,
+  "fim": 138.449,
+  "clip": {
+   "id": 32263335,
+   "tag": "pastor_ovelhas",
+   "duracao": 13,
+   "autor": "Polat Eyy\u00fcp Albayrak",
+   "autor_url": "https://www.pexels.com/@pealdesign",
+   "url": "https://www.pexels.com/video/serene-sheep-grazing-in-foggy-pasture-32263335/",
+   "arquivo": "https://videos.pexels.com/video-files/32263335/13759857_1920_1080_100fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32263335.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "caverna",
+  "tag": "rio",
+  "inicio": 138.449,
+  "fim": 146.099,
+  "clip": {
+   "id": 18197835,
+   "tag": "rio",
+   "duracao": 85,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/a-river-with-mist-rising-from-it-at-sunset-18197835/",
+   "arquivo": "https://videos.pexels.com/video-files/18197835/18197835-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/18197835.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "caverna",
+  "tag": "campo_flores",
+  "inicio": 146.099,
+  "fim": 153.562,
+  "clip": {
+   "id": 3736534,
+   "tag": "campo_flores",
+   "duracao": 12,
+   "autor": "NSU MON",
+   "autor_url": "https://www.pexels.com/@nsu-mon-1803488",
+   "url": "https://www.pexels.com/video/close-up-shot-of-a-plant-3736534/",
+   "arquivo": "https://videos.pexels.com/video-files/3736534/3736534-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3736534.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "caverna",
+  "tag": "campo_flores",
+  "inicio": 153.562,
+  "fim": 161.025,
+  "clip": {
+   "id": 13968701,
+   "tag": "campo_flores",
+   "duracao": 9,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/a-blooming-lavender-field-under-a-grey-sky-13968701/",
+   "arquivo": "https://videos.pexels.com/video-files/13968701/13968701-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13968701.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "provedor",
+  "tag": "pastor_ovelhas",
+  "inicio": 161.025,
+  "fim": 165.099,
+  "clip": {
+   "id": 32505678,
+   "tag": "pastor_ovelhas",
+   "duracao": 32,
+   "autor": "Peter Smit",
+   "autor_url": "https://www.pexels.com/@peter-smit-154259136",
+   "url": "https://www.pexels.com/video/flock-of-sheep-grazing-on-a-scenic-hillside-32505678/",
+   "arquivo": "https://videos.pexels.com/video-files/32505678/13861120_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32505678.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "provedor",
+  "tag": "pastor_ovelhas",
+  "inicio": 165.099,
+  "fim": 169.173,
+  "clip": {
+   "id": 8930815,
+   "tag": "pastor_ovelhas",
+   "duracao": 45,
+   "autor": "Altaf Shah",
+   "autor_url": "https://www.pexels.com/@altaf-shah-3143825",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-flock-on-pasture-grass-8930815/",
+   "arquivo": "https://videos.pexels.com/video-files/8930815/8930815-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8930815.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "provedor",
+  "tag": "arvore",
+  "inicio": 169.173,
+  "fim": 174.036,
+  "clip": {
+   "id": 29497669,
+   "tag": "arvore",
+   "duracao": 17,
+   "autor": "Larry Landreth",
+   "autor_url": "https://www.pexels.com/@larry-landreth-2016659713",
+   "url": "https://www.pexels.com/video/serene-landscape-with-lone-tree-and-lake-view-29497669/",
+   "arquivo": "https://videos.pexels.com/video-files/29497669/12697877_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29497669.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "provedor",
+  "tag": "arvore",
+  "inicio": 174.036,
+  "fim": 178.898,
+  "clip": {
+   "id": 28799699,
+   "tag": "arvore",
+   "duracao": 37,
+   "autor": "mohammad fazla Rabby",
+   "autor_url": "https://www.pexels.com/@mohammad-fazla-rabby-1929912308",
+   "url": "https://www.pexels.com/video/serene-green-landscape-with-lone-tree-and-pathway-28799699/",
+   "arquivo": "https://videos.pexels.com/video-files/28799699/12480831_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28799699.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "provedor",
+  "tag": "montanha",
+  "inicio": 178.898,
+  "fim": 184.132,
+  "clip": {
+   "id": 2711147,
+   "tag": "montanha",
+   "duracao": 22,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-foggy-mountain-forest-2711147/",
+   "arquivo": "https://videos.pexels.com/video-files/2711147/2711147-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/2711147.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "provedor",
+  "tag": "montanha",
+  "inicio": 184.132,
+  "fim": 189.367,
+  "clip": {
+   "id": 28303675,
+   "tag": "montanha",
+   "duracao": 27,
+   "autor": "Marius Manzat",
+   "autor_url": "https://www.pexels.com/@marius-manzat-1050580660",
+   "url": "https://www.pexels.com/video/the-sun-rises-over-a-valley-with-mist-in-the-air-28303675/",
+   "arquivo": "https://videos.pexels.com/video-files/28303675/12355987_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28303675.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "provedor",
+  "tag": "trigo",
+  "inicio": 189.367,
+  "fim": 193.991,
+  "clip": {
+   "id": 19120716,
+   "tag": "trigo",
+   "duracao": 10,
+   "autor": "Adem Albayrak",
+   "autor_url": "https://www.pexels.com/@adem-albayrak-383796555",
+   "url": "https://www.pexels.com/video/a-close-up-of-some-tall-grass-19120716/",
+   "arquivo": "https://videos.pexels.com/video-files/19120716/19120716-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/19120716.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "provedor",
+  "tag": "rio",
+  "inicio": 193.991,
+  "fim": 201.153,
+  "clip": {
+   "id": 1858301,
+   "tag": "rio",
+   "duracao": 21,
+   "autor": "Griffin Wooldridge",
+   "autor_url": "https://www.pexels.com/@griffinw",
+   "url": "https://www.pexels.com/video/sunset-by-the-lake-1858301/",
+   "arquivo": "https://videos.pexels.com/video-files/1858301/1858301-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/1858301.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "provedor",
+  "tag": "rio",
+  "inicio": 201.153,
+  "fim": 208.315,
+  "clip": {
+   "id": 12702022,
+   "tag": "rio",
+   "duracao": 15,
+   "autor": "Evgenij Mikhailov",
+   "autor_url": "https://www.pexels.com/@evgenij-mikhailov-118166450",
+   "url": "https://www.pexels.com/video/landscape-with-a-river-in-a-natural-setting-12702022/",
+   "arquivo": "https://videos.pexels.com/video-files/12702022/12702022-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12702022.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "portas",
+  "tag": "campo_flores",
+  "inicio": 208.315,
+  "fim": 215.819,
+  "clip": {
+   "id": 12444627,
+   "tag": "campo_flores",
+   "duracao": 54,
+   "autor": "Matthias Groeneveld",
+   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
+   "url": "https://www.pexels.com/video/cottongrass-flowers-in-a-wetland-at-sunset-12444627/",
+   "arquivo": "https://videos.pexels.com/video-files/12444627/12444627-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12444627.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "portas",
+  "tag": "pastor_ovelhas",
+  "inicio": 215.819,
+  "fim": 221.695,
+  "clip": {
+   "id": 25857441,
+   "tag": "campo_flores",
+   "duracao": 30,
+   "autor": "Marc K",
+   "autor_url": "https://www.pexels.com/@marc-k-2009440",
+   "url": "https://www.pexels.com/video/a-field-with-poppies-and-sun-shining-25857441/",
+   "arquivo": "https://videos.pexels.com/video-files/25857441/11914872_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/25857441.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "portas",
+  "tag": "pastor_ovelhas",
+  "inicio": 221.695,
+  "fim": 227.571,
+  "clip": {
+   "id": 7437643,
+   "tag": "pastor_ovelhas",
+   "duracao": 14,
+   "autor": "ROMAN ODINTSOV",
+   "autor_url": "https://www.pexels.com/@roman-odintsov",
+   "url": "https://www.pexels.com/video/a-flock-of-sheep-7437643/",
+   "arquivo": "https://videos.pexels.com/video-files/7437643/7437643-hd_2048_988_30fps.mp4",
+   "w": 2048,
+   "h": 988,
+   "arquivo_local": "clips/7437643.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "portas",
+  "tag": "arvore",
+  "inicio": 227.571,
+  "fim": 233.106,
+  "clip": {
+   "id": 14284224,
+   "tag": "arvore",
+   "duracao": 15,
+   "autor": "Maciej Cisowski",
+   "autor_url": "https://www.pexels.com/@maciej-cisowski-174297128",
+   "url": "https://www.pexels.com/video/clouds-over-single-tree-on-grassland-14284224/",
+   "arquivo": "https://videos.pexels.com/video-files/14284224/14284224-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/14284224.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "portas",
+  "tag": "arvore",
+  "inicio": 233.106,
+  "fim": 238.642,
+  "clip": {
+   "id": 16737605,
+   "tag": "arvore",
+   "duracao": 10,
+   "autor": "beyzahzah",
+   "autor_url": "https://www.pexels.com/@beyzahzah-89810429",
+   "url": "https://www.pexels.com/video/a-lone-tree-in-a-grassy-field-with-blue-sky-16737605/",
+   "arquivo": "https://videos.pexels.com/video-files/16737605/16737605-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16737605.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "portas",
+  "tag": "montanha",
+  "inicio": 238.642,
+  "fim": 246.416,
+  "clip": {
+   "id": 39194788,
+   "tag": "montanha",
+   "duracao": 20,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-foggy-sunrise-39194788/",
+   "arquivo": "https://videos.pexels.com/video-files/39194788/16677892_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39194788.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "portas",
+  "tag": "arvore",
+  "inicio": 246.416,
+  "fim": 252.24,
+  "clip": {
+   "id": 38610211,
+   "tag": "arvore",
+   "duracao": 21,
+   "autor": "Mytho Digital",
+   "autor_url": "https://www.pexels.com/@mytho",
+   "url": "https://www.pexels.com/video/solitary-tree-in-serene-open-field-landscape-38610211/",
+   "arquivo": "https://videos.pexels.com/video-files/38610211/16398173_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38610211.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "portas",
+  "tag": "arvore",
+  "inicio": 252.24,
+  "fim": 258.064,
+  "clip": {
+   "id": 28347905,
+   "tag": "arvore",
+   "duracao": 8,
+   "autor": "Adolph Haben",
+   "autor_url": "https://www.pexels.com/@adolph-haben-3195450",
+   "url": "https://www.pexels.com/video/a-grassy-hill-with-clouds-in-the-sky-28347905/",
+   "arquivo": "https://videos.pexels.com/video-files/28347905/12364256_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28347905.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "multiplica",
+  "tag": "trigo",
+  "inicio": 258.064,
+  "fim": 264.125,
+  "clip": {
+   "id": 4073698,
+   "tag": "trigo",
+   "duracao": 18,
+   "autor": "martha chinyere",
+   "autor_url": "https://www.pexels.com/@martha-chinyere-2441947",
+   "url": "https://www.pexels.com/video/tall-dry-grasses-swaying-by-the-wind-4073698/",
+   "arquivo": "https://videos.pexels.com/video-files/4073698/4073698-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4073698.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "multiplica",
+  "tag": "rio",
+  "inicio": 264.125,
+  "fim": 268.401,
+  "clip": {
+   "id": 31814513,
+   "tag": "rio",
+   "duracao": 48,
+   "autor": "Tom Sch\u00f6nmann",
+   "autor_url": "https://www.pexels.com/@tom-schonmann-3315378",
+   "url": "https://www.pexels.com/video/serene-sunset-over-a-calm-river-with-trees-31814513/",
+   "arquivo": "https://videos.pexels.com/video-files/31814513/13554945_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/31814513.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "multiplica",
+  "tag": "rio",
+  "inicio": 268.401,
+  "fim": 272.677,
+  "clip": {
+   "id": 34445266,
+   "tag": "rio",
+   "duracao": 28,
+   "autor": "Septimiu Lupea",
+   "autor_url": "https://www.pexels.com/@septimiu-lupea-271955805",
+   "url": "https://www.pexels.com/video/stunning-aerial-view-of-river-at-sunrise-34445266/",
+   "arquivo": "https://videos.pexels.com/video-files/34445266/14595088_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34445266.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "multiplica",
+  "tag": "campo_flores",
+  "inicio": 272.677,
+  "fim": 280.111,
+  "clip": {
+   "id": 39524536,
+   "tag": "campo_flores",
+   "duracao": 22,
+   "autor": "Mohannad Sadek",
+   "autor_url": "https://www.pexels.com/@mohannad-sadek-476185750",
+   "url": "https://www.pexels.com/video/colorful-blooming-flower-in-natural-light-39524536/",
+   "arquivo": "https://videos.pexels.com/video-files/39524536/16839323_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39524536.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "multiplica",
+  "tag": "pastor_ovelhas",
+  "inicio": 280.111,
+  "fim": 284.99,
+  "clip": {
+   "id": 16681521,
+   "tag": "campo_flores",
+   "duracao": 43,
+   "autor": "Matthias Groeneveld",
+   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
+   "url": "https://www.pexels.com/video/a-field-of-orange-tulips-in-the-middle-of-a-cloudy-day-16681521/",
+   "arquivo": "https://videos.pexels.com/video-files/16681521/16681521-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16681521.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "multiplica",
+  "tag": "pastor_ovelhas",
+  "inicio": 284.99,
+  "fim": 289.868,
+  "clip": {
+   "id": 8419435,
+   "tag": "pastor_ovelhas",
+   "duracao": 21,
+   "autor": "Mikhail Nilov",
+   "autor_url": "https://www.pexels.com/@mikhail-nilov",
+   "url": "https://www.pexels.com/video/herd-of-sheep-in-a-field-8419435/",
+   "arquivo": "https://videos.pexels.com/video-files/8419435/8419435-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8419435.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 289.868,
+  "fim": 294.626,
+  "clip": {
+   "id": 17802392,
+   "tag": "campo_flores",
+   "duracao": 13,
+   "autor": "Kenan Turgu\u00e7",
+   "autor_url": "https://www.pexels.com/@kenanturguc",
+   "url": "https://www.pexels.com/video/sunflowers-in-a-field-at-sunset-17802392/",
+   "arquivo": "https://videos.pexels.com/video-files/17802392/17802392-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17802392.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "porvoce",
+  "tag": "montanha",
+  "inicio": 294.626,
+  "fim": 301.203,
+  "clip": {
+   "id": 12454273,
+   "tag": "montanha",
+   "duracao": 18,
+   "autor": "Edward Ng",
+   "autor_url": "https://www.pexels.com/@edward-ng-236639271",
+   "url": "https://www.pexels.com/video/sunlight-over-mountains-12454273/",
+   "arquivo": "https://videos.pexels.com/video-files/12454273/12454273-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12454273.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "porvoce",
+  "tag": "montanha",
+  "inicio": 301.203,
+  "fim": 307.78,
+  "clip": {
+   "id": 5717021,
+   "tag": "montanha",
+   "duracao": 15,
+   "autor": "Ibrahim Bennett",
+   "autor_url": "https://www.pexels.com/@ibrahim-bennett-2187162",
+   "url": "https://www.pexels.com/video/aerial-footage-of-mountains-5717021/",
+   "arquivo": "https://videos.pexels.com/video-files/5717021/5717021-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5717021.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "porvoce",
+  "tag": "trigo",
+  "inicio": 307.78,
+  "fim": 315.385,
+  "clip": {
+   "id": 1003935,
+   "tag": "trigo",
+   "duracao": 18,
+   "autor": "Jose Ignacio",
+   "autor_url": "https://www.pexels.com/@jose-ignacio-375292",
+   "url": "https://www.pexels.com/video/cropland-1003935/",
+   "arquivo": "https://videos.pexels.com/video-files/1003935/1003935-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/1003935.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "rio",
+  "inicio": 315.385,
+  "fim": 321.274,
+  "clip": {
+   "id": 37913139,
+   "tag": "rio",
+   "duracao": 11,
+   "autor": "Sururi Ball\u0131da\u011f Director",
+   "autor_url": "https://www.pexels.com/@drector",
+   "url": "https://www.pexels.com/video/scenic-river-flowing-through-lush-landscape-37913139/",
+   "arquivo": "https://videos.pexels.com/video-files/37913139/16086907_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37913139.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "rio",
+  "inicio": 321.274,
+  "fim": 327.163,
+  "clip": {
+   "id": 39798546,
+   "tag": "rio",
+   "duracao": 8,
+   "autor": "AP Vibes",
+   "autor_url": "https://www.pexels.com/@apvibes",
+   "url": "https://www.pexels.com/video/golden-sunlight-reflecting-on-calming-water-39798546/",
+   "arquivo": "https://videos.pexels.com/video-files/39798546/16973825_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39798546.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 327.163,
+  "fim": 332.8,
+  "clip": {
+   "id": 31484650,
+   "tag": "arvore",
+   "duracao": 16,
+   "autor": "Okan Demiray",
+   "autor_url": "https://www.pexels.com/@okan-demiray-306414780",
+   "url": "https://www.pexels.com/video/scenic-drone-view-of-rolling-green-hills-31484650/",
+   "arquivo": "https://videos.pexels.com/video-files/31484650/13425410_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/31484650.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 332.8,
+  "fim": 338.438,
+  "clip": {
+   "id": 36796037,
+   "tag": "arvore",
+   "duracao": 28,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/lush-green-fields-with-majestic-tree-36796037/",
+   "arquivo": "https://videos.pexels.com/video-files/36796037/15592530_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36796037.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "porvoce",
+  "tag": "campo_flores",
+  "inicio": 338.438,
+  "fim": 343.696,
+  "clip": {
+   "id": 10637669,
+   "tag": "campo_flores",
+   "duracao": 18,
+   "autor": "Kostas Exarhos",
+   "autor_url": "https://www.pexels.com/@kostas-exarhos-144474017",
+   "url": "https://www.pexels.com/video/dandelion-seeds-flying-in-a-field-at-sunset-10637669/",
+   "arquivo": "https://videos.pexels.com/video-files/10637669/10637669-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10637669.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "porvoce",
+  "tag": "campo_flores",
+  "inicio": 343.696,
+  "fim": 348.954,
+  "clip": {
+   "id": 28192101,
+   "tag": "campo_flores",
+   "duracao": 24,
+   "autor": "Faruq Tahir Films",
+   "autor_url": "https://www.pexels.com/@faruq-tahir-films-768583250",
+   "url": "https://www.pexels.com/video/sunset-beautiful-flower-animal-in-sunset-kashful-white-flower-cow-28192101/",
+   "arquivo": "https://videos.pexels.com/video-files/28192101/12322799_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28192101.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "porvoce",
+  "tag": "pastor_ovelhas",
+  "inicio": 348.954,
+  "fim": 351.996,
+  "clip": {
+   "id": 10369564,
+   "tag": "trigo",
+   "duracao": 8,
+   "autor": "Dan Bleden",
+   "autor_url": "https://www.pexels.com/@dan-bleden-64835325",
+   "url": "https://www.pexels.com/video/close-up-on-grain-10369564/",
+   "arquivo": "https://videos.pexels.com/video-files/10369564/10369564-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10369564.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "agir",
+  "tag": "arvore",
+  "inicio": 351.996,
+  "fim": 356.069,
+  "clip": {
+   "id": 38772781,
+   "tag": "arvore",
+   "duracao": 12,
+   "autor": "Zulfugar Karimov",
+   "autor_url": "https://www.pexels.com/@zulfugarkarimov",
+   "url": "https://www.pexels.com/video/lush-green-tree-in-rocky-landscape-38772781/",
+   "arquivo": "https://videos.pexels.com/video-files/38772781/16474243_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38772781.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "agir",
+  "tag": "arvore",
+  "inicio": 356.069,
+  "fim": 360.142,
+  "clip": {
+   "id": 33087077,
+   "tag": "campo_flores",
+   "duracao": 21,
+   "autor": "Boti Von",
+   "autor_url": "https://www.pexels.com/@boti-von-765465658",
+   "url": "https://www.pexels.com/video/stunning-aerial-view-of-sunflower-field-at-sunset-33087077/",
+   "arquivo": "https://videos.pexels.com/video-files/33087077/14103828_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33087077.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "agir",
+  "tag": "montanha",
+  "inicio": 360.142,
+  "fim": 365.671,
+  "clip": {
+   "id": 27671885,
+   "tag": "montanha",
+   "duracao": 17,
+   "autor": "AP Vibes",
+   "autor_url": "https://www.pexels.com/@apvibes",
+   "url": "https://www.pexels.com/video/a-view-of-a-lake-and-mountains-from-above-27671885/",
+   "arquivo": "https://videos.pexels.com/video-files/27671885/12200334_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27671885.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "agir",
+  "tag": "montanha",
+  "inicio": 365.671,
+  "fim": 371.199,
+  "clip": {
+   "id": 30290352,
+   "tag": "montanha",
+   "duracao": 24,
+   "autor": "Lakshay Tanwar",
+   "autor_url": "https://www.pexels.com/@lakshay-tanwar-2148797035",
+   "url": "https://www.pexels.com/video/stunning-sunrise-over-khasi-hills-with-clouds-30290352/",
+   "arquivo": "https://videos.pexels.com/video-files/30290352/12984692_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30290352.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "agir",
+  "tag": "montanha",
+  "inicio": 371.199,
+  "fim": 376.728,
+  "clip": {
+   "id": 4287971,
+   "tag": "montanha",
+   "duracao": 17,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/sea-of-clouds-covering-the-mountain-valley-4287971/",
+   "arquivo": "https://videos.pexels.com/video-files/4287971/4287971-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4287971.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "trigo",
+  "inicio": 376.728,
+  "fim": 382.125,
+  "clip": {
+   "id": 30178060,
+   "tag": "trigo",
+   "duracao": 14,
+   "autor": "\u2020reny aleksa",
+   "autor_url": "https://www.pexels.com/@reny-aleksa-2148586910",
+   "url": "https://www.pexels.com/video/golden-wheat-field-swaying-in-the-breeze-30178060/",
+   "arquivo": "https://videos.pexels.com/video-files/30178060/12940826_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/30178060.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "trigo",
+  "inicio": 382.125,
+  "fim": 387.523,
+  "clip": {
+   "id": 27519713,
+   "tag": "trigo",
+   "duracao": 18,
+   "autor": "AP Vibes",
+   "autor_url": "https://www.pexels.com/@apvibes",
+   "url": "https://www.pexels.com/video/wheat-field-with-blue-sky-in-the-background-27519713/",
+   "arquivo": "https://videos.pexels.com/video-files/27519713/12158323_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27519713.mp4"
+  }
+ },
+ {
+  "frases": [
+   40
+  ],
+  "bloco": "final",
+  "tag": "rio",
+  "inicio": 387.523,
+  "fim": 393.002,
+  "clip": {
+   "id": 12829124,
+   "tag": "rio",
+   "duracao": 31,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/scenery-with-a-river-and-trees-at-sunset-12829124/",
+   "arquivo": "https://videos.pexels.com/video-files/12829124/12829124-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12829124.mp4"
+  }
+ },
+ {
+  "frases": [
+   40
+  ],
+  "bloco": "final",
+  "tag": "rio",
+  "inicio": 393.002,
+  "fim": 398.481,
+  "clip": {
+   "id": 38692404,
+   "tag": "rio",
+   "duracao": 15,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/serene-lakeside-view-with-lush-greenery-38692404/",
+   "arquivo": "https://videos.pexels.com/video-files/38692404/16436628_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38692404.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "campo_flores",
+  "inicio": 398.481,
+  "fim": 405.904,
+  "clip": {
+   "id": 7898831,
+   "tag": "campo_flores",
+   "duracao": 19,
+   "autor": "kifkif13 photos",
+   "autor_url": "https://www.pexels.com/@kifkif13-photos-3614682",
+   "url": "https://www.pexels.com/video/a-field-of-poppy-flowers-7898831/",
+   "arquivo": "https://videos.pexels.com/video-files/7898831/7898831-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7898831.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "campo_flores",
+  "inicio": 405.904,
+  "fim": 413.326,
+  "clip": {
+   "id": 4045307,
+   "tag": "campo_flores",
+   "duracao": 41,
+   "autor": "Michael Scott",
+   "autor_url": "https://www.pexels.com/@michael-scott-2182404",
+   "url": "https://www.pexels.com/video/close-up-shot-of-flowers-in-the-field-4045307/",
+   "arquivo": "https://videos.pexels.com/video-files/4045307/4045307-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4045307.mp4"
+  }
+ },
+ {
+  "frases": [
+   42
+  ],
+  "bloco": "final",
+  "tag": "montanha",
+  "inicio": 413.326,
+  "fim": 418.576,
+  "clip": {
+   "id": 2888383,
+   "tag": "montanha",
+   "duracao": 28,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/low-lying-clouds-covers-the-mountain-side-2888383/",
+   "arquivo": "https://videos.pexels.com/video-files/2888383/2888383-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/2888383.mp4"
+  }
+ },
+ {
+  "frases": [
+   42
+  ],
+  "bloco": "final",
+  "tag": "montanha",
+  "inicio": 418.576,
+  "fim": 423.826,
+  "clip": {
+   "id": 854691,
+   "tag": "montanha",
+   "duracao": 40,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/early-morning-sunrise-and-thick-fog-854691/",
+   "arquivo": "https://videos.pexels.com/video-files/854691/854691-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/854691.mp4"
+  }
+ }
+]

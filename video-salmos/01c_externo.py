@@ -9,7 +9,6 @@ formato que o resto do pipeline espera. O texto exibido é sempre o do roteiro.
 """
 import argparse, json, re, difflib, unicodedata, subprocess
 import numpy as np, soundfile as sf
-from faster_whisper import WhisperModel
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--audio", required=True)
@@ -20,6 +19,10 @@ ap.add_argument("--inicio", type=float, default=1.0)
 ap.add_argument("--outro", type=float, default=12.0, help="segundos depois da voz (música sobe)")
 ap.add_argument("--texto-final", default="")
 ap.add_argument("--tag-final", default="nascer_sol")
+ap.add_argument("--tempo", type=float, default=1.0, help="o áudio foi esticado com este fator (ex.: 0.92); escala os tempos do Suno")
+ap.add_argument("--suno-align", nargs="+", default=None,
+                help="alinhamentos do Suno (audio-lyrics-alignment) da cadeia, em ordem: arq.json[:corte_s] ... "
+                     "o corte é o continue_at da extensão seguinte; dispensa o Whisper")
 a = ap.parse_args()
 
 SR = 48000
@@ -45,14 +48,42 @@ audio = np.concatenate([pad0, x, pad1])
 sf.write("audio/narracao.wav", audio, SR)
 total = len(audio) / SR
 
+class W:
+    def __init__(s, word, start, end): s.word, s.start, s.end = word, start, end
+
+def palavras_suno(specs):
+    """Junta os tokens do Suno (pedaços de palavra) em palavras, aplicando o deslocamento de cada trecho da cadeia."""
+    out, off = [], 0.0
+    for spec in specs:
+        arq, _, corte = spec.partition(":")
+        corte = float(corte) if corte else None
+        chars = []
+        for t in json.load(open(arq))["words"]:
+            if corte is not None and t["start_s"] >= corte: break
+            n = max(1, len(t["word"]))
+            for k, ch in enumerate(t["word"]):
+                a_ = t["start_s"] + (t["end_s"] - t["start_s"]) * k / n
+                chars.append(((ch, (off + a_) / a.tempo, (off + t["start_s"] + (t["end_s"] - t["start_s"]) * (k + 1) / n) / a.tempo)))
+        cur = []
+        for ch in chars + [(" ", 0, 0)]:
+            if ch[0].isspace():
+                if cur: out.append(W("".join(c[0] for c in cur), cur[0][1], cur[-1][2])); cur = []
+            else: cur.append(ch)
+        off += corte if corte is not None else 0
+    return out
+
 # reconhecimento com tempo por palavra
 mono = x.mean(1)
 n16 = int(len(mono) * 16000 / SR)
 y = np.interp(np.linspace(0, len(mono) - 1, n16), np.arange(len(mono)), mono).astype(np.float32)
-model = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=4)
-segs, _ = model.transcribe(y, language="pt", word_timestamps=True, beam_size=5, vad_filter=False,
-                           initial_prompt="Oração antes de dormir, ansiedade, Senhor, Jesus, amém.")
-rec = [w for s in segs for w in (s.words or [])]
+if a.suno_align:
+    rec = palavras_suno(a.suno_align)
+else:
+    from faster_whisper import WhisperModel
+    model = WhisperModel("small", device="cpu", compute_type="int8", cpu_threads=4)
+    segs, _ = model.transcribe(y, language="pt", word_timestamps=True, beam_size=5, vad_filter=False,
+                               initial_prompt="Oração antes de dormir, ansiedade, Senhor, Jesus, amém.")
+    rec = [w for s in segs for w in (s.words or [])]
 
 palavras = [(i, p) for i, f in enumerate(roteiro) for p in f["frase"].split()]
 A = [norm(p) for _, p in palavras]; B = [norm(w.word) for w in rec]
@@ -90,6 +121,7 @@ if a.texto_final:
     ws = a.texto_final.split(); passo = 2.4 / len(ws)
     frases.append({"bloco": frases[-1]["bloco"], "titulo_bloco": frases[-1]["titulo_bloco"], "frase": a.texto_final,
                    "tag_visual": a.tag_final, "mostrar_texto": False, "referencia": None, "idx": len(frases),
+                   "destaque": a.texto_final.replace("amém", "*amém*") + ".", "rodape": "DEIXE O SEU PEDIDO DE ORAÇÃO", "so_destaque": True,
                    "wav": None, "inicio": round(ini, 3), "fim": round(total - 1.0, 3), "duracao": round(total - 1.0 - ini, 3),
                    "palavras": [{"w": w, "ini": round(ini + k * passo, 3), "fim": round(ini + (k + 1) * passo, 3)} for k, w in enumerate(ws)]})
 

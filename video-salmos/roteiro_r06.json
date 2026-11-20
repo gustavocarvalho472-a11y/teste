@@ -1,0 +1,324 @@
+[
+ {
+  "bloco": "noite",
+  "titulo_bloco": "Quando a casa fica quieta",
+  "frase": "A noite costuma ser o momento mais difícil para quem se sente sozinho: o barulho do dia diminui, as luzes se apagam, e é ali, no silêncio, que a solidão aparece mais forte.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "noite",
+  "titulo_bloco": "Quando a casa fica quieta",
+  "frase": "Se você está sentindo isso agora, deita, se acomoda, e deixa esta oração te fazer companhia.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "noite",
+  "titulo_bloco": "Quando a casa fica quieta",
+  "frase": "Você não precisa passar por esta noite sozinho.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Você não precisa passar por esta noite *sozinho*.",
+  "rodape": "ORAÇÃO DA NOITE"
+ },
+ {
+  "bloco": "noite",
+  "titulo_bloco": "Quando a casa fica quieta",
+  "frase": "Talvez hoje ninguém tenha perguntado como você está; então deixa eu te dizer: Deus perguntou, Deus quer saber, e Ele tem todo o tempo do mundo para te ouvir.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "Ouça o que Deus diz no livro de Isaías, capítulo quarenta e um, versículo dez.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "Não tenha medo, porque Eu estou com você; não fique assustado, porque Eu sou o seu Deus; Eu vou te fortalecer, vou te ajudar e vou te sustentar com a Minha mão direita.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": true,
+  "referencia": "Isaías 41:10",
+  "destaque": "Eu *sou* contigo.",
+  "rodape": "NÃO TEMAS · EU TE SUSTENTO"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "E no Salmo sessenta e oito, versículo seis, está escrito.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "Deus faz o solitário morar em família, e liberta os que estavam presos, conduzindo-os para a alegria.",
+  "tag_visual": "lua",
+  "mostrar_texto": true,
+  "referencia": "Salmo 68:6",
+  "destaque": "O solitário vai morar em *família*.",
+  "rodape": "UM LUGAR DE PERTENCIMENTO"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "E Jesus, antes de subir aos céus, deixou esta promessa no evangelho de Mateus, capítulo vinte e oito, versículo vinte.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Eu sou contigo",
+  "frase": "E Eu estou com vocês todos os dias, até o fim dos tempos.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": true,
+  "referencia": "Mateus 28:20",
+  "destaque": "Todos os *dias*.",
+  "rodape": "ATÉ O FIM DOS TEMPOS"
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "Repara como Deus fala de forma pessoal: Eu sou contigo, Eu sou o teu Deus, Eu te fortaleço, Eu te ajudo, Eu te sustento.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "Não é um Deus genérico e distante, que só olha para a multidão; é um Deus que olha para você, que conhece a sua história e sabe o seu nome.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "E tem uma promessa linda no salmo: Deus faz o solitário morar em família, porque Deus é especialista em juntar pessoas.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "Ele colocou Rute ao lado de Noemi, deu a Davi um amigo como Jônatas, e juntou doze homens comuns e fez deles uma família; Ele pode fazer o mesmo na sua vida.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "Até Elias, depois de uma grande vitória, se sentiu sozinho debaixo de uma árvore, e Deus mandou pão, mandou água e o deixou descansar antes de falar com ele.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "E Jesus disse todos os dias: isso inclui os dias bons e os dias ruins, os dias de festa e os dias de silêncio; inclui hoje, e inclui esta noite.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "pessoal",
+  "titulo_bloco": "Um Deus que olha para você",
+  "frase": "Então vamos orar; e se você quiser, escreve nos comentários o seu nome e de onde você está ouvindo, para mostrarmos uns aos outros que ninguém aqui está sozinho, e deixa também o seu pedido de oração.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Senhor, nesta noite eu venho a Ti; o dia acabou, a casa está quieta, e eu sinto falta de alguém, de uma voz, de um abraço, de uma conversa sincera.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Mas eu sei que Tu estás aqui comigo.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Pai, a Tua Palavra diz para eu não temer, porque Tu és comigo; então eu entrego agora o medo de ficar sozinho para sempre, o medo de envelhecer sem ninguém e o medo de não ser amado.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Eu entrego o medo de que ninguém sentiria a minha falta; eu entrego esses medos nas Tuas mãos.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Fortalece o meu coração, Senhor; quando a tristeza vier, me sustenta com a Tua mão, e quando os pensamentos ruins aparecerem, me lembra de que eu sou Teu filho, que eu tenho um Pai e um lar no Teu coração.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "Senhor, Tu conheces a minha história inteira: as pessoas que chegaram e as que foram embora, as despedidas que eu não escolhi e os silêncios que ficaram; cura cada uma dessas ausências.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "saudade",
+  "titulo_bloco": "Sinto falta de alguém",
+  "frase": "E se eu estiver sendo duro demais comigo mesmo, achando que fiquei sozinho porque não presto, arranca essa mentira do meu coração, porque eu sou amado por Ti.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "Me dá uma família",
+  "frase": "Senhor, Tu fazes o solitário morar em família, e eu creio nessa promessa; eu Te peço uma família.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "Me dá uma família",
+  "frase": "Talvez não seja a família que eu perdi, talvez não seja do jeito que eu imaginei, mas eu sei que Tu podes me dar um lugar de pertencimento: amigos de verdade, uma igreja que me acolha, e pessoas com quem eu possa rir, chorar e orar.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "Me dá uma família",
+  "frase": "E se existe alguma coisa em mim que tem afastado as pessoas, me mostra com amor; se eu tenho me fechado por medo de me machucar de novo, me ajuda a abrir o coração, e se eu tenho guardado mágoa, me ajuda a perdoar.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "familia",
+  "titulo_bloco": "Me dá uma família",
+  "frase": "Pai, enquanto as pessoas não chegam, que eu aprenda a desfrutar da Tua companhia; que o meu quarto vire um lugar de encontro contigo, e que o silêncio deixe de ser vazio e passe a ser um espaço de oração.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "Agora, Senhor, eu oro por cada pessoa que está ouvindo esta oração nesta noite: algumas estão no hospital, outras longe de casa, outras acabaram de passar por um término, um luto ou uma mudança.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "E algumas estão sozinhas há tanto tempo que já se acostumaram com a dor.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "Eu oro pelos idosos que passam o dia inteiro sem ouvir a própria voz, e pelos jovens que estão cercados de telas, mas não têm com quem conversar de verdade.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "Pai, visita cada uma delas agora, senta ao lado da cama e coloca a Tua mão sobre a cabeça delas, para que sintam a Tua presença de forma tão real que o coração se aqueça.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "Que esta noite elas durmam em paz, sabendo que Tu estás velando o sono delas; e que amanhã elas acordem com esperança, vendo sinais de que Tu estás agindo: um sorriso, uma conversa, um convite, um reencontro.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "visita",
+  "titulo_bloco": "Visita cada um esta noite",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "repita",
+  "titulo_bloco": "Repita comigo",
+  "frase": "Agora fecha os olhos e repete baixinho comigo: eu não estou sozinho, Deus está comigo todos os dias.",
+  "tag_visual": "por_do_sol",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "repita",
+  "titulo_bloco": "Repita comigo",
+  "frase": "Repete mais uma vez: eu não estou sozinho, Deus está comigo todos os dias; e deixa essa verdade embalar o seu sono.",
+  "tag_visual": "lago_montanha",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Eu *não* estou sozinho.",
+  "rodape": "REPITA COMIGO"
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Boa noite",
+  "frase": "Se esta oração te fez companhia hoje, se inscreva no canal e ative o sininho, para ter sempre uma oração para ouvir antes de dormir; e deixa o seu like, para que esta mensagem chegue a mais pessoas que estão sozinhas nesta noite.",
+  "tag_visual": "lua",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Boa noite",
+  "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração; e se você conhece alguém que mora sozinho, um avô, uma avó, ou um amigo que se mudou para longe, manda este vídeo para essa pessoa e diz que você se lembrou dela.",
+  "tag_visual": "ceu_noturno",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Boa noite",
+  "frase": "Que o Senhor te fortaleça, te ajude e te sustente. Boa noite. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "estrelas_montanha",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

@@ -1,0 +1,1598 @@
+[
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "amanha",
+  "tag": "cordilheira",
+  "inicio": 0.0,
+  "fim": 6.601,
+  "clip": {
+   "id": 34230934,
+   "tag": "cordilheira",
+   "duracao": 23,
+   "autor": "Nikola Toma\u0161i\u0107",
+   "autor_url": "https://www.pexels.com/@nikola-tomasic-58494762",
+   "url": "https://www.pexels.com/video/serene-mountain-sunset-with-dramatic-clouds-34230934/",
+   "arquivo": "https://videos.pexels.com/video-files/34230934/14507043_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34230934.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "amanha",
+  "tag": "cordilheira",
+  "inicio": 6.601,
+  "fim": 13.202,
+  "clip": {
+   "id": 35576528,
+   "tag": "cordilheira",
+   "duracao": 34,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/breathtaking-mountain-sunset-over-clouds-35576528/",
+   "arquivo": "https://videos.pexels.com/video-files/35576528/15075460_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35576528.mp4"
+  }
+ },
+ {
+  "frases": [
+   0
+  ],
+  "bloco": "amanha",
+  "tag": "cordilheira",
+  "inicio": 13.202,
+  "fim": 19.803,
+  "clip": {
+   "id": 16714014,
+   "tag": "cordilheira",
+   "duracao": 40,
+   "autor": "Erhan Day\u0131",
+   "autor_url": "https://www.pexels.com/@moments",
+   "url": "https://www.pexels.com/video/rain-storm-16714014/",
+   "arquivo": "https://videos.pexels.com/video-files/16714014/16714014-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16714014.mp4"
+  }
+ },
+ {
+  "frases": [
+   1
+  ],
+  "bloco": "amanha",
+  "tag": "nascer_sol",
+  "inicio": 19.803,
+  "fim": 24.615,
+  "clip": {
+   "id": 4629398,
+   "tag": "nascer_sol",
+   "duracao": 23,
+   "autor": "Ronald Hayward",
+   "autor_url": "https://www.pexels.com/@haywardfineartphotography",
+   "url": "https://www.pexels.com/video/a-picturesque-seascape-and-golden-hour-4629398/",
+   "arquivo": "https://videos.pexels.com/video-files/4629398/4629398-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4629398.mp4"
+  }
+ },
+ {
+  "frases": [
+   1
+  ],
+  "bloco": "amanha",
+  "tag": "nascer_sol",
+  "inicio": 24.615,
+  "fim": 29.427,
+  "clip": {
+   "id": 3012528,
+   "tag": "nascer_sol",
+   "duracao": 81,
+   "autor": "Magda Ehlers",
+   "autor_url": "https://www.pexels.com/@magda-ehlers-pexels",
+   "url": "https://www.pexels.com/video/slow-motion-footage-of-sea-waves-lapping-on-the-shore-under-cloud-covered-sun-in-the-sky-3012528/",
+   "arquivo": "https://videos.pexels.com/video-files/3012528/3012528-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3012528.mp4"
+  }
+ },
+ {
+  "frases": [
+   2
+  ],
+  "bloco": "palavra",
+  "tag": "campo_flores",
+  "inicio": 29.427,
+  "fim": 36.989,
+  "clip": {
+   "id": 16196458,
+   "tag": "campo_flores",
+   "duracao": 96,
+   "autor": "Anton Atanasov",
+   "autor_url": "https://www.pexels.com/@blooddrainer",
+   "url": "https://www.pexels.com/video/sunset-over-a-field-of-mustard-flowers-16196458/",
+   "arquivo": "https://videos.pexels.com/video-files/16196458/16196458-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16196458.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "palavra",
+  "tag": "nascer_sol",
+  "inicio": 36.989,
+  "fim": 42.047,
+  "clip": {
+   "id": 28859938,
+   "tag": "nascer_sol",
+   "duracao": 20,
+   "autor": "Naga Sumanth L",
+   "autor_url": "https://www.pexels.com/@nagasumanth",
+   "url": "https://www.pexels.com/video/serene-sunrise-over-tranquil-lake-waters-28859938/",
+   "arquivo": "https://videos.pexels.com/video-files/28859938/12497453_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28859938.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "palavra",
+  "tag": "nascer_sol",
+  "inicio": 42.047,
+  "fim": 47.106,
+  "clip": {
+   "id": 18307489,
+   "tag": "nascer_sol",
+   "duracao": 48,
+   "autor": "erfan  haghighi",
+   "autor_url": "https://www.pexels.com/@erfan-haghighi-554391077",
+   "url": "https://www.pexels.com/video/the-sun-rises-over-the-clouds-in-this-photo-18307489/",
+   "arquivo": "https://videos.pexels.com/video-files/18307489/18307489-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/18307489.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "palavra",
+  "tag": "paisagem_aerea",
+  "inicio": 47.106,
+  "fim": 53.975,
+  "clip": {
+   "id": 35247790,
+   "tag": "paisagem_aerea",
+   "duracao": 19,
+   "autor": "Perro Cacahuate",
+   "autor_url": "https://www.pexels.com/@donadie",
+   "url": "https://www.pexels.com/video/epic-aerial-view-of-mountainous-landscape-35247790/",
+   "arquivo": "https://videos.pexels.com/video-files/35247790/14932965_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35247790.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "luz_divina",
+  "inicio": 53.975,
+  "fim": 58.3,
+  "clip": {
+   "id": 33006775,
+   "tag": "luz_divina",
+   "duracao": 22,
+   "autor": "Marianna Sigov",
+   "autor_url": "https://www.pexels.com/@marianna-sigov-2148401730",
+   "url": "https://www.pexels.com/video/dramatic-cloudscape-over-tranquil-ocean-33006775/",
+   "arquivo": "https://videos.pexels.com/video-files/33006775/14066377_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33006775.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "luz_divina",
+  "inicio": 58.3,
+  "fim": 62.624,
+  "clip": {
+   "id": 12742754,
+   "tag": "luz_divina",
+   "duracao": 249,
+   "autor": "Jaxon Matthew Willis",
+   "autor_url": "https://www.pexels.com/@jaxon-matthew-willis-55957128",
+   "url": "https://www.pexels.com/video/the-sun-shining-through-the-clouds-over-a-mountain-landscape-12742754/",
+   "arquivo": "https://videos.pexels.com/video-files/12742754/12742754-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12742754.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "palavra",
+  "tag": "vale_nevoa",
+  "inicio": 62.624,
+  "fim": 67.728,
+  "clip": {
+   "id": 36231963,
+   "tag": "vale_nevoa",
+   "duracao": 20,
+   "autor": "Sergey Guk",
+   "autor_url": "https://www.pexels.com/@gsn-travel",
+   "url": "https://www.pexels.com/video/stunning-sunrise-over-masungi-georeserve-mountains-36231963/",
+   "arquivo": "https://videos.pexels.com/video-files/36231963/15365525_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36231963.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "palavra",
+  "tag": "campo_flores",
+  "inicio": 67.728,
+  "fim": 75.082,
+  "clip": {
+   "id": 5243468,
+   "tag": "campo_flores",
+   "duracao": 14,
+   "autor": "kaboompics",
+   "autor_url": "https://www.pexels.com/@karola-g",
+   "url": "https://www.pexels.com/video/echinops-flowers-on-the-field-5243468/",
+   "arquivo": "https://videos.pexels.com/video-files/5243468/5243468-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5243468.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "consolo",
+  "tag": "cordilheira",
+  "inicio": 75.082,
+  "fim": 81.342,
+  "clip": {
+   "id": 11691978,
+   "tag": "luz_divina",
+   "duracao": 74,
+   "autor": "Justin Stretch",
+   "autor_url": "https://www.pexels.com/@justin-stretch-120058396",
+   "url": "https://www.pexels.com/video/time-lapse-of-clouds-on-sky-11691978/",
+   "arquivo": "https://videos.pexels.com/video-files/11691978/11691978-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11691978.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "consolo",
+  "tag": "cordilheira",
+  "inicio": 81.342,
+  "fim": 87.602,
+  "clip": {
+   "id": 29902011,
+   "tag": "cordilheira",
+   "duracao": 15,
+   "autor": "Dancing Sky",
+   "autor_url": "https://www.pexels.com/@dancing-sky-1842480336",
+   "url": "https://www.pexels.com/video/serene-aerial-view-of-sunset-over-mountains-29902011/",
+   "arquivo": "https://videos.pexels.com/video-files/29902011/12835313_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29902011.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "consolo",
+  "tag": "nascer_sol",
+  "inicio": 87.602,
+  "fim": 92.129,
+  "clip": {
+   "id": 34031135,
+   "tag": "nascer_sol",
+   "duracao": 8,
+   "autor": "Sam McCool",
+   "autor_url": "https://www.pexels.com/@sammccool47",
+   "url": "https://www.pexels.com/video/sunrise-above-moving-clouds-timelapse-34031135/",
+   "arquivo": "https://videos.pexels.com/video-files/34031135/14433799_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34031135.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "consolo",
+  "tag": "nascer_sol",
+  "inicio": 92.129,
+  "fim": 96.655,
+  "clip": {
+   "id": 4288050,
+   "tag": "nascer_sol",
+   "duracao": 18,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/drone-shot-of-the-mountain-peak-during-sunset-4288050/",
+   "arquivo": "https://videos.pexels.com/video-files/4288050/4288050-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288050.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "consolo",
+  "tag": "paisagem_aerea",
+  "inicio": 96.655,
+  "fim": 104.028,
+  "clip": {
+   "id": 17200945,
+   "tag": "paisagem_aerea",
+   "duracao": 24,
+   "autor": "CESAR CASANOVA",
+   "autor_url": "https://www.pexels.com/@sagimedia",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-meadow-and-green-mountains-17200945/",
+   "arquivo": "https://videos.pexels.com/video-files/17200945/17200945-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/17200945.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "consolo",
+  "tag": "luz_divina",
+  "inicio": 104.028,
+  "fim": 109.675,
+  "clip": {
+   "id": 34314811,
+   "tag": "luz_divina",
+   "duracao": 25,
+   "autor": "Alexander F Ungerer",
+   "autor_url": "https://www.pexels.com/@alexander-f-ungerer-157458816",
+   "url": "https://www.pexels.com/video/dramatic-sunset-with-golden-clouds-34314811/",
+   "arquivo": "https://videos.pexels.com/video-files/34314811/14536920_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34314811.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "consolo",
+  "tag": "luz_divina",
+  "inicio": 109.675,
+  "fim": 115.322,
+  "clip": {
+   "id": 39336193,
+   "tag": "luz_divina",
+   "duracao": 11,
+   "autor": "Adit Syahfiar",
+   "autor_url": "https://www.pexels.com/@adit-syahfiar-991235",
+   "url": "https://www.pexels.com/video/dramatic-ocean-sunset-with-sun-rays-39336193/",
+   "arquivo": "https://videos.pexels.com/video-files/39336193/16739483_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39336193.mp4"
+  }
+ },
+ {
+  "frases": [
+   12
+  ],
+  "bloco": "consolo",
+  "tag": "vale_nevoa",
+  "inicio": 115.322,
+  "fim": 119.995,
+  "clip": {
+   "id": 27629631,
+   "tag": "vale_nevoa",
+   "duracao": 41,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/a-sunrise-over-a-foggy-field-with-a-few-trees-27629631/",
+   "arquivo": "https://videos.pexels.com/video-files/27629631/12189033_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27629631.mp4"
+  }
+ },
+ {
+  "frases": [
+   13
+  ],
+  "bloco": "jaestala",
+  "tag": "campo_flores",
+  "inicio": 119.995,
+  "fim": 127.704,
+  "clip": {
+   "id": 5243472,
+   "tag": "campo_flores",
+   "duracao": 21,
+   "autor": "https://kaboompics.com/",
+   "autor_url": "https://www.pexels.com/@karola-g",
+   "url": "https://www.pexels.com/video/close-up-view-of-a-flowers-with-insects-5243472/",
+   "arquivo": "https://videos.pexels.com/video-files/5243472/5243472-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5243472.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "jaestala",
+  "tag": "cordilheira",
+  "inicio": 127.704,
+  "fim": 132.478,
+  "clip": {
+   "id": 13928593,
+   "tag": "cordilheira",
+   "duracao": 30,
+   "autor": "Jatin Verma",
+   "autor_url": "https://www.pexels.com/@jatin-verma-53086164",
+   "url": "https://www.pexels.com/video/clouds-and-sunlight-over-mountains-13928593/",
+   "arquivo": "https://videos.pexels.com/video-files/13928593/13928593-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13928593.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "jaestala",
+  "tag": "cordilheira",
+  "inicio": 132.478,
+  "fim": 137.253,
+  "clip": {
+   "id": 34272090,
+   "tag": "cordilheira",
+   "duracao": 44,
+   "autor": "Gavino Bautista",
+   "autor_url": "https://www.pexels.com/@filmt",
+   "url": "https://www.pexels.com/video/dramatic-sunset-over-mountain-landscape-34272090/",
+   "arquivo": "https://videos.pexels.com/video-files/34272090/14520423_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34272090.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "jaestala",
+  "tag": "vale_nevoa",
+  "inicio": 137.253,
+  "fim": 143.708,
+  "clip": {
+   "id": 4527565,
+   "tag": "vale_nevoa",
+   "duracao": 19,
+   "autor": "ArtHouse Studio",
+   "autor_url": "https://www.pexels.com/@arthousestudio",
+   "url": "https://www.pexels.com/video/drone-footage-of-nature-4527565/",
+   "arquivo": "https://videos.pexels.com/video-files/4527565/4527565-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4527565.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "jaestala",
+  "tag": "vale_nevoa",
+  "inicio": 143.708,
+  "fim": 150.163,
+  "clip": {
+   "id": 36231932,
+   "tag": "vale_nevoa",
+   "duracao": 15,
+   "autor": "Sergey Guk",
+   "autor_url": "https://www.pexels.com/@gsn-travel",
+   "url": "https://www.pexels.com/video/breathtaking-sunrise-over-masungi-mountains-36231932/",
+   "arquivo": "https://videos.pexels.com/video-files/36231932/15365505_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36231932.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "jaestala",
+  "tag": "nascer_sol",
+  "inicio": 150.163,
+  "fim": 155.53,
+  "clip": {
+   "id": 33535611,
+   "tag": "nascer_sol",
+   "duracao": 35,
+   "autor": "Matthias Groeneveld",
+   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
+   "url": "https://www.pexels.com/video/misty-morning-sunrise-over-dwingelderveld-33535611/",
+   "arquivo": "https://videos.pexels.com/video-files/33535611/14259991_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33535611.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "jaestala",
+  "tag": "nascer_sol",
+  "inicio": 155.53,
+  "fim": 160.897,
+  "clip": {
+   "id": 37729101,
+   "tag": "nascer_sol",
+   "duracao": 8,
+   "autor": "Major &Wang",
+   "autor_url": "https://www.pexels.com/@major",
+   "url": "https://www.pexels.com/video/stunning-sunset-over-a-calm-horizon-37729101/",
+   "arquivo": "https://videos.pexels.com/video-files/37729101/16002119_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37729101.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "perdoa",
+  "tag": "paisagem_aerea",
+  "inicio": 160.897,
+  "fim": 167.025,
+  "clip": {
+   "id": 8562902,
+   "tag": "paisagem_aerea",
+   "duracao": 90,
+   "autor": "Aleksei Bitarov",
+   "autor_url": "https://www.pexels.com/@aleksei-bitarov-33841193",
+   "url": "https://www.pexels.com/video/aerial-footage-of-mountains-8562902/",
+   "arquivo": "https://videos.pexels.com/video-files/8562902/8562902-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/8562902.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "perdoa",
+  "tag": "luz_divina",
+  "inicio": 167.025,
+  "fim": 173.314,
+  "clip": {
+   "id": 39527006,
+   "tag": "luz_divina",
+   "duracao": 115,
+   "autor": "JIUN-JE LIN",
+   "autor_url": "https://www.pexels.com/@samlin",
+   "url": "https://www.pexels.com/video/dramatic-sunset-with-clouds-and-sun-rays-39527006/",
+   "arquivo": "https://videos.pexels.com/video-files/39527006/16840469_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39527006.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "perdoa",
+  "tag": "luz_divina",
+  "inicio": 173.314,
+  "fim": 179.603,
+  "clip": {
+   "id": 13141950,
+   "tag": "luz_divina",
+   "duracao": 50,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/sunlight-and-clouds-13141950/",
+   "arquivo": "https://videos.pexels.com/video-files/13141950/13141950-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13141950.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "perdoa",
+  "tag": "vale_nevoa",
+  "inicio": 179.603,
+  "fim": 186.078,
+  "clip": {
+   "id": 4999901,
+   "tag": "luz_divina",
+   "duracao": 16,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/timelapse-footage-of-cloudy-sky-4999901/",
+   "arquivo": "https://videos.pexels.com/video-files/4999901/4999901-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4999901.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "perdoa",
+  "tag": "vale_nevoa",
+  "inicio": 186.078,
+  "fim": 192.553,
+  "clip": {
+   "id": 19905416,
+   "tag": "vale_nevoa",
+   "duracao": 15,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/a-view-of-the-foggy-hills-and-valleys-from-above-19905416/",
+   "arquivo": "https://videos.pexels.com/video-files/19905416/19905416-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/19905416.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "perdoa",
+  "tag": "cordilheira",
+  "inicio": 192.553,
+  "fim": 196.56,
+  "clip": {
+   "id": 33431344,
+   "tag": "cordilheira",
+   "duracao": 10,
+   "autor": "Teju",
+   "autor_url": "https://www.pexels.com/@teju-215592370",
+   "url": "https://www.pexels.com/video/serene-mountain-sunset-with-lush-forest-view-33431344/",
+   "arquivo": "https://videos.pexels.com/video-files/33431344/14227830_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33431344.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "perdoa",
+  "tag": "cordilheira",
+  "inicio": 196.56,
+  "fim": 200.567,
+  "clip": {
+   "id": 38520557,
+   "tag": "cordilheira",
+   "duracao": 46,
+   "autor": "KH\u1ec8 SAY \u0110U",
+   "autor_url": "https://www.pexels.com/@kh-say-du-2155613125",
+   "url": "https://www.pexels.com/video/majestic-sunrise-over-mountain-range-38520557/",
+   "arquivo": "https://videos.pexels.com/video-files/38520557/16358890_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38520557.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "confiar",
+  "tag": "campo_flores",
+  "inicio": 200.567,
+  "fim": 205.327,
+  "clip": {
+   "id": 34213272,
+   "tag": "campo_flores",
+   "duracao": 17,
+   "autor": "md Kamrul Hawlader",
+   "autor_url": "https://www.pexels.com/@md-kamrul-hawlader-2148889505",
+   "url": "https://www.pexels.com/video/beautiful-mustard-field-at-sunset-34213272/",
+   "arquivo": "https://videos.pexels.com/video-files/34213272/14501077_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34213272.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "confiar",
+  "tag": "campo_flores",
+  "inicio": 205.327,
+  "fim": 210.087,
+  "clip": {
+   "id": 20337864,
+   "tag": "campo_flores",
+   "duracao": 11,
+   "autor": "R\u00fcveyda",
+   "autor_url": "https://www.pexels.com/@ruveyda-140435227",
+   "url": "https://www.pexels.com/video/a-plane-flying-over-a-field-of-yellow-flowers-20337864/",
+   "arquivo": "https://videos.pexels.com/video-files/20337864/20337864-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/20337864.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "confiar",
+  "tag": "cordilheira",
+  "inicio": 210.087,
+  "fim": 215.362,
+  "clip": {
+   "id": 38258815,
+   "tag": "cordilheira",
+   "duracao": 10,
+   "autor": "Major &Wang",
+   "autor_url": "https://www.pexels.com/@major",
+   "url": "https://www.pexels.com/video/stunning-sunrise-over-mountainous-landscape-38258815/",
+   "arquivo": "https://videos.pexels.com/video-files/38258815/16244309_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38258815.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "confiar",
+  "tag": "cordilheira",
+  "inicio": 215.362,
+  "fim": 220.637,
+  "clip": {
+   "id": 40128853,
+   "tag": "luz_divina",
+   "duracao": 24,
+   "autor": "Marianna Sigov",
+   "autor_url": "https://www.pexels.com/@marianna-sigov-2148401730",
+   "url": "https://www.pexels.com/video/serene-ocean-view-with-dramatic-clouds-40128853/",
+   "arquivo": "https://videos.pexels.com/video-files/40128853/17135392_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40128853.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "confiar",
+  "tag": "nascer_sol",
+  "inicio": 220.637,
+  "fim": 224.917,
+  "clip": {
+   "id": 854656,
+   "tag": "nascer_sol",
+   "duracao": 28,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-clouds-and-sun-854656/",
+   "arquivo": "https://videos.pexels.com/video-files/854656/854656-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/854656.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "confiar",
+  "tag": "nascer_sol",
+  "inicio": 224.917,
+  "fim": 229.197,
+  "clip": {
+   "id": 4074040,
+   "tag": "nascer_sol",
+   "duracao": 18,
+   "autor": "martha chinyere",
+   "autor_url": "https://www.pexels.com/@martha-chinyere-2441947",
+   "url": "https://www.pexels.com/video/silhouette-video-footage-of-a-mountain-forest-4074040/",
+   "arquivo": "https://videos.pexels.com/video-files/4074040/4074040-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4074040.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "confiar",
+  "tag": "paisagem_aerea",
+  "inicio": 229.197,
+  "fim": 234.185,
+  "clip": {
+   "id": 40294267,
+   "tag": "paisagem_aerea",
+   "duracao": 9,
+   "autor": "Kaan  Keskin",
+   "autor_url": "https://www.pexels.com/@depthofraw",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-rocky-mountain-range-40294267/",
+   "arquivo": "https://videos.pexels.com/video-files/40294267/17212581_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40294267.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "confiar",
+  "tag": "paisagem_aerea",
+  "inicio": 234.185,
+  "fim": 239.172,
+  "clip": {
+   "id": 11449149,
+   "tag": "paisagem_aerea",
+   "duracao": 20,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/aerial-footage-of-snow-covered-mountains-11449149/",
+   "arquivo": "https://videos.pexels.com/video-files/11449149/11449149-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11449149.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "lembrar",
+  "tag": "luz_divina",
+  "inicio": 239.172,
+  "fim": 243.223,
+  "clip": {
+   "id": 4317930,
+   "tag": "luz_divina",
+   "duracao": 16,
+   "autor": "Ilya Klimenko",
+   "autor_url": "https://www.pexels.com/@tact-tm",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-the-sun-covered-with-clouds-4317930/",
+   "arquivo": "https://videos.pexels.com/video-files/4317930/4317930-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4317930.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "lembrar",
+  "tag": "luz_divina",
+  "inicio": 243.223,
+  "fim": 247.274,
+  "clip": {
+   "id": 3842794,
+   "tag": "luz_divina",
+   "duracao": 13,
+   "autor": "Magda Ehlers",
+   "autor_url": "https://www.pexels.com/@magda-ehlers-pexels",
+   "url": "https://www.pexels.com/video/clouds-formation-scattering-the-sun-rays-in-the-sky-3842794/",
+   "arquivo": "https://videos.pexels.com/video-files/3842794/3842794-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3842794.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "lembrar",
+  "tag": "vale_nevoa",
+  "inicio": 247.274,
+  "fim": 252.552,
+  "clip": {
+   "id": 34664530,
+   "tag": "vale_nevoa",
+   "duracao": 24,
+   "autor": "Septimiu Lupea",
+   "autor_url": "https://www.pexels.com/@septimiu-lupea-271955805",
+   "url": "https://www.pexels.com/video/ethereal-mountain-fog-at-sunrise-34664530/",
+   "arquivo": "https://videos.pexels.com/video-files/34664530/14693398_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34664530.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "lembrar",
+  "tag": "vale_nevoa",
+  "inicio": 252.552,
+  "fim": 257.829,
+  "clip": {
+   "id": 16795685,
+   "tag": "vale_nevoa",
+   "duracao": 13,
+   "autor": "AMA RED",
+   "autor_url": "https://www.pexels.com/@ama-red-542780837",
+   "url": "https://www.pexels.com/video/a-view-of-the-mountains-and-valleys-from-a-high-altitude-16795685/",
+   "arquivo": "https://videos.pexels.com/video-files/16795685/16795685-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/16795685.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "lembrar",
+  "tag": "campo_flores",
+  "inicio": 257.829,
+  "fim": 265.048,
+  "clip": {
+   "id": 27918223,
+   "tag": "campo_flores",
+   "duracao": 24,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/sunflowers-in-a-field-at-sunset-27918223/",
+   "arquivo": "https://videos.pexels.com/video-files/27918223/12263576_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27918223.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "lembrar",
+  "tag": "cordilheira",
+  "inicio": 265.048,
+  "fim": 271.329,
+  "clip": {
+   "id": 32156053,
+   "tag": "luz_divina",
+   "duracao": 13,
+   "autor": "Next Up Medya",
+   "autor_url": "https://www.pexels.com/@next-up-medya-1629955735",
+   "url": "https://www.pexels.com/video/dramatic-sunset-with-cloud-patterns-in-sky-32156053/",
+   "arquivo": "https://videos.pexels.com/video-files/32156053/13710421_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32156053.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "lembrar",
+  "tag": "cordilheira",
+  "inicio": 271.329,
+  "fim": 277.61,
+  "clip": {
+   "id": 7964453,
+   "tag": "cordilheira",
+   "duracao": 34,
+   "autor": "Taryn Elliott",
+   "autor_url": "https://www.pexels.com/@taryn-elliott",
+   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-7964453/",
+   "arquivo": "https://videos.pexels.com/video-files/7964453/7964453-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7964453.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "lembrar",
+  "tag": "nascer_sol",
+  "inicio": 277.61,
+  "fim": 283.373,
+  "clip": {
+   "id": 4288028,
+   "tag": "nascer_sol",
+   "duracao": 23,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/sea-of-clouds-at-sunset-4288028/",
+   "arquivo": "https://videos.pexels.com/video-files/4288028/4288028-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288028.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "lembrar",
+  "tag": "nascer_sol",
+  "inicio": 283.373,
+  "fim": 289.136,
+  "clip": {
+   "id": 28972727,
+   "tag": "nascer_sol",
+   "duracao": 22,
+   "autor": "Kevin Kr\u00e4mer",
+   "autor_url": "https://www.pexels.com/@thedog777",
+   "url": "https://www.pexels.com/video/stunning-aerial-sunrise-over-foggy-landscape-28972727/",
+   "arquivo": "https://videos.pexels.com/video-files/28972727/12533582_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28972727.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "lembrar",
+  "tag": "nascer_sol",
+  "inicio": 289.136,
+  "fim": 294.899,
+  "clip": {
+   "id": 5607864,
+   "tag": "nascer_sol",
+   "duracao": 10,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/dark-clouds-formation-in-the-sky-5607864/",
+   "arquivo": "https://videos.pexels.com/video-files/5607864/5607864-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5607864.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "porvoce",
+  "tag": "paisagem_aerea",
+  "inicio": 294.899,
+  "fim": 301.196,
+  "clip": {
+   "id": 5966719,
+   "tag": "paisagem_aerea",
+   "duracao": 28,
+   "autor": "Drone Shots",
+   "autor_url": "https://www.pexels.com/@drone-shots-3301633",
+   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-5966719/",
+   "arquivo": "https://videos.pexels.com/video-files/5966719/5966719-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5966719.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "porvoce",
+  "tag": "paisagem_aerea",
+  "inicio": 301.196,
+  "fim": 307.492,
+  "clip": {
+   "id": 13882653,
+   "tag": "paisagem_aerea",
+   "duracao": 45,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/landscape-of-hills-and-forest-13882653/",
+   "arquivo": "https://videos.pexels.com/video-files/13882653/13882653-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13882653.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "porvoce",
+  "tag": "luz_divina",
+  "inicio": 307.492,
+  "fim": 313.355,
+  "clip": {
+   "id": 10860983,
+   "tag": "luz_divina",
+   "duracao": 32,
+   "autor": "Abdul Wahab",
+   "autor_url": "https://www.pexels.com/@abdul-wahab-163723354",
+   "url": "https://www.pexels.com/video/beautiful-cloudscape-with-sun-10860983/",
+   "arquivo": "https://videos.pexels.com/video-files/10860983/10860983-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10860983.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "porvoce",
+  "tag": "luz_divina",
+  "inicio": 313.355,
+  "fim": 319.218,
+  "clip": {
+   "id": 33737930,
+   "tag": "luz_divina",
+   "duracao": 37,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/dramatic-sunset-over-cloudy-ocean-horizon-33737930/",
+   "arquivo": "https://videos.pexels.com/video-files/33737930/14324385_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33737930.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "porvoce",
+  "tag": "vale_nevoa",
+  "inicio": 319.218,
+  "fim": 327.026,
+  "clip": {
+   "id": 18423730,
+   "tag": "vale_nevoa",
+   "duracao": 59,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/the-sun-is-setting-over-a-field-with-grass-18423730/",
+   "arquivo": "https://videos.pexels.com/video-files/18423730/18423730-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/18423730.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "porvoce",
+  "tag": "vale_nevoa",
+  "inicio": 327.026,
+  "fim": 334.833,
+  "clip": {
+   "id": 29357417,
+   "tag": "luz_divina",
+   "duracao": 16,
+   "autor": "Ilya Pavlenko",
+   "autor_url": "https://www.pexels.com/@ilya-pavlenko-2114601135",
+   "url": "https://www.pexels.com/video/dramatic-sun-and-cloudscape-timelapse-29357417/",
+   "arquivo": "https://videos.pexels.com/video-files/29357417/12651087_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29357417.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "nascer_sol",
+  "inicio": 334.833,
+  "fim": 341.924,
+  "clip": {
+   "id": 5966257,
+   "tag": "nascer_sol",
+   "duracao": 12,
+   "autor": "Jyoti  Pur",
+   "autor_url": "https://www.pexels.com/@jyoti-pur-1340574",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-a-beautiful-sunrise-5966257/",
+   "arquivo": "https://videos.pexels.com/video-files/5966257/5966257-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5966257.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "nascer_sol",
+  "inicio": 341.924,
+  "fim": 349.015,
+  "clip": {
+   "id": 4706606,
+   "tag": "nascer_sol",
+   "duracao": 150,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/sunset-with-cloudy-skies-4706606/",
+   "arquivo": "https://videos.pexels.com/video-files/4706606/4706606-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4706606.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "paisagem_aerea",
+  "inicio": 349.015,
+  "fim": 353.442,
+  "clip": {
+   "id": 13883538,
+   "tag": "paisagem_aerea",
+   "duracao": 35,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/aerial-footage-of-trees-on-mountain-slope-13883538/",
+   "arquivo": "https://videos.pexels.com/video-files/13883538/13883538-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13883538.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "paisagem_aerea",
+  "inicio": 353.442,
+  "fim": 357.869,
+  "clip": {
+   "id": 34361982,
+   "tag": "paisagem_aerea",
+   "duracao": 11,
+   "autor": "Oleksandr Petroniuk",
+   "autor_url": "https://www.pexels.com/@oleksandr-petroniuk-2156010930",
+   "url": "https://www.pexels.com/video/aerial-view-of-tatra-mountain-ridges-in-zakopane-34361982/",
+   "arquivo": "https://videos.pexels.com/video-files/34361982/14557366_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34361982.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "porvoce",
+  "tag": "campo_flores",
+  "inicio": 357.869,
+  "fim": 361.375,
+  "clip": {
+   "id": 12444629,
+   "tag": "campo_flores",
+   "duracao": 77,
+   "autor": "Matthias Groeneveld",
+   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
+   "url": "https://www.pexels.com/video/tracking-shot-of-a-wetland-at-sunset-12444629/",
+   "arquivo": "https://videos.pexels.com/video-files/12444629/12444629-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12444629.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "exercicio",
+  "tag": "cordilheira",
+  "inicio": 361.375,
+  "fim": 367.111,
+  "clip": {
+   "id": 38857442,
+   "tag": "cordilheira",
+   "duracao": 26,
+   "autor": "S.T.B Video Factory",
+   "autor_url": "https://www.pexels.com/@s-t-b-video-factory-575419352",
+   "url": "https://www.pexels.com/video/breathtaking-alpine-sunset-over-mountain-range-38857442/",
+   "arquivo": "https://videos.pexels.com/video-files/38857442/16517631_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38857442.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "exercicio",
+  "tag": "cordilheira",
+  "inicio": 367.111,
+  "fim": 372.846,
+  "clip": {
+   "id": 34199603,
+   "tag": "cordilheira",
+   "duracao": 30,
+   "autor": "Nikola Toma\u0161i\u0107",
+   "autor_url": "https://www.pexels.com/@nikola-tomasic-58494762",
+   "url": "https://www.pexels.com/video/stunning-sunset-over-majestic-mountain-range-34199603/",
+   "arquivo": "https://videos.pexels.com/video-files/34199603/14495327_1920_1080_50fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34199603.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "exercicio",
+  "tag": "nascer_sol",
+  "inicio": 372.846,
+  "fim": 376.981,
+  "clip": {
+   "id": 4288021,
+   "tag": "nascer_sol",
+   "duracao": 20,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/drone-shot-of-mountain-peak-during-sunset-4288021/",
+   "arquivo": "https://videos.pexels.com/video-files/4288021/4288021-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288021.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "exercicio",
+  "tag": "nascer_sol",
+  "inicio": 376.981,
+  "fim": 381.116,
+  "clip": {
+   "id": 13289657,
+   "tag": "nascer_sol",
+   "duracao": 77,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/sun-over-sky-drone-footage-13289657/",
+   "arquivo": "https://videos.pexels.com/video-files/13289657/13289657-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13289657.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "paisagem_aerea",
+  "inicio": 381.116,
+  "fim": 386.739,
+  "clip": {
+   "id": 33848502,
+   "tag": "paisagem_aerea",
+   "duracao": 22,
+   "autor": "Jozef Papp",
+   "autor_url": "https://www.pexels.com/@jozef-papp-2504818",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-mountain-landscape-33848502/",
+   "arquivo": "https://videos.pexels.com/video-files/33848502/14364999_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33848502.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "paisagem_aerea",
+  "inicio": 386.739,
+  "fim": 392.362,
+  "clip": {
+   "id": 34674750,
+   "tag": "luz_divina",
+   "duracao": 17,
+   "autor": "changen chan",
+   "autor_url": "https://www.pexels.com/@changen-chan-475040483",
+   "url": "https://www.pexels.com/video/dramatic-ocean-sunset-with-dark-clouds-34674750/",
+   "arquivo": "https://videos.pexels.com/video-files/34674750/14697225_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34674750.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "luz_divina",
+  "inicio": 392.362,
+  "fim": 398.143,
+  "clip": {
+   "id": 9518870,
+   "tag": "luz_divina",
+   "duracao": 44,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/a-photo-of-a-cloudy-sky-with-some-clouds-9518870/",
+   "arquivo": "https://videos.pexels.com/video-files/9518870/9518870-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/9518870.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "luz_divina",
+  "inicio": 398.143,
+  "fim": 403.923,
+  "clip": {
+   "id": 5858664,
+   "tag": "luz_divina",
+   "duracao": 12,
+   "autor": "Al d'Vilas",
+   "autor_url": "https://www.pexels.com/@vilas",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-moving-clouds-in-the-sky-5858664/",
+   "arquivo": "https://videos.pexels.com/video-files/5858664/5858664-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5858664.mp4"
+  }
+ },
+ {
+  "frases": [
+   40
+  ],
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 403.923,
+  "fim": 410.031,
+  "clip": {
+   "id": 41136437,
+   "tag": "cordilheira",
+   "duracao": 16,
+   "autor": "\uc815\uaddc\uc1a1 Nui MALAMA",
+   "autor_url": "https://www.pexels.com/@nui-malama-169330637",
+   "url": "https://www.pexels.com/video/majestic-mountain-range-at-dusk-41136437/",
+   "arquivo": "https://videos.pexels.com/video-files/41136437/17615053_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/41136437.mp4"
+  }
+ },
+ {
+  "frases": [
+   40
+  ],
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 410.031,
+  "fim": 416.14,
+  "clip": {
+   "id": 29295423,
+   "tag": "cordilheira",
+   "duracao": 9,
+   "autor": "ATUL ASTHANA",
+   "autor_url": "https://www.pexels.com/@atul-asthana-251771129",
+   "url": "https://www.pexels.com/video/stunning-sunset-over-majestic-mountain-range-29295423/",
+   "arquivo": "https://videos.pexels.com/video-files/29295423/12633669_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29295423.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 416.14,
+  "fim": 420.39,
+  "clip": {
+   "id": 27302077,
+   "tag": "cordilheira",
+   "duracao": 54,
+   "autor": "Luz Calor Som",
+   "autor_url": "https://www.pexels.com/@luz-calor-som-99374650",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-mountain-valley-during-nightfall-27302077/",
+   "arquivo": "https://videos.pexels.com/video-files/27302077/12115423_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27302077.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 420.39,
+  "fim": 424.64,
+  "clip": {
+   "id": 38415218,
+   "tag": "luz_divina",
+   "duracao": 12,
+   "autor": "Major &Wang",
+   "autor_url": "https://www.pexels.com/@major",
+   "url": "https://www.pexels.com/video/serene-mountain-landscape-with-sun-rays-38415218/",
+   "arquivo": "https://videos.pexels.com/video-files/38415218/16312769_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38415218.mp4"
+  }
+ }
+]

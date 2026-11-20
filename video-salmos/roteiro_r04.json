@@ -1,0 +1,332 @@
+[
+ {
+  "bloco": "preocupacao",
+  "titulo_bloco": "Quando o dinheiro toma conta de tudo",
+  "frase": "Tem dias em que a preocupação com dinheiro parece tomar conta de tudo: você acorda pensando nisso, passa o dia fazendo contas na cabeça e vai dormir sem saber como vai ser amanhã.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "preocupacao",
+  "titulo_bloco": "Quando o dinheiro toma conta de tudo",
+  "frase": "Se esse é o seu momento, eu quero te convidar a parar por alguns minutos e ouvir o que Jesus tem a dizer para você.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Buscai primeiro o Reino",
+  "frase": "Ouça as palavras de Jesus no evangelho de Mateus, capítulo seis, versículos trinta e um a trinta e três.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Buscai primeiro o Reino",
+  "frase": "Por isso, não fiquem aflitos, perguntando: o que vamos comer, o que vamos beber, ou com que vamos nos vestir? O Pai de vocês, que está nos céus, sabe que vocês precisam de tudo isso.",
+  "tag_visual": "floresta",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:31-32",
+  "destaque": "O Pai *sabe* do que você precisa.",
+  "rodape": "VOSSO PAI CELESTE"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Buscai primeiro o Reino",
+  "frase": "Busquem, em primeiro lugar, o Reino de Deus e a Sua justiça, e todas essas coisas serão acrescentadas a vocês.",
+  "tag_visual": "rio",
+  "mostrar_texto": true,
+  "referencia": "Mateus 6:33",
+  "destaque": "Busque *primeiro* o Reino.",
+  "rodape": "E TUDO SERÁ ACRESCENTADO"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Buscai primeiro o Reino",
+  "frase": "E o apóstolo Paulo escreveu na segunda carta aos Coríntios, capítulo nove, versículo oito.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Buscai primeiro o Reino",
+  "frase": "Deus é poderoso para fazer transbordar sobre vocês toda a graça, para que, tendo sempre o suficiente em tudo, vocês ainda tenham de sobra para toda boa obra.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": true,
+  "referencia": "2 Coríntios 9:8",
+  "destaque": "Uma graça que *transborda*.",
+  "rodape": "O SUFICIENTE EM TUDO"
+ },
+ {
+  "bloco": "sabe",
+  "titulo_bloco": "Deus sabe",
+  "frase": "Jesus fala de coisas muito práticas aqui: comida, bebida e roupa; Ele não está falando de luxo, está falando do básico, do que toda família precisa.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sabe",
+  "titulo_bloco": "Deus sabe",
+  "frase": "E Ele diz uma frase que eu quero que entre fundo no seu coração: o vosso Pai celeste sabe que vocês precisam de todas essas coisas.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sabe",
+  "titulo_bloco": "Deus sabe",
+  "frase": "Deus sabe que você precisa pagar o aluguel, sabe que a geladeira está vazia e sabe que o seu filho precisa de um tênis novo.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sabe",
+  "titulo_bloco": "Deus sabe",
+  "frase": "Ele não está distante da sua realidade; Ele é um Pai, e um bom pai não esquece das necessidades dos filhos.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "sabe",
+  "titulo_bloco": "Deus sabe",
+  "frase": "E repara que Jesus não diz para você deixar de trabalhar ou de planejar; Ele diz para não deixar a aflição governar o seu coração.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "prioridade",
+  "titulo_bloco": "Deus no centro",
+  "frase": "E então Jesus mostra o caminho: buscai em primeiro lugar o Reino. Não é uma troca, como se você comprasse a bênção de Deus; é uma questão de prioridade.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "prioridade",
+  "titulo_bloco": "Deus no centro",
+  "frase": "Quando Deus está no centro, as outras coisas se encaixam; quando Ele está no trono, o dinheiro deixa de ser o seu senhor e volta a ser o que deve ser, uma ferramenta.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "O dinheiro é *ferramenta*, não senhor.",
+  "rodape": "DEUS NO CENTRO"
+ },
+ {
+  "bloco": "prioridade",
+  "titulo_bloco": "Deus no centro",
+  "frase": "Então vamos orar agora, colocar Deus em primeiro lugar e entregar a Ele essa luta.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "primeiro",
+  "titulo_bloco": "Eu Te busco primeiro",
+  "frase": "Pai celeste, eu me aproximo de Ti agora reconhecendo que Tu sabes de tudo o que eu preciso; antes mesmo que eu abra a boca, Tu já conheces cada necessidade da minha casa.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "primeiro",
+  "titulo_bloco": "Eu Te busco primeiro",
+  "frase": "Senhor, eu confesso que tenho me inquietado, perguntando o que vamos comer, como vamos pagar e de onde vai vir o dinheiro, e muitas vezes essas perguntas ocuparam o lugar da minha oração.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "primeiro",
+  "titulo_bloco": "Eu Te busco primeiro",
+  "frase": "Me perdoa, Pai; hoje eu quero Te buscar em primeiro lugar.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "primeiro",
+  "titulo_bloco": "Eu Te busco primeiro",
+  "frase": "Eu coloco o Teu Reino acima das minhas dívidas, a Tua justiça acima do meu medo e a Tua vontade acima dos meus planos, e eu creio na Tua promessa de que todas as outras coisas serão acrescentadas.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "primeiro",
+  "titulo_bloco": "Eu Te busco primeiro",
+  "frase": "Eu também Te entrego o medo de olhar para o futuro e não ver saída; quando a conta não fechar no papel, que a minha fé não feche junto.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "dividas",
+  "titulo_bloco": "Cada dívida pelo nome",
+  "frase": "Senhor, eu Te entrego cada dívida pelo nome: o cartão de crédito, o empréstimo, o cheque especial, as parcelas atrasadas e o nome negativado.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "dividas",
+  "titulo_bloco": "Cada dívida pelo nome",
+  "frase": "Eu Te peço sabedoria para negociar, favor diante dos credores e graça para encontrar acordos justos e um caminho de saída.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "dividas",
+  "titulo_bloco": "Cada dívida pelo nome",
+  "frase": "Tu podes fazer abundar toda a graça sobre mim, então eu Te peço essa graça, Pai: graça para trabalhar, para empreender, para encontrar um emprego digno, e para que o meu trabalho prospere.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contentamento",
+  "titulo_bloco": "Me ensina o contentamento",
+  "frase": "Me ensina também a viver com contentamento, e me livra da comparação, da ansiedade de ter o que os outros têm e das compras que eu faço para preencher um vazio que só Tu podes preencher.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contentamento",
+  "titulo_bloco": "Me ensina o contentamento",
+  "frase": "Me ensina a planejar, a poupar e a ser generoso, mesmo quando é pouco; eu decido honrar a Ti com o que eu tenho, por menor que seja, e confiar que Tu enxergas o que ninguém vê.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "contentamento",
+  "titulo_bloco": "Me ensina o contentamento",
+  "frase": "E se você está acompanhando esta oração e quer declarar a sua fé, escreve agora nos comentários: Deus em primeiro lugar; e deixa o seu pedido de oração com o seu nome.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Senhor, eu levanto agora cada pessoa que está ouvindo esta oração; muitas estão com o nome sujo, com o coração pesado e com vergonha de contar para alguém a situação em que estão.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Pai, tira essa vergonha, e que essas pessoas entendam que a situação financeira não define o valor delas; elas são amadas por Ti, com dinheiro ou sem dinheiro, com dívida ou sem dívida.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "A sua dívida não define o seu *valor*.",
+  "rodape": "AMADO POR DEUS"
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Eu oro também pelos pais e mães que estão escondendo dos filhos o tamanho do aperto e carregando sozinhos esse peso; Senhor, sustenta esses corações e dá a eles descanso.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "E abre caminhos, Senhor: que dívidas sejam renegociadas, que juros sejam reduzidos, que empregos sejam conquistados, que vendas aconteçam e que clientes cheguem.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Eu oro também por quem tem um pequeno negócio e está vendo as portas quase fechando: dá criatividade, dá clientes, dá fôlego, e mostra o próximo passo.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Que a provisão venha de um jeito que só Tu possas receber a glória, e que essas famílias tenham o suficiente em tudo, para que possam também abençoar outras pessoas.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "floresta",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Um passo prático",
+  "frase": "Quero te deixar um passo prático para hoje: separa um momento, pega um papel e escreve todas as suas contas, tudo, sem medo; depois ora sobre essa lista, uma por uma.",
+  "tag_visual": "rio",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Um passo prático",
+  "frase": "Às vezes o que mais assusta é aquilo que a gente não tem coragem de olhar; quando você coloca tudo diante de Deus, o peso diminui e o caminho começa a aparecer.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Um passo prático",
+  "frase": "E enquanto a resposta não chega, cuida da paz da sua casa: conversa com a sua família com sinceridade e orem juntos, porque uma família que ora unida enfrenta o aperto de mãos dadas.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Um passo prático",
+  "frase": "Um passo de cada vez, uma conta de cada vez; Deus não te pede para resolver tudo hoje, Ele te pede para confiar e caminhar.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se essa oração foi uma bênção para você, se inscreva no canal e ative o sininho, deixa o seu like, e compartilha este vídeo com alguém que está passando por aperto financeiro.",
+  "tag_visual": "cachoeira",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E nos comentários, deixa o seu pedido de oração, com o seu nome e a sua necessidade; cada pedido vai ser levado ao Senhor.",
+  "tag_visual": "picos_neve",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Busque primeiro o Reino de Deus, e todas as outras coisas serão acrescentadas. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "dolomitas",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

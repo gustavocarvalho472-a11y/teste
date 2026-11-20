@@ -1,0 +1,350 @@
+[
+ {
+  "bloco": "silencio",
+  "titulo_bloco": "Alguém está olhando para você",
+  "frase": "Talvez você esteja ouvindo esta oração num quarto em silêncio, ou rodeado de gente, mas mesmo assim se sentindo invisível.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "silencio",
+  "titulo_bloco": "Alguém está olhando para você",
+  "frase": "Talvez o telefone não toque há dias, e as mensagens que você manda fiquem sem resposta.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "silencio",
+  "titulo_bloco": "Alguém está olhando para você",
+  "frase": "Se a solidão tem sido a sua companhia, eu quero que você saiba que, neste momento, alguém está olhando para você com amor, e esse alguém é Deus.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele não te deixará",
+  "frase": "Ouça a Palavra do Senhor no livro de Deuteronômio, capítulo trinta e um, versículo oito.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele não te deixará",
+  "frase": "O próprio Senhor vai à sua frente e estará com você; Ele nunca vai te deixar, nem te abandonar. Não tenha medo, nem fique desanimado.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": true,
+  "referencia": "Deuteronômio 31:8",
+  "destaque": "Ele *nunca* vai te deixar.",
+  "rodape": "NÃO TEMAS · NÃO DESANIMES"
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele não te deixará",
+  "frase": "E no Salmo vinte e sete, versículo dez, Davi escreve assim.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "palavra",
+  "titulo_bloco": "Ele não te deixará",
+  "frase": "Ainda que o meu pai e a minha mãe me abandonem, o Senhor me acolherá.",
+  "tag_visual": "rocha",
+  "mostrar_texto": true,
+  "referencia": "Salmo 27:10",
+  "destaque": "O Senhor me *acolherá*.",
+  "rodape": "BRAÇOS ABERTOS"
+ },
+ {
+  "bloco": "acolher",
+  "titulo_bloco": "Acolher é abrir os braços",
+  "frase": "Olha a força dessa palavra: Davi está dizendo que, mesmo se as pessoas mais próximas, as que deveriam estar sempre ali, falharem, Deus não falha.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "acolher",
+  "titulo_bloco": "Acolher é abrir os braços",
+  "frase": "Acolher é abrir os braços, é receber em casa, é dizer: pode entrar, aqui tem lugar para você; e é isso que Deus está fazendo agora.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "acolher",
+  "titulo_bloco": "Acolher é abrir os braços",
+  "frase": "A solidão mente: ela diz que ninguém se importa, diz que você é um peso, e diz que se você sumisse ninguém perceberia.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "A solidão *mente*.",
+  "rodape": "VOCÊ É VISTO"
+ },
+ {
+  "bloco": "acolher",
+  "titulo_bloco": "Acolher é abrir os braços",
+  "frase": "Mas a Palavra de Deus diz outra coisa: Ele não te deixará, Ele não te desamparará, Ele vai adiante de você e também está ao seu lado.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "getsemani",
+  "titulo_bloco": "Jesus também conheceu a solidão",
+  "frase": "Jesus também conheceu a solidão: no momento mais difícil da vida Dele, no jardim do Getsêmani, Ele pediu aos amigos que vigiassem com Ele, e os amigos dormiram.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "getsemani",
+  "titulo_bloco": "Jesus também conheceu a solidão",
+  "frase": "Na cruz, muitos se afastaram; então Ele sabe exatamente o que você está sentindo.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "getsemani",
+  "titulo_bloco": "Jesus também conheceu a solidão",
+  "frase": "Você não está falando com um Deus que não entende, está falando com alguém que já passou por isso.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Ele também *conheceu* a solidão.",
+  "rodape": "GETSÊMANI"
+ },
+ {
+  "bloco": "getsemani",
+  "titulo_bloco": "Jesus também conheceu a solidão",
+  "frase": "E mesmo ali, sozinho no jardim, Jesus não deixou de falar com o Pai; Ele nos ensinou que a oração é o lugar onde a solidão encontra companhia.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "getsemani",
+  "titulo_bloco": "Jesus também conheceu a solidão",
+  "frase": "Vamos orar juntos agora; e se você quiser, escreve nos comentários: eu não estou sozinho; e deixa o seu pedido de oração com o seu nome, porque existe uma família inteira orando junto com você aqui.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Senhor meu Deus, eu venho a Ti com um coração que se sente sozinho.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Tem dias em que o silêncio pesa, e noites em que eu gostaria de ter alguém para conversar, alguém para me abraçar, alguém para perguntar como eu estou de verdade.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Pai, Tu conheces essa dor; Tu sabes quantas vezes eu me senti deixado de lado, quantas vezes eu fui esquecido, e quantas vezes eu fingi que estava tudo bem para não incomodar ninguém.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Hoje eu não quero fingir, eu quero Te dizer a verdade: eu me sinto só.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Mas eu também quero declarar a Tua Palavra: Tu disseste que não me deixarias, nem me desampararias; então, mesmo que eu não sinta, eu escolho crer que Tu estás aqui, neste quarto, ao meu lado agora.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "soseu",
+  "titulo_bloco": "Eu me sinto só",
+  "frase": "Pai, quando a noite chegar e a casa ficar quieta, que eu me lembre de que Tu não dormes, e de que o Teu olhar está sobre mim enquanto eu descanso.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Preenche esse vazio",
+  "frase": "Senhor, preenche esse vazio que nenhuma pessoa conseguiu preencher, e que a Tua presença seja real para mim, nas manhãs difíceis e nas noites longas.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Preenche esse vazio",
+  "frase": "Que eu converse contigo como se conversa com o melhor amigo.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Preenche esse vazio",
+  "frase": "Pai, cura as feridas que me levaram a me isolar: as decepções com amigos, as traições, as rejeições e as portas que se fecharam na minha cara.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "vazio",
+  "titulo_bloco": "Preenche esse vazio",
+  "frase": "Eu entrego cada uma dessas memórias para Ti, e Te peço: tira de mim o medo de me aproximar das pessoas de novo.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "amizades",
+  "titulo_bloco": "Coloca pessoas no meu caminho",
+  "frase": "E Senhor, eu Te peço também por pessoas: amizades verdadeiras, gente que me ame como eu sou, e uma comunidade de fé onde eu possa ser acolhido.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "amizades",
+  "titulo_bloco": "Coloca pessoas no meu caminho",
+  "frase": "Me dá coragem para dar o primeiro passo, para mandar aquela mensagem, para aceitar aquele convite e para entrar por aquela porta.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "amizades",
+  "titulo_bloco": "Coloca pessoas no meu caminho",
+  "frase": "Eu sei que Tu não me criaste para viver isolado, porque Tu mesmo disseste que não é bom que o homem esteja só; então eu creio que Tu vais me cercar de pessoas que vão ser bênção na minha vida, e que eu também vou ser bênção na vida delas.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Agora eu quero orar por você que está me ouvindo: por você que mora sozinho, por você que perdeu alguém que amava e agora a casa ficou vazia, por você que está longe da família, numa cidade estranha.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Por você que está casado, mas se sente sozinho dentro do próprio lar, e por você que é idoso e sente que o mundo se esqueceu de você.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "E se você está sozinho num hospital agora, ou cuidando de alguém e se sentindo esquecido, saiba que esta oração também é por você.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Senhor, abraça cada um deles agora; que o silêncio do quarto seja preenchido pela Tua paz, e que eles saibam que são vistos, lembrados e profundamente amados.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Você é *visto*, lembrado e amado.",
+  "rodape": "UMA FAMÍLIA DE ORAÇÃO"
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Pai, eu oro também por quem perdeu alguém recentemente e ainda põe a mesa para dois, ainda olha para o telefone esperando uma ligação que não vem; consola esse coração com a Tua presença.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "E levanta pessoas para cuidar deles, Pai: que um telefone toque hoje, que uma mensagem chegue, que um convite aconteça; usa a Tua igreja para alcançar quem está sozinho.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "porvoce",
+  "titulo_bloco": "Uma oração por você",
+  "frase": "Em nome de Jesus, amém.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Estenda a mão",
+  "frase": "Antes de ir, quero te propor uma coisa simples: hoje, manda uma mensagem para alguém, alguém de quem você sente falta, alguém com quem perdeu contato, ou alguém que talvez também esteja sozinho.",
+  "tag_visual": "arvore",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Estenda a mão",
+  "frase": "Às vezes, quando a gente estende a mão para alguém, Deus usa isso para curar a nossa própria solidão.",
+  "tag_visual": "nuvens",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "passo",
+  "titulo_bloco": "Estenda a mão",
+  "frase": "E lembra: Deus não mede o seu valor pela quantidade de pessoas ao seu redor; você é precioso para Ele, mesmo nos dias em que ninguém percebe você.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null,
+  "destaque": "Você é *precioso* para Deus.",
+  "rodape": "MESMO QUANDO NINGUÉM PERCEBE"
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "Se essa oração tocou o seu coração, se inscreva no canal e ative o sininho, porque aqui você nunca vai estar sozinho; e deixa o seu like, para que esta mensagem chegue a mais pessoas que se sentem esquecidas.",
+  "tag_visual": "alpes",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração, e se puder, ora também pelo pedido de alguém que comentou antes de você; assim a gente se torna uma família de oração.",
+  "tag_visual": "mar_calmo",
+  "mostrar_texto": false,
+  "referencia": null
+ },
+ {
+  "bloco": "final",
+  "titulo_bloco": "Fica com Deus",
+  "frase": "O Senhor vai adiante de você, e Ele está contigo; Ele não vai te deixar. Até a próxima oração. Fica com Deus.",
+  "tag_visual": "rocha",
+  "mostrar_texto": false,
+  "referencia": null
+ }
+]

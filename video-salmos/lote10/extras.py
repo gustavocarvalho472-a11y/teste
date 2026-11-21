@@ -24,7 +24,9 @@ with open(f"{OUT}/legenda_{V}.srt", "w", encoding="utf-8") as f:
         if len(linhas) > 2:
             meio = len(fr["frase"]) // 2; corte = fr["frase"].rfind(" ", 0, meio + 8)
             linhas = [fr["frase"][:corte], fr["frase"][corte + 1:]]
-        f.write(f"{n}\n{srt_t(fr['inicio'])} --> {srt_t(fr['fim'] + 0.3)}\n" + "\n".join(linhas) + "\n\n")
+        fim = fr["fim"] + 0.3
+        if n < len(frases): fim = max(min(fim, frases[n]["inicio"] - 0.05), fr["fim"])  # sem legenda sobreposta
+        f.write(f"{n}\n{srt_t(fr['inicio'])} --> {srt_t(fim)}\n" + "\n".join(linhas) + "\n\n")
 
 caps, vistos = [], set()
 for fr in frases:

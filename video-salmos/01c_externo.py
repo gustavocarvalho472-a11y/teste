@@ -67,7 +67,14 @@ def palavras_suno(specs):
         cur = []
         for ch in chars + [(" ", 0, 0)]:
             if ch[0].isspace():
-                if cur: out.append(W("".join(c[0] for c in cur), cur[0][1], cur[-1][2])); cur = []
+                if cur:
+                    # o Suno cola a pontuação no começo do token seguinte (".\n\nRep"): ela não conta no tempo
+                    # da palavra, senão o fim da frase estica até o início da próxima e as legendas se sobrepõem
+                    al = [c for c in cur if c[0].isalnum()] or cur
+                    fim = al[-1][2]
+                    for k in range(1, len(al)):  # última sílaba jogada para depois da pausa ('rit' ... 'o')
+                        if al[k][1] - al[k - 1][2] > 0.35: fim = al[k - 1][2] + 0.09 * (len(al) - k); break
+                    out.append(W("".join(c[0] for c in cur), al[0][1], fim)); cur = []
             else: cur.append(ch)
         off += corte if corte is not None else 0
     return out

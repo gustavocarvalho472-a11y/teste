@@ -137,10 +137,10 @@ def destaque_ass(txt):
         return w
     return "\\N".join(" ".join(fmt(w) for w in ln) for ln in linhas), "\\N".join(" ".join(w.replace("*", "") for w in ln) for ln in linhas)
 
-def camada_versiculo(f, t0, ev):
+def camada_versiculo(f, t0, ev, lim=1e9):
     """Gráfico editorial: grade fina que se desenha, quadradinhos, referência e rodapé em micro caixa alta,
     frase de destaque em serifa grande subindo e ganhando foco; fundo escurece de leve."""
-    a_s = f["inicio"] - 0.35; b_s = f["fim"] + 0.7
+    a_s = f["inicio"] - 0.35; b_s = max(min(f["fim"] + 0.7, lim), f["fim"])
     a, b = ass_t(a_s - t0), ass_t(b_s - t0); D = int((b_s - a_s) * 1000)
     Y1, Y2, X1, X2 = 232, 812, 250, 1670
     ev.append(f"Dialogue: 0,{a},{b},Micro,,0,0,0,,{{\\an7\\pos(0,0)\\p1\\bord0\\1c&H000000&\\1a&HFF&\\t(0,600,\\1a&HC4&)\\t({D-600},{D},\\1a&HFF&)}}m 0 0 l 1920 0 l 1920 1080 l 0 1080{{\\p0}}")
@@ -171,7 +171,10 @@ def gerar_ass(frases, t0, t1, path):
     for i, f in enumerate(frases):
         if f["fim"] < t0 or f["inicio"] > t1: continue
         verso = bool(f.get("destaque"))
-        if verso: camada_versiculo(f, t0, ev)
+        # nada desta frase fica na tela quando a próxima aparece (sem legenda por cima de legenda)
+        nx = frases[i + 1] if i + 1 < len(frases) else None
+        lim = (nx["inicio"] - (0.35 if nx.get("destaque") else 0.12)) if nx else 1e9
+        if verso: camada_versiculo(f, t0, ev, lim)
         elif (i == 0 or frases[i - 1]["bloco"] != f["bloco"]) and f.get("titulo_bloco"):
             # abertura de capítulo: número + título em micro caixa alta, com fio que se desenha
             n = ordem.index(f["bloco"]) + 1
@@ -184,7 +187,7 @@ def gerar_ass(frases, t0, t1, path):
         grupos = chunks_da_frase(f["palavras"])
         for gi, g in enumerate(grupos):
             ini = (f["inicio"] - 0.12) if gi == 0 else g[0]["ini"] - 0.04
-            fim = grupos[gi + 1][0]["ini"] - 0.04 if gi + 1 < len(grupos) else f["fim"] + 0.45
+            fim = grupos[gi + 1][0]["ini"] - 0.04 if gi + 1 < len(grupos) else max(min(f["fim"] + 0.45, lim), ini + 0.3)
             fad = f"\\fad({180 if gi == 0 else 0},{220 if gi + 1 == len(grupos) else 0})"
             linhas = duas_linhas([p["w"] for p in g])
             # karaokê: {\kf} com duração até o início da palavra seguinte
@@ -205,7 +208,7 @@ def gerar_ass(frases, t0, t1, path):
             ev.append(f"Dialogue: {L0+1},{a},{b},Main,,0,0,0,,{{\\an5\\pos({CX + 2},{cy + 3}){fs}{fad}\\1c&H000000&\\1a&H70&\\blur3}}{limpo}")
             ev.append(f"Dialogue: {L0+2},{a},{b},Main,,0,0,0,,{{{pos}{fad}}}" + "\\N".join(kar))
         if f["mostrar_texto"] and f["referencia"] and not verso:
-            a, b = ass_t(f["inicio"] - 0.12 - t0), ass_t(f["fim"] + 0.45 - t0)
+            a, b = ass_t(f["inicio"] - 0.12 - t0), ass_t(max(min(f["fim"] + 0.45, lim), f["inicio"] + 0.3) - t0)
             ref = f["referencia"].upper()
             ev.append(f"Dialogue: 0,{a},{b},Ref,,0,0,0,,{{\\an5\\pos({CX},{CY - 118})\\fad(250,250)\\1a&HFF&\\3a&H70&\\bord6\\blur12}}{ref}")
             ev.append(f"Dialogue: 1,{a},{b},Ref,,0,0,0,,{{\\an5\\pos({CX},{CY - 118})\\fad(250,250)}}{ref}")

@@ -3,1197 +3,1197 @@
   "frases": [
    0
   ],
-  "bloco": "cansaco",
-  "tag": "picos_neve",
+  "bloco": "vazio",
+  "tag": "cordilheira",
   "inicio": 0.0,
-  "fim": 6.982,
+  "fim": 7.847,
   "clip": {
-   "id": 37590733,
-   "tag": "picos_neve",
-   "duracao": 11,
-   "autor": "Giuseppe Paoletti",
-   "autor_url": "https://www.pexels.com/@giusxpe",
-   "url": "https://www.pexels.com/video/aerial-view-of-snow-capped-mountain-summit-37590733/",
-   "arquivo": "https://videos.pexels.com/video-files/37590733/15930954_1920_1080_30fps.mp4",
+   "id": 12612370,
+   "tag": "cordilheira",
+   "duracao": 14,
+   "autor": "Ethan Kunis",
+   "autor_url": "https://www.pexels.com/@ethankunisstudios",
+   "url": "https://www.pexels.com/video/scenery-with-mountains-seen-from-a-drone-12612370/",
+   "arquivo": "https://videos.pexels.com/video-files/12612370/12612370-hd_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/37590733.mp4"
+   "arquivo_local": "clips/12612370.mp4"
   }
  },
  {
   "frases": [
    0
   ],
-  "bloco": "cansaco",
-  "tag": "picos_neve",
-  "inicio": 6.982,
-  "fim": 13.964,
+  "bloco": "vazio",
+  "tag": "cordilheira",
+  "inicio": 7.847,
+  "fim": 15.694,
   "clip": {
-   "id": 37014696,
-   "tag": "picos_neve",
-   "duracao": 10,
-   "autor": "Gylfi Gylfason",
-   "autor_url": "https://www.pexels.com/@just-icelandic",
-   "url": "https://www.pexels.com/video/dramatic-winter-sunset-over-snowy-mountains-37014696/",
-   "arquivo": "https://videos.pexels.com/video-files/37014696/15682303_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/37014696.mp4"
-  }
- },
- {
-  "frases": [
-   1
-  ],
-  "bloco": "cansaco",
-  "tag": "lago_nevoa",
-  "inicio": 13.964,
-  "fim": 18.436,
-  "clip": {
-   "id": 28760855,
-   "tag": "lago_nevoa",
-   "duracao": 9,
-   "autor": "Silvia C\u00e1rcamo",
-   "autor_url": "https://www.pexels.com/@silvia-carcamo-637661752",
-   "url": "https://www.pexels.com/video/serene-sunrise-over-misty-lake-28760855/",
-   "arquivo": "https://videos.pexels.com/video-files/28760855/12470255_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28760855.mp4"
-  }
- },
- {
-  "frases": [
-   1
-  ],
-  "bloco": "cansaco",
-  "tag": "lago_nevoa",
-  "inicio": 18.436,
-  "fim": 22.907,
-  "clip": {
-   "id": 14176361,
-   "tag": "lago_nevoa",
-   "duracao": 63,
-   "autor": "Desmond Smith",
-   "autor_url": "https://www.pexels.com/@desmond-smith-62199283",
-   "url": "https://www.pexels.com/video/wood-on-lakeside-14176361/",
-   "arquivo": "https://videos.pexels.com/video-files/14176361/14176361-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14176361.mp4"
-  }
- },
- {
-  "frases": [
-   2
-  ],
-  "bloco": "cansaco",
-  "tag": "riacho",
-  "inicio": 22.907,
-  "fim": 27.591,
-  "clip": {
-   "id": 12075596,
-   "tag": "riacho",
-   "duracao": 59,
-   "autor": "Al Wilkinson",
-   "autor_url": "https://www.pexels.com/@al-wilkinson-191862116",
-   "url": "https://www.pexels.com/video/flowing-water-in-creek-over-stones-12075596/",
-   "arquivo": "https://videos.pexels.com/video-files/12075596/12075596-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/12075596.mp4"
-  }
- },
- {
-  "frases": [
-   2
-  ],
-  "bloco": "cansaco",
-  "tag": "riacho",
-  "inicio": 27.591,
-  "fim": 32.275,
-  "clip": {
-   "id": 38863867,
-   "tag": "riacho",
+   "id": 40854509,
+   "tag": "cordilheira",
    "duracao": 8,
-   "autor": "\u9ad8 \u957f\u534e",
-   "autor_url": "https://www.pexels.com/@2160634325",
-   "url": "https://www.pexels.com/video/tranquil-stream-flowing-over-rocks-in-forest-38863867/",
-   "arquivo": "https://videos.pexels.com/video-files/38863867/16520342_1920_1080_25fps.mp4",
+   "autor": "J\u0119drzej Koralewski",
+   "autor_url": "https://www.pexels.com/@jedrzej-koralewski-14125120",
+   "url": "https://www.pexels.com/video/dramatic-dolomites-at-sunset-40854509/",
+   "arquivo": "https://videos.pexels.com/video-files/40854509/17460575_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/38863867.mp4"
+   "arquivo_local": "clips/40854509.mp4"
   }
  },
  {
   "frases": [
-   3
+   1
   ],
-  "bloco": "palavra",
-  "tag": "floresta",
-  "inicio": 32.275,
-  "fim": 36.678,
+  "bloco": "vazio",
+  "tag": "acima_nuvens",
+  "inicio": 15.694,
+  "fim": 23.102,
   "clip": {
-   "id": 31807866,
-   "tag": "floresta",
-   "duracao": 21,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/peaceful-sunlit-forest-scene-in-drenthe-31807866/",
-   "arquivo": "https://videos.pexels.com/video-files/31807866/13551628_1920_1080_60fps.mp4",
+   "id": 33669620,
+   "tag": "nuvens",
+   "duracao": 13,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/bright-blue-sky-with-fluffy-clouds-33669620/",
+   "arquivo": "https://videos.pexels.com/video-files/33669620/14305048_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/31807866.mp4"
+   "arquivo_local": "clips/33669620.mp4"
   }
  },
  {
   "frases": [
-   3
+   2
   ],
-  "bloco": "palavra",
-  "tag": "floresta",
-  "inicio": 36.678,
-  "fim": 41.082,
+  "bloco": "vazio",
+  "tag": "aguia_voo",
+  "inicio": 23.102,
+  "fim": 27.996,
   "clip": {
-   "id": 5962250,
-   "tag": "floresta",
-   "duracao": 26,
-   "autor": "Diego  Santamaria",
-   "autor_url": "https://www.pexels.com/@diego-santamaria-1079829",
-   "url": "https://www.pexels.com/video/trees-and-plants-by-the-lake-5962250/",
-   "arquivo": "https://videos.pexels.com/video-files/5962250/5962250-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5962250.mp4"
-  }
- },
- {
-  "frases": [
-   4
-  ],
-  "bloco": "palavra",
-  "tag": "lago_nevoa",
-  "inicio": 41.082,
-  "fim": 45.532,
-  "clip": {
-   "id": 14067717,
-   "tag": "lago_nevoa",
-   "duracao": 61,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/fog-over-lake-14067717/",
-   "arquivo": "https://videos.pexels.com/video-files/14067717/14067717-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14067717.mp4"
-  }
- },
- {
-  "frases": [
-   4
-  ],
-  "bloco": "palavra",
-  "tag": "lago_nevoa",
-  "inicio": 45.532,
-  "fim": 49.982,
-  "clip": {
-   "id": 5643379,
-   "tag": "lago_nevoa",
-   "duracao": 18,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/a-misty-lake-5643379/",
-   "arquivo": "https://videos.pexels.com/video-files/5643379/5643379-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5643379.mp4"
-  }
- },
- {
-  "frases": [
-   5
-  ],
-  "bloco": "palavra",
-  "tag": "riacho",
-  "inicio": 49.982,
-  "fim": 55.328,
-  "clip": {
-   "id": 6819860,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/water-flowing-in-a-river-6819860/",
-   "arquivo": "https://videos.pexels.com/video-files/6819860/6819860-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6819860.mp4"
-  }
- },
- {
-  "frases": [
-   5
-  ],
-  "bloco": "palavra",
-  "tag": "riacho",
-  "inicio": 55.328,
-  "fim": 60.673,
-  "clip": {
-   "id": 10557941,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/tiny-waterfalls-on-stream-10557941/",
-   "arquivo": "https://videos.pexels.com/video-files/10557941/10557941-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10557941.mp4"
-  }
- },
- {
-  "frases": [
-   5
-  ],
-  "bloco": "palavra",
-  "tag": "riacho",
-  "inicio": 60.673,
-  "fim": 66.019,
-  "clip": {
-   "id": 3225781,
-   "tag": "riacho",
+   "id": 19547374,
+   "tag": "aguia_voo",
    "duracao": 10,
-   "autor": "Mapo Dessin",
-   "autor_url": "https://www.pexels.com/@mapo-dessin-957316",
-   "url": "https://www.pexels.com/video/slow-motion-footage-of-the-water-flowing-in-the-river-3225781/",
-   "arquivo": "https://videos.pexels.com/video-files/3225781/3225781-hd_1920_1080_24fps.mp4",
+   "autor": "Budget Bizar",
+   "autor_url": "https://www.pexels.com/@budget-bizar-92378004",
+   "url": "https://www.pexels.com/video/a-bird-flying-in-the-sky-with-a-blue-sky-19547374/",
+   "arquivo": "https://videos.pexels.com/video-files/19547374/19547374-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/3225781.mp4"
+   "arquivo_local": "clips/19547374.mp4"
   }
  },
  {
   "frases": [
-   6
+   3
   ],
-  "bloco": "convite",
-  "tag": "prado",
-  "inicio": 66.019,
-  "fim": 73.349,
+  "bloco": "palavra",
+  "tag": "paisagem_aerea",
+  "inicio": 27.996,
+  "fim": 32.045,
   "clip": {
-   "id": 38869948,
-   "tag": "prado",
+   "id": 33527161,
+   "tag": "nuvens",
    "duracao": 11,
-   "autor": "Wolfgang Weiser",
-   "autor_url": "https://www.pexels.com/@wolfgang-weiser-467045605",
-   "url": "https://www.pexels.com/video/vibrant-summer-daisies-in-full-bloom-38869948/",
-   "arquivo": "https://videos.pexels.com/video-files/38869948/16524000_1920_1080_25fps.mp4",
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/dynamic-timelapse-of-fluffy-white-clouds-33527161/",
+   "arquivo": "https://videos.pexels.com/video-files/33527161/14257489_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/38869948.mp4"
+   "arquivo_local": "clips/33527161.mp4"
+  }
+ },
+ {
+  "frases": [
+   3
+  ],
+  "bloco": "palavra",
+  "tag": "paisagem_aerea",
+  "inicio": 32.045,
+  "fim": 36.094,
+  "clip": {
+   "id": 37228707,
+   "tag": "paisagem_aerea",
+   "duracao": 14,
+   "autor": "Rares Cioranu",
+   "autor_url": "https://www.pexels.com/@rares-cioranu-45080022",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-green-mountain-landscape-37228707/",
+   "arquivo": "https://videos.pexels.com/video-files/37228707/15772135_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37228707.mp4"
+  }
+ },
+ {
+  "frases": [
+   4
+  ],
+  "bloco": "palavra",
+  "tag": "acima_nuvens",
+  "inicio": 36.094,
+  "fim": 42.355,
+  "clip": {
+   "id": 11911081,
+   "tag": "acima_nuvens",
+   "duracao": 23,
+   "autor": "Kodanda Rama Raju Vegesna",
+   "autor_url": "https://www.pexels.com/@kodanda-rama-raju-vegesna-219870821",
+   "url": "https://www.pexels.com/video/sunrise-and-clouds-11911081/",
+   "arquivo": "https://videos.pexels.com/video-files/11911081/11911081-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11911081.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "aguia_voo",
+  "inicio": 42.355,
+  "fim": 48.248,
+  "clip": {
+   "id": 5769275,
+   "tag": "aguia_voo",
+   "duracao": 12,
+   "autor": "Nico Becker",
+   "autor_url": "https://www.pexels.com/@nicobecker",
+   "url": "https://www.pexels.com/video/wild-bird-flying-high-on-the-sky-5769275/",
+   "arquivo": "https://videos.pexels.com/video-files/5769275/5769275-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5769275.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "aguia_voo",
+  "inicio": 48.248,
+  "fim": 54.142,
+  "clip": {
+   "id": 17962174,
+   "tag": "aguia_voo",
+   "duracao": 84,
+   "autor": "Dimitri Baret",
+   "autor_url": "https://www.pexels.com/@dimitri-baret-3505176",
+   "url": "https://www.pexels.com/video/videographie-0226-17962174/",
+   "arquivo": "https://videos.pexels.com/video-files/17962174/17962174-hd_2048_864_60fps.mp4",
+   "w": 2048,
+   "h": 864,
+   "arquivo_local": "clips/17962174.mp4"
+  }
+ },
+ {
+  "frases": [
+   5
+  ],
+  "bloco": "palavra",
+  "tag": "aguia_voo",
+  "inicio": 54.142,
+  "fim": 60.035,
+  "clip": {
+   "id": 15527620,
+   "tag": "aguia_voo",
+   "duracao": 21,
+   "autor": "Dean Diemert",
+   "autor_url": "https://www.pexels.com/@dean-diemert-36424310",
+   "url": "https://www.pexels.com/video/low-angle-view-of-a-bald-eagle-perched-on-a-tree-branch-15527620/",
+   "arquivo": "https://videos.pexels.com/video-files/15527620/15527620-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/15527620.mp4"
   }
  },
  {
   "frases": [
    6
   ],
-  "bloco": "convite",
-  "tag": "prado",
-  "inicio": 73.349,
-  "fim": 80.679,
+  "bloco": "fraqueza",
+  "tag": "cordilheira",
+  "inicio": 60.035,
+  "fim": 66.248,
   "clip": {
-   "id": 27632151,
-   "tag": "prado",
-   "duracao": 14,
-   "autor": "AP Vibes",
-   "autor_url": "https://www.pexels.com/@apvibes",
-   "url": "https://www.pexels.com/video/a-group-of-white-flowers-with-green-leaves-27632151/",
-   "arquivo": "https://videos.pexels.com/video-files/27632151/12189409_1920_1080_30fps.mp4",
+   "id": 38826814,
+   "tag": "cordilheira",
+   "duracao": 9,
+   "autor": "Zulfugar Karimov",
+   "autor_url": "https://www.pexels.com/@zulfugarkarimov",
+   "url": "https://www.pexels.com/video/stunning-sunset-over-mountain-landscape-38826814/",
+   "arquivo": "https://videos.pexels.com/video-files/38826814/16504188_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/27632151.mp4"
+   "arquivo_local": "clips/38826814.mp4"
+  }
+ },
+ {
+  "frases": [
+   6
+  ],
+  "bloco": "fraqueza",
+  "tag": "cordilheira",
+  "inicio": 66.248,
+  "fim": 72.46,
+  "clip": {
+   "id": 7964548,
+   "tag": "cordilheira",
+   "duracao": 24,
+   "autor": "Taryn Elliott",
+   "autor_url": "https://www.pexels.com/@taryn-elliott",
+   "url": "https://www.pexels.com/video/drone-footage-of-a-scenic-landscape-at-sunset-7964548/",
+   "arquivo": "https://videos.pexels.com/video-files/7964548/7964548-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/7964548.mp4"
   }
  },
  {
   "frases": [
    7
   ],
-  "bloco": "convite",
-  "tag": "floresta",
-  "inicio": 80.679,
-  "fim": 86.504,
+  "bloco": "fraqueza",
+  "tag": "nuvens",
+  "inicio": 72.46,
+  "fim": 78.547,
   "clip": {
-   "id": 5437221,
-   "tag": "floresta",
+   "id": 34388585,
+   "tag": "nuvens",
+   "duracao": 11,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/serene-sky-with-fluffy-white-clouds-timelapse-34388585/",
+   "arquivo": "https://videos.pexels.com/video-files/34388585/14567770_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34388585.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "fraqueza",
+  "tag": "nuvens",
+  "inicio": 78.547,
+  "fim": 84.634,
+  "clip": {
+   "id": 12999336,
+   "tag": "nuvens",
+   "duracao": 73,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/sunlight-and-clouds-on-sky-12999336/",
+   "arquivo": "https://videos.pexels.com/video-files/12999336/12999336-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12999336.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "fraqueza",
+  "tag": "paisagem_aerea",
+  "inicio": 84.634,
+  "fim": 91.441,
+  "clip": {
+   "id": 4763085,
+   "tag": "paisagem_aerea",
+   "duracao": 13,
+   "autor": "Yaroslav Shuraev",
+   "autor_url": "https://www.pexels.com/@yaroslav-shuraev",
+   "url": "https://www.pexels.com/video/a-mountain-peak-trail-covered-with-snow-4763085/",
+   "arquivo": "https://videos.pexels.com/video-files/4763085/4763085-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4763085.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "fraqueza",
+  "tag": "paisagem_aerea",
+  "inicio": 91.441,
+  "fim": 98.249,
+  "clip": {
+   "id": 13761352,
+   "tag": "paisagem_aerea",
+   "duracao": 17,
+   "autor": "So Kenobi",
+   "autor_url": "https://www.pexels.com/@so-kenobi-323520146",
+   "url": "https://www.pexels.com/video/a-green-forest-and-a-mountain-range-under-a-cloudy-sky-13761352/",
+   "arquivo": "https://videos.pexels.com/video-files/13761352/13761352-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13761352.mp4"
+  }
+ },
+ {
+  "frases": [
+   9
+  ],
+  "bloco": "fraqueza",
+  "tag": "acima_nuvens",
+  "inicio": 98.249,
+  "fim": 102.941,
+  "clip": {
+   "id": 13900253,
+   "tag": "acima_nuvens",
+   "duracao": 58,
+   "autor": "Zetong Li",
+   "autor_url": "https://www.pexels.com/@zetong-li-880728",
+   "url": "https://www.pexels.com/video/white-puffy-clouds-13900253/",
+   "arquivo": "https://videos.pexels.com/video-files/13900253/13900253-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13900253.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "fraqueza",
+  "tag": "aguia_voo",
+  "inicio": 102.941,
+  "fim": 110.809,
+  "clip": {
+   "id": 38558006,
+   "tag": "aguia_voo",
    "duracao": 8,
+   "autor": "Manoo Media",
+   "autor_url": "https://www.pexels.com/@manoo-media-65214113",
+   "url": "https://www.pexels.com/video/majestic-eagle-close-up-against-blue-sky-38558006/",
+   "arquivo": "https://videos.pexels.com/video-files/38558006/16377509_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38558006.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "fraqueza",
+  "tag": "aguia_voo",
+  "inicio": 110.809,
+  "fim": 118.676,
+  "clip": {
+   "id": 2927931,
+   "tag": "aguia_voo",
+   "duracao": 15,
    "autor": "K",
    "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/sunlight-through-branches-and-leaves-5437221/",
-   "arquivo": "https://videos.pexels.com/video-files/5437221/5437221-hd_1920_1080_24fps.mp4",
-   "w": 1920,
+   "url": "https://www.pexels.com/video/two-eagles-soaring-in-the-sky-2927931/",
+   "arquivo": "https://videos.pexels.com/video-files/2927931/2927931-hd_2048_1080_24fps.mp4",
+   "w": 2048,
    "h": 1080,
-   "arquivo_local": "clips/5437221.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "convite",
-  "tag": "lago_nevoa",
-  "inicio": 86.504,
-  "fim": 93.614,
-  "clip": {
-   "id": 26860203,
-   "tag": "lago_nevoa",
-   "duracao": 33,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/the-sun-rises-over-a-lake-and-grassy-field-26860203/",
-   "arquivo": "https://videos.pexels.com/video-files/26860203/12022802_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/26860203.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "convite",
-  "tag": "lago_nevoa",
-  "inicio": 93.614,
-  "fim": 100.725,
-  "clip": {
-   "id": 31742401,
-   "tag": "lago_nevoa",
-   "duracao": 20,
-   "autor": "Nikola Toma\u0161i\u0107",
-   "autor_url": "https://www.pexels.com/@nikola-tomasic-58494762",
-   "url": "https://www.pexels.com/video/serene-misty-morning-at-tranquil-lake-31742401/",
-   "arquivo": "https://videos.pexels.com/video-files/31742401/13524632_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31742401.mp4"
-  }
- },
- {
-  "frases": [
-   9
-  ],
-  "bloco": "jugo",
-  "tag": "riacho",
-  "inicio": 100.725,
-  "fim": 105.393,
-  "clip": {
-   "id": 3706326,
-   "tag": "riacho",
-   "duracao": 11,
-   "autor": "Street Donkey",
-   "autor_url": "https://www.pexels.com/@street-donkey-2067243",
-   "url": "https://www.pexels.com/video/strong-current-of-the-river-water-cascading-down-3706326/",
-   "arquivo": "https://videos.pexels.com/video-files/3706326/3706326-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/3706326.mp4"
-  }
- },
- {
-  "frases": [
-   9
-  ],
-  "bloco": "jugo",
-  "tag": "riacho",
-  "inicio": 105.393,
-  "fim": 110.061,
-  "clip": {
-   "id": 35802929,
-   "tag": "riacho",
-   "duracao": 9,
-   "autor": "Yasin Onu\u015f",
-   "autor_url": "https://www.pexels.com/@yasin-onus-520099596",
-   "url": "https://www.pexels.com/video/tranquil-forest-stream-flowing-gently-35802929/",
-   "arquivo": "https://videos.pexels.com/video-files/35802929/15178613_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/35802929.mp4"
-  }
- },
- {
-  "frases": [
-   10
-  ],
-  "bloco": "jugo",
-  "tag": "prado",
-  "inicio": 110.061,
-  "fim": 115.724,
-  "clip": {
-   "id": 5308818,
-   "tag": "prado",
-   "duracao": 61,
-   "autor": "Magda Ehlers",
-   "autor_url": "https://www.pexels.com/@magda-ehlers-pexels",
-   "url": "https://www.pexels.com/video/yellow-flowers-in-flower-field-5308818/",
-   "arquivo": "https://videos.pexels.com/video-files/5308818/5308818-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5308818.mp4"
-  }
- },
- {
-  "frases": [
-   10
-  ],
-  "bloco": "jugo",
-  "tag": "prado",
-  "inicio": 115.724,
-  "fim": 121.386,
-  "clip": {
-   "id": 31289523,
-   "tag": "prado",
-   "duracao": 25,
-   "autor": "Nicky Pe",
-   "autor_url": "https://www.pexels.com/@nicky",
-   "url": "https://www.pexels.com/video/beautiful-wildflower-meadow-in-spring-bloom-31289523/",
-   "arquivo": "https://videos.pexels.com/video-files/31289523/13360104_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31289523.mp4"
+   "arquivo_local": "clips/2927931.mp4"
   }
  },
  {
   "frases": [
    11
   ],
-  "bloco": "jugo",
-  "tag": "floresta",
-  "inicio": 121.386,
-  "fim": 125.776,
+  "bloco": "esperar",
+  "tag": "aguia_voo",
+  "inicio": 118.676,
+  "fim": 124.238,
   "clip": {
-   "id": 5692315,
-   "tag": "floresta",
-   "duracao": 52,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/landscape-shot-of-sun-ray-in-the-forest-5692315/",
-   "arquivo": "https://videos.pexels.com/video-files/5692315/5692315-hd_1920_1080_30fps.mp4",
+   "id": 26077945,
+   "tag": "aguia_voo",
+   "duracao": 10,
+   "autor": "Florian Del\u00e9e",
+   "autor_url": "https://www.pexels.com/@florian-delee-209542985",
+   "url": "https://www.pexels.com/video/landscape-desert-animal-eagle-26077945/",
+   "arquivo": "https://videos.pexels.com/video-files/26077945/11929213_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5692315.mp4"
+   "arquivo_local": "clips/26077945.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "esperar",
+  "tag": "aguia_voo",
+  "inicio": 124.238,
+  "fim": 129.799,
+  "clip": {
+   "id": 28348020,
+   "tag": "aguia_voo",
+   "duracao": 29,
+   "autor": "Sean P. Twomey",
+   "autor_url": "https://www.pexels.com/@2mephoto",
+   "url": "https://www.pexels.com/video/a-bird-is-sitting-in-a-tree-with-a-blue-sky-28348020/",
+   "arquivo": "https://videos.pexels.com/video-files/28348020/12364268_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28348020.mp4"
   }
  },
  {
   "frases": [
    12
   ],
-  "bloco": "jugo",
-  "tag": "lago_nevoa",
-  "inicio": 125.776,
-  "fim": 131.097,
+  "bloco": "esperar",
+  "tag": "cordilheira",
+  "inicio": 129.799,
+  "fim": 136.602,
   "clip": {
-   "id": 8744958,
-   "tag": "lago_nevoa",
-   "duracao": 43,
-   "autor": "ROMAN ODINTSOV",
-   "autor_url": "https://www.pexels.com/@roman-odintsov",
-   "url": "https://www.pexels.com/video/drone-footage-of-a-misty-lake-8744958/",
-   "arquivo": "https://videos.pexels.com/video-files/8744958/8744958-hd_2048_1080_30fps.mp4",
-   "w": 2048,
+   "id": 5494650,
+   "tag": "cordilheira",
+   "duracao": 32,
+   "autor": "BRITTOs Musics",
+   "autor_url": "https://www.pexels.com/@brittos-musics-1228004",
+   "url": "https://www.pexels.com/video/landscape-scenery-of-trees-and-mountain-during-golden-hour-5494650/",
+   "arquivo": "https://videos.pexels.com/video-files/5494650/5494650-hd_1920_1080_30fps.mp4",
+   "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/8744958.mp4"
+   "arquivo_local": "clips/5494650.mp4"
   }
  },
  {
   "frases": [
    12
   ],
-  "bloco": "jugo",
-  "tag": "lago_nevoa",
-  "inicio": 131.097,
-  "fim": 136.418,
+  "bloco": "esperar",
+  "tag": "cordilheira",
+  "inicio": 136.602,
+  "fim": 143.405,
   "clip": {
-   "id": 27065369,
-   "tag": "lago_nevoa",
-   "duracao": 42,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/a-lake-with-mist-and-trees-in-the-background-27065369/",
-   "arquivo": "https://videos.pexels.com/video-files/27065369/12062001_1920_1080_30fps.mp4",
+   "id": 34635932,
+   "tag": "picos_neve",
+   "duracao": 59,
+   "autor": "Peter Smit",
+   "autor_url": "https://www.pexels.com/@peter-smit-154259136",
+   "url": "https://www.pexels.com/video/majestic-himalayan-mountain-aerial-view-34635932/",
+   "arquivo": "https://videos.pexels.com/video-files/34635932/14680059_1920_1080_15fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/27065369.mp4"
+   "arquivo_local": "clips/34635932.mp4"
   }
  },
  {
   "frases": [
    13
   ],
-  "bloco": "jugo",
-  "tag": "riacho",
-  "inicio": 136.418,
-  "fim": 141.57,
+  "bloco": "esperar",
+  "tag": "nuvens",
+  "inicio": 143.405,
+  "fim": 149.688,
   "clip": {
-   "id": 7202665,
-   "tag": "riacho",
+   "id": 7716016,
+   "tag": "nuvens",
    "duracao": 60,
    "autor": "I Am Sorin",
    "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/water-flowing-in-a-stream-7202665/",
-   "arquivo": "https://videos.pexels.com/video-files/7202665/7202665-hd_1920_1080_30fps.mp4",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-a-blue-sky-with-clouds-7716016/",
+   "arquivo": "https://videos.pexels.com/video-files/7716016/7716016-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/7202665.mp4"
+   "arquivo_local": "clips/7716016.mp4"
   }
  },
  {
   "frases": [
    14
   ],
-  "bloco": "jugo",
-  "tag": "floresta",
-  "inicio": 141.57,
-  "fim": 148.561,
+  "bloco": "esperar",
+  "tag": "paisagem_aerea",
+  "inicio": 149.688,
+  "fim": 155.893,
   "clip": {
-   "id": 15204066,
-   "tag": "floresta",
-   "duracao": 13,
-   "autor": "Emereen Photography",
-   "autor_url": "https://www.pexels.com/@emereen-photography-183837348",
-   "url": "https://www.pexels.com/video/a-sunlight-between-trees-in-the-forest-15204066/",
-   "arquivo": "https://videos.pexels.com/video-files/15204066/15204066-hd_1920_1080_25fps.mp4",
+   "id": 26081710,
+   "tag": "paisagem_aerea",
+   "duracao": 10,
+   "autor": "Julien Goettelmann",
+   "autor_url": "https://www.pexels.com/@julien-goettelmann-44396125",
+   "url": "https://www.pexels.com/video/aerial-view-of-a-snowy-mountain-range-with-a-valley-in-the-background-26081710/",
+   "arquivo": "https://videos.pexels.com/video-files/26081710/11929592_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/15204066.mp4"
+   "arquivo_local": "clips/26081710.mp4"
   }
  },
  {
   "frases": [
    14
   ],
-  "bloco": "jugo",
-  "tag": "floresta",
-  "inicio": 148.561,
-  "fim": 155.553,
+  "bloco": "esperar",
+  "tag": "paisagem_aerea",
+  "inicio": 155.893,
+  "fim": 162.099,
   "clip": {
-   "id": 5623816,
-   "tag": "floresta",
-   "duracao": 21,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/trees-in-a-forest-during-daytime-5623816/",
-   "arquivo": "https://videos.pexels.com/video-files/5623816/5623816-hd_1920_1080_24fps.mp4",
+   "id": 13070190,
+   "tag": "nuvens",
+   "duracao": 20,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/white-clouds-on-sky-13070190/",
+   "arquivo": "https://videos.pexels.com/video-files/13070190/13070190-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5623816.mp4"
+   "arquivo_local": "clips/13070190.mp4"
   }
  },
  {
   "frases": [
    15
   ],
-  "bloco": "jugo",
-  "tag": "prado",
-  "inicio": 155.553,
-  "fim": 162.723,
+  "bloco": "semforcas",
+  "tag": "acima_nuvens",
+  "inicio": 162.099,
+  "fim": 169.007,
   "clip": {
-   "id": 5898965,
-   "tag": "prado",
-   "duracao": 12,
-   "autor": "Stefano Barbieri",
-   "autor_url": "https://www.pexels.com/@stefano-barbieri-4618879",
-   "url": "https://www.pexels.com/video/close-up-shot-of-the-flowers-with-the-apennine-mountains-at-the-back-5898965/",
-   "arquivo": "https://videos.pexels.com/video-files/5898965/5898965-hd_1920_1080_30fps.mp4",
-   "w": 1920,
+   "id": 4652096,
+   "tag": "acima_nuvens",
+   "duracao": 22,
+   "autor": "ROMAN ODINTSOV",
+   "autor_url": "https://www.pexels.com/@roman-odintsov",
+   "url": "https://www.pexels.com/video/scenic-footage-of-countryside-during-dawn-4652096/",
+   "arquivo": "https://videos.pexels.com/video-files/4652096/4652096-hd_2048_1080_30fps.mp4",
+   "w": 2048,
    "h": 1080,
-   "arquivo_local": "clips/5898965.mp4"
+   "arquivo_local": "clips/4652096.mp4"
   }
  },
  {
   "frases": [
    15
   ],
-  "bloco": "jugo",
-  "tag": "prado",
-  "inicio": 162.723,
-  "fim": 169.893,
+  "bloco": "semforcas",
+  "tag": "acima_nuvens",
+  "inicio": 169.007,
+  "fim": 175.915,
   "clip": {
-   "id": 40529079,
-   "tag": "prado",
-   "duracao": 26,
-   "autor": "\ub300\uc815 \uae40",
-   "autor_url": "https://www.pexels.com/@daejeung",
-   "url": "https://www.pexels.com/video/close-up-of-wild-purple-violets-in-grass-40529079/",
-   "arquivo": "https://videos.pexels.com/video-files/40529079/17318102_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/40529079.mp4"
-  }
- },
- {
-  "frases": [
-   16
-  ],
-  "bloco": "aceito",
-  "tag": "floresta",
-  "inicio": 169.893,
-  "fim": 175.822,
-  "clip": {
-   "id": 31807947,
-   "tag": "floresta",
+   "id": 4899595,
+   "tag": "nuvens",
    "duracao": 11,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/sunrise-through-forest-in-drenthe-netherlands-31807947/",
-   "arquivo": "https://videos.pexels.com/video-files/31807947/13551927_1920_1080_30fps.mp4",
+   "autor": "Ilya Klimenko",
+   "autor_url": "https://www.pexels.com/@tact-tm",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-white-clouds-during-daytime-4899595/",
+   "arquivo": "https://videos.pexels.com/video-files/4899595/4899595-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/31807947.mp4"
+   "arquivo_local": "clips/4899595.mp4"
   }
  },
  {
   "frases": [
    16
   ],
-  "bloco": "aceito",
-  "tag": "floresta",
-  "inicio": 175.822,
-  "fim": 181.75,
+  "bloco": "semforcas",
+  "tag": "aguia_voo",
+  "inicio": 175.915,
+  "fim": 180.49,
   "clip": {
-   "id": 14163969,
-   "tag": "floresta",
-   "duracao": 28,
-   "autor": "Stefanie Jockschat",
-   "autor_url": "https://www.pexels.com/@stefaniejockschat",
-   "url": "https://www.pexels.com/video/forest-in-autumn-14163969/",
-   "arquivo": "https://videos.pexels.com/video-files/14163969/14163969-hd_1920_1080_60fps.mp4",
+   "id": 16902422,
+   "tag": "aguia_voo",
+   "duracao": 30,
+   "autor": "Frank Cone",
+   "autor_url": "https://www.pexels.com/@frank-cone-140140",
+   "url": "https://www.pexels.com/video/a-bald-eagle-sits-on-a-tree-branch-16902422/",
+   "arquivo": "https://videos.pexels.com/video-files/16902422/16902422-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/14163969.mp4"
+   "arquivo_local": "clips/16902422.mp4"
+  }
+ },
+ {
+  "frases": [
+   16
+  ],
+  "bloco": "semforcas",
+  "tag": "aguia_voo",
+  "inicio": 180.49,
+  "fim": 185.066,
+  "clip": {
+   "id": 39430279,
+   "tag": "aguia_voo",
+   "duracao": 23,
+   "autor": "AP Vibes",
+   "autor_url": "https://www.pexels.com/@apvibes",
+   "url": "https://www.pexels.com/video/soaring-bird-against-blue-sky-39430279/",
+   "arquivo": "https://videos.pexels.com/video-files/39430279/16791175_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39430279.mp4"
   }
  },
  {
   "frases": [
    17
   ],
-  "bloco": "aceito",
-  "tag": "lago_nevoa",
-  "inicio": 181.75,
-  "fim": 185.978,
+  "bloco": "semforcas",
+  "tag": "cordilheira",
+  "inicio": 185.066,
+  "fim": 191.078,
   "clip": {
-   "id": 9870516,
-   "tag": "lago_nevoa",
-   "duracao": 61,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/river-view-during-sunset-9870516/",
-   "arquivo": "https://videos.pexels.com/video-files/9870516/9870516-hd_1920_1080_30fps.mp4",
+   "id": 35045301,
+   "tag": "cordilheira",
+   "duracao": 20,
+   "autor": "Florian Del\u00e9e",
+   "autor_url": "https://www.pexels.com/@florian-delee-209542985",
+   "url": "https://www.pexels.com/video/aerial-view-of-andean-mountain-sunrise-35045301/",
+   "arquivo": "https://videos.pexels.com/video-files/35045301/14845454_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/9870516.mp4"
+   "arquivo_local": "clips/35045301.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "semforcas",
+  "tag": "cordilheira",
+  "inicio": 191.078,
+  "fim": 197.09,
+  "clip": {
+   "id": 35474863,
+   "tag": "cordilheira",
+   "duracao": 47,
+   "autor": "Ivan Chumak",
+   "autor_url": "https://www.pexels.com/@iohichu",
+   "url": "https://www.pexels.com/video/stunning-alpine-sunset-with-clouds-above-mountains-35474863/",
+   "arquivo": "https://videos.pexels.com/video-files/35474863/15028998_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35474863.mp4"
   }
  },
  {
   "frases": [
    18
   ],
-  "bloco": "aceito",
-  "tag": "riacho",
-  "inicio": 185.978,
-  "fim": 192.677,
+  "bloco": "semforcas",
+  "tag": "nuvens",
+  "inicio": 197.09,
+  "fim": 202.863,
   "clip": {
-   "id": 39527886,
-   "tag": "riacho",
+   "id": 12300238,
+   "tag": "nuvens",
    "duracao": 13,
-   "autor": "Townsend Walton",
-   "autor_url": "https://www.pexels.com/@townsend-walton-6231368",
-   "url": "https://www.pexels.com/video/serene-forest-stream-with-gentle-water-flow-39527886/",
-   "arquivo": "https://videos.pexels.com/video-files/39527886/16840651_1920_1080_30fps.mp4",
+   "autor": "Ilya Klimenko",
+   "autor_url": "https://www.pexels.com/@tact-tm",
+   "url": "https://www.pexels.com/video/hyperlapse-of-white-clouds-on-a-blue-sky-12300238/",
+   "arquivo": "https://videos.pexels.com/video-files/12300238/12300238-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/39527886.mp4"
-  }
- },
- {
-  "frases": [
-   18
-  ],
-  "bloco": "aceito",
-  "tag": "riacho",
-  "inicio": 192.677,
-  "fim": 199.375,
-  "clip": {
-   "id": 856861,
-   "tag": "riacho",
-   "duracao": 30,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/water-flow-856861/",
-   "arquivo": "https://videos.pexels.com/video-files/856861/856861-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/856861.mp4"
+   "arquivo_local": "clips/12300238.mp4"
   }
  },
  {
   "frases": [
    19
   ],
-  "bloco": "aceito",
-  "tag": "prado",
-  "inicio": 199.375,
-  "fim": 205.659,
+  "bloco": "semforcas",
+  "tag": "cordilheira",
+  "inicio": 202.863,
+  "fim": 207.439,
   "clip": {
-   "id": 40190459,
-   "tag": "prado",
-   "duracao": 26,
-   "autor": "\ub300\uc815 \uae40",
-   "autor_url": "https://www.pexels.com/@daejeung",
-   "url": "https://www.pexels.com/video/vibrant-orange-flowers-in-lush-green-field-40190459/",
-   "arquivo": "https://videos.pexels.com/video-files/40190459/17168905_1920_1080_30fps.mp4",
+   "id": 10479590,
+   "tag": "cordilheira",
+   "duracao": 8,
+   "autor": "Traveling on  the Go",
+   "autor_url": "https://www.pexels.com/@traveling-on-the-go-2895725",
+   "url": "https://www.pexels.com/video/drone-footage-of-mountains-at-sunset-10479590/",
+   "arquivo": "https://videos.pexels.com/video-files/10479590/10479590-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/40190459.mp4"
+   "arquivo_local": "clips/10479590.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "semforcas",
+  "tag": "cordilheira",
+  "inicio": 207.439,
+  "fim": 212.014,
+  "clip": {
+   "id": 40854512,
+   "tag": "cordilheira",
+   "duracao": 20,
+   "autor": "J\u0119drzej Koralewski",
+   "autor_url": "https://www.pexels.com/@jedrzej-koralewski-14125120",
+   "url": "https://www.pexels.com/video/dramatic-sunset-over-pelmo-mountain-peaks-40854512/",
+   "arquivo": "https://videos.pexels.com/video-files/40854512/17460539_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40854512.mp4"
   }
  },
  {
   "frases": [
    20
   ],
-  "bloco": "aceito",
-  "tag": "floresta",
-  "inicio": 205.659,
-  "fim": 210.848,
+  "bloco": "multiplica",
+  "tag": "paisagem_aerea",
+  "inicio": 212.014,
+  "fim": 217.072,
   "clip": {
-   "id": 12335802,
-   "tag": "floresta",
-   "duracao": 14,
-   "autor": "Sasha Tonik",
-   "autor_url": "https://www.pexels.com/@sasha-tonik-243767345",
-   "url": "https://www.pexels.com/video/sun-rays-in-forest-12335802/",
-   "arquivo": "https://videos.pexels.com/video-files/12335802/12335802-hd_1920_1080_60fps.mp4",
+   "id": 39054613,
+   "tag": "paisagem_aerea",
+   "duracao": 29,
+   "autor": "Yunus Terk",
+   "autor_url": "https://www.pexels.com/@yunusterk",
+   "url": "https://www.pexels.com/video/majestic-aerial-view-of-clouds-over-mountains-39054613/",
+   "arquivo": "https://videos.pexels.com/video-files/39054613/16618676_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/12335802.mp4"
+   "arquivo_local": "clips/39054613.mp4"
   }
  },
  {
   "frases": [
    20
   ],
-  "bloco": "aceito",
-  "tag": "floresta",
-  "inicio": 210.848,
-  "fim": 216.037,
+  "bloco": "multiplica",
+  "tag": "paisagem_aerea",
+  "inicio": 217.072,
+  "fim": 222.129,
   "clip": {
-   "id": 5624208,
-   "tag": "floresta",
-   "duracao": 12,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/close-up-view-of-green-plants-against-rays-of-sunlight-5624208/",
-   "arquivo": "https://videos.pexels.com/video-files/5624208/5624208-hd_1920_1080_24fps.mp4",
+   "id": 39144239,
+   "tag": "paisagem_aerea",
+   "duracao": 31,
+   "autor": "Ferdie  Cayanga",
+   "autor_url": "https://www.pexels.com/@ferdie-cayanga-297619",
+   "url": "https://www.pexels.com/video/aerial-view-of-lush-philippine-mountains-39144239/",
+   "arquivo": "https://videos.pexels.com/video-files/39144239/16657046_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5624208.mp4"
+   "arquivo_local": "clips/39144239.mp4"
   }
  },
  {
   "frases": [
    21
   ],
-  "bloco": "aceito",
-  "tag": "lago_nevoa",
-  "inicio": 216.037,
-  "fim": 223.084,
+  "bloco": "multiplica",
+  "tag": "acima_nuvens",
+  "inicio": 222.129,
+  "fim": 226.21,
   "clip": {
-   "id": 31742400,
-   "tag": "lago_nevoa",
-   "duracao": 15,
-   "autor": "Nikola Toma\u0161i\u0107",
-   "autor_url": "https://www.pexels.com/@nikola-tomasic-58494762",
-   "url": "https://www.pexels.com/video/morning-mist-over-serene-lake-with-swan-31742400/",
-   "arquivo": "https://videos.pexels.com/video-files/31742400/13524536_1920_1080_30fps.mp4",
+   "id": 12304894,
+   "tag": "nuvens",
+   "duracao": 52,
+   "autor": "Pouya Lucky",
+   "autor_url": "https://www.pexels.com/@pouyalucky",
+   "url": "https://www.pexels.com/video/white-clouds-on-sky-12304894/",
+   "arquivo": "https://videos.pexels.com/video-files/12304894/12304894-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/31742400.mp4"
+   "arquivo_local": "clips/12304894.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "multiplica",
+  "tag": "acima_nuvens",
+  "inicio": 226.21,
+  "fim": 230.291,
+  "clip": {
+   "id": 33687382,
+   "tag": "nuvens",
+   "duracao": 16,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/beautiful-blue-sky-with-moving-fluffy-clouds-33687382/",
+   "arquivo": "https://videos.pexels.com/video-files/33687382/14310532_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33687382.mp4"
   }
  },
  {
   "frases": [
    22
   ],
-  "bloco": "aceito",
-  "tag": "riacho",
-  "inicio": 223.084,
-  "fim": 228.621,
+  "bloco": "multiplica",
+  "tag": "aguia_voo",
+  "inicio": 230.291,
+  "fim": 235.627,
   "clip": {
-   "id": 9546262,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/close-up-shot-of-a-river-in-the-forest-9546262/",
-   "arquivo": "https://videos.pexels.com/video-files/9546262/9546262-hd_1920_1080_30fps.mp4",
+   "id": 15883587,
+   "tag": "aguia_voo",
+   "duracao": 36,
+   "autor": "Tom Fisk",
+   "autor_url": "https://www.pexels.com/@tomfisk",
+   "url": "https://www.pexels.com/video/a-bald-eagle-perched-on-a-bare-tree-branch-15883587/",
+   "arquivo": "https://videos.pexels.com/video-files/15883587/15883587-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/9546262.mp4"
+   "arquivo_local": "clips/15883587.mp4"
   }
  },
  {
   "frases": [
    22
   ],
-  "bloco": "aceito",
-  "tag": "riacho",
-  "inicio": 228.621,
-  "fim": 234.159,
+  "bloco": "multiplica",
+  "tag": "aguia_voo",
+  "inicio": 235.627,
+  "fim": 240.964,
   "clip": {
-   "id": 8035721,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/water-flowing-over-rocks-8035721/",
-   "arquivo": "https://videos.pexels.com/video-files/8035721/8035721-hd_1920_1080_30fps.mp4",
+   "id": 33527081,
+   "tag": "nuvens",
+   "duracao": 13,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/stunning-time-lapse-of-puffy-white-clouds-33527081/",
+   "arquivo": "https://videos.pexels.com/video-files/33527081/14257473_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/8035721.mp4"
+   "arquivo_local": "clips/33527081.mp4"
   }
  },
  {
   "frases": [
    23
   ],
-  "bloco": "manso",
-  "tag": "riacho",
-  "inicio": 234.159,
-  "fim": 241.724,
+  "bloco": "multiplica",
+  "tag": "cordilheira",
+  "inicio": 240.964,
+  "fim": 248.495,
   "clip": {
-   "id": 40818285,
-   "tag": "riacho",
-   "duracao": 14,
-   "autor": "Evgenij Mikhailov",
-   "autor_url": "https://www.pexels.com/@evgenij-mikhailov-118166450",
-   "url": "https://www.pexels.com/video/serene-forest-stream-with-mossy-rocks-40818285/",
-   "arquivo": "https://videos.pexels.com/video-files/40818285/17438862_1920_1080_30fps.mp4",
+   "id": 12220519,
+   "tag": "cordilheira",
+   "duracao": 16,
+   "autor": "Photosomething",
+   "autor_url": "https://www.pexels.com/@photosomething-236633410",
+   "url": "https://www.pexels.com/video/sunrise-behind-clouds-over-hills-12220519/",
+   "arquivo": "https://videos.pexels.com/video-files/12220519/12220519-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/40818285.mp4"
+   "arquivo_local": "clips/12220519.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "multiplica",
+  "tag": "cordilheira",
+  "inicio": 248.495,
+  "fim": 256.027,
+  "clip": {
+   "id": 5966717,
+   "tag": "cordilheira",
+   "duracao": 28,
+   "autor": "Drone Shots",
+   "autor_url": "https://www.pexels.com/@drone-shots-3301633",
+   "url": "https://www.pexels.com/video/aerial-footage-of-a-mountain-5966717/",
+   "arquivo": "https://videos.pexels.com/video-files/5966717/5966717-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5966717.mp4"
   }
  },
  {
   "frases": [
    24
   ],
-  "bloco": "manso",
-  "tag": "prado",
-  "inicio": 241.724,
-  "fim": 247.424,
+  "bloco": "multiplica",
+  "tag": "nuvens",
+  "inicio": 256.027,
+  "fim": 263.4,
   "clip": {
-   "id": 29935514,
-   "tag": "prado",
-   "duracao": 20,
-   "autor": "Sini Ko",
-   "autor_url": "https://www.pexels.com/@siniko",
-   "url": "https://www.pexels.com/video/wildflower-meadow-under-dramatic-sky-29935514/",
-   "arquivo": "https://videos.pexels.com/video-files/29935514/12847229_1920_1080_50fps.mp4",
+   "id": 11602612,
+   "tag": "nuvens",
+   "duracao": 37,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/time-lapse-of-white-clouds-on-sky-11602612/",
+   "arquivo": "https://videos.pexels.com/video-files/11602612/11602612-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/29935514.mp4"
+   "arquivo_local": "clips/11602612.mp4"
   }
  },
  {
   "frases": [
    24
   ],
-  "bloco": "manso",
-  "tag": "prado",
-  "inicio": 247.424,
-  "fim": 253.125,
+  "bloco": "multiplica",
+  "tag": "nuvens",
+  "inicio": 263.4,
+  "fim": 270.773,
   "clip": {
-   "id": 3253340,
-   "tag": "prado",
-   "duracao": 12,
-   "autor": "MYKOLA OSMACHKO",
-   "autor_url": "https://www.pexels.com/@osmachko",
-   "url": "https://www.pexels.com/video/wild-grass-growing-with-seeds-at-its-tips-3253340/",
-   "arquivo": "https://videos.pexels.com/video-files/3253340/3253340-hd_1920_1080_30fps.mp4",
+   "id": 33698580,
+   "tag": "nuvens",
+   "duracao": 10,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/dynamic-timelapse-of-white-clouds-in-blue-sky-33698580/",
+   "arquivo": "https://videos.pexels.com/video-files/33698580/14313071_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/3253340.mp4"
+   "arquivo_local": "clips/33698580.mp4"
   }
  },
  {
   "frases": [
    25
   ],
-  "bloco": "manso",
-  "tag": "floresta",
-  "inicio": 253.125,
-  "fim": 258.908,
+  "bloco": "multiplica",
+  "tag": "paisagem_aerea",
+  "inicio": 270.773,
+  "fim": 278.61,
   "clip": {
-   "id": 10978943,
-   "tag": "floresta",
-   "duracao": 50,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/landscape-with-sun-shining-over-dirt-road-at-sunrise-10978943/",
-   "arquivo": "https://videos.pexels.com/video-files/10978943/10978943-hd_1920_1080_30fps.mp4",
+   "id": 5721848,
+   "tag": "paisagem_aerea",
+   "duracao": 8,
+   "autor": "Marian Croitoru",
+   "autor_url": "https://www.pexels.com/@marian-croitoru-2984359",
+   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-5721848/",
+   "arquivo": "https://videos.pexels.com/video-files/5721848/5721848-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/10978943.mp4"
+   "arquivo_local": "clips/5721848.mp4"
   }
  },
  {
   "frases": [
    25
   ],
-  "bloco": "manso",
-  "tag": "floresta",
-  "inicio": 258.908,
-  "fim": 264.691,
+  "bloco": "multiplica",
+  "tag": "paisagem_aerea",
+  "inicio": 278.61,
+  "fim": 286.446,
   "clip": {
-   "id": 31984980,
-   "tag": "floresta",
-   "duracao": 40,
-   "autor": "Israyosoy S.",
-   "autor_url": "https://www.pexels.com/@israyosoy",
-   "url": "https://www.pexels.com/video/sunlight-filtering-through-pine-forest-31984980/",
-   "arquivo": "https://videos.pexels.com/video-files/31984980/13629642_1920_1080_24fps.mp4",
+   "id": 33703842,
+   "tag": "nuvens",
+   "duracao": 8,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/dynamic-cloud-timelapse-in-blue-sky-33703842/",
+   "arquivo": "https://videos.pexels.com/video-files/33703842/14314982_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/31984980.mp4"
+   "arquivo_local": "clips/33703842.mp4"
   }
  },
  {
   "frases": [
    26
   ],
-  "bloco": "manso",
-  "tag": "lago_nevoa",
-  "inicio": 264.691,
-  "fim": 269.414,
+  "bloco": "porvoce",
+  "tag": "acima_nuvens",
+  "inicio": 286.446,
+  "fim": 291.85,
   "clip": {
-   "id": 11403956,
-   "tag": "riacho",
-   "duracao": 70,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/stream-running-next-to-mossy-rocks-11403956/",
-   "arquivo": "https://videos.pexels.com/video-files/11403956/11403956-hd_1920_1080_30fps.mp4",
+   "id": 35413230,
+   "tag": "nuvens",
+   "duracao": 9,
+   "autor": "Ndumiso Mvelase",
+   "autor_url": "https://www.pexels.com/@ndumisomvelase",
+   "url": "https://www.pexels.com/video/dramatic-timelapse-of-cumulonimbus-clouds-35413230/",
+   "arquivo": "https://videos.pexels.com/video-files/35413230/15004566_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/11403956.mp4"
+   "arquivo_local": "clips/35413230.mp4"
   }
  },
  {
   "frases": [
    26
   ],
-  "bloco": "manso",
-  "tag": "lago_nevoa",
-  "inicio": 269.414,
-  "fim": 274.138,
+  "bloco": "porvoce",
+  "tag": "acima_nuvens",
+  "inicio": 291.85,
+  "fim": 297.255,
   "clip": {
-   "id": 11515000,
-   "tag": "lago_nevoa",
-   "duracao": 38,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/sunlight-behind-clouds-over-lake-11515000/",
-   "arquivo": "https://videos.pexels.com/video-files/11515000/11515000-hd_1920_1080_30fps.mp4",
+   "id": 11868811,
+   "tag": "nuvens",
+   "duracao": 60,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/clouds-in-blue-sky-11868811/",
+   "arquivo": "https://videos.pexels.com/video-files/11868811/11868811-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/11515000.mp4"
+   "arquivo_local": "clips/11868811.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "porvoce",
+  "tag": "acima_nuvens",
+  "inicio": 297.255,
+  "fim": 302.659,
+  "clip": {
+   "id": 14063548,
+   "tag": "acima_nuvens",
+   "duracao": 28,
+   "autor": "Zheltenko Oleksandr",
+   "autor_url": "https://www.pexels.com/@zheltenko-oleksandr-3681129",
+   "url": "https://www.pexels.com/video/window-view-of-a-plane-flying-above-the-clouds-14063548/",
+   "arquivo": "https://videos.pexels.com/video-files/14063548/14063548-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/14063548.mp4"
   }
  },
  {
   "frases": [
    27
   ],
-  "bloco": "manso",
-  "tag": "riacho",
-  "inicio": 274.138,
-  "fim": 281.372,
+  "bloco": "porvoce",
+  "tag": "aguia_voo",
+  "inicio": 302.659,
+  "fim": 307.841,
   "clip": {
-   "id": 13083219,
-   "tag": "riacho",
-   "duracao": 12,
-   "autor": "Luwellyn Punahele",
-   "autor_url": "https://www.pexels.com/@luwellyn-punahele-1946774",
-   "url": "https://www.pexels.com/video/rocks-in-creek-13083219/",
-   "arquivo": "https://videos.pexels.com/video-files/13083219/13083219-hd_1920_1080_30fps.mp4",
+   "id": 16338829,
+   "tag": "aguia_voo",
+   "duracao": 29,
+   "autor": "CESAR A RAMIREZ VALLEJO TRAPHITHO",
+   "autor_url": "https://www.pexels.com/@traphitho",
+   "url": "https://www.pexels.com/video/naturaaleza-paisaje-nubes-aves-insectos-montanas-colombia-16338829/",
+   "arquivo": "https://videos.pexels.com/video-files/16338829/16338829-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/13083219.mp4"
+   "arquivo_local": "clips/16338829.mp4"
   }
  },
  {
   "frases": [
-   28
-  ],
-  "bloco": "manso",
-  "tag": "prado",
-  "inicio": 281.372,
-  "fim": 288.993,
-  "clip": {
-   "id": 17127360,
-   "tag": "prado",
-   "duracao": 41,
-   "autor": "\ub300\uc815 \uae40",
-   "autor_url": "https://www.pexels.com/@daejeung",
-   "url": "https://www.pexels.com/video/a-pink-flower-in-the-middle-of-a-green-field-17127360/",
-   "arquivo": "https://videos.pexels.com/video-files/17127360/17127360-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/17127360.mp4"
-  }
- },
- {
-  "frases": [
-   28
-  ],
-  "bloco": "manso",
-  "tag": "prado",
-  "inicio": 288.993,
-  "fim": 296.613,
-  "clip": {
-   "id": 38752672,
-   "tag": "prado",
-   "duracao": 12,
-   "autor": "Yakup  Tu\u011f",
-   "autor_url": "https://www.pexels.com/@yakup-tug-59970386",
-   "url": "https://www.pexels.com/video/vibrant-red-poppy-field-under-blue-sky-38752672/",
-   "arquivo": "https://videos.pexels.com/video-files/38752672/16464489_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/38752672.mp4"
-  }
- },
- {
-  "frases": [
-   28
-  ],
-  "bloco": "manso",
-  "tag": "prado",
-  "inicio": 296.613,
-  "fim": 304.234,
-  "clip": {
-   "id": 4087298,
-   "tag": "prado",
-   "duracao": 15,
-   "autor": "Yaroslav Shuraev",
-   "autor_url": "https://www.pexels.com/@yaroslav-shuraev",
-   "url": "https://www.pexels.com/video/a-close-up-shot-of-a-blue-flower-4087298/",
-   "arquivo": "https://videos.pexels.com/video-files/4087298/4087298-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4087298.mp4"
-  }
- },
- {
-  "frases": [
-   29
+   27
   ],
   "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 304.234,
-  "fim": 310.038,
+  "tag": "aguia_voo",
+  "inicio": 307.841,
+  "fim": 313.023,
   "clip": {
-   "id": 6056836,
-   "tag": "floresta",
-   "duracao": 30,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/sunset-rays-over-the-forest-trees-6056836/",
-   "arquivo": "https://videos.pexels.com/video-files/6056836/6056836-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6056836.mp4"
-  }
- },
- {
-  "frases": [
-   29
-  ],
-  "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 310.038,
-  "fim": 315.841,
-  "clip": {
-   "id": 4807251,
-   "tag": "floresta",
-   "duracao": 14,
-   "autor": "\u5f35\u90c1\u8c6a",
-   "autor_url": "https://www.pexels.com/@3186887",
-   "url": "https://www.pexels.com/video/low-angle-video-of-trees-during-sunny-day-4807251/",
-   "arquivo": "https://videos.pexels.com/video-files/4807251/4807251-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4807251.mp4"
-  }
- },
- {
-  "frases": [
-   30
-  ],
-  "bloco": "porvoce",
-  "tag": "lago_nevoa",
-  "inicio": 315.841,
-  "fim": 320.774,
-  "clip": {
-   "id": 3151453,
-   "tag": "lago_nevoa",
-   "duracao": 23,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/aerial-footage-of-lake-view-taken-at-sunrise-3151453/",
-   "arquivo": "https://videos.pexels.com/video-files/3151453/3151453-hd_2048_1080_24fps.mp4",
-   "w": 2048,
-   "h": 1080,
-   "arquivo_local": "clips/3151453.mp4"
-  }
- },
- {
-  "frases": [
-   30
-  ],
-  "bloco": "porvoce",
-  "tag": "lago_nevoa",
-  "inicio": 320.774,
-  "fim": 325.706,
-  "clip": {
-   "id": 31562621,
-   "tag": "riacho",
-   "duracao": 10,
-   "autor": "Annie Chen",
-   "autor_url": "https://www.pexels.com/@annie-chen-2151156363",
-   "url": "https://www.pexels.com/video/tranquil-forest-stream-with-sunlit-leaves-31562621/",
-   "arquivo": "https://videos.pexels.com/video-files/31562621/13451245_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31562621.mp4"
-  }
- },
- {
-  "frases": [
-   31
-  ],
-  "bloco": "porvoce",
-  "tag": "riacho",
-  "inicio": 325.706,
-  "fim": 330.714,
-  "clip": {
-   "id": 12167605,
-   "tag": "riacho",
-   "duracao": 92,
+   "id": 15858308,
+   "tag": "aguia_voo",
+   "duracao": 40,
    "autor": "Tom Fisk",
    "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/flowing-water-in-stream-12167605/",
-   "arquivo": "https://videos.pexels.com/video-files/12167605/12167605-hd_1920_1080_25fps.mp4",
+   "url": "https://www.pexels.com/video/low-angle-view-of-a-bald-eagle-perched-on-a-bare-tree-branch-15858308/",
+   "arquivo": "https://videos.pexels.com/video-files/15858308/15858308-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/12167605.mp4"
+   "arquivo_local": "clips/15858308.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "porvoce",
+  "tag": "cordilheira",
+  "inicio": 313.023,
+  "fim": 318.798,
+  "clip": {
+   "id": 12501844,
+   "tag": "cordilheira",
+   "duracao": 33,
+   "autor": "Mehmet Eray",
+   "autor_url": "https://www.pexels.com/@mehmet-eray-195927748",
+   "url": "https://www.pexels.com/video/drone-footage-of-snowy-mountains-at-sunset-12501844/",
+   "arquivo": "https://videos.pexels.com/video-files/12501844/12501844-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12501844.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "porvoce",
+  "tag": "nuvens",
+  "inicio": 318.798,
+  "fim": 325.877,
+  "clip": {
+   "id": 6414189,
+   "tag": "nuvens",
+   "duracao": 63,
+   "autor": "Jenish Jeshan",
+   "autor_url": "https://www.pexels.com/@jenish-jeshan-3682197",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-moving-clouds-6414189/",
+   "arquivo": "https://videos.pexels.com/video-files/6414189/6414189-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6414189.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "porvoce",
+  "tag": "nuvens",
+  "inicio": 325.877,
+  "fim": 332.957,
+  "clip": {
+   "id": 34724497,
+   "tag": "nuvens",
+   "duracao": 28,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/dramatic-cloudscape-with-sunrays-in-blue-sky-34724497/",
+   "arquivo": "https://videos.pexels.com/video-files/34724497/14719674_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34724497.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "porvoce",
+  "tag": "acima_nuvens",
+  "inicio": 332.957,
+  "fim": 338.705,
+  "clip": {
+   "id": 4288030,
+   "tag": "cordilheira",
+   "duracao": 12,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/drone-shot-of-the-mountain-peak-during-sunset-4288030/",
+   "arquivo": "https://videos.pexels.com/video-files/4288030/4288030-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4288030.mp4"
+  }
+ },
+ {
+  "frases": [
+   30
+  ],
+  "bloco": "porvoce",
+  "tag": "acima_nuvens",
+  "inicio": 338.705,
+  "fim": 344.453,
+  "clip": {
+   "id": 13962508,
+   "tag": "paisagem_aerea",
+   "duracao": 10,
+   "autor": "Serg Alesenko",
+   "autor_url": "https://www.pexels.com/@sergk1",
+   "url": "https://www.pexels.com/video/clouds-over-hills-13962508/",
+   "arquivo": "https://videos.pexels.com/video-files/13962508/13962508-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13962508.mp4"
   }
  },
  {
@@ -1201,20 +1201,41 @@
    31
   ],
   "bloco": "porvoce",
-  "tag": "riacho",
-  "inicio": 330.714,
-  "fim": 335.721,
+  "tag": "aguia_voo",
+  "inicio": 344.453,
+  "fim": 348.709,
   "clip": {
-   "id": 6749605,
-   "tag": "riacho",
-   "duracao": 11,
-   "autor": "Ossianis Art",
-   "autor_url": "https://www.pexels.com/@ossianis",
-   "url": "https://www.pexels.com/video/cascading-water-through-the-mossy-rocks-6749605/",
-   "arquivo": "https://videos.pexels.com/video-files/6749605/6749605-hd_1920_1080_30fps.mp4",
+   "id": 34576235,
+   "tag": "aguia_voo",
+   "duracao": 9,
+   "autor": "Salim Da",
+   "autor_url": "https://www.pexels.com/@svliiim",
+   "url": "https://www.pexels.com/video/seagull-soaring-through-clear-blue-sky-34576235/",
+   "arquivo": "https://videos.pexels.com/video-files/34576235/14651780_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/6749605.mp4"
+   "arquivo_local": "clips/34576235.mp4"
+  }
+ },
+ {
+  "frases": [
+   31
+  ],
+  "bloco": "porvoce",
+  "tag": "aguia_voo",
+  "inicio": 348.709,
+  "fim": 352.966,
+  "clip": {
+   "id": 5470269,
+   "tag": "aguia_voo",
+   "duracao": 13,
+   "autor": "Shah Jahan",
+   "autor_url": "https://www.pexels.com/@shah-jahan-3472886",
+   "url": "https://www.pexels.com/video/close-up-view-of-an-eagle-5470269/",
+   "arquivo": "https://videos.pexels.com/video-files/5470269/5470269-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5470269.mp4"
   }
  },
  {
@@ -1222,251 +1243,251 @@
    32
   ],
   "bloco": "porvoce",
-  "tag": "prado",
-  "inicio": 335.721,
-  "fim": 343.059,
+  "tag": "paisagem_aerea",
+  "inicio": 352.966,
+  "fim": 357.104,
   "clip": {
-   "id": 9793521,
-   "tag": "prado",
-   "duracao": 9,
-   "autor": "mark soetebier",
-   "autor_url": "https://www.pexels.com/@audio-visual-art",
-   "url": "https://www.pexels.com/video/landscape-with-pink-flowers-and-mountains-9793521/",
-   "arquivo": "https://videos.pexels.com/video-files/9793521/9793521-hd_1920_1080_25fps.mp4",
-   "w": 1920,
+   "id": 37476562,
+   "tag": "dolomitas",
+   "duracao": 8,
+   "autor": "Marek Piwnicki",
+   "autor_url": "https://www.pexels.com/@marek-piwnicki-3907296",
+   "url": "https://www.pexels.com/video/stunning-dolomites-mountain-range-timelapse-37476562/",
+   "arquivo": "https://videos.pexels.com/video-files/37476562/15874876_1620_1080_30fps.mp4",
+   "w": 1620,
    "h": 1080,
-   "arquivo_local": "clips/9793521.mp4"
+   "arquivo_local": "clips/37476562.mp4"
   }
  },
  {
   "frases": [
    33
   ],
-  "bloco": "porvoce",
-  "tag": "riacho",
-  "inicio": 343.059,
-  "fim": 349.401,
+  "bloco": "passo",
+  "tag": "acima_nuvens",
+  "inicio": 357.104,
+  "fim": 362.425,
   "clip": {
-   "id": 10517993,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/small-stream-in-forest-10517993/",
-   "arquivo": "https://videos.pexels.com/video-files/10517993/10517993-hd_1920_1080_30fps.mp4",
+   "id": 40295220,
+   "tag": "paisagem_aerea",
+   "duracao": 14,
+   "autor": "Kaan  Keskin",
+   "autor_url": "https://www.pexels.com/@depthofraw",
+   "url": "https://www.pexels.com/video/majestic-mountain-aerial-with-dramatic-skies-40295220/",
+   "arquivo": "https://videos.pexels.com/video-files/40295220/17212743_1920_1080_50fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/10517993.mp4"
+   "arquivo_local": "clips/40295220.mp4"
   }
  },
  {
   "frases": [
    33
   ],
-  "bloco": "porvoce",
-  "tag": "riacho",
-  "inicio": 349.401,
-  "fim": 355.743,
+  "bloco": "passo",
+  "tag": "acima_nuvens",
+  "inicio": 362.425,
+  "fim": 367.746,
   "clip": {
-   "id": 27632187,
-   "tag": "riacho",
-   "duracao": 19,
-   "autor": "AP Vibes",
-   "autor_url": "https://www.pexels.com/@apvibes",
-   "url": "https://www.pexels.com/video/a-stream-flowing-through-a-forested-area-27632187/",
-   "arquivo": "https://videos.pexels.com/video-files/27632187/12189389_1920_1080_30fps.mp4",
+   "id": 5941278,
+   "tag": "acima_nuvens",
+   "duracao": 150,
+   "autor": "Brain SmashR",
+   "autor_url": "https://www.pexels.com/@brain-smashr-2974834",
+   "url": "https://www.pexels.com/video/foggy-landscape-during-sunrise-5941278/",
+   "arquivo": "https://videos.pexels.com/video-files/5941278/5941278-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/27632187.mp4"
+   "arquivo_local": "clips/5941278.mp4"
   }
  },
  {
   "frases": [
    34
   ],
-  "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 355.743,
-  "fim": 362.755,
+  "bloco": "passo",
+  "tag": "aguia_voo",
+  "inicio": 367.746,
+  "fim": 372.44,
   "clip": {
-   "id": 3239862,
-   "tag": "floresta",
-   "duracao": 12,
-   "autor": "The Marc Knight",
-   "autor_url": "https://www.pexels.com/@the-marc-knight-1698600",
-   "url": "https://www.pexels.com/video/the-long-trunks-of-tall-trees-in-the-forest-3239862/",
-   "arquivo": "https://videos.pexels.com/video-files/3239862/3239862-hd_1920_1080_25fps.mp4",
+   "id": 6010491,
+   "tag": "aguia_voo",
+   "duracao": 10,
+   "autor": "Tima Miroshnichenko",
+   "autor_url": "https://www.pexels.com/@tima-miroshnichenko",
+   "url": "https://www.pexels.com/video/bird-flying-under-blue-sky-6010491/",
+   "arquivo": "https://videos.pexels.com/video-files/6010491/6010491-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/3239862.mp4"
-  }
- },
- {
-  "frases": [
-   34
-  ],
-  "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 362.755,
-  "fim": 369.767,
-  "clip": {
-   "id": 34106794,
-   "tag": "floresta",
-   "duracao": 15,
-   "autor": "Bil Hinton",
-   "autor_url": "https://www.pexels.com/@bil-hinton-62574525",
-   "url": "https://www.pexels.com/video/sunlight-filtering-through-green-tree-canopy-34106794/",
-   "arquivo": "https://videos.pexels.com/video-files/34106794/14465376_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34106794.mp4"
+   "arquivo_local": "clips/6010491.mp4"
   }
  },
  {
   "frases": [
    35
   ],
-  "bloco": "porvoce",
-  "tag": "lago_nevoa",
-  "inicio": 369.767,
-  "fim": 374.338,
+  "bloco": "passo",
+  "tag": "cordilheira",
+  "inicio": 372.44,
+  "fim": 378.75,
   "clip": {
-   "id": 39257121,
-   "tag": "lago_nevoa",
-   "duracao": 42,
-   "autor": "Ahto Palmre",
-   "autor_url": "https://www.pexels.com/@ahtopalmre",
-   "url": "https://www.pexels.com/video/misty-morning-lake-in-serene-forest-39257121/",
-   "arquivo": "https://videos.pexels.com/video-files/39257121/16702678_1920_1080_30fps.mp4",
+   "id": 33354461,
+   "tag": "cordilheira",
+   "duracao": 38,
+   "autor": "GIANG VU",
+   "autor_url": "https://www.pexels.com/@giang-vu-322732455",
+   "url": "https://www.pexels.com/video/stunning-mountain-sunrise-aerial-view-33354461/",
+   "arquivo": "https://videos.pexels.com/video-files/33354461/14202812_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/39257121.mp4"
+   "arquivo_local": "clips/33354461.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "passo",
+  "tag": "cordilheira",
+  "inicio": 378.75,
+  "fim": 385.059,
+  "clip": {
+   "id": 38845877,
+   "tag": "cordilheira",
+   "duracao": 52,
+   "autor": "Yunus Terk",
+   "autor_url": "https://www.pexels.com/@yunusterk",
+   "url": "https://www.pexels.com/video/serene-coastal-sunset-over-mountain-range-38845877/",
+   "arquivo": "https://videos.pexels.com/video-files/38845877/16512543_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38845877.mp4"
   }
  },
  {
   "frases": [
    36
   ],
-  "bloco": "pausa",
-  "tag": "riacho",
-  "inicio": 374.338,
-  "fim": 380.262,
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 385.059,
+  "fim": 390.759,
   "clip": {
-   "id": 13873567,
-   "tag": "riacho",
-   "duracao": 15,
-   "autor": "Serg Alesenko",
-   "autor_url": "https://www.pexels.com/@sergk1",
-   "url": "https://www.pexels.com/video/stream-and-rocks-in-forest-13873567/",
-   "arquivo": "https://videos.pexels.com/video-files/13873567/13873567-hd_1920_1080_24fps.mp4",
+   "id": 11982909,
+   "tag": "cordilheira",
+   "duracao": 11,
+   "autor": "Erhan Day\u0131",
+   "autor_url": "https://www.pexels.com/@moments",
+   "url": "https://www.pexels.com/video/time-lapse-of-moving-clouds-11982909/",
+   "arquivo": "https://videos.pexels.com/video-files/11982909/11982909-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/13873567.mp4"
+   "arquivo_local": "clips/11982909.mp4"
   }
  },
  {
   "frases": [
    36
   ],
-  "bloco": "pausa",
-  "tag": "riacho",
-  "inicio": 380.262,
-  "fim": 386.186,
+  "bloco": "final",
+  "tag": "cordilheira",
+  "inicio": 390.759,
+  "fim": 396.459,
   "clip": {
-   "id": 7064490,
-   "tag": "riacho",
-   "duracao": 60,
-   "autor": "I Am Sorin",
-   "autor_url": "https://www.pexels.com/@iamsorin",
-   "url": "https://www.pexels.com/video/close-up-video-of-a-stream-7064490/",
-   "arquivo": "https://videos.pexels.com/video-files/7064490/7064490-hd_1920_1080_30fps.mp4",
+   "id": 31317567,
+   "tag": "cordilheira",
+   "duracao": 45,
+   "autor": "Sa\u00fal Sig\u00fcenza",
+   "autor_url": "https://www.pexels.com/@saul-siguenza-355267816",
+   "url": "https://www.pexels.com/video/stunning-aerial-sunrise-over-forested-mountains-31317567/",
+   "arquivo": "https://videos.pexels.com/video-files/31317567/13369456_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/7064490.mp4"
+   "arquivo_local": "clips/31317567.mp4"
   }
  },
  {
   "frases": [
    37
   ],
-  "bloco": "pausa",
-  "tag": "prado",
-  "inicio": 386.186,
-  "fim": 390.347,
+  "bloco": "final",
+  "tag": "nuvens",
+  "inicio": 396.459,
+  "fim": 403.626,
   "clip": {
-   "id": 38621276,
-   "tag": "prado",
+   "id": 34426550,
+   "tag": "nuvens",
+   "duracao": 24,
+   "autor": "Andrew Swarga",
+   "autor_url": "https://www.pexels.com/@andrew-swarga-87684510",
+   "url": "https://www.pexels.com/video/dynamic-cloud-formations-in-a-bright-blue-sky-34426550/",
+   "arquivo": "https://videos.pexels.com/video-files/34426550/14584147_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34426550.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "final",
+  "tag": "nuvens",
+  "inicio": 403.626,
+  "fim": 410.793,
+  "clip": {
+   "id": 38688892,
+   "tag": "paisagem_aerea",
+   "duracao": 53,
+   "autor": "Yunus Terk",
+   "autor_url": "https://www.pexels.com/@yunusterk",
+   "url": "https://www.pexels.com/video/aerial-view-of-mountainous-terrain-at-dusk-38688892/",
+   "arquivo": "https://videos.pexels.com/video-files/38688892/16434219_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38688892.mp4"
+  }
+ },
+ {
+  "frases": [
+   38
+  ],
+  "bloco": "final",
+  "tag": "paisagem_aerea",
+  "inicio": 410.793,
+  "fim": 417.986,
+  "clip": {
+   "id": 4579326,
+   "tag": "paisagem_aerea",
    "duracao": 12,
-   "autor": "Wolfgang Weiser",
-   "autor_url": "https://www.pexels.com/@wolfgang-weiser-467045605",
-   "url": "https://www.pexels.com/video/purple-lupines-blooming-in-summer-meadow-38621276/",
-   "arquivo": "https://videos.pexels.com/video-files/38621276/16403447_1920_1080_25fps.mp4",
+   "autor": "Dwi Arianto Adi Nugroho",
+   "autor_url": "https://www.pexels.com/@dwi-arianto-adi-nugroho-3020474",
+   "url": "https://www.pexels.com/video/aerial-footage-of-a-forest-4579326/",
+   "arquivo": "https://videos.pexels.com/video-files/4579326/4579326-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/38621276.mp4"
-  }
- },
- {
-  "frases": [
-   37
-  ],
-  "bloco": "pausa",
-  "tag": "prado",
-  "inicio": 390.347,
-  "fim": 394.508,
-  "clip": {
-   "id": 30178058,
-   "tag": "prado",
-   "duracao": 14,
-   "autor": "\u2020reny aleksa",
-   "autor_url": "https://www.pexels.com/@reny-aleksa-2148586910",
-   "url": "https://www.pexels.com/video/serene-wildflower-meadow-in-golden-sunset-30178058/",
-   "arquivo": "https://videos.pexels.com/video-files/30178058/12940830_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/30178058.mp4"
+   "arquivo_local": "clips/4579326.mp4"
   }
  },
  {
   "frases": [
    38
   ],
-  "bloco": "pausa",
-  "tag": "lago_nevoa",
-  "inicio": 394.508,
-  "fim": 400.126,
+  "bloco": "final",
+  "tag": "paisagem_aerea",
+  "inicio": 417.986,
+  "fim": 425.18,
   "clip": {
-   "id": 40149165,
-   "tag": "lago_nevoa",
+   "id": 5721853,
+   "tag": "paisagem_aerea",
    "duracao": 22,
-   "autor": "Ahto Palmre",
-   "autor_url": "https://www.pexels.com/@ahtopalmre",
-   "url": "https://www.pexels.com/video/serene-lake-sunrise-reflecting-nature-s-beauty-40149165/",
-   "arquivo": "https://videos.pexels.com/video-files/40149165/17147900_1920_1080_30fps.mp4",
+   "autor": "Marian Croitoru",
+   "autor_url": "https://www.pexels.com/@marian-croitoru-2984359",
+   "url": "https://www.pexels.com/video/sea-of-clouds-on-mountain-peaks-5721853/",
+   "arquivo": "https://videos.pexels.com/video-files/5721853/5721853-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/40149165.mp4"
-  }
- },
- {
-  "frases": [
-   38
-  ],
-  "bloco": "pausa",
-  "tag": "lago_nevoa",
-  "inicio": 400.126,
-  "fim": 405.745,
-  "clip": {
-   "id": 10849309,
-   "tag": "lago_nevoa",
-   "duracao": 62,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/fog-over-town-on-shore-10849309/",
-   "arquivo": "https://videos.pexels.com/video-files/10849309/10849309-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10849309.mp4"
+   "arquivo_local": "clips/5721853.mp4"
   }
  },
  {
@@ -1474,20 +1495,20 @@
    39
   ],
   "bloco": "final",
-  "tag": "floresta",
-  "inicio": 405.745,
-  "fim": 411.364,
+  "tag": "paisagem_aerea",
+  "inicio": 425.18,
+  "fim": 430.43,
   "clip": {
-   "id": 36296207,
-   "tag": "floresta",
-   "duracao": 17,
-   "autor": "Will Lam",
-   "autor_url": "https://www.pexels.com/@willccjp",
-   "url": "https://www.pexels.com/video/serene-forest-canopy-with-sunlight-filtering-through-36296207/",
-   "arquivo": "https://videos.pexels.com/video-files/36296207/15391834_1920_1080_30fps.mp4",
+   "id": 5721845,
+   "tag": "paisagem_aerea",
+   "duracao": 14,
+   "autor": "Marian Croitoru",
+   "autor_url": "https://www.pexels.com/@marian-croitoru-2984359",
+   "url": "https://www.pexels.com/video/aerial-video-of-clouds-on-mountain-peaks-5721845/",
+   "arquivo": "https://videos.pexels.com/video-files/5721845/5721845-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/36296207.mp4"
+   "arquivo_local": "clips/5721845.mp4"
   }
  },
  {
@@ -1495,188 +1516,20 @@
    39
   ],
   "bloco": "final",
-  "tag": "floresta",
-  "inicio": 411.364,
-  "fim": 416.982,
+  "tag": "paisagem_aerea",
+  "inicio": 430.43,
+  "fim": 435.68,
   "clip": {
-   "id": 5624206,
-   "tag": "floresta",
-   "duracao": 8,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/tree-forest-against-rays-of-sunlight-5624206/",
-   "arquivo": "https://videos.pexels.com/video-files/5624206/5624206-hd_1920_1080_24fps.mp4",
+   "id": 6836773,
+   "tag": "paisagem_aerea",
+   "duracao": 14,
+   "autor": "Los Muertos Crew",
+   "autor_url": "https://www.pexels.com/@cristian-rojas",
+   "url": "https://www.pexels.com/video/an-aerial-shot-of-a-forest-6836773/",
+   "arquivo": "https://videos.pexels.com/video-files/6836773/6836773-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5624206.mp4"
-  }
- },
- {
-  "frases": [
-   40
-  ],
-  "bloco": "final",
-  "tag": "lago_nevoa",
-  "inicio": 416.982,
-  "fim": 422.958,
-  "clip": {
-   "id": 39257166,
-   "tag": "lago_nevoa",
-   "duracao": 31,
-   "autor": "Ahto Palmre",
-   "autor_url": "https://www.pexels.com/@ahtopalmre",
-   "url": "https://www.pexels.com/video/misty-morning-lake-with-forest-view-39257166/",
-   "arquivo": "https://videos.pexels.com/video-files/39257166/16702700_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39257166.mp4"
-  }
- },
- {
-  "frases": [
-   40
-  ],
-  "bloco": "final",
-  "tag": "lago_nevoa",
-  "inicio": 422.958,
-  "fim": 428.935,
-  "clip": {
-   "id": 13469119,
-   "tag": "lago_nevoa",
-   "duracao": 20,
-   "autor": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0411\u043e\u0439\u043a\u043e",
-   "autor_url": "https://www.pexels.com/@alex664961",
-   "url": "https://www.pexels.com/video/fog-over-lake-13469119/",
-   "arquivo": "https://videos.pexels.com/video-files/13469119/13469119-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/13469119.mp4"
-  }
- },
- {
-  "frases": [
-   40
-  ],
-  "bloco": "final",
-  "tag": "lago_nevoa",
-  "inicio": 428.935,
-  "fim": 434.911,
-  "clip": {
-   "id": 11520759,
-   "tag": "lago_nevoa",
-   "duracao": 85,
-   "autor": "John Biondo",
-   "autor_url": "https://www.pexels.com/@jlbdigital",
-   "url": "https://www.pexels.com/video/airboat-on-swamp-11520759/",
-   "arquivo": "https://videos.pexels.com/video-files/11520759/11520759-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11520759.mp4"
-  }
- },
- {
-  "frases": [
-   41
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 434.911,
-  "fim": 440.694,
-  "clip": {
-   "id": 34505196,
-   "tag": "picos_neve",
-   "duracao": 15,
-   "autor": "Sergey Guk",
-   "autor_url": "https://www.pexels.com/@gsn-travel",
-   "url": "https://www.pexels.com/video/majestic-snowy-peaks-of-pirin-mountains-34505196/",
-   "arquivo": "https://videos.pexels.com/video-files/34505196/14619790_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34505196.mp4"
-  }
- },
- {
-  "frases": [
-   41
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 440.694,
-  "fim": 446.477,
-  "clip": {
-   "id": 37671793,
-   "tag": "picos_neve",
-   "duracao": 9,
-   "autor": "Marek Piwnicki",
-   "autor_url": "https://www.pexels.com/@marek-piwnicki-3907296",
-   "url": "https://www.pexels.com/video/dramatic-clouds-over-snow-capped-mountain-peaks-37671793/",
-   "arquivo": "https://videos.pexels.com/video-files/37671793/15970614_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/37671793.mp4"
-  }
- },
- {
-  "frases": [
-   41
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 446.477,
-  "fim": 452.26,
-  "clip": {
-   "id": 38502463,
-   "tag": "picos_neve",
-   "duracao": 27,
-   "autor": "Major &Wang",
-   "autor_url": "https://www.pexels.com/@major",
-   "url": "https://www.pexels.com/video/majestic-snow-capped-mountains-aerial-view-38502463/",
-   "arquivo": "https://videos.pexels.com/video-files/38502463/16351610_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/38502463.mp4"
-  }
- },
- {
-  "frases": [
-   42
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 452.26,
-  "fim": 456.51,
-  "clip": {
-   "id": 35488888,
-   "tag": "picos_neve",
-   "duracao": 20,
-   "autor": "Z\u00fclf\u00fc Demir\ud83d\udcf8",
-   "autor_url": "https://www.pexels.com/@zlfdmr23",
-   "url": "https://www.pexels.com/video/aerial-view-of-snow-capped-mountains-at-dawn-35488888/",
-   "arquivo": "https://videos.pexels.com/video-files/35488888/15034640_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/35488888.mp4"
-  }
- },
- {
-  "frases": [
-   42
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 456.51,
-  "fim": 460.76,
-  "clip": {
-   "id": 36206642,
-   "tag": "picos_neve",
-   "duracao": 50,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/aerial-view-of-snowy-mountain-landscape-36206642/",
-   "arquivo": "https://videos.pexels.com/video-files/36206642/15357260_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/36206642.mp4"
+   "arquivo_local": "clips/6836773.mp4"
   }
  }
 ]

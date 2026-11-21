@@ -3,147 +3,105 @@
   "frases": [
    0
   ],
-  "bloco": "preocupacao",
-  "tag": "dolomitas",
+  "bloco": "silencio",
+  "tag": "alpes",
   "inicio": 0.0,
-  "fim": 5.985,
+  "fim": 6.723,
   "clip": {
-   "id": 34960656,
-   "tag": "dolomitas",
-   "duracao": 55,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/stunning-aerial-view-of-dolomites-in-fall-34960656/",
-   "arquivo": "https://videos.pexels.com/video-files/34960656/14809953_1920_1080_30fps.mp4",
+   "id": 29136253,
+   "tag": "alpes",
+   "duracao": 89,
+   "autor": "Sergey Guk",
+   "autor_url": "https://www.pexels.com/@gsn-travel",
+   "url": "https://www.pexels.com/video/breathtaking-view-of-albanian-mountains-at-sunrise-29136253/",
+   "arquivo": "https://videos.pexels.com/video-files/29136253/12586479_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/34960656.mp4"
+   "arquivo_local": "clips/29136253.mp4"
   }
  },
  {
   "frases": [
    0
   ],
-  "bloco": "preocupacao",
-  "tag": "dolomitas",
-  "inicio": 5.985,
-  "fim": 11.971,
+  "bloco": "silencio",
+  "tag": "alpes",
+  "inicio": 6.723,
+  "fim": 13.447,
   "clip": {
-   "id": 34946656,
-   "tag": "dolomitas",
-   "duracao": 34,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/majestic-dolomites-aerial-mountain-view-34946656/",
-   "arquivo": "https://videos.pexels.com/video-files/34946656/14803685_1920_1080_30fps.mp4",
+   "id": 28492307,
+   "tag": "alpes",
+   "duracao": 14,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/a-view-of-the-mountains-from-the-air-28492307/",
+   "arquivo": "https://videos.pexels.com/video-files/28492307/12398702_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/34946656.mp4"
-  }
- },
- {
-  "frases": [
-   0
-  ],
-  "bloco": "preocupacao",
-  "tag": "dolomitas",
-  "inicio": 11.971,
-  "fim": 17.956,
-  "clip": {
-   "id": 4820498,
-   "tag": "cachoeira",
-   "duracao": 13,
-   "autor": "Joaquim Brito",
-   "autor_url": "https://www.pexels.com/@jotab",
-   "url": "https://www.pexels.com/video/flowing-waterfalls-4820498/",
-   "arquivo": "https://videos.pexels.com/video-files/4820498/4820498-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4820498.mp4"
+   "arquivo_local": "clips/28492307.mp4"
   }
  },
  {
   "frases": [
    1
   ],
-  "bloco": "preocupacao",
-  "tag": "cachoeira",
-  "inicio": 17.956,
-  "fim": 22.611,
+  "bloco": "silencio",
+  "tag": "mar_calmo",
+  "inicio": 13.447,
+  "fim": 20.443,
   "clip": {
-   "id": 4696007,
-   "tag": "cachoeira",
-   "duracao": 15,
-   "autor": "Fernando S\u00e1nchez Aranguren",
-   "autor_url": "https://www.pexels.com/@fernando-sanchez-aranguren-3099327",
-   "url": "https://www.pexels.com/video/drone-footage-of-a-waterfalls-4696007/",
-   "arquivo": "https://videos.pexels.com/video-files/4696007/4696007-hd_1920_1080_24fps.mp4",
+   "id": 33209082,
+   "tag": "mar_calmo",
+   "duracao": 23,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/golden-sunset-reflections-on-tranquil-water-33209082/",
+   "arquivo": "https://videos.pexels.com/video-files/33209082/14152444_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/4696007.mp4"
-  }
- },
- {
-  "frases": [
-   1
-  ],
-  "bloco": "preocupacao",
-  "tag": "cachoeira",
-  "inicio": 22.611,
-  "fim": 27.265,
-  "clip": {
-   "id": 9722317,
-   "tag": "cachoeira",
-   "duracao": 10,
-   "autor": "KoolShooters",
-   "autor_url": "https://www.pexels.com/@koolshooters",
-   "url": "https://www.pexels.com/video/a-picturesque-waterfall-9722317/",
-   "arquivo": "https://videos.pexels.com/video-files/9722317/9722317-hd_2048_872_25fps.mp4",
-   "w": 2048,
-   "h": 872,
-   "arquivo_local": "clips/9722317.mp4"
+   "arquivo_local": "clips/33209082.mp4"
   }
  },
  {
   "frases": [
    2
   ],
-  "bloco": "palavra",
-  "tag": "picos_neve",
-  "inicio": 27.265,
-  "fim": 31.797,
+  "bloco": "silencio",
+  "tag": "rocha",
+  "inicio": 20.443,
+  "fim": 26.977,
   "clip": {
-   "id": 36724833,
-   "tag": "picos_neve",
-   "duracao": 21,
-   "autor": "Gylfi Gylfason",
-   "autor_url": "https://www.pexels.com/@just-icelandic",
-   "url": "https://www.pexels.com/video/majestic-snowy-peaks-of-iceland-36724833/",
-   "arquivo": "https://videos.pexels.com/video-files/36724833/15564622_1920_1080_30fps.mp4",
+   "id": 31195531,
+   "tag": "rocha",
+   "duracao": 23,
+   "autor": "Mariano Quintero",
+   "autor_url": "https://www.pexels.com/@mariano-quintero-47135304",
+   "url": "https://www.pexels.com/video/dramatic-ocean-waves-crashing-on-rocky-cliffs-31195531/",
+   "arquivo": "https://videos.pexels.com/video-files/31195531/13325073_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/36724833.mp4"
+   "arquivo_local": "clips/31195531.mp4"
   }
  },
  {
   "frases": [
    2
   ],
-  "bloco": "palavra",
-  "tag": "picos_neve",
-  "inicio": 31.797,
-  "fim": 36.329,
+  "bloco": "silencio",
+  "tag": "rocha",
+  "inicio": 26.977,
+  "fim": 33.511,
   "clip": {
-   "id": 36393314,
-   "tag": "picos_neve",
-   "duracao": 30,
-   "autor": "Giuseppe Paoletti",
-   "autor_url": "https://www.pexels.com/@giusxpe",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-snow-covered-mountain-peaks-36393314/",
-   "arquivo": "https://videos.pexels.com/video-files/36393314/15433442_1920_1080_30fps.mp4",
+   "id": 32120734,
+   "tag": "rocha",
+   "duracao": 24,
+   "autor": "NGUY\u1ec4N TH\u00c0NH NH\u01a0N",
+   "autor_url": "https://www.pexels.com/@nguy-n-thanh-nh-n-203569019",
+   "url": "https://www.pexels.com/video/scenic-coastal-cliffs-and-ocean-waves-32120734/",
+   "arquivo": "https://videos.pexels.com/video-files/32120734/13693964_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/36393314.mp4"
+   "arquivo_local": "clips/32120734.mp4"
   }
  },
  {
@@ -151,41 +109,20 @@
    3
   ],
   "bloco": "palavra",
-  "tag": "floresta",
-  "inicio": 36.329,
-  "fim": 43.723,
+  "tag": "arvore",
+  "inicio": 33.511,
+  "fim": 40.978,
   "clip": {
-   "id": 8349403,
-   "tag": "floresta",
-   "duracao": 22,
-   "autor": "Mikhail Nilov",
-   "autor_url": "https://www.pexels.com/@mikhail-nilov",
-   "url": "https://www.pexels.com/video/a-footage-of-trees-on-the-mountains-8349403/",
-   "arquivo": "https://videos.pexels.com/video-files/8349403/8349403-hd_1920_1080_25fps.mp4",
+   "id": 26608389,
+   "tag": "mar_calmo",
+   "duracao": 9,
+   "autor": "Aswin R S",
+   "autor_url": "https://www.pexels.com/@aswin",
+   "url": "https://www.pexels.com/video/beach-sunset-waves-26608389/",
+   "arquivo": "https://videos.pexels.com/video-files/26608389/11972887_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/8349403.mp4"
-  }
- },
- {
-  "frases": [
-   3
-  ],
-  "bloco": "palavra",
-  "tag": "floresta",
-  "inicio": 43.723,
-  "fim": 51.117,
-  "clip": {
-   "id": 34461969,
-   "tag": "floresta",
-   "duracao": 29,
-   "autor": "Geun Goh",
-   "autor_url": "https://www.pexels.com/@teneye",
-   "url": "https://www.pexels.com/video/sunlight-through-forest-trees-in-early-morning-34461969/",
-   "arquivo": "https://videos.pexels.com/video-files/34461969/14602309_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34461969.mp4"
+   "arquivo_local": "clips/26608389.mp4"
   }
  },
  {
@@ -193,20 +130,20 @@
    4
   ],
   "bloco": "palavra",
-  "tag": "rio",
-  "inicio": 51.117,
-  "fim": 55.506,
+  "tag": "nuvens",
+  "inicio": 40.978,
+  "fim": 46.914,
   "clip": {
-   "id": 7592928,
-   "tag": "picos_neve",
-   "duracao": 12,
-   "autor": "ROMAN ODINTSOV",
-   "autor_url": "https://www.pexels.com/@roman-odintsov",
-   "url": "https://www.pexels.com/video/snow-capped-mountain-7592928/",
-   "arquivo": "https://videos.pexels.com/video-files/7592928/7592928-hd_2048_988_30fps.mp4",
-   "w": 2048,
-   "h": 988,
-   "arquivo_local": "clips/7592928.mp4"
+   "id": 18762040,
+   "tag": "nuvens",
+   "duracao": 60,
+   "autor": "Rufaro Makaya",
+   "autor_url": "https://www.pexels.com/@rufaro",
+   "url": "https://www.pexels.com/video/clouds-timelapse-18762040/",
+   "arquivo": "https://videos.pexels.com/video-files/18762040/18762040-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/18762040.mp4"
   }
  },
  {
@@ -214,20 +151,20 @@
    4
   ],
   "bloco": "palavra",
-  "tag": "rio",
-  "inicio": 55.506,
-  "fim": 59.895,
+  "tag": "nuvens",
+  "inicio": 46.914,
+  "fim": 52.85,
   "clip": {
-   "id": 8732229,
-   "tag": "rio",
-   "duracao": 67,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/drone-footage-of-a-body-of-water-8732229/",
-   "arquivo": "https://videos.pexels.com/video-files/8732229/8732229-hd_1920_1080_30fps.mp4",
+   "id": 33698582,
+   "tag": "nuvens",
+   "duracao": 19,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/dynamic-timelapse-of-lively-clouds-in-blue-sky-33698582/",
+   "arquivo": "https://videos.pexels.com/video-files/33698582/14313092_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/8732229.mp4"
+   "arquivo_local": "clips/33698582.mp4"
   }
  },
  {
@@ -235,20 +172,20 @@
    5
   ],
   "bloco": "palavra",
-  "tag": "dolomitas",
-  "inicio": 59.895,
-  "fim": 66.8,
+  "tag": "mar_calmo",
+  "inicio": 52.85,
+  "fim": 58.371,
   "clip": {
-   "id": 35020373,
-   "tag": "dolomitas",
-   "duracao": 25,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/stunning-drone-view-of-dolomites-in-autumn-35020373/",
-   "arquivo": "https://videos.pexels.com/video-files/35020373/14835540_1920_1080_30fps.mp4",
+   "id": 17352908,
+   "tag": "mar_calmo",
+   "duracao": 20,
+   "autor": "Nishant Guleria",
+   "autor_url": "https://www.pexels.com/@nishant-guleria-447174886",
+   "url": "https://www.pexels.com/video/drone-sea-view-17352908/",
+   "arquivo": "https://videos.pexels.com/video-files/17352908/17352908-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/35020373.mp4"
+   "arquivo_local": "clips/17352908.mp4"
   }
  },
  {
@@ -256,965 +193,965 @@
    6
   ],
   "bloco": "palavra",
-  "tag": "cachoeira",
-  "inicio": 66.8,
-  "fim": 73.048,
+  "tag": "rocha",
+  "inicio": 58.371,
+  "fim": 65.297,
   "clip": {
-   "id": 4542014,
-   "tag": "cachoeira",
+   "id": 6351158,
+   "tag": "rocha",
+   "duracao": 84,
+   "autor": "Andreu Marqu\u00e8s",
+   "autor_url": "https://www.pexels.com/@andreumarques",
+   "url": "https://www.pexels.com/video/aerial-footage-of-the-ocean-6351158/",
+   "arquivo": "https://videos.pexels.com/video-files/6351158/6351158-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6351158.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "acolher",
+  "tag": "arvore",
+  "inicio": 65.297,
+  "fim": 70.777,
+  "clip": {
+   "id": 27818902,
+   "tag": "mar_calmo",
+   "duracao": 90,
+   "autor": "Juan Antonio Santos L\u00f3pez",
+   "autor_url": "https://www.pexels.com/@juan-antonio-santos-lopez-704626143",
+   "url": "https://www.pexels.com/video/golpe-del-oceano-27818902/",
+   "arquivo": "https://videos.pexels.com/video-files/27818902/12233195_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27818902.mp4"
+  }
+ },
+ {
+  "frases": [
+   7
+  ],
+  "bloco": "acolher",
+  "tag": "arvore",
+  "inicio": 70.777,
+  "fim": 76.257,
+  "clip": {
+   "id": 37711546,
+   "tag": "arvore",
+   "duracao": 18,
+   "autor": "yunus er",
+   "autor_url": "https://www.pexels.com/@yunus-er-2749276",
+   "url": "https://www.pexels.com/video/lone-tree-in-vast-sunny-field-landscape-37711546/",
+   "arquivo": "https://videos.pexels.com/video-files/37711546/15992587_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/37711546.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "acolher",
+  "tag": "nuvens",
+  "inicio": 76.257,
+  "fim": 81.415,
+  "clip": {
+   "id": 13094721,
+   "tag": "nuvens",
+   "duracao": 107,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/sunlight-and-clouds-on-sky-13094721/",
+   "arquivo": "https://videos.pexels.com/video-files/13094721/13094721-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13094721.mp4"
+  }
+ },
+ {
+  "frases": [
+   8
+  ],
+  "bloco": "acolher",
+  "tag": "nuvens",
+  "inicio": 81.415,
+  "fim": 86.572,
+  "clip": {
+   "id": 5060883,
+   "tag": "nuvens",
    "duracao": 13,
-   "autor": "Md Rezaul Haque",
-   "autor_url": "https://www.pexels.com/@md-rezaul-haque-2994762",
-   "url": "https://www.pexels.com/video/waterfalls-in-the-forest-4542014/",
-   "arquivo": "https://videos.pexels.com/video-files/4542014/4542014-hd_1920_1080_25fps.mp4",
+   "autor": "JacobS JS",
+   "autor_url": "https://www.pexels.com/@jacobs-js-1729684",
+   "url": "https://www.pexels.com/video/time-lapse-video-of-moving-clouds-5060883/",
+   "arquivo": "https://videos.pexels.com/video-files/5060883/5060883-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/4542014.mp4"
-  }
- },
- {
-  "frases": [
-   6
-  ],
-  "bloco": "palavra",
-  "tag": "cachoeira",
-  "inicio": 73.048,
-  "fim": 79.297,
-  "clip": {
-   "id": 40393750,
-   "tag": "cachoeira",
-   "duracao": 26,
-   "autor": "Gylfi Gylfason",
-   "autor_url": "https://www.pexels.com/@just-icelandic",
-   "url": "https://www.pexels.com/video/stunning-cascading-waterfall-in-remote-valley-40393750/",
-   "arquivo": "https://videos.pexels.com/video-files/40393750/17256910_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/40393750.mp4"
-  }
- },
- {
-  "frases": [
-   7
-  ],
-  "bloco": "sabe",
-  "tag": "picos_neve",
-  "inicio": 79.297,
-  "fim": 84.963,
-  "clip": {
-   "id": 39708809,
-   "tag": "picos_neve",
-   "duracao": 14,
-   "autor": "Michal Petr\u00e1\u0161",
-   "autor_url": "https://www.pexels.com/@michal-petras-2152077115",
-   "url": "https://www.pexels.com/video/dramatic-clouds-over-snow-capped-high-tatras-39708809/",
-   "arquivo": "https://videos.pexels.com/video-files/39708809/16929733_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39708809.mp4"
-  }
- },
- {
-  "frases": [
-   7
-  ],
-  "bloco": "sabe",
-  "tag": "picos_neve",
-  "inicio": 84.963,
-  "fim": 90.629,
-  "clip": {
-   "id": 9851047,
-   "tag": "picos_neve",
-   "duracao": 40,
-   "autor": "Felix Mittermeier",
-   "autor_url": "https://www.pexels.com/@felix-mittermeier",
-   "url": "https://www.pexels.com/video/mountain-top-of-the-alps-in-switzerland-9851047/",
-   "arquivo": "https://videos.pexels.com/video-files/9851047/9851047-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9851047.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "sabe",
-  "tag": "floresta",
-  "inicio": 90.629,
-  "fim": 95.275,
-  "clip": {
-   "id": 8118655,
-   "tag": "floresta",
-   "duracao": 35,
-   "autor": "Stephen Pierce",
-   "autor_url": "https://www.pexels.com/@iheartmultimedia",
-   "url": "https://www.pexels.com/video/sun-rays-peeking-through-trees-8118655/",
-   "arquivo": "https://videos.pexels.com/video-files/8118655/8118655-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/8118655.mp4"
-  }
- },
- {
-  "frases": [
-   8
-  ],
-  "bloco": "sabe",
-  "tag": "floresta",
-  "inicio": 95.275,
-  "fim": 99.921,
-  "clip": {
-   "id": 19190654,
-   "tag": "floresta",
-   "duracao": 23,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/sunlight-shining-through-trees-in-a-forest-19190654/",
-   "arquivo": "https://videos.pexels.com/video-files/19190654/19190654-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/19190654.mp4"
+   "arquivo_local": "clips/5060883.mp4"
   }
  },
  {
   "frases": [
    9
   ],
-  "bloco": "sabe",
-  "tag": "rio",
-  "inicio": 99.921,
-  "fim": 104.382,
+  "bloco": "acolher",
+  "tag": "alpes",
+  "inicio": 86.572,
+  "fim": 91.245,
   "clip": {
-   "id": 5979999,
-   "tag": "rio",
-   "duracao": 24,
-   "autor": "Ambient_Nature_ Atmosphere",
-   "autor_url": "https://www.pexels.com/@ambient_nature_-atmosphere-1682386",
-   "url": "https://www.pexels.com/video/beautiful-scenery-of-calm-flowing-water-in-the-forest-5979999/",
-   "arquivo": "https://videos.pexels.com/video-files/5979999/5979999-hd_1920_1080_30fps.mp4",
+   "id": 34268598,
+   "tag": "mar_calmo",
+   "duracao": 21,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/serene-ocean-waves-at-sunrise-cinematic-view-34268598/",
+   "arquivo": "https://videos.pexels.com/video-files/34268598/14519226_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/5979999.mp4"
+   "arquivo_local": "clips/34268598.mp4"
   }
  },
  {
   "frases": [
    9
   ],
-  "bloco": "sabe",
-  "tag": "rio",
-  "inicio": 104.382,
-  "fim": 108.843,
+  "bloco": "acolher",
+  "tag": "alpes",
+  "inicio": 91.245,
+  "fim": 95.918,
   "clip": {
-   "id": 20080088,
-   "tag": "rio",
-   "duracao": 73,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/a-river-with-a-small-pond-in-the-middle-of-a-field-20080088/",
-   "arquivo": "https://videos.pexels.com/video-files/20080088/20080088-hd_2048_1080_30fps.mp4",
-   "w": 2048,
+   "id": 28963304,
+   "tag": "alpes",
+   "duracao": 12,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-snowy-mountain-range-28963304/",
+   "arquivo": "https://videos.pexels.com/video-files/28963304/12529644_1920_1080_24fps.mp4",
+   "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/20080088.mp4"
+   "arquivo_local": "clips/28963304.mp4"
   }
  },
  {
   "frases": [
    10
   ],
-  "bloco": "sabe",
-  "tag": "dolomitas",
-  "inicio": 108.843,
-  "fim": 112.915,
+  "bloco": "acolher",
+  "tag": "mar_calmo",
+  "inicio": 95.918,
+  "fim": 102.328,
   "clip": {
-   "id": 6981400,
-   "tag": "cachoeira",
-   "duracao": 24,
+   "id": 32828569,
+   "tag": "mar_calmo",
+   "duracao": 55,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/golden-sunlight-reflecting-on-ocean-waves-32828569/",
+   "arquivo": "https://videos.pexels.com/video-files/32828569/13992647_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32828569.mp4"
+  }
+ },
+ {
+  "frases": [
+   10
+  ],
+  "bloco": "acolher",
+  "tag": "mar_calmo",
+  "inicio": 102.328,
+  "fim": 108.737,
+  "clip": {
+   "id": 33145843,
+   "tag": "mar_calmo",
+   "duracao": 20,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/serene-ocean-waves-at-sunset-33145843/",
+   "arquivo": "https://videos.pexels.com/video-files/33145843/14126039_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33145843.mp4"
+  }
+ },
+ {
+  "frases": [
+   11
+  ],
+  "bloco": "getsemani",
+  "tag": "rocha",
+  "inicio": 108.737,
+  "fim": 114.987,
+  "clip": {
+   "id": 6989122,
+   "tag": "rocha",
+   "duracao": 12,
    "autor": "Mikhail Nilov",
    "autor_url": "https://www.pexels.com/@mikhail-nilov",
-   "url": "https://www.pexels.com/video/scenic-view-of-a-waterfalls-in-a-jungle-6981400/",
-   "arquivo": "https://videos.pexels.com/video-files/6981400/6981400-hd_1920_1080_25fps.mp4",
+   "url": "https://www.pexels.com/video/drone-footage-of-crashing-waves-6989122/",
+   "arquivo": "https://videos.pexels.com/video-files/6989122/6989122-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/6981400.mp4"
-  }
- },
- {
-  "frases": [
-   10
-  ],
-  "bloco": "sabe",
-  "tag": "dolomitas",
-  "inicio": 112.915,
-  "fim": 116.987,
-  "clip": {
-   "id": 10761087,
-   "tag": "cachoeira",
-   "duracao": 16,
-   "autor": "Greg Benson",
-   "autor_url": "https://www.pexels.com/@greg-benson-341468",
-   "url": "https://www.pexels.com/video/waterfall-in-tropical-forest-10761087/",
-   "arquivo": "https://videos.pexels.com/video-files/10761087/10761087-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/10761087.mp4"
+   "arquivo_local": "clips/6989122.mp4"
   }
  },
  {
   "frases": [
    11
   ],
-  "bloco": "sabe",
-  "tag": "cachoeira",
-  "inicio": 116.987,
+  "bloco": "getsemani",
+  "tag": "rocha",
+  "inicio": 114.987,
   "fim": 121.236,
   "clip": {
-   "id": 6617440,
-   "tag": "cachoeira",
-   "duracao": 8,
-   "autor": "shalender kumar",
-   "autor_url": "https://www.pexels.com/@shalenderkumar",
-   "url": "https://www.pexels.com/video/a-video-footage-of-waterfalls-6617440/",
-   "arquivo": "https://videos.pexels.com/video-files/6617440/6617440-hd_1920_1080_25fps.mp4",
+   "id": 7587148,
+   "tag": "rocha",
+   "duracao": 19,
+   "autor": "Polina \u2800",
+   "autor_url": "https://www.pexels.com/@polina-kovaleva",
+   "url": "https://www.pexels.com/video/waves-splashing-on-the-sea-coast-7587148/",
+   "arquivo": "https://videos.pexels.com/video-files/7587148/7587148-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/6617440.mp4"
+   "arquivo_local": "clips/7587148.mp4"
   }
  },
  {
   "frases": [
-   11
+   12
   ],
-  "bloco": "sabe",
-  "tag": "cachoeira",
+  "bloco": "getsemani",
+  "tag": "arvore",
   "inicio": 121.236,
-  "fim": 125.484,
+  "fim": 128.957,
   "clip": {
-   "id": 37669693,
-   "tag": "cachoeira",
-   "duracao": 24,
-   "autor": "Kunal Lakhotia",
-   "autor_url": "https://www.pexels.com/@kunal-lakhotia-781256899",
-   "url": "https://www.pexels.com/video/scenic-waterfall-in-lush-forest-setting-37669693/",
-   "arquivo": "https://videos.pexels.com/video-files/37669693/15969764_1920_1080_50fps.mp4",
+   "id": 12238362,
+   "tag": "arvore",
+   "duracao": 77,
+   "autor": "\u0412\u0438\u0442\u0430\u043b\u0438\u0439 \u0417\u043e\u0440\u0438\u043d",
+   "autor_url": "https://www.pexels.com/@152665633",
+   "url": "https://www.pexels.com/video/overhead-view-of-tree-on-field-12238362/",
+   "arquivo": "https://videos.pexels.com/video-files/12238362/12238362-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/37669693.mp4"
-  }
- },
- {
-  "frases": [
-   12
-  ],
-  "bloco": "prioridade",
-  "tag": "cachoeira",
-  "inicio": 125.484,
-  "fim": 131.194,
-  "clip": {
-   "id": 3992452,
-   "tag": "cachoeira",
-   "duracao": 32,
-   "autor": "Mariano von Plocki",
-   "autor_url": "https://www.pexels.com/@mariano-von-plocki-2324157",
-   "url": "https://www.pexels.com/video/a-close-up-shot-of-waterfalls-3992452/",
-   "arquivo": "https://videos.pexels.com/video-files/3992452/3992452-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/3992452.mp4"
-  }
- },
- {
-  "frases": [
-   12
-  ],
-  "bloco": "prioridade",
-  "tag": "cachoeira",
-  "inicio": 131.194,
-  "fim": 136.904,
-  "clip": {
-   "id": 6901758,
-   "tag": "cachoeira",
-   "duracao": 22,
-   "autor": "ArtHouse Studio",
-   "autor_url": "https://www.pexels.com/@arthousestudio",
-   "url": "https://www.pexels.com/video/black-and-white-video-of-waterfalls-6901758/",
-   "arquivo": "https://videos.pexels.com/video-files/6901758/6901758-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6901758.mp4"
+   "arquivo_local": "clips/12238362.mp4"
   }
  },
  {
   "frases": [
    13
   ],
-  "bloco": "prioridade",
-  "tag": "picos_neve",
-  "inicio": 136.904,
-  "fim": 142.302,
+  "bloco": "getsemani",
+  "tag": "nuvens",
+  "inicio": 128.957,
+  "fim": 135.398,
   "clip": {
-   "id": 26925616,
-   "tag": "picos_neve",
-   "duracao": 31,
-   "autor": "Jari Volpato",
-   "autor_url": "https://www.pexels.com/@jarivolpato",
-   "url": "https://www.pexels.com/video/mountains-with-snow-26925616/",
-   "arquivo": "https://videos.pexels.com/video-files/26925616/12031948_1920_1080_25fps.mp4",
+   "id": 33543287,
+   "tag": "nuvens",
+   "duracao": 11,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/dynamic-timelapse-of-clouds-in-blue-sky-33543287/",
+   "arquivo": "https://videos.pexels.com/video-files/33543287/14262865_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/26925616.mp4"
-  }
- },
- {
-  "frases": [
-   13
-  ],
-  "bloco": "prioridade",
-  "tag": "picos_neve",
-  "inicio": 142.302,
-  "fim": 147.699,
-  "clip": {
-   "id": 38451639,
-   "tag": "picos_neve",
-   "duracao": 16,
-   "autor": "Gylfi Gylfason",
-   "autor_url": "https://www.pexels.com/@just-icelandic",
-   "url": "https://www.pexels.com/video/stunning-aerial-view-of-snowy-mountains-at-dawn-38451639/",
-   "arquivo": "https://videos.pexels.com/video-files/38451639/16328243_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/38451639.mp4"
+   "arquivo_local": "clips/33543287.mp4"
   }
  },
  {
   "frases": [
    14
   ],
-  "bloco": "prioridade",
-  "tag": "floresta",
-  "inicio": 147.699,
-  "fim": 154.967,
+  "bloco": "getsemani",
+  "tag": "rocha",
+  "inicio": 135.398,
+  "fim": 141.456,
   "clip": {
-   "id": 31808046,
-   "tag": "floresta",
-   "duracao": 12,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/sunbeams-through-misty-forest-in-drenthe-31808046/",
-   "arquivo": "https://videos.pexels.com/video-files/31808046/13551869_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/31808046.mp4"
-  }
- },
- {
-  "frases": [
-   15
-  ],
-  "bloco": "primeiro",
-  "tag": "rio",
-  "inicio": 154.967,
-  "fim": 161.072,
-  "clip": {
-   "id": 29198920,
-   "tag": "rio",
-   "duracao": 40,
+   "id": 36391399,
+   "tag": "rocha",
+   "duracao": 34,
    "autor": "Tom Fisk",
    "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/serene-river-sunset-with-reflections-29198920/",
-   "arquivo": "https://videos.pexels.com/video-files/29198920/12607603_1920_1080_30fps.mp4",
+   "url": "https://www.pexels.com/video/aerial-view-of-dramatic-coastal-cliffs-and-waves-36391399/",
+   "arquivo": "https://videos.pexels.com/video-files/36391399/15432776_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/29198920.mp4"
+   "arquivo_local": "clips/36391399.mp4"
+  }
+ },
+ {
+  "frases": [
+   14
+  ],
+  "bloco": "getsemani",
+  "tag": "rocha",
+  "inicio": 141.456,
+  "fim": 147.513,
+  "clip": {
+   "id": 11869178,
+   "tag": "rocha",
+   "duracao": 11,
+   "autor": "Lay-Z Owl",
+   "autor_url": "https://www.pexels.com/@lay-z-owl-801145",
+   "url": "https://www.pexels.com/video/waves-crashing-on-rocks-11869178/",
+   "arquivo": "https://videos.pexels.com/video-files/11869178/11869178-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11869178.mp4"
   }
  },
  {
   "frases": [
    15
   ],
-  "bloco": "primeiro",
-  "tag": "rio",
-  "inicio": 161.072,
-  "fim": 167.178,
+  "bloco": "getsemani",
+  "tag": "alpes",
+  "inicio": 147.513,
+  "fim": 153.275,
   "clip": {
-   "id": 30792972,
-   "tag": "rio",
-   "duracao": 30,
-   "autor": "David  Wall",
-   "autor_url": "https://www.pexels.com/@david-wall-57485",
-   "url": "https://www.pexels.com/video/serene-evening-river-landscape-30792972/",
-   "arquivo": "https://videos.pexels.com/video-files/30792972/13170732_1920_1080_30fps.mp4",
+   "id": 35655926,
+   "tag": "alpes",
+   "duracao": 29,
+   "autor": "Florian Del\u00e9e",
+   "autor_url": "https://www.pexels.com/@florian-delee-209542985",
+   "url": "https://www.pexels.com/video/breathtaking-drone-view-of-misty-alps-at-dawn-35655926/",
+   "arquivo": "https://videos.pexels.com/video-files/35655926/15109594_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/30792972.mp4"
+   "arquivo_local": "clips/35655926.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "getsemani",
+  "tag": "alpes",
+  "inicio": 153.275,
+  "fim": 159.038,
+  "clip": {
+   "id": 40384201,
+   "tag": "mar_calmo",
+   "duracao": 10,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/golden-sunset-over-ocean-waves-40384201/",
+   "arquivo": "https://videos.pexels.com/video-files/40384201/17254613_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40384201.mp4"
+  }
+ },
+ {
+  "frases": [
+   15
+  ],
+  "bloco": "getsemani",
+  "tag": "alpes",
+  "inicio": 159.038,
+  "fim": 164.8,
+  "clip": {
+   "id": 29338340,
+   "tag": "alpes",
+   "duracao": 37,
+   "autor": "Ferhat Murat DA\u011eLI",
+   "autor_url": "https://www.pexels.com/@ferhat-murat-dagli-2096650921",
+   "url": "https://www.pexels.com/video/aerial-view-of-misty-slovenian-alps-landscape-29338340/",
+   "arquivo": "https://videos.pexels.com/video-files/29338340/12645669_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/29338340.mp4"
   }
  },
  {
   "frases": [
    16
   ],
-  "bloco": "primeiro",
-  "tag": "dolomitas",
-  "inicio": 167.178,
-  "fim": 173.125,
+  "bloco": "soseu",
+  "tag": "mar_calmo",
+  "inicio": 164.8,
+  "fim": 170.855,
   "clip": {
-   "id": 34946657,
-   "tag": "dolomitas",
-   "duracao": 36,
+   "id": 34400660,
+   "tag": "mar_calmo",
+   "duracao": 14,
    "autor": "Oskar Gross",
    "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-dolomites-34946657/",
-   "arquivo": "https://videos.pexels.com/video-files/34946657/14803679_1920_1080_30fps.mp4",
+   "url": "https://www.pexels.com/video/tranquil-ocean-sunset-over-gentle-waves-34400660/",
+   "arquivo": "https://videos.pexels.com/video-files/34400660/14573897_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/34946657.mp4"
-  }
- },
- {
-  "frases": [
-   16
-  ],
-  "bloco": "primeiro",
-  "tag": "dolomitas",
-  "inicio": 173.125,
-  "fim": 179.071,
-  "clip": {
-   "id": 34974242,
-   "tag": "dolomitas",
-   "duracao": 34,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-dolomites-peaks-34974242/",
-   "arquivo": "https://videos.pexels.com/video-files/34974242/14815712_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34974242.mp4"
+   "arquivo_local": "clips/34400660.mp4"
   }
  },
  {
   "frases": [
    17
   ],
-  "bloco": "primeiro",
-  "tag": "cachoeira",
-  "inicio": 179.071,
-  "fim": 183.998,
+  "bloco": "soseu",
+  "tag": "rocha",
+  "inicio": 170.855,
+  "fim": 176.512,
   "clip": {
-   "id": 5527622,
-   "tag": "cachoeira",
-   "duracao": 37,
-   "autor": "Ambient_Nature_ Atmosphere",
-   "autor_url": "https://www.pexels.com/@ambient_nature_-atmosphere-1682386",
-   "url": "https://www.pexels.com/video/low-angle-view-of-waterfalls-5527622/",
-   "arquivo": "https://videos.pexels.com/video-files/5527622/5527622-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5527622.mp4"
-  }
- },
- {
-  "frases": [
-   18
-  ],
-  "bloco": "primeiro",
-  "tag": "picos_neve",
-  "inicio": 183.998,
-  "fim": 191.191,
-  "clip": {
-   "id": 14309508,
-   "tag": "picos_neve",
-   "duracao": 21,
-   "autor": "\u041d\u0438\u0437\u0430\u043c  DRedd",
-   "autor_url": "https://www.pexels.com/@nizamdredd",
-   "url": "https://www.pexels.com/video/drone-footage-of-snow-capped-mountains-surrounded-by-low-clouds-14309508/",
-   "arquivo": "https://videos.pexels.com/video-files/14309508/14309508-hd_1920_1080_50fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14309508.mp4"
-  }
- },
- {
-  "frases": [
-   18
-  ],
-  "bloco": "primeiro",
-  "tag": "picos_neve",
-  "inicio": 191.191,
-  "fim": 198.384,
-  "clip": {
-   "id": 27428152,
-   "tag": "picos_neve",
-   "duracao": 55,
-   "autor": "Okan Demiray",
-   "autor_url": "https://www.pexels.com/@okan-demiray-306414780",
-   "url": "https://www.pexels.com/video/kayseri-erciyes-drone-goruntusu-27428152/",
-   "arquivo": "https://videos.pexels.com/video-files/27428152/12141782_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/27428152.mp4"
-  }
- },
- {
-  "frases": [
-   19
-  ],
-  "bloco": "primeiro",
-  "tag": "floresta",
-  "inicio": 198.384,
-  "fim": 202.995,
-  "clip": {
-   "id": 14057036,
-   "tag": "floresta",
-   "duracao": 22,
-   "autor": "Carsten Link",
-   "autor_url": "https://www.pexels.com/@carsten-link-2966887",
-   "url": "https://www.pexels.com/video/sun-shining-through-trees-in-the-forest-14057036/",
-   "arquivo": "https://videos.pexels.com/video-files/14057036/14057036-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14057036.mp4"
-  }
- },
- {
-  "frases": [
-   19
-  ],
-  "bloco": "primeiro",
-  "tag": "floresta",
-  "inicio": 202.995,
-  "fim": 207.606,
-  "clip": {
-   "id": 5657930,
-   "tag": "cachoeira",
-   "duracao": 64,
-   "autor": "Wayne Speedy",
-   "autor_url": "https://www.pexels.com/@wayne-speedy-777933",
-   "url": "https://www.pexels.com/video/waterfall-with-stream-flowing-from-it-5657930/",
-   "arquivo": "https://videos.pexels.com/video-files/5657930/5657930-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5657930.mp4"
-  }
- },
- {
-  "frases": [
-   20
-  ],
-  "bloco": "dividas",
-  "tag": "floresta",
-  "inicio": 207.606,
-  "fim": 213.33,
-  "clip": {
-   "id": 33458346,
-   "tag": "floresta",
-   "duracao": 17,
-   "autor": "Ahto Palmre",
-   "autor_url": "https://www.pexels.com/@ahtopalmre",
-   "url": "https://www.pexels.com/video/serene-forest-sunrise-with-mist-and-sun-rays-33458346/",
-   "arquivo": "https://videos.pexels.com/video-files/33458346/14236396_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/33458346.mp4"
-  }
- },
- {
-  "frases": [
-   20
-  ],
-  "bloco": "dividas",
-  "tag": "floresta",
-  "inicio": 213.33,
-  "fim": 219.054,
-  "clip": {
-   "id": 6042251,
-   "tag": "cachoeira",
-   "duracao": 8,
-   "autor": "Ventill8  Productions",
-   "autor_url": "https://www.pexels.com/@ventill8-productions-3270833",
-   "url": "https://www.pexels.com/video/a-river-in-a-forest-6042251/",
-   "arquivo": "https://videos.pexels.com/video-files/6042251/6042251-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6042251.mp4"
-  }
- },
- {
-  "frases": [
-   21
-  ],
-  "bloco": "dividas",
-  "tag": "rio",
-  "inicio": 219.054,
-  "fim": 223.266,
-  "clip": {
-   "id": 9086429,
-   "tag": "cachoeira",
-   "duracao": 122,
-   "autor": "Martina Tom\u0161i\u010d",
-   "autor_url": "https://www.pexels.com/@martina-tomsic-1656378",
-   "url": "https://www.pexels.com/video/waterfalls-in-the-forest-9086429/",
-   "arquivo": "https://videos.pexels.com/video-files/9086429/9086429-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9086429.mp4"
-  }
- },
- {
-  "frases": [
-   21
-  ],
-  "bloco": "dividas",
-  "tag": "rio",
-  "inicio": 223.266,
-  "fim": 227.478,
-  "clip": {
-   "id": 38750834,
-   "tag": "rio",
-   "duracao": 67,
-   "autor": "NGUY\u1ec4N H\u1eeeU \u0110\u1ee8C",
-   "autor_url": "https://www.pexels.com/@nguy-n-h-u-d-c-2159062836",
-   "url": "https://www.pexels.com/video/peaceful-river-scene-with-overhanging-tree-38750834/",
-   "arquivo": "https://videos.pexels.com/video-files/38750834/16463670_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/38750834.mp4"
-  }
- },
- {
-  "frases": [
-   22
-  ],
-  "bloco": "dividas",
-  "tag": "dolomitas",
-  "inicio": 227.478,
-  "fim": 234.483,
-  "clip": {
-   "id": 28638663,
-   "tag": "dolomitas",
-   "duracao": 15,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/majestic-snowy-mountain-peaks-in-winter-28638663/",
-   "arquivo": "https://videos.pexels.com/video-files/28638663/12438921_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28638663.mp4"
-  }
- },
- {
-  "frases": [
-   22
-  ],
-  "bloco": "dividas",
-  "tag": "dolomitas",
-  "inicio": 234.483,
-  "fim": 241.488,
-  "clip": {
-   "id": 35020372,
-   "tag": "dolomitas",
-   "duracao": 77,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/aerial-view-of-autumn-forest-in-the-dolomites-35020372/",
-   "arquivo": "https://videos.pexels.com/video-files/35020372/14835561_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/35020372.mp4"
-  }
- },
- {
-  "frases": [
-   23
-  ],
-  "bloco": "contentamento",
-  "tag": "cachoeira",
-  "inicio": 241.488,
-  "fim": 247.756,
-  "clip": {
-   "id": 4208231,
-   "tag": "cachoeira",
-   "duracao": 18,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/cascading-water-in-the-river-4208231/",
-   "arquivo": "https://videos.pexels.com/video-files/4208231/4208231-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/4208231.mp4"
-  }
- },
- {
-  "frases": [
-   23
-  ],
-  "bloco": "contentamento",
-  "tag": "cachoeira",
-  "inicio": 247.756,
-  "fim": 254.024,
-  "clip": {
-   "id": 9980505,
-   "tag": "cachoeira",
-   "duracao": 20,
-   "autor": "Giorgi Chkhaidze",
-   "autor_url": "https://www.pexels.com/@gchub",
-   "url": "https://www.pexels.com/video/a-waterfalls-in-a-rocky-river-9980505/",
-   "arquivo": "https://videos.pexels.com/video-files/9980505/9980505-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9980505.mp4"
-  }
- },
- {
-  "frases": [
-   24
-  ],
-  "bloco": "contentamento",
-  "tag": "picos_neve",
-  "inicio": 254.024,
-  "fim": 260.741,
-  "clip": {
-   "id": 34798290,
-   "tag": "picos_neve",
-   "duracao": 15,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/majestic-aerial-view-of-the-matterhorn-34798290/",
-   "arquivo": "https://videos.pexels.com/video-files/34798290/14753660_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34798290.mp4"
-  }
- },
- {
-  "frases": [
-   24
-  ],
-  "bloco": "contentamento",
-  "tag": "picos_neve",
-  "inicio": 260.741,
-  "fim": 267.458,
-  "clip": {
-   "id": 34532325,
-   "tag": "picos_neve",
-   "duracao": 30,
-   "autor": "Sergey Guk",
-   "autor_url": "https://www.pexels.com/@gsn-travel",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-snowy-mountain-range-34532325/",
-   "arquivo": "https://videos.pexels.com/video-files/34532325/14631166_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/34532325.mp4"
-  }
- },
- {
-  "frases": [
-   25
-  ],
-  "bloco": "contentamento",
-  "tag": "floresta",
-  "inicio": 267.458,
-  "fim": 273.202,
-  "clip": {
-   "id": 30038719,
-   "tag": "floresta",
-   "duracao": 17,
-   "autor": "Sini Ko",
-   "autor_url": "https://www.pexels.com/@siniko",
-   "url": "https://www.pexels.com/video/sunlight-filtering-through-lush-green-leaves-30038719/",
-   "arquivo": "https://videos.pexels.com/video-files/30038719/12886208_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/30038719.mp4"
-  }
- },
- {
-  "frases": [
-   25
-  ],
-  "bloco": "contentamento",
-  "tag": "floresta",
-  "inicio": 273.202,
-  "fim": 278.946,
-  "clip": {
-   "id": 3635869,
-   "tag": "floresta",
-   "duracao": 10,
-   "autor": "The Marc Knight",
-   "autor_url": "https://www.pexels.com/@the-marc-knight-1698600",
-   "url": "https://www.pexels.com/video/tree-leaves-providing-shades-for-the-forest-ground-from-the-sun-rays-3635869/",
-   "arquivo": "https://videos.pexels.com/video-files/3635869/3635869-hd_1920_1080_25fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/3635869.mp4"
-  }
- },
- {
-  "frases": [
-   26
-  ],
-  "bloco": "porvoce",
-  "tag": "rio",
-  "inicio": 278.946,
-  "fim": 283.902,
-  "clip": {
-   "id": 1164977,
-   "tag": "rio",
-   "duracao": 12,
-   "autor": "Zuzanna Musial",
-   "autor_url": "https://www.pexels.com/@042896ec25",
-   "url": "https://www.pexels.com/video/a-wide-river-1164977/",
-   "arquivo": "https://videos.pexels.com/video-files/1164977/1164977-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/1164977.mp4"
-  }
- },
- {
-  "frases": [
-   26
-  ],
-  "bloco": "porvoce",
-  "tag": "rio",
-  "inicio": 283.902,
-  "fim": 288.857,
-  "clip": {
-   "id": 5597144,
-   "tag": "rio",
-   "duracao": 31,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/stagnant-water-of-a-river-5597144/",
-   "arquivo": "https://videos.pexels.com/video-files/5597144/5597144-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5597144.mp4"
-  }
- },
- {
-  "frases": [
-   27
-  ],
-  "bloco": "porvoce",
-  "tag": "dolomitas",
-  "inicio": 288.857,
-  "fim": 295.462,
-  "clip": {
-   "id": 32070077,
-   "tag": "dolomitas",
+   "id": 8357481,
+   "tag": "rocha",
    "duracao": 24,
-   "autor": "Rui Veiga",
-   "autor_url": "https://www.pexels.com/@rui-veiga-986687",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-the-dolomites-32070077/",
-   "arquivo": "https://videos.pexels.com/video-files/32070077/13670453_1920_1080_25fps.mp4",
+   "autor": "Mikhail Nilov",
+   "autor_url": "https://www.pexels.com/@mikhail-nilov",
+   "url": "https://www.pexels.com/video/top-view-of-breaking-waves-on-a-coastal-cliff-8357481/",
+   "arquivo": "https://videos.pexels.com/video-files/8357481/8357481-hd_1920_1080_25fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/32070077.mp4"
+   "arquivo_local": "clips/8357481.mp4"
+  }
+ },
+ {
+  "frases": [
+   17
+  ],
+  "bloco": "soseu",
+  "tag": "rocha",
+  "inicio": 176.512,
+  "fim": 182.169,
+  "clip": {
+   "id": 6989130,
+   "tag": "rocha",
+   "duracao": 21,
+   "autor": "Mikhail Nilov",
+   "autor_url": "https://www.pexels.com/@mikhail-nilov",
+   "url": "https://www.pexels.com/video/drone-footage-of-coastal-cliff-6989130/",
+   "arquivo": "https://videos.pexels.com/video-files/6989130/6989130-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6989130.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "soseu",
+  "tag": "arvore",
+  "inicio": 182.169,
+  "fim": 189.851,
+  "clip": {
+   "id": 36062172,
+   "tag": "rocha",
+   "duracao": 51,
+   "autor": "Wladimir Guevara",
+   "autor_url": "https://www.pexels.com/@wladimir-guevara-709242939",
+   "url": "https://www.pexels.com/video/aerial-view-of-rocky-coastline-and-crashing-waves-36062172/",
+   "arquivo": "https://videos.pexels.com/video-files/36062172/15293659_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36062172.mp4"
+  }
+ },
+ {
+  "frases": [
+   18
+  ],
+  "bloco": "soseu",
+  "tag": "arvore",
+  "inicio": 189.851,
+  "fim": 197.534,
+  "clip": {
+   "id": 34750167,
+   "tag": "arvore",
+   "duracao": 38,
+   "autor": "New Zealand",
+   "autor_url": "https://www.pexels.com/@newzealander",
+   "url": "https://www.pexels.com/video/majestic-aerial-view-of-new-zealand-forested-hills-34750167/",
+   "arquivo": "https://videos.pexels.com/video-files/34750167/14731587_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34750167.mp4"
+  }
+ },
+ {
+  "frases": [
+   19
+  ],
+  "bloco": "soseu",
+  "tag": "nuvens",
+  "inicio": 197.534,
+  "fim": 205.0,
+  "clip": {
+   "id": 13293952,
+   "tag": "nuvens",
+   "duracao": 29,
+   "autor": "naratip sretan",
+   "autor_url": "https://www.pexels.com/@naratip-sretan-297235907",
+   "url": "https://www.pexels.com/video/white-clouds-moving-across-the-sky-13293952/",
+   "arquivo": "https://videos.pexels.com/video-files/13293952/13293952-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/13293952.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "soseu",
+  "tag": "alpes",
+  "inicio": 205.0,
+  "fim": 210.508,
+  "clip": {
+   "id": 28891490,
+   "tag": "alpes",
+   "duracao": 17,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/majestic-snowy-mountain-peaks-at-sunrise-28891490/",
+   "arquivo": "https://videos.pexels.com/video-files/28891490/12521610_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28891490.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "soseu",
+  "tag": "alpes",
+  "inicio": 210.508,
+  "fim": 216.015,
+  "clip": {
+   "id": 28891505,
+   "tag": "alpes",
+   "duracao": 12,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/stunning-mountain-aerial-at-sunrise-28891505/",
+   "arquivo": "https://videos.pexels.com/video-files/28891505/12521484_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/28891505.mp4"
+  }
+ },
+ {
+  "frases": [
+   20
+  ],
+  "bloco": "soseu",
+  "tag": "alpes",
+  "inicio": 216.015,
+  "fim": 221.523,
+  "clip": {
+   "id": 34718583,
+   "tag": "alpes",
+   "duracao": 30,
+   "autor": "Stephan Leuzinger",
+   "autor_url": "https://www.pexels.com/@stephan",
+   "url": "https://www.pexels.com/video/majestic-snow-covered-mountains-at-sunrise-34718583/",
+   "arquivo": "https://videos.pexels.com/video-files/34718583/14716771_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34718583.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "soseu",
+  "tag": "mar_calmo",
+  "inicio": 221.523,
+  "fim": 227.988,
+  "clip": {
+   "id": 854632,
+   "tag": "mar_calmo",
+   "duracao": 32,
+   "autor": "Pixabay",
+   "autor_url": "https://www.pexels.com/@pixabay",
+   "url": "https://www.pexels.com/video/video-footage-of-sea-854632/",
+   "arquivo": "https://videos.pexels.com/video-files/854632/854632-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/854632.mp4"
+  }
+ },
+ {
+  "frases": [
+   21
+  ],
+  "bloco": "soseu",
+  "tag": "mar_calmo",
+  "inicio": 227.988,
+  "fim": 234.452,
+  "clip": {
+   "id": 4739662,
+   "tag": "mar_calmo",
+   "duracao": 18,
+   "autor": "Anastasia  Shuraeva",
+   "autor_url": "https://www.pexels.com/@anastasia-shuraeva",
+   "url": "https://www.pexels.com/video/footage-of-a-horizon-4739662/",
+   "arquivo": "https://videos.pexels.com/video-files/4739662/4739662-hd_2048_1080_24fps.mp4",
+   "w": 2048,
+   "h": 1080,
+   "arquivo_local": "clips/4739662.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "vazio",
+  "tag": "mar_calmo",
+  "inicio": 234.452,
+  "fim": 239.949,
+  "clip": {
+   "id": 39337104,
+   "tag": "mar_calmo",
+   "duracao": 16,
+   "autor": "Inas Isleem",
+   "autor_url": "https://www.pexels.com/@inas-isleem-605461132",
+   "url": "https://www.pexels.com/video/tranquil-ocean-sunset-during-twilight-39337104/",
+   "arquivo": "https://videos.pexels.com/video-files/39337104/16740271_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/39337104.mp4"
+  }
+ },
+ {
+  "frases": [
+   22
+  ],
+  "bloco": "vazio",
+  "tag": "mar_calmo",
+  "inicio": 239.949,
+  "fim": 245.446,
+  "clip": {
+   "id": 32872694,
+   "tag": "mar_calmo",
+   "duracao": 29,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/tranquil-waves-at-sunset-on-sandy-beach-32872694/",
+   "arquivo": "https://videos.pexels.com/video-files/32872694/14011032_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/32872694.mp4"
+  }
+ },
+ {
+  "frases": [
+   23
+  ],
+  "bloco": "vazio",
+  "tag": "rocha",
+  "inicio": 245.446,
+  "fim": 249.543,
+  "clip": {
+   "id": 4625195,
+   "tag": "rocha",
+   "duracao": 11,
+   "autor": "Fernando Latorre",
+   "autor_url": "https://www.pexels.com/@vfintarts",
+   "url": "https://www.pexels.com/video/waves-crashing-on-a-rocky-coast-4625195/",
+   "arquivo": "https://videos.pexels.com/video-files/4625195/4625195-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4625195.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "vazio",
+  "tag": "arvore",
+  "inicio": 249.543,
+  "fim": 256.014,
+  "clip": {
+   "id": 40203028,
+   "tag": "mar_calmo",
+   "duracao": 37,
+   "autor": "Sergei Starostin",
+   "autor_url": "https://www.pexels.com/@sejio402",
+   "url": "https://www.pexels.com/video/soothing-ocean-waves-crashing-on-pebble-beach-40203028/",
+   "arquivo": "https://videos.pexels.com/video-files/40203028/17176217_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/40203028.mp4"
+  }
+ },
+ {
+  "frases": [
+   24
+  ],
+  "bloco": "vazio",
+  "tag": "arvore",
+  "inicio": 256.014,
+  "fim": 262.484,
+  "clip": {
+   "id": 38452148,
+   "tag": "arvore",
+   "duracao": 21,
+   "autor": "Ashad The Nomadic",
+   "autor_url": "https://www.pexels.com/@ashad-the-nomadic-2156221678",
+   "url": "https://www.pexels.com/video/aerial-view-of-tree-on-lakeside-peninsula-38452148/",
+   "arquivo": "https://videos.pexels.com/video-files/38452148/16329271_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38452148.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "vazio",
+  "tag": "nuvens",
+  "inicio": 262.484,
+  "fim": 267.861,
+  "clip": {
+   "id": 33029709,
+   "tag": "nuvens",
+   "duracao": 8,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/stunning-timelapse-of-puffy-clouds-in-blue-sky-33029709/",
+   "arquivo": "https://videos.pexels.com/video-files/33029709/14079155_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33029709.mp4"
+  }
+ },
+ {
+  "frases": [
+   25
+  ],
+  "bloco": "vazio",
+  "tag": "nuvens",
+  "inicio": 267.861,
+  "fim": 273.238,
+  "clip": {
+   "id": 18680622,
+   "tag": "nuvens",
+   "duracao": 10,
+   "autor": "Peggy Anke",
+   "autor_url": "https://www.pexels.com/@reisefreiheit",
+   "url": "https://www.pexels.com/video/timelapse-moving-clouds-18680622/",
+   "arquivo": "https://videos.pexels.com/video-files/18680622/18680622-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/18680622.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "amizades",
+  "tag": "alpes",
+  "inicio": 273.238,
+  "fim": 279.576,
+  "clip": {
+   "id": 35814488,
+   "tag": "mar_calmo",
+   "duracao": 54,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/golden-sunset-on-rocky-shallow-shoreline-35814488/",
+   "arquivo": "https://videos.pexels.com/video-files/35814488/15185161_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/35814488.mp4"
+  }
+ },
+ {
+  "frases": [
+   26
+  ],
+  "bloco": "amizades",
+  "tag": "alpes",
+  "inicio": 279.576,
+  "fim": 285.914,
+  "clip": {
+   "id": 3809698,
+   "tag": "mar_calmo",
+   "duracao": 152,
+   "autor": "Franklin Isea",
+   "autor_url": "https://www.pexels.com/@franklin-isea-2058669",
+   "url": "https://www.pexels.com/video/footage-of-sunset-and-the-sea-waves-3809698/",
+   "arquivo": "https://videos.pexels.com/video-files/3809698/3809698-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3809698.mp4"
   }
  },
  {
   "frases": [
    27
   ],
-  "bloco": "porvoce",
-  "tag": "dolomitas",
-  "inicio": 295.462,
-  "fim": 302.067,
+  "bloco": "amizades",
+  "tag": "mar_calmo",
+  "inicio": 285.914,
+  "fim": 290.78,
   "clip": {
-   "id": 35574240,
-   "tag": "dolomitas",
-   "duracao": 18,
-   "autor": "Astrella Visuals",
-   "autor_url": "https://www.pexels.com/@astrella-visuals-2151854408",
-   "url": "https://www.pexels.com/video/moody-foggy-mountain-landscape-in-dolomites-35574240/",
-   "arquivo": "https://videos.pexels.com/video-files/35574240/15074409_1920_1080_24fps.mp4",
+   "id": 11878525,
+   "tag": "mar_calmo",
+   "duracao": 122,
+   "autor": "Nothing Ahead",
+   "autor_url": "https://www.pexels.com/@ian-panelo",
+   "url": "https://www.pexels.com/video/waves-on-sea-shore-during-sunset-11878525/",
+   "arquivo": "https://videos.pexels.com/video-files/11878525/11878525-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/35574240.mp4"
+   "arquivo_local": "clips/11878525.mp4"
+  }
+ },
+ {
+  "frases": [
+   27
+  ],
+  "bloco": "amizades",
+  "tag": "mar_calmo",
+  "inicio": 290.78,
+  "fim": 295.646,
+  "clip": {
+   "id": 20013648,
+   "tag": "mar_calmo",
+   "duracao": 103,
+   "autor": "Ferdous  Hasan",
+   "autor_url": "https://www.pexels.com/@ferdous",
+   "url": "https://www.pexels.com/video/waves-of-ocean-in-the-dusk-20013648/",
+   "arquivo": "https://videos.pexels.com/video-files/20013648/20013648-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/20013648.mp4"
   }
  },
  {
   "frases": [
    28
   ],
-  "bloco": "porvoce",
-  "tag": "rio",
-  "inicio": 302.067,
-  "fim": 307.63,
+  "bloco": "amizades",
+  "tag": "rocha",
+  "inicio": 295.646,
+  "fim": 302.01,
   "clip": {
-   "id": 18538063,
-   "tag": "rio",
-   "duracao": 70,
-   "autor": "Tom Fisk",
-   "autor_url": "https://www.pexels.com/@tomfisk",
-   "url": "https://www.pexels.com/video/a-river-is-seen-at-sunset-with-trees-in-the-background-18538063/",
-   "arquivo": "https://videos.pexels.com/video-files/18538063/18538063-hd_1920_1080_30fps.mp4",
-   "w": 1920,
+   "id": 32194799,
+   "tag": "rocha",
+   "duracao": 56,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/dramatic-waves-crashing-against-rocky-coastline-32194799/",
+   "arquivo": "https://videos.pexels.com/video-files/32194799/13731397_2048_1080_30fps.mp4",
+   "w": 2048,
    "h": 1080,
-   "arquivo_local": "clips/18538063.mp4"
+   "arquivo_local": "clips/32194799.mp4"
   }
  },
  {
   "frases": [
    28
   ],
-  "bloco": "porvoce",
-  "tag": "rio",
-  "inicio": 307.63,
-  "fim": 313.193,
+  "bloco": "amizades",
+  "tag": "rocha",
+  "inicio": 302.01,
+  "fim": 308.374,
   "clip": {
-   "id": 6405060,
-   "tag": "cachoeira",
+   "id": 14361809,
+   "tag": "rocha",
+   "duracao": 13,
+   "autor": "Artem Zhukov",
+   "autor_url": "https://www.pexels.com/@artemioz",
+   "url": "https://www.pexels.com/video/rocks-on-sea-shore-14361809/",
+   "arquivo": "https://videos.pexels.com/video-files/14361809/14361809-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/14361809.mp4"
+  }
+ },
+ {
+  "frases": [
+   28
+  ],
+  "bloco": "amizades",
+  "tag": "rocha",
+  "inicio": 308.374,
+  "fim": 314.738,
+  "clip": {
+   "id": 6323175,
+   "tag": "rocha",
+   "duracao": 12,
+   "autor": "Erik Mclean",
+   "autor_url": "https://www.pexels.com/@introspectivedsgn",
+   "url": "https://www.pexels.com/video/drone-footage-of-the-cliff-coast-6323175/",
+   "arquivo": "https://videos.pexels.com/video-files/6323175/6323175-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/6323175.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 314.738,
+  "fim": 320.1,
+  "clip": {
+   "id": 2257012,
+   "tag": "mar_calmo",
+   "duracao": 14,
+   "autor": "K",
+   "autor_url": "https://www.pexels.com/@kelly",
+   "url": "https://www.pexels.com/video/body-of-water-with-view-of-silhouette-of-a-mountain-at-sunset-2257012/",
+   "arquivo": "https://videos.pexels.com/video-files/2257012/2257012-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/2257012.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 320.1,
+  "fim": 325.463,
+  "clip": {
+   "id": 34933189,
+   "tag": "arvore",
+   "duracao": 17,
+   "autor": "Joshua Woroniecki",
+   "autor_url": "https://www.pexels.com/@joshuaworoniecki",
+   "url": "https://www.pexels.com/video/serene-lone-tree-in-idyllic-sunlit-field-34933189/",
+   "arquivo": "https://videos.pexels.com/video-files/34933189/14797640_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/34933189.mp4"
+  }
+ },
+ {
+  "frases": [
+   29
+  ],
+  "bloco": "porvoce",
+  "tag": "arvore",
+  "inicio": 325.463,
+  "fim": 330.825,
+  "clip": {
+   "id": 30837619,
+   "tag": "mar_calmo",
    "duracao": 25,
-   "autor": "Najafi Photos",
-   "autor_url": "https://www.pexels.com/@najafi",
-   "url": "https://www.pexels.com/video/a-footage-of-waterfalls-6405060/",
-   "arquivo": "https://videos.pexels.com/video-files/6405060/6405060-hd_1920_1080_24fps.mp4",
+   "autor": "\u2020reny aleksa",
+   "autor_url": "https://www.pexels.com/@reny-aleksa-2148586910",
+   "url": "https://www.pexels.com/video/gentle-sunset-reflections-on-calm-ocean-waves-30837619/",
+   "arquivo": "https://videos.pexels.com/video-files/30837619/13190197_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/6405060.mp4"
-  }
- },
- {
-  "frases": [
-   29
-  ],
-  "bloco": "porvoce",
-  "tag": "cachoeira",
-  "inicio": 313.193,
-  "fim": 318.201,
-  "clip": {
-   "id": 39842568,
-   "tag": "cachoeira",
-   "duracao": 11,
-   "autor": "H\u1ed3ng Thi\u1ec7u",
-   "autor_url": "https://www.pexels.com/@h-ng-thi-u-2164148549",
-   "url": "https://www.pexels.com/video/aerial-view-of-serene-waterfall-in-lush-jungle-39842568/",
-   "arquivo": "https://videos.pexels.com/video-files/39842568/16996597_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/39842568.mp4"
-  }
- },
- {
-  "frases": [
-   29
-  ],
-  "bloco": "porvoce",
-  "tag": "cachoeira",
-  "inicio": 318.201,
-  "fim": 323.209,
-  "clip": {
-   "id": 6120414,
-   "tag": "cachoeira",
-   "duracao": 26,
-   "autor": "\ub300\uc815 \uae40",
-   "autor_url": "https://www.pexels.com/@daejeung",
-   "url": "https://www.pexels.com/video/view-of-the-waterfalls-flowing-on-big-rocks-6120414/",
-   "arquivo": "https://videos.pexels.com/video-files/6120414/6120414-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/6120414.mp4"
+   "arquivo_local": "clips/30837619.mp4"
   }
  },
  {
@@ -1222,20 +1159,20 @@
    30
   ],
   "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 323.209,
-  "fim": 328.791,
+  "tag": "nuvens",
+  "inicio": 330.825,
+  "fim": 336.28,
   "clip": {
-   "id": 10978942,
-   "tag": "floresta",
-   "duracao": 21,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/landscape-with-sun-shining-in-forest-at-sunrise-10978942/",
-   "arquivo": "https://videos.pexels.com/video-files/10978942/10978942-hd_1920_1080_30fps.mp4",
+   "id": 1860175,
+   "tag": "nuvens",
+   "duracao": 9,
+   "autor": "Alexander Lutkov",
+   "autor_url": "https://www.pexels.com/@alexander-lutkov-937750",
+   "url": "https://www.pexels.com/video/blue-sky-with-white-clouds-timelapse-mode-1860175/",
+   "arquivo": "https://videos.pexels.com/video-files/1860175/1860175-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/10978942.mp4"
+   "arquivo_local": "clips/1860175.mp4"
   }
  },
  {
@@ -1243,20 +1180,20 @@
    30
   ],
   "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 328.791,
-  "fim": 334.373,
+  "tag": "nuvens",
+  "inicio": 336.28,
+  "fim": 341.735,
   "clip": {
-   "id": 10978951,
-   "tag": "floresta",
-   "duracao": 19,
-   "autor": "Matthias Groeneveld",
-   "autor_url": "https://www.pexels.com/@matthiasgroeneveld",
-   "url": "https://www.pexels.com/video/fog-in-forest-at-dawn-10978951/",
-   "arquivo": "https://videos.pexels.com/video-files/10978951/10978951-hd_1920_1080_30fps.mp4",
+   "id": 33704415,
+   "tag": "nuvens",
+   "duracao": 20,
+   "autor": "Larkkid Dung",
+   "autor_url": "https://www.pexels.com/@larkkid-dung-363901731",
+   "url": "https://www.pexels.com/video/captivating-blue-sky-and-fluffy-clouds-timelapse-33704415/",
+   "arquivo": "https://videos.pexels.com/video-files/33704415/14315412_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/10978951.mp4"
+   "arquivo_local": "clips/33704415.mp4"
   }
  },
  {
@@ -1264,20 +1201,20 @@
    31
   ],
   "bloco": "porvoce",
-  "tag": "picos_neve",
-  "inicio": 334.373,
-  "fim": 339.63,
+  "tag": "rocha",
+  "inicio": 341.735,
+  "fim": 347.138,
   "clip": {
-   "id": 36274553,
-   "tag": "picos_neve",
-   "duracao": 22,
+   "id": 34413592,
+   "tag": "mar_calmo",
+   "duracao": 28,
    "autor": "Oskar Gross",
    "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/breathtaking-aerial-view-of-snowy-mountains-36274553/",
-   "arquivo": "https://videos.pexels.com/video-files/36274553/15383205_1920_1080_30fps.mp4",
+   "url": "https://www.pexels.com/video/tranquil-ocean-waves-at-twilight-34413592/",
+   "arquivo": "https://videos.pexels.com/video-files/34413592/14578547_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/36274553.mp4"
+   "arquivo_local": "clips/34413592.mp4"
   }
  },
  {
@@ -1285,20 +1222,20 @@
    31
   ],
   "bloco": "porvoce",
-  "tag": "picos_neve",
-  "inicio": 339.63,
-  "fim": 344.887,
+  "tag": "rocha",
+  "inicio": 347.138,
+  "fim": 352.541,
   "clip": {
-   "id": 8761173,
-   "tag": "picos_neve",
-   "duracao": 21,
-   "autor": "Yaroslav Shuraev",
-   "autor_url": "https://www.pexels.com/@yaroslav-shuraev",
-   "url": "https://www.pexels.com/video/aerial-footage-of-mountain-peaks-8761173/",
-   "arquivo": "https://videos.pexels.com/video-files/8761173/8761173-hd_1920_1080_30fps.mp4",
+   "id": 9115862,
+   "tag": "rocha",
+   "duracao": 55,
+   "autor": "Marc Espejo",
+   "autor_url": "https://www.pexels.com/@badkz777",
+   "url": "https://www.pexels.com/video/drone-footage-of-waves-crashing-to-the-cliff-9115862/",
+   "arquivo": "https://videos.pexels.com/video-files/9115862/9115862-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/8761173.mp4"
+   "arquivo_local": "clips/9115862.mp4"
   }
  },
  {
@@ -1306,314 +1243,251 @@
    32
   ],
   "bloco": "porvoce",
-  "tag": "floresta",
-  "inicio": 344.887,
-  "fim": 347.676,
+  "tag": "alpes",
+  "inicio": 352.541,
+  "fim": 358.999,
   "clip": {
-   "id": 14057033,
-   "tag": "floresta",
-   "duracao": 20,
-   "autor": "Carsten Link",
-   "autor_url": "https://www.pexels.com/@carsten-link-2966887",
-   "url": "https://www.pexels.com/video/sunlight-passing-through-trees-14057033/",
-   "arquivo": "https://videos.pexels.com/video-files/14057033/14057033-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/14057033.mp4"
-  }
- },
- {
-  "frases": [
-   33
-  ],
-  "bloco": "passo",
-  "tag": "rio",
-  "inicio": 347.676,
-  "fim": 353.39,
-  "clip": {
-   "id": 855668,
-   "tag": "cachoeira",
-   "duracao": 13,
-   "autor": "Pixabay",
-   "autor_url": "https://www.pexels.com/@pixabay",
-   "url": "https://www.pexels.com/video/nature-s-waterfall-footage-855668/",
-   "arquivo": "https://videos.pexels.com/video-files/855668/855668-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/855668.mp4"
-  }
- },
- {
-  "frases": [
-   33
-  ],
-  "bloco": "passo",
-  "tag": "rio",
-  "inicio": 353.39,
-  "fim": 359.104,
-  "clip": {
-   "id": 40818318,
-   "tag": "rio",
-   "duracao": 14,
-   "autor": "Evgenij Mikhailov",
-   "autor_url": "https://www.pexels.com/@evgenij-mikhailov-118166450",
-   "url": "https://www.pexels.com/video/tranquil-mossy-forest-stream-in-nature-40818318/",
-   "arquivo": "https://videos.pexels.com/video-files/40818318/17439008_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/40818318.mp4"
-  }
- },
- {
-  "frases": [
-   34
-  ],
-  "bloco": "passo",
-  "tag": "dolomitas",
-  "inicio": 359.104,
-  "fim": 364.339,
-  "clip": {
-   "id": 26800128,
-   "tag": "dolomitas",
-   "duracao": 9,
-   "autor": "Atlantic Ambience",
-   "autor_url": "https://www.pexels.com/@freestockpro",
-   "url": "https://www.pexels.com/video/alps-26800128/",
-   "arquivo": "https://videos.pexels.com/video-files/26800128/12009690_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/26800128.mp4"
-  }
- },
- {
-  "frases": [
-   34
-  ],
-  "bloco": "passo",
-  "tag": "dolomitas",
-  "inicio": 364.339,
-  "fim": 369.575,
-  "clip": {
-   "id": 28963335,
-   "tag": "dolomitas",
-   "duracao": 16,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/stunning-winter-panorama-of-dolomites-mountains-28963335/",
-   "arquivo": "https://videos.pexels.com/video-files/28963335/12529557_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/28963335.mp4"
-  }
- },
- {
-  "frases": [
-   35
-  ],
-  "bloco": "passo",
-  "tag": "cachoeira",
-  "inicio": 369.575,
-  "fim": 375.84,
-  "clip": {
-   "id": 5632725,
-   "tag": "cachoeira",
-   "duracao": 42,
-   "autor": "Ambient_Nature_ Atmosphere",
-   "autor_url": "https://www.pexels.com/@ambient_nature_-atmosphere-1682386",
-   "url": "https://www.pexels.com/video/a-flowing-waterfalls-from-natural-rock-formation-5632725/",
-   "arquivo": "https://videos.pexels.com/video-files/5632725/5632725-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5632725.mp4"
-  }
- },
- {
-  "frases": [
-   35
-  ],
-  "bloco": "passo",
-  "tag": "cachoeira",
-  "inicio": 375.84,
-  "fim": 382.105,
-  "clip": {
-   "id": 9666921,
-   "tag": "cachoeira",
-   "duracao": 62,
-   "autor": "ARGA",
-   "autor_url": "https://www.pexels.com/@arga-26647557",
-   "url": "https://www.pexels.com/video/close-up-shot-of-a-waterfalls-9666921/",
-   "arquivo": "https://videos.pexels.com/video-files/9666921/9666921-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/9666921.mp4"
-  }
- },
- {
-  "frases": [
-   36
-  ],
-  "bloco": "passo",
-  "tag": "picos_neve",
-  "inicio": 382.105,
-  "fim": 386.995,
-  "clip": {
-   "id": 2474616,
-   "tag": "picos_neve",
-   "duracao": 15,
-   "autor": "Ruvim M",
-   "autor_url": "https://www.pexels.com/@digitech",
-   "url": "https://www.pexels.com/video/aerial-view-of-a-snow-covered-mountain-2474616/",
-   "arquivo": "https://videos.pexels.com/video-files/2474616/2474616-hd_1920_1080_24fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/2474616.mp4"
-  }
- },
- {
-  "frases": [
-   36
-  ],
-  "bloco": "passo",
-  "tag": "picos_neve",
-  "inicio": 386.995,
-  "fim": 391.884,
-  "clip": {
-   "id": 11273071,
-   "tag": "picos_neve",
-   "duracao": 19,
-   "autor": "Serg Alesenko",
-   "autor_url": "https://www.pexels.com/@sergk1",
-   "url": "https://www.pexels.com/video/drone-footage-of-a-mountain-peaks-covered-in-snow-11273071/",
-   "arquivo": "https://videos.pexels.com/video-files/11273071/11273071-hd_1920_1080_60fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/11273071.mp4"
-  }
- },
- {
-  "frases": [
-   37
-  ],
-  "bloco": "final",
-  "tag": "cachoeira",
-  "inicio": 391.884,
-  "fim": 397.567,
-  "clip": {
-   "id": 5580678,
-   "tag": "cachoeira",
-   "duracao": 156,
-   "autor": "Spencer Campbell",
-   "autor_url": "https://www.pexels.com/@mrcampbellrocks",
-   "url": "https://www.pexels.com/video/close-up-shot-of-a-waterfall-5580678/",
-   "arquivo": "https://videos.pexels.com/video-files/5580678/5580678-hd_1920_1080_30fps.mp4",
-   "w": 1920,
-   "h": 1080,
-   "arquivo_local": "clips/5580678.mp4"
-  }
- },
- {
-  "frases": [
-   37
-  ],
-  "bloco": "final",
-  "tag": "cachoeira",
-  "inicio": 397.567,
-  "fim": 403.251,
-  "clip": {
-   "id": 9721713,
-   "tag": "cachoeira",
-   "duracao": 17,
-   "autor": "KoolShooters",
-   "autor_url": "https://www.pexels.com/@koolshooters",
-   "url": "https://www.pexels.com/video/cascading-waterfalls-9721713/",
-   "arquivo": "https://videos.pexels.com/video-files/9721713/9721713-hd_2048_872_25fps.mp4",
-   "w": 2048,
-   "h": 872,
-   "arquivo_local": "clips/9721713.mp4"
-  }
- },
- {
-  "frases": [
-   38
-  ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 403.251,
-  "fim": 408.021,
-  "clip": {
-   "id": 29443420,
-   "tag": "picos_neve",
+   "id": 15448880,
+   "tag": "alpes",
    "duracao": 10,
-   "autor": "asif khan",
-   "autor_url": "https://www.pexels.com/@asif-khan-779684638",
-   "url": "https://www.pexels.com/video/snowy-mountain-peaks-and-misty-clouds-29443420/",
-   "arquivo": "https://videos.pexels.com/video-files/29443420/12674857_1920_1080_30fps.mp4",
+   "autor": "Wojciech Koszyk",
+   "autor_url": "https://www.pexels.com/@wojciech-koszyk-446120026",
+   "url": "https://www.pexels.com/video/drone-footage-of-the-tre-cime-di-lavaredo-in-the-sexten-dolomites-italy-15448880/",
+   "arquivo": "https://videos.pexels.com/video-files/15448880/15448880-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/29443420.mp4"
+   "arquivo_local": "clips/15448880.mp4"
+  }
+ },
+ {
+  "frases": [
+   32
+  ],
+  "bloco": "porvoce",
+  "tag": "alpes",
+  "inicio": 358.999,
+  "fim": 365.457,
+  "clip": {
+   "id": 20677419,
+   "tag": "mar_calmo",
+   "duracao": 30,
+   "autor": "Mario Krimer",
+   "autor_url": "https://www.pexels.com/@mario-krimer-333884600",
+   "url": "https://www.pexels.com/video/sunset-sea-waves-motion-20677419/",
+   "arquivo": "https://videos.pexels.com/video-files/20677419/20677419-hd_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/20677419.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "nuvens",
+  "inicio": 365.457,
+  "fim": 372.523,
+  "clip": {
+   "id": 11996440,
+   "tag": "nuvens",
+   "duracao": 98,
+   "autor": "Joshua Stanfield",
+   "autor_url": "https://www.pexels.com/@joshua-stanfield-224805334",
+   "url": "https://www.pexels.com/video/white-clouds-on-sky-11996440/",
+   "arquivo": "https://videos.pexels.com/video-files/11996440/11996440-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11996440.mp4"
+  }
+ },
+ {
+  "frases": [
+   33
+  ],
+  "bloco": "porvoce",
+  "tag": "nuvens",
+  "inicio": 372.523,
+  "fim": 379.589,
+  "clip": {
+   "id": 10616832,
+   "tag": "nuvens",
+   "duracao": 16,
+   "autor": "Ilya Klimenko",
+   "autor_url": "https://www.pexels.com/@tact-tm",
+   "url": "https://www.pexels.com/video/blue-sky-with-moving-clouds-10616832/",
+   "arquivo": "https://videos.pexels.com/video-files/10616832/10616832-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/10616832.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "mar_calmo",
+  "inicio": 379.589,
+  "fim": 385.826,
+  "clip": {
+   "id": 3921562,
+   "tag": "mar_calmo",
+   "duracao": 19,
+   "autor": "Ootydreams Ooty",
+   "autor_url": "https://www.pexels.com/@ootydreams-ooty-1504916",
+   "url": "https://www.pexels.com/video/outdoorchallenge-mobilechallenge-3921562/",
+   "arquivo": "https://videos.pexels.com/video-files/3921562/3921562-hd_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/3921562.mp4"
+  }
+ },
+ {
+  "frases": [
+   34
+  ],
+  "bloco": "porvoce",
+  "tag": "mar_calmo",
+  "inicio": 385.826,
+  "fim": 392.062,
+  "clip": {
+   "id": 4068183,
+   "tag": "mar_calmo",
+   "duracao": 18,
+   "autor": "Jonathan Borba",
+   "autor_url": "https://www.pexels.com/@jonathanborba",
+   "url": "https://www.pexels.com/video/sea-waves-kissing-the-seashore-4068183/",
+   "arquivo": "https://videos.pexels.com/video-files/4068183/4068183-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/4068183.mp4"
+  }
+ },
+ {
+  "frases": [
+   35
+  ],
+  "bloco": "porvoce",
+  "tag": "rocha",
+  "inicio": 392.062,
+  "fim": 395.243,
+  "clip": {
+   "id": 36505810,
+   "tag": "rocha",
+   "duracao": 13,
+   "autor": "Mike Art \ud83c\udfa5 Visual Creator | Photography and Video \ud83d\udcf8",
+   "autor_url": "https://www.pexels.com/@mike-art-visual-creator-photography-and-video-2159421235",
+   "url": "https://www.pexels.com/video/dramatic-drone-view-of-north-sea-cliffs-36505810/",
+   "arquivo": "https://videos.pexels.com/video-files/36505810/15479714_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/36505810.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "passo",
+  "tag": "arvore",
+  "inicio": 395.243,
+  "fim": 402.642,
+  "clip": {
+   "id": 27588719,
+   "tag": "arvore",
+   "duracao": 19,
+   "autor": "Pixelmagix Free Stock",
+   "autor_url": "https://www.pexels.com/@pixstocks",
+   "url": "https://www.pexels.com/video/landscape_captures-27588719/",
+   "arquivo": "https://videos.pexels.com/video-files/27588719/12176819_1920_1080_24fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27588719.mp4"
+  }
+ },
+ {
+  "frases": [
+   36
+  ],
+  "bloco": "passo",
+  "tag": "arvore",
+  "inicio": 402.642,
+  "fim": 410.042,
+  "clip": {
+   "id": 33892499,
+   "tag": "mar_calmo",
+   "duracao": 14,
+   "autor": "Sururi Ball\u0131da\u011f Director",
+   "autor_url": "https://www.pexels.com/@drector",
+   "url": "https://www.pexels.com/video/stunning-sunset-over-calm-sea-with-islands-33892499/",
+   "arquivo": "https://videos.pexels.com/video-files/33892499/14383784_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/33892499.mp4"
+  }
+ },
+ {
+  "frases": [
+   37
+  ],
+  "bloco": "passo",
+  "tag": "nuvens",
+  "inicio": 410.042,
+  "fim": 416.914,
+  "clip": {
+   "id": 12145215,
+   "tag": "nuvens",
+   "duracao": 67,
+   "autor": "Dmitry Marchenkov",
+   "autor_url": "https://www.pexels.com/@electrotrack",
+   "url": "https://www.pexels.com/video/time-lapse-of-moving-clouds-in-sky-12145215/",
+   "arquivo": "https://videos.pexels.com/video-files/12145215/12145215-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/12145215.mp4"
   }
  },
  {
   "frases": [
    38
   ],
-  "bloco": "final",
-  "tag": "picos_neve",
-  "inicio": 408.021,
-  "fim": 412.792,
+  "bloco": "passo",
+  "tag": "alpes",
+  "inicio": 416.914,
+  "fim": 422.863,
   "clip": {
-   "id": 7592857,
-   "tag": "picos_neve",
-   "duracao": 14,
-   "autor": "ROMAN ODINTSOV",
-   "autor_url": "https://www.pexels.com/@roman-odintsov",
-   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-7592857/",
-   "arquivo": "https://videos.pexels.com/video-files/7592857/7592857-hd_2048_988_30fps.mp4",
+   "id": 32194802,
+   "tag": "rocha",
+   "duracao": 59,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/dramatic-rocky-seaside-with-crashing-waves-32194802/",
+   "arquivo": "https://videos.pexels.com/video-files/32194802/13731381_2048_1080_30fps.mp4",
    "w": 2048,
-   "h": 988,
-   "arquivo_local": "clips/7592857.mp4"
-  }
- },
- {
-  "frases": [
-   39
-  ],
-  "bloco": "final",
-  "tag": "dolomitas",
-  "inicio": 412.792,
-  "fim": 418.708,
-  "clip": {
-   "id": 31617581,
-   "tag": "dolomitas",
-   "duracao": 17,
-   "autor": "Rui Veiga",
-   "autor_url": "https://www.pexels.com/@rui-veiga-986687",
-   "url": "https://www.pexels.com/video/majestic-alpine-mountains-under-blue-sky-31617581/",
-   "arquivo": "https://videos.pexels.com/video-files/31617581/13470937_1920_1080_25fps.mp4",
-   "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/31617581.mp4"
+   "arquivo_local": "clips/32194802.mp4"
   }
  },
  {
   "frases": [
-   39
+   38
   ],
-  "bloco": "final",
-  "tag": "dolomitas",
-  "inicio": 418.708,
-  "fim": 424.624,
+  "bloco": "passo",
+  "tag": "alpes",
+  "inicio": 422.863,
+  "fim": 428.813,
   "clip": {
-   "id": 4534191,
-   "tag": "cachoeira",
+   "id": 35265747,
+   "tag": "alpes",
    "duracao": 11,
-   "autor": "ArtHouse Studio",
-   "autor_url": "https://www.pexels.com/@arthousestudio",
-   "url": "https://www.pexels.com/video/green-plants-near-waterfalls-4534191/",
-   "arquivo": "https://videos.pexels.com/video-files/4534191/4534191-hd_1920_1080_25fps.mp4",
+   "autor": "Florian Del\u00e9e",
+   "autor_url": "https://www.pexels.com/@florian-delee-209542985",
+   "url": "https://www.pexels.com/video/aerial-view-of-sunrise-over-the-alps-35265747/",
+   "arquivo": "https://videos.pexels.com/video-files/35265747/14939970_1920_1080_60fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/4534191.mp4"
+   "arquivo_local": "clips/35265747.mp4"
   }
  },
  {
@@ -1621,20 +1495,41 @@
    39
   ],
   "bloco": "final",
-  "tag": "dolomitas",
-  "inicio": 424.624,
-  "fim": 430.54,
+  "tag": "alpes",
+  "inicio": 428.813,
+  "fim": 435.841,
   "clip": {
-   "id": 28891503,
-   "tag": "dolomitas",
-   "duracao": 11,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/aerial-view-of-snowy-mountain-range-in-winter-28891503/",
-   "arquivo": "https://videos.pexels.com/video-files/28891503/12521662_1920_1080_24fps.mp4",
+   "id": 27535253,
+   "tag": "alpes",
+   "duracao": 33,
+   "autor": "A.S. Kacar",
+   "autor_url": "https://www.pexels.com/@a-s-kacar-1606080415",
+   "url": "https://www.pexels.com/video/montriond-27535253/",
+   "arquivo": "https://videos.pexels.com/video-files/27535253/12161941_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/28891503.mp4"
+   "arquivo_local": "clips/27535253.mp4"
+  }
+ },
+ {
+  "frases": [
+   39
+  ],
+  "bloco": "final",
+  "tag": "alpes",
+  "inicio": 435.841,
+  "fim": 442.869,
+  "clip": {
+   "id": 38349433,
+   "tag": "mar_calmo",
+   "duracao": 8,
+   "autor": "susmit deshpande",
+   "autor_url": "https://www.pexels.com/@susmit-deshpande-210652",
+   "url": "https://www.pexels.com/video/serene-ocean-waves-at-sunset-38349433/",
+   "arquivo": "https://videos.pexels.com/video-files/38349433/16284630_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/38349433.mp4"
   }
  },
  {
@@ -1642,20 +1537,20 @@
    40
   ],
   "bloco": "final",
-  "tag": "dolomitas",
-  "inicio": 430.54,
-  "fim": 434.79,
+  "tag": "mar_calmo",
+  "inicio": 442.869,
+  "fim": 449.42,
   "clip": {
-   "id": 34900487,
-   "tag": "dolomitas",
-   "duracao": 25,
-   "autor": "Oskar Gross",
-   "autor_url": "https://www.pexels.com/@oskar-gross-1074333632",
-   "url": "https://www.pexels.com/video/drone-footage-of-dolomites-in-autumn-34900487/",
-   "arquivo": "https://videos.pexels.com/video-files/34900487/14784729_1920_1080_30fps.mp4",
+   "id": 5212448,
+   "tag": "mar_calmo",
+   "duracao": 15,
+   "autor": "Studio Voyager",
+   "autor_url": "https://www.pexels.com/@domenicopaolella",
+   "url": "https://www.pexels.com/video/a-picturesque-sunset-at-the-beach-5212448/",
+   "arquivo": "https://videos.pexels.com/video-files/5212448/5212448-hd_1920_1080_30fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/34900487.mp4"
+   "arquivo_local": "clips/5212448.mp4"
   }
  },
  {
@@ -1663,20 +1558,104 @@
    40
   ],
   "bloco": "final",
-  "tag": "dolomitas",
-  "inicio": 434.79,
-  "fim": 439.04,
+  "tag": "mar_calmo",
+  "inicio": 449.42,
+  "fim": 455.971,
   "clip": {
-   "id": 28891494,
-   "tag": "dolomitas",
-   "duracao": 12,
-   "autor": "K",
-   "autor_url": "https://www.pexels.com/@kelly",
-   "url": "https://www.pexels.com/video/breathtaking-dolomites-mountain-range-at-dusk-28891494/",
-   "arquivo": "https://videos.pexels.com/video-files/28891494/12521478_1920_1080_24fps.mp4",
+   "id": 6775417,
+   "tag": "mar_calmo",
+   "duracao": 14,
+   "autor": "Ben Mack",
+   "autor_url": "https://www.pexels.com/@ben-mack",
+   "url": "https://www.pexels.com/video/a-scenic-view-of-a-beautiful-sunset-6775417/",
+   "arquivo": "https://videos.pexels.com/video-files/6775417/6775417-hd_1920_1080_24fps.mp4",
    "w": 1920,
    "h": 1080,
-   "arquivo_local": "clips/28891494.mp4"
+   "arquivo_local": "clips/6775417.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "rocha",
+  "inicio": 455.971,
+  "fim": 462.696,
+  "clip": {
+   "id": 5966426,
+   "tag": "rocha",
+   "duracao": 47,
+   "autor": "Engin Akyurt",
+   "autor_url": "https://www.pexels.com/@enginakyurt",
+   "url": "https://www.pexels.com/video/aerial-shot-of-an-ocean-5966426/",
+   "arquivo": "https://videos.pexels.com/video-files/5966426/5966426-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5966426.mp4"
+  }
+ },
+ {
+  "frases": [
+   41
+  ],
+  "bloco": "final",
+  "tag": "rocha",
+  "inicio": 462.696,
+  "fim": 469.42,
+  "clip": {
+   "id": 11422275,
+   "tag": "rocha",
+   "duracao": 27,
+   "autor": "Djordje Vanjek",
+   "autor_url": "https://www.pexels.com/@djordje-vanjek-193019265",
+   "url": "https://www.pexels.com/video/barren-cliffs-on-sea-shore-11422275/",
+   "arquivo": "https://videos.pexels.com/video-files/11422275/11422275-hd_1920_1080_60fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/11422275.mp4"
+  }
+ },
+ {
+  "frases": [
+   42
+  ],
+  "bloco": "final",
+  "tag": "alpes",
+  "inicio": 469.42,
+  "fim": 473.67,
+  "clip": {
+   "id": 27706509,
+   "tag": "alpes",
+   "duracao": 31,
+   "autor": "Jari Volpato",
+   "autor_url": "https://www.pexels.com/@jarivolpato",
+   "url": "https://www.pexels.com/video/lenzerheide-in-january-27706509/",
+   "arquivo": "https://videos.pexels.com/video-files/27706509/12209793_1920_1080_25fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/27706509.mp4"
+  }
+ },
+ {
+  "frases": [
+   42
+  ],
+  "bloco": "final",
+  "tag": "alpes",
+  "inicio": 473.67,
+  "fim": 477.92,
+  "clip": {
+   "id": 5721847,
+   "tag": "alpes",
+   "duracao": 10,
+   "autor": "Marian Croitoru",
+   "autor_url": "https://www.pexels.com/@marian-croitoru-2984359",
+   "url": "https://www.pexels.com/video/aerial-shot-of-a-landscape-5721847/",
+   "arquivo": "https://videos.pexels.com/video-files/5721847/5721847-hd_1920_1080_30fps.mp4",
+   "w": 1920,
+   "h": 1080,
+   "arquivo_local": "clips/5721847.mp4"
   }
  }
 ]

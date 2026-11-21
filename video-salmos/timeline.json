@@ -1,5957 +1,5755 @@
 {
- "duracao_total": 465.76,
+ "duracao_total": 423.826,
  "motor": "externo",
- "voz": "work/r08/x.wav",
+ "voz": "work/r03/x_lento.wav",
  "frases": [
   {
-   "bloco": "poco",
-   "titulo_bloco": "Uma tristeza que parece um poço",
-   "frase": "Existe um tipo de tristeza que não passa com uma noite de sono, uma tristeza que parece um poço fundo, onde quanto mais você tenta sair, mais escorrega.",
-   "tag_visual": "cordilheira",
+   "bloco": "aperto",
+   "titulo_bloco": "Deus está vendo",
+   "frase": "Se você está passando por um aperto financeiro agora, se as contas estão chegando mais rápido do que o dinheiro, se você abre o aplicativo do banco com medo do que vai ver, eu quero que você saiba de uma coisa logo no começo.",
+   "tag_visual": "montanha",
    "mostrar_texto": false,
    "referencia": null,
    "idx": 0,
-   "wav": "work/r08/x.wav",
-   "inicio": 2.917,
-   "fim": 14.545,
-   "duracao": 11.628,
-   "palavras": [
-    {
-     "w": "Existe",
-     "ini": 2.917,
-     "fim": 3.367
-    },
-    {
-     "w": "um",
-     "ini": 3.41,
-     "fim": 3.495
-    },
-    {
-     "w": "tipo",
-     "ini": 3.55,
-     "fim": 3.769
-    },
-    {
-     "w": "de",
-     "ini": 3.819,
-     "fim": 3.92
-    },
-    {
-     "w": "tristeza",
-     "ini": 4.001,
-     "fim": 4.646
-    },
-    {
-     "w": "que",
-     "ini": 4.675,
-     "fim": 4.764
-    },
-    {
-     "w": "não",
-     "ini": 4.824,
-     "fim": 5.004
-    },
-    {
-     "w": "passa",
-     "ini": 5.075,
-     "fim": 5.393
-    },
-    {
-     "w": "com",
-     "ini": 5.426,
-     "fim": 5.527
-    },
-    {
-     "w": "uma",
-     "ini": 5.564,
-     "fim": 5.677
-    },
-    {
-     "w": "noite",
-     "ini": 5.728,
-     "fim": 5.98
-    },
-    {
-     "w": "de",
-     "ini": 6.033,
-     "fim": 6.139
-    },
-    {
-     "w": "sono,",
-     "ini": 6.237,
-     "fim": 6.628
-    },
-    {
-     "w": "uma",
-     "ini": 7.854,
-     "fim": 7.972
-    },
-    {
-     "w": "tristeza",
-     "ini": 8.044,
-     "fim": 8.616
-    },
-    {
-     "w": "que",
-     "ini": 8.652,
-     "fim": 8.759
-    },
-    {
-     "w": "parece",
-     "ini": 8.822,
-     "fim": 9.197
-    },
-    {
-     "w": "um",
-     "ini": 9.25,
-     "fim": 9.357
-    },
-    {
-     "w": "poço",
-     "ini": 9.405,
-     "fim": 9.658
-    },
-    {
-     "w": "fundo,",
-     "ini": 9.735,
-     "fim": 10.117
-    },
-    {
-     "w": "onde",
-     "ini": 11.032,
-     "fim": 11.341
-    },
-    {
-     "w": "quanto",
-     "ini": 11.39,
-     "fim": 11.682
-    },
-    {
-     "w": "mais",
-     "ini": 11.748,
-     "fim": 12.013
-    },
-    {
-     "w": "você",
-     "ini": 12.075,
-     "fim": 12.322
-    },
-    {
-     "w": "tenta",
-     "ini": 12.369,
-     "fim": 12.602
-    },
-    {
-     "w": "sair,",
-     "ini": 12.693,
-     "fim": 13.057
-    },
-    {
-     "w": "mais",
-     "ini": 13.628,
-     "fim": 13.765
-    },
-    {
-     "w": "escorrega.",
-     "ini": 13.786,
-     "fim": 14.545
-    }
-   ]
-  },
-  {
-   "bloco": "poco",
-   "titulo_bloco": "Uma tristeza que parece um poço",
-   "frase": "Se é assim que você tem se sentido, esta oração é para você; fica aqui comigo por alguns minutos, e deixa Deus falar com o seu coração.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 1,
-   "wav": "work/r08/x.wav",
-   "inicio": 15.966,
-   "fim": 26.065,
-   "duracao": 10.099,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 2.61,
+   "fim": 18.985,
+   "duracao": 16.375,
    "palavras": [
     {
      "w": "Se",
-     "ini": 15.966,
-     "fim": 16.069
-    },
-    {
-     "w": "é",
-     "ini": 16.151,
-     "fim": 16.233
-    },
-    {
-     "w": "assim",
-     "ini": 16.272,
-     "fim": 16.465
-    },
-    {
-     "w": "que",
-     "ini": 16.533,
-     "fim": 16.737
+     "ini": 2.61,
+     "fim": 2.915
     },
     {
      "w": "você",
-     "ini": 16.781,
-     "fim": 16.958
-    },
-    {
-     "w": "tem",
-     "ini": 16.985,
-     "fim": 17.067
-    },
-    {
-     "w": "se",
-     "ini": 17.13,
-     "fim": 17.255
-    },
-    {
-     "w": "sentido,",
-     "ini": 17.331,
-     "fim": 17.86
-    },
-    {
-     "w": "esta",
-     "ini": 18.675,
-     "fim": 18.906
-    },
-    {
-     "w": "oração",
-     "ini": 18.978,
-     "fim": 19.413
-    },
-    {
-     "w": "é",
-     "ini": 19.486,
-     "fim": 19.559
-    },
-    {
-     "w": "para",
-     "ini": 19.618,
-     "fim": 19.853
-    },
-    {
-     "w": "você;",
-     "ini": 19.917,
-     "fim": 20.173
-    },
-    {
-     "w": "fica",
-     "ini": 21.132,
-     "fim": 21.295
-    },
-    {
-     "w": "aqui",
-     "ini": 21.336,
-     "fim": 21.501
-    },
-    {
-     "w": "comigo",
-     "ini": 21.571,
-     "fim": 21.994
-    },
-    {
-     "w": "por",
-     "ini": 22.024,
-     "fim": 22.115
-    },
-    {
-     "w": "alguns",
-     "ini": 22.132,
-     "fim": 22.493
-    },
-    {
-     "w": "minutos,",
-     "ini": 22.568,
-     "fim": 23.058
-    },
-    {
-     "w": "e",
-     "ini": 23.982,
-     "fim": 24.032
-    },
-    {
-     "w": "deixa",
-     "ini": 24.131,
-     "fim": 24.393
-    },
-    {
-     "w": "Deus",
-     "ini": 24.452,
-     "fim": 24.686
-    },
-    {
-     "w": "falar",
-     "ini": 24.761,
-     "fim": 25.133
-    },
-    {
-     "w": "com",
-     "ini": 25.163,
-     "fim": 25.248
-    },
-    {
-     "w": "o",
-     "ini": 25.271,
-     "fim": 25.321
-    },
-    {
-     "w": "seu",
-     "ini": 25.347,
-     "fim": 25.505
-    },
-    {
-     "w": "coração.",
-     "ini": 25.575,
-     "fim": 26.065
-    }
-   ]
-  },
-  {
-   "bloco": "palavra",
-   "titulo_bloco": "Ele me tirou do poço",
-   "frase": "Ouça a Palavra do Senhor no Salmo quarenta, versículos um e dois.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 2,
-   "wav": "work/r08/x.wav",
-   "inicio": 28.307,
-   "fim": 32.913,
-   "duracao": 4.606,
-   "palavras": [
-    {
-     "w": "Ouça",
-     "ini": 28.307,
-     "fim": 28.506
-    },
-    {
-     "w": "a",
-     "ini": 28.536,
-     "fim": 28.586
-    },
-    {
-     "w": "Palavra",
-     "ini": 28.633,
-     "fim": 29.106
-    },
-    {
-     "w": "do",
-     "ini": 29.138,
-     "fim": 29.201
-    },
-    {
-     "w": "Senhor",
-     "ini": 29.268,
-     "fim": 29.667
-    },
-    {
-     "w": "no",
-     "ini": 29.721,
-     "fim": 29.829
-    },
-    {
-     "w": "Salmo",
-     "ini": 29.884,
-     "fim": 30.227
-    },
-    {
-     "w": "quarenta,",
-     "ini": 30.283,
-     "fim": 30.809
-    },
-    {
-     "w": "versículos",
-     "ini": 31.478,
-     "fim": 32.174
-    },
-    {
-     "w": "um",
-     "ini": 32.261,
-     "fim": 32.411
-    },
-    {
-     "w": "e",
-     "ini": 32.452,
-     "fim": 32.502
-    },
-    {
-     "w": "dois.",
-     "ini": 32.603,
-     "fim": 32.913
-    }
-   ]
-  },
-  {
-   "bloco": "palavra",
-   "titulo_bloco": "Ele me tirou do poço",
-   "frase": "Esperei com paciência pelo Senhor, e Ele se inclinou para mim e ouviu o meu clamor; Ele me tirou de um poço de destruição, de um lamaçal, colocou os meus pés sobre uma rocha e firmou os meus passos.",
-   "tag_visual": "canion",
-   "mostrar_texto": true,
-   "referencia": "Salmo 40:1-2",
-   "destaque": "Os meus pés sobre a *rocha*.",
-   "rodape": "ELE SE INCLINOU PARA MIM",
-   "idx": 3,
-   "wav": "work/r08/x.wav",
-   "inicio": 34.168,
-   "fim": 48.592,
-   "duracao": 14.424,
-   "palavras": [
-    {
-     "w": "Esperei",
-     "ini": 34.168,
-     "fim": 34.56
-    },
-    {
-     "w": "com",
-     "ini": 34.609,
-     "fim": 34.757
-    },
-    {
-     "w": "paciência",
-     "ini": 34.837,
-     "fim": 35.349
-    },
-    {
-     "w": "pelo",
-     "ini": 35.397,
-     "fim": 35.59
-    },
-    {
-     "w": "Senhor,",
-     "ini": 35.668,
-     "fim": 36.139
-    },
-    {
-     "w": "e",
-     "ini": 37.013,
-     "fim": 37.063
-    },
-    {
-     "w": "Ele",
-     "ini": 37.066,
-     "fim": 37.374
-    },
-    {
-     "w": "se",
-     "ini": 37.412,
-     "fim": 37.488
-    },
-    {
-     "w": "inclinou",
-     "ini": 37.52,
-     "fim": 38.013
-    },
-    {
-     "w": "para",
-     "ini": 38.072,
-     "fim": 38.267
-    },
-    {
-     "w": "mim",
-     "ini": 38.327,
-     "fim": 38.507
-    },
-    {
-     "w": "e",
-     "ini": 38.633,
-     "fim": 38.736
-    },
-    {
-     "w": "ouviu",
-     "ini": 38.776,
-     "fim": 39.006
-    },
-    {
-     "w": "o",
-     "ini": 39.011,
-     "fim": 39.06
-    },
-    {
-     "w": "meu",
-     "ini": 39.083,
-     "fim": 39.288
-    },
-    {
-     "w": "clamor;",
-     "ini": 39.327,
-     "fim": 39.762
-    },
-    {
-     "w": "Ele",
-     "ini": 40.776,
-     "fim": 40.916
-    },
-    {
-     "w": "me",
-     "ini": 40.988,
-     "fim": 41.133
-    },
-    {
-     "w": "tirou",
-     "ini": 41.161,
-     "fim": 41.453
-    },
-    {
-     "w": "de",
-     "ini": 41.489,
-     "fim": 41.545
-    },
-    {
-     "w": "um",
-     "ini": 41.598,
-     "fim": 41.705
-    },
-    {
-     "w": "poço",
-     "ini": 41.805,
-     "fim": 42.086
-    },
-    {
-     "w": "de",
-     "ini": 42.165,
-     "fim": 42.324
-    },
-    {
-     "w": "destruição,",
-     "ini": 42.374,
-     "fim": 43.039
-    },
-    {
-     "w": "de",
-     "ini": 43.566,
-     "fim": 43.63
-    },
-    {
-     "w": "um",
-     "ini": 43.65,
-     "fim": 43.7
-    },
-    {
-     "w": "lamaçal,",
-     "ini": 43.725,
-     "fim": 44.412
-    },
-    {
-     "w": "colocou",
-     "ini": 45.184,
-     "fim": 45.613
-    },
-    {
-     "w": "os",
-     "ini": 45.635,
-     "fim": 45.685
-    },
-    {
-     "w": "meus",
-     "ini": 45.719,
-     "fim": 45.969
-    },
-    {
-     "w": "pés",
-     "ini": 46.032,
-     "fim": 46.222
-    },
-    {
-     "w": "sobre",
-     "ini": 46.284,
-     "fim": 46.596
-    },
-    {
-     "w": "uma",
-     "ini": 46.633,
-     "fim": 46.745
-    },
-    {
-     "w": "rocha",
-     "ini": 46.833,
-     "fim": 47.194
-    },
-    {
-     "w": "e",
-     "ini": 47.218,
-     "fim": 47.267
-    },
-    {
-     "w": "firmou",
-     "ini": 47.292,
-     "fim": 47.693
-    },
-    {
-     "w": "os",
-     "ini": 47.742,
-     "fim": 47.797
-    },
-    {
-     "w": "meus",
-     "ini": 47.86,
-     "fim": 48.112
-    },
-    {
-     "w": "passos.",
-     "ini": 48.181,
-     "fim": 48.592
-    }
-   ]
-  },
-  {
-   "bloco": "palavra",
-   "titulo_bloco": "Ele me tirou do poço",
-   "frase": "E no Salmo cento e quarenta e sete, versículo três, está escrito sobre o Senhor.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 4,
-   "wav": "work/r08/x.wav",
-   "inicio": 50.049,
-   "fim": 56.075,
-   "duracao": 6.026,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 50.049,
-     "fim": 50.099
-    },
-    {
-     "w": "no",
-     "ini": 50.123,
-     "fim": 50.226
-    },
-    {
-     "w": "Salmo",
-     "ini": 50.299,
-     "fim": 50.704
-    },
-    {
-     "w": "cento",
-     "ini": 50.754,
-     "fim": 51.076
-    },
-    {
-     "w": "e",
-     "ini": 51.138,
-     "fim": 51.2
-    },
-    {
-     "w": "quarenta",
-     "ini": 51.252,
-     "fim": 51.688
-    },
-    {
-     "w": "e",
-     "ini": 51.693,
-     "fim": 51.742
-    },
-    {
-     "w": "sete,",
-     "ini": 51.774,
-     "fim": 52.173
-    },
-    {
-     "w": "versículo",
-     "ini": 52.684,
-     "fim": 53.36
-    },
-    {
-     "w": "três,",
-     "ini": 53.449,
-     "fim": 53.806
+     "ini": 2.963,
+     "fim": 3.152
     },
     {
      "w": "está",
-     "ini": 54.582,
-     "fim": 54.79
-    },
-    {
-     "w": "escrito",
-     "ini": 54.814,
-     "fim": 55.228
-    },
-    {
-     "w": "sobre",
-     "ini": 55.277,
-     "fim": 55.522
-    },
-    {
-     "w": "o",
-     "ini": 55.558,
-     "fim": 55.608
-    },
-    {
-     "w": "Senhor.",
-     "ini": 55.664,
-     "fim": 56.075
-    }
-   ]
-  },
-  {
-   "bloco": "palavra",
-   "titulo_bloco": "Ele me tirou do poço",
-   "frase": "Ele cura os que têm o coração partido, e cuida de cada uma das suas feridas.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": true,
-   "referencia": "Salmo 147:3",
-   "destaque": "Ele *cura* o coração partido.",
-   "rodape": "E CUIDA DE CADA FERIDA",
-   "idx": 5,
-   "wav": "work/r08/x.wav",
-   "inicio": 57.463,
-   "fim": 62.477,
-   "duracao": 5.014,
-   "palavras": [
-    {
-     "w": "Ele",
-     "ini": 57.463,
-     "fim": 57.648
-    },
-    {
-     "w": "cura",
-     "ini": 57.699,
-     "fim": 57.904
-    },
-    {
-     "w": "os",
-     "ini": 57.932,
-     "fim": 57.989
-    },
-    {
-     "w": "que",
-     "ini": 58.039,
-     "fim": 58.188
-    },
-    {
-     "w": "têm",
-     "ini": 58.2,
-     "fim": 58.405
-    },
-    {
-     "w": "o",
-     "ini": 58.414,
-     "fim": 58.464
-    },
-    {
-     "w": "coração",
-     "ini": 58.486,
-     "fim": 58.923
-    },
-    {
-     "w": "partido,",
-     "ini": 58.964,
-     "fim": 59.502
-    },
-    {
-     "w": "e",
-     "ini": 60.216,
-     "fim": 60.266
-    },
-    {
-     "w": "cuida",
-     "ini": 60.402,
-     "fim": 60.702
-    },
-    {
-     "w": "de",
-     "ini": 60.757,
-     "fim": 60.866
-    },
-    {
-     "w": "cada",
-     "ini": 60.94,
-     "fim": 61.234
-    },
-    {
-     "w": "uma",
-     "ini": 61.265,
-     "fim": 61.359
-    },
-    {
-     "w": "das",
-     "ini": 61.393,
-     "fim": 61.496
-    },
-    {
-     "w": "suas",
-     "ini": 61.567,
-     "fim": 61.853
-    },
-    {
-     "w": "feridas.",
-     "ini": 61.93,
-     "fim": 62.477
-    }
-   ]
-  },
-  {
-   "bloco": "inclinou",
-   "titulo_bloco": "Deus se inclinou",
-   "frase": "Davi sabia muito bem o que era estar num poço: ele descreve um lugar de lama, onde os pés afundam e não dá para ficar de pé.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 6,
-   "wav": "work/r08/x.wav",
-   "inicio": 64.45,
-   "fim": 72.92,
-   "duracao": 8.47,
-   "palavras": [
-    {
-     "w": "Davi",
-     "ini": 64.45,
-     "fim": 64.719
-    },
-    {
-     "w": "sabia",
-     "ini": 64.767,
-     "fim": 65.005
-    },
-    {
-     "w": "muito",
-     "ini": 65.062,
-     "fim": 65.345
-    },
-    {
-     "w": "bem",
-     "ini": 65.408,
-     "fim": 65.596
-    },
-    {
-     "w": "o",
-     "ini": 65.644,
-     "fim": 65.694
-    },
-    {
-     "w": "que",
-     "ini": 65.712,
-     "fim": 65.773
-    },
-    {
-     "w": "era",
-     "ini": 65.773,
-     "fim": 65.823
-    },
-    {
-     "w": "estar",
-     "ini": 65.849,
-     "fim": 66.196
-    },
-    {
-     "w": "num",
-     "ini": 66.27,
-     "fim": 66.493
-    },
-    {
-     "w": "poço:",
-     "ini": 66.599,
-     "fim": 66.877
-    },
-    {
-     "w": "ele",
-     "ini": 67.831,
-     "fim": 67.995
-    },
-    {
-     "w": "descreve",
-     "ini": 68.012,
-     "fim": 68.516
-    },
-    {
-     "w": "um",
-     "ini": 68.558,
-     "fim": 68.643
-    },
-    {
-     "w": "lugar",
-     "ini": 68.678,
-     "fim": 68.853
-    },
-    {
-     "w": "de",
-     "ini": 68.92,
-     "fim": 69.053
-    },
-    {
-     "w": "lama,",
-     "ini": 69.157,
-     "fim": 69.448
-    },
-    {
-     "w": "onde",
-     "ini": 70.3,
-     "fim": 70.498
-    },
-    {
-     "w": "os",
-     "ini": 70.533,
-     "fim": 70.604
-    },
-    {
-     "w": "pés",
-     "ini": 70.665,
-     "fim": 70.848
-    },
-    {
-     "w": "afundam",
-     "ini": 70.888,
-     "fim": 71.527
-    },
-    {
-     "w": "e",
-     "ini": 71.578,
-     "fim": 71.63
-    },
-    {
-     "w": "não",
-     "ini": 71.69,
-     "fim": 71.87
-    },
-    {
-     "w": "dá",
-     "ini": 71.917,
-     "fim": 71.995
-    },
-    {
-     "w": "para",
-     "ini": 72.041,
-     "fim": 72.223
-    },
-    {
-     "w": "ficar",
-     "ini": 72.277,
-     "fim": 72.547
-    },
-    {
-     "w": "de",
-     "ini": 72.6,
-     "fim": 72.707
-    },
-    {
-     "w": "pé.",
-     "ini": 72.813,
-     "fim": 72.92
-    }
-   ]
-  },
-  {
-   "bloco": "inclinou",
-   "titulo_bloco": "Deus se inclinou",
-   "frase": "Talvez seja assim que você se sente: sem chão, sem firmeza, afundando um pouco a cada dia.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 7,
-   "wav": "work/r08/x.wav",
-   "inicio": 74.306,
-   "fim": 81.134,
-   "duracao": 6.828,
-   "palavras": [
-    {
-     "w": "Talvez",
-     "ini": 74.306,
-     "fim": 74.614
-    },
-    {
-     "w": "seja",
-     "ini": 74.671,
-     "fim": 74.9
-    },
-    {
-     "w": "assim",
-     "ini": 74.947,
-     "fim": 75.18
-    },
-    {
-     "w": "que",
-     "ini": 75.25,
-     "fim": 75.459
-    },
-    {
-     "w": "você",
-     "ini": 75.492,
-     "fim": 75.625
-    },
-    {
-     "w": "se",
-     "ini": 75.674,
-     "fim": 75.773
-    },
-    {
-     "w": "sente:",
-     "ini": 75.852,
-     "fim": 76.245
-    },
-    {
-     "w": "sem",
-     "ini": 76.972,
-     "fim": 77.165
-    },
-    {
-     "w": "chão,",
-     "ini": 77.239,
-     "fim": 77.535
-    },
-    {
-     "w": "sem",
-     "ini": 77.966,
-     "fim": 78.11
-    },
-    {
-     "w": "firmeza,",
-     "ini": 78.19,
-     "fim": 78.801
-    },
-    {
-     "w": "afundando",
-     "ini": 79.427,
-     "fim": 80.006
-    },
-    {
-     "w": "um",
-     "ini": 80.062,
-     "fim": 80.173
-    },
-    {
-     "w": "pouco",
-     "ini": 80.239,
-     "fim": 80.485
-    },
-    {
-     "w": "a",
-     "ini": 80.511,
-     "fim": 80.561
-    },
-    {
-     "w": "cada",
-     "ini": 80.608,
-     "fim": 80.893
-    },
-    {
-     "w": "dia.",
-     "ini": 80.954,
-     "fim": 81.134
-    }
-   ]
-  },
-  {
-   "bloco": "inclinou",
-   "titulo_bloco": "Deus se inclinou",
-   "frase": "Mas olha o que Davi conta: ele clamou, e Deus se inclinou; imagina essa cena, Deus lá do alto se abaixando para ouvir a voz de alguém que está no fundo do poço.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 8,
-   "wav": "work/r08/x.wav",
-   "inicio": 82.701,
-   "fim": 94.118,
-   "duracao": 11.417,
-   "palavras": [
-    {
-     "w": "Mas",
-     "ini": 82.701,
-     "fim": 82.819
-    },
-    {
-     "w": "olha",
-     "ini": 82.862,
-     "fim": 83.036
-    },
-    {
-     "w": "o",
-     "ini": 83.078,
-     "fim": 83.128
-    },
-    {
-     "w": "que",
-     "ini": 83.154,
-     "fim": 83.253
-    },
-    {
-     "w": "Davi",
-     "ini": 83.292,
-     "fim": 83.553
-    },
-    {
-     "w": "conta:",
-     "ini": 83.62,
-     "fim": 83.953
-    },
-    {
-     "w": "ele",
-     "ini": 84.299,
-     "fim": 84.463
-    },
-    {
-     "w": "clamou,",
-     "ini": 84.506,
-     "fim": 84.965
-    },
-    {
-     "w": "e",
-     "ini": 85.651,
-     "fim": 85.701
-    },
-    {
-     "w": "Deus",
-     "ini": 85.814,
-     "fim": 86.013
-    },
-    {
-     "w": "se",
-     "ini": 86.026,
-     "fim": 86.122
-    },
-    {
-     "w": "inclinou;",
-     "ini": 86.141,
-     "fim": 86.67
-    },
-    {
-     "w": "imagina",
-     "ini": 87.964,
-     "fim": 88.305
-    },
-    {
-     "w": "essa",
-     "ini": 88.345,
-     "fim": 88.507
-    },
-    {
-     "w": "cena,",
-     "ini": 88.587,
-     "fim": 88.906
-    },
-    {
-     "w": "Deus",
-     "ini": 89.736,
-     "fim": 89.928
-    },
-    {
-     "w": "lá",
-     "ini": 89.983,
-     "fim": 90.093
-    },
-    {
-     "w": "do",
-     "ini": 90.166,
-     "fim": 90.281
-    },
-    {
-     "w": "alto",
-     "ini": 90.344,
-     "fim": 90.597
-    },
-    {
-     "w": "se",
-     "ini": 90.639,
-     "fim": 90.722
-    },
-    {
-     "w": "abaixando",
-     "ini": 90.723,
-     "fim": 91.373
-    },
-    {
-     "w": "para",
-     "ini": 91.42,
-     "fim": 91.602
-    },
-    {
-     "w": "ouvir",
-     "ini": 91.651,
-     "fim": 91.899
-    },
-    {
-     "w": "a",
-     "ini": 91.956,
-     "fim": 92.013
-    },
-    {
-     "w": "voz",
-     "ini": 92.067,
-     "fim": 92.225
-    },
-    {
-     "w": "de",
-     "ini": 92.282,
-     "fim": 92.396
-    },
-    {
-     "w": "alguém",
-     "ini": 92.44,
-     "fim": 92.703
-    },
-    {
-     "w": "que",
-     "ini": 92.728,
-     "fim": 92.804
-    },
-    {
-     "w": "está",
-     "ini": 92.84,
-     "fim": 92.984
-    },
-    {
-     "w": "no",
-     "ini": 93.045,
-     "fim": 93.168
-    },
-    {
-     "w": "fundo",
-     "ini": 93.231,
-     "fim": 93.544
-    },
-    {
-     "w": "do",
-     "ini": 93.597,
-     "fim": 93.704
-    },
-    {
-     "w": "poço.",
-     "ini": 93.836,
-     "fim": 94.118
-    }
-   ]
-  },
-  {
-   "bloco": "inclinou",
-   "titulo_bloco": "Deus se inclinou",
-   "frase": "Deus não fica lá em cima gritando para você subir sozinho; Ele se inclina, desce até onde você está, e te tira de lá.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "destaque": "Deus *desce* até onde você está.",
-   "rodape": "ELE NÃO TE DEIXA NO POÇO",
-   "idx": 9,
-   "wav": "work/r08/x.wav",
-   "inicio": 95.335,
-   "fim": 103.855,
-   "duracao": 8.52,
-   "palavras": [
-    {
-     "w": "Deus",
-     "ini": 95.335,
-     "fim": 95.518
-    },
-    {
-     "w": "não",
-     "ini": 95.567,
-     "fim": 95.715
-    },
-    {
-     "w": "fica",
-     "ini": 95.763,
-     "fim": 95.953
-    },
-    {
-     "w": "lá",
-     "ini": 96.018,
-     "fim": 96.147
-    },
-    {
-     "w": "em",
-     "ini": 96.153,
-     "fim": 96.203
-    },
-    {
-     "w": "cima",
-     "ini": 96.237,
-     "fim": 96.522
-    },
-    {
-     "w": "gritando",
-     "ini": 96.549,
-     "fim": 97.01
-    },
-    {
-     "w": "para",
-     "ini": 97.096,
-     "fim": 97.303
-    },
-    {
-     "w": "você",
-     "ini": 97.347,
-     "fim": 97.521
-    },
-    {
-     "w": "subir",
-     "ini": 97.567,
-     "fim": 97.797
-    },
-    {
-     "w": "sozinho;",
-     "ini": 97.873,
-     "fim": 98.403
-    },
-    {
-     "w": "Ele",
-     "ini": 99.4,
-     "fim": 99.531
-    },
-    {
-     "w": "se",
-     "ini": 99.611,
-     "fim": 99.77
-    },
-    {
-     "w": "inclina,",
-     "ini": 99.832,
-     "fim": 100.322
-    },
-    {
-     "w": "desce",
-     "ini": 100.838,
-     "fim": 101.048
-    },
-    {
-     "w": "até",
-     "ini": 101.112,
-     "fim": 101.306
-    },
-    {
-     "w": "onde",
-     "ini": 101.37,
-     "fim": 101.625
-    },
-    {
-     "w": "você",
-     "ini": 101.683,
-     "fim": 101.916
-    },
-    {
-     "w": "está,",
-     "ini": 101.98,
-     "fim": 102.236
-    },
-    {
-     "w": "e",
-     "ini": 103.001,
-     "fim": 103.051
-    },
-    {
-     "w": "te",
-     "ini": 103.109,
-     "fim": 103.208
-    },
-    {
-     "w": "tira",
-     "ini": 103.262,
-     "fim": 103.477
-    },
-    {
-     "w": "de",
-     "ini": 103.543,
-     "fim": 103.676
-    },
-    {
-     "w": "lá.",
-     "ini": 103.736,
-     "fim": 103.855
-    }
-   ]
-  },
-  {
-   "bloco": "rocha",
-   "titulo_bloco": "Chão firme de novo",
-   "frase": "E depois Ele faz mais: Ele coloca os seus pés sobre a rocha e firma os seus passos; não é só sair do poço, é ter chão firme de novo, é voltar a caminhar.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 10,
-   "wav": "work/r08/x.wav",
-   "inicio": 105.515,
-   "fim": 117.005,
-   "duracao": 11.49,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 105.515,
-     "fim": 105.565
-    },
-    {
-     "w": "depois",
-     "ini": 105.701,
-     "fim": 105.927
-    },
-    {
-     "w": "Ele",
-     "ini": 105.979,
-     "fim": 106.136
-    },
-    {
-     "w": "faz",
-     "ini": 106.215,
-     "fim": 106.452
-    },
-    {
-     "w": "mais:",
-     "ini": 106.516,
-     "fim": 106.772
-    },
-    {
-     "w": "Ele",
-     "ini": 107.681,
-     "fim": 107.851
-    },
-    {
-     "w": "coloca",
-     "ini": 107.909,
-     "fim": 108.267
-    },
-    {
-     "w": "os",
-     "ini": 108.267,
-     "fim": 108.317
-    },
-    {
-     "w": "seus",
-     "ini": 108.332,
-     "fim": 108.588
-    },
-    {
-     "w": "pés",
-     "ini": 108.647,
-     "fim": 108.772
-    },
-    {
-     "w": "sobre",
-     "ini": 108.834,
-     "fim": 109.143
-    },
-    {
-     "w": "a",
-     "ini": 109.152,
-     "fim": 109.202
-    },
-    {
-     "w": "rocha",
-     "ini": 109.243,
-     "fim": 109.622
-    },
-    {
-     "w": "e",
-     "ini": 109.682,
-     "fim": 109.742
-    },
-    {
-     "w": "firma",
-     "ini": 109.806,
-     "fim": 110.12
-    },
-    {
-     "w": "os",
-     "ini": 110.12,
-     "fim": 110.17
-    },
-    {
-     "w": "seus",
-     "ini": 110.184,
-     "fim": 110.436
-    },
-    {
-     "w": "passos;",
-     "ini": 110.505,
-     "fim": 110.916
-    },
-    {
-     "w": "não",
-     "ini": 111.956,
-     "fim": 112.09
-    },
-    {
-     "w": "é",
-     "ini": 112.133,
-     "fim": 112.183
-    },
-    {
-     "w": "só",
-     "ini": 112.245,
-     "fim": 112.383
-    },
-    {
-     "w": "sair",
-     "ini": 112.453,
-     "fim": 112.733
-    },
-    {
-     "w": "do",
-     "ini": 112.791,
-     "fim": 112.898
-    },
-    {
-     "w": "poço,",
-     "ini": 113.008,
-     "fim": 113.292
-    },
-    {
-     "w": "é",
-     "ini": 113.93,
-     "fim": 113.984
-    },
-    {
-     "w": "ter",
-     "ini": 114.035,
-     "fim": 114.187
-    },
-    {
-     "w": "chão",
-     "ini": 114.241,
-     "fim": 114.456
-    },
-    {
-     "w": "firme",
-     "ini": 114.524,
-     "fim": 114.863
-    },
-    {
-     "w": "de",
-     "ini": 114.904,
-     "fim": 114.987
-    },
-    {
-     "w": "novo,",
-     "ini": 115.068,
-     "fim": 115.394
-    },
-    {
-     "w": "é",
-     "ini": 115.883,
-     "fim": 115.933
-    },
-    {
-     "w": "voltar",
-     "ini": 115.981,
-     "fim": 116.308
-    },
-    {
-     "w": "a",
-     "ini": 116.337,
-     "fim": 116.386
-    },
-    {
-     "w": "caminhar.",
-     "ini": 116.436,
-     "fim": 117.005
-    }
-   ]
-  },
-  {
-   "bloco": "rocha",
-   "titulo_bloco": "Chão firme de novo",
-   "frase": "E o salmo diz que Ele cura os de coração partido e cuida das feridas; cuidar de uma ferida é limpar, é colocar curativo, é tratar com paciência, no tempo certo.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 11,
-   "wav": "work/r08/x.wav",
-   "inicio": 118.55,
-   "fim": 130.768,
-   "duracao": 12.218,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 118.55,
-     "fim": 118.6
-    },
-    {
-     "w": "o",
-     "ini": 118.658,
-     "fim": 118.708
-    },
-    {
-     "w": "salmo",
-     "ini": 118.766,
-     "fim": 119.327
-    },
-    {
-     "w": "diz",
-     "ini": 119.362,
-     "fim": 119.467
-    },
-    {
-     "w": "que",
-     "ini": 119.478,
-     "fim": 119.528
-    },
-    {
-     "w": "Ele",
-     "ini": 119.578,
-     "fim": 119.773
-    },
-    {
-     "w": "cura",
-     "ini": 119.823,
-     "fim": 120.009
-    },
-    {
-     "w": "os",
-     "ini": 120.023,
-     "fim": 120.073
-    },
-    {
-     "w": "de",
-     "ini": 120.105,
-     "fim": 120.212
-    },
-    {
-     "w": "coração",
-     "ini": 120.27,
-     "fim": 120.679
-    },
-    {
-     "w": "partido",
-     "ini": 120.721,
-     "fim": 121.216
-    },
-    {
-     "w": "e",
-     "ini": 121.733,
-     "fim": 121.783
-    },
-    {
-     "w": "cuida",
-     "ini": 121.917,
-     "fim": 122.178
-    },
-    {
-     "w": "das",
-     "ini": 122.234,
-     "fim": 122.403
-    },
-    {
-     "w": "feridas;",
-     "ini": 122.481,
-     "fim": 123.036
-    },
-    {
-     "w": "cuidar",
-     "ini": 123.811,
-     "fim": 124.116
-    },
-    {
-     "w": "de",
-     "ini": 124.136,
-     "fim": 124.186
-    },
-    {
-     "w": "uma",
-     "ini": 124.229,
-     "fim": 124.388
-    },
-    {
-     "w": "ferida",
-     "ini": 124.425,
-     "fim": 124.813
-    },
-    {
-     "w": "é",
-     "ini": 124.852,
-     "fim": 124.901
-    },
-    {
-     "w": "limpar,",
-     "ini": 124.906,
-     "fim": 125.321
-    },
-    {
-     "w": "é",
-     "ini": 126.193,
-     "fim": 126.253
-    },
-    {
-     "w": "colocar",
-     "ini": 126.324,
-     "fim": 126.744
-    },
-    {
-     "w": "curativo,",
-     "ini": 126.807,
-     "fim": 127.416
-    },
-    {
-     "w": "é",
-     "ini": 127.947,
-     "fim": 128.001
-    },
-    {
-     "w": "tratar",
-     "ini": 128.037,
-     "fim": 128.413
-    },
-    {
-     "w": "com",
-     "ini": 128.48,
-     "fim": 128.614
-    },
-    {
-     "w": "paciência,",
-     "ini": 128.689,
-     "fim": 129.39
-    },
-    {
-     "w": "no",
-     "ini": 129.903,
-     "fim": 130.014
-    },
-    {
-     "w": "tempo",
-     "ini": 130.087,
-     "fim": 130.295
-    },
-    {
-     "w": "certo.",
-     "ini": 130.374,
-     "fim": 130.768
-    }
-   ]
-  },
-  {
-   "bloco": "rocha",
-   "titulo_bloco": "Chão firme de novo",
-   "frase": "Deus é esse médico cuidadoso, que não tem pressa com a sua dor.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 12,
-   "wav": "work/r08/x.wav",
-   "inicio": 132.217,
-   "fim": 135.784,
-   "duracao": 3.567,
-   "palavras": [
-    {
-     "w": "Deus",
-     "ini": 132.217,
-     "fim": 132.406
-    },
-    {
-     "w": "é",
-     "ini": 132.478,
-     "fim": 132.55
-    },
-    {
-     "w": "esse",
-     "ini": 132.592,
-     "fim": 132.759
-    },
-    {
-     "w": "médico",
-     "ini": 132.824,
-     "fim": 133.248
-    },
-    {
-     "w": "cuidadoso,",
-     "ini": 133.305,
-     "fim": 133.938
-    },
-    {
-     "w": "que",
-     "ini": 134.234,
-     "fim": 134.298
-    },
-    {
-     "w": "não",
-     "ini": 134.342,
-     "fim": 134.473
-    },
-    {
-     "w": "tem",
-     "ini": 134.538,
-     "fim": 134.734
-    },
-    {
-     "w": "pressa",
-     "ini": 134.8,
-     "fim": 135.109
-    },
-    {
-     "w": "com",
-     "ini": 135.138,
-     "fim": 135.226
-    },
-    {
-     "w": "a",
-     "ini": 135.226,
-     "fim": 135.276
-    },
-    {
-     "w": "sua",
-     "ini": 135.303,
-     "fim": 135.534
-    },
-    {
-     "w": "dor.",
-     "ini": 135.604,
-     "fim": 135.784
-    }
-   ]
-  },
-  {
-   "bloco": "rocha",
-   "titulo_bloco": "Chão firme de novo",
-   "frase": "E repara que Davi esperou com paciência; a cura nem sempre vem de uma vez, às vezes ela vem em camadas, um dia de cada vez, e cada pequeno passo conta diante de Deus.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 13,
-   "wav": "work/r08/x.wav",
-   "inicio": 136.621,
-   "fim": 149.034,
-   "duracao": 12.413,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 136.621,
-     "fim": 136.671
-    },
-    {
-     "w": "repara",
-     "ini": 136.731,
-     "fim": 137.191
-    },
-    {
-     "w": "que",
-     "ini": 137.236,
-     "fim": 137.372
-    },
-    {
-     "w": "Davi",
-     "ini": 137.42,
-     "fim": 137.702
-    },
-    {
-     "w": "esperou",
-     "ini": 137.728,
-     "fim": 138.079
-    },
-    {
-     "w": "com",
-     "ini": 138.129,
-     "fim": 138.28
-    },
-    {
-     "w": "paciência;",
-     "ini": 138.343,
-     "fim": 138.995
-    },
-    {
-     "w": "a",
-     "ini": 140.018,
-     "fim": 140.069
-    },
-    {
-     "w": "cura",
-     "ini": 140.143,
-     "fim": 140.437
-    },
-    {
-     "w": "nem",
-     "ini": 140.536,
-     "fim": 140.671
-    },
-    {
-     "w": "sempre",
-     "ini": 140.729,
-     "fim": 141.079
-    },
-    {
-     "w": "vem",
-     "ini": 141.135,
-     "fim": 141.301
-    },
-    {
-     "w": "de",
-     "ini": 141.318,
-     "fim": 141.368
-    },
-    {
-     "w": "uma",
-     "ini": 141.409,
-     "fim": 141.584
-    },
-    {
-     "w": "vez,",
-     "ini": 141.667,
-     "fim": 141.917
-    },
-    {
-     "w": "às",
-     "ini": 142.769,
-     "fim": 142.864
-    },
-    {
-     "w": "vezes",
-     "ini": 142.923,
-     "fim": 143.219
-    },
-    {
-     "w": "ela",
-     "ini": 143.279,
-     "fim": 143.459
-    },
-    {
-     "w": "vem",
-     "ini": 143.515,
-     "fim": 143.676
-    },
-    {
-     "w": "em",
-     "ini": 143.688,
-     "fim": 143.738
-    },
-    {
-     "w": "camadas,",
-     "ini": 143.804,
-     "fim": 144.403
-    },
-    {
-     "w": "um",
-     "ini": 144.675,
-     "fim": 144.754
-    },
-    {
-     "w": "dia",
-     "ini": 144.823,
-     "fim": 145.03
-    },
-    {
-     "w": "de",
-     "ini": 145.068,
-     "fim": 145.144
-    },
-    {
-     "w": "cada",
-     "ini": 145.205,
-     "fim": 145.448
-    },
-    {
-     "w": "vez,",
-     "ini": 145.524,
-     "fim": 145.753
-    },
-    {
-     "w": "e",
-     "ini": 146.359,
-     "fim": 146.409
-    },
-    {
-     "w": "cada",
-     "ini": 146.502,
-     "fim": 146.795
-    },
-    {
-     "w": "pequeno",
-     "ini": 146.837,
-     "fim": 147.243
-    },
-    {
-     "w": "passo",
-     "ini": 147.31,
-     "fim": 147.643
-    },
-    {
-     "w": "conta",
-     "ini": 147.793,
-     "fim": 148.073
-    },
-    {
-     "w": "diante",
-     "ini": 148.139,
-     "fim": 148.535
-    },
-    {
-     "w": "de",
-     "ini": 148.595,
-     "fim": 148.714
-    },
-    {
-     "w": "Deus.",
-     "ini": 148.778,
-     "fim": 149.034
-    }
-   ]
-  },
-  {
-   "bloco": "ajuda",
-   "titulo_bloco": "A corda que Deus joga",
-   "frase": "E lembra, Deus também usa pessoas e profissionais nesse processo de cura; procurar um médico ou um psicólogo pode ser exatamente a corda que Ele está jogando no seu poço.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "destaque": "Pedir ajuda também é *fé*.",
-   "rodape": "CVV · LIGUE 188",
-   "idx": 14,
-   "wav": "work/r08/x.wav",
-   "inicio": 150.683,
-   "fim": 161.838,
-   "duracao": 11.155,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 150.683,
-     "fim": 150.733
-    },
-    {
-     "w": "lembra,",
-     "ini": 150.771,
-     "fim": 151.182
-    },
-    {
-     "w": "Deus",
-     "ini": 151.906,
-     "fim": 152.098
-    },
-    {
-     "w": "também",
-     "ini": 152.136,
-     "fim": 152.367
-    },
-    {
-     "w": "usa",
-     "ini": 152.439,
-     "fim": 152.654
-    },
-    {
-     "w": "pessoas",
-     "ini": 152.733,
-     "fim": 153.177
-    },
-    {
-     "w": "e",
-     "ini": 153.235,
-     "fim": 153.293
-    },
-    {
-     "w": "profissionais",
-     "ini": 153.337,
-     "fim": 153.971
-    },
-    {
-     "w": "nesse",
-     "ini": 154.031,
-     "fim": 154.329
-    },
-    {
-     "w": "processo",
-     "ini": 154.4,
-     "fim": 154.871
-    },
-    {
-     "w": "de",
-     "ini": 154.927,
-     "fim": 155.04
-    },
-    {
-     "w": "cura;",
-     "ini": 155.104,
-     "fim": 155.36
-    },
-    {
-     "w": "procurar",
-     "ini": 156.388,
-     "fim": 156.754
-    },
-    {
-     "w": "um",
-     "ini": 156.791,
-     "fim": 156.865
-    },
-    {
-     "w": "médico",
-     "ini": 156.948,
-     "fim": 157.449
-    },
-    {
-     "w": "ou",
-     "ini": 157.465,
-     "fim": 157.515
-    },
-    {
-     "w": "um",
-     "ini": 157.524,
-     "fim": 157.579
-    },
-    {
-     "w": "psicólogo",
-     "ini": 157.584,
-     "fim": 158.333
-    },
-    {
-     "w": "pode",
-     "ini": 158.431,
-     "fim": 158.592
-    },
-    {
-     "w": "ser",
-     "ini": 158.642,
-     "fim": 158.791
-    },
-    {
-     "w": "exatamente",
-     "ini": 158.823,
-     "fim": 159.543
-    },
-    {
-     "w": "a",
-     "ini": 159.575,
-     "fim": 159.625
-    },
-    {
-     "w": "corda",
-     "ini": 159.672,
-     "fim": 160.079
-    },
-    {
-     "w": "que",
-     "ini": 160.106,
-     "fim": 160.187
-    },
-    {
-     "w": "Ele",
-     "ini": 160.221,
-     "fim": 160.323
-    },
-    {
-     "w": "está",
-     "ini": 160.38,
-     "fim": 160.607
-    },
-    {
-     "w": "jogando",
-     "ini": 160.646,
-     "fim": 161.027
-    },
-    {
-     "w": "no",
-     "ini": 161.069,
-     "fim": 161.153
-    },
-    {
-     "w": "seu",
-     "ini": 161.213,
-     "fim": 161.393
-    },
-    {
-     "w": "poço.",
-     "ini": 161.511,
-     "fim": 161.838
-    }
-   ]
-  },
-  {
-   "bloco": "ajuda",
-   "titulo_bloco": "A corda que Deus joga",
-   "frase": "E se a dor estiver grande demais, liga agora para o CVV, no cento e oitenta e oito; é gratuito, e funciona o dia todo.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 15,
-   "wav": "work/r08/x.wav",
-   "inicio": 163.135,
-   "fim": 172.726,
-   "duracao": 9.591,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 163.135,
-     "fim": 163.185
-    },
-    {
-     "w": "se",
-     "ini": 163.196,
-     "fim": 163.298
-    },
-    {
-     "w": "a",
-     "ini": 163.318,
-     "fim": 163.368
-    },
-    {
-     "w": "dor",
-     "ini": 163.375,
-     "fim": 163.643
-    },
-    {
-     "w": "estiver",
-     "ini": 163.677,
-     "fim": 164.035
-    },
-    {
-     "w": "grande",
-     "ini": 164.104,
-     "fim": 164.519
-    },
-    {
-     "w": "demais,",
-     "ini": 164.588,
-     "fim": 164.999
-    },
-    {
-     "w": "liga",
-     "ini": 165.669,
-     "fim": 165.885
-    },
-    {
-     "w": "agora",
-     "ini": 165.951,
-     "fim": 166.283
-    },
-    {
-     "w": "para",
-     "ini": 166.313,
-     "fim": 166.435
-    },
-    {
-     "w": "o",
-     "ini": 166.437,
-     "fim": 166.487
-    },
-    {
-     "w": "CVV,",
-     "ini": 166.528,
-     "fim": 167.067
-    },
-    {
-     "w": "no",
-     "ini": 167.711,
-     "fim": 167.823
-    },
-    {
-     "w": "cento",
-     "ini": 167.875,
-     "fim": 168.149
-    },
-    {
-     "w": "e",
-     "ini": 168.202,
-     "fim": 168.254
-    },
-    {
-     "w": "oitenta",
-     "ini": 168.298,
-     "fim": 168.742
-    },
-    {
-     "w": "e",
-     "ini": 168.782,
-     "fim": 168.832
-    },
-    {
-     "w": "oito;",
-     "ini": 168.934,
-     "fim": 169.272
-    },
-    {
-     "w": "é",
-     "ini": 169.853,
-     "fim": 169.903
-    },
-    {
-     "w": "gratuito,",
-     "ini": 169.973,
-     "fim": 170.719
-    },
-    {
-     "w": "e",
-     "ini": 171.418,
-     "fim": 171.468
-    },
-    {
-     "w": "funciona",
-     "ini": 171.547,
-     "fim": 171.997
-    },
-    {
-     "w": "o",
-     "ini": 172.043,
-     "fim": 172.093
-    },
-    {
-     "w": "dia",
-     "ini": 172.161,
-     "fim": 172.379
-    },
-    {
-     "w": "todo.",
-     "ini": 172.448,
-     "fim": 172.726
-    }
-   ]
-  },
-  {
-   "bloco": "ajuda",
-   "titulo_bloco": "A corda que Deus joga",
-   "frase": "Vamos orar.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 16,
-   "wav": "work/r08/x.wav",
-   "inicio": 174.151,
-   "fim": 174.716,
-   "duracao": 0.565,
-   "palavras": [
-    {
-     "w": "Vamos",
-     "ini": 174.151,
-     "fim": 174.38
-    },
-    {
-     "w": "orar.",
-     "ini": 174.392,
-     "fim": 174.716
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Senhor, eu estou clamando a Ti agora; do fundo do poço eu levanto a minha voz, talvez fraca, talvez só um sussurro, mas eu sei que Tu Te inclinas para me ouvir.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 17,
-   "wav": "work/r08/x.wav",
-   "inicio": 176.665,
-   "fim": 188.879,
-   "duracao": 12.214,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 176.665,
-     "fim": 176.985
-    },
-    {
-     "w": "eu",
-     "ini": 177.636,
-     "fim": 177.753
-    },
-    {
-     "w": "estou",
-     "ini": 177.794,
-     "fim": 177.998
-    },
-    {
-     "w": "clamando",
-     "ini": 178.033,
-     "fim": 178.475
-    },
-    {
-     "w": "a",
-     "ini": 178.498,
-     "fim": 178.548
-    },
-    {
-     "w": "Ti",
-     "ini": 178.591,
-     "fim": 178.732
-    },
-    {
-     "w": "agora;",
-     "ini": 178.799,
-     "fim": 179.132
-    },
-    {
-     "w": "do",
-     "ini": 180.041,
-     "fim": 180.125
-    },
-    {
-     "w": "fundo",
-     "ini": 180.188,
-     "fim": 180.504
-    },
-    {
-     "w": "do",
-     "ini": 180.557,
-     "fim": 180.664
-    },
-    {
-     "w": "poço",
-     "ini": 180.78,
-     "fim": 180.968
-    },
-    {
-     "w": "eu",
-     "ini": 181.009,
-     "fim": 181.092
-    },
-    {
-     "w": "levanto",
-     "ini": 181.146,
-     "fim": 181.525
-    },
-    {
-     "w": "a",
-     "ini": 181.533,
-     "fim": 181.583
-    },
-    {
-     "w": "minha",
-     "ini": 181.592,
-     "fim": 181.845
-    },
-    {
-     "w": "voz,",
-     "ini": 181.92,
-     "fim": 182.144
-    },
-    {
-     "w": "talvez",
-     "ini": 182.86,
-     "fim": 183.241
-    },
-    {
-     "w": "fraca,",
-     "ini": 183.316,
-     "fim": 183.777
-    },
-    {
-     "w": "talvez",
-     "ini": 184.422,
-     "fim": 184.751
-    },
-    {
-     "w": "só",
-     "ini": 184.825,
-     "fim": 184.974
-    },
-    {
-     "w": "um",
-     "ini": 185.012,
-     "fim": 185.064
-    },
-    {
-     "w": "sussurro,",
-     "ini": 185.17,
-     "fim": 185.729
-    },
-    {
-     "w": "mas",
-     "ini": 186.628,
-     "fim": 186.758
-    },
-    {
-     "w": "eu",
-     "ini": 186.811,
-     "fim": 186.916
-    },
-    {
-     "w": "sei",
-     "ini": 186.963,
-     "fim": 187.102
-    },
-    {
-     "w": "que",
-     "ini": 187.152,
-     "fim": 187.302
-    },
-    {
-     "w": "Tu",
-     "ini": 187.355,
-     "fim": 187.462
-    },
-    {
-     "w": "Te",
-     "ini": 187.486,
-     "fim": 187.536
-    },
-    {
-     "w": "inclinas",
-     "ini": 187.54,
-     "fim": 188.081
-    },
-    {
-     "w": "para",
-     "ini": 188.122,
-     "fim": 188.288
-    },
-    {
-     "w": "me",
-     "ini": 188.352,
-     "fim": 188.479
-    },
-    {
-     "w": "ouvir.",
-     "ini": 188.546,
-     "fim": 188.879
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Pai, eu me sinto preso: preso em pensamentos que se repetem, numa tristeza que não vai embora, num cansaço que nem o descanso resolve.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 18,
-   "wav": "work/r08/x.wav",
-   "inicio": 190.025,
-   "fim": 200.097,
-   "duracao": 10.072,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 190.025,
-     "fim": 190.169
-    },
-    {
-     "w": "eu",
-     "ini": 190.925,
-     "fim": 191.004
-    },
-    {
-     "w": "me",
-     "ini": 191.041,
-     "fim": 191.116
-    },
-    {
-     "w": "sinto",
-     "ini": 191.174,
-     "fim": 191.464
-    },
-    {
-     "w": "preso:",
-     "ini": 191.531,
-     "fim": 191.864
-    },
-    {
-     "w": "preso",
-     "ini": 192.73,
-     "fim": 192.947
-    },
-    {
-     "w": "em",
-     "ini": 192.982,
-     "fim": 193.053
-    },
-    {
-     "w": "pensamentos",
-     "ini": 193.107,
-     "fim": 193.716
-    },
-    {
-     "w": "que",
-     "ini": 193.741,
-     "fim": 193.816
-    },
-    {
-     "w": "se",
-     "ini": 193.91,
-     "fim": 194.099
-    },
-    {
-     "w": "repetem,",
-     "ini": 194.134,
-     "fim": 194.573
-    },
-    {
-     "w": "numa",
-     "ini": 195.282,
-     "fim": 195.419
-    },
-    {
-     "w": "tristeza",
-     "ini": 195.473,
-     "fim": 195.909
-    },
-    {
-     "w": "que",
-     "ini": 195.943,
-     "fim": 196.044
-    },
-    {
-     "w": "não",
-     "ini": 196.094,
-     "fim": 196.242
-    },
-    {
-     "w": "vai",
-     "ini": 196.286,
-     "fim": 196.418
-    },
-    {
-     "w": "embora,",
-     "ini": 196.487,
-     "fim": 196.898
-    },
-    {
-     "w": "num",
-     "ini": 197.969,
-     "fim": 198.104
-    },
-    {
-     "w": "cansaço",
-     "ini": 198.162,
-     "fim": 198.632
-    },
-    {
-     "w": "que",
-     "ini": 198.662,
-     "fim": 198.752
-    },
-    {
-     "w": "nem",
-     "ini": 198.802,
-     "fim": 198.953
-    },
-    {
-     "w": "o",
-     "ini": 199.041,
-     "fim": 199.129
-    },
-    {
-     "w": "descanso",
-     "ini": 199.168,
-     "fim": 199.481
-    },
-    {
-     "w": "resolve.",
-     "ini": 199.519,
-     "fim": 200.097
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Eu já tentei sair sozinho, Senhor, e não consegui; por isso eu Te peço socorro.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 19,
-   "wav": "work/r08/x.wav",
-   "inicio": 201.419,
-   "fim": 207.066,
-   "duracao": 5.647,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 201.419,
-     "fim": 201.495
-    },
-    {
-     "w": "já",
-     "ini": 201.561,
-     "fim": 201.694
-    },
-    {
-     "w": "tentei",
-     "ini": 201.746,
-     "fim": 201.971
-    },
-    {
-     "w": "sair",
-     "ini": 202.028,
-     "fim": 202.254
-    },
-    {
-     "w": "sozinho,",
-     "ini": 202.323,
-     "fim": 202.803
-    },
-    {
-     "w": "Senhor,",
-     "ini": 202.923,
-     "fim": 203.283
-    },
-    {
-     "w": "e",
-     "ini": 204.04,
-     "fim": 204.09
-    },
-    {
-     "w": "não",
-     "ini": 204.146,
-     "fim": 204.334
-    },
-    {
-     "w": "consegui;",
-     "ini": 204.378,
-     "fim": 204.855
-    },
-    {
-     "w": "por",
-     "ini": 205.666,
-     "fim": 205.754
-    },
-    {
-     "w": "isso",
-     "ini": 205.808,
-     "fim": 206.025
-    },
-    {
-     "w": "eu",
-     "ini": 206.056,
-     "fim": 206.117
-    },
-    {
-     "w": "Te",
-     "ini": 206.148,
-     "fim": 206.209
-    },
-    {
-     "w": "peço",
-     "ini": 206.255,
-     "fim": 206.44
-    },
-    {
-     "w": "socorro.",
-     "ini": 206.516,
-     "fim": 207.066
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Inclina-Te para mim, Senhor, desce até onde eu estou e me tira desse lamaçal; eu não tenho forças para subir, mas Tu tens força para me levantar.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 20,
-   "wav": "work/r08/x.wav",
-   "inicio": 208.602,
-   "fim": 219.521,
-   "duracao": 10.919,
-   "palavras": [
-    {
-     "w": "Inclina-Te",
-     "ini": 208.602,
-     "fim": 209.031
-    },
-    {
-     "w": "para",
-     "ini": 209.071,
-     "fim": 209.229
-    },
-    {
-     "w": "mim,",
-     "ini": 209.28,
-     "fim": 209.432
-    },
-    {
-     "w": "Senhor,",
-     "ini": 209.552,
-     "fim": 209.912
-    },
-    {
-     "w": "desce",
-     "ini": 210.624,
-     "fim": 210.809
-    },
-    {
-     "w": "até",
-     "ini": 210.86,
-     "fim": 211.014
-    },
-    {
-     "w": "onde",
-     "ini": 211.06,
-     "fim": 211.246
-    },
-    {
-     "w": "eu",
-     "ini": 211.309,
-     "fim": 211.435
-    },
-    {
-     "w": "estou",
-     "ini": 211.502,
-     "fim": 211.835
-    },
-    {
-     "w": "e",
-     "ini": 212.53,
-     "fim": 212.58
-    },
-    {
-     "w": "me",
-     "ini": 212.683,
-     "fim": 212.814
-    },
-    {
-     "w": "tira",
-     "ini": 212.873,
-     "fim": 213.091
-    },
-    {
-     "w": "desse",
-     "ini": 213.138,
-     "fim": 213.372
-    },
-    {
-     "w": "lamaçal;",
-     "ini": 213.418,
-     "fim": 213.971
-    },
-    {
-     "w": "eu",
-     "ini": 214.913,
-     "fim": 214.994
-    },
-    {
-     "w": "não",
-     "ini": 215.042,
-     "fim": 215.188
-    },
-    {
-     "w": "tenho",
-     "ini": 215.22,
-     "fim": 215.383
-    },
-    {
-     "w": "forças",
-     "ini": 215.449,
-     "fim": 215.845
-    },
-    {
-     "w": "para",
-     "ini": 215.889,
-     "fim": 216.063
-    },
-    {
-     "w": "subir,",
-     "ini": 216.13,
-     "fim": 216.463
-    },
-    {
-     "w": "mas",
-     "ini": 217.424,
-     "fim": 217.541
-    },
-    {
-     "w": "Tu",
-     "ini": 217.611,
-     "fim": 217.752
-    },
-    {
-     "w": "tens",
-     "ini": 217.801,
-     "fim": 217.999
-    },
-    {
-     "w": "força",
-     "ini": 218.08,
-     "fim": 218.485
-    },
-    {
-     "w": "para",
-     "ini": 218.511,
-     "fim": 218.617
-    },
-    {
-     "w": "me",
-     "ini": 218.705,
-     "fim": 218.881
-    },
-    {
-     "w": "levantar.",
-     "ini": 218.952,
-     "fim": 219.521
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Segura a minha mão e me puxa para fora; coloca os meus pés sobre a rocha, e que eu volte a ter firmeza, vontade de viver, de sonhar e de fazer planos.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 21,
-   "wav": "work/r08/x.wav",
-   "inicio": 220.34,
-   "fim": 230.43,
-   "duracao": 10.09,
-   "palavras": [
-    {
-     "w": "Segura",
-     "ini": 220.34,
-     "fim": 220.616
-    },
-    {
-     "w": "a",
-     "ini": 220.643,
-     "fim": 220.693
-    },
-    {
-     "w": "minha",
-     "ini": 220.719,
-     "fim": 220.962
-    },
-    {
-     "w": "mão",
-     "ini": 221.016,
-     "fim": 221.178
-    },
-    {
-     "w": "e",
-     "ini": 221.214,
-     "fim": 221.264
-    },
-    {
-     "w": "me",
-     "ini": 221.318,
-     "fim": 221.453
-    },
-    {
-     "w": "puxa",
-     "ini": 221.523,
-     "fim": 221.783
-    },
-    {
-     "w": "para",
-     "ini": 221.82,
-     "fim": 221.968
-    },
-    {
-     "w": "fora;",
-     "ini": 222.042,
-     "fim": 222.336
-    },
-    {
-     "w": "coloca",
-     "ini": 223.165,
-     "fim": 223.506
-    },
-    {
-     "w": "os",
-     "ini": 223.529,
-     "fim": 223.579
-    },
-    {
-     "w": "meus",
-     "ini": 223.623,
-     "fim": 223.815
-    },
-    {
-     "w": "pés",
-     "ini": 223.859,
-     "fim": 223.993
-    },
-    {
-     "w": "sobre",
-     "ini": 224.041,
-     "fim": 224.281
-    },
-    {
-     "w": "a",
-     "ini": 224.307,
-     "fim": 224.357
-    },
-    {
-     "w": "rocha,",
-     "ini": 224.404,
-     "fim": 224.787
-    },
-    {
-     "w": "e",
-     "ini": 225.665,
-     "fim": 225.715
-    },
-    {
-     "w": "que",
-     "ini": 225.727,
-     "fim": 225.801
-    },
-    {
-     "w": "eu",
-     "ini": 225.842,
-     "fim": 225.923
-    },
-    {
-     "w": "volte",
-     "ini": 225.978,
-     "fim": 226.253
-    },
-    {
-     "w": "a",
-     "ini": 226.269,
-     "fim": 226.32
-    },
-    {
-     "w": "ter",
-     "ini": 226.329,
-     "fim": 226.458
-    },
-    {
-     "w": "firmeza,",
-     "ini": 226.519,
-     "fim": 227.076
-    },
-    {
-     "w": "vontade",
-     "ini": 227.228,
-     "fim": 227.597
-    },
-    {
-     "w": "de",
-     "ini": 227.654,
-     "fim": 227.767
-    },
-    {
-     "w": "viver,",
-     "ini": 227.834,
-     "fim": 228.167
-    },
-    {
-     "w": "de",
-     "ini": 228.788,
-     "fim": 228.838
-    },
-    {
-     "w": "sonhar",
-     "ini": 228.885,
-     "fim": 229.296
-    },
-    {
-     "w": "e",
-     "ini": 229.368,
-     "fim": 229.422
-    },
-    {
-     "w": "de",
-     "ini": 229.461,
-     "fim": 229.539
-    },
-    {
-     "w": "fazer",
-     "ini": 229.606,
-     "fim": 229.939
-    },
-    {
-     "w": "planos.",
-     "ini": 230.019,
-     "fim": 230.43
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Senhor, eu confesso que às vezes eu nem tenho vontade de orar; então recebe estas palavras como o meu clamor, mesmo quando o meu coração parece frio.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 22,
-   "wav": "work/r08/x.wav",
-   "inicio": 231.688,
-   "fim": 241.754,
-   "duracao": 10.066,
-   "palavras": [
-    {
-     "w": "Senhor,",
-     "ini": 231.688,
-     "fim": 232.085
-    },
-    {
-     "w": "eu",
-     "ini": 233.019,
-     "fim": 233.101
-    },
-    {
-     "w": "confesso",
-     "ini": 233.162,
-     "fim": 233.596
-    },
-    {
-     "w": "que",
-     "ini": 233.609,
-     "fim": 233.66
-    },
-    {
-     "w": "às",
-     "ini": 233.677,
-     "fim": 233.731
-    },
-    {
-     "w": "vezes",
-     "ini": 233.788,
-     "fim": 234.076
-    },
-    {
-     "w": "eu",
-     "ini": 234.12,
-     "fim": 234.209
-    },
-    {
-     "w": "nem",
-     "ini": 234.262,
-     "fim": 234.422
-    },
-    {
-     "w": "tenho",
-     "ini": 234.466,
-     "fim": 234.688
-    },
-    {
-     "w": "vontade",
-     "ini": 234.745,
-     "fim": 235.148
-    },
-    {
-     "w": "de",
-     "ini": 235.194,
-     "fim": 235.286
-    },
-    {
-     "w": "orar;",
-     "ini": 235.287,
-     "fim": 235.546
-    },
-    {
-     "w": "então",
-     "ini": 236.758,
-     "fim": 237.027
-    },
-    {
-     "w": "recebe",
-     "ini": 237.077,
-     "fim": 237.451
-    },
-    {
-     "w": "estas",
-     "ini": 237.489,
-     "fim": 237.679
-    },
-    {
-     "w": "palavras",
-     "ini": 237.734,
-     "fim": 238.175
-    },
-    {
-     "w": "como",
-     "ini": 238.213,
-     "fim": 238.407
-    },
-    {
-     "w": "o",
-     "ini": 238.418,
-     "fim": 238.469
-    },
-    {
-     "w": "meu",
-     "ini": 238.485,
-     "fim": 238.65
-    },
-    {
-     "w": "clamor,",
-     "ini": 238.675,
-     "fim": 239.03
-    },
-    {
-     "w": "mesmo",
-     "ini": 239.89,
-     "fim": 240.151
-    },
-    {
-     "w": "quando",
-     "ini": 240.181,
-     "fim": 240.363
-    },
-    {
-     "w": "o",
-     "ini": 240.373,
-     "fim": 240.423
-    },
-    {
-     "w": "meu",
-     "ini": 240.417,
-     "fim": 240.522
-    },
-    {
-     "w": "coração",
-     "ini": 240.577,
-     "fim": 240.964
-    },
-    {
-     "w": "parece",
-     "ini": 241.023,
-     "fim": 241.375
-    },
-    {
-     "w": "frio.",
-     "ini": 241.451,
-     "fim": 241.754
-    }
-   ]
-  },
-  {
-   "bloco": "clamo",
-   "titulo_bloco": "Do fundo do poço",
-   "frase": "Firma os meus passos, um de cada vez; eu não preciso correr, Senhor, eu só preciso dar o próximo passo.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "destaque": "Só o próximo *passo*.",
-   "rodape": "UM DE CADA VEZ",
-   "idx": 23,
-   "wav": "work/r08/x.wav",
-   "inicio": 242.68,
-   "fim": 250.284,
-   "duracao": 7.604,
-   "palavras": [
-    {
-     "w": "Firma",
-     "ini": 242.68,
-     "fim": 242.966
-    },
-    {
-     "w": "os",
-     "ini": 242.985,
-     "fim": 243.035
-    },
-    {
-     "w": "meus",
-     "ini": 243.082,
-     "fim": 243.318
-    },
-    {
-     "w": "passos,",
-     "ini": 243.387,
-     "fim": 243.798
-    },
-    {
-     "w": "um",
-     "ini": 244.474,
-     "fim": 244.554
-    },
-    {
-     "w": "de",
-     "ini": 244.596,
-     "fim": 244.665
-    },
-    {
-     "w": "cada",
-     "ini": 244.725,
-     "fim": 244.965
-    },
-    {
-     "w": "vez;",
-     "ini": 245.044,
-     "fim": 245.282
-    },
-    {
-     "w": "eu",
-     "ini": 246.192,
-     "fim": 246.285
-    },
-    {
-     "w": "não",
-     "ini": 246.34,
-     "fim": 246.507
-    },
-    {
-     "w": "preciso",
-     "ini": 246.552,
-     "fim": 246.869
-    },
-    {
-     "w": "correr,",
-     "ini": 246.911,
-     "fim": 247.163
-    },
-    {
-     "w": "Senhor,",
-     "ini": 247.283,
-     "fim": 247.643
-    },
-    {
-     "w": "eu",
-     "ini": 248.349,
-     "fim": 248.43
-    },
-    {
-     "w": "só",
-     "ini": 248.533,
-     "fim": 248.74
-    },
-    {
-     "w": "preciso",
-     "ini": 248.781,
-     "fim": 249.066
-    },
-    {
-     "w": "dar",
-     "ini": 249.108,
-     "fim": 249.232
-    },
-    {
-     "w": "o",
-     "ini": 249.303,
-     "fim": 249.374
-    },
-    {
-     "w": "próximo",
-     "ini": 249.404,
-     "fim": 249.884
-    },
-    {
-     "w": "passo.",
-     "ini": 249.951,
-     "fim": 250.284
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "Pai, cura o meu coração partido e trata as feridas que me trouxeram até aqui: as perdas que eu não consegui chorar, as palavras duras que eu ouvi, os abandonos e os fracassos.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 24,
-   "wav": "work/r08/x.wav",
-   "inicio": 251.727,
-   "fim": 264.84,
-   "duracao": 13.113,
-   "palavras": [
-    {
-     "w": "Pai,",
-     "ini": 251.727,
-     "fim": 251.847
-    },
-    {
-     "w": "cura",
-     "ini": 253.005,
-     "fim": 253.134
-    },
-    {
-     "w": "o",
-     "ini": 253.183,
-     "fim": 253.233
-    },
-    {
-     "w": "meu",
-     "ini": 253.275,
-     "fim": 253.409
-    },
-    {
-     "w": "coração",
-     "ini": 253.469,
-     "fim": 253.892
-    },
-    {
-     "w": "partido",
-     "ini": 253.93,
-     "fim": 254.438
-    },
-    {
-     "w": "e",
-     "ini": 255.022,
-     "fim": 255.072
-    },
-    {
-     "w": "trata",
-     "ini": 255.201,
-     "fim": 255.453
-    },
-    {
-     "w": "as",
-     "ini": 255.488,
-     "fim": 255.559
-    },
-    {
-     "w": "feridas",
-     "ini": 255.63,
-     "fim": 256.014
-    },
-    {
-     "w": "que",
-     "ini": 256.044,
-     "fim": 256.133
-    },
-    {
-     "w": "me",
-     "ini": 256.195,
-     "fim": 256.32
-    },
-    {
-     "w": "trouxeram",
-     "ini": 256.344,
-     "fim": 256.885
-    },
-    {
-     "w": "até",
-     "ini": 256.945,
-     "fim": 257.126
-    },
-    {
-     "w": "aqui:",
-     "ini": 257.19,
-     "fim": 257.446
-    },
-    {
-     "w": "as",
-     "ini": 258.445,
-     "fim": 258.528
-    },
-    {
-     "w": "perdas",
-     "ini": 258.63,
-     "fim": 258.946
-    },
-    {
-     "w": "que",
-     "ini": 258.961,
-     "fim": 259.011
-    },
-    {
-     "w": "eu",
-     "ini": 259.033,
-     "fim": 259.085
-    },
-    {
-     "w": "não",
-     "ini": 259.139,
-     "fim": 259.302
-    },
-    {
-     "w": "consegui",
-     "ini": 259.329,
-     "fim": 259.65
-    },
-    {
-     "w": "chorar,",
-     "ini": 259.719,
-     "fim": 260.13
-    },
-    {
-     "w": "as",
-     "ini": 261.075,
-     "fim": 261.15
-    },
-    {
-     "w": "palavras",
-     "ini": 261.214,
-     "fim": 261.729
-    },
-    {
-     "w": "duras",
-     "ini": 261.751,
-     "fim": 262.014
-    },
-    {
-     "w": "que",
-     "ini": 262.042,
-     "fim": 262.122
-    },
-    {
-     "w": "eu",
-     "ini": 262.169,
-     "fim": 262.262
-    },
-    {
-     "w": "ouvi,",
-     "ini": 262.338,
-     "fim": 262.64
-    },
-    {
-     "w": "os",
-     "ini": 263.303,
-     "fim": 263.384
-    },
-    {
-     "w": "abandonos",
-     "ini": 263.442,
-     "fim": 264.014
-    },
-    {
-     "w": "e",
-     "ini": 264.053,
-     "fim": 264.103
-    },
-    {
-     "w": "os",
-     "ini": 264.071,
-     "fim": 264.121
-    },
-    {
-     "w": "fracassos.",
-     "ini": 264.132,
-     "fim": 264.84
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "Cura as expectativas que não se cumpriram, e coloca o Teu curativo de amor sobre cada uma delas.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 25,
-   "wav": "work/r08/x.wav",
-   "inicio": 265.819,
-   "fim": 271.587,
-   "duracao": 5.768,
-   "palavras": [
-    {
-     "w": "Cura",
-     "ini": 265.819,
-     "fim": 265.995
-    },
-    {
-     "w": "as",
-     "ini": 266.03,
-     "fim": 266.154
-    },
-    {
-     "w": "expectativas",
-     "ini": 266.206,
-     "fim": 266.96
-    },
-    {
-     "w": "que",
-     "ini": 266.976,
-     "fim": 267.026
-    },
-    {
-     "w": "não",
-     "ini": 267.058,
-     "fim": 267.154
-    },
-    {
-     "w": "se",
-     "ini": 267.219,
-     "fim": 267.349
-    },
-    {
-     "w": "cumpriram,",
-     "ini": 267.375,
-     "fim": 267.866
-    },
-    {
-     "w": "e",
-     "ini": 268.766,
-     "fim": 268.816
-    },
-    {
-     "w": "coloca",
-     "ini": 268.875,
-     "fim": 269.135
-    },
-    {
-     "w": "o",
-     "ini": 269.169,
-     "fim": 269.219
-    },
-    {
-     "w": "Teu",
-     "ini": 269.25,
-     "fim": 269.389
-    },
-    {
-     "w": "curativo",
-     "ini": 269.447,
-     "fim": 269.982
-    },
-    {
-     "w": "de",
-     "ini": 270.042,
-     "fim": 270.161
-    },
-    {
-     "w": "amor",
-     "ini": 270.203,
-     "fim": 270.371
-    },
-    {
-     "w": "sobre",
-     "ini": 270.43,
-     "fim": 270.725
-    },
-    {
-     "w": "cada",
-     "ini": 270.782,
-     "fim": 271.009
-    },
-    {
-     "w": "uma",
-     "ini": 271.058,
-     "fim": 271.207
-    },
-    {
-     "w": "delas.",
-     "ini": 271.24,
-     "fim": 271.587
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "E que o Teu Espírito Santo seja o meu consolador: que Ele me envolva quando eu me sentir vazio, me lembre das Tuas promessas quando eu esquecer, e interceda por mim quando eu não souber orar.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 26,
-   "wav": "work/r08/x.wav",
-   "inicio": 272.531,
-   "fim": 284.494,
-   "duracao": 11.963,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 272.531,
-     "fim": 272.581
-    },
-    {
-     "w": "que",
-     "ini": 272.602,
-     "fim": 272.679
-    },
-    {
-     "w": "o",
-     "ini": 272.685,
-     "fim": 272.735
-    },
-    {
-     "w": "Teu",
-     "ini": 272.757,
-     "fim": 272.955
-    },
-    {
-     "w": "Espírito",
-     "ini": 273.002,
-     "fim": 273.38
-    },
-    {
-     "w": "Santo",
-     "ini": 273.451,
-     "fim": 273.805
-    },
-    {
-     "w": "seja",
-     "ini": 273.862,
-     "fim": 274.089
-    },
-    {
-     "w": "o",
-     "ini": 274.1,
-     "fim": 274.15
-    },
-    {
-     "w": "meu",
-     "ini": 274.159,
-     "fim": 274.307
-    },
-    {
-     "w": "consolador:",
-     "ini": 274.33,
-     "fim": 274.985
-    },
-    {
-     "w": "que",
-     "ini": 276.21,
-     "fim": 276.269
-    },
-    {
-     "w": "Ele",
-     "ini": 276.308,
-     "fim": 276.426
-    },
-    {
-     "w": "me",
-     "ini": 276.498,
-     "fim": 276.641
-    },
-    {
-     "w": "envolva",
-     "ini": 276.678,
-     "fim": 277.006
-    },
-    {
-     "w": "quando",
-     "ini": 277.039,
-     "fim": 277.244
-    },
-    {
-     "w": "eu",
-     "ini": 277.276,
-     "fim": 277.34
-    },
-    {
-     "w": "me",
-     "ini": 277.374,
-     "fim": 277.441
-    },
-    {
-     "w": "sentir",
-     "ini": 277.499,
-     "fim": 277.845
-    },
-    {
-     "w": "vazio,",
-     "ini": 277.912,
-     "fim": 278.245
-    },
-    {
-     "w": "me",
-     "ini": 279.106,
-     "fim": 279.197
-    },
-    {
-     "w": "lembre",
-     "ini": 279.237,
-     "fim": 279.523
-    },
-    {
-     "w": "das",
-     "ini": 279.562,
-     "fim": 279.68
-    },
-    {
-     "w": "Tuas",
-     "ini": 279.735,
-     "fim": 279.954
-    },
-    {
-     "w": "promessas",
-     "ini": 280.007,
-     "fim": 280.483
-    },
-    {
-     "w": "quando",
-     "ini": 280.506,
-     "fim": 280.647
-    },
-    {
-     "w": "eu",
-     "ini": 280.722,
-     "fim": 280.872
-    },
-    {
-     "w": "esquecer,",
-     "ini": 280.943,
-     "fim": 281.512
-    },
-    {
-     "w": "e",
-     "ini": 282.032,
-     "fim": 282.096
-    },
-    {
-     "w": "interceda",
-     "ini": 282.126,
-     "fim": 282.654
-    },
-    {
-     "w": "por",
-     "ini": 282.703,
-     "fim": 282.838
-    },
-    {
-     "w": "mim",
-     "ini": 282.898,
-     "fim": 283.078
-    },
-    {
-     "w": "quando",
-     "ini": 283.402,
-     "fim": 283.556
-    },
-    {
-     "w": "eu",
-     "ini": 283.592,
-     "fim": 283.665
-    },
-    {
-     "w": "não",
-     "ini": 283.707,
-     "fim": 283.834
-    },
-    {
-     "w": "souber",
-     "ini": 283.868,
-     "fim": 284.167
-    },
-    {
-     "w": "orar.",
-     "ini": 284.201,
-     "fim": 284.494
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "Me dá também sabedoria para cuidar de mim: que eu durma, que eu me alimente, que eu saia um pouco no sol e converse com alguém.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 27,
-   "wav": "work/r08/x.wav",
-   "inicio": 285.822,
-   "fim": 294.48,
-   "duracao": 8.658,
-   "palavras": [
-    {
-     "w": "Me",
-     "ini": 285.822,
-     "fim": 285.902
-    },
-    {
-     "w": "dá",
-     "ini": 286.032,
-     "fim": 286.186
-    },
-    {
-     "w": "também",
-     "ini": 286.219,
-     "fim": 286.42
-    },
-    {
-     "w": "sabedoria",
-     "ini": 286.458,
-     "fim": 287.112
-    },
-    {
-     "w": "para",
-     "ini": 287.135,
-     "fim": 287.228
-    },
-    {
-     "w": "cuidar",
-     "ini": 287.269,
-     "fim": 287.512
-    },
-    {
-     "w": "de",
-     "ini": 287.566,
-     "fim": 287.674
-    },
-    {
-     "w": "mim:",
-     "ini": 287.734,
-     "fim": 287.914
-    },
-    {
-     "w": "que",
-     "ini": 289.049,
-     "fim": 289.099
-    },
-    {
-     "w": "eu",
-     "ini": 289.156,
-     "fim": 289.294
-    },
-    {
-     "w": "durma,",
-     "ini": 289.359,
-     "fim": 289.678
-    },
-    {
-     "w": "que",
-     "ini": 290.354,
-     "fim": 290.404
-    },
-    {
-     "w": "eu",
-     "ini": 290.424,
-     "fim": 290.474
-    },
-    {
-     "w": "me",
-     "ini": 290.498,
-     "fim": 290.551
-    },
-    {
-     "w": "alimente,",
-     "ini": 290.564,
-     "fim": 291.2
-    },
-    {
-     "w": "que",
-     "ini": 292.019,
-     "fim": 292.069
-    },
-    {
-     "w": "eu",
-     "ini": 292.062,
-     "fim": 292.165
-    },
-    {
-     "w": "saia",
-     "ini": 292.221,
-     "fim": 292.456
-    },
-    {
-     "w": "um",
-     "ini": 292.492,
-     "fim": 292.564
-    },
-    {
-     "w": "pouco",
-     "ini": 292.614,
-     "fim": 292.863
-    },
-    {
-     "w": "no",
-     "ini": 292.907,
-     "fim": 292.996
-    },
-    {
-     "w": "sol",
-     "ini": 293.07,
-     "fim": 293.293
-    },
-    {
-     "w": "e",
-     "ini": 293.355,
-     "fim": 293.405
-    },
-    {
-     "w": "converse",
-     "ini": 293.42,
-     "fim": 293.822
-    },
-    {
-     "w": "com",
-     "ini": 293.866,
-     "fim": 294.0
-    },
-    {
-     "w": "alguém.",
-     "ini": 294.069,
-     "fim": 294.48
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "Me ajuda a fazer o que está ao meu alcance, e faz Tu o que só Tu podes fazer.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 28,
-   "wav": "work/r08/x.wav",
-   "inicio": 295.503,
-   "fim": 300.158,
-   "duracao": 4.655,
-   "palavras": [
-    {
-     "w": "Me",
-     "ini": 295.503,
-     "fim": 295.607
-    },
-    {
-     "w": "ajuda",
-     "ini": 295.668,
-     "fim": 295.965
-    },
-    {
-     "w": "a",
-     "ini": 295.995,
-     "fim": 296.045
-    },
-    {
-     "w": "fazer",
-     "ini": 296.064,
-     "fim": 296.263
-    },
-    {
-     "w": "o",
-     "ini": 296.3,
-     "fim": 296.351
-    },
-    {
-     "w": "que",
-     "ini": 296.356,
-     "fim": 296.408
-    },
-    {
-     "w": "está",
-     "ini": 296.457,
-     "fim": 296.651
-    },
-    {
-     "w": "ao",
-     "ini": 296.659,
-     "fim": 296.709
-    },
-    {
-     "w": "meu",
-     "ini": 296.75,
-     "fim": 296.974
-    },
-    {
-     "w": "alcance,",
-     "ini": 297.038,
-     "fim": 297.552
-    },
-    {
-     "w": "e",
-     "ini": 298.137,
-     "fim": 298.187
-    },
-    {
-     "w": "faz",
-     "ini": 298.296,
-     "fim": 298.554
-    },
-    {
-     "w": "Tu",
-     "ini": 298.614,
-     "fim": 298.734
-    },
-    {
-     "w": "o",
-     "ini": 298.768,
-     "fim": 298.818
-    },
-    {
-     "w": "que",
-     "ini": 298.816,
-     "fim": 298.88
-    },
-    {
-     "w": "só",
-     "ini": 298.98,
-     "fim": 299.181
-    },
-    {
-     "w": "Tu",
-     "ini": 299.239,
-     "fim": 299.354
-    },
-    {
-     "w": "podes",
-     "ini": 299.419,
-     "fim": 299.747
-    },
-    {
-     "w": "fazer.",
-     "ini": 299.815,
-     "fim": 300.158
-    }
-   ]
-  },
-  {
-   "bloco": "feridas",
-   "titulo_bloco": "Cura as minhas feridas",
-   "frase": "Se você quer que a gente ore por você, deixa o seu nome nos comentários e escreve: Deus vai me tirar do poço.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 29,
-   "wav": "work/r08/x.wav",
-   "inicio": 301.647,
-   "fim": 310.718,
-   "duracao": 9.071,
-   "palavras": [
-    {
-     "w": "Se",
-     "ini": 301.647,
-     "fim": 301.771
-    },
-    {
-     "w": "você",
-     "ini": 301.813,
-     "fim": 301.979
-    },
-    {
-     "w": "quer",
-     "ini": 302.024,
-     "fim": 302.202
-    },
-    {
-     "w": "que",
-     "ini": 302.215,
-     "fim": 302.265
-    },
-    {
-     "w": "a",
-     "ini": 302.272,
-     "fim": 302.322
-    },
-    {
-     "w": "gente",
-     "ini": 302.325,
-     "fim": 302.641
-    },
-    {
-     "w": "ore",
-     "ini": 302.717,
-     "fim": 302.871
-    },
-    {
-     "w": "por",
-     "ini": 302.936,
-     "fim": 303.13
-    },
-    {
-     "w": "você,",
-     "ini": 303.194,
-     "fim": 303.45
-    },
-    {
-     "w": "deixa",
-     "ini": 304.657,
-     "fim": 304.817
-    },
-    {
-     "w": "o",
-     "ini": 304.827,
-     "fim": 304.877
-    },
-    {
-     "w": "seu",
-     "ini": 304.901,
-     "fim": 305.092
-    },
-    {
-     "w": "nome",
-     "ini": 305.147,
-     "fim": 305.367
-    },
-    {
-     "w": "nos",
-     "ini": 305.411,
-     "fim": 305.543
-    },
-    {
-     "w": "comentários",
-     "ini": 305.581,
-     "fim": 306.027
-    },
-    {
-     "w": "e",
-     "ini": 306.132,
-     "fim": 306.238
-    },
-    {
-     "w": "escreve:",
-     "ini": 306.292,
-     "fim": 306.751
-    },
-    {
-     "w": "Deus",
-     "ini": 308.119,
-     "fim": 308.402
-    },
-    {
-     "w": "vai",
-     "ini": 309.585,
-     "fim": 309.7
-    },
-    {
-     "w": "me",
-     "ini": 309.716,
-     "fim": 309.766
-    },
-    {
-     "w": "tirar",
-     "ini": 309.8,
-     "fim": 310.176
-    },
-    {
-     "w": "do",
-     "ini": 310.243,
-     "fim": 310.35
-    },
-    {
-     "w": "poço.",
-     "ini": 310.453,
-     "fim": 310.718
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Agora, Pai, eu levanto em oração cada pessoa que está ouvindo esta mensagem e que está no fundo do poço; Tu vês cada uma delas, e ninguém está escondido de Ti.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 30,
-   "wav": "work/r08/x.wav",
-   "inicio": 313.13,
-   "fim": 324.586,
-   "duracao": 11.456,
-   "palavras": [
-    {
-     "w": "Agora,",
-     "ini": 313.13,
-     "fim": 313.38
-    },
-    {
-     "w": "Pai,",
-     "ini": 313.506,
-     "fim": 313.65
-    },
-    {
-     "w": "eu",
-     "ini": 314.322,
-     "fim": 314.413
-    },
-    {
-     "w": "levanto",
-     "ini": 314.462,
-     "fim": 314.783
-    },
-    {
-     "w": "em",
-     "ini": 314.791,
-     "fim": 314.841
-    },
-    {
-     "w": "oração",
-     "ini": 314.873,
-     "fim": 315.351
-    },
-    {
-     "w": "cada",
-     "ini": 315.524,
-     "fim": 315.758
-    },
-    {
-     "w": "pessoa",
-     "ini": 315.811,
-     "fim": 316.128
-    },
-    {
-     "w": "que",
-     "ini": 316.148,
-     "fim": 316.209
-    },
-    {
-     "w": "está",
-     "ini": 316.217,
-     "fim": 316.267
-    },
-    {
-     "w": "ouvindo",
-     "ini": 316.32,
-     "fim": 316.804
-    },
-    {
-     "w": "esta",
-     "ini": 316.838,
-     "fim": 316.975
-    },
-    {
-     "w": "mensagem",
-     "ini": 317.046,
-     "fim": 317.615
-    },
-    {
-     "w": "e",
-     "ini": 318.269,
-     "fim": 318.32
-    },
-    {
-     "w": "que",
-     "ini": 318.331,
-     "fim": 318.418
-    },
-    {
-     "w": "está",
-     "ini": 318.453,
-     "fim": 318.591
-    },
-    {
-     "w": "no",
-     "ini": 318.65,
-     "fim": 318.768
-    },
-    {
-     "w": "fundo",
-     "ini": 318.827,
-     "fim": 319.123
-    },
-    {
-     "w": "do",
-     "ini": 319.18,
-     "fim": 319.294
-    },
-    {
-     "w": "poço;",
-     "ini": 319.413,
-     "fim": 319.64
-    },
-    {
-     "w": "Tu",
-     "ini": 321.037,
-     "fim": 321.117
-    },
-    {
-     "w": "vês",
-     "ini": 321.141,
-     "fim": 321.354
-    },
-    {
-     "w": "cada",
-     "ini": 321.412,
-     "fim": 321.644
-    },
-    {
-     "w": "uma",
-     "ini": 321.699,
-     "fim": 321.862
-    },
-    {
-     "w": "delas,",
-     "ini": 321.918,
-     "fim": 322.32
-    },
-    {
-     "w": "e",
-     "ini": 323.085,
-     "fim": 323.135
-    },
-    {
-     "w": "ninguém",
-     "ini": 323.236,
-     "fim": 323.512
-    },
-    {
-     "w": "está",
-     "ini": 323.561,
-     "fim": 323.758
-    },
-    {
-     "w": "escondido",
-     "ini": 323.795,
-     "fim": 324.243
-    },
-    {
-     "w": "de",
-     "ini": 324.3,
-     "fim": 324.413
-    },
-    {
-     "w": "Ti.",
-     "ini": 324.475,
-     "fim": 324.586
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Inclina-Te para cada uma delas hoje: que elas sintam que foram ouvidas, que um raio de luz entre nesse lugar escuro, e que consigam respirar um pouco melhor depois desta oração.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 31,
-   "wav": "work/r08/x.wav",
-   "inicio": 326.124,
-   "fim": 337.798,
-   "duracao": 11.674,
-   "palavras": [
-    {
-     "w": "Inclina-Te",
-     "ini": 326.124,
-     "fim": 326.611
-    },
-    {
-     "w": "para",
-     "ini": 326.649,
-     "fim": 326.802
-    },
-    {
-     "w": "cada",
-     "ini": 326.854,
-     "fim": 327.061
-    },
-    {
-     "w": "uma",
-     "ini": 327.116,
-     "fim": 327.283
-    },
-    {
-     "w": "delas",
-     "ini": 327.305,
-     "fim": 327.6
-    },
-    {
-     "w": "hoje:",
-     "ini": 327.664,
-     "fim": 327.92
-    },
-    {
-     "w": "que",
-     "ini": 328.715,
-     "fim": 328.765
-    },
-    {
-     "w": "elas",
-     "ini": 328.778,
-     "fim": 329.091
-    },
-    {
-     "w": "sintam",
-     "ini": 329.139,
-     "fim": 329.543
-    },
-    {
-     "w": "que",
-     "ini": 329.575,
-     "fim": 329.666
-    },
-    {
-     "w": "foram",
-     "ini": 329.714,
-     "fim": 329.952
-    },
-    {
-     "w": "ouvidas,",
-     "ini": 329.985,
-     "fim": 330.48
-    },
-    {
-     "w": "que",
-     "ini": 331.1,
-     "fim": 331.168
-    },
-    {
-     "w": "um",
-     "ini": 331.195,
-     "fim": 331.249
-    },
-    {
-     "w": "raio",
-     "ini": 331.295,
-     "fim": 331.596
-    },
-    {
-     "w": "de",
-     "ini": 331.642,
-     "fim": 331.735
-    },
-    {
-     "w": "luz",
-     "ini": 331.805,
-     "fim": 332.016
-    },
-    {
-     "w": "entre",
-     "ini": 332.046,
-     "fim": 332.195
-    },
-    {
-     "w": "nesse",
-     "ini": 332.256,
-     "fim": 332.562
-    },
-    {
-     "w": "lugar",
-     "ini": 332.613,
-     "fim": 332.866
-    },
-    {
-     "w": "escuro,",
-     "ini": 332.935,
-     "fim": 333.346
-    },
-    {
-     "w": "e",
-     "ini": 334.235,
-     "fim": 334.285
-    },
-    {
-     "w": "que",
-     "ini": 334.375,
-     "fim": 334.466
-    },
-    {
-     "w": "consigam",
-     "ini": 334.489,
-     "fim": 334.975
-    },
-    {
-     "w": "respirar",
-     "ini": 335.018,
-     "fim": 335.364
-    },
-    {
-     "w": "um",
-     "ini": 335.392,
-     "fim": 335.448
-    },
-    {
-     "w": "pouco",
-     "ini": 335.478,
-     "fim": 335.628
-    },
-    {
-     "w": "melhor",
-     "ini": 335.707,
-     "fim": 336.179
-    },
-    {
-     "w": "depois",
-     "ini": 336.894,
-     "fim": 337.116
-    },
-    {
-     "w": "desta",
-     "ini": 337.133,
-     "fim": 337.218
-    },
-    {
-     "w": "oração.",
-     "ini": 337.301,
-     "fim": 337.798
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Firma os pés dessas pessoas na rocha, cura os corações partidos e cuida de cada ferida.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 32,
-   "wav": "work/r08/x.wav",
-   "inicio": 339.367,
-   "fim": 344.905,
-   "duracao": 5.538,
-   "palavras": [
-    {
-     "w": "Firma",
-     "ini": 339.367,
-     "fim": 339.594
-    },
-    {
-     "w": "os",
-     "ini": 339.654,
-     "fim": 339.774
-    },
-    {
-     "w": "pés",
-     "ini": 339.865,
-     "fim": 340.005
-    },
-    {
-     "w": "dessas",
-     "ini": 340.029,
-     "fim": 340.334
-    },
-    {
-     "w": "pessoas",
-     "ini": 340.398,
-     "fim": 340.702
-    },
-    {
-     "w": "na",
-     "ini": 340.755,
-     "fim": 340.86
-    },
-    {
-     "w": "rocha,",
-     "ini": 340.935,
-     "fim": 341.325
-    },
-    {
-     "w": "cura",
-     "ini": 342.292,
-     "fim": 342.473
-    },
-    {
-     "w": "os",
-     "ini": 342.503,
-     "fim": 342.562
-    },
-    {
-     "w": "corações",
-     "ini": 342.627,
-     "fim": 343.147
-    },
-    {
-     "w": "partidos",
-     "ini": 343.218,
-     "fim": 343.708
-    },
-    {
-     "w": "e",
-     "ini": 343.781,
-     "fim": 343.853
-    },
-    {
-     "w": "cuida",
-     "ini": 343.903,
-     "fim": 344.135
-    },
-    {
-     "w": "de",
-     "ini": 344.178,
-     "fim": 344.263
-    },
-    {
-     "w": "cada",
-     "ini": 344.307,
-     "fim": 344.484
-    },
-    {
-     "w": "ferida.",
-     "ini": 344.511,
-     "fim": 344.905
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "E coloca na boca delas um cântico novo, como Tu fizeste com Davi; que elas voltem a cantar, a sorrir e a ter esperança.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "destaque": "Um cântico *novo*.",
-   "rodape": "SALMO 40:3",
-   "idx": 33,
-   "wav": "work/r08/x.wav",
-   "inicio": 345.815,
-   "fim": 354.396,
-   "duracao": 8.581,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 345.815,
-     "fim": 345.865
-    },
-    {
-     "w": "coloca",
-     "ini": 345.931,
-     "fim": 346.235
-    },
-    {
-     "w": "na",
-     "ini": 346.294,
-     "fim": 346.413
-    },
-    {
-     "w": "boca",
-     "ini": 346.473,
-     "fim": 346.663
-    },
-    {
-     "w": "delas",
-     "ini": 346.705,
-     "fim": 346.992
-    },
-    {
-     "w": "um",
-     "ini": 347.071,
-     "fim": 347.168
-    },
-    {
-     "w": "cântico",
-     "ini": 347.217,
-     "fim": 347.564
-    },
-    {
-     "w": "novo,",
-     "ini": 347.636,
-     "fim": 347.922
-    },
-    {
-     "w": "como",
-     "ini": 348.834,
-     "fim": 348.971
-    },
-    {
-     "w": "Tu",
-     "ini": 349.017,
-     "fim": 349.109
-    },
-    {
-     "w": "fizeste",
-     "ini": 349.169,
-     "fim": 349.578
-    },
-    {
-     "w": "com",
-     "ini": 349.617,
-     "fim": 349.734
-    },
-    {
-     "w": "Davi;",
-     "ini": 349.764,
-     "fim": 350.102
-    },
-    {
-     "w": "que",
-     "ini": 351.066,
-     "fim": 351.116
-    },
-    {
-     "w": "elas",
-     "ini": 351.128,
-     "fim": 351.362
-    },
-    {
-     "w": "voltem",
-     "ini": 351.42,
-     "fim": 351.702
-    },
-    {
-     "w": "a",
-     "ini": 351.75,
-     "fim": 351.8
-    },
-    {
-     "w": "cantar,",
-     "ini": 351.866,
-     "fim": 352.277
-    },
-    {
-     "w": "a",
-     "ini": 352.783,
-     "fim": 352.833
-    },
-    {
-     "w": "sorrir",
-     "ini": 352.897,
-     "fim": 353.374
-    },
-    {
-     "w": "e",
-     "ini": 353.434,
-     "fim": 353.484
-    },
-    {
-     "w": "a",
-     "ini": 353.457,
-     "fim": 353.507
-    },
-    {
-     "w": "ter",
-     "ini": 353.516,
-     "fim": 353.676
-    },
-    {
-     "w": "esperança.",
-     "ini": 353.748,
-     "fim": 354.396
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Eu oro também por quem cuida de alguém com depressão e já não sabe o que fazer; dá paciência, sabedoria e forças, e que essas pessoas também sejam cuidadas.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 34,
-   "wav": "work/r08/x.wav",
-   "inicio": 355.918,
-   "fim": 367.519,
-   "duracao": 11.601,
-   "palavras": [
-    {
-     "w": "Eu",
-     "ini": 355.918,
-     "fim": 356.014
-    },
-    {
-     "w": "oro",
-     "ini": 356.122,
-     "fim": 356.328
-    },
-    {
-     "w": "também",
-     "ini": 356.397,
-     "fim": 356.808
-    },
-    {
-     "w": "por",
-     "ini": 357.215,
-     "fim": 357.288
-    },
-    {
-     "w": "quem",
-     "ini": 357.32,
-     "fim": 357.449
-    },
-    {
-     "w": "cuida",
-     "ini": 357.499,
-     "fim": 357.746
-    },
-    {
-     "w": "de",
-     "ini": 357.775,
-     "fim": 357.834
-    },
-    {
-     "w": "alguém",
-     "ini": 357.869,
-     "fim": 358.077
-    },
-    {
-     "w": "com",
-     "ini": 358.122,
-     "fim": 358.257
-    },
-    {
-     "w": "depressão",
-     "ini": 358.293,
-     "fim": 358.833
-    },
-    {
-     "w": "e",
-     "ini": 359.549,
-     "fim": 359.599
-    },
-    {
-     "w": "já",
-     "ini": 359.655,
-     "fim": 359.735
-    },
-    {
-     "w": "não",
-     "ini": 359.778,
-     "fim": 359.906
-    },
-    {
-     "w": "sabe",
-     "ini": 359.965,
-     "fim": 360.201
-    },
-    {
-     "w": "o",
-     "ini": 360.225,
-     "fim": 360.275
-    },
-    {
-     "w": "que",
-     "ini": 360.283,
-     "fim": 360.388
-    },
-    {
-     "w": "fazer;",
-     "ini": 360.46,
-     "fim": 360.823
-    },
-    {
-     "w": "dá",
-     "ini": 362.055,
-     "fim": 362.135
-    },
-    {
-     "w": "paciência,",
-     "ini": 362.279,
-     "fim": 362.993
-    },
-    {
-     "w": "sabedoria",
-     "ini": 363.327,
-     "fim": 363.85
-    },
-    {
-     "w": "e",
-     "ini": 363.904,
-     "fim": 363.957
-    },
-    {
-     "w": "forças,",
-     "ini": 364.042,
-     "fim": 364.55
-    },
-    {
-     "w": "e",
-     "ini": 365.592,
-     "fim": 365.642
-    },
-    {
-     "w": "que",
-     "ini": 365.661,
-     "fim": 365.711
-    },
-    {
-     "w": "essas",
-     "ini": 365.702,
-     "fim": 366.037
-    },
-    {
-     "w": "pessoas",
-     "ini": 366.093,
-     "fim": 366.485
-    },
-    {
-     "w": "também",
-     "ini": 366.51,
-     "fim": 366.657
-    },
-    {
-     "w": "sejam",
-     "ini": 366.687,
-     "fim": 366.974
-    },
-    {
-     "w": "cuidadas.",
-     "ini": 367.038,
-     "fim": 367.519
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Protege essas vidas, Senhor, guarda cada uma delas, e que a Tua igreja seja um lugar de acolhimento para quem está sofrendo, e não de julgamento.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 35,
-   "wav": "work/r08/x.wav",
-   "inicio": 368.838,
-   "fim": 378.29,
-   "duracao": 9.452,
-   "palavras": [
-    {
-     "w": "Protege",
-     "ini": 368.838,
-     "fim": 369.178
-    },
-    {
-     "w": "essas",
-     "ini": 369.183,
-     "fim": 369.444
-    },
-    {
-     "w": "vidas,",
-     "ini": 369.49,
-     "fim": 369.723
-    },
-    {
-     "w": "Senhor,",
-     "ini": 369.843,
-     "fim": 370.203
-    },
-    {
-     "w": "guarda",
-     "ini": 371.043,
-     "fim": 371.28
-    },
-    {
-     "w": "cada",
-     "ini": 371.334,
-     "fim": 371.549
-    },
-    {
-     "w": "uma",
-     "ini": 371.577,
-     "fim": 371.661
-    },
-    {
-     "w": "delas,",
-     "ini": 371.7,
-     "fim": 372.024
-    },
-    {
-     "w": "e",
-     "ini": 373.187,
-     "fim": 373.237
-    },
-    {
-     "w": "que",
-     "ini": 373.258,
-     "fim": 373.309
-    },
-    {
-     "w": "a",
-     "ini": 373.324,
-     "fim": 373.374
-    },
-    {
-     "w": "Tua",
-     "ini": 373.382,
-     "fim": 373.515
-    },
-    {
-     "w": "igreja",
-     "ini": 373.574,
-     "fim": 373.928
-    },
-    {
-     "w": "seja",
-     "ini": 373.993,
-     "fim": 374.254
-    },
-    {
-     "w": "um",
-     "ini": 374.313,
-     "fim": 374.395
-    },
-    {
-     "w": "lugar",
-     "ini": 374.425,
-     "fim": 374.575
-    },
-    {
-     "w": "de",
-     "ini": 374.603,
-     "fim": 374.658
-    },
-    {
-     "w": "acolhimento",
-     "ini": 374.663,
-     "fim": 375.2
-    },
-    {
-     "w": "para",
-     "ini": 375.229,
-     "fim": 375.345
-    },
-    {
-     "w": "quem",
-     "ini": 375.365,
-     "fim": 375.444
-    },
-    {
-     "w": "está",
-     "ini": 375.482,
-     "fim": 375.633
-    },
-    {
-     "w": "sofrendo,",
-     "ini": 375.704,
-     "fim": 376.273
-    },
-    {
-     "w": "e",
-     "ini": 377.237,
-     "fim": 377.287
-    },
-    {
-     "w": "não",
-     "ini": 377.322,
-     "fim": 377.489
-    },
-    {
-     "w": "de",
-     "ini": 377.518,
-     "fim": 377.577
-    },
-    {
-     "w": "julgamento.",
-     "ini": 377.613,
-     "fim": 378.29
-    }
-   ]
-  },
-  {
-   "bloco": "porvoce",
-   "titulo_bloco": "Inclina-Te para cada um",
-   "frase": "Em nome de Jesus, amém.",
-   "tag_visual": "canion",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 36,
-   "wav": "work/r08/x.wav",
-   "inicio": 379.479,
-   "fim": 381.783,
-   "duracao": 2.304,
-   "palavras": [
-    {
-     "w": "Em",
-     "ini": 379.479,
-     "fim": 379.54
-    },
-    {
-     "w": "nome",
-     "ini": 379.644,
-     "fim": 379.918
-    },
-    {
-     "w": "de",
-     "ini": 379.944,
-     "fim": 379.997
-    },
-    {
-     "w": "Jesus,",
-     "ini": 380.08,
-     "fim": 380.493
-    },
-    {
-     "w": "amém.",
-     "ini": 381.382,
-     "fim": 381.783
-    }
-   ]
-  },
-  {
-   "bloco": "pequenos",
-   "titulo_bloco": "Pequenos passos também são passos",
-   "frase": "Quero te pedir uma coisa: hoje, faz uma coisa pequena por você; abre a janela, toma um copo de água, sai para uma caminhada curta, ou manda uma mensagem para alguém de confiança e diz: eu não estou bem.",
-   "tag_visual": "cachoeira",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 37,
-   "wav": "work/r08/x.wav",
-   "inicio": 384.211,
-   "fim": 399.681,
-   "duracao": 15.47,
-   "palavras": [
-    {
-     "w": "Quero",
-     "ini": 384.211,
-     "fim": 384.363
-    },
-    {
-     "w": "te",
-     "ini": 384.391,
-     "fim": 384.447
-    },
-    {
-     "w": "pedir",
-     "ini": 384.493,
-     "fim": 384.726
-    },
-    {
-     "w": "uma",
-     "ini": 384.786,
-     "fim": 384.968
-    },
-    {
-     "w": "coisa:",
-     "ini": 385.035,
-     "fim": 385.368
-    },
-    {
-     "w": "hoje,",
-     "ini": 386.06,
-     "fim": 386.331
-    },
-    {
-     "w": "faz",
-     "ini": 387.165,
-     "fim": 387.291
-    },
-    {
-     "w": "uma",
-     "ini": 387.335,
-     "fim": 387.468
-    },
-    {
-     "w": "coisa",
-     "ini": 387.517,
-     "fim": 387.761
-    },
-    {
-     "w": "pequena",
-     "ini": 387.8,
-     "fim": 388.157
-    },
-    {
-     "w": "por",
-     "ini": 388.221,
-     "fim": 388.413
-    },
-    {
-     "w": "você;",
-     "ini": 388.477,
-     "fim": 388.733
-    },
-    {
-     "w": "abre",
-     "ini": 389.895,
-     "fim": 389.969
-    },
-    {
-     "w": "a",
-     "ini": 390.01,
-     "fim": 390.06
-    },
-    {
-     "w": "janela,",
-     "ini": 390.129,
-     "fim": 390.602
-    },
-    {
-     "w": "toma",
-     "ini": 391.46,
-     "fim": 391.637
-    },
-    {
-     "w": "um",
-     "ini": 391.655,
-     "fim": 391.705
-    },
-    {
-     "w": "copo",
-     "ini": 391.736,
-     "fim": 391.919
-    },
-    {
-     "w": "de",
-     "ini": 392.001,
-     "fim": 392.166
-    },
-    {
-     "w": "água,",
-     "ini": 392.23,
-     "fim": 392.486
-    },
-    {
-     "w": "sai",
-     "ini": 393.189,
-     "fim": 393.377
-    },
-    {
-     "w": "para",
-     "ini": 393.476,
-     "fim": 393.554
-    },
-    {
-     "w": "uma",
-     "ini": 393.594,
-     "fim": 393.713
-    },
-    {
-     "w": "caminhada",
-     "ini": 393.752,
-     "fim": 394.184
-    },
-    {
-     "w": "curta,",
-     "ini": 394.261,
-     "fim": 394.672
-    },
-    {
-     "w": "ou",
-     "ini": 395.441,
-     "fim": 395.492
-    },
-    {
-     "w": "manda",
-     "ini": 395.541,
-     "fim": 395.783
-    },
-    {
-     "w": "uma",
-     "ini": 395.812,
-     "fim": 395.9
-    },
-    {
-     "w": "mensagem",
-     "ini": 395.965,
-     "fim": 396.485
-    },
-    {
-     "w": "para",
-     "ini": 396.506,
-     "fim": 396.592
-    },
-    {
-     "w": "alguém",
-     "ini": 396.599,
-     "fim": 396.649
-    },
-    {
-     "w": "de",
-     "ini": 396.753,
-     "fim": 396.936
-    },
-    {
-     "w": "confiança",
-     "ini": 397.014,
-     "fim": 397.512
-    },
-    {
-     "w": "e",
-     "ini": 397.577,
-     "fim": 397.641
-    },
-    {
-     "w": "diz:",
-     "ini": 397.721,
-     "fim": 397.959
-    },
-    {
-     "w": "eu",
-     "ini": 398.882,
-     "fim": 398.933
-    },
-    {
-     "w": "não",
-     "ini": 398.978,
-     "fim": 399.177
-    },
-    {
-     "w": "estou",
-     "ini": 399.21,
-     "fim": 399.375
-    },
-    {
-     "w": "bem.",
-     "ini": 399.452,
-     "fim": 399.681
-    }
-   ]
-  },
-  {
-   "bloco": "pequenos",
-   "titulo_bloco": "Pequenos passos também são passos",
-   "frase": "Pequenos passos também são passos; e se você ainda não procurou ajuda profissional, considera fazer isso esta semana, e se precisar conversar agora, o CVV atende no cento e oitenta e oito.",
-   "tag_visual": "luz_divina",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 38,
-   "wav": "work/r08/x.wav",
-   "inicio": 400.847,
-   "fim": 414.084,
-   "duracao": 13.237,
-   "palavras": [
-    {
-     "w": "Pequenos",
-     "ini": 400.847,
-     "fim": 401.294
-    },
-    {
-     "w": "passos",
-     "ini": 401.354,
-     "fim": 401.694
-    },
-    {
-     "w": "também",
-     "ini": 401.719,
-     "fim": 401.868
-    },
-    {
-     "w": "são",
-     "ini": 401.928,
-     "fim": 402.108
-    },
-    {
-     "w": "passos;",
-     "ini": 402.199,
-     "fim": 402.61
-    },
-    {
-     "w": "e",
-     "ini": 403.38,
-     "fim": 403.43
-    },
-    {
-     "w": "se",
-     "ini": 403.49,
-     "fim": 403.691
-    },
-    {
-     "w": "você",
-     "ini": 403.727,
-     "fim": 403.871
-    },
-    {
-     "w": "ainda",
-     "ini": 403.902,
-     "fim": 404.055
-    },
-    {
-     "w": "não",
-     "ini": 404.112,
-     "fim": 404.282
-    },
-    {
-     "w": "procurou",
-     "ini": 404.31,
-     "fim": 404.654
-    },
-    {
-     "w": "ajuda",
-     "ini": 404.689,
-     "fim": 405.034
-    },
-    {
-     "w": "profissional,",
-     "ini": 405.048,
-     "fim": 405.688
-    },
-    {
-     "w": "considera",
-     "ini": 406.541,
-     "fim": 406.945
-    },
-    {
-     "w": "fazer",
-     "ini": 406.989,
-     "fim": 407.158
-    },
-    {
-     "w": "isso",
-     "ini": 407.217,
-     "fim": 407.501
-    },
-    {
-     "w": "esta",
-     "ini": 407.527,
-     "fim": 407.631
-    },
-    {
-     "w": "semana,",
-     "ini": 407.704,
-     "fim": 408.142
-    },
-    {
-     "w": "e",
-     "ini": 409.163,
-     "fim": 409.213
-    },
-    {
-     "w": "se",
-     "ini": 409.212,
-     "fim": 409.275
-    },
-    {
-     "w": "precisar",
-     "ini": 409.322,
-     "fim": 409.763
-    },
-    {
-     "w": "conversar",
-     "ini": 409.797,
-     "fim": 410.271
-    },
-    {
-     "w": "agora,",
-     "ini": 410.338,
-     "fim": 410.671
-    },
-    {
-     "w": "o",
-     "ini": 411.525,
-     "fim": 411.575
-    },
-    {
-     "w": "CVV",
-     "ini": 411.649,
-     "fim": 412.114
-    },
-    {
-     "w": "atende",
-     "ini": 412.287,
-     "fim": 412.62
-    },
-    {
-     "w": "no",
-     "ini": 412.667,
-     "fim": 412.76
-    },
-    {
-     "w": "cento",
-     "ini": 412.818,
-     "fim": 413.161
-    },
-    {
-     "w": "e",
-     "ini": 413.201,
-     "fim": 413.251
-    },
-    {
-     "w": "oitenta",
-     "ini": 413.277,
-     "fim": 413.547
-    },
-    {
-     "w": "e",
-     "ini": 413.608,
-     "fim": 413.669
-    },
-    {
-     "w": "oito.",
-     "ini": 413.756,
-     "fim": 414.084
-    }
-   ]
-  },
-  {
-   "bloco": "final",
-   "titulo_bloco": "Fica com Deus",
-   "frase": "Se esta oração foi um alívio para você, se inscreva no canal e ative o sininho, e deixa o seu like, para que esta oração alcance mais pessoas que estão presas na tristeza.",
-   "tag_visual": "rochedo",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 39,
-   "wav": "work/r08/x.wav",
-   "inicio": 415.672,
-   "fim": 427.004,
-   "duracao": 11.332,
-   "palavras": [
-    {
-     "w": "Se",
-     "ini": 415.672,
-     "fim": 415.772
-    },
-    {
-     "w": "esta",
-     "ini": 415.813,
-     "fim": 415.979
-    },
-    {
-     "w": "oração",
-     "ini": 416.009,
-     "fim": 416.413
-    },
-    {
-     "w": "foi",
-     "ini": 416.451,
-     "fim": 416.557
-    },
-    {
-     "w": "um",
-     "ini": 416.581,
-     "fim": 416.631
-    },
-    {
-     "w": "alívio",
-     "ini": 416.666,
-     "fim": 417.062
-    },
-    {
-     "w": "para",
-     "ini": 417.109,
-     "fim": 417.298
-    },
-    {
-     "w": "você,",
-     "ini": 417.362,
-     "fim": 417.618
-    },
-    {
-     "w": "se",
-     "ini": 418.51,
-     "fim": 418.568
-    },
-    {
-     "w": "inscreva",
-     "ini": 418.587,
-     "fim": 419.109
-    },
-    {
-     "w": "no",
-     "ini": 419.138,
-     "fim": 419.197
-    },
-    {
-     "w": "canal",
-     "ini": 419.232,
-     "fim": 419.611
-    },
-    {
-     "w": "e",
-     "ini": 419.884,
-     "fim": 419.934
-    },
-    {
-     "w": "ative",
-     "ini": 420.085,
-     "fim": 420.34
-    },
-    {
-     "w": "o",
-     "ini": 420.346,
-     "fim": 420.397
-    },
-    {
-     "w": "sininho,",
-     "ini": 420.399,
-     "fim": 420.859
-    },
-    {
-     "w": "e",
-     "ini": 421.694,
-     "fim": 421.744
-    },
-    {
-     "w": "deixa",
-     "ini": 421.769,
-     "fim": 421.893
-    },
-    {
-     "w": "o",
-     "ini": 421.918,
-     "fim": 421.968
-    },
-    {
-     "w": "seu",
-     "ini": 422.0,
-     "fim": 422.173
-    },
-    {
-     "w": "like,",
-     "ini": 422.256,
-     "fim": 422.589
-    },
-    {
-     "w": "para",
-     "ini": 423.731,
-     "fim": 423.842
-    },
-    {
-     "w": "que",
-     "ini": 423.885,
-     "fim": 424.013
-    },
-    {
-     "w": "esta",
-     "ini": 424.036,
-     "fim": 424.129
-    },
-    {
-     "w": "oração",
-     "ini": 424.161,
-     "fim": 424.618
-    },
-    {
-     "w": "alcance",
-     "ini": 424.66,
-     "fim": 424.918
-    },
-    {
-     "w": "mais",
-     "ini": 424.982,
-     "fim": 425.238
-    },
-    {
-     "w": "pessoas",
-     "ini": 425.305,
-     "fim": 425.699
-    },
-    {
-     "w": "que",
-     "ini": 425.699,
-     "fim": 425.749
-    },
-    {
-     "w": "estão",
-     "ini": 425.753,
-     "fim": 426.025
-    },
-    {
-     "w": "presas",
-     "ini": 426.069,
-     "fim": 426.279
-    },
-    {
-     "w": "na",
-     "ini": 426.307,
-     "fim": 426.364
-    },
-    {
-     "w": "tristeza.",
-     "ini": 426.435,
-     "fim": 427.004
-    }
-   ]
-  },
-  {
-   "bloco": "final",
-   "titulo_bloco": "Fica com Deus",
-   "frase": "E nos comentários, deixa o seu nome e o seu pedido de oração; e compartilha este vídeo com alguém que está passando por isso, porque às vezes a pessoa não pede ajuda, mas recebe com gratidão.",
-   "tag_visual": "nascer_sol",
-   "mostrar_texto": false,
-   "referencia": null,
-   "idx": 40,
-   "wav": "work/r08/x.wav",
-   "inicio": 427.969,
-   "fim": 441.864,
-   "duracao": 13.895,
-   "palavras": [
-    {
-     "w": "E",
-     "ini": 427.969,
-     "fim": 428.019
-    },
-    {
-     "w": "nos",
-     "ini": 428.049,
-     "fim": 428.214
-    },
-    {
-     "w": "comentários,",
-     "ini": 428.238,
-     "fim": 428.935
-    },
-    {
-     "w": "deixa",
-     "ini": 429.854,
-     "fim": 430.013
-    },
-    {
-     "w": "o",
-     "ini": 430.014,
-     "fim": 430.064
-    },
-    {
-     "w": "seu",
-     "ini": 430.066,
-     "fim": 430.222
-    },
-    {
-     "w": "nome",
-     "ini": 430.309,
-     "fim": 430.656
-    },
-    {
-     "w": "e",
-     "ini": 431.238,
-     "fim": 431.288
-    },
-    {
-     "w": "o",
-     "ini": 431.284,
-     "fim": 431.334
-    },
-    {
-     "w": "seu",
-     "ini": 431.382,
-     "fim": 431.613
-    },
-    {
-     "w": "pedido",
-     "ini": 431.638,
-     "fim": 431.823
-    },
-    {
-     "w": "de",
-     "ini": 431.841,
-     "fim": 431.891
-    },
-    {
-     "w": "oração;",
-     "ini": 431.953,
-     "fim": 432.489
-    },
-    {
-     "w": "e",
-     "ini": 433.656,
-     "fim": 433.706
-    },
-    {
-     "w": "compartilha",
-     "ini": 433.807,
-     "fim": 434.339
-    },
-    {
-     "w": "este",
-     "ini": 434.381,
-     "fim": 434.548
-    },
-    {
-     "w": "vídeo",
-     "ini": 434.577,
-     "fim": 434.848
-    },
-    {
-     "w": "com",
-     "ini": 434.882,
-     "fim": 434.983
-    },
-    {
-     "w": "alguém",
-     "ini": 435.019,
-     "fim": 435.238
-    },
-    {
-     "w": "que",
-     "ini": 435.254,
-     "fim": 435.304
-    },
-    {
-     "w": "está",
-     "ini": 435.342,
-     "fim": 435.508
+     "ini": 3.203,
+     "fim": 3.404
     },
     {
      "w": "passando",
-     "ini": 435.55,
-     "fim": 435.887
+     "ini": 3.468,
+     "fim": 3.979
     },
     {
      "w": "por",
-     "ini": 435.934,
-     "fim": 436.075
+     "ini": 4.013,
+     "fim": 4.113
     },
     {
-     "w": "isso,",
-     "ini": 436.139,
-     "fim": 436.395
+     "w": "um",
+     "ini": 4.193,
+     "fim": 4.354
     },
     {
-     "w": "porque",
-     "ini": 437.481,
-     "fim": 437.66
+     "w": "aperto",
+     "ini": 4.395,
+     "fim": 4.735
     },
     {
-     "w": "às",
-     "ini": 437.704,
-     "fim": 437.792
+     "w": "financeiro",
+     "ini": 4.804,
+     "fim": 5.428
     },
     {
-     "w": "vezes",
-     "ini": 437.832,
-     "fim": 438.029
+     "w": "agora,",
+     "ini": 5.501,
+     "fim": 5.863
     },
     {
-     "w": "a",
-     "ini": 438.09,
-     "fim": 438.151
+     "w": "se",
+     "ini": 6.907,
+     "fim": 7.0
     },
     {
-     "w": "pessoa",
-     "ini": 438.189,
-     "fim": 438.416
+     "w": "as",
+     "ini": 7.078,
+     "fim": 7.226
     },
     {
-     "w": "não",
-     "ini": 438.462,
-     "fim": 438.601
+     "w": "contas",
+     "ini": 7.266,
+     "fim": 7.697
     },
     {
-     "w": "pede",
-     "ini": 438.659,
-     "fim": 438.89
+     "w": "estão",
+     "ini": 7.738,
+     "fim": 7.943
     },
     {
-     "w": "ajuda,",
-     "ini": 438.942,
-     "fim": 439.35
+     "w": "chegando",
+     "ini": 7.996,
+     "fim": 8.418
     },
     {
-     "w": "mas",
-     "ini": 440.644,
-     "fim": 440.802
+     "w": "mais",
+     "ini": 8.473,
+     "fim": 8.692
     },
     {
-     "w": "recebe",
-     "ini": 440.845,
-     "fim": 441.177
+     "w": "rápido",
+     "ini": 8.763,
+     "fim": 9.187
+    },
+    {
+     "w": "do",
+     "ini": 9.239,
+     "fim": 9.342
+    },
+    {
+     "w": "que",
+     "ini": 9.368,
+     "fim": 9.446
+    },
+    {
+     "w": "o",
+     "ini": 9.481,
+     "fim": 9.531
+    },
+    {
+     "w": "dinheiro,",
+     "ini": 9.594,
+     "fim": 10.212
+    },
+    {
+     "w": "se",
+     "ini": 11.353,
+     "fim": 11.532
+    },
+    {
+     "w": "você",
+     "ini": 11.583,
+     "fim": 11.791
+    },
+    {
+     "w": "abre",
+     "ini": 11.838,
+     "fim": 12.026
+    },
+    {
+     "w": "o",
+     "ini": 12.078,
+     "fim": 12.13
+    },
+    {
+     "w": "aplicativo",
+     "ini": 12.186,
+     "fim": 12.996
+    },
+    {
+     "w": "do",
+     "ini": 13.054,
+     "fim": 13.17
+    },
+    {
+     "w": "banco",
+     "ini": 13.269,
+     "fim": 13.609
     },
     {
      "w": "com",
-     "ini": 441.203,
-     "fim": 441.281
+     "ini": 13.697,
+     "fim": 13.837
     },
     {
-     "w": "gratidão.",
-     "ini": 441.334,
-     "fim": 441.864
+     "w": "medo",
+     "ini": 13.895,
+     "fim": 14.128
+    },
+    {
+     "w": "do",
+     "ini": 14.183,
+     "fim": 14.292
+    },
+    {
+     "w": "que",
+     "ini": 14.332,
+     "fim": 14.452
+    },
+    {
+     "w": "vai",
+     "ini": 14.498,
+     "fim": 14.637
+    },
+    {
+     "w": "ver,",
+     "ini": 14.706,
+     "fim": 14.912
+    },
+    {
+     "w": "eu",
+     "ini": 15.967,
+     "fim": 16.046
+    },
+    {
+     "w": "quero",
+     "ini": 16.083,
+     "fim": 16.272
+    },
+    {
+     "w": "que",
+     "ini": 16.348,
+     "fim": 16.576
+    },
+    {
+     "w": "você",
+     "ini": 16.615,
+     "fim": 16.77
+    },
+    {
+     "w": "saiba",
+     "ini": 16.815,
+     "fim": 17.173
+    },
+    {
+     "w": "de",
+     "ini": 17.199,
+     "fim": 17.251
+    },
+    {
+     "w": "uma",
+     "ini": 17.314,
+     "fim": 17.502
+    },
+    {
+     "w": "coisa",
+     "ini": 17.571,
+     "fim": 17.913
+    },
+    {
+     "w": "logo",
+     "ini": 17.969,
+     "fim": 18.192
+    },
+    {
+     "w": "no",
+     "ini": 18.255,
+     "fim": 18.379
+    },
+    {
+     "w": "começo.",
+     "ini": 18.466,
+     "fim": 18.985
+    }
+   ]
+  },
+  {
+   "bloco": "aperto",
+   "titulo_bloco": "Deus está vendo",
+   "frase": "Deus está vendo a sua situação, e Ele não é indiferente a ela.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 1,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 20.247,
+   "fim": 24.901,
+   "duracao": 4.654,
+   "palavras": [
+    {
+     "w": "Deus",
+     "ini": 20.247,
+     "fim": 20.43
+    },
+    {
+     "w": "está",
+     "ini": 20.48,
+     "fim": 20.676
+    },
+    {
+     "w": "vendo",
+     "ini": 20.722,
+     "fim": 20.952
+    },
+    {
+     "w": "a",
+     "ini": 21.002,
+     "fim": 21.052
+    },
+    {
+     "w": "sua",
+     "ini": 21.104,
+     "fim": 21.261
+    },
+    {
+     "w": "situação,",
+     "ini": 21.331,
+     "fim": 21.966
+    },
+    {
+     "w": "e",
+     "ini": 23.013,
+     "fim": 23.063
+    },
+    {
+     "w": "Ele",
+     "ini": 23.076,
+     "fim": 23.379
+    },
+    {
+     "w": "não",
+     "ini": 23.435,
+     "fim": 23.602
+    },
+    {
+     "w": "é",
+     "ini": 23.666,
+     "fim": 23.729
+    },
+    {
+     "w": "indiferente",
+     "ini": 23.765,
+     "fim": 24.442
+    },
+    {
+     "w": "a",
+     "ini": 24.502,
+     "fim": 24.561
+    },
+    {
+     "w": "ela.",
+     "ini": 24.646,
+     "fim": 24.901
+    }
+   ]
+  },
+  {
+   "bloco": "promessa",
+   "titulo_bloco": "A promessa de provisão",
+   "frase": "Ouça a promessa que está escrita na carta aos Filipenses, capítulo quatro, versículo dezenove.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 2,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 26.863,
+   "fim": 33.558,
+   "duracao": 6.695,
+   "palavras": [
+    {
+     "w": "Ouça",
+     "ini": 26.863,
+     "fim": 27.046
+    },
+    {
+     "w": "a",
+     "ini": 27.121,
+     "fim": 27.197
+    },
+    {
+     "w": "promessa",
+     "ini": 27.266,
+     "fim": 27.821
+    },
+    {
+     "w": "que",
+     "ini": 27.844,
+     "fim": 27.915
+    },
+    {
+     "w": "está",
+     "ini": 27.982,
+     "fim": 28.248
+    },
+    {
+     "w": "escrita",
+     "ini": 28.277,
+     "fim": 28.708
+    },
+    {
+     "w": "na",
+     "ini": 28.79,
+     "fim": 28.954
+    },
+    {
+     "w": "carta",
+     "ini": 29.022,
+     "fim": 29.362
+    },
+    {
+     "w": "aos",
+     "ini": 29.39,
+     "fim": 29.473
+    },
+    {
+     "w": "Filipenses,",
+     "ini": 29.512,
+     "fim": 30.392
+    },
+    {
+     "w": "capítulo",
+     "ini": 30.898,
+     "fim": 31.499
+    },
+    {
+     "w": "quatro,",
+     "ini": 31.585,
+     "fim": 32.101
+    },
+    {
+     "w": "versículo",
+     "ini": 32.175,
+     "fim": 32.813
+    },
+    {
+     "w": "dezenove.",
+     "ini": 32.84,
+     "fim": 33.558
+    }
+   ]
+  },
+  {
+   "bloco": "promessa",
+   "titulo_bloco": "A promessa de provisão",
+   "frase": "O meu Deus, de acordo com as Suas riquezas em glória, vai suprir, em Cristo Jesus, cada uma das necessidades de vocês.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": true,
+   "referencia": "Filipenses 4:19",
+   "destaque": "Cada *necessidade* suprida.",
+   "rodape": "SEGUNDO AS RIQUEZAS EM GLÓRIA",
+   "idx": 3,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 34.858,
+   "fim": 44.951,
+   "duracao": 10.093,
+   "palavras": [
+    {
+     "w": "O",
+     "ini": 34.858,
+     "fim": 34.908
+    },
+    {
+     "w": "meu",
+     "ini": 34.962,
+     "fim": 35.158
+    },
+    {
+     "w": "Deus,",
+     "ini": 35.257,
+     "fim": 35.563
+    },
+    {
+     "w": "de",
+     "ini": 36.301,
+     "fim": 36.388
+    },
+    {
+     "w": "acordo",
+     "ini": 36.409,
+     "fim": 36.966
+    },
+    {
+     "w": "com",
+     "ini": 36.993,
+     "fim": 37.074
+    },
+    {
+     "w": "as",
+     "ini": 37.104,
+     "fim": 37.165
+    },
+    {
+     "w": "Suas",
+     "ini": 37.259,
+     "fim": 37.636
+    },
+    {
+     "w": "riquezas",
+     "ini": 37.68,
+     "fim": 38.092
+    },
+    {
+     "w": "em",
+     "ini": 38.158,
+     "fim": 38.288
+    },
+    {
+     "w": "glória,",
+     "ini": 38.363,
+     "fim": 38.81
+    },
+    {
+     "w": "vai",
+     "ini": 39.381,
+     "fim": 39.536
+    },
+    {
+     "w": "suprir,",
+     "ini": 39.583,
+     "fim": 40.074
+    },
+    {
+     "w": "em",
+     "ini": 40.555,
+     "fim": 40.695
+    },
+    {
+     "w": "Cristo",
+     "ini": 40.758,
+     "fim": 41.139
+    },
+    {
+     "w": "Jesus,",
+     "ini": 41.238,
+     "fim": 41.734
+    },
+    {
+     "w": "cada",
+     "ini": 42.672,
+     "fim": 42.907
+    },
+    {
+     "w": "uma",
+     "ini": 42.961,
+     "fim": 43.126
+    },
+    {
+     "w": "das",
+     "ini": 43.174,
+     "fim": 43.316
+    },
+    {
+     "w": "necessidades",
+     "ini": 43.383,
+     "fim": 44.101
+    },
+    {
+     "w": "de",
+     "ini": 44.198,
+     "fim": 44.386
+    },
+    {
+     "w": "vocês.",
+     "ini": 44.481,
+     "fim": 44.951
+    }
+   ]
+  },
+  {
+   "bloco": "promessa",
+   "titulo_bloco": "A promessa de provisão",
+   "frase": "E o rei Davi, já no fim da vida, escreveu no Salmo trinta e sete, versículo vinte e cinco.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 4,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 46.396,
+   "fim": 53.318,
+   "duracao": 6.922,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 46.396,
+     "fim": 46.446
+    },
+    {
+     "w": "o",
+     "ini": 46.458,
+     "fim": 46.508
+    },
+    {
+     "w": "rei",
+     "ini": 46.561,
+     "fim": 46.798
+    },
+    {
+     "w": "Davi,",
+     "ini": 46.863,
+     "fim": 47.225
+    },
+    {
+     "w": "já",
+     "ini": 47.847,
+     "fim": 47.934
+    },
+    {
+     "w": "no",
+     "ini": 48.014,
+     "fim": 48.12
+    },
+    {
+     "w": "fim",
+     "ini": 48.176,
+     "fim": 48.347
+    },
+    {
+     "w": "da",
+     "ini": 48.41,
+     "fim": 48.536
+    },
+    {
+     "w": "vida,",
+     "ini": 48.618,
+     "fim": 48.897
+    },
+    {
+     "w": "escreveu",
+     "ini": 49.486,
+     "fim": 49.925
+    },
+    {
+     "w": "no",
+     "ini": 49.972,
+     "fim": 50.067
+    },
+    {
+     "w": "Salmo",
+     "ini": 50.156,
+     "fim": 50.623
+    },
+    {
+     "w": "trinta",
+     "ini": 50.719,
+     "fim": 50.984
+    },
+    {
+     "w": "e",
+     "ini": 51.029,
+     "fim": 51.079
+    },
+    {
+     "w": "sete,",
+     "ini": 51.157,
+     "fim": 51.61
+    },
+    {
+     "w": "versículo",
+     "ini": 51.737,
+     "fim": 52.38
+    },
+    {
+     "w": "vinte",
+     "ini": 52.436,
+     "fim": 52.71
+    },
+    {
+     "w": "e",
+     "ini": 52.736,
+     "fim": 52.786
+    },
+    {
+     "w": "cinco.",
+     "ini": 52.856,
+     "fim": 53.318
+    }
+   ]
+  },
+  {
+   "bloco": "promessa",
+   "titulo_bloco": "A promessa de provisão",
+   "frase": "Eu fui jovem e agora estou velho, mas nunca vi o justo abandonado, nem os seus filhos pedindo pão.",
+   "tag_visual": "arvore",
+   "mostrar_texto": true,
+   "referencia": "Salmo 37:25",
+   "destaque": "Nunca vi o justo *desamparado*.",
+   "rodape": "FUI MOÇO E JÁ SOU VELHO",
+   "idx": 5,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 54.263,
+   "fim": 62.079,
+   "duracao": 7.816,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 54.263,
+     "fim": 54.362
+    },
+    {
+     "w": "fui",
+     "ini": 54.436,
+     "fim": 54.609
+    },
+    {
+     "w": "jovem",
+     "ini": 54.676,
+     "fim": 55.109
+    },
+    {
+     "w": "e",
+     "ini": 55.527,
+     "fim": 55.577
+    },
+    {
+     "w": "agora",
+     "ini": 55.662,
+     "fim": 55.985
+    },
+    {
+     "w": "estou",
+     "ini": 56.025,
+     "fim": 56.227
+    },
+    {
+     "w": "velho,",
+     "ini": 56.304,
+     "fim": 56.69
+    },
+    {
+     "w": "mas",
+     "ini": 57.562,
+     "fim": 57.76
+    },
+    {
+     "w": "nunca",
+     "ini": 57.775,
+     "fim": 57.852
+    },
+    {
+     "w": "vi",
+     "ini": 57.965,
+     "fim": 58.176
+    },
+    {
+     "w": "o",
+     "ini": 58.274,
+     "fim": 58.335
+    },
+    {
+     "w": "justo",
+     "ini": 58.396,
+     "fim": 58.7
+    },
+    {
+     "w": "abandonado,",
+     "ini": 58.749,
+     "fim": 59.501
+    },
+    {
+     "w": "nem",
+     "ini": 60.191,
+     "fim": 60.337
+    },
+    {
+     "w": "os",
+     "ini": 60.362,
+     "fim": 60.412
+    },
+    {
+     "w": "seus",
+     "ini": 60.475,
+     "fim": 60.73
+    },
+    {
+     "w": "filhos",
+     "ini": 60.805,
+     "fim": 61.251
+    },
+    {
+     "w": "pedindo",
+     "ini": 61.277,
+     "fim": 61.704
+    },
+    {
+     "w": "pão.",
+     "ini": 61.884,
+     "fim": 62.079
+    }
+   ]
+  },
+  {
+   "bloco": "cada",
+   "titulo_bloco": "Cada uma delas",
+   "frase": "Presta atenção em uma palavra: cada. Deus não disse que vai suprir algumas necessidades, nem só as grandes, nem só as pequenas; Ele disse cada uma.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 6,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 63.688,
+   "fim": 74.29,
+   "duracao": 10.602,
+   "palavras": [
+    {
+     "w": "Presta",
+     "ini": 63.688,
+     "fim": 63.924
+    },
+    {
+     "w": "atenção",
+     "ini": 63.977,
+     "fim": 64.346
+    },
+    {
+     "w": "em",
+     "ini": 64.382,
+     "fim": 64.454
+    },
+    {
+     "w": "uma",
+     "ini": 64.492,
+     "fim": 64.605
+    },
+    {
+     "w": "palavra:",
+     "ini": 64.682,
+     "fim": 65.214
+    },
+    {
+     "w": "cada.",
+     "ini": 65.858,
+     "fim": 66.084
+    },
+    {
+     "w": "Deus",
+     "ini": 66.169,
+     "fim": 66.339
+    },
+    {
+     "w": "não",
+     "ini": 66.407,
+     "fim": 66.609
+    },
+    {
+     "w": "disse",
+     "ini": 66.664,
+     "fim": 66.942
+    },
+    {
+     "w": "que",
+     "ini": 66.983,
+     "fim": 67.107
+    },
+    {
+     "w": "vai",
+     "ini": 67.148,
+     "fim": 67.273
+    },
+    {
+     "w": "suprir",
+     "ini": 67.329,
+     "fim": 67.827
+    },
+    {
+     "w": "algumas",
+     "ini": 67.846,
+     "fim": 68.239
+    },
+    {
+     "w": "necessidades,",
+     "ini": 68.298,
+     "fim": 69.06
+    },
+    {
+     "w": "nem",
+     "ini": 69.623,
+     "fim": 69.767
+    },
+    {
+     "w": "só",
+     "ini": 69.831,
+     "fim": 69.959
+    },
+    {
+     "w": "as",
+     "ini": 70.045,
+     "fim": 70.218
+    },
+    {
+     "w": "grandes,",
+     "ini": 70.295,
+     "fim": 70.827
+    },
+    {
+     "w": "nem",
+     "ini": 71.028,
+     "fim": 71.161
+    },
+    {
+     "w": "só",
+     "ini": 71.227,
+     "fim": 71.36
+    },
+    {
+     "w": "as",
+     "ini": 71.457,
+     "fim": 71.651
+    },
+    {
+     "w": "pequenas;",
+     "ini": 71.721,
+     "fim": 72.349
+    },
+    {
+     "w": "Ele",
+     "ini": 73.134,
+     "fim": 73.293
+    },
+    {
+     "w": "disse",
+     "ini": 73.349,
+     "fim": 73.629
+    },
+    {
+     "w": "cada",
+     "ini": 73.709,
+     "fim": 74.029
+    },
+    {
+     "w": "uma.",
+     "ini": 74.095,
+     "fim": 74.29
+    }
+   ]
+  },
+  {
+   "bloco": "cada",
+   "titulo_bloco": "Cada uma delas",
+   "frase": "O aluguel, a conta de luz, o material da escola das crianças, o remédio, a comida da semana e a dívida que te tira o sono; cada uma delas está no radar de Deus.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 7,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 75.103,
+   "fim": 86.239,
+   "duracao": 11.136,
+   "palavras": [
+    {
+     "w": "O",
+     "ini": 75.103,
+     "fim": 75.153
+    },
+    {
+     "w": "aluguel,",
+     "ini": 75.161,
+     "fim": 75.755
+    },
+    {
+     "w": "a",
+     "ini": 76.178,
+     "fim": 76.228
+    },
+    {
+     "w": "conta",
+     "ini": 76.291,
+     "fim": 76.608
+    },
+    {
+     "w": "de",
+     "ini": 76.671,
+     "fim": 76.797
+    },
+    {
+     "w": "luz,",
+     "ini": 76.927,
+     "fim": 77.225
+    },
+    {
+     "w": "o",
+     "ini": 77.606,
+     "fim": 77.656
+    },
+    {
+     "w": "material",
+     "ini": 77.672,
+     "fim": 78.188
+    },
+    {
+     "w": "da",
+     "ini": 78.247,
+     "fim": 78.333
+    },
+    {
+     "w": "escola",
+     "ini": 78.397,
+     "fim": 78.78
+    },
+    {
+     "w": "das",
+     "ini": 78.824,
+     "fim": 78.957
+    },
+    {
+     "w": "crianças,",
+     "ini": 78.985,
+     "fim": 79.579
+    },
+    {
+     "w": "o",
+     "ini": 79.684,
+     "fim": 79.734
+    },
+    {
+     "w": "remédio,",
+     "ini": 79.739,
+     "fim": 80.261
+    },
+    {
+     "w": "a",
+     "ini": 80.377,
+     "fim": 80.435
+    },
+    {
+     "w": "comida",
+     "ini": 80.444,
+     "fim": 80.797
+    },
+    {
+     "w": "da",
+     "ini": 80.858,
+     "fim": 80.982
+    },
+    {
+     "w": "semana",
+     "ini": 81.056,
+     "fim": 81.503
+    },
+    {
+     "w": "e",
+     "ini": 81.547,
+     "fim": 81.597
+    },
+    {
+     "w": "a",
+     "ini": 81.644,
+     "fim": 81.723
+    },
+    {
+     "w": "dívida",
+     "ini": 81.743,
+     "fim": 82.168
+    },
+    {
+     "w": "que",
+     "ini": 82.218,
+     "fim": 82.367
+    },
+    {
+     "w": "te",
+     "ini": 82.42,
+     "fim": 82.526
+    },
+    {
+     "w": "tira",
+     "ini": 82.574,
+     "fim": 82.765
+    },
+    {
+     "w": "o",
+     "ini": 82.798,
+     "fim": 82.848
+    },
+    {
+     "w": "sono;",
+     "ini": 82.924,
+     "fim": 83.298
+    },
+    {
+     "w": "cada",
+     "ini": 84.078,
+     "fim": 84.289
+    },
+    {
+     "w": "uma",
+     "ini": 84.354,
+     "fim": 84.549
+    },
+    {
+     "w": "delas",
+     "ini": 84.591,
+     "fim": 84.952
+    },
+    {
+     "w": "está",
+     "ini": 84.998,
+     "fim": 85.183
+    },
+    {
+     "w": "no",
+     "ini": 85.24,
+     "fim": 85.354
+    },
+    {
+     "w": "radar",
+     "ini": 85.37,
+     "fim": 85.688
+    },
+    {
+     "w": "de",
+     "ini": 85.688,
+     "fim": 85.738
+    },
+    {
+     "w": "Deus.",
+     "ini": 85.764,
+     "fim": 86.239
+    }
+   ]
+  },
+  {
+   "bloco": "cada",
+   "titulo_bloco": "Cada uma delas",
+   "frase": "E repara de onde vem esse suprimento: não vem do seu salário, nem do mercado, nem do humor do seu patrão; vem da riqueza em glória de Deus.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 8,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 87.022,
+   "fim": 96.374,
+   "duracao": 9.352,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 87.022,
+     "fim": 87.072
+    },
+    {
+     "w": "repara",
+     "ini": 87.136,
+     "fim": 87.571
+    },
+    {
+     "w": "de",
+     "ini": 87.61,
+     "fim": 87.688
+    },
+    {
+     "w": "onde",
+     "ini": 87.744,
+     "fim": 87.97
+    },
+    {
+     "w": "vem",
+     "ini": 88.041,
+     "fim": 88.254
+    },
+    {
+     "w": "esse",
+     "ini": 88.3,
+     "fim": 88.482
+    },
+    {
+     "w": "suprimento:",
+     "ini": 88.522,
+     "fim": 89.348
+    },
+    {
+     "w": "não",
+     "ini": 90.016,
+     "fim": 90.159
+    },
+    {
+     "w": "vem",
+     "ini": 90.213,
+     "fim": 90.375
+    },
+    {
+     "w": "do",
+     "ini": 90.41,
+     "fim": 90.479
+    },
+    {
+     "w": "seu",
+     "ini": 90.538,
+     "fim": 90.715
+    },
+    {
+     "w": "salário,",
+     "ini": 90.755,
+     "fim": 91.271
+    },
+    {
+     "w": "nem",
+     "ini": 91.358,
+     "fim": 91.49
+    },
+    {
+     "w": "do",
+     "ini": 91.545,
+     "fim": 91.655
+    },
+    {
+     "w": "mercado,",
+     "ini": 91.702,
+     "fim": 92.283
+    },
+    {
+     "w": "nem",
+     "ini": 92.406,
+     "fim": 92.541
+    },
+    {
+     "w": "do",
+     "ini": 92.607,
+     "fim": 92.739
+    },
+    {
+     "w": "humor",
+     "ini": 92.788,
+     "fim": 93.03
+    },
+    {
+     "w": "do",
+     "ini": 93.075,
+     "fim": 93.164
+    },
+    {
+     "w": "seu",
+     "ini": 93.228,
+     "fim": 93.418
+    },
+    {
+     "w": "patrão;",
+     "ini": 93.443,
+     "fim": 93.886
+    },
+    {
+     "w": "vem",
+     "ini": 94.478,
+     "fim": 94.627
+    },
+    {
+     "w": "da",
+     "ini": 94.731,
+     "fim": 94.938
+    },
+    {
+     "w": "riqueza",
+     "ini": 94.976,
+     "fim": 95.29
+    },
+    {
+     "w": "em",
+     "ini": 95.34,
+     "fim": 95.439
+    },
+    {
+     "w": "glória",
+     "ini": 95.495,
+     "fim": 95.834
+    },
+    {
+     "w": "de",
+     "ini": 95.894,
+     "fim": 96.014
+    },
+    {
+     "w": "Deus.",
+     "ini": 96.086,
+     "fim": 96.374
+    }
+   ]
+  },
+  {
+   "bloco": "cada",
+   "titulo_bloco": "Cada uma delas",
+   "frase": "E essa riqueza não entra em crise, não sofre com a inflação e não acaba.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 9,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 97.493,
+   "fim": 102.11,
+   "duracao": 4.617,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 97.493,
+     "fim": 97.547
+    },
+    {
+     "w": "essa",
+     "ini": 97.599,
+     "fim": 97.808
+    },
+    {
+     "w": "riqueza",
+     "ini": 97.841,
+     "fim": 98.205
+    },
+    {
+     "w": "não",
+     "ini": 98.263,
+     "fim": 98.436
+    },
+    {
+     "w": "entra",
+     "ini": 98.478,
+     "fim": 98.687
+    },
+    {
+     "w": "em",
+     "ini": 98.736,
+     "fim": 98.833
+    },
+    {
+     "w": "crise,",
+     "ini": 98.937,
+     "fim": 99.424
+    },
+    {
+     "w": "não",
+     "ini": 99.879,
+     "fim": 100.007
+    },
+    {
+     "w": "sofre",
+     "ini": 100.082,
+     "fim": 100.6
+    },
+    {
+     "w": "com",
+     "ini": 100.64,
+     "fim": 100.76
+    },
+    {
+     "w": "a",
+     "ini": 100.76,
+     "fim": 100.81
+    },
+    {
+     "w": "inflação",
+     "ini": 100.765,
+     "fim": 101.339
+    },
+    {
+     "w": "e",
+     "ini": 101.389,
+     "fim": 101.439
+    },
+    {
+     "w": "não",
+     "ini": 101.498,
+     "fim": 101.675
+    },
+    {
+     "w": "acaba.",
+     "ini": 101.747,
+     "fim": 102.11
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "Davi viveu muita coisa: ele foi pastor de ovelhas, foi perseguido, morou em caverna e foi rei; ele conheceu o pouco e conheceu o muito.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 10,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 103.698,
+   "fim": 113.237,
+   "duracao": 9.539,
+   "palavras": [
+    {
+     "w": "Davi",
+     "ini": 103.698,
+     "fim": 103.951
+    },
+    {
+     "w": "viveu",
+     "ini": 103.976,
+     "fim": 104.21
+    },
+    {
+     "w": "muita",
+     "ini": 104.273,
+     "fim": 104.591
+    },
+    {
+     "w": "coisa:",
+     "ini": 104.664,
+     "fim": 105.026
+    },
+    {
+     "w": "ele",
+     "ini": 105.595,
+     "fim": 105.735
+    },
+    {
+     "w": "foi",
+     "ini": 105.804,
+     "fim": 106.012
+    },
+    {
+     "w": "pastor",
+     "ini": 106.064,
+     "fim": 106.376
+    },
+    {
+     "w": "de",
+     "ini": 106.411,
+     "fim": 106.482
+    },
+    {
+     "w": "ovelhas,",
+     "ini": 106.501,
+     "fim": 107.052
+    },
+    {
+     "w": "foi",
+     "ini": 107.449,
+     "fim": 107.605
+    },
+    {
+     "w": "perseguido,",
+     "ini": 107.643,
+     "fim": 108.264
+    },
+    {
+     "w": "morou",
+     "ini": 108.646,
+     "fim": 108.917
+    },
+    {
+     "w": "em",
+     "ini": 108.953,
+     "fim": 109.025
+    },
+    {
+     "w": "caverna",
+     "ini": 109.078,
+     "fim": 109.604
+    },
+    {
+     "w": "e",
+     "ini": 109.636,
+     "fim": 109.686
+    },
+    {
+     "w": "foi",
+     "ini": 109.723,
+     "fim": 109.889
+    },
+    {
+     "w": "rei;",
+     "ini": 109.983,
+     "fim": 110.265
+    },
+    {
+     "w": "ele",
+     "ini": 110.968,
+     "fim": 111.105
+    },
+    {
+     "w": "conheceu",
+     "ini": 111.16,
+     "fim": 111.695
+    },
+    {
+     "w": "o",
+     "ini": 111.736,
+     "fim": 111.786
+    },
+    {
+     "w": "pouco",
+     "ini": 111.842,
+     "fim": 112.204
+    },
+    {
+     "w": "e",
+     "ini": 112.241,
+     "fim": 112.291
+    },
+    {
+     "w": "conheceu",
+     "ini": 112.291,
+     "fim": 112.765
+    },
+    {
+     "w": "o",
+     "ini": 112.784,
+     "fim": 112.834
+    },
+    {
+     "w": "muito.",
+     "ini": 112.875,
+     "fim": 113.237
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "E depois de tudo isso, ele olhou para trás e disse: eu nunca vi o justo desamparado.",
+   "tag_visual": "montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 11,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 113.966,
+   "fim": 119.238,
+   "duracao": 5.272,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 113.966,
+     "fim": 114.016
+    },
+    {
+     "w": "depois",
+     "ini": 114.157,
+     "fim": 114.357
+    },
+    {
+     "w": "de",
+     "ini": 114.403,
+     "fim": 114.495
+    },
+    {
+     "w": "tudo",
+     "ini": 114.566,
+     "fim": 114.907
+    },
+    {
+     "w": "isso,",
+     "ini": 114.933,
+     "fim": 115.041
+    },
+    {
+     "w": "ele",
+     "ini": 115.118,
+     "fim": 115.233
+    },
+    {
+     "w": "olhou",
+     "ini": 115.242,
+     "fim": 115.474
+    },
+    {
+     "w": "para",
+     "ini": 115.516,
+     "fim": 115.686
+    },
+    {
+     "w": "trás",
+     "ini": 115.769,
+     "fim": 116.101
+    },
+    {
+     "w": "e",
+     "ini": 116.196,
+     "fim": 116.259
+    },
+    {
+     "w": "disse:",
+     "ini": 116.331,
+     "fim": 116.693
+    },
+    {
+     "w": "eu",
+     "ini": 117.253,
+     "fim": 117.425
+    },
+    {
+     "w": "nunca",
+     "ini": 117.469,
+     "fim": 117.691
+    },
+    {
+     "w": "vi",
+     "ini": 117.768,
+     "fim": 117.921
+    },
+    {
+     "w": "o",
+     "ini": 117.946,
+     "fim": 117.996
+    },
+    {
+     "w": "justo",
+     "ini": 118.052,
+     "fim": 118.459
+    },
+    {
+     "w": "desamparado.",
+     "ini": 118.48,
+     "fim": 119.238
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "Talvez você esteja no meio da caverna agora, mas a caverna não é o fim da sua história.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "destaque": "A caverna não é o *fim* da sua história.",
+   "rodape": "DEUS ESTÁ VENDO",
+   "idx": 12,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 120.4,
+   "fim": 125.735,
+   "duracao": 5.335,
+   "palavras": [
+    {
+     "w": "Talvez",
+     "ini": 120.4,
+     "fim": 120.795
+    },
+    {
+     "w": "você",
+     "ini": 120.843,
+     "fim": 121.037
+    },
+    {
+     "w": "esteja",
+     "ini": 121.079,
+     "fim": 121.374
+    },
+    {
+     "w": "no",
+     "ini": 121.416,
+     "fim": 121.501
+    },
+    {
+     "w": "meio",
+     "ini": 121.552,
+     "fim": 121.755
+    },
+    {
+     "w": "da",
+     "ini": 121.804,
+     "fim": 121.902
+    },
+    {
+     "w": "caverna",
+     "ini": 121.955,
+     "fim": 122.457
+    },
+    {
+     "w": "agora,",
+     "ini": 122.529,
+     "fim": 122.891
+    },
+    {
+     "w": "mas",
+     "ini": 123.366,
+     "fim": 123.474
+    },
+    {
+     "w": "a",
+     "ini": 123.548,
+     "fim": 123.623
+    },
+    {
+     "w": "caverna",
+     "ini": 123.678,
+     "fim": 124.124
+    },
+    {
+     "w": "não",
+     "ini": 124.163,
+     "fim": 124.282
+    },
+    {
+     "w": "é",
+     "ini": 124.354,
+     "fim": 124.426
+    },
+    {
+     "w": "o",
+     "ini": 124.454,
+     "fim": 124.504
+    },
+    {
+     "w": "fim",
+     "ini": 124.531,
+     "fim": 124.679
+    },
+    {
+     "w": "da",
+     "ini": 124.719,
+     "fim": 124.798
+    },
+    {
+     "w": "sua",
+     "ini": 124.858,
+     "fim": 125.039
+    },
+    {
+     "w": "história.",
+     "ini": 125.116,
+     "fim": 125.735
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "Lembra também de José, que passou pela cova, pela escravidão e pela prisão, e mesmo assim Deus usou a vida dele para guardar o pão de uma nação inteira em tempo de fome.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 13,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 126.727,
+   "fim": 137.438,
+   "duracao": 10.711,
+   "palavras": [
+    {
+     "w": "Lembra",
+     "ini": 126.727,
+     "fim": 127.061
+    },
+    {
+     "w": "também",
+     "ini": 127.099,
+     "fim": 127.329
+    },
+    {
+     "w": "de",
+     "ini": 127.37,
+     "fim": 127.452
+    },
+    {
+     "w": "José,",
+     "ini": 127.549,
+     "fim": 127.937
+    },
+    {
+     "w": "que",
+     "ini": 128.391,
+     "fim": 128.512
+    },
+    {
+     "w": "passou",
+     "ini": 128.564,
+     "fim": 128.875
+    },
+    {
+     "w": "pela",
+     "ini": 128.946,
+     "fim": 129.232
+    },
+    {
+     "w": "cova,",
+     "ini": 129.323,
+     "fim": 129.601
+    },
+    {
+     "w": "pela",
+     "ini": 129.7,
+     "fim": 129.898
+    },
+    {
+     "w": "escravidão",
+     "ini": 129.929,
+     "fim": 130.541
+    },
+    {
+     "w": "e",
+     "ini": 130.604,
+     "fim": 130.654
+    },
+    {
+     "w": "pela",
+     "ini": 130.705,
+     "fim": 130.984
+    },
+    {
+     "w": "prisão,",
+     "ini": 131.017,
+     "fim": 131.401
+    },
+    {
+     "w": "e",
+     "ini": 132.013,
+     "fim": 132.063
+    },
+    {
+     "w": "mesmo",
+     "ini": 132.104,
+     "fim": 132.445
+    },
+    {
+     "w": "assim",
+     "ini": 132.501,
+     "fim": 132.78
+    },
+    {
+     "w": "Deus",
+     "ini": 132.846,
+     "fim": 133.107
+    },
+    {
+     "w": "usou",
+     "ini": 133.139,
+     "fim": 133.405
+    },
+    {
+     "w": "a",
+     "ini": 133.442,
+     "fim": 133.492
+    },
+    {
+     "w": "vida",
+     "ini": 133.536,
+     "fim": 133.772
+    },
+    {
+     "w": "dele",
+     "ini": 133.834,
+     "fim": 134.085
+    },
+    {
+     "w": "para",
+     "ini": 134.127,
+     "fim": 134.297
+    },
+    {
+     "w": "guardar",
+     "ini": 134.355,
+     "fim": 134.765
+    },
+    {
+     "w": "o",
+     "ini": 134.832,
+     "fim": 134.899
+    },
+    {
+     "w": "pão",
+     "ini": 135.094,
+     "fim": 135.254
+    },
+    {
+     "w": "de",
+     "ini": 135.282,
+     "fim": 135.336
+    },
+    {
+     "w": "uma",
+     "ini": 135.382,
+     "fim": 135.52
+    },
+    {
+     "w": "nação",
+     "ini": 135.572,
+     "fim": 136.015
+    },
+    {
+     "w": "inteira",
+     "ini": 136.053,
+     "fim": 136.318
+    },
+    {
+     "w": "em",
+     "ini": 136.37,
+     "fim": 136.474
+    },
+    {
+     "w": "tempo",
+     "ini": 136.522,
+     "fim": 136.762
+    },
+    {
+     "w": "de",
+     "ini": 136.824,
+     "fim": 136.948
+    },
+    {
+     "w": "fome.",
+     "ini": 137.062,
+     "fim": 137.438
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "Então vamos orar, e colocar diante de Deus essa batalha financeira, com fé e com sinceridade.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 14,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 138.449,
+   "fim": 144.911,
+   "duracao": 6.462,
+   "palavras": [
+    {
+     "w": "Então",
+     "ini": 138.449,
+     "fim": 138.663
+    },
+    {
+     "w": "vamos",
+     "ini": 138.723,
+     "fim": 139.023
+    },
+    {
+     "w": "orar,",
+     "ini": 139.034,
+     "fim": 139.32
+    },
+    {
+     "w": "e",
+     "ini": 140.07,
+     "fim": 140.12
+    },
+    {
+     "w": "colocar",
+     "ini": 140.18,
+     "fim": 140.523
+    },
+    {
+     "w": "diante",
+     "ini": 140.58,
+     "fim": 140.926
+    },
+    {
+     "w": "de",
+     "ini": 140.996,
+     "fim": 141.136
+    },
+    {
+     "w": "Deus",
+     "ini": 141.205,
+     "fim": 141.484
+    },
+    {
+     "w": "essa",
+     "ini": 141.523,
+     "fim": 141.68
+    },
+    {
+     "w": "batalha",
+     "ini": 141.726,
+     "fim": 142.129
+    },
+    {
+     "w": "financeira,",
+     "ini": 142.188,
+     "fim": 142.91
+    },
+    {
+     "w": "com",
+     "ini": 143.239,
+     "fim": 143.339
+    },
+    {
+     "w": "fé",
+     "ini": 143.461,
+     "fim": 143.704
+    },
+    {
+     "w": "e",
+     "ini": 143.848,
+     "fim": 143.898
+    },
+    {
+     "w": "com",
+     "ini": 143.974,
+     "fim": 144.073
+    },
+    {
+     "w": "sinceridade.",
+     "ini": 144.13,
+     "fim": 144.911
+    }
+   ]
+  },
+  {
+   "bloco": "caverna",
+   "titulo_bloco": "A caverna não é o fim",
+   "frase": "E se você está passando por essa luta agora, escreve aqui nos comentários: Deus vai suprir; e deixa o seu pedido de oração com o seu nome, seja uma dívida, um emprego, uma venda ou um negócio.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 15,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 146.099,
+   "fim": 159.873,
+   "duracao": 13.774,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 146.099,
+     "fim": 146.149
+    },
+    {
+     "w": "se",
+     "ini": 146.222,
+     "fim": 146.45
+    },
+    {
+     "w": "você",
+     "ini": 146.48,
+     "fim": 146.6
+    },
+    {
+     "w": "está",
+     "ini": 146.645,
+     "fim": 146.827
+    },
+    {
+     "w": "passando",
+     "ini": 146.881,
+     "fim": 147.315
+    },
+    {
+     "w": "por",
+     "ini": 147.354,
+     "fim": 147.47
+    },
+    {
+     "w": "essa",
+     "ini": 147.52,
+     "fim": 147.724
+    },
+    {
+     "w": "luta",
+     "ini": 147.786,
+     "fim": 148.035
+    },
+    {
+     "w": "agora,",
+     "ini": 148.107,
+     "fim": 148.47
+    },
+    {
+     "w": "escreve",
+     "ini": 149.182,
+     "fim": 149.56
+    },
+    {
+     "w": "aqui",
+     "ini": 149.596,
+     "fim": 149.741
+    },
+    {
+     "w": "nos",
+     "ini": 149.796,
+     "fim": 149.961
+    },
+    {
+     "w": "comentários:",
+     "ini": 149.986,
+     "fim": 150.776
+    },
+    {
+     "w": "Deus",
+     "ini": 151.151,
+     "fim": 151.361
+    },
+    {
+     "w": "vai",
+     "ini": 151.412,
+     "fim": 151.567
+    },
+    {
+     "w": "suprir;",
+     "ini": 151.607,
+     "fim": 152.063
+    },
+    {
+     "w": "e",
+     "ini": 153.016,
+     "fim": 153.066
+    },
+    {
+     "w": "deixa",
+     "ini": 153.123,
+     "fim": 153.393
+    },
+    {
+     "w": "o",
+     "ini": 153.4,
+     "fim": 153.45
+    },
+    {
+     "w": "seu",
+     "ini": 153.47,
+     "fim": 153.661
+    },
+    {
+     "w": "pedido",
+     "ini": 153.683,
+     "fim": 154.014
+    },
+    {
+     "w": "de",
+     "ini": 154.047,
+     "fim": 154.112
+    },
+    {
+     "w": "oração",
+     "ini": 154.112,
+     "fim": 154.623
+    },
+    {
+     "w": "com",
+     "ini": 154.654,
+     "fim": 154.746
+    },
+    {
+     "w": "o",
+     "ini": 154.746,
+     "fim": 154.796
+    },
+    {
+     "w": "seu",
+     "ini": 154.787,
+     "fim": 154.913
+    },
+    {
+     "w": "nome,",
+     "ini": 154.995,
+     "fim": 155.322
+    },
+    {
+     "w": "seja",
+     "ini": 155.742,
+     "fim": 155.934
+    },
+    {
+     "w": "uma",
+     "ini": 155.989,
+     "fim": 156.153
+    },
+    {
+     "w": "dívida,",
+     "ini": 156.231,
+     "fim": 156.758
+    },
+    {
+     "w": "um",
+     "ini": 156.967,
+     "fim": 157.058
+    },
+    {
+     "w": "emprego,",
+     "ini": 157.145,
+     "fim": 157.648
+    },
+    {
+     "w": "uma",
+     "ini": 158.065,
+     "fim": 158.221
+    },
+    {
+     "w": "venda",
+     "ini": 158.313,
+     "fim": 158.752
+    },
+    {
+     "w": "ou",
+     "ini": 159.064,
+     "fim": 159.15
+    },
+    {
+     "w": "um",
+     "ini": 159.172,
+     "fim": 159.222
+    },
+    {
+     "w": "negócio.",
+     "ini": 159.243,
+     "fim": 159.873
+    }
+   ]
+  },
+  {
+   "bloco": "provedor",
+   "titulo_bloco": "Tu és o meu provedor",
+   "frase": "Senhor meu Deus, eu venho diante de Ti com o coração aberto; Tu conheces a minha situação melhor do que eu.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 16,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 161.025,
+   "fim": 168.123,
+   "duracao": 7.098,
+   "palavras": [
+    {
+     "w": "Senhor",
+     "ini": 161.025,
+     "fim": 161.311
+    },
+    {
+     "w": "meu",
+     "ini": 161.377,
+     "fim": 161.577
+    },
+    {
+     "w": "Deus,",
+     "ini": 161.647,
+     "fim": 161.925
+    },
+    {
+     "w": "eu",
+     "ini": 162.663,
+     "fim": 162.75
+    },
+    {
+     "w": "venho",
+     "ini": 162.779,
+     "fim": 163.026
+    },
+    {
+     "w": "diante",
+     "ini": 163.081,
+     "fim": 163.408
+    },
+    {
+     "w": "de",
+     "ini": 163.463,
+     "fim": 163.573
+    },
+    {
+     "w": "Ti",
+     "ini": 163.644,
+     "fim": 163.787
+    },
+    {
+     "w": "com",
+     "ini": 163.895,
+     "fim": 163.959
+    },
+    {
+     "w": "o",
+     "ini": 163.962,
+     "fim": 164.012
+    },
+    {
+     "w": "coração",
+     "ini": 164.027,
+     "fim": 164.457
+    },
+    {
+     "w": "aberto;",
+     "ini": 164.513,
+     "fim": 164.911
+    },
+    {
+     "w": "Tu",
+     "ini": 165.839,
+     "fim": 165.898
+    },
+    {
+     "w": "conheces",
+     "ini": 165.947,
+     "fim": 166.411
+    },
+    {
+     "w": "a",
+     "ini": 166.448,
+     "fim": 166.498
+    },
+    {
+     "w": "minha",
+     "ini": 166.525,
+     "fim": 166.724
+    },
+    {
+     "w": "situação",
+     "ini": 166.782,
+     "fim": 167.272
+    },
+    {
+     "w": "melhor",
+     "ini": 167.336,
+     "fim": 167.723
+    },
+    {
+     "w": "do",
+     "ini": 167.756,
+     "fim": 167.823
+    },
+    {
+     "w": "que",
+     "ini": 167.854,
+     "fim": 167.949
+    },
+    {
+     "w": "eu.",
+     "ini": 168.007,
+     "fim": 168.123
+    }
+   ]
+  },
+  {
+   "bloco": "provedor",
+   "titulo_bloco": "Tu és o meu provedor",
+   "frase": "Tu sabes cada conta que está atrasada, cada número que não fecha, e quantas vezes eu fiz e refiz as contas tentando encontrar uma saída.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 17,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 169.173,
+   "fim": 177.716,
+   "duracao": 8.543,
+   "palavras": [
+    {
+     "w": "Tu",
+     "ini": 169.173,
+     "fim": 169.263
+    },
+    {
+     "w": "sabes",
+     "ini": 169.339,
+     "fim": 169.716
+    },
+    {
+     "w": "cada",
+     "ini": 169.789,
+     "fim": 170.082
+    },
+    {
+     "w": "conta",
+     "ini": 170.136,
+     "fim": 170.408
+    },
+    {
+     "w": "que",
+     "ini": 170.436,
+     "fim": 170.52
+    },
+    {
+     "w": "está",
+     "ini": 170.55,
+     "fim": 170.67
+    },
+    {
+     "w": "atrasada,",
+     "ini": 170.684,
+     "fim": 171.325
+    },
+    {
+     "w": "cada",
+     "ini": 171.925,
+     "fim": 172.124
+    },
+    {
+     "w": "número",
+     "ini": 172.151,
+     "fim": 172.492
+    },
+    {
+     "w": "que",
+     "ini": 172.514,
+     "fim": 172.579
+    },
+    {
+     "w": "não",
+     "ini": 172.629,
+     "fim": 172.776
+    },
+    {
+     "w": "fecha,",
+     "ini": 172.851,
+     "fim": 173.225
+    },
+    {
+     "w": "e",
+     "ini": 173.693,
+     "fim": 173.743
+    },
+    {
+     "w": "quantas",
+     "ini": 173.849,
+     "fim": 174.158
+    },
+    {
+     "w": "vezes",
+     "ini": 174.201,
+     "fim": 174.417
+    },
+    {
+     "w": "eu",
+     "ini": 174.483,
+     "fim": 174.615
+    },
+    {
+     "w": "fiz",
+     "ini": 174.683,
+     "fim": 174.885
+    },
+    {
+     "w": "e",
+     "ini": 174.984,
+     "fim": 175.034
+    },
+    {
+     "w": "refiz",
+     "ini": 175.046,
+     "fim": 175.445
+    },
+    {
+     "w": "as",
+     "ini": 175.463,
+     "fim": 175.72
+    },
+    {
+     "w": "contas",
+     "ini": 175.76,
+     "fim": 176.162
+    },
+    {
+     "w": "tentando",
+     "ini": 176.211,
+     "fim": 176.601
+    },
+    {
+     "w": "encontrar",
+     "ini": 176.645,
+     "fim": 177.041
+    },
+    {
+     "w": "uma",
+     "ini": 177.095,
+     "fim": 177.255
+    },
+    {
+     "w": "saída.",
+     "ini": 177.332,
+     "fim": 177.716
+    }
+   ]
+  },
+  {
+   "bloco": "provedor",
+   "titulo_bloco": "Tu és o meu provedor",
+   "frase": "Pai, eu não vou fingir que está tudo bem: eu estou preocupado, eu estou com medo, e às vezes eu sinto vergonha e culpa pelas escolhas que eu fiz.",
+   "tag_visual": "montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 18,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 178.898,
+   "fim": 188.522,
+   "duracao": 9.624,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 178.898,
+     "fim": 179.054
+    },
+    {
+     "w": "eu",
+     "ini": 179.543,
+     "fim": 179.613
+    },
+    {
+     "w": "não",
+     "ini": 179.663,
+     "fim": 179.814
+    },
+    {
+     "w": "vou",
+     "ini": 179.864,
+     "fim": 180.012
+    },
+    {
+     "w": "fingir",
+     "ini": 180.059,
+     "fim": 180.341
+    },
+    {
+     "w": "que",
+     "ini": 180.364,
+     "fim": 180.434
+    },
+    {
+     "w": "está",
+     "ini": 180.477,
+     "fim": 180.652
+    },
+    {
+     "w": "tudo",
+     "ini": 180.701,
+     "fim": 180.898
+    },
+    {
+     "w": "bem:",
+     "ini": 180.967,
+     "fim": 181.174
+    },
+    {
+     "w": "eu",
+     "ini": 181.9,
+     "fim": 182.004
+    },
+    {
+     "w": "estou",
+     "ini": 182.051,
+     "fim": 182.283
+    },
+    {
+     "w": "preocupado,",
+     "ini": 182.325,
+     "fim": 182.971
+    },
+    {
+     "w": "eu",
+     "ini": 183.507,
+     "fim": 183.578
+    },
+    {
+     "w": "estou",
+     "ini": 183.631,
+     "fim": 183.897
+    },
+    {
+     "w": "com",
+     "ini": 183.948,
+     "fim": 184.101
+    },
+    {
+     "w": "medo,",
+     "ini": 184.171,
+     "fim": 184.449
+    },
+    {
+     "w": "e",
+     "ini": 185.023,
+     "fim": 185.073
+    },
+    {
+     "w": "às",
+     "ini": 185.109,
+     "fim": 185.189
+    },
+    {
+     "w": "vezes",
+     "ini": 185.246,
+     "fim": 185.532
+    },
+    {
+     "w": "eu",
+     "ini": 185.589,
+     "fim": 185.703
+    },
+    {
+     "w": "sinto",
+     "ini": 185.764,
+     "fim": 186.067
+    },
+    {
+     "w": "vergonha",
+     "ini": 186.091,
+     "fim": 186.623
+    },
+    {
+     "w": "e",
+     "ini": 186.709,
+     "fim": 186.792
+    },
+    {
+     "w": "culpa",
+     "ini": 186.849,
+     "fim": 187.135
+    },
+    {
+     "w": "pelas",
+     "ini": 187.19,
+     "fim": 187.468
+    },
+    {
+     "w": "escolhas",
+     "ini": 187.523,
+     "fim": 187.985
+    },
+    {
+     "w": "que",
+     "ini": 188.003,
+     "fim": 188.059
+    },
+    {
+     "w": "eu",
+     "ini": 188.111,
+     "fim": 188.215
+    },
+    {
+     "w": "fiz.",
+     "ini": 188.292,
+     "fim": 188.522
+    }
+   ]
+  },
+  {
+   "bloco": "provedor",
+   "titulo_bloco": "Tu és o meu provedor",
+   "frase": "Mas eu venho a Ti, porque Tu és o meu provedor.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 19,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 189.367,
+   "fim": 192.455,
+   "duracao": 3.088,
+   "palavras": [
+    {
+     "w": "Mas",
+     "ini": 189.367,
+     "fim": 189.549
+    },
+    {
+     "w": "eu",
+     "ini": 189.611,
+     "fim": 189.734
+    },
+    {
+     "w": "venho",
+     "ini": 189.754,
+     "fim": 189.924
+    },
+    {
+     "w": "a",
+     "ini": 189.945,
+     "fim": 189.995
+    },
+    {
+     "w": "Ti,",
+     "ini": 190.009,
+     "fim": 190.266
+    },
+    {
+     "w": "porque",
+     "ini": 190.933,
+     "fim": 191.201
+    },
+    {
+     "w": "Tu",
+     "ini": 191.24,
+     "fim": 191.318
+    },
+    {
+     "w": "és",
+     "ini": 191.402,
+     "fim": 191.568
+    },
+    {
+     "w": "o",
+     "ini": 191.585,
+     "fim": 191.635
+    },
+    {
+     "w": "meu",
+     "ini": 191.679,
+     "fim": 191.911
+    },
+    {
+     "w": "provedor.",
+     "ini": 191.945,
+     "fim": 192.455
+    }
+   ]
+  },
+  {
+   "bloco": "provedor",
+   "titulo_bloco": "Tu és o meu provedor",
+   "frase": "Eu Te peço perdão, Senhor, se em algum momento eu coloquei a minha segurança no dinheiro e não em Ti, se eu gastei sem sabedoria ou se deixei de ouvir a Tua voz; hoje eu entrego a minha vida financeira nas Tuas mãos.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 20,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 193.991,
+   "fim": 207.303,
+   "duracao": 13.312,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 193.991,
+     "fim": 194.102
+    },
+    {
+     "w": "Te",
+     "ini": 194.157,
+     "fim": 194.241
+    },
+    {
+     "w": "peço",
+     "ini": 194.291,
+     "fim": 194.489
+    },
+    {
+     "w": "perdão,",
+     "ini": 194.547,
+     "fim": 194.896
+    },
+    {
+     "w": "Senhor,",
+     "ini": 195.026,
+     "fim": 195.417
+    },
+    {
+     "w": "se",
+     "ini": 195.86,
+     "fim": 195.922
+    },
+    {
+     "w": "em",
+     "ini": 195.976,
+     "fim": 196.086
+    },
+    {
+     "w": "algum",
+     "ini": 196.121,
+     "fim": 196.296
+    },
+    {
+     "w": "momento",
+     "ini": 196.358,
+     "fim": 196.764
+    },
+    {
+     "w": "eu",
+     "ini": 196.81,
+     "fim": 196.902
+    },
+    {
+     "w": "coloquei",
+     "ini": 196.934,
+     "fim": 197.307
+    },
+    {
+     "w": "a",
+     "ini": 197.326,
+     "fim": 197.376
+    },
+    {
+     "w": "minha",
+     "ini": 197.387,
+     "fim": 197.593
+    },
+    {
+     "w": "segurança",
+     "ini": 197.633,
+     "fim": 198.168
+    },
+    {
+     "w": "no",
+     "ini": 198.227,
+     "fim": 198.343
+    },
+    {
+     "w": "dinheiro",
+     "ini": 198.385,
+     "fim": 198.716
+    },
+    {
+     "w": "e",
+     "ini": 198.766,
+     "fim": 198.816
+    },
+    {
+     "w": "não",
+     "ini": 198.879,
+     "fim": 199.068
+    },
+    {
+     "w": "em",
+     "ini": 199.094,
+     "fim": 199.145
+    },
+    {
+     "w": "Ti,",
+     "ini": 199.219,
+     "fim": 199.367
+    },
+    {
+     "w": "se",
+     "ini": 200.17,
+     "fim": 200.25
+    },
+    {
+     "w": "eu",
+     "ini": 200.302,
+     "fim": 200.407
+    },
+    {
+     "w": "gastei",
+     "ini": 200.479,
+     "fim": 200.804
+    },
+    {
+     "w": "sem",
+     "ini": 200.861,
+     "fim": 201.032
+    },
+    {
+     "w": "sabedoria",
+     "ini": 201.057,
+     "fim": 201.788
+    },
+    {
+     "w": "ou",
+     "ini": 202.18,
+     "fim": 202.23
+    },
+    {
+     "w": "se",
+     "ini": 202.296,
+     "fim": 202.449
+    },
+    {
+     "w": "deixei",
+     "ini": 202.51,
+     "fim": 202.791
+    },
+    {
+     "w": "de",
+     "ini": 202.849,
+     "fim": 202.963
+    },
+    {
+     "w": "ouvir",
+     "ini": 203.004,
+     "fim": 203.211
+    },
+    {
+     "w": "a",
+     "ini": 203.237,
+     "fim": 203.287
+    },
+    {
+     "w": "Tua",
+     "ini": 203.342,
+     "fim": 203.578
+    },
+    {
+     "w": "voz;",
+     "ini": 203.643,
+     "fim": 203.839
+    },
+    {
+     "w": "hoje",
+     "ini": 204.465,
+     "fim": 204.671
+    },
+    {
+     "w": "eu",
+     "ini": 204.709,
+     "fim": 204.901
+    },
+    {
+     "w": "entrego",
+     "ini": 204.939,
+     "fim": 205.205
+    },
+    {
+     "w": "a",
+     "ini": 205.223,
+     "fim": 205.273
+    },
+    {
+     "w": "minha",
+     "ini": 205.288,
+     "fim": 205.529
+    },
+    {
+     "w": "vida",
+     "ini": 205.585,
+     "fim": 205.805
+    },
+    {
+     "w": "financeira",
+     "ini": 205.88,
+     "fim": 206.482
+    },
+    {
+     "w": "nas",
+     "ini": 206.527,
+     "fim": 206.663
+    },
+    {
+     "w": "Tuas",
+     "ini": 206.722,
+     "fim": 206.955
+    },
+    {
+     "w": "mãos.",
+     "ini": 207.025,
+     "fim": 207.303
+    }
+   ]
+  },
+  {
+   "bloco": "portas",
+   "titulo_bloco": "Abre portas, Senhor",
+   "frase": "Pai, Tu prometeste suprir cada uma das minhas necessidades, então eu Te apresento cada uma delas agora.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 21,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 208.315,
+   "fim": 215.148,
+   "duracao": 6.833,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 208.315,
+     "fim": 208.446
+    },
+    {
+     "w": "Tu",
+     "ini": 209.301,
+     "fim": 209.388
+    },
+    {
+     "w": "prometeste",
+     "ini": 209.486,
+     "fim": 209.986
+    },
+    {
+     "w": "suprir",
+     "ini": 210.092,
+     "fim": 210.524
+    },
+    {
+     "w": "cada",
+     "ini": 210.597,
+     "fim": 210.891
+    },
+    {
+     "w": "uma",
+     "ini": 210.941,
+     "fim": 211.091
+    },
+    {
+     "w": "das",
+     "ini": 211.13,
+     "fim": 211.247
+    },
+    {
+     "w": "minhas",
+     "ini": 211.286,
+     "fim": 211.523
+    },
+    {
+     "w": "necessidades,",
+     "ini": 211.572,
+     "fim": 212.277
+    },
+    {
+     "w": "então",
+     "ini": 212.802,
+     "fim": 213.053
+    },
+    {
+     "w": "eu",
+     "ini": 213.113,
+     "fim": 213.233
+    },
+    {
+     "w": "Te",
+     "ini": 213.301,
+     "fim": 213.364
+    },
+    {
+     "w": "apresento",
+     "ini": 213.364,
+     "fim": 213.833
+    },
+    {
+     "w": "cada",
+     "ini": 213.891,
+     "fim": 214.123
+    },
+    {
+     "w": "uma",
+     "ini": 214.185,
+     "fim": 214.372
+    },
+    {
+     "w": "delas",
+     "ini": 214.417,
+     "fim": 214.713
+    },
+    {
+     "w": "agora.",
+     "ini": 214.786,
+     "fim": 215.148
+    }
+   ]
+  },
+  {
+   "bloco": "portas",
+   "titulo_bloco": "Abre portas, Senhor",
+   "frase": "Eu Te apresento as dívidas que me pesam e as contas deste mês, o emprego que eu preciso, o cliente que eu espero, a venda que precisa acontecer e o aumento que eu estou buscando.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 22,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 215.819,
+   "fim": 226.73,
+   "duracao": 10.911,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 215.819,
+     "fim": 215.928
+    },
+    {
+     "w": "Te",
+     "ini": 215.993,
+     "fim": 216.063
+    },
+    {
+     "w": "apresento",
+     "ini": 216.063,
+     "fim": 216.486
+    },
+    {
+     "w": "as",
+     "ini": 216.561,
+     "fim": 216.71
+    },
+    {
+     "w": "dívidas",
+     "ini": 216.724,
+     "fim": 217.199
+    },
+    {
+     "w": "que",
+     "ini": 217.223,
+     "fim": 217.295
+    },
+    {
+     "w": "me",
+     "ini": 217.361,
+     "fim": 217.492
+    },
+    {
+     "w": "pesam",
+     "ini": 217.576,
+     "fim": 217.927
+    },
+    {
+     "w": "e",
+     "ini": 218.015,
+     "fim": 218.065
+    },
+    {
+     "w": "as",
+     "ini": 218.092,
+     "fim": 218.223
+    },
+    {
+     "w": "contas",
+     "ini": 218.281,
+     "fim": 218.666
+    },
+    {
+     "w": "deste",
+     "ini": 218.731,
+     "fim": 219.052
+    },
+    {
+     "w": "mês,",
+     "ini": 219.074,
+     "fim": 219.425
+    },
+    {
+     "w": "o",
+     "ini": 219.983,
+     "fim": 220.033
+    },
+    {
+     "w": "emprego",
+     "ini": 220.118,
+     "fim": 220.537
+    },
+    {
+     "w": "que",
+     "ini": 220.555,
+     "fim": 220.605
+    },
+    {
+     "w": "eu",
+     "ini": 220.699,
+     "fim": 220.889
+    },
+    {
+     "w": "preciso,",
+     "ini": 220.965,
+     "fim": 221.498
+    },
+    {
+     "w": "o",
+     "ini": 221.805,
+     "fim": 221.855
+    },
+    {
+     "w": "cliente",
+     "ini": 221.922,
+     "fim": 222.35
+    },
+    {
+     "w": "que",
+     "ini": 222.37,
+     "fim": 222.429
+    },
+    {
+     "w": "eu",
+     "ini": 222.491,
+     "fim": 222.615
+    },
+    {
+     "w": "espero,",
+     "ini": 222.69,
+     "fim": 223.137
+    },
+    {
+     "w": "a",
+     "ini": 223.516,
+     "fim": 223.579
+    },
+    {
+     "w": "venda",
+     "ini": 223.667,
+     "fim": 223.875
+    },
+    {
+     "w": "que",
+     "ini": 223.933,
+     "fim": 224.105
+    },
+    {
+     "w": "precisa",
+     "ini": 224.159,
+     "fim": 224.532
+    },
+    {
+     "w": "acontecer",
+     "ini": 224.599,
+     "fim": 225.205
+    },
+    {
+     "w": "e",
+     "ini": 225.237,
+     "fim": 225.287
+    },
+    {
+     "w": "o",
+     "ini": 225.294,
+     "fim": 225.344
+    },
+    {
+     "w": "aumento",
+     "ini": 225.366,
+     "fim": 225.772
+    },
+    {
+     "w": "que",
+     "ini": 225.788,
+     "fim": 225.838
+    },
+    {
+     "w": "eu",
+     "ini": 225.861,
+     "fim": 225.923
+    },
+    {
+     "w": "estou",
+     "ini": 225.98,
+     "fim": 226.267
+    },
+    {
+     "w": "buscando.",
+     "ini": 226.282,
+     "fim": 226.73
+    }
+   ]
+  },
+  {
+   "bloco": "portas",
+   "titulo_bloco": "Abre portas, Senhor",
+   "frase": "Abre portas, Senhor, portas de trabalho e de oportunidade, portas que nenhum homem pode fechar, e coloca a Tua graça sobre mim diante das pessoas certas.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 23,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 227.571,
+   "fim": 237.739,
+   "duracao": 10.168,
+   "palavras": [
+    {
+     "w": "Abre",
+     "ini": 227.571,
+     "fim": 227.739
+    },
+    {
+     "w": "portas,",
+     "ini": 227.795,
+     "fim": 228.179
+    },
+    {
+     "w": "Senhor,",
+     "ini": 228.31,
+     "fim": 228.701
+    },
+    {
+     "w": "portas",
+     "ini": 229.163,
+     "fim": 229.489
+    },
+    {
+     "w": "de",
+     "ini": 229.538,
+     "fim": 229.635
+    },
+    {
+     "w": "trabalho",
+     "ini": 229.704,
+     "fim": 230.257
+    },
+    {
+     "w": "e",
+     "ini": 230.257,
+     "fim": 230.307
+    },
+    {
+     "w": "de",
+     "ini": 230.289,
+     "fim": 230.355
+    },
+    {
+     "w": "oportunidade,",
+     "ini": 230.414,
+     "fim": 231.262
+    },
+    {
+     "w": "portas",
+     "ini": 231.771,
+     "fim": 232.086
+    },
+    {
+     "w": "que",
+     "ini": 232.11,
+     "fim": 232.182
+    },
+    {
+     "w": "nenhum",
+     "ini": 232.242,
+     "fim": 232.608
+    },
+    {
+     "w": "homem",
+     "ini": 232.647,
+     "fim": 232.845
+    },
+    {
+     "w": "pode",
+     "ini": 232.895,
+     "fim": 233.098
+    },
+    {
+     "w": "fechar,",
+     "ini": 233.142,
+     "fim": 233.578
+    },
+    {
+     "w": "e",
+     "ini": 234.386,
+     "fim": 234.436
+    },
+    {
+     "w": "coloca",
+     "ini": 234.513,
+     "fim": 234.903
+    },
+    {
+     "w": "a",
+     "ini": 234.908,
+     "fim": 234.958
+    },
+    {
+     "w": "Tua",
+     "ini": 234.971,
+     "fim": 235.15
+    },
+    {
+     "w": "graça",
+     "ini": 235.214,
+     "fim": 235.533
+    },
+    {
+     "w": "sobre",
+     "ini": 235.59,
+     "fim": 235.878
+    },
+    {
+     "w": "mim",
+     "ini": 235.956,
+     "fim": 236.189
+    },
+    {
+     "w": "diante",
+     "ini": 236.268,
+     "fim": 236.601
+    },
+    {
+     "w": "das",
+     "ini": 236.644,
+     "fim": 236.772
+    },
+    {
+     "w": "pessoas",
+     "ini": 236.823,
+     "fim": 237.18
+    },
+    {
+     "w": "certas.",
+     "ini": 237.255,
+     "fim": 237.739
+    }
+   ]
+  },
+  {
+   "bloco": "portas",
+   "titulo_bloco": "Abre portas, Senhor",
+   "frase": "Me dá ideias criativas e sabedoria para administrar o pouco, para que eu seja fiel no pouco e Tu me confies o muito.",
+   "tag_visual": "montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 24,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 238.642,
+   "fim": 245.612,
+   "duracao": 6.97,
+   "palavras": [
+    {
+     "w": "Me",
+     "ini": 238.642,
+     "fim": 238.729
+    },
+    {
+     "w": "dá",
+     "ini": 238.829,
+     "fim": 238.96
+    },
+    {
+     "w": "ideias",
+     "ini": 239.027,
+     "fim": 239.396
+    },
+    {
+     "w": "criativas",
+     "ini": 239.45,
+     "fim": 240.16
+    },
+    {
+     "w": "e",
+     "ini": 240.209,
+     "fim": 240.259
+    },
+    {
+     "w": "sabedoria",
+     "ini": 240.279,
+     "fim": 240.886
+    },
+    {
+     "w": "para",
+     "ini": 240.928,
+     "fim": 241.095
+    },
+    {
+     "w": "administrar",
+     "ini": 241.126,
+     "fim": 241.716
+    },
+    {
+     "w": "o",
+     "ini": 241.771,
+     "fim": 241.826
+    },
+    {
+     "w": "pouco,",
+     "ini": 241.899,
+     "fim": 242.261
+    },
+    {
+     "w": "para",
+     "ini": 242.672,
+     "fim": 242.791
+    },
+    {
+     "w": "que",
+     "ini": 242.833,
+     "fim": 242.923
+    },
+    {
+     "w": "eu",
+     "ini": 242.93,
+     "fim": 243.039
+    },
+    {
+     "w": "seja",
+     "ini": 243.104,
+     "fim": 243.362
+    },
+    {
+     "w": "fiel",
+     "ini": 243.443,
+     "fim": 243.767
+    },
+    {
+     "w": "no",
+     "ini": 243.825,
+     "fim": 243.94
+    },
+    {
+     "w": "pouco",
+     "ini": 244.003,
+     "fim": 244.314
+    },
+    {
+     "w": "e",
+     "ini": 244.326,
+     "fim": 244.376
+    },
+    {
+     "w": "Tu",
+     "ini": 244.386,
+     "fim": 244.483
+    },
+    {
+     "w": "me",
+     "ini": 244.527,
+     "fim": 244.616
+    },
+    {
+     "w": "confies",
+     "ini": 244.623,
+     "fim": 245.057
+    },
+    {
+     "w": "o",
+     "ini": 245.117,
+     "fim": 245.177
+    },
+    {
+     "w": "muito.",
+     "ini": 245.25,
+     "fim": 245.612
+    }
+   ]
+  },
+  {
+   "bloco": "portas",
+   "titulo_bloco": "Abre portas, Senhor",
+   "frase": "Me livra de comparar a minha vida com a de qualquer pessoa, e me ensina a ser grato pelo que eu já tenho, porque a gratidão acalma o coração enquanto a resposta não chega.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 25,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 246.416,
+   "fim": 256.551,
+   "duracao": 10.135,
+   "palavras": [
+    {
+     "w": "Me",
+     "ini": 246.416,
+     "fim": 246.496
+    },
+    {
+     "w": "livra",
+     "ini": 246.53,
+     "fim": 246.85
+    },
+    {
+     "w": "de",
+     "ini": 246.907,
+     "fim": 247.022
+    },
+    {
+     "w": "comparar",
+     "ini": 247.04,
+     "fim": 247.45
+    },
+    {
+     "w": "a",
+     "ini": 247.476,
+     "fim": 247.526
+    },
+    {
+     "w": "minha",
+     "ini": 247.55,
+     "fim": 247.797
+    },
+    {
+     "w": "vida",
+     "ini": 247.856,
+     "fim": 248.093
+    },
+    {
+     "w": "com",
+     "ini": 248.12,
+     "fim": 248.198
+    },
+    {
+     "w": "a",
+     "ini": 248.241,
+     "fim": 248.291
+    },
+    {
+     "w": "de",
+     "ini": 248.3,
+     "fim": 248.35
+    },
+    {
+     "w": "qualquer",
+     "ini": 248.41,
+     "fim": 248.758
+    },
+    {
+     "w": "pessoa,",
+     "ini": 248.832,
+     "fim": 249.279
+    },
+    {
+     "w": "e",
+     "ini": 249.69,
+     "fim": 249.74
+    },
+    {
+     "w": "me",
+     "ini": 249.781,
+     "fim": 249.912
+    },
+    {
+     "w": "ensina",
+     "ini": 249.964,
+     "fim": 250.275
+    },
+    {
+     "w": "a",
+     "ini": 250.275,
+     "fim": 250.325
+    },
+    {
+     "w": "ser",
+     "ini": 250.346,
+     "fim": 250.561
+    },
+    {
+     "w": "grato",
+     "ini": 250.632,
+     "fim": 250.992
+    },
+    {
+     "w": "pelo",
+     "ini": 251.032,
+     "fim": 251.191
+    },
+    {
+     "w": "que",
+     "ini": 251.213,
+     "fim": 251.279
+    },
+    {
+     "w": "eu",
+     "ini": 251.311,
+     "fim": 251.374
+    },
+    {
+     "w": "já",
+     "ini": 251.443,
+     "fim": 251.58
+    },
+    {
+     "w": "tenho,",
+     "ini": 251.668,
+     "fim": 252.03
+    },
+    {
+     "w": "porque",
+     "ini": 252.587,
+     "fim": 252.767
+    },
+    {
+     "w": "a",
+     "ini": 252.806,
+     "fim": 252.856
+    },
+    {
+     "w": "gratidão",
+     "ini": 252.917,
+     "fim": 253.483
+    },
+    {
+     "w": "acalma",
+     "ini": 253.532,
+     "fim": 253.828
+    },
+    {
+     "w": "o",
+     "ini": 253.854,
+     "fim": 253.904
+    },
+    {
+     "w": "coração",
+     "ini": 253.957,
+     "fim": 254.504
+    },
+    {
+     "w": "enquanto",
+     "ini": 255.026,
+     "fim": 255.276
+    },
+    {
+     "w": "a",
+     "ini": 255.325,
+     "fim": 255.375
+    },
+    {
+     "w": "resposta",
+     "ini": 255.43,
+     "fim": 255.876
+    },
+    {
+     "w": "não",
+     "ini": 255.903,
+     "fim": 256.116
+    },
+    {
+     "w": "chega.",
+     "ini": 256.189,
+     "fim": 256.551
+    }
+   ]
+  },
+  {
+   "bloco": "multiplica",
+   "titulo_bloco": "Multiplica o que está nas minhas mãos",
+   "frase": "E eu Te peço também por provisões inesperadas, por recursos que chegam de onde eu nem imagino.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 26,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 258.064,
+   "fim": 263.464,
+   "duracao": 5.4,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 258.064,
+     "fim": 258.114
+    },
+    {
+     "w": "eu",
+     "ini": 258.149,
+     "fim": 258.276
+    },
+    {
+     "w": "Te",
+     "ini": 258.352,
+     "fim": 258.455
+    },
+    {
+     "w": "peço",
+     "ini": 258.524,
+     "fim": 258.8
+    },
+    {
+     "w": "também",
+     "ini": 258.84,
+     "fim": 259.079
+    },
+    {
+     "w": "por",
+     "ini": 259.12,
+     "fim": 259.243
+    },
+    {
+     "w": "provisões",
+     "ini": 259.274,
+     "fim": 259.789
+    },
+    {
+     "w": "inesperadas,",
+     "ini": 259.847,
+     "fim": 260.705
+    },
+    {
+     "w": "por",
+     "ini": 261.073,
+     "fim": 261.145
+    },
+    {
+     "w": "recursos",
+     "ini": 261.175,
+     "fim": 261.757
+    },
+    {
+     "w": "que",
+     "ini": 261.792,
+     "fim": 261.88
+    },
+    {
+     "w": "chegam",
+     "ini": 261.911,
+     "fim": 262.249
+    },
+    {
+     "w": "de",
+     "ini": 262.265,
+     "fim": 262.315
+    },
+    {
+     "w": "onde",
+     "ini": 262.338,
+     "fim": 262.501
+    },
+    {
+     "w": "eu",
+     "ini": 262.519,
+     "fim": 262.569
+    },
+    {
+     "w": "nem",
+     "ini": 262.619,
+     "fim": 262.814
+    },
+    {
+     "w": "imagino.",
+     "ini": 262.892,
+     "fim": 263.464
+    }
+   ]
+  },
+  {
+   "bloco": "multiplica",
+   "titulo_bloco": "Multiplica o que está nas minhas mãos",
+   "frase": "Assim como Tu alimentaste Elias através dos corvos, e multiplicaste o azeite da viúva, multiplica aquilo que está nas minhas mãos.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 27,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 264.125,
+   "fim": 271.747,
+   "duracao": 7.622,
+   "palavras": [
+    {
+     "w": "Assim",
+     "ini": 264.125,
+     "fim": 264.352
+    },
+    {
+     "w": "como",
+     "ini": 264.406,
+     "fim": 264.621
+    },
+    {
+     "w": "Tu",
+     "ini": 264.65,
+     "fim": 264.709
+    },
+    {
+     "w": "alimentaste",
+     "ini": 264.775,
+     "fim": 265.398
+    },
+    {
+     "w": "Elias",
+     "ini": 265.477,
+     "fim": 265.832
+    },
+    {
+     "w": "através",
+     "ini": 265.864,
+     "fim": 266.275
+    },
+    {
+     "w": "dos",
+     "ini": 266.338,
+     "fim": 266.478
+    },
+    {
+     "w": "corvos,",
+     "ini": 266.53,
+     "fim": 266.95
+    },
+    {
+     "w": "e",
+     "ini": 267.288,
+     "fim": 267.338
+    },
+    {
+     "w": "multiplicaste",
+     "ini": 267.398,
+     "fim": 268.116
+    },
+    {
+     "w": "o",
+     "ini": 268.17,
+     "fim": 268.224
+    },
+    {
+     "w": "azeite",
+     "ini": 268.262,
+     "fim": 268.686
+    },
+    {
+     "w": "da",
+     "ini": 268.75,
+     "fim": 268.877
+    },
+    {
+     "w": "viúva,",
+     "ini": 268.889,
+     "fim": 269.31
+    },
+    {
+     "w": "multiplica",
+     "ini": 269.737,
+     "fim": 270.289
+    },
+    {
+     "w": "aquilo",
+     "ini": 270.337,
+     "fim": 270.622
+    },
+    {
+     "w": "que",
+     "ini": 270.631,
+     "fim": 270.681
+    },
+    {
+     "w": "está",
+     "ini": 270.673,
+     "fim": 270.92
+    },
+    {
+     "w": "nas",
+     "ini": 270.966,
+     "fim": 271.105
+    },
+    {
+     "w": "minhas",
+     "ini": 271.147,
+     "fim": 271.399
+    },
+    {
+     "w": "mãos.",
+     "ini": 271.468,
+     "fim": 271.747
+    }
+   ]
+  },
+  {
+   "bloco": "multiplica",
+   "titulo_bloco": "Multiplica o que está nas minhas mãos",
+   "frase": "Eu declaro que a escassez não vai ter a última palavra na minha casa, e que a minha família não vai passar necessidade.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 28,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 272.677,
+   "fim": 279.228,
+   "duracao": 6.551,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 272.677,
+     "fim": 272.764
+    },
+    {
+     "w": "declaro",
+     "ini": 272.926,
+     "fim": 273.32
+    },
+    {
+     "w": "que",
+     "ini": 273.34,
+     "fim": 273.399
+    },
+    {
+     "w": "a",
+     "ini": 273.443,
+     "fim": 273.493
+    },
+    {
+     "w": "escassez",
+     "ini": 273.558,
+     "fim": 273.964
+    },
+    {
+     "w": "não",
+     "ini": 274.019,
+     "fim": 274.183
+    },
+    {
+     "w": "vai",
+     "ini": 274.223,
+     "fim": 274.342
+    },
+    {
+     "w": "ter",
+     "ini": 274.385,
+     "fim": 274.511
+    },
+    {
+     "w": "a",
+     "ini": 274.657,
+     "fim": 274.803
+    },
+    {
+     "w": "última",
+     "ini": 274.822,
+     "fim": 274.937
+    },
+    {
+     "w": "palavra",
+     "ini": 274.986,
+     "fim": 275.329
+    },
+    {
+     "w": "na",
+     "ini": 275.388,
+     "fim": 275.504
+    },
+    {
+     "w": "minha",
+     "ini": 275.556,
+     "fim": 275.812
+    },
+    {
+     "w": "casa,",
+     "ini": 275.882,
+     "fim": 276.16
+    },
+    {
+     "w": "e",
+     "ini": 276.833,
+     "fim": 276.883
+    },
+    {
+     "w": "que",
+     "ini": 276.9,
+     "fim": 276.95
+    },
+    {
+     "w": "a",
+     "ini": 276.972,
+     "fim": 277.022
+    },
+    {
+     "w": "minha",
+     "ini": 277.041,
+     "fim": 277.265
+    },
+    {
+     "w": "família",
+     "ini": 277.317,
+     "fim": 277.682
+    },
+    {
+     "w": "não",
+     "ini": 277.72,
+     "fim": 277.835
+    },
+    {
+     "w": "vai",
+     "ini": 277.889,
+     "fim": 278.053
+    },
+    {
+     "w": "passar",
+     "ini": 278.096,
+     "fim": 278.354
+    },
+    {
+     "w": "necessidade.",
+     "ini": 278.417,
+     "fim": 279.228
+    }
+   ]
+  },
+  {
+   "bloco": "multiplica",
+   "titulo_bloco": "Multiplica o que está nas minhas mãos",
+   "frase": "Eu declaro que Tu és Jeová Jiré, o Deus que provê, e aquilo que Tu provês, ninguém pode tirar.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "destaque": "Jeová Jiré, o Deus que *provê*.",
+   "rodape": "EU DECLARO",
+   "idx": 29,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 280.111,
+   "fim": 288.092,
+   "duracao": 7.981,
+   "palavras": [
+    {
+     "w": "Eu",
+     "ini": 280.111,
+     "fim": 280.283
+    },
+    {
+     "w": "declaro",
+     "ini": 280.311,
+     "fim": 280.718
+    },
+    {
+     "w": "que",
+     "ini": 281.111,
+     "fim": 281.213
+    },
+    {
+     "w": "Tu",
+     "ini": 281.267,
+     "fim": 281.376
+    },
+    {
+     "w": "és",
+     "ini": 281.376,
+     "fim": 281.559
+    },
+    {
+     "w": "Jeová",
+     "ini": 281.574,
+     "fim": 281.996
+    },
+    {
+     "w": "Jiré,",
+     "ini": 282.039,
+     "fim": 282.45
+    },
+    {
+     "w": "o",
+     "ini": 282.925,
+     "fim": 282.975
+    },
+    {
+     "w": "Deus",
+     "ini": 283.06,
+     "fim": 283.307
+    },
+    {
+     "w": "que",
+     "ini": 283.354,
+     "fim": 283.495
+    },
+    {
+     "w": "provê,",
+     "ini": 283.522,
+     "fim": 284.016
+    },
+    {
+     "w": "e",
+     "ini": 284.588,
+     "fim": 284.638
+    },
+    {
+     "w": "aquilo",
+     "ini": 284.763,
+     "fim": 285.127
+    },
+    {
+     "w": "que",
+     "ini": 285.171,
+     "fim": 285.301
+    },
+    {
+     "w": "Tu",
+     "ini": 285.338,
+     "fim": 285.411
+    },
+    {
+     "w": "provês,",
+     "ini": 285.431,
+     "fim": 286.007
+    },
+    {
+     "w": "ninguém",
+     "ini": 287.03,
+     "fim": 287.292
+    },
+    {
+     "w": "pode",
+     "ini": 287.365,
+     "fim": 287.658
+    },
+    {
+     "w": "tirar.",
+     "ini": 287.73,
+     "fim": 288.092
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Agora eu quero orar por você que está ouvindo e está no meio dessa batalha.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 30,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 289.868,
+   "fim": 293.937,
+   "duracao": 4.069,
+   "palavras": [
+    {
+     "w": "Agora",
+     "ini": 289.868,
+     "fim": 290.053
+    },
+    {
+     "w": "eu",
+     "ini": 290.09,
+     "fim": 290.163
+    },
+    {
+     "w": "quero",
+     "ini": 290.205,
+     "fim": 290.414
+    },
+    {
+     "w": "orar",
+     "ini": 290.426,
+     "fim": 290.701
+    },
+    {
+     "w": "por",
+     "ini": 290.752,
+     "fim": 290.907
+    },
+    {
+     "w": "você",
+     "ini": 290.926,
+     "fim": 291.201
+    },
+    {
+     "w": "que",
+     "ini": 291.229,
+     "fim": 291.314
+    },
+    {
+     "w": "está",
+     "ini": 291.345,
+     "fim": 291.468
+    },
+    {
+     "w": "ouvindo",
+     "ini": 291.498,
+     "fim": 291.717
+    },
+    {
+     "w": "e",
+     "ini": 291.832,
+     "fim": 291.946
+    },
+    {
+     "w": "está",
+     "ini": 292.38,
+     "fim": 292.646
+    },
+    {
+     "w": "no",
+     "ini": 292.692,
+     "fim": 292.785
+    },
+    {
+     "w": "meio",
+     "ini": 292.826,
+     "fim": 292.992
+    },
+    {
+     "w": "dessa",
+     "ini": 293.047,
+     "fim": 293.317
+    },
+    {
+     "w": "batalha.",
+     "ini": 293.385,
+     "fim": 293.937
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Senhor, olha para essa pessoa, olha para essa casa, olha para esse negócio que está lutando para sobreviver, para esse pai e essa mãe que estão se desdobrando para colocar comida na mesa.",
+   "tag_visual": "montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 31,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 294.626,
+   "fim": 306.773,
+   "duracao": 12.147,
+   "palavras": [
+    {
+     "w": "Senhor,",
+     "ini": 294.626,
+     "fim": 295.017
+    },
+    {
+     "w": "olha",
+     "ini": 296.043,
+     "fim": 296.246
+    },
+    {
+     "w": "para",
+     "ini": 296.283,
+     "fim": 296.434
+    },
+    {
+     "w": "essa",
+     "ini": 296.48,
+     "fim": 296.663
+    },
+    {
+     "w": "pessoa,",
+     "ini": 296.738,
+     "fim": 297.185
+    },
+    {
+     "w": "olha",
+     "ini": 297.805,
+     "fim": 298.071
+    },
+    {
+     "w": "para",
+     "ini": 298.094,
+     "fim": 298.186
+    },
+    {
+     "w": "essa",
+     "ini": 298.232,
+     "fim": 298.418
+    },
+    {
+     "w": "casa,",
+     "ini": 298.494,
+     "fim": 298.796
+    },
+    {
+     "w": "olha",
+     "ini": 299.357,
+     "fim": 299.561
+    },
+    {
+     "w": "para",
+     "ini": 299.581,
+     "fim": 299.662
+    },
+    {
+     "w": "esse",
+     "ini": 299.706,
+     "fim": 299.882
+    },
+    {
+     "w": "negócio",
+     "ini": 299.893,
+     "fim": 300.336
+    },
+    {
+     "w": "que",
+     "ini": 300.36,
+     "fim": 300.434
+    },
+    {
+     "w": "está",
+     "ini": 300.48,
+     "fim": 300.664
+    },
+    {
+     "w": "lutando",
+     "ini": 300.702,
+     "fim": 301.186
+    },
+    {
+     "w": "para",
+     "ini": 301.212,
+     "fim": 301.317
+    },
+    {
+     "w": "sobreviver,",
+     "ini": 301.363,
+     "fim": 302.018
+    },
+    {
+     "w": "para",
+     "ini": 302.846,
+     "fim": 302.948
+    },
+    {
+     "w": "esse",
+     "ini": 303.014,
+     "fim": 303.278
+    },
+    {
+     "w": "pai",
+     "ini": 303.343,
+     "fim": 303.539
+    },
+    {
+     "w": "e",
+     "ini": 303.596,
+     "fim": 303.646
+    },
+    {
+     "w": "essa",
+     "ini": 303.705,
+     "fim": 303.942
+    },
+    {
+     "w": "mãe",
+     "ini": 303.995,
+     "fim": 304.154
+    },
+    {
+     "w": "que",
+     "ini": 304.189,
+     "fim": 304.291
+    },
+    {
+     "w": "estão",
+     "ini": 304.321,
+     "fim": 304.471
+    },
+    {
+     "w": "se",
+     "ini": 304.529,
+     "fim": 304.645
+    },
+    {
+     "w": "desdobrando",
+     "ini": 304.657,
+     "fim": 305.328
+    },
+    {
+     "w": "para",
+     "ini": 305.366,
+     "fim": 305.516
+    },
+    {
+     "w": "colocar",
+     "ini": 305.55,
+     "fim": 305.938
+    },
+    {
+     "w": "comida",
+     "ini": 305.962,
+     "fim": 306.283
+    },
+    {
+     "w": "na",
+     "ini": 306.33,
+     "fim": 306.425
+    },
+    {
+     "w": "mesa.",
+     "ini": 306.495,
+     "fim": 306.773
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Acalma o coração dessa pessoa, para que ela consiga dormir esta noite e a angústia não roube a esperança dela.",
+   "tag_visual": "trigo",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 32,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 307.78,
+   "fim": 314.509,
+   "duracao": 6.729,
+   "palavras": [
+    {
+     "w": "Acalma",
+     "ini": 307.78,
+     "fim": 308.09
+    },
+    {
+     "w": "o",
+     "ini": 308.112,
+     "fim": 308.162
+    },
+    {
+     "w": "coração",
+     "ini": 308.186,
+     "fim": 308.555
+    },
+    {
+     "w": "dessa",
+     "ini": 308.605,
+     "fim": 308.854
+    },
+    {
+     "w": "pessoa,",
+     "ini": 308.931,
+     "fim": 309.391
+    },
+    {
+     "w": "para",
+     "ini": 310.195,
+     "fim": 310.273
+    },
+    {
+     "w": "que",
+     "ini": 310.283,
+     "fim": 310.333
+    },
+    {
+     "w": "ela",
+     "ini": 310.363,
+     "fim": 310.599
+    },
+    {
+     "w": "consiga",
+     "ini": 310.649,
+     "fim": 311.14
+    },
+    {
+     "w": "dormir",
+     "ini": 311.189,
+     "fim": 311.478
+    },
+    {
+     "w": "esta",
+     "ini": 311.524,
+     "fim": 311.707
+    },
+    {
+     "w": "noite",
+     "ini": 311.779,
+     "fim": 312.141
+    },
+    {
+     "w": "e",
+     "ini": 312.37,
+     "fim": 312.42
+    },
+    {
+     "w": "a",
+     "ini": 312.459,
+     "fim": 312.522
+    },
+    {
+     "w": "angústia",
+     "ini": 312.527,
+     "fim": 313.087
+    },
+    {
+     "w": "não",
+     "ini": 313.14,
+     "fim": 313.301
+    },
+    {
+     "w": "roube",
+     "ini": 313.339,
+     "fim": 313.575
+    },
+    {
+     "w": "a",
+     "ini": 313.611,
+     "fim": 313.661
+    },
+    {
+     "w": "esperança",
+     "ini": 313.699,
+     "fim": 314.161
+    },
+    {
+     "w": "dela.",
+     "ini": 314.23,
+     "fim": 314.509
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "E que, a partir de hoje, ela comece a ver sinais da Tua provisão: uma porta que se abre, uma ligação inesperada, uma ajuda que chega na hora certa.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 33,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 315.385,
+   "fim": 326.018,
+   "duracao": 10.633,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 315.385,
+     "fim": 315.435
+    },
+    {
+     "w": "que,",
+     "ini": 315.459,
+     "fim": 315.574
+    },
+    {
+     "w": "a",
+     "ini": 315.607,
+     "fim": 315.657
+    },
+    {
+     "w": "partir",
+     "ini": 315.674,
+     "fim": 315.978
+    },
+    {
+     "w": "de",
+     "ini": 316.048,
+     "fim": 316.188
+    },
+    {
+     "w": "hoje,",
+     "ini": 316.258,
+     "fim": 316.536
+    },
+    {
+     "w": "ela",
+     "ini": 317.35,
+     "fim": 317.495
+    },
+    {
+     "w": "comece",
+     "ini": 317.534,
+     "fim": 317.928
+    },
+    {
+     "w": "a",
+     "ini": 317.937,
+     "fim": 317.987
+    },
+    {
+     "w": "ver",
+     "ini": 317.989,
+     "fim": 318.137
+    },
+    {
+     "w": "sinais",
+     "ini": 318.158,
+     "fim": 318.51
+    },
+    {
+     "w": "da",
+     "ini": 318.562,
+     "fim": 318.667
+    },
+    {
+     "w": "Tua",
+     "ini": 318.669,
+     "fim": 318.877
+    },
+    {
+     "w": "provisão:",
+     "ini": 318.913,
+     "fim": 319.466
+    },
+    {
+     "w": "uma",
+     "ini": 320.55,
+     "fim": 320.678
+    },
+    {
+     "w": "porta",
+     "ini": 320.739,
+     "fim": 321.045
+    },
+    {
+     "w": "que",
+     "ini": 321.079,
+     "fim": 321.183
+    },
+    {
+     "w": "se",
+     "ini": 321.284,
+     "fim": 321.486
+    },
+    {
+     "w": "abre,",
+     "ini": 321.555,
+     "fim": 321.834
+    },
+    {
+     "w": "uma",
+     "ini": 322.36,
+     "fim": 322.513
+    },
+    {
+     "w": "ligação",
+     "ini": 322.554,
+     "fim": 322.968
+    },
+    {
+     "w": "inesperada,",
+     "ini": 323.034,
+     "fim": 323.683
+    },
+    {
+     "w": "uma",
+     "ini": 324.293,
+     "fim": 324.396
+    },
+    {
+     "w": "ajuda",
+     "ini": 324.443,
+     "fim": 324.757
+    },
+    {
+     "w": "que",
+     "ini": 324.783,
+     "fim": 324.864
+    },
+    {
+     "w": "chega",
+     "ini": 324.874,
+     "fim": 325.208
+    },
+    {
+     "w": "na",
+     "ini": 325.253,
+     "fim": 325.342
+    },
+    {
+     "w": "hora",
+     "ini": 325.368,
+     "fim": 325.584
+    },
+    {
+     "w": "certa.",
+     "ini": 325.656,
+     "fim": 326.018
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Pai, eu oro especialmente por quem está desempregado agora: renova a esperança dessa pessoa a cada currículo enviado, e não deixa que ela pense que não tem valor.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 34,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 327.163,
+   "fim": 337.415,
+   "duracao": 10.252,
+   "palavras": [
+    {
+     "w": "Pai,",
+     "ini": 327.163,
+     "fim": 327.32
+    },
+    {
+     "w": "eu",
+     "ini": 328.132,
+     "fim": 328.276
+    },
+    {
+     "w": "oro",
+     "ini": 328.358,
+     "fim": 328.529
+    },
+    {
+     "w": "especialmente",
+     "ini": 328.571,
+     "fim": 329.323
+    },
+    {
+     "w": "por",
+     "ini": 329.346,
+     "fim": 329.416
+    },
+    {
+     "w": "quem",
+     "ini": 329.446,
+     "fim": 329.563
+    },
+    {
+     "w": "está",
+     "ini": 329.614,
+     "fim": 329.82
+    },
+    {
+     "w": "desempregado",
+     "ini": 329.85,
+     "fim": 330.535
+    },
+    {
+     "w": "agora:",
+     "ini": 330.607,
+     "fim": 330.97
+    },
+    {
+     "w": "renova",
+     "ini": 331.607,
+     "fim": 332.002
+    },
+    {
+     "w": "a",
+     "ini": 332.04,
+     "fim": 332.09
+    },
+    {
+     "w": "esperança",
+     "ini": 332.126,
+     "fim": 332.555
+    },
+    {
+     "w": "dessa",
+     "ini": 332.603,
+     "fim": 332.838
+    },
+    {
+     "w": "pessoa",
+     "ini": 332.913,
+     "fim": 333.36
+    },
+    {
+     "w": "a",
+     "ini": 333.36,
+     "fim": 333.41
+    },
+    {
+     "w": "cada",
+     "ini": 333.429,
+     "fim": 333.708
+    },
+    {
+     "w": "currículo",
+     "ini": 333.732,
+     "fim": 334.125
+    },
+    {
+     "w": "enviado,",
+     "ini": 334.152,
+     "fim": 334.654
+    },
+    {
+     "w": "e",
+     "ini": 335.341,
+     "fim": 335.391
+    },
+    {
+     "w": "não",
+     "ini": 335.431,
+     "fim": 335.615
+    },
+    {
+     "w": "deixa",
+     "ini": 335.651,
+     "fim": 335.833
+    },
+    {
+     "w": "que",
+     "ini": 335.841,
+     "fim": 335.891
+    },
+    {
+     "w": "ela",
+     "ini": 335.947,
+     "fim": 336.189
+    },
+    {
+     "w": "pense",
+     "ini": 336.253,
+     "fim": 336.492
+    },
+    {
+     "w": "que",
+     "ini": 336.53,
+     "fim": 336.645
+    },
+    {
+     "w": "não",
+     "ini": 336.68,
+     "fim": 336.785
+    },
+    {
+     "w": "tem",
+     "ini": 336.87,
+     "fim": 336.98
+    },
+    {
+     "w": "valor.",
+     "ini": 337.053,
+     "fim": 337.415
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Quebra toda cadeia de dívidas e todo ciclo de escassez, e levanta essa família para ser abençoada e para ser bênção na vida de outras pessoas.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 35,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 338.438,
+   "fim": 348.203,
+   "duracao": 9.765,
+   "palavras": [
+    {
+     "w": "Quebra",
+     "ini": 338.438,
+     "fim": 338.805
+    },
+    {
+     "w": "toda",
+     "ini": 338.872,
+     "fim": 339.137
+    },
+    {
+     "w": "cadeia",
+     "ini": 339.183,
+     "fim": 339.573
+    },
+    {
+     "w": "de",
+     "ini": 339.603,
+     "fim": 339.664
+    },
+    {
+     "w": "dívidas",
+     "ini": 339.682,
+     "fim": 340.201
+    },
+    {
+     "w": "e",
+     "ini": 340.738,
+     "fim": 340.798
+    },
+    {
+     "w": "todo",
+     "ini": 340.913,
+     "fim": 341.187
+    },
+    {
+     "w": "ciclo",
+     "ini": 341.269,
+     "fim": 341.651
+    },
+    {
+     "w": "de",
+     "ini": 341.684,
+     "fim": 341.751
+    },
+    {
+     "w": "escassez,",
+     "ini": 341.802,
+     "fim": 342.371
+    },
+    {
+     "w": "e",
+     "ini": 343.012,
+     "fim": 343.062
+    },
+    {
+     "w": "levanta",
+     "ini": 343.099,
+     "fim": 343.471
+    },
+    {
+     "w": "essa",
+     "ini": 343.518,
+     "fim": 343.708
+    },
+    {
+     "w": "família",
+     "ini": 343.763,
+     "fim": 344.151
+    },
+    {
+     "w": "para",
+     "ini": 344.181,
+     "fim": 344.299
+    },
+    {
+     "w": "ser",
+     "ini": 344.356,
+     "fim": 344.526
+    },
+    {
+     "w": "abençoada",
+     "ini": 344.58,
+     "fim": 345.239
+    },
+    {
+     "w": "e",
+     "ini": 345.801,
+     "fim": 345.851
+    },
+    {
+     "w": "para",
+     "ini": 345.91,
+     "fim": 346.06
+    },
+    {
+     "w": "ser",
+     "ini": 346.119,
+     "fim": 346.297
+    },
+    {
+     "w": "bênção",
+     "ini": 346.342,
+     "fim": 346.642
+    },
+    {
+     "w": "na",
+     "ini": 346.717,
+     "fim": 346.862
+    },
+    {
+     "w": "vida",
+     "ini": 346.919,
+     "fim": 347.148
+    },
+    {
+     "w": "de",
+     "ini": 347.186,
+     "fim": 347.263
+    },
+    {
+     "w": "outras",
+     "ini": 347.263,
+     "fim": 347.579
+    },
+    {
+     "w": "pessoas.",
+     "ini": 347.671,
+     "fim": 348.203
+    }
+   ]
+  },
+  {
+   "bloco": "porvoce",
+   "titulo_bloco": "Uma oração por você",
+   "frase": "Em nome de Jesus, amém.",
+   "tag_visual": "pastor_ovelhas",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 36,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 348.954,
+   "fim": 350.534,
+   "duracao": 1.58,
+   "palavras": [
+    {
+     "w": "Em",
+     "ini": 348.954,
+     "fim": 349.004
+    },
+    {
+     "w": "nome",
+     "ini": 349.077,
+     "fim": 349.38
+    },
+    {
+     "w": "de",
+     "ini": 349.431,
+     "fim": 349.533
+    },
+    {
+     "w": "Jesus,",
+     "ini": 349.605,
+     "fim": 349.968
+    },
+    {
+     "w": "amém.",
+     "ini": 350.146,
+     "fim": 350.534
+    }
+   ]
+  },
+  {
+   "bloco": "agir",
+   "titulo_bloco": "Orar e agir",
+   "frase": "Quero te dizer uma coisa antes de terminar: fé não é ficar parado esperando; fé é orar e também agir.",
+   "tag_visual": "arvore",
+   "mostrar_texto": false,
+   "referencia": null,
+   "destaque": "Fé é orar e também *agir*.",
+   "rodape": "UM PASSO DE CADA VEZ",
+   "idx": 37,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 351.996,
+   "fim": 359.042,
+   "duracao": 7.046,
+   "palavras": [
+    {
+     "w": "Quero",
+     "ini": 351.996,
+     "fim": 352.146
+    },
+    {
+     "w": "te",
+     "ini": 352.217,
+     "fim": 352.361
+    },
+    {
+     "w": "dizer",
+     "ini": 352.403,
+     "fim": 352.615
+    },
+    {
+     "w": "uma",
+     "ini": 352.667,
+     "fim": 352.823
+    },
+    {
+     "w": "coisa",
+     "ini": 352.891,
+     "fim": 353.23
+    },
+    {
+     "w": "antes",
+     "ini": 353.265,
+     "fim": 353.439
+    },
+    {
+     "w": "de",
+     "ini": 353.464,
+     "fim": 353.514
+    },
+    {
+     "w": "terminar:",
+     "ini": 353.59,
+     "fim": 354.209
+    },
+    {
+     "w": "fé",
+     "ini": 355.007,
+     "fim": 355.176
+    },
+    {
+     "w": "não",
+     "ini": 355.233,
+     "fim": 355.404
+    },
+    {
+     "w": "é",
+     "ini": 355.448,
+     "fim": 355.498
+    },
+    {
+     "w": "ficar",
+     "ini": 355.547,
+     "fim": 355.79
+    },
+    {
+     "w": "parado",
+     "ini": 355.846,
+     "fim": 356.183
+    },
+    {
+     "w": "esperando;",
+     "ini": 356.261,
+     "fim": 356.965
+    },
+    {
+     "w": "fé",
+     "ini": 357.397,
+     "fim": 357.572
+    },
+    {
+     "w": "é",
+     "ini": 357.619,
+     "fim": 357.669
+    },
+    {
+     "w": "orar",
+     "ini": 357.717,
+     "fim": 358.078
+    },
+    {
+     "w": "e",
+     "ini": 358.182,
+     "fim": 358.286
+    },
+    {
+     "w": "também",
+     "ini": 358.33,
+     "fim": 358.593
+    },
+    {
+     "w": "agir.",
+     "ini": 358.612,
+     "fim": 359.042
+    }
+   ]
+  },
+  {
+   "bloco": "agir",
+   "titulo_bloco": "Orar e agir",
+   "frase": "Então hoje, depois dessa oração, faz a sua parte: manda aquele currículo, faz aquela ligação, organiza as contas no papel, e confia que Deus vai fazer a parte Dele, a parte que você não consegue fazer.",
+   "tag_visual": "montanha",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 38,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 360.142,
+   "fim": 375.232,
+   "duracao": 15.09,
+   "palavras": [
+    {
+     "w": "Então",
+     "ini": 360.142,
+     "fim": 360.436
+    },
+    {
+     "w": "hoje,",
+     "ini": 360.505,
+     "fim": 360.784
+    },
+    {
+     "w": "depois",
+     "ini": 361.793,
+     "fim": 361.998
+    },
+    {
+     "w": "dessa",
+     "ini": 362.035,
+     "fim": 362.218
+    },
+    {
+     "w": "oração,",
+     "ini": 362.293,
+     "fim": 362.74
+    },
+    {
+     "w": "faz",
+     "ini": 363.172,
+     "fim": 363.326
+    },
+    {
+     "w": "a",
+     "ini": 363.359,
+     "fim": 363.409
+    },
+    {
+     "w": "sua",
+     "ini": 363.453,
+     "fim": 363.638
+    },
+    {
+     "w": "parte:",
+     "ini": 363.711,
+     "fim": 364.073
+    },
+    {
+     "w": "manda",
+     "ini": 364.817,
+     "fim": 365.011
+    },
+    {
+     "w": "aquele",
+     "ini": 365.071,
+     "fim": 365.432
+    },
+    {
+     "w": "currículo,",
+     "ini": 365.437,
+     "fim": 366.133
+    },
+    {
+     "w": "faz",
+     "ini": 366.611,
+     "fim": 366.79
+    },
+    {
+     "w": "aquela",
+     "ini": 366.83,
+     "fim": 367.065
+    },
+    {
+     "w": "ligação,",
+     "ini": 367.117,
+     "fim": 367.616
+    },
+    {
+     "w": "organiza",
+     "ini": 367.936,
+     "fim": 368.289
+    },
+    {
+     "w": "as",
+     "ini": 368.353,
+     "fim": 368.482
+    },
+    {
+     "w": "contas",
+     "ini": 368.525,
+     "fim": 368.836
+    },
+    {
+     "w": "no",
+     "ini": 368.894,
+     "fim": 369.01
+    },
+    {
+     "w": "papel,",
+     "ini": 369.086,
+     "fim": 369.448
+    },
+    {
+     "w": "e",
+     "ini": 370.304,
+     "fim": 370.354
+    },
+    {
+     "w": "confia",
+     "ini": 370.38,
+     "fim": 370.884
+    },
+    {
+     "w": "que",
+     "ini": 370.907,
+     "fim": 370.977
+    },
+    {
+     "w": "Deus",
+     "ini": 371.032,
+     "fim": 371.251
+    },
+    {
+     "w": "vai",
+     "ini": 371.291,
+     "fim": 371.411
+    },
+    {
+     "w": "fazer",
+     "ini": 371.475,
+     "fim": 371.795
+    },
+    {
+     "w": "a",
+     "ini": 371.828,
+     "fim": 371.878
+    },
+    {
+     "w": "parte",
+     "ini": 371.919,
+     "fim": 372.21
+    },
+    {
+     "w": "Dele,",
+     "ini": 372.279,
+     "fim": 372.558
+    },
+    {
+     "w": "a",
+     "ini": 373.447,
+     "fim": 373.497
+    },
+    {
+     "w": "parte",
+     "ini": 373.57,
+     "fim": 373.929
+    },
+    {
+     "w": "que",
+     "ini": 373.954,
+     "fim": 374.027
+    },
+    {
+     "w": "você",
+     "ini": 374.064,
+     "fim": 374.211
+    },
+    {
+     "w": "não",
+     "ini": 374.237,
+     "fim": 374.315
+    },
+    {
+     "w": "consegue",
+     "ini": 374.369,
+     "fim": 374.797
+    },
+    {
+     "w": "fazer.",
+     "ini": 374.869,
+     "fim": 375.232
     }
    ]
   },
   {
    "bloco": "final",
    "titulo_bloco": "Fica com Deus",
-   "frase": "Deus se inclina para ouvir você, e vai firmar os seus pés na rocha. Até a próxima oração. Fica com Deus.",
-   "tag_visual": "canion",
+   "frase": "Se essa oração tocou você, se inscreva no canal e ative o sininho, e deixa o seu like, para que esta mensagem chegue a mais famílias que estão passando por aperto.",
+   "tag_visual": "trigo",
    "mostrar_texto": false,
    "referencia": null,
-   "idx": 41,
-   "wav": "work/r08/x.wav",
-   "inicio": 443.358,
-   "fim": 451.704,
-   "duracao": 8.346,
+   "idx": 39,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 376.728,
+   "fim": 386.616,
+   "duracao": 9.888,
    "palavras": [
     {
-     "w": "Deus",
-     "ini": 443.358,
-     "fim": 443.537
+     "w": "Se",
+     "ini": 376.728,
+     "fim": 376.818
     },
     {
-     "w": "se",
-     "ini": 443.633,
-     "fim": 443.825
+     "w": "essa",
+     "ini": 376.832,
+     "fim": 377.002
     },
     {
-     "w": "inclina",
-     "ini": 443.869,
-     "fim": 444.234
+     "w": "oração",
+     "ini": 377.077,
+     "fim": 377.524
     },
     {
-     "w": "para",
-     "ini": 444.276,
-     "fim": 444.444
-    },
-    {
-     "w": "ouvir",
-     "ini": 444.478,
-     "fim": 444.646
+     "w": "tocou",
+     "ini": 377.579,
+     "fim": 378.022
     },
     {
      "w": "você,",
-     "ini": 444.712,
-     "fim": 444.976
+     "ini": 378.091,
+     "fim": 378.37
+    },
+    {
+     "w": "se",
+     "ini": 378.76,
+     "fim": 378.833
+    },
+    {
+     "w": "inscreva",
+     "ini": 378.862,
+     "fim": 379.355
+    },
+    {
+     "w": "no",
+     "ini": 379.395,
+     "fim": 379.475
+    },
+    {
+     "w": "canal",
+     "ini": 379.507,
+     "fim": 379.927
     },
     {
      "w": "e",
-     "ini": 445.871,
-     "fim": 445.921
+     "ini": 379.996,
+     "fim": 380.047
     },
     {
-     "w": "vai",
-     "ini": 445.947,
-     "fim": 446.095
+     "w": "ative",
+     "ini": 380.1,
+     "fim": 380.36
     },
     {
-     "w": "firmar",
-     "ini": 446.112,
-     "fim": 446.411
+     "w": "o",
+     "ini": 380.375,
+     "fim": 380.425
     },
     {
-     "w": "os",
-     "ini": 446.433,
-     "fim": 446.483
+     "w": "sininho,",
+     "ini": 380.433,
+     "fim": 380.911
     },
     {
-     "w": "seus",
-     "ini": 446.526,
-     "fim": 446.723
+     "w": "e",
+     "ini": 381.532,
+     "fim": 381.582
     },
     {
-     "w": "pés",
-     "ini": 446.772,
-     "fim": 446.917
+     "w": "deixa",
+     "ini": 381.624,
+     "fim": 381.828
     },
     {
-     "w": "na",
-     "ini": 446.982,
-     "fim": 447.112
+     "w": "o",
+     "ini": 381.834,
+     "fim": 381.884
     },
     {
-     "w": "rocha.",
-     "ini": 447.149,
-     "fim": 447.514
+     "w": "seu",
+     "ini": 381.895,
+     "fim": 382.059
     },
     {
-     "w": "Até",
-     "ini": 448.6,
-     "fim": 448.82
+     "w": "like,",
+     "ini": 382.138,
+     "fim": 382.455
+    },
+    {
+     "w": "para",
+     "ini": 383.254,
+     "fim": 383.379
+    },
+    {
+     "w": "que",
+     "ini": 383.408,
+     "fim": 383.496
+    },
+    {
+     "w": "esta",
+     "ini": 383.534,
+     "fim": 383.687
+    },
+    {
+     "w": "mensagem",
+     "ini": 383.742,
+     "fim": 384.185
+    },
+    {
+     "w": "chegue",
+     "ini": 384.234,
+     "fim": 384.516
     },
     {
      "w": "a",
-     "ini": 448.86,
-     "fim": 448.91
+     "ini": 384.541,
+     "fim": 384.591
     },
     {
-     "w": "próxima",
-     "ini": 448.965,
-     "fim": 449.228
+     "w": "mais",
+     "ini": 384.612,
+     "fim": 384.793
     },
     {
-     "w": "oração.",
-     "ini": 449.265,
-     "fim": 449.703
+     "w": "famílias",
+     "ini": 384.803,
+     "fim": 385.264
     },
     {
-     "w": "Fica",
-     "ini": 450.983,
-     "fim": 451.23
+     "w": "que",
+     "ini": 385.284,
+     "fim": 385.345
+    },
+    {
+     "w": "estão",
+     "ini": 385.379,
+     "fim": 385.551
+    },
+    {
+     "w": "passando",
+     "ini": 385.6,
+     "fim": 385.992
+    },
+    {
+     "w": "por",
+     "ini": 386.052,
+     "fim": 386.23
+    },
+    {
+     "w": "aperto.",
+     "ini": 386.266,
+     "fim": 386.616
+    }
+   ]
+  },
+  {
+   "bloco": "final",
+   "titulo_bloco": "Fica com Deus",
+   "frase": "E deixa nos comentários o seu pedido de oração, com o seu nome e a área da sua vida financeira que precisa de um milagre; cada pedido vai ser levado a Deus em oração.",
+   "tag_visual": "rio",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 40,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 387.523,
+   "fim": 397.504,
+   "duracao": 9.981,
+   "palavras": [
+    {
+     "w": "E",
+     "ini": 387.523,
+     "fim": 387.573
+    },
+    {
+     "w": "deixa",
+     "ini": 387.632,
+     "fim": 387.839
+    },
+    {
+     "w": "nos",
+     "ini": 387.891,
+     "fim": 388.046
+    },
+    {
+     "w": "comentários",
+     "ini": 388.074,
+     "fim": 388.722
+    },
+    {
+     "w": "o",
+     "ini": 388.733,
+     "fim": 388.783
+    },
+    {
+     "w": "seu",
+     "ini": 388.807,
+     "fim": 388.996
+    },
+    {
+     "w": "pedido",
+     "ini": 389.011,
+     "fim": 389.282
+    },
+    {
+     "w": "de",
+     "ini": 389.313,
+     "fim": 389.377
+    },
+    {
+     "w": "oração,",
+     "ini": 389.455,
+     "fim": 389.921
     },
     {
      "w": "com",
-     "ini": 451.283,
-     "fim": 451.442
+     "ini": 390.475,
+     "fim": 390.564
+    },
+    {
+     "w": "o",
+     "ini": 390.564,
+     "fim": 390.614
+    },
+    {
+     "w": "seu",
+     "ini": 390.613,
+     "fim": 390.761
+    },
+    {
+     "w": "nome",
+     "ini": 390.851,
+     "fim": 391.211
+    },
+    {
+     "w": "e",
+     "ini": 391.69,
+     "fim": 391.74
+    },
+    {
+     "w": "a",
+     "ini": 391.777,
+     "fim": 391.827
+    },
+    {
+     "w": "área",
+     "ini": 391.846,
+     "fim": 392.065
+    },
+    {
+     "w": "da",
+     "ini": 392.108,
+     "fim": 392.195
+    },
+    {
+     "w": "sua",
+     "ini": 392.254,
+     "fim": 392.432
+    },
+    {
+     "w": "vida",
+     "ini": 392.481,
+     "fim": 392.677
+    },
+    {
+     "w": "financeira",
+     "ini": 392.751,
+     "fim": 393.285
+    },
+    {
+     "w": "que",
+     "ini": 393.319,
+     "fim": 393.422
+    },
+    {
+     "w": "precisa",
+     "ini": 393.471,
+     "fim": 393.816
+    },
+    {
+     "w": "de",
+     "ini": 393.843,
+     "fim": 393.897
+    },
+    {
+     "w": "um",
+     "ini": 393.908,
+     "fim": 393.958
+    },
+    {
+     "w": "milagre;",
+     "ini": 394.008,
+     "fim": 394.54
+    },
+    {
+     "w": "cada",
+     "ini": 395.356,
+     "fim": 395.588
+    },
+    {
+     "w": "pedido",
+     "ini": 395.624,
+     "fim": 395.933
+    },
+    {
+     "w": "vai",
+     "ini": 395.948,
+     "fim": 395.998
+    },
+    {
+     "w": "ser",
+     "ini": 396.027,
+     "fim": 396.127
+    },
+    {
+     "w": "levado",
+     "ini": 396.163,
+     "fim": 396.526
+    },
+    {
+     "w": "a",
+     "ini": 396.573,
+     "fim": 396.623
+    },
+    {
+     "w": "Deus",
+     "ini": 396.67,
+     "fim": 396.873
+    },
+    {
+     "w": "em",
+     "ini": 396.907,
+     "fim": 396.983
+    },
+    {
+     "w": "oração.",
+     "ini": 397.057,
+     "fim": 397.504
+    }
+   ]
+  },
+  {
+   "bloco": "final",
+   "titulo_bloco": "Fica com Deus",
+   "frase": "Que o Deus que supre cada necessidade cuide de você e da sua casa. Até a próxima oração. Fica com Deus.",
+   "tag_visual": "campo_flores",
+   "mostrar_texto": false,
+   "referencia": null,
+   "idx": 41,
+   "wav": "work/r03/x_lento.wav",
+   "inicio": 398.481,
+   "fim": 407.849,
+   "duracao": 9.368,
+   "palavras": [
+    {
+     "w": "Que",
+     "ini": 398.481,
+     "fim": 398.547
+    },
+    {
+     "w": "o",
+     "ini": 398.59,
+     "fim": 398.64
+    },
+    {
+     "w": "Deus",
+     "ini": 398.683,
+     "fim": 398.879
+    },
+    {
+     "w": "que",
+     "ini": 398.907,
+     "fim": 398.991
+    },
+    {
+     "w": "supre",
+     "ini": 399.052,
+     "fim": 399.575
+    },
+    {
+     "w": "cada",
+     "ini": 400.059,
+     "fim": 400.255
+    },
+    {
+     "w": "necessidade",
+     "ini": 400.307,
+     "fim": 401.058
+    },
+    {
+     "w": "cuide",
+     "ini": 401.136,
+     "fim": 401.361
+    },
+    {
+     "w": "de",
+     "ini": 401.432,
+     "fim": 401.574
+    },
+    {
+     "w": "você",
+     "ini": 401.645,
+     "fim": 401.927
+    },
+    {
+     "w": "e",
+     "ini": 401.994,
+     "fim": 402.044
+    },
+    {
+     "w": "da",
+     "ini": 402.043,
+     "fim": 402.124
+    },
+    {
+     "w": "sua",
+     "ini": 402.198,
+     "fim": 402.42
+    },
+    {
+     "w": "casa.",
+     "ini": 402.489,
+     "fim": 402.767
+    },
+    {
+     "w": "Até",
+     "ini": 404.029,
+     "fim": 404.17
+    },
+    {
+     "w": "a",
+     "ini": 404.222,
+     "fim": 404.275
+    },
+    {
+     "w": "próxima",
+     "ini": 404.334,
+     "fim": 404.659
+    },
+    {
+     "w": "oração.",
+     "ini": 404.714,
+     "fim": 405.232
+    },
+    {
+     "w": "Fica",
+     "ini": 407.116,
+     "fim": 407.377
+    },
+    {
+     "w": "com",
+     "ini": 407.432,
+     "fim": 407.598
     },
     {
      "w": "Deus.",
-     "ini": 451.494,
-     "fim": 451.704
+     "ini": 407.648,
+     "fim": 407.849
     }
    ]
   },
@@ -5959,7 +5757,7 @@
    "bloco": "final",
    "titulo_bloco": "Fica com Deus",
    "frase": "Escreva amém nos comentários",
-   "tag_visual": "cordilheira",
+   "tag_visual": "montanha",
    "mostrar_texto": false,
    "referencia": null,
    "idx": 42,
@@ -5967,29 +5765,29 @@
    "rodape": "DEIXE O SEU PEDIDO DE ORAÇÃO",
    "so_destaque": true,
    "wav": null,
-   "inicio": 457.26,
-   "fim": 464.76,
-   "duracao": 7.5,
+   "inicio": 413.326,
+   "fim": 422.826,
+   "duracao": 9.5,
    "palavras": [
     {
      "w": "Escreva",
-     "ini": 457.26,
-     "fim": 457.86
+     "ini": 413.326,
+     "fim": 413.926
     },
     {
      "w": "amém",
-     "ini": 457.86,
-     "fim": 458.46
+     "ini": 413.926,
+     "fim": 414.526
     },
     {
      "w": "nos",
-     "ini": 458.46,
-     "fim": 459.06
+     "ini": 414.526,
+     "fim": 415.126
     },
     {
      "w": "comentários",
-     "ini": 459.06,
-     "fim": 459.66
+     "ini": 415.126,
+     "fim": 415.726
     }
    ]
   }

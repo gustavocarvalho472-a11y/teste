@@ -133,7 +133,8 @@ def destaque_ass(txt):
     def fmt(w):
         if w.startswith("*") and w.rstrip(",.;:!?").endswith("*"):
             core = w.strip("*,.;:!?"); tail = w[len(w.rstrip(",.;:!?")):]
-            return f"{{\\i1\\c{AMARELO}}}{core}{{\\i0\\c&HFFFFFF&}}{tail}"
+            # a pontuação fica em itálico (branca): itálico -> romano antes do ponto abria um buraco ("fé .")
+            return f"{{\\i1\\c{AMARELO}}}{core}{{\\c&HFFFFFF&}}{tail}{{\\i0}}"
         return w
     return "\\N".join(" ".join(fmt(w) for w in ln) for ln in linhas), "\\N".join(" ".join(w.replace("*", "") for w in ln) for ln in linhas)
 

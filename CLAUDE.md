@@ -11,7 +11,7 @@ Este repositório produz vídeos-documentário de futebol para um canal do YouTu
 - Ele acompanha pelo celular e não abre arquivos: roteiro, títulos e textos para colar vão no chat.
 - Roteiro em PT no chat para validação ANTES de gerar narração. Narração corrida (frases que puxam a próxima), nunca frases curtas e truncadas.
 - Autoridade do ângulo tem de ser um nome global; ídolo local entra como complemento.
-- Nenhum vídeo da FIFA (Copas, FIFA TV/FIFA+, premiação The Best): o vídeo do Brasil foi bloqueado no mundo todo por isso.
+- Nenhum vídeo da FIFA (Copas, FIFA TV/FIFA+, The Best) nem imagens de transmissão da Premier League/UEFA: os vídeos do Brasil e do Ferguson foram bloqueados por isso.
 - Fotos livres do Wikimedia Commons, animadas e misturadas com vídeo; créditos na descrição.
 - Abertura muito dinâmica; CTA logo depois da introdução.
 - Créditos vidIQ são limitados: avise antes de gastar.

@@ -18,6 +18,7 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 |---|---|---|
 | Manchester City | "Man City's Secret Sponsorship Trick Finally Exposed" | thumb TOO/LATE; comentários acusando o City: responda sem dizer "fraude" (não provado) |
 | Brasil / Vini Jr | "The decline of the Brazilian national team - Vinicius Jr" | thumb GLORY/RUIN, 11:19; primeira versão bloqueada pela FIFA |
+| Ferguson / Pochettino | ver `roteiros/ferguson-ghost-pochettino.md` e `video-production/ferguson/` | feito em outra conversa; versão 1 bloqueada pela Premier League (imagens da transmissão); refeito com áudio de torcedor + fotos animadas |
 | Outros no canal | "Why the Internet Is Calling Ronaldo the R...", "The Joke That Cost Mbappé Millions in C..." | feitos fora deste repositório |
 
 ## O vídeo do Brasil — ângulo e conceito (modelo de referência)
@@ -45,10 +46,10 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 5. Responder os primeiros comentários com uma pergunta, dar coração e fixar um.
 
 ## Ideias aprovadas e ainda não feitas
-- Pochettino / Manchester United: "Ferguson Chose Him 10 Years Ago".
 - Para novos temas: checar o que está em alta nos canais de referência (vidiq_channel_videos, 5 créditos) e propor 3 a 5 ângulos com título e ideia de thumb.
 
 ## Ambiente
+- Leia também a seção "Lições do vídeo do Ferguson/Pochettino" do `SKILL.md`: Kokoro ONNX e transcrição Whisper grátis no container, limites do Nexlev (50 chamadas/semana), regra de direitos da Premier League e UEFA.
 - Hosts liberados: assets.vidiq.com, ai-music-tracks.s3.us-east-1.amazonaws.com, videos.pexels.com, images.pexels.com, commons.wikimedia.org, upload.wikimedia.org.
 - Download de vídeos do YouTube: `vidiq_video_upload` com a URL (grátis) → `vidiq_job_poll` → curl do link storage.googleapis.com.
 - Busca no YouTube sem custo: Nexlev `youtube_search` e `get_video_transcript`.

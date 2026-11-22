@@ -61,45 +61,81 @@ Legenda dos takes:
 - **[GRÁFICO]** placar, contador, lista ou citação com data sobre take escurecido
 - **[CARTELA]** tela da marca: título, capítulo, CTA
 
-### Abertura (0:00–0:45) — cortes de ~1 s
+### Abertura v2 (0:00–1:08) — ganchos em sequência, cortes de ~1 s
 
-**[FALA — Arteta, Girona, 01/08/2026]** Repórter: "When is Vinicius coming?" Arteta sorri: "Thank you so much." E levanta.
+**[0:00 · FALA — Arteta, Girona, 01/08/2026]** Repórter: "When is Vinicius coming?" Arteta sorri, diz "Thank you so much", levanta e sai. *(sem música; impacto grave quando ele levanta)*
 
-> Naquele dia em Girona, o técnico do campeão inglês preferiu sorrir a responder. Só que, longe das câmeras, segundo o jornal As, era ele mesmo quem tinha assumido a negociação, prometendo ao Vinícius que ele seria o centro do novo Arsenal. Cinco dias depois, o Real Madrid melhorou a proposta e o Vinícius assinou até 2032.
+> **(0:05)** Aquele sorriso escondia uma negociação de cento e cinquenta milhões de euros, porque, segundo o jornal As, era o próprio técnico do campeão inglês quem estava tentando tirar o Vinícius do Real Madrid.
 >
-> Quase três meses mais tarde, o Real Madrid vence o Barcelona no Camp Nou com o Vinícius assistindo de fora, suspenso por puxar o cabelo de um adversário minutos depois de sair do banco contra o Villarreal. Uma semana depois, o Arsenal vence em Anfield pela primeira vez desde 2012 e volta à liderança da Premier League.
+> **(0:16)** Cinco dias depois, o Vinícius assinou com o Real até 2032, e o que aconteceu nos três meses seguintes ninguém em Madri estava esperando.
 >
-> E em janeiro, poucos dias antes de ser demitido, um homem já tinha dito exatamente o que faltava.
+> **(0:24)** Ele perdeu o Clássico no Camp Nou, suspenso por puxar o cabelo de um adversário, o Arsenal venceu em Anfield pela primeira vez em catorze anos, e o próprio técnico do Vinícius disse em público uma frase que quase nenhum treinador diz sobre um jogador do elenco.
 
-**[FALA — Xabi Alonso, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola."
+**[0:38 · FALA — Mourinho, 17/10/2026]** "Se eu fosse ele, provavelmente não estaria aqui."
 
-> Esta é a história das duas vezes em que alguém tentou transformar o Vinícius em outro jogador, e da escolha que ele fez.
+> **(0:41)** E o motivo dessa frase não é o que você está pensando, porque essa história começou em janeiro, com um técnico que foi demitido uma semana depois de dizer isto.
+
+**[0:51 · FALA — Xabi Alonso, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola."
+
+> **(0:57)** Duas vezes alguém tentou transformar o Vinícius em outro jogador, e hoje quem joga na posição dele é um garoto de dezenove anos que faz exatamente o que o Xabi pedia.
 
 Takes:
-1. [FALA] Arteta na coletiva de Girona — 6 s
-2. [FOTO] Arteta, foto Commons, zoom rápido — 1,2 s
-3. [GRÁFICO] recorte "AS" + "Arteta takes charge" (manchete real dentro de reportagem) — 1,5 s
-4. [FOTO] Vinícius com a camisa do Real, pan — 1,2 s
-5. [GRÁFICO] comunicado oficial "renovado até 2032", data 06/08 marcada em verde — 2 s
-6. [FOTO] Camp Nou por fora (Commons) — 1 s
-7. [GRÁFICO] placar BAR 1–2 RMA + carimbo vermelho "VINICIUS: SUSPENDED" — 1,5 s
-8. [FOTO] Vinícius cabisbaixo — 1 s
-9. [GRÁFICO] "4 GAMES" contador pequeno no canto sobre foto do Bernabéu — 1,3 s
-10. [VÍDEO] torcida do Arsenal na arquibancada de Anfield (vídeo de torcedor) — 1,5 s
-11. [GRÁFICO] placar LIV 0–1 ARS + "1st win at Anfield since 2012" — 1,5 s
-12. [FOTO] Xabi Alonso, zoom lento, tela escurece — 2 s
-13. [FALA] Xabi Alonso, "Exijo…" — 6 s
-14. [FOTO] Vinícius + Arteta em tela dividida, Xabi aparece no meio — 3 s
+1. [FALA] Arteta em Girona · 5 s
+2. [FOTO] Arteta, zoom · 1,5 s
+3. [GRÁFICO] contador "€150M" no canto · 1,5 s
+4. [GRÁFICO] manchete real do As · 2 s
+5. [FOTO] Vini de branco · 1,5 s
+6. [GRÁFICO] mapa Madri → Londres · 2 s
+7. [FOTO] Emirates · 1,5 s
+8. [GRÁFICO] comunicado "2032" · 2 s
+9. [FOTO] Vini no Bernabéu · 1,5 s
+10. [GRÁFICO] calendário AUG → OCT → NOV virando · 2,5 s
+11. [FOTO] Camp Nou · 1 s
+12. [GRÁFICO] carimbo "SUSPENDED" sobre o Vini · 1,2 s
+13. [FOTO] Vini de costas · 1 s
+14. [GRÁFICO] placar BAR 1–2 RMA · 1,2 s
+15. [VÍDEO] torcida do Arsenal em Anfield (vídeo de torcedor) · 1,5 s
+16. [GRÁFICO] LIV 0–1 ARS "1ST WIN SINCE 2012" · 1,5 s
+17. [FOTO] Arteta comemorando · 1 s
+18. [FOTO] Mourinho em coletiva, zoom lento, tela escurece · 2,5 s
+19. [FALA] Mourinho, "wouldn't be here" em verde · 3 s
+20. [GRÁFICO] "?" verde sobre o Mourinho congelado · 2 s
+21. [GRÁFICO] calendário rebobinando NOV → JAN 2026 (som de fita) · 3 s
+22. [FOTO] Xabi · 2 s
+23. [GRÁFICO] carimbo "SACKED · 12 JAN" · 2 s
+24. [FALA] Xabi "Exijo…" · 6 s
+25. [FOTO] Vini · 1,5 s
+26. [FOTO] Arteta · 1,5 s
+27. [GRÁFICO] silhueta preta com o número "19" (o Diomande ainda escondido) · 3 s
+28. [GRÁFICO] campo tático: a ponta esquerda acende em verde · 2 s
 
-### Título + CTA 1 (0:45–0:55)
+### Título + CTA 1 (1:08–1:22)
 
 **[CARTELA — ARTETA TRIED TO SAVE VINICIUS]**
 
-> Antes de começar: se você acha que essa história é maior do que um puxão de cabelo, deixa o like, se inscreve e manda este vídeo para aquele amigo que jura que o problema do Real Madrid é sempre o técnico.
+> E neste fim de semana, depois de quatro jogos de suspensão, o Vinícius volta a jogar a liga espanhola. Então, antes de voltar a janeiro, deixa o like, se inscreve e guarda a sua resposta, porque no fim do vídeo vem uma pergunta sobre ele que divide qualquer torcedor do Real Madrid.
 
 Takes:
-1. [CARTELA] título com riser e impacto — 4 s
-2. [CARTELA] CTA com botão de inscrição animado sobre foto do Bernabéu — 6 s
+1. [CARTELA] título com riser · 4 s
+2. [CARTELA] foto do Bernabéu "THIS WEEKEND: HE'S BACK" + botão de inscrição · 10 s
+
+### Opening v2 (EN)
+
+**[CLIP — Arteta, Girona]** "When is Vinicius coming?" — "Thank you so much."
+
+> That smile was hiding a hundred-and-fifty-million-euro negotiation, because according to the Spanish newspaper AS, it was the manager of the English champions himself who was trying to take Vinicius away from Real Madrid. Five days later, Vinicius signed with Real until 2032, and what happened over the next three months is something nobody in Madrid saw coming. He missed the Clásico at the Camp Nou, suspended for pulling an opponent's hair, Arsenal won at Anfield for the first time in fourteen years, and Vinicius's own manager said something in public that almost no manager says about one of his own players.
+
+**[CLIP — Mourinho]** "If I were him, I probably wouldn't be here."
+
+> And the reason behind that sentence is not what you think, because this story started in January, with a manager who was sacked one week after saying this.
+
+**[CLIP — Xabi Alonso]** "I demand in every training session and every match that everyone is committed when we don't have the ball."
+
+> Twice, someone tried to turn Vinicius into a different player, and today the man playing in his position is a nineteen-year-old who does exactly what Xabi asked for.
+
+**[TITLE — ARTETA TRIED TO SAVE VINICIUS]**
+
+> And this weekend, after a four-game ban, Vinicius is back in La Liga. So before we go back to January, hit like, subscribe, and hold on to your answer, because at the end of this video there's a question about him that splits every Real Madrid fan in two.
 
 ### 1 · O que o Xabi pediu (0:55–2:50)
 

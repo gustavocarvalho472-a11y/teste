@@ -5,6 +5,7 @@
 **Autoridades:** Arteta (título e fecho), Xabi Alonso (o aviso), Mourinho (a frase que vira tudo). Todas globais.
 **Narrador não acusa:** as críticas vêm das falas e da ordem dos fatos. O outro lado aparece (racismo nos estádios, Mourinho defendendo o Vinícius, duas Champions).
 **Idioma do vídeo:** inglês. O script em EN será escrito depois da aprovação deste PT.
+**Técnicas tiradas da referência** (`roteiros/referencias/kroos-warned-vini-analise.md`): título dito no 1º segundo, cena narrada ("olha a reação"), frase plantada e paga, cartelas de salto no tempo, eco do minuto 72, padrão nomeado, bloco de pergunta justa.
 
 ## Título e thumb
 
@@ -61,53 +62,46 @@ Legenda dos takes:
 - **[GRÁFICO]** placar, contador, lista ou citação com data sobre take escurecido
 - **[CARTELA]** tela da marca: título, capítulo, CTA
 
-### Abertura v2 (0:00–1:08) — ganchos em sequência, cortes de ~1 s
+### Abertura v3 (0:00–1:08) — técnicas do vídeo de referência: título dito no 1º segundo, cena narrada, frase plantada
 
-**[0:00 · FALA — Arteta, Girona, 01/08/2026]** Repórter: "When is Vinicius coming?" Arteta sorri, diz "Thank you so much", levanta e sai. *(sem música; impacto grave quando ele levanta)*
-
-> **(0:05)** Aquele sorriso escondia uma negociação de cento e cinquenta milhões de euros, porque, segundo o jornal As, era o próprio técnico do campeão inglês quem estava tentando tirar o Vinícius do Real Madrid.
+> **(0:00)** O Arteta tentou salvar o Vinícius, e o Vinícius disse não.
 >
-> **(0:16)** Cinco dias depois, o Vinícius assinou com o Real até 2032, e o que aconteceu nos três meses seguintes ninguém em Madri estava esperando.
->
-> **(0:24)** Ele perdeu o Clássico no Camp Nou, suspenso por puxar o cabelo de um adversário, o Arsenal venceu em Anfield pela primeira vez em catorze anos, e o próprio técnico do Vinícius disse em público uma frase que quase nenhum treinador diz sobre um jogador do elenco.
+> **(0:03)** Primeiro de agosto, Girona. O Arsenal acaba de ganhar de quatro a um, um repórter faz a pergunta que todo mundo quer fazer, e olha a reação do técnico.
 
-**[0:38 · FALA — Mourinho, 17/10/2026]** "Se eu fosse ele, provavelmente não estaria aqui."
+**[0:09 · FALA — Arteta, Girona, 01/08/2026]** "When is Vinicius coming?" — sorri — "Thank you so much." *(levanta; impacto grave)*
 
-> **(0:41)** E o motivo dessa frase não é o que você está pensando, porque essa história começou em janeiro, com um técnico que foi demitido uma semana depois de dizer isto.
+> **(0:14)** Aquele sorriso escondia uma negociação de cento e cinquenta milhões de euros, porque, segundo o jornal As, era o próprio técnico do campeão inglês quem estava tentando tirar o Vinícius do Real Madrid. Cinco dias depois, o Vinícius assinou até 2032, e o que veio nos três meses seguintes ninguém em Madri estava esperando: um puxão de cabelo, quatro jogos de suspensão, um Clássico visto de fora e uma frase do próprio técnico dele que quase nenhum treinador diz sobre um jogador do elenco.
 
-**[0:51 · FALA — Xabi Alonso, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola."
+**[0:36 · FALA — Mourinho, 17/10/2026]** "Se eu fosse ele, provavelmente não estaria aqui."
 
-> **(0:57)** Duas vezes alguém tentou transformar o Vinícius em outro jogador, e hoje quem joga na posição dele é um garoto de dezenove anos que faz exatamente o que o Xabi pedia.
+> **(0:39)** E o motivo dessa frase não é o que você está pensando. Para entender, a gente precisa voltar dez meses, até um técnico que foi demitido uma semana depois de dizer o que você vai ouvir agora. Guarde essa frase, porque até o fim deste vídeo alguém vai cumprir ela, e não vai ser o Vinícius.
+
+**[0:50 · FALA — Xabi Alonso, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola."
+
+> **(0:56)** Duas vezes alguém tentou transformar o Vinícius em outro jogador. O primeiro perdeu o emprego, o segundo levou um não, e hoje quem joga na posição dele é um garoto de dezenove anos que ninguém em Madri esperava ver ali.
 
 Takes:
-1. [FALA] Arteta em Girona · 5 s
-2. [FOTO] Arteta, zoom · 1,5 s
-3. [GRÁFICO] contador "€150M" no canto · 1,5 s
-4. [GRÁFICO] manchete real do As · 2 s
-5. [FOTO] Vini de branco · 1,5 s
-6. [GRÁFICO] mapa Madri → Londres · 2 s
-7. [FOTO] Emirates · 1,5 s
-8. [GRÁFICO] comunicado "2032" · 2 s
-9. [FOTO] Vini no Bernabéu · 1,5 s
-10. [GRÁFICO] calendário AUG → OCT → NOV virando · 2,5 s
-11. [FOTO] Camp Nou · 1 s
-12. [GRÁFICO] carimbo "SUSPENDED" sobre o Vini · 1,2 s
-13. [FOTO] Vini de costas · 1 s
-14. [GRÁFICO] placar BAR 1–2 RMA · 1,2 s
-15. [VÍDEO] torcida do Arsenal em Anfield (vídeo de torcedor) · 1,5 s
-16. [GRÁFICO] LIV 0–1 ARS "1ST WIN SINCE 2012" · 1,5 s
-17. [FOTO] Arteta comemorando · 1 s
-18. [FOTO] Mourinho em coletiva, zoom lento, tela escurece · 2,5 s
-19. [FALA] Mourinho, "wouldn't be here" em verde · 3 s
-20. [GRÁFICO] "?" verde sobre o Mourinho congelado · 2 s
-21. [GRÁFICO] calendário rebobinando NOV → JAN 2026 (som de fita) · 3 s
-22. [FOTO] Xabi · 2 s
-23. [GRÁFICO] carimbo "SACKED · 12 JAN" · 2 s
-24. [FALA] Xabi "Exijo…" · 6 s
-25. [FOTO] Vini · 1,5 s
-26. [FOTO] Arteta · 1,5 s
-27. [GRÁFICO] silhueta preta com o número "19" (o Diomande ainda escondido) · 3 s
-28. [GRÁFICO] campo tático: a ponta esquerda acende em verde · 2 s
+1. [FOTO] tela dividida Vini / Arteta, título falado · 3 s
+2. [FOTO] Girona, estádio · 1,5 s
+3. [GRÁFICO] placar GIR 1–4 ARS · 1,5 s
+4. [FOTO] Arteta · 1,5 s
+5. [FALA] Arteta em Girona · 5 s
+6. [GRÁFICO] contador "€150M" no canto · 1,5 s
+7. [GRÁFICO] manchete real do As · 2 s
+8. [GRÁFICO] mapa Madri → Londres · 2 s
+9. [GRÁFICO] comunicado "2032" · 2 s
+10. [GRÁFICO] calendário AUG → NOV virando · 2 s
+11. [GRÁFICO] ícones rápidos, 1 s cada: ✋ cabelo · "4 GAMES" · Camp Nou "BAR 1–2 RMA" · 🎙 · 4 s
+12. [FOTO] Mourinho em coletiva, tela escurece · 2 s
+13. [FALA] Mourinho, "wouldn't be here" em verde · 3 s
+14. [GRÁFICO] "?" verde sobre o Mourinho congelado · 1,5 s
+15. [CARTELA] preta, texto verde: "10 MONTHS EARLIER" (som de fita voltando) · 2 s
+16. [FOTO] Xabi · 1,5 s
+17. [GRÁFICO] "HOLD ON TO THIS SENTENCE" pequeno no topo · 1,5 s
+18. [FALA] Xabi "Exijo…" · 6 s
+19. [FOTO] Xabi + carimbo "SACKED" · 2 s
+20. [FOTO] Arteta + carimbo "REJECTED" · 2 s
+21. [GRÁFICO] silhueta preta com "19" na ponta esquerda (Diomande escondido) · 3 s
 
 ### Título + CTA 1 (1:08–1:22)
 
@@ -119,25 +113,9 @@ Takes:
 1. [CARTELA] título com riser · 4 s
 2. [CARTELA] foto do Bernabéu "THIS WEEKEND: HE'S BACK" + botão de inscrição · 10 s
 
-### Opening v2 (EN)
+### 1 · O que o Xabi pediu (1:22–3:15)
 
-**[CLIP — Arteta, Girona]** "When is Vinicius coming?" — "Thank you so much."
-
-> That smile was hiding a hundred-and-fifty-million-euro negotiation, because according to the Spanish newspaper AS, it was the manager of the English champions himself who was trying to take Vinicius away from Real Madrid. Five days later, Vinicius signed with Real until 2032, and what happened over the next three months is something nobody in Madrid saw coming. He missed the Clásico at the Camp Nou, suspended for pulling an opponent's hair, Arsenal won at Anfield for the first time in fourteen years, and Vinicius's own manager said something in public that almost no manager says about one of his own players.
-
-**[CLIP — Mourinho]** "If I were him, I probably wouldn't be here."
-
-> And the reason behind that sentence is not what you think, because this story started in January, with a manager who was sacked one week after saying this.
-
-**[CLIP — Xabi Alonso]** "I demand in every training session and every match that everyone is committed when we don't have the ball."
-
-> Twice, someone tried to turn Vinicius into a different player, and today the man playing in his position is a nineteen-year-old who does exactly what Xabi asked for.
-
-**[TITLE — ARTETA TRIED TO SAVE VINICIUS]**
-
-> And this weekend, after a four-game ban, Vinicius is back in La Liga. So before we go back to January, hit like, subscribe, and hold on to your answer, because at the end of this video there's a question about him that splits every Real Madrid fan in two.
-
-### 1 · O que o Xabi pediu (0:55–2:50)
+**[CARTELA preta, texto verde: MAY 2025]**
 
 > Em 26 de maio de 2025, o Xabi Alonso é apresentado no Real Madrid com uma frase que, na hora, parecia só educação.
 
@@ -145,7 +123,7 @@ Takes:
 
 > Um mês depois, nos Estados Unidos, ele já explicava o que "equipe" queria dizer: os onze defendem, inclusive o Mbappé e o Vinícius. Para o Vinícius, isso mudava tudo, porque com o Ancelotti ele tinha ganhado duas Champions com liberdade quase total pela esquerda, e meses antes tinha sido eleito pela FIFA o melhor jogador do mundo.
 >
-> O primeiro choque público vem em 26 de outubro de 2025, no Clássico do Bernabéu. O Real vence o Barcelona por dois a um, mas a imagem do dia é outra: aos 72 minutos, o Xabi tira o Vinícius, e ele sai de campo direto para o túnel, sem olhar para o banco. Três dias depois, ele publica um pedido de desculpas à torcida, aos companheiros e ao presidente. O nome do técnico não aparece.
+> O primeiro choque público vem em 26 de outubro de 2025, no Clássico do Bernabéu. O Real vence o Barcelona por dois a um, mas a imagem do dia é outra: aos 72 minutos, e guarde esse número, o Xabi tira o Vinícius, e ele sai de campo direto para o túnel, sem olhar para o banco. Três dias depois, ele publica um pedido de desculpas à torcida, aos companheiros e ao presidente. O nome do técnico não aparece.
 >
 > Em 4 de janeiro de 2026, contra o Betis, o Bernabéu vaia o Vinícius quando ele é substituído, e as câmeras flagram o Xabi gritando para ele não parar de pressionar. O Vinícius responde pedindo que o técnico mande os companheiros passarem a bola. Depois do jogo, o Xabi defende o jogador, mas não recua.
 
@@ -172,7 +150,9 @@ Takes:
 16. [GRÁFICO] despedida do Xabi como texto com marca-texto verde em "não saiu como gostaríamos" — 4 s
 17. [VÍDEO] Londres / Emirates por fora (banco de imagens ou agência) — 3 s
 
-### 2 · A porta de Londres (2:50–4:20)
+### 2 · A porta de Londres (3:15–4:40)
+
+**[CARTELA preta, texto verde: MAY 2026 · LONDON]**
 
 > Em maio de 2026, o Arsenal é campeão inglês pela primeira vez em vinte e dois anos, com a defesa que menos sofreu gols do campeonato, vinte e seis em trinta e oito jogos. No time do Arteta, até os pontas pressionam, e ele nunca escondeu por quê.
 
@@ -214,19 +194,23 @@ Takes:
 Takes:
 1. [CARTELA] CTA curto no canto inferior sobre foto do Diomande escurecida — 4 s
 
-### 3 · Três meses (4:25–6:00)
+### 3 · Três meses (4:45–6:20)
+
+**[CARTELA preta, texto verde: AUGUST 2026]**
 
 > O Mourinho começa protegendo o Vinícius. Em 25 de agosto, diz que ele é alvo de perseguição injusta, mas faz um pedido.
 
 **[FALA — Mourinho, 25/08/2026]** "…ele precisa controlar melhor as emoções."
 
-> Em 10 de outubro, contra o Villarreal, o Vinícius começa no banco. Entra, marca, o VAR anula o gol e, no mesmo lance, aparece ele puxando o cabelo do Nathan Saliba. Cartão vermelho direto. O gol da vitória daquela noite, um a zero, é o primeiro do Diomande pelo Real Madrid. Quatro dias depois sai a punição: quatro jogos, dois pelo puxão e dois pelos protestos contra o árbitro. Fora o Sevilla, o Barcelona, o Racing e o Valencia.
+> Em 10 de outubro, contra o Villarreal, o Vinícius começa no banco. Entra, marca, o VAR anula o gol e, no mesmo lance, aparece ele puxando o cabelo do Nathan Saliba. Cartão vermelho direto, quase no mesmo minuto em que ele tinha saído irritado do Clássico um ano antes. O gol da vitória daquela noite, um a zero, é o primeiro do Diomande pelo Real Madrid. Quatro dias depois sai a punição: quatro jogos, dois pelo puxão e dois pelos protestos contra o árbitro. Fora o Sevilla, o Barcelona, o Racing e o Valencia.
 >
 > Na semana seguinte, o Mourinho diz uma frase que nenhum técnico do Real Madrid tinha dito em público sobre um jogador do próprio elenco.
 
 **[FALA — Mourinho, 17/10/2026]** "Se eu fosse ele, provavelmente não estaria aqui. No verão passado, eu teria forçado a saída para um país, para clubes e estádios onde o respeitassem."
 
 > Ele falava das ofensas, inclusive racistas, que o Vinícius ouve nos estádios espanhóis há anos. Só que, dois meses antes, um clube de outro país tinha batido na porta dele, e ele tinha dito não.
+>
+> E aqui aparece um padrão que atravessa essa história inteira: toda vez que alguém cobra o Vinícius, outra pessoa importante entra para protegê-lo. Foi o Ancelotti durante anos, foi o clube inteiro quando boicotou a cerimônia da Bola de Ouro de 2024, e agora é o Mourinho.
 >
 > Três dias depois, antes de um jogo de Champions, perguntam ao Mourinho se o Vinícius é intocável. A resposta cabe em uma linha: "Só o escudo é intocável."
 >
@@ -256,7 +240,7 @@ Takes:
 
 > Mas teve um detalhe que quase ninguém percebeu, porque ele estava no lugar exato onde o Vinícius deveria estar.
 >
-> Nos quatro jogos de suspensão, o Real Madrid vence os quatro: quatro a um no Sevilla, dois a um no Barcelona, três a zero no Racing e três a zero no Valencia. São doze gols marcados e dois sofridos. Pela esquerda, no lugar do Vinícius, joga o garoto que o Mourinho disse que não tinha pedido. O Diomande marca contra o Villarreal, contra o Sevilla e contra o Racing, e quando o Mourinho explicou o que tinha visto nele, não falou de drible. Falou de velocidade e de trabalho defensivo, exatamente o que o Xabi Alonso cobrava em janeiro. Quando chegou, o próprio Diomande resumiu a relação com o técnico assim:
+> Nos quatro jogos de suspensão, o Real Madrid vence os quatro: quatro a um no Sevilla, dois a um no Barcelona, três a zero no Racing e três a zero no Valencia. São doze gols marcados e dois sofridos. Pela esquerda, no lugar do Vinícius, joga o garoto que o Mourinho disse que não tinha pedido. O Diomande marca contra o Villarreal, contra o Sevilla e contra o Racing, e quando o Mourinho explicou o que tinha visto nele, não falou de drible. Falou de velocidade e de trabalho defensivo, exatamente o que o Xabi Alonso cobrava em janeiro. Lembra da frase que eu pedi para você guardar? Ela finalmente foi cumprida, só que não pelo Vinícius. Quando chegou, o próprio Diomande resumiu a relação com o técnico assim:
 
 **[FALA — Diomande, 21/08/2026]** "Estou pronto para morrer por ele."
 
@@ -264,7 +248,16 @@ Takes:
 
 **[FALA — Mourinho sobre o Diomande]** "Lembro muito de quando o Vini chegou ao Madrid. Dois ou três anos depois, era um jogador de altíssimo nível."
 
-> Quatro jogos não fazem uma temporada, o Diomande ainda tem dezenove anos e o Vinícius ganhou duas Champions com essa camisa. O próprio Mourinho segue dizendo que conta com ele. Mas a suspensão acabou, e neste fim de semana o Vinícius volta a jogar a liga espanhola. [ATUALIZAR com o que aconteceu no jogo de 21–22/11.]
+**[CARTELA preta, texto verde: A FAIR QUESTION]**
+
+> Agora, uma pergunta justa. O Vinícius é alvo de ofensas racistas em estádio atrás de estádio, e nada disso é culpa dele. Em fevereiro, ainda no Benfica, o próprio Mourinho foi criticado por Seedorf e Rooney pelo que disse depois de um desses episódios, e depois mudou o tom. O talento também não está em discussão, porque ele marcou em duas finais de Champions. E quatro jogos não fazem uma temporada, ainda mais com um garoto de dezenove anos. Nenhum aviso desta história é sobre o pé do Vinícius. É sobre o que o time precisa dele quando a bola está com o adversário. E neste fim de semana, depois da suspensão, ele volta a jogar a liga espanhola. [ATUALIZAR com o jogo de 21–22/11.]
+
+Takes extras da pergunta justa:
+1. [CARTELA] "A FAIR QUESTION" · 2 s
+2. [VÍDEO] reportagem de agência sobre protestos contra o racismo · 3 s
+3. [GRÁFICO] citação do Seedorf com a data (fev/2026) · 3 s
+4. [FOTO] Vini comemorando gol em final (Commons) · 2 s
+5. [GRÁFICO] "UCL FINALS: 2022 ⚽ · 2024 ⚽" · 2,5 s
 
 Takes:
 1. [FOTO] Vinícius de costas, escurecendo — 2 s

@@ -34,7 +34,7 @@ html,body{margin:0;width:1920px;height:1080px;overflow:hidden;color:#fff;font-fa
 .flash{background:#fff;animation:flash .3s ease-out;z-index:99}@keyframes flash{from{opacity:.5}to{opacity:0}}
 .hud{font:700 25px Osw;letter-spacing:5px}
 .hud .tl{position:absolute;left:70px;top:52px;display:flex;align-items:center;gap:14px;color:#f0f0f0}
-.hud .tl i{width:14px;height:14px;background:var(--red);border-radius:50%;animation:blink 1.2s steps(2) infinite}
+.hud .tl i{width:14px;height:14px;background:var(--red);border-radius:50%;animation:none}
 @keyframes blink{50%{opacity:.25}}
 .hud .tr{position:absolute;right:70px;top:44px;border:2px solid rgba(255,255,255,.75);padding:6px 16px 5px;color:#fff;font-size:27px}
 .hud .tr b{color:var(--amber)}
@@ -217,7 +217,14 @@ document.querySelectorAll('[data-type]').forEach(e=>{const n=Math.max(0,Math.flo
         await page.screenshot({ path: `${B}/stills/${s.id}.png`, omitBackground: alpha });
       } else {
         fs.rmSync(out, { recursive: true, force: true }); fs.mkdirSync(out, { recursive: true });
-        for (let i = 0; i < s.nf; i++) {
+        // speed-up: stop once every animation has settled; assemble.py holds the last frame for the rest of the scene
+        const endT = await page.evaluate(() => { let e = 0;
+          for (const a of document.getAnimations()) e = Math.max(e, a.effect.getComputedTiming().endTime / 1000);
+          document.querySelectorAll('[data-count]').forEach(x => e = Math.max(e, +x.dataset.t1));
+          document.querySelectorAll('[data-type]').forEach(x => e = Math.max(e, +x.dataset.t0 + x.dataset.type.length / +x.dataset.cps));
+          return e; });
+        const nr = Math.min(s.nf, Number.isFinite(endT) ? Math.ceil(endT * FPS) + 2 : s.nf);
+        for (let i = 0; i < nr; i++) {
           await page.evaluate(t => __seek(t), i / FPS);
           const p = `${out}/${String(i).padStart(5, '0')}.${alpha ? 'png' : 'jpg'}`;
           await page.screenshot(alpha ? { path: p, omitBackground: true } : { path: p, type: 'jpeg', quality: 93 });

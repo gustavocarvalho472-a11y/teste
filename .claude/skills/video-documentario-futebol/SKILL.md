@@ -172,3 +172,36 @@ Rode os dois comandos longos em segundo plano e acompanhe pelo log. O `.srt` sai
 - Abertura muito dinâmica: cortes de ~1 s, gráficos pequenos no canto (não números gigantes parados), misture jogo + reação.
 - Quando citar um craque antigo, mostre ele jogando (lances/skills) ou foto; quando citar um personagem (ex.: Zico), coloque imagem dele para a pessoa saber quem é.
 - O render completo passa de 30 min; rode em background com timeout longo e reaproveite segmentos (`--reuse`, apagando só `build/seg/<id>.mp4` das cenas alteradas).
+
+## Lições do vídeo do Ferguson/Pochettino (nov/2026) — ambiente e velocidade
+
+**Ferramentas grátis que funcionam neste container (huggingface, YouTube, Openverse e Flickr estão bloqueados)**
+- **Narração**: Kokoro em ONNX, com o modelo baixado do GitHub (não do huggingface):
+  `pip install kokoro-onnx soundfile` e os arquivos `kokoro-v1.0.onnx` / `voices-v1.0.bin` de `github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/` em `/opt/kokoro`.
+  Script: `scripts/tts_kokoro_onnx.py` (lê `lines.txt` no formato `id|texto`, gera um MP3 por beat + `durations.json`, corta silêncio das pontas, e tem um dicionário `SAY` de pronúncia: Pochettino → "Potchettino", Solskjær → "Solshare" etc.). ~2 s por frase em CPU.
+  Atenção: o comando em segundo plano pode "terminar" antes do download acabar; confira o tamanho dos arquivos antes de testar.
+- **Transcrição (achar falas e tempos) sem gastar créditos**: sherpa-onnx + Whisper base.en do GitHub:
+  `pip install sherpa-onnx` e `github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/sherpa-onnx-whisper-base.en.tar.bz2` em `/opt/asr`.
+  `python3 scripts/asr.py fonte.mp4 [inicio fim janela]` imprime `[t] texto` por janela (8 s para varrer, 2–3 s para cravar o início e o fim da fala). 60 s de áudio em ~6 s. Use no lugar de `vidiq_video_transcript` (5 créditos) e do Nexlev (5 transcrições/dia).
+- **Nexlev grátis**: 5 transcrições por 24 h e **50 chamadas por semana no total** (as buscas gastam ~5 mil tokens cada). Planeje as buscas: uma rodada só, anotando todos os IDs úteis de cada resultado.
+- **Importar do YouTube**: `vidiq_video_upload` (grátis), no máximo ~10 jobs ao mesmo tempo; baixe o `videoUrl` com `curl` (host `storage.googleapis.com`).
+- **Wikimedia Commons**: a API (`commons.wikimedia.org/w/api.php`) pode ficar dias em 429 para o IP de saída, e as miniaturas vêm de `thumb.wikimedia.org` (bloqueado). Baixe o original de `upload.wikimedia.org` e reduza com ffmpeg (`scripts/photos_commons.py`). Se der 429, deixe um laço tentando a cada 5 min e siga com vídeo.
+
+**Escolha de takes**
+- Fontes de câmera contínua (discurso, coletiva) têm 1–3 "planos" no `shots.py`; use `scripts/peek.py nome passo` (quadro a cada N s com o tempo escrito) e `win(fonte, a, b)`.
+- Coletiva em plano aberto (três pessoas na mesa): recorte no rosto com `CROP` (ex.: `crop=iw*0.38:ih*0.38:iw*0.285:ih*0.36,`).
+- Canal de fã com logo no canto e vídeo de notícia com tarja de nome: recorte (`crop=iw*0.8:ih*0.8:iw*0.2:ih*0.2,` tira o canto superior esquerdo; `crop=iw*0.8:ih*0.8:iw*0.1:0,` tira o rodapé).
+- Vídeo que "lê" matéria com voz robótica não é fala real: use só o texto citado, confirmado na imprensa, como gráfico `define` com a data.
+- Nome em `lower` só sobre take em que a pessoa aparece de rosto; take de treino genérico não serve.
+
+**Render mais rápido**
+- `render.js` agora para de capturar quadros quando todas as animações da cena terminam (calcula o fim pelas animações CSS + contadores + digitação) e o `assemble.py` congela o último quadro (`overlay` repete o último quadro; cenas de tela cheia usam `tpad=stop_mode=clone`). Por isso o ponto vermelho do selo não pisca mais (animação infinita impede a otimização).
+- `assemble.py` com `-preset fast`.
+- Prévia: `node render.js --still` leva ~3 s para 69 cenas. Monte a grade com PIL (o `concat` do ffmpeg com JPEGs de formatos diferentes sai preto).
+
+**Direitos (vídeo do Ferguson foi bloqueado pela Premier League)**
+- Tudo o que foi filmado pela transmissão de um jogo da Premier League é da **FA Premier League**, mesmo quando o upload é do Sky Sports Retro ou de outro canal: discurso no gramado, volta olímpica, entrevista pós-jogo com o painel de patrocinadores da PL. A reivindicação veio como "MUN_vs_SWA — visual — bloqueado no mundo todo".
+- Coletivas com fundo da **UEFA** (Champions/Europa League) também são de risco alto. Coletivas no fundo do clube ou da federação são de risco médio.
+- Para uma fala famosa dita no estádio, procure **vídeo de torcedor na arquibancada** (áudio do sistema de som + imagem própria) e use **legenda grande** — a fala continua no vídeo sem o sinal da transmissão. Imagem por cima: fotos/quadros congelados animados.
+- `build.py` aceita fala com áudio de uma fonte e imagens de pools: `C(FAN, ss, d, nome, papel, frases, pools="fg_ph+fan", cut=1.9)`.
+- Faça uma tabela fonte → dono provável → decisão no README antes de montar, e um `assert` no `build.py` proibindo as fontes removidas.

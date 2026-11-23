@@ -1,0 +1,45 @@
+{
+ "MOU_EMOTIONS": {
+  "src": "mou_presser_aug25",
+  "ss": 545.0,
+  "d": 17.0,
+  "name": "JOSÉ MOURINHO",
+  "role": "Real Madrid press conference · August 25, 2026",
+  "phrases": [
+   [
+    0.2,
+    4.8,
+    "In this case, I've been *trying*"
+   ],
+   [
+    4.9,
+    9.8,
+    "to get Vini to have *more emotional control,*"
+   ],
+   [
+    9.9,
+    16.8,
+    "but minutes into the game *he gets kicked. That's an assault.*"
+   ]
+  ]
+ },
+ "XABI_PRES": {
+  "src": "xabi_presentation",
+  "ss": 165.0,
+  "d": 9.0,
+  "name": "XABI ALONSO",
+  "role": "Presented as Real Madrid coach · May 26, 2025",
+  "phrases": [
+   [
+    0.2,
+    4.8,
+    "Right now, it's not that I'm arriving *with demands,*"
+   ],
+   [
+    4.9,
+    8.8,
+    "but wanting to *work as a team,* always with the idea of improving."
+   ]
+  ]
+ }
+}

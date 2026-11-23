@@ -68,7 +68,7 @@ Legenda dos takes: **[FALA]** áudio original com legenda · **[VÍDEO]** imagem
 >
 > Ela voltou em outubro, quando ele puxou o cabelo de um jogador do Villarreal, levou quatro jogos de suspensão e assistiu de fora o Real Madrid ganhar os quatro, inclusive o Clássico no Camp Nou, com um garoto de dezenove anos jogando na posição dele e fazendo justamente o que o Xabi Alonso tinha cobrado do Vinícius poucos dias antes de ser demitido.
 
-**[FALA — Xabi Alonso, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola."
+**[FALA — Xabi Alonso, jan/2026]** "A pressão de todos é imprescindível, e eu cobro nos treinos e nos jogos que todos estejam comprometidos com o momento em que não temos a bola."
 
 > Em menos de um ano, o Vinícius teve duas chances de virar outro tipo de jogador, uma com o técnico que tentou mudá-lo dentro do Real Madrid e outra com o técnico que ofereceu um clube novo inteiro para isso, e nas duas vezes escolheu continuar onde estava, do jeito que sempre jogou. Neste fim de semana, depois da suspensão, ele volta a campo num Real Madrid que passou um mês inteiro ganhando sem ele, e para entender como se chegou até aqui é preciso voltar a maio do ano passado.
 
@@ -111,9 +111,9 @@ Takes:
 >
 > Em 26 de outubro de 2025, o Real Madrid ganha do Barcelona por dois a um no Bernabéu, e aos 72 minutos o Xabi tira o Vinícius do jogo. Ele sai reclamando direto para o vestiário e, três dias depois, publica um pedido de desculpas em que cita a torcida, os companheiros e o presidente, mas não cita o técnico. Vale guardar esse minuto, setenta e dois, porque ele volta mais adiante.
 >
-> Em 4 de janeiro de 2026, contra o Betis, as câmeras pegam o Xabi gritando para o Vinícius não parar de pressionar e o Vinícius respondendo que mandassem os companheiros passarem a bola, e na hora da substituição o Bernabéu vaia o próprio jogador. Na entrevista depois do jogo, o Xabi defende o jogador, mas deixa claro que a cobrança não ia mudar.
+> Em 4 de janeiro de 2026, contra o Betis, as câmeras pegam o Xabi gritando para o Vinícius não parar de pressionar e o Vinícius respondendo que mandassem os companheiros passarem a bola, e na hora da substituição o Bernabéu vaia o próprio jogador. Dias depois, antes da Supercopa, o Xabi defende o jogador, mas deixa claro que a cobrança não ia mudar.
 
-**[FALA — Xabi, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola. Faria o mesmo com qualquer jogador."
+**[FALA — Xabi, jan/2026]** "A pressão de todos é imprescindível, e eu cobro nos treinos e nos jogos que todos estejam comprometidos com o momento em que não temos a bola, os de cima e os de trás, ativos, com as linhas juntas."
 
 > Uma semana depois o Real perde a final da Supercopa para o Barcelona, e no dia 12 de janeiro o Xabi Alonso deixa o clube, sete meses e meio depois de chegar. Segundo o The Athletic, o Vinícius vinha segurando a renovação justamente para ver se o Xabi ia continuar, e com a saída dele a primeira tentativa de transformar o Vinícius em outro tipo de jogador terminou com o técnico indo embora e o jogador ficando. A segunda viria de um técnico que tinha acabado de provar, na Inglaterra, que esse jeito de jogar ganha campeonato.
 
@@ -219,7 +219,7 @@ Takes:
 
 ### 4 · O garoto na posição dele (6:15–7:15)
 
-> Durante a suspensão, o Real ganhou os quatro jogos, de quatro a um no Sevilla, dois a um no Barcelona, três a zero no Racing e três a zero no Valencia, com doze gols marcados e só dois sofridos, e na ponta esquerda, no lugar do Vinícius, jogou o Diomande, que fez gol contra o Villarreal, contra o Sevilla e contra o Racing. Quando o Mourinho explicou o que tinha visto nele, falou de velocidade e, principalmente, de trabalho defensivo, que é exatamente o que o Xabi Alonso cobrava do Vinícius naquela entrevista de janeiro que abriu este vídeo. Quando chegou, o próprio Diomande disse isto sobre o técnico.
+> Durante a suspensão, o Real ganhou os quatro jogos, de quatro a um no Sevilla, dois a um no Barcelona, três a zero no Racing e três a zero no Valencia, com doze gols marcados e só dois sofridos, e na ponta esquerda, no lugar do Vinícius, jogou o Diomande, que fez gol contra o Villarreal, contra o Sevilla e contra o Racing. Quando o Mourinho explicou o que tinha visto nele, falou de velocidade e, principalmente, de trabalho defensivo, que é exatamente o que o Xabi Alonso cobrava do Vinícius naquela coletiva de janeiro que abriu este vídeo. Quando chegou, o próprio Diomande disse isto sobre o técnico.
 
 **[FALA — Diomande, 21/08/2026]** "Estou pronto para morrer por ele."
 

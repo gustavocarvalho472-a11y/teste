@@ -13,3 +13,6 @@ brazil/assets/music
 **/out/*.mp4
 **/assets/vo_pt/
 **/assets/vo_en/
+vinicius/assets/music/
+vinicius/assets/photos/
+vinicius/node_modules/

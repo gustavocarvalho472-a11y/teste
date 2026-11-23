@@ -38,6 +38,12 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 - Áudio original em PT → legenda em EN.
 - Tirou Lula da foto do Romário: evitar política.
 
+## Texto que soa como IA (o dono rejeitou — nov/2026, vídeo Vinícius/Arteta)
+- Frase de efeito curta e solta, sobretudo na abertura: "O Arteta tentou salvar o Vinícius, e o Vinícius disse não.", "Agora ele sabia.", "E em Londres alguém estava prestando atenção."
+- Fórmulas de clickbait: "não é o que você está pensando", "a parte que ninguém viu", "teve um detalhe que quase ninguém percebeu", "e não vai ser o X".
+- Antítese montada: "não foi X, foi Y", "a escolha mais corajosa ou a mais fácil?", trincas simétricas ("foi A, foi B, e agora é C").
+- O que funciona: frases longas que puxam a próxima, gancho dentro da própria frase ("e parecia que a história tinha terminado ali"), cada bloco começando com data e terminando em fala real, tese retomada no fim de cada bloco.
+
 ## Checklist de publicação
 1. Subir como não listado e esperar a verificação de direitos autorais; se houver reivindicação, trocar só os minutos apontados.
 2. Enviar o `.srt` em inglês.

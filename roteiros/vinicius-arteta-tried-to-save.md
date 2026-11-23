@@ -66,7 +66,7 @@ Legenda dos takes:
 
 > **(0:00)** O Arteta tentou salvar o Vinícius, e o Vinícius disse não.
 >
-> **(0:03)** Primeiro de agosto, Girona. O Arsenal acaba de ganhar de quatro a um, um repórter faz a pergunta que todo mundo quer fazer, e olha a reação do técnico.
+> **(0:03)** No dia primeiro de agosto, em Girona, o Arsenal acaba de ganhar de quatro a um, um repórter faz a pergunta que todo mundo quer fazer, e olha a reação do técnico.
 
 **[0:09 · FALA — Arteta, Girona, 01/08/2026]** "When is Vinicius coming?" — sorri — "Thank you so much." *(levanta; impacto grave)*
 
@@ -202,9 +202,9 @@ Takes:
 
 **[FALA — Mourinho, 25/08/2026]** "…ele precisa controlar melhor as emoções."
 
-> Em 10 de outubro, contra o Villarreal, o Vinícius começa no banco. Entra, marca, o VAR anula o gol e, no mesmo lance, aparece ele puxando o cabelo do Nathan Saliba. Cartão vermelho direto, quase no mesmo minuto em que ele tinha saído irritado do Clássico um ano antes. O gol da vitória daquela noite, um a zero, é o primeiro do Diomande pelo Real Madrid. Quatro dias depois sai a punição: quatro jogos, dois pelo puxão e dois pelos protestos contra o árbitro. Fora o Sevilla, o Barcelona, o Racing e o Valencia.
+> Em 10 de outubro, contra o Villarreal, o Vinícius começa no banco, entra no segundo tempo e chega a marcar, mas o VAR anula o gol e, no mesmo lance, mostra ele puxando o cabelo do Nathan Saliba. É vermelho direto, quase no mesmo minuto em que ele tinha saído irritado do Clássico um ano antes. O gol da vitória daquela noite, um a zero, é o primeiro do Diomande pelo Real Madrid. Quatro dias depois sai a punição: quatro jogos, dois pelo puxão e dois pelos protestos contra o árbitro. Fora o Sevilla, o Barcelona, o Racing e o Valencia.
 >
-> Na semana seguinte, o Mourinho diz uma frase que nenhum técnico do Real Madrid tinha dito em público sobre um jogador do próprio elenco.
+> Na semana seguinte, o Mourinho diz a frase que você ouviu no começo deste vídeo, agora inteira.
 
 **[FALA — Mourinho, 17/10/2026]** "Se eu fosse ele, provavelmente não estaria aqui. No verão passado, eu teria forçado a saída para um país, para clubes e estádios onde o respeitassem."
 

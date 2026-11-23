@@ -111,7 +111,7 @@ Takes:
 >
 > Em 26 de outubro de 2025, o Real Madrid ganha do Barcelona por dois a um no Bernabéu, e aos 72 minutos o Xabi tira o Vinícius do jogo. Ele sai reclamando direto para o vestiário e, três dias depois, publica um pedido de desculpas em que cita a torcida, os companheiros e o presidente, mas não cita o técnico. Vale guardar esse minuto, setenta e dois, porque ele volta mais adiante.
 >
-> Em 4 de janeiro de 2026, contra o Betis, o Bernabéu vaia o Vinícius na substituição depois de as câmeras pegarem o Xabi gritando para ele não parar de pressionar, e o Vinícius respondendo que mandassem os companheiros passarem a bola. Na entrevista depois do jogo, o Xabi defende o jogador, mas deixa claro que a cobrança não ia mudar.
+> Em 4 de janeiro de 2026, contra o Betis, as câmeras pegam o Xabi gritando para o Vinícius não parar de pressionar e o Vinícius respondendo que mandassem os companheiros passarem a bola, e na hora da substituição o Bernabéu vaia o próprio jogador. Na entrevista depois do jogo, o Xabi defende o jogador, mas deixa claro que a cobrança não ia mudar.
 
 **[FALA — Xabi, jan/2026]** "Exijo em cada treino e em cada jogo que todos estejam comprometidos quando não temos a bola. Faria o mesmo com qualquer jogador."
 
@@ -241,7 +241,7 @@ Takes:
 
 ### Para ser justo (7:15–7:45)
 
-> Agora, é preciso ser justo com o Vinícius, que é alvo de ofensas racistas em estádio atrás de estádio sem ter culpa nenhuma disso, que marcou em duas finais de Champions, e que tem do outro lado um garoto de dezenove anos com só quatro jogos de amostra. O que todos esses técnicos pediram a ele tem a ver com o que ele faz quando a bola está com o adversário, e foi isso que o Diomande entregou no mês em que jogou no lugar dele. Neste fim de semana, depois da suspensão, o Vinícius volta a jogar a liga espanhola. [ATUALIZAR com o jogo de 21–22/11.]
+> Agora, para ser justo com o Vinícius, é bom lembrar que ele é alvo de ofensas racistas em estádio atrás de estádio sem ter culpa nenhuma disso, que marcou em duas finais de Champions e que quatro jogos de um garoto de dezenove anos ainda são pouco para qualquer conclusão definitiva. O que todos esses técnicos pediram a ele tem a ver com o que ele faz quando a bola está com o adversário, e foi isso que o Diomande entregou no mês em que jogou no lugar dele. Neste fim de semana, depois da suspensão, o Vinícius volta a jogar a liga espanhola. [ATUALIZAR com o jogo de 21–22/11.]
 
 Takes:
 1. [VÍDEO] reportagem de agência sobre protestos contra o racismo · 3 s

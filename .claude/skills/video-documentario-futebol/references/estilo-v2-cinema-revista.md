@@ -70,6 +70,9 @@ O editor decide a câmera pelo rosto. A regra é automática, com correção man
 
 Detecção de rosto: `faces.py` usa cascatas Haar do OpenCV. **Instale `pip install "opencv-python-headless<5"`**, porque a versão 5 não traz as cascatas e o download do YuNet no GitHub dá 403. Em coletivas o detector acerta quase sempre. Em imagem de torcida ele trava em torcedores, então o Vini precisa de foco manual (`VFIX` por janela e `FIX` por foto). A caixa Haar cobre da testa ao queixo, então a altura dela é a altura do rosto.
 
+- **Jogador correndo** (filmagem da arquibancada): use `zcap` de 1,3× e comece a janela onde o foco manual foi medido (`ss0`). Com zoom maior, ele sai do quadro.
+- **Foto congelada**: confira se a cabeça está inteira. O recorte que tira a logo do canal pode decapitar o jogador; nesse caso, recorte de novo só aquele quadro com outra área limpa.
+
 **Conferência obrigatória antes do render**: `python3 camsheet.py` gera `build/v2/camera_*.jpg`, com um quadro por plano, a caixa branca (enquadramento inicial), a caixa lime (final) e um ponto vermelho no rosto detectado. Procure três coisas: caixa no torcedor em vez do jogador, cabeça cortada pela área limpa e plano estático demais. Corrija `FIX`/`VFIX` e gere de novo.
 
 ## Som (`assemble2.py`)

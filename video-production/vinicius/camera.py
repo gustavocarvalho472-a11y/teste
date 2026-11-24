@@ -42,6 +42,7 @@ def plan(shot, i=0):
     zmax = 1.0 if kind == "plate" else max(1.0, (MAXMAG_PHOTO if kind == "photo" else MAXMAG) / s0)
     if kind == "plate":
         zmax = 1.08
+    zmax = min(zmax, max(1.0, shot.get("zcap", 9.0)))   # moving subjects: keep a looser frame so they stay in shot
     f0, f1 = shot.get("face0"), shot.get("face1") or shot.get("face0")
     if f0 is None and f1 is not None: f0 = f1
     move = shot.get("move") or ("in" if i % 2 == 0 else "out")

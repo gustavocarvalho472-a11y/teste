@@ -25,12 +25,12 @@ def span(src, a, b, step=5.0, **k):
 POOLS = {
  "arteta":    span(AG, 222.0, 236.0, 4.6) + [Ph("arteta_face"), Ph("arteta_mz")],
  "arteta_ph": [Ph("arteta_smile"), Ph("arteta_face"), Ph("arteta_mz")],
- "vini":      [V(VB, 47.0, 51.8), Ph("vini_walk"), V(VB, 57.6, 61.8, safe=FAN), V(VB, 24.0, 29.0), Ph("vini_stand"), V(VB, 14.0, 17.6),
+ "vini":      [V(VB, 47.0, 51.8), Ph("vini_alone"), V(VB, 57.6, 61.8, safe=FAN), V(VB, 24.0, 29.0), Ph("vini_stand"), V(VB, 14.0, 17.6),
                V(VB, 51.8, 55.6), V(VB, 62.0, 65.4, safe=FAN), Ph("vini_bench"), V(VB, 38.0, 43.0), Ph("vini_pitch"), V(VB, 29.0, 34.0)],
- "vini_sub":  [V(VB, 14.0, 17.6), V(VB, 17.6, 21.4), Ph("vini_sub"), Ph("vini_bench"), Ph("vini_walk")],
+ "vini_sub":  [V(VB, 14.0, 17.6), V(VB, 17.6, 21.4), Ph("vini_smile"), Ph("vini_bench")],
  "vini_pitch": [V(VB, 47.0, 51.8), V(VB, 38.0, 43.0), V(VB, 24.0, 29.0), Ph("vini_stand"), V(VB, 51.8, 55.6), V(VB, 29.0, 34.0), Ph("vini_pitch")],
  "vini_fans": [V(VB, 57.6, 61.8, safe=FAN), V(VB, 62.0, 65.4, safe=FAN)],
- "vini_ph":   [Ph("vini_walk"), Ph("vini_stand"), Ph("vini_bench"), Ph("vini_sub"), Ph("vini_hoarding"), Ph("vini_pitch")],
+ "vini_ph":   [Ph("vini_alone"), Ph("vini_stand"), Ph("vini_bench"), Ph("vini_smile"), Ph("vini_hoarding"), Ph("vini_fans"), Ph("vini_pitch")],
  "vini_wall": [V(RF, 18.0, 22.4), V(RF, 22.4, 26.4), Ph("vini_hoarding")],
  "xabi":      span(XP, 21.0, 61.0) + span(XP, 300.0, 330.0) + span(XP, 520.0, 545.0),
  "xabi_ph":   [Ph("xabi_a"), Ph("xabi_b"), Ph("xabi_c"), Ph("xabi_d")],
@@ -45,10 +45,10 @@ POOLS = {
 }
 # framing fixes where the detector is wrong or the subject is not a face (checked on build/v2/camera.jpg)
 FIX = {
- "vini_walk": {"face0": [0.32, 0.14, 0.24]}, "vini_sub": {"face0": [0.28, 0.13, 0.2]}, "vini_bench": {"face0": [0.42, 0.17, 0.14]},
+ "vini_fans": {"face0": [0.46, 0.36, 0.3]}, "vini_smile": {"face0": [0.70, 0.38, 0.32]}, "vini_alone": {"face0": [0.67, 0.21, 0.1], "zcap": 1.4}, "vini_bench": {"face0": [0.42, 0.17, 0.14]},
  "vini_stand": {"face0": [0.74, 0.20, 0.09]}, "vini_pitch": {"face0": None, "focus": (0.84, 0.42)}, "vini_hoarding": {"face0": [0.79, 0.42, 0.14]},
  "diom_face": {"face0": [0.69, 0.42, 0.42]}, "diom_face2": {"face0": [0.66, 0.42, 0.5]}, "papers": {"focus": (0.45, 0.4), "face0": None},
- "emirates_bus": {"face0": None, "focus": (0.5, 0.55), "move": "pan"}, "bernabeu": {"move": "pan"}, "bernabeu2": {"move": "pan"},
+ "emirates_bus": {"face0": None, "focus": (0.5, 0.55), "move": "pan"}, "bernabeu": {"move": "pan", "focus": (0.5, 0.66)}, "bernabeu2": {"move": "pan", "focus": (0.5, 0.56)},
  "ars_champ": {"face0": None, "move": "pan"}, "kiosk": {"face0": None}, "diom_shirt": {"face0": [0.507, 0.184, 0.1]},
 }
 
@@ -74,9 +74,9 @@ def detect(sh):
 VFIX = {   # (source, window start) -> manual framing (fan footage: the detector locks on supporters, not on Vini)
  (DS, 0.6): {"face0": None, "focus": (0.22, 0.58), "move": "in"},
  (VB, 14.0): {"face0": None, "focus": (0.56, 0.35), "move": "in"}, (VB, 17.6): {"face0": None, "focus": (0.36, 0.32), "move": "in"},
- (VB, 24.0): {"face0": [0.63, 0.42, 0.1], "face1": [0.43, 0.40, 0.1]}, (VB, 29.0): {"face0": [0.5, 0.38, 0.1], "face1": [0.2, 0.3, 0.12], "move": "out"},
- (VB, 38.0): {"face0": [0.53, 0.38, 0.1], "face1": [0.38, 0.33, 0.1]}, (VB, 47.0): {"face0": [0.45, 0.14, 0.09], "face1": [0.85, 0.12, 0.09]},
- (VB, 51.8): {"face0": [0.8, 0.2, 0.09], "face1": [0.8, 0.26, 0.09]},
+ (VB, 24.0): {"zcap": 1.32, "ss0": True, "face0": [0.63, 0.42, 0.1], "face1": [0.43, 0.40, 0.1]}, (VB, 29.0): {"zcap": 1.32, "ss0": True, "face0": [0.5, 0.38, 0.1], "face1": [0.2, 0.3, 0.12], "move": "out"},
+ (VB, 38.0): {"zcap": 1.32, "ss0": True, "face0": [0.53, 0.38, 0.1], "face1": [0.38, 0.33, 0.1]}, (VB, 47.0): {"zcap": 1.32, "ss0": True, "face0": [0.45, 0.14, 0.09], "face1": [0.85, 0.12, 0.09]},
+ (VB, 51.8): {"zcap": 1.32, "ss0": True, "face0": [0.8, 0.2, 0.09], "face1": [0.8, 0.26, 0.09]},
  (VB, 57.6): {"face0": [0.39, 0.21, 0.26], "face1": [0.55, 0.27, 0.26]}, (VB, 62.0): {"face0": [0.57, 0.24, 0.27], "face1": [0.56, 0.30, 0.27]},
 }
 
@@ -91,6 +91,7 @@ def allocate(pools, nf, cut, opts):
         sh = {k: v for k, v in it.items() if k not in ("a", "b")}; sh["a"] = it["a"]; sh["frames"] = frames
         if sh["kind"] == "video":
             sh["slow"] = round(min(1.6, max(1.0, d / L)), 3); sh["ss"] = round(it["a"] + max(0, (L - d * 1.0 / sh["slow"]) / 2) if L > d else it["a"], 2)
+            if VFIX.get((os.path.basename(sh["src"])[:-4], round(it["a"], 1)), {}).get("ss0"): sh["ss"] = round(it["a"] + 0.1, 2)
         sh["grade"] = opts.get("grade", "color"); sh["i"] = len(SHOTS)
         out.append(sh); SHOTS.append(sh)
     return out
@@ -136,7 +137,7 @@ SEQ = [
  SB(XS, 485.6, 12.4, [(a, b, t, None) for a, b, t in XABI_Q], l3=("Xabi Alonso", "Real Madrid manager · January 2026"), visual="xabi_ph"),
  L("B04", F(.34, "xabi", cut=3.0), F(.33, "arteta", cut=3.0), F(.33, "vini", cut=3.0)),
  L("B05", F(.6, "vini_pitch", cut=3.5), F(.4, "madrid", cut=2.6)),
- CARD("title", 5.2, sfx="title", kicker="A football story", l1="Arteta Tried", l2="<i>to Save</i> Vinicius", sub="Two chances to change · One choice", photo="vini_walk", pos="50% 30%"),
+ CARD("title", 5.2, sfx="title", kicker="A football story", l1="Arteta Tried", l2="<i>to Save</i> Vinicius", sub="Two chances to change · One choice", photo="vini_alone", pos="50% 30%"),
  L("B06", F(1, "vini_fans+vini", CTA("Subscribe", "New story every week", a=1.0, b=-0.6), cut=4.4), music="beat"),
  CARD("chapter", 4.4, num="01", date="May 2025 — Madrid", title="The<br>Request", synopsis="Xabi Alonso arrives with one condition: all eleven defend.", photo="xabi_a", pos=panel_pos("xabi_a")),
  L("B07", F(.55, "xabi", L3("Xabi Alonso", "Unveiled as Real Madrid manager · 26 May 2025", a=0.6, b=6.4)), F(.45, "madrid+xabi")),
@@ -149,7 +150,7 @@ SEQ = [
           text="An apology to the fans, to his teammates and to the president. *The coach is not mentioned.*")),
  L("B11", PLT(1, "impact", big="72'", label="Remember this minute", photo="vini_bench", size=360, sfx="hit", focus=(0.3, 0.35))),
  L("B12", F(.62, "vini_sub", SL("04 · 01 · 2026 — Real Madrid 5–1 Betis", a=0.4)),
-      PLT(.38, "print", photo="vini_walk", caption="Booed by his own stadium.", meta="Bernabéu · 04.01.2026", pos="50% 25%")),
+      PLT(.38, "print", photo="vini_alone", caption="Booed by his own stadium.", meta="Bernabéu · 04.01.2026", pos="62% 30%")),
  SB(XS, 485.6, 17.6, [(a, b, t, None) for a, b, t in XABI_Q[:2]] + [(8.1, 12.3, "to the moment *when we don't have the ball,*", None), (12.4, 17.5, "the ones up front and the ones at the back: *active, lines together.*", None)],
     l3=("Xabi Alonso", "Before the Super Cup · January 2026"), visual="xabi_ph"),
  L("B13", F(1, "xabi_ph", SL("12 · 01 · 2026 — Xabi Alonso leaves Real Madrid", a=0.5), cut=3.6, grade="bw")),

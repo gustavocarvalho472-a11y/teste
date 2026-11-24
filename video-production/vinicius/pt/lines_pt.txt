@@ -1,0 +1,57 @@
+# id|voz|texto  (N = narrador pm_alex · F = falas reais traduzidas, pm_santa · # = pausa de capítulo)
+F00|F|E eu preciso te perguntar: quando é que o Vini chega?
+F01|F|Muito obrigado.
+B00|N|Quando perguntaram ao Mikel Arteta, depois de um amistoso do Arsenal em Girona no começo de agosto, quando o Vinícius ia chegar, ele sorriu, agradeceu e foi embora, e quem assistiu achou que era só mais um técnico fugindo de pergunta sobre mercado.
+B01|N|Só que, segundo o jornal Ás, da Espanha, era o próprio Arteta quem estava conduzindo a negociação, com a promessa de fazer do Vinícius o centro do time campeão inglês, um time em que até os pontas voltam para marcar.
+B02|N|Cinco dias depois, o Vinícius renovou com o Real Madrid até 2032, e parecia que a história tinha terminado ali.
+B03|N|Ela voltou em outubro, quando ele puxou o cabelo de um jogador do Villarreal, levou quatro jogos de suspensão e assistiu de fora o Real Madrid ganhar os quatro, inclusive o Clássico no Camp Nou, com um garoto de dezenove anos jogando na posição dele e fazendo justamente o que o Xabi Alonso tinha cobrado do Vinícius poucos dias antes de ser demitido.
+F02|F|A pressão de todos é imprescindível, e eu cobro, nos treinos e nos jogos, que todos estejam comprometidos com o momento em que não temos a bola.
+B04|N|Em menos de um ano, o Vinícius teve duas chances de virar outro tipo de jogador, uma com o técnico que tentou mudá-lo dentro do Real Madrid, e outra com o técnico que ofereceu um clube novo inteiro para isso, e nas duas vezes escolheu continuar onde estava, jogando do jeito que sempre jogou.
+B05|N|Agora, com a suspensão cumprida, ele volta a um Real Madrid que acabou de passar um mês inteiro ganhando sem ele, e para entender como se chegou até aqui, é preciso voltar a maio do ano passado.
+T1|#|
+B06|N|Antes de voltar para o começo dessa história, se você curte esse tipo de análise, deixa o like, se inscreve no canal e manda este vídeo para aquele amigo madridista que ainda acha que o problema do Real Madrid sempre foi o técnico.
+T2|#|
+B07|N|Em maio de 2025, quando o Xabi Alonso foi apresentado no Bernabéu, ele fez questão de dizer que não chegava com exigências e que vinha para trabalhar em equipe, e pouca gente percebeu que essa palavra ia virar o centro de tudo o que aconteceu com o Vinícius nos meses seguintes.
+F03|F|Neste momento, não é que eu chegue com exigências, mas com vontade de trabalhar como equipe, sempre com a ideia de melhorar.
+B08|N|Um mês depois, no Mundial de Clubes, ele explicou o que queria dizer: os onze defendem, sem exceção, e isso valia para o Mbapê e para o Vinícius, que com o Ancelóti tinha ganhado duas Tchâmpions jogando com liberdade quase total pela esquerda, e que seis meses antes tinha sido eleito pela FIFA o melhor jogador do mundo.
+B09|N|Era um pedido difícil de engolir naquele momento da carreira, e o primeiro sinal apareceu no Clássico de outubro.
+B10|N|Em 26 de outubro de 2025, o Real Madrid ganha do Barcelona por dois a um no Bernabéu, e aos setenta e dois minutos o Xabi tira o Vinícius do jogo. Ele sai reclamando direto para o vestiário e, três dias depois, publica um pedido de desculpas que cita a torcida, os companheiros e o presidente, mas não cita o técnico.
+B11|N|Guarde esse minuto, setenta e dois, porque ele volta mais adiante nesta história.
+B12|N|Em 4 de janeiro de 2026, contra o Bétis, as câmeras pegam o Xabi gritando para o Vinícius não parar de pressionar, e o Vinícius respondendo que os companheiros deviam passar a bola para ele, e quando ele é substituído, o Bernabéu vaia o próprio jogador. Dias depois, antes da Supercopa, o Xabi defende o jogador, mas deixa claro que a cobrança não ia embora.
+F04|F|A pressão de todos é imprescindível, e eu cobro, nos treinos e nos jogos, que todos estejam comprometidos com o momento em que não temos a bola, os da frente e os de trás: ativos, com as linhas juntas.
+B13|N|Uma semana depois, o Real perde a final da Supercopa para o Barcelona, e no dia 12 de janeiro o Xabi Alonso deixa o clube, sete meses e meio depois de chegar.
+B14|N|Segundo o site Dê Átlétic, o Vinícius vinha segurando a renovação justamente para ver se o Xabi ia continuar, e com a saída dele, a primeira tentativa de transformar o Vinícius em outro tipo de jogador terminou com o técnico indo embora e o jogador ficando.
+B15|N|A segunda viria de um técnico que tinha acabado de provar, na Inglaterra, que esse jeito de jogar ganha títulos.
+T3|#|
+B16|N|Em maio de 2026, o Arsenal do Mikel Arteta é campeão inglês pela primeira vez em vinte e dois anos, com a melhor defesa do campeonato, vinte e seis gols sofridos em trinta e oito jogos, e o Arteta sempre explicou o que pede aos jogadores em termos muito simples.
+F05|F|Eu só peço uma coisa: respeito e comprometimento. Só isso.
+B17|N|Em Madri, o Real contrata o José Mourinho para o lugar do Arbeloa, e o Vinícius chega ao meio do ano com o contrato terminando em 2027.
+B18|N|É nesse momento que, segundo o Ás, o próprio Arteta assume a negociação, apresenta ao Vinícius o projeto do Arsenal e promete que ele seria a referência do time pela esquerda, no lugar do Martinelli, enquanto o Real Madrid avisa que não aceita menos de cento e cinquenta milhões de euros.
+B19|N|Pela segunda vez em menos de um ano, alguém oferecia ao Vinícius a chance de virar outro jogador, desta vez num clube campeão e num país novo, e a resposta veio no dia 6 de agosto, quando o Real anunciou a renovação dele até 2032, cinco dias depois daquele sorriso do Arteta em Girona.
+B20|N|No mesmo verão, o Real Madrid paga ao Láipzig cerca de cento e vinte e cinco milhões de euros por um ponta-esquerda de dezenove anos da Costa do Marfim, o Yan Diomandê, e quando perguntam ao Mourinho se ele pediu essa contratação, ele não faz rodeio.
+F06|F|Não pedi, mas queria.
+B21|N|E se você está curtindo essa história, aproveita para se inscrever, porque é a partir daqui que ela começa a se resolver.
+T4|#|
+B22|N|No fim de agosto, o Mourinho começa defendendo o Vinícius, dizendo que ele é perseguido de forma injusta nos estádios, mas no mesmo dia faz um pedido que outro técnico já tinha feito.
+F07|F|Neste caso, eu tenho tentado que o Vini tenha mais controle emocional, mas com poucos minutos de jogo ele leva uma pancada. Isso é uma agressão.
+B23|N|Em 10 de outubro, contra o Villarreal, o Vinícius começa no banco, entra no segundo tempo e chega a marcar, mas o VAR anula o gol porque, no mesmo lance, ele puxou o cabelo do Nathan Saliba.
+B24|N|O cartão vermelho sai por volta dos setenta e dois minutos, quase o mesmo ponto do relógio em que ele tinha saído irritado do Clássico um ano antes, e o gol que dá a vitória ao Real naquela noite é o primeiro do Diomandê pelo clube.
+B25|N|Quatro dias depois vem a suspensão de quatro jogos, dois pelo puxão de cabelo e dois pelos protestos contra o árbitro.
+B26|N|Na véspera do jogo com o Sevilha, o Mourinho fala dele de um jeito que pouca gente esperava ouvir de um técnico do Real Madrid.
+F08|F|Se eu estivesse no lugar dele, provavelmente não estaria aqui. No verão passado, eu provavelmente teria forçado uma saída, para uma liga, um país, clubes, estádios... adversários que o respeitassem.
+B27|N|Ele falava das ofensas racistas que o Vinícius escuta há anos nos estádios espanhóis, e nisso tem toda a razão, mas é difícil ouvir essa frase sem lembrar que, dois meses antes, um clube de outro país tinha feito exatamente esse convite, e que o Vinícius escolheu ficar.
+B28|N|O Ancelóti protegeu o Vinícius durante anos, e o clube inteiro fez o mesmo quando não foi à cerimônia da Bola de Ouro de 2024, mas o Mourinho protege e cobra ao mesmo tempo, e três dias depois, antes de um jogo de Tchâmpions, quando perguntaram se o Vinícius era intocável, ele respondeu que intocável ali só o escudo do clube.
+B29|N|Em 25 de outubro, o Real Madrid vai ao Camp Nou e ganha o Clássico por dois a um enquanto o Vinícius assiste de fora, e uma semana depois o Arsenal vence o Líverpul em Énfild pela primeira vez desde 2012 e volta à liderança da Prímier Lígue, o que significa que os dois clubes que disputaram o Vinícius no verão passaram aquele mês ganhando sem ele.
+T5|#|
+B30|N|Durante a suspensão, o Real ganhou os quatro jogos, quatro a um no Sevilha, dois a um no Barcelona, três a zero no Rácing e três a zero no Valência, com doze gols marcados e só dois sofridos, e na ponta esquerda, no lugar do Vinícius, jogou o Diomandê, que marcou contra o Villarreal, o Sevilha e o Rácing.
+B31|N|Quando o Mourinho explicou o que tinha visto nele, falou de velocidade e, principalmente, de trabalho defensivo, que é exatamente o que o Xabi Alonso cobrava do Vinícius naquela coletiva de janeiro que abriu este vídeo. E quando chegou, o Diomandê disse isto sobre o novo técnico.
+F09|F|Estou pronto para morrer por ele.
+B32|N|E quando o Mourinho precisou de uma comparação para explicar o que aquele garoto ainda podia virar, escolheu o Vinícius.
+F10|F|Eu me lembro de quando o Vini chegou ao Madrid. Dois ou três anos depois, era um jogador de altíssimo nível.
+T6|#|
+B33|N|Agora, para ser justo com o Vinícius, vale lembrar que ele é alvo de ofensas racistas em estádio atrás de estádio sem ter culpa nenhuma disso, que marcou em duas finais de Tchâmpions, e que quatro jogos de um garoto de dezenove anos são pouco demais para qualquer veredito final.
+B34|N|O que todos esses técnicos pediram a ele tem a ver com o que ele faz quando o adversário está com a bola, e foi isso que o Diomandê entregou no mês em que jogou no lugar dele. Agora que a suspensão acabou, o Vinícius está de volta à liga espanhola.
+B35|N|Se você chegou até aqui, me conta nos comentários se você acha que o Vinícius acertou em ficar no Real Madrid ou se devia ter aceitado o Arsenal, e se inscreve para acompanhar o que acontece com ele daqui para frente.
+B36|N|O Xabi Alonso pediu ao Vinícius que se comprometesse sem a bola e foi demitido uma semana depois, o Arteta ofereceu a ele um time campeão em que isso é regra e ouviu um não, e no mês em que o Vinícius ficou de fora, o Real ganhou todos os jogos com um garoto que faz exatamente o que o Xabi pedia.
+B37|N|Naquele dia em Girona, quando perguntaram ao Arteta quando o Vinícius ia chegar, ele sorriu e foi embora sem responder, e a resposta que importa agora é a que o próprio Vinícius vai dar em campo daqui para frente: se ainda dá tempo de virar o jogador que o Xabi e o Arteta enxergaram nele.
+F11|F|Muito obrigado.

@@ -1,9 +1,14 @@
 ---
 name: video-documentario-futebol
-description: Produz do zero um vídeo-documentário de futebol (8–13 min, 16:9) no estilo do canal — roteiro, narração, takes reais de reportagens cortados a cada 3–5 s dentro de moldura, motion graphics estilo TV em verde-limão e preto, sound design, legendas e MP4 final — tudo por código (ffmpeg + Chromium headless), sem editor de vídeo. Use quando o usuário pedir "faz um vídeo sobre…", "roteiro e edição", "edita igual ao vídeo de referência", "pega os takes", "monta o vídeo", ou mandar um link do YouTube para recriar em outro idioma ou ângulo.
+description: Produz do zero um vídeo-documentário de futebol (8–13 min, 16:9) no estilo do canal — roteiro, narração, takes reais e fotos animadas em tela cheia com câmera enquadrada no rosto, componentes editoriais "Cinema + Revista" (serifa, recortes de jornal, citações, capítulos) em verde-limão e preto, sound design, legendas e MP4 final — tudo por código (ffmpeg + Chromium headless + OpenCV), sem editor de vídeo. Use quando o usuário pedir "faz um vídeo sobre…", "roteiro e edição", "edita igual ao vídeo de referência", "pega os takes", "monta o vídeo", ou mandar um link do YouTube para recriar em outro idioma ou ângulo.
 ---
 
 # Vídeo-documentário de futebol (roteiro → takes reais → motion → vídeo final)
+
+> **ESTILO ATUAL = v2 "Cinema + Revista" (aprovado em nov/2026).** Antes de editar, leia `references/estilo-v2-cinema-revista.md`.
+> Ele substitui a moldura "video wall" e o motion estilo TV descritos nas Etapas 5–8 abaixo, que agora são legado.
+> Resumo do v2: imagem em tela cheia, sem moldura; câmera lenta sempre indo para o rosto ou saindo dele; foto sem take = Ken Burns no rosto + elemento editorial (print, callout, recorte); pouco texto (slate de data, lower third em serifa, legenda de fala); capítulos e citações em P&B; música mais baixa e efeitos só nas viradas.
+> Scripts: `scripts/v2/` (`kitlib.js`, `gfx2.js`, `camera.py`, `faces.py`, `camsheet.py`, `assemble2.py`). Modelo de linha do tempo: `exemplo/build_vinicius_v2.py`.
 
 Esta skill registra o processo que produziu "Manchester City's 115 Charges" (12 min, 81 cenas, 160 takes).
 O exemplo completo está em `exemplo/build_manchester_city.py` — **leia-o antes de começar**: é o molde do arquivo que você vai escrever para cada vídeo novo.

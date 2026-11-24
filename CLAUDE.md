@@ -5,6 +5,7 @@ Este repositório produz vídeos-documentário de futebol para um canal do YouTu
 1. `.claude/skills/video-documentario-futebol/SKILL.md` (pipeline completo e a seção "Lições do vídeo do Brasil")
 2. `.claude/skills/video-documentario-futebol/references/manual-de-roteiro.md` (ângulo e estrutura no formato Becir)
 3. `.claude/skills/video-documentario-futebol/references/conhecimento-do-canal.md` (histórico, preferências, vídeos publicados, checklist de publicação)
+4. `.claude/skills/video-documentario-futebol/references/estilo-v2-cinema-revista.md` (**estilo visual padrão desde nov/2026**: Cinema + Revista, câmera no rosto, fotos animadas, pouco texto)
 
 ## Regras que o dono do canal já definiu
 - Fale com ele sempre em português. O vídeo final é sempre em inglês.
@@ -15,7 +16,7 @@ Este repositório produz vídeos-documentário de futebol para um canal do YouTu
 - Fotos livres do Wikimedia Commons, animadas e misturadas com vídeo; créditos na descrição.
 - Abertura muito dinâmica; CTA logo depois da introdução.
 - Créditos vidIQ são limitados: avise antes de gastar.
-- Identidade visual: verde-limão (#C6FF00) e preto.
+- Identidade visual: verde-limão (#C6FF00) e preto, no estilo v2 "Cinema + Revista": imagem em tela cheia sem moldura, zoom lento no rosto dos personagens, fotos animadas com elemento editorial, serifa + mono, pouco letreiro. A moldura e o motion estilo TV da v1 foram recusados.
 
 ## Git
 Branch de trabalho: `claude/video-script-english-38w7l3`. MP4 e mídia pesada não vão para o git (entregue pelo chat).

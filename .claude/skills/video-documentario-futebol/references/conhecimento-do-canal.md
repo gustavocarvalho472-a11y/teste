@@ -44,6 +44,13 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 - Antítese montada: "não foi X, foi Y", "a escolha mais corajosa ou a mais fácil?", trincas simétricas ("foi A, foi B, e agora é C").
 - O que funciona: frases longas que puxam a próxima, gancho dentro da própria frase ("e parecia que a história tinha terminado ali"), cada bloco começando com data e terminando em fala real, tese retomada no fim de cada bloco.
 
+## Estilo visual aprovado (nov/2026, vídeo Vinícius/Arteta) — padrão dos próximos vídeos
+- A v1 do vídeo do Vinícius (moldura, muito motion, bordas, muito letreiro) foi recusada. O dono quer **imagem em primeiro lugar e motion secundário**, para um público de futebol um pouco mais velho.
+- Identidade escolhida: mistura de **A (cinema/documentário) com B (revista/editorial)**. Serifa (Playfair) para nomes e citações, condensada (Barlow) só para palavras de impacto, mono (IBM Plex) para datas e fontes, papel `#ECE7DC` e lime `#C6FF00`.
+- Câmera: zoom lento **no rosto dos personagens**, com push-in e pull-out alternados e punch-in na segunda frase de cada fala. Sem take, a foto é animada com zoom in/out no rosto e um elemento (print, círculo de destaque, recorte).
+- Mais imagens do personagem principal: monte um pool grande dele (torcida, treino, chegada, banco) antes de editar.
+- Tudo detalhado em `estilo-v2-cinema-revista.md`.
+
 ## Checklist de publicação
 1. Subir como não listado e esperar a verificação de direitos autorais; se houver reivindicação, trocar só os minutos apontados.
 2. Enviar o `.srt` em inglês.
@@ -55,6 +62,7 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 - Para novos temas: checar o que está em alta nos canais de referência (vidiq_channel_videos, 5 créditos) e propor 3 a 5 ângulos com título e ideia de thumb.
 
 ## Ambiente
+- Detecção de rosto: `pip install "opencv-python-headless<5"`. A 5.x não tem as cascatas Haar, e o modelo YuNet do GitHub dá 403.
 - Leia também a seção "Lições do vídeo do Ferguson/Pochettino" do `SKILL.md`: Kokoro ONNX e transcrição Whisper grátis no container, limites do Nexlev (50 chamadas/semana), regra de direitos da Premier League e UEFA.
 - Hosts liberados: assets.vidiq.com, ai-music-tracks.s3.us-east-1.amazonaws.com, videos.pexels.com, images.pexels.com, commons.wikimedia.org, upload.wikimedia.org.
 - Download de vídeos do YouTube: `vidiq_video_upload` com a URL (grátis) → `vidiq_job_poll` → curl do link storage.googleapis.com.

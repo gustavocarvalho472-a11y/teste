@@ -10,7 +10,18 @@ Roteiro: `../../roteiros/vinicius-arteta-tried-to-save.md` (PT v4 aprovado). Nar
 | `peek.py` | Folha de contato por tempo |
 | `photos.py` | Busca no Commons pelo HTML (a API e as imagens grandes deram 429 neste IP; não foi usado no vídeo) |
 | `build.py` | Linha do tempo → `build/timeline.json`; `clips_extra.json` liga falas achadas depois (senão vira cartela de citação) |
-| `render.js` / `frame.js` / `assemble.py` | Gráficos, moldura e montagem final → `out/vinicius-arteta-EN.mp4` + `.srt` |
+| `render.js` / `frame.js` / `assemble.py` | v1 (recusada): gráficos, moldura e montagem final → `out/vinicius-arteta-EN.mp4` + `.srt` |
+
+### v2 — estilo "Cinema + Revista" (padrão do canal, ver `.claude/skills/video-documentario-futebol/references/estilo-v2-cinema-revista.md`)
+| Arquivo | Função |
+|---|---|
+| `kitlib.js` | Kit de identidade: overlays (slate, l3, sub, score, cta) e plates (title, chapter, clipping, quote, impact, results, timeline, print, callout, end) |
+| `faces.py` | Detecção de rosto (OpenCV Haar, `opencv-python-headless<5`), cache em `build/faces.json` |
+| `camera.py` | Linguagem de câmera: zoom/foco por plano em direção ao rosto, limites de ampliação, área limpa de cada fonte |
+| `build2.py` | Linha do tempo v2 → `build/v2/timeline.json` + `build/v2/gfx.json`; `FIX`/`VFIX` = enquadramentos manuais |
+| `camsheet.py` | Folha de conferência do enquadramento (`build/v2/camera_*.jpg`) |
+| `gfx2.js` | Renderiza overlays (PNG) e plates (JPG 2×) |
+| `assemble2.py` | Montagem v2 → `out/vinicius-arteta-EN-v2.mp4` + `.srt` |
 
 ## Fontes (`assets/real/`, fora do git; importadas pelo vidIQ, grátis)
 
@@ -30,5 +41,6 @@ Roteiro: `../../roteiros/vinicius-arteta-tried-to-save.md` (PT v4 aprovado). Nar
 
 Sem imagem de transmissão de LaLiga, Champions, Premier League, Mundial ou Supercopa. Coletiva da UEFA ("só o escudo é intocável") e do Mundial de Clubes ("os onze defendem") entram só como texto.
 "Fotos" do vídeo = quadros congelados das fontes acima, animados. Nenhuma foto do Commons (bloqueado por 429).
+Na v2, `diom_shirt`, `diom_flo`, `bernabeu` e `papers` foram recortadas para tirar relógio/tarja de TV (originais em `assets/photos/orig/`).
 
 Narration: AI voice (Kokoro, Apache-2.0). Music: AI-generated (faixas do canal reaproveitadas).

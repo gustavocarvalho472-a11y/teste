@@ -24,7 +24,7 @@ O dono aprovou este estilo no vídeo "Arteta Tried To Save Vinicius" e pediu que
 7. **Tratamento automático da foto** (pelo tamanho do arquivo):
    - largura ≥ 1700 → tela cheia com movimento leve no rosto;
    - paisagem pequena → `print` (foto impressa sobre a mesa);
-   - vertical pequena → `duo`/`trio` (2–3 fotos lado a lado, entrando uma depois da outra, com o rosto centralizado em cada painel por `obj_pos`).
+   - vertical pequena → `duo`/`trio` (2–3 fotos lado a lado, com o rosto centralizado em cada painel por `obj_pos`). As fotos da dupla/trio aparecem **juntas**: revelar uma de cada vez deixa meia tela preta, e isso parece erro.
    Confira o rosto de cada foto numa folha. O Haar erra em comemorações, costas e rosto coberto; corrija em `FIX`.
 
 ## Princípios

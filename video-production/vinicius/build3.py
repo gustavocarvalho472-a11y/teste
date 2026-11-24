@@ -133,8 +133,7 @@ def make_shot(it, frames, pool):
         return plate_shot("duo", frames, photos=[{"photo": f"p/{n}", "pos": obj_pos(n, 955, 1080)}, {"photo": f"p/{n}", "pos": obj_pos(n, 955, 1080), "bw": True}], amp=0.03)
     w = (1920 - 10 * (k - 1)) / k
     photos = [{"photo": f"p/{x}", "pos": obj_pos(x, w, 1080)} for x in names]
-    st = [(0.0, {"n": 1})] + [(0.4 * j, {"n": j + 1}) for j in range(1, k)]
-    return plate_shot("duo" if k == 2 else "trio", frames, states=st, photos=photos, amp=0.03)
+    return plate_shot("duo" if k == 2 else "trio", frames, photos=photos, amp=0.04)   # all panels at once: a half-black frame reads as an error
 
 CUT = {"video": 2.4, "full": 3.8, "print": 3.8, "panel": 4.2}
 def allocate(pools, nf, cut=None):

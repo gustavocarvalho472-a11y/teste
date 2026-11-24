@@ -62,7 +62,7 @@ def plan(shot, i=0):
                 z0 = max(z0, min(zmax - 0.04, 1.14)); z1 = min(zmax, max(z1, z0 + 0.04))
             z0, z1, c0, c1 = z0, z1, f0, f1
         else:
-            amp = 0.2 if kind == "photo" else 0.12
+            amp = shot.get("amp", 0.2 if kind == "photo" else 0.12)
             zfar = max(1.0, zc - amp)
             if zc - zfar < 0.05: zfar, zc = 1.0, min(zmax, 1.0 + amp * 0.7)
             if move == "out": z0, z1, c0, c1 = zc, zfar, f0, toward(f1)

@@ -10,6 +10,23 @@ O dono aprovou este estilo no vídeo "Arteta Tried To Save Vinicius" e pediu que
 - "Quando não tiver take, trabalhar as animações com a foto: zoom in, zoom out, colocando algum elemento".
 - Ele gostou da mistura de A (cinema/documentário) com B (revista/editorial) e pediu acabamento "no mais alto nível", com serifa e componentes de editorial.
 
+## Correções do dono na v2 (24/nov/2026) — valem para todo vídeo
+1. **Qualidade acima de movimento.** Take ruim (filmagem de torcida ampliada, coletiva recortada e esticada) não entra. Se o take está ruim, use **uma foto boa quase parada**.
+2. **Nunca repetir take.** Ele notou o mesmo abraço da torcida 2–3 vezes. Cada janela de vídeo entra uma vez só. `build3.py` conta o uso global (`USED`) e sempre pega o item menos usado do pool.
+3. **Mais fotos, vídeo curto.** Clipes de no máximo ~2,5 s, só de fontes limpas (coletiva 1080p, reportagem). O resto do tempo é foto.
+4. **Nada tremido.** O zoom do ffmpeg (`scale`+`crop` inteiros) "anda aos saltos". Use `assemble3.py`, que move cada plano com warp afim em subpixel (OpenCV). As curvas de easing são: seno ease-in-out na câmera e ease-out cúbico no letreiro, que entra deslizando 10–18 px enquanto aparece.
+5. **Movimento sutil.** Foto: até 8% de zoom. Plate: 3–6%. Ampliação máxima de 1,22× na foto e 1,9× no vídeo.
+6. **Fonte de fotos.** O dono liberou usar **qualquer imagem** (Pinterest/Google), não só foto livre. O Commons responde 429 neste ambiente e o Google não está na rede liberada. O **Pinterest** (`www.pinterest.com`, `i.pinimg.com`) funciona:
+   - ache painéis com WebSearch (`allowed_domains: pinterest.com`);
+   - baixe a página pública com `curl`;
+   - extraia os links `i.pinimg.com/.../<hash>.jpg` e baixe em `/originals/`.
+   Monte folhas de contato e escolha: alta resolução, rosto visível, contexto certo (camisa do clube certo, época certa), sem marca d'água, montagem ou arte de fã. Não use a API interna do Pinterest.
+7. **Tratamento automático da foto** (pelo tamanho do arquivo):
+   - largura ≥ 1700 → tela cheia com movimento leve no rosto;
+   - paisagem pequena → `print` (foto impressa sobre a mesa);
+   - vertical pequena → `duo`/`trio` (2–3 fotos lado a lado, entrando uma depois da outra, com o rosto centralizado em cada painel por `obj_pos`).
+   Confira o rosto de cada foto numa folha. O Haar erra em comemorações, costas e rosto coberto; corrija em `FIX`.
+
 ## Princípios
 1. **A imagem manda.** Tela cheia, sem moldura e sem HUD. Quase todo plano é take real ou foto animada. Gráfico entra só quando informa algo que a imagem não mostra: data/local, nome, placar, citação ou matéria.
 2. **Câmera motivada.** Todo plano tem um movimento lento e com intenção, sempre em direção ao rosto ou saindo dele. Nada de zoom aleatório no centro.

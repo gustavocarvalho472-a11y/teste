@@ -117,15 +117,17 @@ const PL = {
   print: p => `<div class="abs n35" style="inset:0;background-color:#1a1916"></div><div class="grain"></div>
     <div class="abs" style="left:380px;top:110px;width:1160px;background:#f5f2ea;padding:24px 24px 90px;transform:rotate(${p.rot ?? -1.2}deg);box-shadow:0 40px 70px rgba(0,0,0,.65)">
       <div style="height:690px;background:url(${img(p.photo)}) ${p.pos || '50% 30%'}/cover;filter:contrast(1.08) saturate(.75) sepia(.12)${p.bw ? ' grayscale(1)' : ''}"></div>
-      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:26px;color:#222"><span style="font:italic 400 36px Serif">${p.caption}</span><span class="mono" style="font-size:18px;color:#6b6860">${p.meta}</span></div></div>`,
+      ${p.caption ? `<div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:26px;color:#222"><span style="font:italic 400 36px Serif">${p.caption}</span><span class="mono" style="font-size:18px;color:#6b6860">${p.meta || ''}</span></div>` : ''}</div>`,
   // photo + lime circle on a face + leader line + label. cx, cy, r in 1920x1080 px (photo is full-bleed 16:9).
   callout: p => { const s = p.side === 'left' ? -1 : 1, bw = p.boxw || 470;
     const ax = p.cx + s * p.r * 0.72, ay = p.cy - p.r * 0.69, ly = Math.max(150, p.cy - p.r - 60);
     const bx = Math.max(120, Math.min(1920 - 120 - bw, s > 0 ? p.cx + p.r + 240 : p.cx - p.r - 240 - bw)), ex = s > 0 ? bx : bx + bw, kx = ex - s * 110;
-    return `<div class="bg ${p.bw ? 'bw' : 'grade'}" style="background-image:url(${img(p.photo)})"></div><div class="vig"></div><div class="grain"></div>
+    return `<div class="bg ${p.bw ? 'bw' : 'grade'}" style="background-image:url(${img(p.photo)});background-position:${p.pos || 'center'}"></div><div class="vig"></div><div class="grain"></div>
     <svg class="abs" style="left:0;top:0" width="1920" height="1080"><circle cx="${p.cx}" cy="${p.cy}" r="${p.r}" fill="none" stroke="${T.lime}" stroke-width="3"/>
       <path d="M${ax} ${ay} L${kx} ${ly} L${ex} ${ly}" fill="none" stroke="${T.lime}" stroke-width="2"/></svg>
     <div class="abs" style="left:${bx}px;top:${ly - 52}px;width:${bw}px;background:rgba(12,12,12,.82);padding:14px 22px 16px"><div style="font:400 46px Serif">${p.name}</div><div class="mono" style="font-size:17px;color:${T.dim};margin-top:8px">${p.meta}</div></div>`; },
+  // two or three photos side by side (vertical photos in a 16:9 film). n = how many are revealed so far.
+  duo: p => panels(p, 2), trio: p => panels(p, 3),
   end: p => `<div class="abs n30" style="inset:0;background-color:#0d0d0d"></div><div class="grain"></div>${marks()}
     <div class="abs" style="inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center">
       <div class="mono" style="font-size:20px;color:${T.lime}">${p.kicker || 'Thanks for watching'}</div>
@@ -135,5 +137,12 @@ const PL = {
         <div style="width:48px;height:48px;border-radius:50%;background:${T.lime};display:flex;align-items:center;justify-content:center">${bell}</div><div style="font:600 30px Inter">Subscribe for the next story</div></div>
       <div class="mono" style="font-size:15px;color:#8d8a83;margin-top:70px;line-height:2;max-width:1400px">${p.credits}</div></div>`,
 };
+function panels(p, k) {
+  const g = 10, w = (1920 - g * (k - 1)) / k;
+  return `<div class="abs" style="inset:0;background:#0b0b0b"></div>` + p.photos.slice(0, k).map((ph, i) => `<div class="abs" style="left:${i * (w + g)}px;top:0;width:${w}px;height:1080px;overflow:hidden;opacity:${i < (p.n ?? k) ? 1 : 0}">
+      <div class="abs" style="inset:0;background:url(${img(ph.photo)}) ${ph.pos || 'center'}/cover;filter:contrast(1.07) saturate(.84) brightness(.96)${ph.bw ? ' grayscale(1)' : ''}"></div>
+      <div class="abs" style="inset:0;background:radial-gradient(ellipse at 50% 42%,transparent 55%,rgba(0,0,0,.5))"></div>
+      ${ph.cap ? `<div class="abs mono" style="left:28px;bottom:34px;font-size:16px;color:#e6e3da;text-shadow:0 1px 6px #000">${ph.cap}</div>` : ''}</div>`).join('') + `<div class="grain"></div>`;
+}
 const page = (body, kind) => `<!doctype html><html><head><meta charset="utf-8"><style>${CSS}</style></head><body class="${kind}">${body}</body></html>`;
 module.exports = { K, T, CSS, OV, PL, page, hl, mk };

@@ -4,7 +4,7 @@ red dot = detected face. Writes build/v2/camera_<n>.jpg (36 tiles per page). Usa
 import json, os, subprocess, sys
 import cv2, numpy as np
 import camera
-ROOT = os.path.dirname(os.path.abspath(__file__)); B = f"{ROOT}/build/v2"
+ROOT = os.path.dirname(os.path.abspath(__file__)); B = os.path.join(ROOT, os.environ.get("BUILD", "build/v2"))
 TL = json.load(open(f"{B}/timeline.json")); only = sys.argv[1:]
 tiles = []
 def rect(sh, P):

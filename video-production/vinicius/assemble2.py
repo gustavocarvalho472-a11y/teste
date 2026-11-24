@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 import numpy as np
 import camera
 
-ROOT = os.path.dirname(os.path.abspath(__file__)); B = f"{ROOT}/build/v2"; A = f"{ROOT}/assets"
+ROOT = os.path.dirname(os.path.abspath(__file__)); B = os.path.join(ROOT, os.environ.get("BUILD", "build/v2")); A = f"{ROOT}/assets"
 TL = json.load(open(f"{B}/timeline.json")); FPS = TL["fps"]; SR = 48000; NAME = TL["name"]
 OUT = f"{ROOT}/out"; os.makedirs(OUT, exist_ok=True); os.makedirs(f"{B}/seg", exist_ok=True)
 X264 = ["-c:v", "libx264", "-preset", "fast", "-crf", "22", "-pix_fmt", "yuv420p", "-r", str(FPS), "-g", "50", "-an"]

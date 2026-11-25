@@ -11,7 +11,8 @@
 
 | # | Título | Tradução | Thumb |
 |---|---|---|---|
-| A (recomendado) | Arteta Tried To Save Vinicius | Arteta tentou salvar o Vinícius | Vini nítido na frente, Arteta sorrindo apagado atrás · HE / STAYED |
+| **ESCOLHIDO (25/nov)** | Arteta Was Right About Vinicius Jr… He Didn't Listen | O Arteta estava certo sobre o Vini Jr… Ele não ouviu! | Vini nítido e sério na frente, Arteta sorrindo apagado atrás · DIDN'T / LISTEN |
+| A | Arteta Tried To Save Vinicius | Arteta tentou salvar o Vinícius | Vini nítido na frente, Arteta sorrindo apagado atrás · HE / STAYED |
 | B | Xabi Alonso Warned Us About Vinicius | Xabi Alonso avisou sobre o Vinícius | Vini na frente, Xabi apagado · NOBODY / LISTENED |
 | C | Real Madrid Won Every Game Without Vinicius | O Real venceu todos os jogos sem o Vinícius | Vini sentado, Diomande apagado · 4 GAMES / 4 WINS |
 

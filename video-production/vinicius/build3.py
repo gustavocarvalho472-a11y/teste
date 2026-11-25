@@ -176,7 +176,7 @@ SEQ = [
  SB(XS, 485.6, 12.4, [(a, b, t, None) for a, b, t in XABI_Q], l3=("Xabi Alonso", "Real Madrid manager · January 2026"), visual="xabi_ph+vini_dark"),
  L("B04", F(.34, "xabi_ph", cut=3.0), F(.33, "art_ph", cut=3.0), F(.33, "vini_dark", cut=3.0)),
  L("B05", F(.6, "vini_glory", cut=3.4), F(.4, "bern_ph+madrid_v")),
- CARD("title", 5.2, sfx="title", kicker="A football story", l1="Arteta Tried", l2="<i>to Save</i> Vinicius", sub="Two chances to change · One choice", photo=ph("vini_back_bw"), pos="50% 20%"),
+ CARD("title", 5.2, sfx="title", kicker="A football story", l1="Arteta Was Right", l2="<i>About</i> Vinicius Jr", sub="Two chances to change · One choice", photo=ph("vini_back_bw"), pos="50% 20%"),
  L("B06", F(1, "vini_glory", CTA("Subscribe", "New story every week", a=1.0, b=-0.6)), music="beat"),
  CARD("chapter", 4.4, num="01", date="May 2025 — Madrid", title="The<br>Request", synopsis="Xabi Alonso arrives with one condition: all eleven defend.", photo=ph("xabi_port"), pos=chap("xabi_port")),
  L("B07", F(.55, "@xabi_unveil,xabi_crest", L3("Xabi Alonso", "Unveiled as Real Madrid manager · 26 May 2025", a=0.6, b=6.4)), F(.45, "bern_ph+xabi_ph")),
@@ -239,7 +239,7 @@ SEQ = [
               states=[(0.0, {"hi": 0}), (3.6, {"hi": 1}), (6.0, {"hi": 2}), (10.6, {"hi": 3})], focus=(0.5, 0.45), amp=0.04)),
  L("B37", F(.5, "arteta_v+art_ph"), F(.5, "vini_dark")),
  SB(AG, 239.5, 2.4, [(0.4, 2.3, "“*Thank you so much.*”", "Mikel Arteta")], punch=False),
- CARD("end", 10.0, sfx=None, title="Arteta Tried <i>to Save</i> Vinicius",
+ CARD("end", 10.0, sfx=None, title="Arteta Was Right <i>About</i> Vinicius Jr",
       credits="Photos and footage: press conferences · news reports · fan footage · press photography — full credits in the description<br>Narration: AI voice · Music: AI-generated"),
 ]
 
@@ -308,7 +308,7 @@ def main():
         if nxt and nxt.get("card") in ("chapter", "end"): sc["fout"] = 0.35
         out.append(sc)
     total = (scenes[-1]["f0"] + scenes[-1]["nf"]) / FPS
-    json.dump({"fps": FPS, "total": total, "scenes": out, "vo": vo, "music": music, "name": "vinicius-arteta-EN-v3"}, open(f"{B3}/timeline.json", "w"), indent=1, ensure_ascii=False)
+    json.dump({"fps": FPS, "total": total, "scenes": out, "vo": vo, "music": music, "name": "arteta-was-right-about-vinicius-EN"}, open(f"{B3}/timeline.json", "w"), indent=1, ensure_ascii=False)
     json.dump(GFX, open(f"{B3}/gfx.json", "w"), indent=1, ensure_ascii=False); faces.save()
     sh = [x for s in out for x in s["shots"]]; tot = sum(x["frames"] for x in sh)
     kinds = {}

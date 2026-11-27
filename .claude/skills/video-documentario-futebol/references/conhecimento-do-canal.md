@@ -19,6 +19,7 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 | Manchester City | "Man City's Secret Sponsorship Trick Finally Exposed" | thumb TOO/LATE; comentários acusando o City: responda sem dizer "fraude" (não provado) |
 | Brasil / Vini Jr | "The decline of the Brazilian national team - Vinicius Jr" | thumb GLORY/RUIN, 11:19; primeira versão bloqueada pela FIFA |
 | Ferguson / Pochettino | ver `roteiros/ferguson-ghost-pochettino.md` e `video-production/ferguson/` | feito em outra conversa; versão 1 bloqueada pela Premier League (imagens da transmissão); refeito com áudio de torcedor + fotos animadas |
+| Vinícius / Arteta | "Arteta Was Right About Vinicius Jr… He Didn't Listen" (PT: "O Arteta estava certo sobre o Vini Jr… Ele não ouviu!") | 12:19; thumb Vini sério na frente + Arteta sorrindo apagado com luz verde-limão, palavras SAID / NO; v1 (moldura/motion TV) recusada → v2 → v3 (fotos do Pinterest, câmera lisa, sem take repetido) aprovada; `video-production/vinicius/` (`build3.py`, `assemble3.py`) |
 | Outros no canal | "Why the Internet Is Calling Ronaldo the R...", "The Joke That Cost Mbappé Millions in C..." | feitos fora deste repositório |
 
 ## O vídeo do Brasil — ângulo e conceito (modelo de referência)
@@ -50,6 +51,17 @@ Resumo de tudo o que foi aprendido na primeira conversa de produção (vídeos d
 - Câmera: zoom lento **no rosto dos personagens**, com push-in e pull-out alternados e punch-in na segunda frase de cada fala. Sem take, a foto é animada com zoom in/out no rosto e um elemento (print, círculo de destaque, recorte).
 - Mais imagens do personagem principal: monte um pool grande dele (torcida, treino, chegada, banco) antes de editar.
 - Tudo detalhado em `estilo-v2-cinema-revista.md`.
+
+## Títulos, thumb e descrição (o que o dono pediu em nov/2026)
+- Título no estilo da referência "X Was Right About Y… He Didn't Listen" / "X estava certo sobre Y… ninguém ouviu!", com autoridade global no nome. Tem de ser fiel à história: não diga que alguém "avisou" se ele só ofereceu.
+- Sempre entregar título em EN **e** PT.
+- Thumb no formato do vídeo do City (TOO / LATE):
+  - fundo preto;
+  - rosto principal nítido no centro e o segundo apagado atrás, com luz verde-limão;
+  - duas palavras brancas condensadas gigantes nas laterais, que completam o título sem repeti-lo.
+  Entregar as fotos em alta e um **prompt em inglês** para o gerador de imagem, com as fotos anexadas.
+- Descrição em EN pronta para colar: gancho em 2 parágrafos, pergunta para comentários, capítulos com tempos reais (tirados do `timeline.json`), fontes e créditos, hashtags. Junto vão as tags e um comentário para fixar.
+- Áudio em PT do roteiro quando ele pedir: Kokoro `pm_alex` (narrador) + `pm_santa` (falas reais traduzidas, como dublagem), `video-production/vinicius/pt/tts_pt.py`, conferido com Whisper local.
 
 ## Checklist de publicação
 1. Subir como não listado e esperar a verificação de direitos autorais; se houver reivindicação, trocar só os minutos apontados.

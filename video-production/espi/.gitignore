@@ -1,0 +1,9 @@
+node_modules/
+build/
+out/
+__pycache__/
+assets/real/
+assets/rm/
+assets/pin/
+assets/photos/
+assets/music/

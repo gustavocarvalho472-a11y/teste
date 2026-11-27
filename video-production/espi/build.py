@@ -26,7 +26,7 @@ def pmeta(n):
         if face == "auto": face = faces.face_box(f)
         _meta[n] = {"w": w, "h": h, "face": face, "kind": "full" if w >= 1440 else ("print" if w / h >= 1.25 else "panel")}
     return _meta[n]
-FIX = {"espi_fiore": {"face0": [0.24, 0.12, 0.06]}, "espi_lev_run": {"face0": [0.514, 0.18, 0.135]}}
+FIX = {"espi_fiore": {"face0": [0.24, 0.2, 0.16]}, "espi_lev_run": {"face0": [0.514, 0.18, 0.135]}}
 def obj_pos(n, pw, ph, ycen=0.36):
     """CSS background-position that puts the face at the centre of a pw x ph panel (eyes on the upper third)."""
     m = pmeta(n); f = m["face"]
@@ -157,7 +157,7 @@ SEQ = [
  L("n09", F(1, "mou_v")),
  SB(MP, 544.95, 14.05, [(0.0, 1.3, "He's an *excellent* player.", None), (1.4, 7.9, "When we sensed that *Gonzalo could go to Fulham,*", None), (8.0, 14.0, "Juni Calafat put *some names on the table.*", None)], l3=MOU),
  CARD("chapter", 4.4, num="02", date="August – September 2026", title="Why<br>Him?", synopsis="Mbappé, Endrick, and a €25M kid nobody asked for.", photo=ph("end_sad"), pos=chap("end_sad")),
- L("n10", F(.34, "@bell_mbappe"), F(.33, "end"), F(.33, "@espi_hand")),
+ L("n10", F(.34, "@bell_mbappe"), F(.33, "end"), F(.33, "@espi_hand", L3("Florentino Pérez", "Real Madrid president", a=0.3, b=-0.1))),
  L("n11", F(.5, "end"), PLT(.5, "impact", big="4'", label="Endrick · minutes played by late September", photo=ph("end_mouth"), pos="50% 25%", size=330, sfx="hit", focus=(0.3, 0.35))),
  L("n12", PLT(1, "quote", text="I just want to play.", who="Endrick · with Brazil · November 2026", photo=ph("end_brazil"), pos="60% 20%", size=120)),
  L("n13", F(.32, "@anc_brazil", L3("Carlo Ancelotti", "Brazil head coach", a=0.4, b=-0.2)), PLT(.30, "print", photo=ph("anc_brazil2"), caption="Brazil’s coach.", meta="CBF · 2026", pos="50% 30%", rot=1.0), F(.38, "@end_brazil_b,end_brazil9,end_brazil_tr", cut=6.5)),
@@ -178,7 +178,7 @@ SEQ = [
  SB(ROM, 0.15, 7.1, [(0.0, 3.3, "*Absolute madness.* We had to go until the end,", "Carlos Espí"), (3.4, 7.0, "and we all went *together for the win.*", "Carlos Espí")], visual="@espi_cele19,espi_thumb,espi_dark2,espi_signing"),
  L("n22", F(.5, "@espi_celta,espi_celta2", SC("RMA", "2 – 1", "CEL", "FT · Bernabéu · 21.11.2026", "Espí · 85' · ninth win in a row", a=0.3)), F(.5, "@espi_celta_vini,espi_celta_scream")),
  CARD("chapter", 4.4, num="05", date="November 2026", title="The Other<br>Side", synopsis="Endrick, the offers, and a president who refuses to sell.", photo=ph("end_trophy"), pos=chap("end_trophy"), music="finale"),
- L("n23", F(.5, "end"), F(.5, "firma_v", L3("Florentino Pérez", "Real Madrid president", a=0.3, b=-0.2))),
+ L("n23", F(.5, "end"), F(.5, "firma_v")),
  L("n24", F(.5, "@mou_ear"), F(.5, "@end_wave")),
  L("n25", F(.34, "@end_run"), F(.33, "@espi_elche_smile"), F(.33, "mou_v")),
  CARD("end", 9.0, sfx=None, title="Nobody Understood <i>Why</i><br>Mourinho Signed Carlos Espí",

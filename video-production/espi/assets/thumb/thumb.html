@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Cond;font-weight:800;src:url(../../node_modules/@fontsource/barlow-condensed/files/barlow-condensed-latin-800-normal.woff2)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#050505}
+.glow{position:absolute;inset:0;background:radial-gradient(ellipse 520px 420px at 66% 34%,rgba(198,255,0,.30),rgba(198,255,0,.08) 55%,transparent 75%)}
+.mou{position:absolute;left:330px;top:-22px;width:900px;filter:grayscale(1) contrast(1.2) brightness(.78) drop-shadow(0 0 26px rgba(198,255,0,.55));opacity:.62;
+  -webkit-mask-image:linear-gradient(180deg,#000 52%,transparent 90%);mask-image:linear-gradient(180deg,#000 52%,transparent 90%)}
+.lime{position:absolute;left:330px;top:-22px;width:900px;height:640px;background:linear-gradient(115deg,transparent 35%,rgba(198,255,0,.35) 75%);mix-blend-mode:color-dodge;
+  -webkit-mask-image:url(mou_crop.png);-webkit-mask-size:900px auto;-webkit-mask-repeat:no-repeat;opacity:.7}
+.espi{position:absolute;left:115px;top:150px;width:800px;filter:contrast(1.08) saturate(1.05) brightness(1.02) drop-shadow(0 0 16px rgba(198,255,0,.35));
+  -webkit-mask-image:linear-gradient(90deg,transparent 4%,#000 26%,#000 80%,transparent 98%);mask-image:linear-gradient(90deg,transparent 4%,#000 26%,#000 80%,transparent 98%)}
+.vig{position:absolute;inset:0;background:radial-gradient(ellipse at 50% 45%,transparent 55%,rgba(0,0,0,.65))}
+.w{position:absolute;font:800 215px/0.8 Cond;color:#fff;text-transform:uppercase;letter-spacing:-.01em;text-shadow:0 6px 30px rgba(0,0,0,.85)}
+.w b{color:#C6FF00;font-weight:800}
+.l{left:34px;top:300px}.r{right:30px;top:300px}
+.grain{position:absolute;inset:0;opacity:.10;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>")}
+</style></head><body>
+<div class="glow"></div><img class="mou" src="mou_crop.png"><div class="lime"></div>
+<img class="espi" src="espi_crop.png"><div class="vig"></div><div class="grain"></div>
+<div class="w l">WHY</div><div class="w r">HIM<b>?</b></div>
+</body></html>

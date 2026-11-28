@@ -126,6 +126,14 @@ const PL = {
     <svg class="abs" style="left:0;top:0" width="1920" height="1080"><circle cx="${p.cx}" cy="${p.cy}" r="${p.r}" fill="none" stroke="${T.lime}" stroke-width="3"/>
       <path d="M${ax} ${ay} L${kx} ${ly} L${ex} ${ly}" fill="none" stroke="${T.lime}" stroke-width="2"/></svg>
     <div class="abs" style="left:${bx}px;top:${ly - 52}px;width:${bw}px;background:rgba(12,12,12,.82);padding:14px 22px 16px"><div style="font:400 46px Serif">${p.name}</div><div class="mono" style="font-size:17px;color:${T.dim};margin-top:8px">${p.meta}</div></div>`; },
+  // real website screenshot in a browser window (img = path under assets/photos), lime tag with source/date
+  web: p => `<div class="bg" style="background-image:url(${img(p.bg)});filter:blur(16px) brightness(.3) saturate(.5);transform:scale(1.1)"></div><div class="grain"></div>
+    <div class="abs mono" style="left:${T.m}px;top:70px;font-size:19px;color:${T.lime}">${p.tag}</div>
+    <div class="abs" style="left:${(1920 - (p.w || 1320)) / 2}px;top:${p.top || 140}px;width:${p.w || 1320}px;border-radius:14px;overflow:hidden;background:#fff;transform:rotate(${p.rot ?? -0.8}deg);box-shadow:0 40px 80px rgba(0,0,0,.65),0 6px 16px rgba(0,0,0,.4)">
+      <div style="height:54px;background:#202124;display:flex;align-items:center;gap:10px;padding:0 20px">
+        <i style="width:13px;height:13px;border-radius:50%;background:#ff5f57"></i><i style="width:13px;height:13px;border-radius:50%;background:#febc2e"></i><i style="width:13px;height:13px;border-radius:50%;background:#28c840"></i>
+        <div style="margin-left:22px;flex:1;height:32px;border-radius:16px;background:#35363a;color:#c8c8c8;font:400 17px Inter;display:flex;align-items:center;padding:0 18px">🔒&nbsp;&nbsp;${p.url}</div></div>
+      <div style="height:${p.h || 800}px;background:url(${img(p.shot)}) 50% ${p.y || '0%'}/100% auto no-repeat"></div></div>`,
   // two or three photos side by side (vertical photos in a 16:9 film). n = how many are revealed so far.
   duo: p => panels(p, 2), trio: p => panels(p, 3),
   end: p => `<div class="abs n30" style="inset:0;background-color:#0d0d0d"></div><div class="grain"></div>${marks()}

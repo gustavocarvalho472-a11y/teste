@@ -12,10 +12,11 @@ TEXT = {i: t for i, t in (l.strip().split("|", 1) for l in open(f"{ROOT}/lines.t
 camera.MAXMAG = 1.9
 camera.MAXMAG_PHOTO = 1.22
 
+CEL = "mou_presser_celta"
 MP, ENT, FIR, PRE, DEB, TRN, ELC, COU, ROM = ("mou_presser_espanyol", "espi_entrevista", "espi_firma", "espi_presentacion", "espi_debut_fiorentina",
                                              "training_nov27", "espi_post_elche", "courtois_mixta", "espi_post_roma")
 RMTV = (0.86, 0.86, 0.04, 0.12)   # keeps the Realmadrid.tv bug (top-right) out of frame
-SAFE = {MP: (0.56, 0.64, 0.22, 0.10), ENT: RMTV, FIR: RMTV, PRE: RMTV, DEB: RMTV, TRN: RMTV, ELC: RMTV}
+SAFE = {CEL: (0.6, 0.66, 0.2, 0.04), MP: (0.56, 0.64, 0.22, 0.10), ENT: RMTV, FIR: RMTV, PRE: RMTV, DEB: RMTV, TRN: RMTV, ELC: RMTV}
 assert not any(s in ("espi_post_roma", "courtois_mixta") for s in ()), "UEFA / LaLiga-split sources: audio only"
 
 _meta = {}
@@ -141,8 +142,12 @@ CO_POS, CO_X, CO_Y, CO_R = cover_face("espi_lev_run", (0.62, 0.42))
 NOFACE = (PRE, TRN)
 MOU = ("José Mourinho", "Real Madrid manager · after Espanyol 1–2 Real Madrid")
 SEQ = [
- SB(MP, 569.45, 9.25, [(0.1, 2.5, "He's a very young kid, with a *profile*", None), (2.6, 9.2, "of player that *we need for this type of game.*", None)],
+ SB(CEL, 244.45, 2.1, [(0.0, 2.1, "*Carlos Espí,* a real box striker.", None)], slate="21 · 11 · 2026", punch=False),
+ SB(MP, 570.0, 8.65, [(0.0, 1.97, "He's a very young kid, with a *profile*", None), (2.05, 8.62, "of player that *we need for this type of game.*", None)],
     slate="22 · 08 · 2026 — Espanyol 1–2 Real Madrid"),
+ {"montage": True, "music": "beat", "slate": "Carlos Espí — Levante 2023–26 · Real Madrid 2026–", "items": [
+    (V(PRE, 121.3, 122.3), 0.85), (V(PRE, 76.0, 77.0), 0.8), (V(PRE, 152.7, 153.6), 0.8), (V(PRE, 160.1, 161.1), 0.8),
+    ("duo", ["espi_red", "espi_studio"], 1.1), (V(PRE, 227.0, 227.9), 0.8), (V(PRE, 210.4, 211.6), 1.0), (V(PRE, 165.5, 166.6), 1.0)]},
  L("n01", F(.42, "@gon_cele,gon_back,gon_cele2", SL("July 2026 — Gonzalo García · sold to Fulham", a=0.3)), PLT(.58, "callout", focus=(CO_X / 1920, CO_Y / 1080), amp=0.06, photo=ph("espi_lev_run"), pos=CO_POS, cx=CO_X, cy=CO_Y, r=CO_R, name="Carlos Espí", meta="21 · Levante · €25M release clause", side="left", sfx="whoosh")),
  L("n02", F(.6, "@end_bench,end_sad", cut=2.6), F(.4, "@mou_touchline", cut=2.6)),
  L("n03", F(.38, "mou_v"), F(.62, "@espi_white,espi_kids", SL("14 · 10 · 2026 — Rome · 80th minute · Roma 3–1 Real Madrid", a=0.3), cut=6.5)),
@@ -151,8 +156,10 @@ SEQ = [
  CARD("chapter", 4.4, num="01", date="Valencia — Levante", title="The Kid<br>From Levante", size=150, synopsis="A small town, a survival nobody expected, and an offer from England.", photo=ph("espi_lev_cele"), pos=chap("espi_lev_cele"), music="beat"),
  L("n05", F(1, "kid_v")),
  L("n06", F(.5, "@espi_lev_knee", L3("Carlos Espí", "Levante · Best U-23 player in La Liga, 2025–26", a=0.4, b=-0.2)), PLT(.5, "print", photo=ph("espi_lev_port"), caption="Levante, the club that made him.", meta="Levante UD · 2025–26", pos=obj_pos("espi_lev_port", 1112, 690, 0.4), rot=-1.0)),
- L("n07", PLT(.58, "clipping", source="Report · DAZN", date="July 2026", bg=ph("espi_lev_run"), note="Paraphrased from the report · not a quote",
-              text="Hull City were already negotiating for Carlos Espí *when Real Madrid swooped in.*"), F(.42, "@espi_head")),
+ L("n07", PLT(.55, "web", tag="DAZN · 30 July 2026", url="dazn.com/en-CA/news/soccer/real-madrid-hull-city-carlos-espi-levante-transfer", shot="/home/user/teste/video-production/espi/assets/photos/web/dazn_top.png",
+              bg=ph("espi_lev_run"), h=800, focus=(0.42, 0.3), amp=0.07),
+      PLT(.45, "web", tag="DAZN · 30 July 2026", url="dazn.com/en-CA/news/soccer/real-madrid-hull-city-carlos-espi-levante-transfer", shot="/home/user/teste/video-production/espi/assets/photos/web/dazn_body.png",
+              bg=ph("espi_lev_run"), h=526, top=250, focus=(0.4, 0.42), amp=0.07, sfx=None)),
  L("n08", F(.36, "firma_v", SL("23 · 08 · 2026 — Signed until 2031", a=0.3)), PLT(.30, "print", photo=ph("espi_shirt19b"), caption="Number 19.", meta="Real Madrid · 23.08.2026", pos="50% 30%", rot=1.0), F(.34, "firma_v")),
  L("n09", F(1, "mou_v")),
  SB(MP, 544.95, 14.05, [(0.0, 1.3, "He's an *excellent* player.", None), (1.4, 7.9, "When we sensed that *Gonzalo could go to Fulham,*", None), (8.0, 14.0, "Juni Calafat put *some names on the table.*", None)], l3=MOU),
@@ -171,11 +178,13 @@ SEQ = [
                         (7.5, 11.3, "it's honestly *impressive.* He has talent, he's very strong.", "Thibaut Courtois")], visual="train_v+@espi_konate,espi_train3,espi_train4"),
  L("n17", F(.5, "@espi_celta_fight"), PLT(.5, "impact", big="1.94 m", label="Carlos Espí · a number nine who lives in the box", photo=ph("espi_celta_jump"), pos="50% 30%", size=260, sfx="hit", focus=(0.3, 0.35))),
  L("n18", F(1, "espi")),
+ SB(CEL, 285.25, 11.35, [(0.0, 5.0, "Football history is full of players *like him,*", None), (5.1, 11.3, "who are *decisive without playing many minutes.*", None)],
+    l3=("José Mourinho", "After Real Madrid 2–1 Celta · 21 November 2026")),
  CARD("chapter", 4.4, num="04", date="August – November 2026", title="Game<br>by Game", synopsis="Off the bench, late in the game, again and again.", photo=ph("espi_dark"), pos=chap("espi_dark")),
  L("n19", F(.5, "@espi_esp_cele", SC("ESP", "1 – 2", "RMA", "FT · RCDE Stadium · 22.08.2026", "Espí · stoppage time", a=0.3), cut=7), F(.5, "hug_v")),
  L("n20", F(.5, "@elche_mbappe,espi_elche_run"), F(.5, "@espi_elche_hug,espi_elche_knees", SC("ELC", "2 – 3", "RMA", "FT · Martínez Valero · 15.09.2026", "Espí · stoppage time", a=0.3))),
  L("n21", F(.5, "@espi_roma", SC("ROM", "3 – 4", "RMA", "FT · Rome · 14.10.2026", "Espí · Real's second goal", a=0.3)), F(.5, "@bell_mbappe2")),
- SB(ROM, 0.15, 7.1, [(0.0, 3.3, "*Absolute madness.* We had to go until the end,", "Carlos Espí"), (3.4, 7.0, "and we all went *together for the win.*", "Carlos Espí")], visual="@espi_cele19,espi_thumb,espi_dark2,espi_signing"),
+ SB(ROM, 0.15, 6.85, [(0.0, 3.3, "*Absolute madness.* We had to go until the end,", "Carlos Espí"), (3.4, 6.8, "and we all went *together for the win.*", "Carlos Espí")], visual="@espi_cele19,espi_thumb,espi_dark2,espi_signing"),
  L("n22", F(.5, "@espi_celta,espi_celta2", SC("RMA", "2 – 1", "CEL", "FT · Bernabéu · 21.11.2026", "Espí · 85' · ninth win in a row", a=0.3)), F(.5, "@espi_celta_vini,espi_celta_scream")),
  CARD("chapter", 4.4, num="05", date="November 2026", title="The Other<br>Side", synopsis="Endrick, the offers, and a president who refuses to sell.", photo=ph("end_trophy"), pos=chap("end_trophy"), music="finale"),
  L("n23", F(.5, "end"), F(.5, "firma_v")),
@@ -195,6 +204,9 @@ def main():
             add(it["d"], f"k{n:02d}", plate={"comp": it["comp"], "p": it["p"], "focus": it["focus"], "amp": it["amp"]}, sfx=it["sfx"], card=it["comp"]); n += 1; continue
         if it.get("sb"):
             add(it["d"], f"c{n:02d}", sb=it, nat={"src": R(it["src"]), "ss": it["ss"]}); n += 1; continue
+        if it.get("montage"):
+            music.append({"track": it["music"], "start": t})
+            add(sum(x[-1] for x in it["items"]), f"m{n:02d}", montage=it); n += 1; continue
         if it.get("music"): music.append({"track": it["music"], "start": t})
         d = DUR[it["line"]] + 0.3; Wt = sum(p["w"] for p in it["parts"])
         vo.append({"file": it["line"] + ".mp3", "start": t + 0.12, "dur": d - 0.3})
@@ -219,6 +231,14 @@ def main():
             shots.append(plate_shot(pl["comp"], nf, states=(s.get("part") or {}).get("states"), focus=tuple(focus), amp=amp, **pl["p"]))
             snd = s.get("sfx") if "plate" in s else s["part"].get("sfx")
             if snd: sfx.append([snd, 0.0])
+        elif "montage" in s:
+            its = s["montage"]["items"]; fr = [round(x[-1] * FPS) for x in its]; fr[-1] += nf - sum(fr)
+            for x, f in zip(its, fr):
+                if x[0] == "duo":
+                    shots.append(plate_shot("duo", f, photos=[{"photo": f"p/{n}", "pos": obj_pos(n, 955, 1080)} for n in x[1]], amp=0.03))
+                else:
+                    USED[x[0]["key"]] = USED.get(x[0]["key"], 0) + 1; shots.append(make_shot(x[0], f, None))
+            ov("slate", 0.15, D - 0.2, text=s["montage"]["slate"])
         elif "sb" in s:
             sb = s["sb"]
             if sb.get("visual"): shots = allocate(sb["visual"], nf, 3.4)
